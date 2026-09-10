@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-10 13:46 UTC",
+ "as_of": "2026-09-10 19:16 UTC",
  "sources": [
   "CoinGecko /coins/markets",
   "DeFiLlama /overview/fees"
@@ -7,403 +7,403 @@
  "top100": [
   {
    "sym": "BTC",
-   "mcap": 1545331083560
+   "mcap": 1548693252247
   },
   {
    "sym": "ETH",
-   "mcap": 296105611102
+   "mcap": 300519916445
   },
   {
    "sym": "USDT",
-   "mcap": 183405092933
+   "mcap": 183392179691
   },
   {
    "sym": "BNB",
-   "mcap": 94397969280
+   "mcap": 94980374524
   },
   {
    "sym": "XRP",
-   "mcap": 85477662959
+   "mcap": 84856855720
   },
   {
    "sym": "USDC",
-   "mcap": 74294311673
+   "mcap": 74139985483
   },
   {
    "sym": "SOL",
-   "mcap": 58341890570
+   "mcap": 58475438000
   },
   {
    "sym": "TRX",
-   "mcap": 32122845644
+   "mcap": 32241596354
   },
   {
    "sym": "FIGR_HELOC",
-   "mcap": 22976913363
+   "mcap": 23077409619
   },
   {
    "sym": "ZEC",
-   "mcap": 19798595400
+   "mcap": 19156494329
   },
   {
    "sym": "HYPE",
-   "mcap": 18053880112
+   "mcap": 17886746912
   },
   {
    "sym": "DOGE",
-   "mcap": 13062583280
+   "mcap": 13064186761
   },
   {
    "sym": "RAIN",
-   "mcap": 11279986149
+   "mcap": 11295366118
   },
   {
    "sym": "USDS",
-   "mcap": 9838002409
+   "mcap": 9825596961
   },
   {
    "sym": "XMR",
-   "mcap": 9466416009
+   "mcap": 9707254311
   },
   {
    "sym": "WBT",
-   "mcap": 9360344110
+   "mcap": 9413664512
   },
   {
    "sym": "LINK",
-   "mcap": 8755888955
+   "mcap": 8707035198
   },
   {
    "sym": "LEO",
-   "mcap": 8456349030
+   "mcap": 8460016423
   },
   {
    "sym": "ADA",
-   "mcap": 7898894959
+   "mcap": 7858691460
   },
   {
    "sym": "XLM",
-   "mcap": 6184329367
-  },
-  {
-   "sym": "BCH",
-   "mcap": 4592956991
+   "mcap": 6211070861
   },
   {
    "sym": "DAI",
-   "mcap": 4587058014
+   "mcap": 4571961474
+  },
+  {
+   "sym": "BCH",
+   "mcap": 4557104647
   },
   {
    "sym": "USDE",
-   "mcap": 4499321994
+   "mcap": 4515677816
   },
   {
    "sym": "USD1",
-   "mcap": 4277520425
+   "mcap": 4277555032
   },
   {
    "sym": "LTC",
-   "mcap": 4065740242
+   "mcap": 4058814345
   },
   {
    "sym": "CC",
-   "mcap": 4014612606
-  },
-  {
-   "sym": "GRAM",
-   "mcap": 3733552392
+   "mcap": 3934430436
   },
   {
    "sym": "UNI",
-   "mcap": 3683548207
+   "mcap": 3767265160
+  },
+  {
+   "sym": "GRAM",
+   "mcap": 3750492003
   },
   {
    "sym": "USDG",
-   "mcap": 3311894705
+   "mcap": 3312286140
   },
   {
    "sym": "HBAR",
-   "mcap": 3308973103
+   "mcap": 3293697337
   },
   {
    "sym": "AVAX",
-   "mcap": 3287489836
+   "mcap": 3282352101
   },
   {
    "sym": "NEAR",
-   "mcap": 3155812414
+   "mcap": 3259679283
   },
   {
    "sym": "SUI",
-   "mcap": 3071576596
+   "mcap": 3024438201
   },
   {
    "sym": "SHIB",
-   "mcap": 2996863431
-  },
-  {
-   "sym": "BUIDL",
-   "mcap": 2797063204
+   "mcap": 2996052885
   },
   {
    "sym": "PYUSD",
-   "mcap": 2795525919
+   "mcap": 2813059183
+  },
+  {
+   "sym": "BUIDL",
+   "mcap": 2797329621
   },
   {
    "sym": "CRO",
-   "mcap": 2739119942
-  },
-  {
-   "sym": "M",
-   "mcap": 2676129101
+   "mcap": 2739793819
   },
   {
    "sym": "XAUT",
-   "mcap": 2675957641
+   "mcap": 2650289050
+  },
+  {
+   "sym": "M",
+   "mcap": 2619493349
   },
   {
    "sym": "USYC",
-   "mcap": 2625074051
+   "mcap": 2604636314
   },
   {
    "sym": "RLUSD",
-   "mcap": 2421302842
+   "mcap": 2404585453
   },
   {
    "sym": "OKB",
-   "mcap": 2331445911
+   "mcap": 2334565757
   },
   {
    "sym": "TAO",
-   "mcap": 2328243740
+   "mcap": 2300871070
   },
   {
    "sym": "USDY",
-   "mcap": 2217931356
-  },
-  {
-   "sym": "MNT",
-   "mcap": 1909672027
+   "mcap": 2219925856
   },
   {
    "sym": "ASTER",
-   "mcap": 1908055362
+   "mcap": 1903188149
   },
   {
-   "sym": "PAXG",
-   "mcap": 1889602401
+   "sym": "MNT",
+   "mcap": 1900086557
   },
   {
    "sym": "AAVE",
-   "mcap": 1887517788
+   "mcap": 1891075433
   },
   {
    "sym": "DOT",
-   "mcap": 1852075466
+   "mcap": 1875872953
+  },
+  {
+   "sym": "PAXG",
+   "mcap": 1870708204
   },
   {
    "sym": "WLFI",
-   "mcap": 1780672428
+   "mcap": 1779512995
   },
   {
    "sym": "ONDO",
-   "mcap": 1707945131
+   "mcap": 1697283583
   },
   {
    "sym": "PUMP",
-   "mcap": 1619605262
+   "mcap": 1623069906
   },
   {
    "sym": "MORPHO",
-   "mcap": 1553259185
+   "mcap": 1581378784
   },
   {
    "sym": "ICP",
-   "mcap": 1532617586
+   "mcap": 1533343122
   },
   {
    "sym": "HTX",
-   "mcap": 1515724878
-  },
-  {
-   "sym": "ENA",
-   "mcap": 1484213525
+   "mcap": 1513749295
   },
   {
    "sym": "USDD",
-   "mcap": 1483380785
+   "mcap": 1493491037
   },
   {
    "sym": "WLD",
-   "mcap": 1474336062
+   "mcap": 1467916626
   },
   {
-   "sym": "PEPE",
-   "mcap": 1407915018
-  },
-  {
-   "sym": "USDGO",
-   "mcap": 1382940924
+   "sym": "ENA",
+   "mcap": 1466822095
   },
   {
    "sym": "SKY",
-   "mcap": 1381039474
+   "mcap": 1410179629
+  },
+  {
+   "sym": "PEPE",
+   "mcap": 1390171273
+  },
+  {
+   "sym": "USDGO",
+   "mcap": 1383017963
   },
   {
    "sym": "BGB",
-   "mcap": 1357885239
+   "mcap": 1358161122
   },
   {
    "sym": "USDF",
-   "mcap": 1339902465
+   "mcap": 1339691779
   },
   {
    "sym": "BFUSD",
-   "mcap": 1319380145
-  },
-  {
-   "sym": "EURSAFO",
-   "mcap": 1315553267
+   "mcap": 1319407985
   },
   {
    "sym": "BTW",
-   "mcap": 1282533080
+   "mcap": 1318529031
+  },
+  {
+   "sym": "EURSAFO",
+   "mcap": 1315964822
   },
   {
    "sym": "U",
-   "mcap": 1280474430
+   "mcap": 1280627665
   },
   {
    "sym": "ETC",
-   "mcap": 1224431001
-  },
-  {
-   "sym": "LIT",
-   "mcap": 1149188723
+   "mcap": 1220089563
   },
   {
    "sym": "VVV",
-   "mcap": 1132704548
+   "mcap": 1215352254
+  },
+  {
+   "sym": "LIT",
+   "mcap": 1128788780
   },
   {
    "sym": "PI",
-   "mcap": 1070996613
+   "mcap": 1075334685
   },
   {
    "sym": "KAS",
-   "mcap": 1056419804
-  },
-  {
-   "sym": "ARB",
-   "mcap": 995567241
+   "mcap": 1019006926
   },
   {
    "sym": "POL",
-   "mcap": 983143872
+   "mcap": 1002492831
+  },
+  {
+   "sym": "GT",
+   "mcap": 994715452
+  },
+  {
+   "sym": "ARB",
+   "mcap": 988619501
   },
   {
    "sym": "BCAP",
    "mcap": 970348700
   },
   {
-   "sym": "GT",
-   "mcap": 960101053
+   "sym": "QNT",
+   "mcap": 951778869
   },
   {
    "sym": "ATOM",
-   "mcap": 952442114
-  },
-  {
-   "sym": "QNT",
-   "mcap": 950562108
+   "mcap": 951745332
   },
   {
    "sym": "KCS",
-   "mcap": 942888757
-  },
-  {
-   "sym": "ALGO",
-   "mcap": 876580251
+   "mcap": 944749631
   },
   {
    "sym": "EUTBL",
-   "mcap": 865973975
+   "mcap": 866221768
+  },
+  {
+   "sym": "ALGO",
+   "mcap": 854181256
   },
   {
    "sym": "JST",
-   "mcap": 851338352
+   "mcap": 848637148
   },
   {
    "sym": "NEXO",
-   "mcap": 836786381
+   "mcap": 837637921
   },
   {
    "sym": "USTB",
-   "mcap": 813847778
+   "mcap": 816324492
   },
   {
    "sym": "STABLE",
-   "mcap": 788792077
-  },
-  {
-   "sym": "JUP",
-   "mcap": 751739817
+   "mcap": 791325675
   },
   {
    "sym": "JTRSY",
    "mcap": 750052639
   },
   {
+   "sym": "JUP",
+   "mcap": 748381392
+  },
+  {
    "sym": "RENDER",
-   "mcap": 728917316
+   "mcap": 735563976
   },
   {
    "sym": "DASH",
-   "mcap": 727545287
+   "mcap": 718435268
   },
   {
    "sym": "JAAA",
-   "mcap": 713208265
+   "mcap": 713088228
   },
   {
    "sym": "GHO",
-   "mcap": 697944174
+   "mcap": 698021187
   },
   {
    "sym": "VET",
-   "mcap": 680197212
+   "mcap": 681050942
   },
   {
    "sym": "CAKE",
-   "mcap": 674691858
-  },
-  {
-   "sym": "FIL",
-   "mcap": 663949310
+   "mcap": 678079322
   },
   {
    "sym": "ETHFI",
-   "mcap": 612572134
+   "mcap": 674441882
+  },
+  {
+   "sym": "FIL",
+   "mcap": 664068979
   },
   {
    "sym": "BDX",
-   "mcap": 606098822
+   "mcap": 604030450
   },
   {
    "sym": "INJ",
-   "mcap": 593564723
+   "mcap": 598700645
   },
   {
    "sym": "XDC",
-   "mcap": 560865190
+   "mcap": 563539172
   },
   {
-   "sym": "FLR",
-   "mcap": 551556531
+   "sym": "APT",
+   "mcap": 547970443
   },
   {
-   "sym": "USD0",
-   "mcap": 546894170
+   "sym": "AERO",
+   "mcap": 547339592
   }
  ],
  "tokens": {
@@ -411,18 +411,18 @@
    "id": "hedera-hashgraph",
    "name": "Hedera",
    "rank": 30,
-   "price": 0.075435,
-   "mcap": 3308547711,
-   "fdv": 3774161510,
-   "circ": 43831559702.203835,
+   "price": 0.075189,
+   "mcap": 3295046691,
+   "fdv": 3758760483,
+   "circ": 43831559702.48262,
    "total": 50000000000.0,
    "max": 50000000000.0,
    "circ_pct": 87.7,
    "unminted_pct": 0.0,
    "ath": 0.569229,
    "ath_date": "2021-09-15",
-   "ath_change_pct": -86.7,
-   "chg_24h_pct": -3.99677,
+   "ath_change_pct": -86.8,
+   "chg_24h_pct": -3.73654,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Hedera",
@@ -436,19 +436,19 @@
   "STX": {
    "id": "blockstack",
    "name": "Stacks",
-   "rank": 106,
-   "price": 0.265588,
-   "mcap": 494844089,
-   "fdv": 494879058,
-   "circ": 1865286633.763469,
-   "total": 1865422728.323139,
+   "rank": 108,
+   "price": 0.262327,
+   "mcap": 488934953,
+   "fdv": 488935514,
+   "circ": 1865444987.862779,
+   "total": 1865444987.862779,
    "max": null,
    "circ_pct": 100.0,
    "unminted_pct": 0.0,
    "ath": 3.86,
    "ath_date": "2024-04-01",
-   "ath_change_pct": -93.1,
-   "chg_24h_pct": -3.69921,
+   "ath_change_pct": -93.2,
+   "chg_24h_pct": -3.69537,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Stacks",
@@ -463,9 +463,9 @@
    "id": "render-token",
    "name": "Render",
    "rank": 88,
-   "price": 1.4,
-   "mcap": 728919244,
-   "fdv": 749658552,
+   "price": 1.42,
+   "mcap": 736485938,
+   "fdv": 757440534,
    "circ": 518772101.28269154,
    "total": 533532274.5626915,
    "max": 644245094.0,
@@ -473,8 +473,8 @@
    "unminted_pct": 17.2,
    "ath": 13.53,
    "ath_date": "2024-03-17",
-   "ath_change_pct": -89.6,
-   "chg_24h_pct": -7.67972,
+   "ath_change_pct": -89.5,
+   "chg_24h_pct": -9.01348,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Render Network BME",
@@ -488,11 +488,11 @@
   "AAVE": {
    "id": "aave",
    "name": "Aave",
-   "rank": 48,
-   "price": 122.11,
-   "mcap": 1885143966,
-   "fdv": 1955096138,
-   "circ": 15427529.563077515,
+   "rank": 47,
+   "price": 122.68,
+   "mcap": 1892416427,
+   "fdv": 1962637212,
+   "circ": 15427539.355514845,
    "total": 16000000.0,
    "max": 16000000.0,
    "circ_pct": 96.4,
@@ -500,7 +500,7 @@
    "ath": 661.69,
    "ath_date": "2021-05-18",
    "ath_change_pct": -81.5,
-   "chg_24h_pct": -5.9413,
+   "chg_24h_pct": -4.20011,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Aave V2, Aave V3, Aave V4",
@@ -514,10 +514,10 @@
   "QNT": {
    "id": "quant-network",
    "name": "Quant",
-   "rank": 78,
-   "price": 65.32,
-   "mcap": 950504458,
-   "fdv": 954969163,
+   "rank": 77,
+   "price": 65.47,
+   "mcap": 952427550,
+   "fdv": 956901288,
    "circ": 14544176.164081175,
    "total": 14612493.0,
    "max": 14612493.0,
@@ -526,7 +526,7 @@
    "ath": 427.42,
    "ath_date": "2021-09-11",
    "ath_change_pct": -84.7,
-   "chg_24h_pct": -3.13415,
+   "chg_24h_pct": -2.1926,
    "fa2_live": true,
    "fc2_live": true
   },
@@ -534,18 +534,18 @@
    "id": "solana",
    "name": "Solana",
    "rank": 7,
-   "price": 99.5,
-   "mcap": 58374760993,
-   "fdv": 63103330542,
-   "circ": 586335604.8891994,
-   "total": 633830911.2985152,
+   "price": 99.79,
+   "mcap": 58505341231,
+   "fdv": 63244485321,
+   "circ": 586335386.8591279,
+   "total": 633830666.2852653,
    "max": null,
    "circ_pct": 92.5,
    "unminted_pct": 0.0,
    "ath": 293.31,
    "ath_date": "2025-01-19",
-   "ath_change_pct": -66.1,
-   "chg_24h_pct": -4.13813,
+   "ath_change_pct": -66.0,
+   "chg_24h_pct": -3.2834,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "Solana",
@@ -560,9 +560,9 @@
    "id": "bittensor",
    "name": "Bittensor",
    "rank": 43,
-   "price": 242.34,
-   "mcap": 2327557770,
-   "fdv": 5092863663,
+   "price": 240.14,
+   "mcap": 2303234877,
+   "fdv": 5039643426,
    "circ": 9597491.0,
    "total": 21000000.0,
    "max": 21000000.0,
@@ -570,8 +570,8 @@
    "unminted_pct": 0.0,
    "ath": 757.6,
    "ath_date": "2024-03-07",
-   "ath_change_pct": -68.0,
-   "chg_24h_pct": -8.84102,
+   "ath_change_pct": -68.3,
+   "chg_24h_pct": -7.94509,
    "fa2_live": false,
    "fc2_live": false
   },
@@ -579,9 +579,9 @@
    "id": "ethereum",
    "name": "Ethereum",
    "rank": 2,
-   "price": 2425.23,
-   "mcap": 296127095708,
-   "fdv": 296127095708,
+   "price": 2464.01,
+   "mcap": 300679667893,
+   "fdv": 300679667893,
    "circ": 122035556.78650354,
    "total": 122035556.7865035,
    "max": null,
@@ -589,8 +589,8 @@
    "unminted_pct": 0.0,
    "ath": 4946.05,
    "ath_date": "2025-08-24",
-   "ath_change_pct": -51.0,
-   "chg_24h_pct": -3.25571,
+   "ath_change_pct": -50.2,
+   "chg_24h_pct": -0.70658,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "Ethereum",
@@ -604,19 +604,19 @@
   "SKY": {
    "id": "sky",
    "name": "Sky",
-   "rank": 61,
-   "price": 0.058956,
-   "mcap": 1381084330,
-   "fdv": 1383217151,
-   "circ": 23426487411.36321,
+   "rank": 59,
+   "price": 0.060195,
+   "mcap": 1410056091,
+   "fdv": 1412250406,
+   "circ": 23426209525.63242,
    "total": 23462665147.36596,
    "max": 23462665147.3,
    "circ_pct": 99.8,
    "unminted_pct": 0.0,
    "ath": 0.100535,
    "ath_date": "2024-12-04",
-   "ath_change_pct": -41.4,
-   "chg_24h_pct": -8.30877,
+   "ath_change_pct": -40.1,
+   "chg_24h_pct": -5.43311,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "Sky Lending, Sky Money",
@@ -631,18 +631,18 @@
    "id": "monero",
    "name": "Monero",
    "rank": 15,
-   "price": 503.5,
-   "mcap": 9473732556,
-   "fdv": 9473736788,
-   "circ": 18802821.25212499,
-   "total": 18802833.85203534,
+   "price": 516.77,
+   "mcap": 9712347401,
+   "fdv": 9712355459,
+   "circ": 18802925.0482106,
+   "total": 18802944.2479538,
    "max": null,
    "circ_pct": 100.0,
    "unminted_pct": 0.0,
    "ath": 797.73,
    "ath_date": "2026-01-14",
-   "ath_change_pct": -36.9,
-   "chg_24h_pct": 0.72639,
+   "ath_change_pct": -35.2,
+   "chg_24h_pct": 1.55024,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "Monero",
@@ -657,9 +657,9 @@
    "id": "injective-protocol",
    "name": "Injective",
    "rank": 97,
-   "price": 5.93,
-   "mcap": 593413812,
-   "fdv": 593413812,
+   "price": 5.99,
+   "mcap": 599209211,
+   "fdv": 599209211,
    "circ": 100000000.0,
    "total": 100000000.0,
    "max": null,
@@ -667,8 +667,8 @@
    "unminted_pct": 0.0,
    "ath": 52.62,
    "ath_date": "2024-03-14",
-   "ath_change_pct": -88.7,
-   "chg_24h_pct": -4.52815,
+   "ath_change_pct": -88.6,
+   "chg_24h_pct": -3.22703,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Injective",
@@ -683,18 +683,18 @@
    "id": "near",
    "name": "NEAR Protocol",
    "rank": 32,
-   "price": 2.42,
-   "mcap": 3161192741,
-   "fdv": 3161192848,
-   "circ": 1305942343.0,
-   "total": 1305942340.0,
+   "price": 2.5,
+   "mcap": 3261600756,
+   "fdv": 3261600778,
+   "circ": 1305969596.0,
+   "total": 1305969610.0,
    "max": null,
    "circ_pct": 100.0,
    "unminted_pct": 0.0,
    "ath": 20.44,
    "ath_date": "2022-01-16",
-   "ath_change_pct": -88.2,
-   "chg_24h_pct": -6.48449,
+   "ath_change_pct": -87.8,
+   "chg_24h_pct": -2.80489,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Near",
@@ -708,10 +708,10 @@
   "UNI": {
    "id": "uniswap",
    "name": "Uniswap",
-   "rank": 28,
-   "price": 5.91,
-   "mcap": 3684394983,
-   "fdv": 5264349329,
+   "rank": 27,
+   "price": 6.05,
+   "mcap": 3767328697,
+   "fdv": 5382846950,
    "circ": 623212423.7271129,
    "total": 890460420.0329479,
    "max": 1000000000.0,
@@ -719,12 +719,12 @@
    "unminted_pct": 11.0,
    "ath": 44.92,
    "ath_date": "2021-05-02",
-   "ath_change_pct": -86.8,
-   "chg_24h_pct": -11.39572,
+   "ath_change_pct": -86.5,
+   "chg_24h_pct": -8.52519,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Uniswap V1, Uniswap V2, Uniswap V3, Uniswap V4",
-   "fees30d": 160730974.73,
+   "fees30d": 160730974.73000002,
    "fees30d_prev": 98367326.45,
    "fees1y": 899235234.53,
    "rev30d": 12967309,
@@ -735,9 +735,9 @@
    "id": "hyperliquid",
    "name": "Hyperliquid",
    "rank": 11,
-   "price": 81.14,
-   "mcap": 18063637933,
-   "fdv": 77575426748,
+   "price": 80.44,
+   "mcap": 17892104840,
+   "fdv": 76838767115,
    "circ": 222445714.07414138,
    "total": 955307079.4341414,
    "max": 1000000000.0,
@@ -745,8 +745,8 @@
    "unminted_pct": 4.5,
    "ath": 89.6,
    "ath_date": "2026-09-06",
-   "ath_change_pct": -9.4,
-   "chg_24h_pct": -5.89035,
+   "ath_change_pct": -10.2,
+   "chg_24h_pct": -6.44426,
    "fa2_live": false,
    "fc2_live": false,
    "llama_src": "Hyperliquid HLP, Hyperliquid Perps, Hyperliquid Spot Orderbook",
@@ -761,9 +761,9 @@
    "id": "chainlink",
    "name": "Chainlink",
    "rank": 17,
-   "price": 11.7,
-   "mcap": 8756308181,
-   "fdv": 11704730019,
+   "price": 11.64,
+   "mcap": 8707305815,
+   "fdv": 11639227589,
    "circ": 748099970.424884,
    "total": 1000000000.0,
    "max": 1000000000.0,
@@ -771,8 +771,8 @@
    "unminted_pct": 0.0,
    "ath": 52.7,
    "ath_date": "2021-05-09",
-   "ath_change_pct": -77.8,
-   "chg_24h_pct": -3.22196,
+   "ath_change_pct": -77.9,
+   "chg_24h_pct": -2.47999,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Chainlink Requests, Chainlink Staking",
@@ -787,9 +787,9 @@
    "id": "fetch-ai",
    "name": "Artificial Superintelligence Alliance",
    "rank": 119,
-   "price": 0.164162,
-   "mcap": 379753738,
-   "fdv": 445923380,
+   "price": 0.164865,
+   "mcap": 381022940,
+   "fdv": 447413733,
    "circ": 2311602670.7060027,
    "total": 2714384546.672,
    "max": 2714384546.672,
@@ -798,7 +798,7 @@
    "ath": 3.45,
    "ath_date": "2024-03-28",
    "ath_change_pct": -95.2,
-   "chg_24h_pct": -7.60507,
+   "chg_24h_pct": -5.51954,
    "fa2_live": true,
    "fc2_live": true
   },
@@ -806,18 +806,18 @@
    "id": "binancecoin",
    "name": "BNB",
    "rank": 4,
-   "price": 708.62,
-   "mcap": 94407009781,
-   "fdv": 94407012857,
-   "circ": 133161220.23,
-   "total": 133161213.54,
+   "price": 713.21,
+   "mcap": 95017653808,
+   "fdv": 95017648699,
+   "circ": 133161190.29,
+   "total": 133161182.57,
    "max": 200000000.0,
    "circ_pct": 100.0,
    "unminted_pct": 33.4,
    "ath": 1369.99,
    "ath_date": "2025-10-13",
-   "ath_change_pct": -48.3,
-   "chg_24h_pct": -5.21555,
+   "ath_change_pct": -47.9,
+   "chg_24h_pct": -3.68381,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "BSC, opBNB",
@@ -832,18 +832,18 @@
    "id": "canton-network",
    "name": "Canton",
    "rank": 26,
-   "price": 0.101481,
-   "mcap": 4015556505,
-   "fdv": 4015556505,
-   "circ": 39565437161.70294,
-   "total": 39566001895.17695,
+   "price": 0.09944,
+   "mcap": 3934506061,
+   "fdv": 3934564197,
+   "circ": 39566700763.49832,
+   "total": 39567285396.52146,
    "max": null,
    "circ_pct": 100.0,
    "unminted_pct": 0.0,
    "ath": 0.194152,
    "ath_date": "2026-02-03",
-   "ath_change_pct": -47.7,
-   "chg_24h_pct": -3.15136,
+   "ath_change_pct": -48.8,
+   "chg_24h_pct": -4.52096,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "Canton",
@@ -859,8 +859,8 @@
    "name": "Avalanche",
    "rank": 31,
    "price": 7.61,
-   "mcap": 3287785859,
-   "fdv": 3528934494,
+   "mcap": 3284236954,
+   "fdv": 3525125289,
    "circ": 431771961.1772119,
    "total": 463441061.1772119,
    "max": 720000000.0,
@@ -869,7 +869,7 @@
    "ath": 144.96,
    "ath_date": "2021-11-21",
    "ath_change_pct": -94.8,
-   "chg_24h_pct": -4.50732,
+   "chg_24h_pct": -4.11476,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Avalanche",
@@ -884,18 +884,18 @@
    "id": "kaspa",
    "name": "Kaspa",
    "rank": 72,
-   "price": 0.03785811,
-   "mcap": 1052342212,
-   "fdv": 1052364503,
+   "price": 0.03685877,
+   "mcap": 1020095890,
+   "fdv": 1020136330,
    "circ": 27691695062.443264,
-   "total": 27692331519.9827,
+   "total": 27692780629.67173,
    "max": 28704026601.0,
    "circ_pct": 100.0,
    "unminted_pct": 3.5,
    "ath": 0.207411,
    "ath_date": "2024-07-31",
-   "ath_change_pct": -81.7,
-   "chg_24h_pct": 6.36526,
+   "ath_change_pct": -82.2,
+   "chg_24h_pct": 1.80564,
    "fa2_live": true,
    "fc2_live": true
   },
@@ -903,9 +903,9 @@
    "id": "vechain",
    "name": "VeChain",
    "rank": 92,
-   "price": 0.0079258,
-   "mcap": 681290974,
-   "fdv": 681290974,
+   "price": 0.00792298,
+   "mcap": 681395853,
+   "fdv": 681395853,
    "circ": 85985041177.0,
    "total": 85985041177.0,
    "max": 86712634466.0,
@@ -914,7 +914,7 @@
    "ath": 0.280991,
    "ath_date": "2021-04-18",
    "ath_change_pct": -97.2,
-   "chg_24h_pct": 2.6685,
+   "chg_24h_pct": 3.2844,
    "fa2_live": true,
    "fc2_live": true
   },
@@ -922,18 +922,18 @@
    "id": "tron",
    "name": "TRON",
    "rank": 8,
-   "price": 0.338459,
-   "mcap": 32134073904,
-   "fdv": 32134090569,
-   "circ": 94943354080.65208,
-   "total": 94943355217.38239,
+   "price": 0.339605,
+   "mcap": 32240541084,
+   "fdv": 32240574890,
+   "circ": 94943312272.20488,
+   "total": 94943420468.35808,
    "max": null,
    "circ_pct": 100.0,
    "unminted_pct": 0.0,
    "ath": 0.431288,
    "ath_date": "2024-12-03",
-   "ath_change_pct": -21.5,
-   "chg_24h_pct": -0.02961,
+   "ath_change_pct": -21.3,
+   "chg_24h_pct": -0.06855,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "Tron",
@@ -947,19 +947,19 @@
   "CVX": {
    "id": "convex-finance",
    "name": "Convex Finance",
-   "rank": 176,
-   "price": 2.07,
-   "mcap": 192743726,
-   "fdv": 206797422,
+   "rank": 175,
+   "price": 2.09,
+   "mcap": 194396706,
+   "fdv": 208570962,
    "circ": 93194518.49512771,
-   "total": 99989694.27157247,
+   "total": 99989710.68177526,
    "max": 100000000.0,
    "circ_pct": 93.2,
    "unminted_pct": 0.0,
    "ath": 60.09,
    "ath_date": "2022-01-01",
-   "ath_change_pct": -96.6,
-   "chg_24h_pct": -7.79449,
+   "ath_change_pct": -96.5,
+   "chg_24h_pct": -5.54987,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Convex Finance",
@@ -974,18 +974,18 @@
    "id": "litecoin",
    "name": "Litecoin",
    "rank": 25,
-   "price": 52.35,
-   "mcap": 4063699705,
-   "fdv": 4063726546,
-   "circ": 77591379.34298518,
-   "total": 77594766.85285416,
+   "price": 52.32,
+   "mcap": 4059558786,
+   "fdv": 4059560094,
+   "circ": 77592654.3482006,
+   "total": 77595398.105385,
    "max": 84000000.0,
    "circ_pct": 100.0,
    "unminted_pct": 7.6,
    "ath": 410.26,
    "ath_date": "2021-05-09",
    "ath_change_pct": -87.2,
-   "chg_24h_pct": -3.05868,
+   "chg_24h_pct": -3.15669,
    "fa2_live": true,
    "fc2_live": true
   },
@@ -993,9 +993,9 @@
    "id": "sui",
    "name": "Sui",
    "rank": 33,
-   "price": 0.749437,
-   "mcap": 3071621106,
-   "fdv": 7498091672,
+   "price": 0.738579,
+   "mcap": 3025715090,
+   "fdv": 7386031132,
    "circ": 4096537146.5409594,
    "total": 10000000000.0,
    "max": 10000000000.0,
@@ -1003,8 +1003,8 @@
    "unminted_pct": 0.0,
    "ath": 5.35,
    "ath_date": "2025-01-04",
-   "ath_change_pct": -86.0,
-   "chg_24h_pct": -7.44743,
+   "ath_change_pct": -86.2,
+   "chg_24h_pct": -7.45539,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Sui",
@@ -1019,9 +1019,9 @@
    "id": "havven",
    "name": "Synthetix",
    "rank": 236,
-   "price": 0.210052,
-   "mcap": 121998337,
-   "fdv": 122087295,
+   "price": 0.207879,
+   "mcap": 120776321,
+   "fdv": 120864387,
    "circ": 580980590.4572881,
    "total": 581404223.5556631,
    "max": null,
@@ -1030,7 +1030,7 @@
    "ath": 28.53,
    "ath_date": "2021-02-13",
    "ath_change_pct": -99.3,
-   "chg_24h_pct": -3.69725,
+   "chg_24h_pct": -4.58304,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Synthetix v1+v2, Synthetix V3, Synthetix V4",
@@ -1045,9 +1045,9 @@
    "id": "cardano",
    "name": "Cardano",
    "rank": 19,
-   "price": 0.210302,
-   "mcap": 7897860621,
-   "fdv": 9474784241,
+   "price": 0.209671,
+   "mcap": 7863380537,
+   "fdv": 9433419703,
    "circ": 37510482444.2993,
    "total": 45000000000.0,
    "max": 45000000000.0,
@@ -1056,7 +1056,7 @@
    "ath": 3.09,
    "ath_date": "2021-09-01",
    "ath_change_pct": -93.2,
-   "chg_24h_pct": -3.91495,
+   "chg_24h_pct": -3.49159,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Cardano",
@@ -1070,19 +1070,19 @@
   "DOT": {
    "id": "polkadot",
    "name": "Polkadot",
-   "rank": 49,
-   "price": 1.085,
-   "mcap": 1849108785,
-   "fdv": 1849112026,
-   "circ": 1702110570.964497,
-   "total": 1702122571.815911,
+   "rank": 48,
+   "price": 1.1,
+   "mcap": 1877796902,
+   "fdv": 1877801547,
+   "circ": 1702150348.208134,
+   "total": 1702154984.702073,
    "max": 2100000000.0,
    "circ_pct": 100.0,
    "unminted_pct": 18.9,
    "ath": 54.98,
    "ath_date": "2021-11-04",
    "ath_change_pct": -98.0,
-   "chg_24h_pct": -6.55709,
+   "chg_24h_pct": -2.13799,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Polkadot",
@@ -1096,10 +1096,10 @@
   "POL": {
    "id": "polygon-ecosystem-token",
    "name": "POL (ex-MATIC)",
-   "rank": 74,
-   "price": 0.091582,
-   "mcap": 982175174,
-   "fdv": 982175174,
+   "rank": 73,
+   "price": 0.093595,
+   "mcap": 1003053983,
+   "fdv": 1003053983,
    "circ": 10711779103.38826,
    "total": 10711779103.38826,
    "max": null,
@@ -1107,8 +1107,8 @@
    "unminted_pct": 0.0,
    "ath": 1.29,
    "ath_date": "2024-03-13",
-   "ath_change_pct": -92.9,
-   "chg_24h_pct": -5.35684,
+   "ath_change_pct": -92.7,
+   "chg_24h_pct": -2.96281,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Polygon, Polygon zkEVM",
@@ -1123,18 +1123,18 @@
    "id": "curve-dao-token",
    "name": "Curve DAO",
    "rank": 104,
-   "price": 0.341274,
-   "mcap": 530996094,
-   "fdv": 824755945,
-   "circ": 1556102345.0,
-   "total": 2416977196.153223,
+   "price": 0.343331,
+   "mcap": 533971096,
+   "fdv": 829359726,
+   "circ": 1556156702.0,
+   "total": 2417010408.786708,
    "max": 3030303031.0,
    "circ_pct": 64.4,
    "unminted_pct": 20.2,
    "ath": 15.37,
    "ath_date": "2020-08-13",
    "ath_change_pct": -97.8,
-   "chg_24h_pct": -5.94852,
+   "chg_24h_pct": -4.29122,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Curve DEX, crvUSD, Curve LlamaLend, Curve LlamaLend V2",
@@ -1148,10 +1148,10 @@
   "Sonic": {
    "id": "sonic-3",
    "name": "Sonic",
-   "rank": 261,
-   "price": 0.02688986,
-   "mcap": 104499588,
-   "fdv": 104499588,
+   "rank": 264,
+   "price": 0.02679565,
+   "mcap": 104103520,
+   "fdv": 104103520,
    "circ": 3885497663.0,
    "total": 3885497663.0,
    "max": null,
@@ -1160,7 +1160,7 @@
    "ath": 1.029,
    "ath_date": "2025-01-04",
    "ath_change_pct": -97.4,
-   "chg_24h_pct": -10.63185,
+   "chg_24h_pct": -9.22451,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Sonic",
@@ -1175,18 +1175,18 @@
    "id": "internet-computer",
    "name": "Internet Computer",
    "rank": 54,
-   "price": 2.75,
-   "mcap": 1532664124,
-   "fdv": 1532664124,
-   "circ": 556269825.7674338,
-   "total": 556269825.7674338,
+   "price": 2.76,
+   "mcap": 1533417912,
+   "fdv": 1533418100,
+   "circ": 556273345.3396378,
+   "total": 556273413.6090533,
    "max": null,
    "circ_pct": 100.0,
    "unminted_pct": 0.0,
    "ath": 700.65,
    "ath_date": "2021-05-10",
    "ath_change_pct": -99.6,
-   "chg_24h_pct": -3.72528,
+   "chg_24h_pct": -4.04433,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "ICP",
@@ -1201,9 +1201,9 @@
    "id": "yearn-finance",
    "name": "yearn.finance",
    "rank": 325,
-   "price": 2149.37,
-   "mcap": 77538249,
-   "fdv": 78806454,
+   "price": 2150.97,
+   "mcap": 77571116,
+   "fdv": 78839858,
    "circ": 36075.94701468851,
    "total": 36666.0,
    "max": 36666.0,
@@ -1212,7 +1212,7 @@
    "ath": 90787,
    "ath_date": "2021-05-11",
    "ath_change_pct": -97.6,
-   "chg_24h_pct": -5.25708,
+   "chg_24h_pct": -5.17484,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Yearn Finance, Yearn Ether, Yearn Curating",
@@ -1226,10 +1226,10 @@
   "COMP": {
    "id": "compound-governance-token",
    "name": "Compound",
-   "rank": 172,
-   "price": 19.79,
-   "mcap": 197935470,
-   "fdv": 197935470,
+   "rank": 171,
+   "price": 20.35,
+   "mcap": 203507445,
+   "fdv": 203507445,
    "circ": 10000000.0,
    "total": 10000000.0,
    "max": 10000000.0,
@@ -1237,8 +1237,8 @@
    "unminted_pct": 0.0,
    "ath": 854.45,
    "ath_date": "2021-05-11",
-   "ath_change_pct": -97.7,
-   "chg_24h_pct": -2.4717,
+   "ath_change_pct": -97.6,
+   "chg_24h_pct": 1.19153,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Compound V2, Compound V3",
@@ -1253,18 +1253,18 @@
    "id": "dash",
    "name": "Dash",
    "rank": 89,
-   "price": 56.81,
-   "mcap": 727733349,
-   "fdv": 728033121,
-   "circ": 12824721.31332932,
-   "total": 12824688.23224829,
+   "price": 55.95,
+   "mcap": 717653544,
+   "fdv": 717657019,
+   "circ": 12824494.3653346,
+   "total": 12824554.10177232,
    "max": 18920000.0,
    "circ_pct": 100.0,
    "unminted_pct": 32.2,
    "ath": 1493.59,
    "ath_date": "2017-12-19",
-   "ath_change_pct": -96.2,
-   "chg_24h_pct": -11.49391,
+   "ath_change_pct": -96.3,
+   "chg_24h_pct": -12.02566,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Dash",
@@ -1278,19 +1278,19 @@
   "JUP": {
    "id": "jupiter-exchange-solana",
    "name": "Jupiter",
-   "rank": 86,
-   "price": 0.226315,
-   "mcap": 751457836,
-   "fdv": 1552901324,
+   "rank": 87,
+   "price": 0.225359,
+   "mcap": 748218820,
+   "fdv": 1546207834,
    "circ": 3320312968.08,
-   "total": 6861487305.722849,
+   "total": 6861487288.821329,
    "max": 10000000000.0,
    "circ_pct": 48.4,
    "unminted_pct": 31.4,
    "ath": 2.0,
    "ath_date": "2024-01-31",
    "ath_change_pct": -88.7,
-   "chg_24h_pct": -8.76382,
+   "chg_24h_pct": -9.00243,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Jupiter Aggregator, Jupiter Perpetual Exchange, Ape Jupiter, Jupiter Staked SOL, Jupiter DCA, Jupiter Studio, Jupiter Lend, Jupiter Prediction, Jupiter Limit, Jupiter Offerbook, Jupiter Lend DEX",
@@ -1305,9 +1305,9 @@
    "id": "ripple",
    "name": "XRP",
    "rank": 5,
-   "price": 1.36,
-   "mcap": 85485212732,
-   "fdv": 136223764511,
+   "price": 1.35,
+   "mcap": 84904443681,
+   "fdv": 135298288116,
    "circ": 62744504852.0,
    "total": 99985627691.0,
    "max": 100000000000.0,
@@ -1315,8 +1315,8 @@
    "unminted_pct": 0.0,
    "ath": 3.65,
    "ath_date": "2025-07-17",
-   "ath_change_pct": -62.7,
-   "chg_24h_pct": -4.66882,
+   "ath_change_pct": -62.9,
+   "chg_24h_pct": -4.51392,
    "fa2_live": false,
    "fc2_live": false,
    "llama_src": "XRPL",
@@ -1331,18 +1331,18 @@
    "id": "morpho",
    "name": "Morpho",
    "rank": 53,
-   "price": 2.25,
-   "mcap": 1553747894,
-   "fdv": 2255440693,
-   "circ": 688888827.2178218,
+   "price": 2.3,
+   "mcap": 1581808735,
+   "fdv": 2296135293,
+   "circ": 688900492.8339856,
    "total": 1000000000.0,
    "max": 1000000000.0,
    "circ_pct": 68.9,
    "unminted_pct": 0.0,
    "ath": 4.17,
    "ath_date": "2025-01-17",
-   "ath_change_pct": -46.0,
-   "chg_24h_pct": -3.66143,
+   "ath_change_pct": -44.9,
+   "chg_24h_pct": -1.80599,
    "fa2_live": false,
    "fc2_live": false,
    "llama_src": "Morpho Blue, Morpho Midnight",
@@ -1356,10 +1356,10 @@
   "SEI": {
    "id": "sei-network",
    "name": "Sei",
-   "rank": 137,
-   "price": 0.0455051,
-   "mcap": 306653026,
-   "fdv": 455425286,
+   "rank": 139,
+   "price": 0.04469741,
+   "mcap": 300962873,
+   "fdv": 446974564,
    "circ": 6733333333.0,
    "total": 10000000000.0,
    "max": null,
@@ -1367,8 +1367,8 @@
    "unminted_pct": 0.0,
    "ath": 1.14,
    "ath_date": "2024-03-15",
-   "ath_change_pct": -96.0,
-   "chg_24h_pct": -8.87737,
+   "ath_change_pct": -96.1,
+   "chg_24h_pct": -8.64321,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Sei",
@@ -1383,18 +1383,18 @@
    "id": "zcash",
    "name": "Zcash",
    "rank": 10,
-   "price": 1169.19,
-   "mcap": 19782827821,
-   "fdv": 19786236387,
+   "price": 1132.37,
+   "mcap": 19154858812,
+   "fdv": 19158711009,
    "circ": 16921867.3530448,
-   "total": 16924839.2280448,
+   "total": 16925281.4155448,
    "max": 21000000.0,
    "circ_pct": 100.0,
    "unminted_pct": 19.4,
    "ath": 3191.93,
    "ath_date": "2016-10-28",
-   "ath_change_pct": -63.4,
-   "chg_24h_pct": -8.17491,
+   "ath_change_pct": -64.5,
+   "chg_24h_pct": -10.21942,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "Zcash",
@@ -1408,19 +1408,19 @@
   "TON": {
    "id": "the-open-network",
    "name": "Gram (prev. Toncoin)",
-   "rank": 27,
-   "price": 1.34,
-   "mcap": 3733685910,
-   "fdv": 7031836602,
-   "circ": 2785799856.581192,
-   "total": 5246668098.155607,
+   "rank": 28,
+   "price": 1.35,
+   "mcap": 3749844123,
+   "fdv": 7062149050,
+   "circ": 2785929147.064104,
+   "total": 5246792620.406442,
    "max": null,
    "circ_pct": 53.1,
    "unminted_pct": 0.0,
    "ath": 8.25,
    "ath_date": "2024-06-14",
-   "ath_change_pct": -83.8,
-   "chg_24h_pct": -3.7713,
+   "ath_change_pct": -83.7,
+   "chg_24h_pct": -2.34627,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "TON",
@@ -1434,19 +1434,19 @@
   "EGLD": {
    "id": "elrond-erd-2",
    "name": "MultiversX",
-   "rank": 204,
-   "price": 5.13,
-   "mcap": 157874397,
-   "fdv": 157874397,
-   "circ": 30753768.0,
-   "total": 30753768.0,
+   "rank": 205,
+   "price": 4.99,
+   "mcap": 153500738,
+   "fdv": 153500738,
+   "circ": 30760786.0,
+   "total": 30760786.0,
    "max": null,
    "circ_pct": 100.0,
    "unminted_pct": 0.0,
    "ath": 545.64,
    "ath_date": "2021-11-23",
    "ath_change_pct": -99.1,
-   "chg_24h_pct": 5.33814,
+   "chg_24h_pct": -2.39483,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "MultiversX",
@@ -1460,11 +1460,11 @@
   "WLD": {
    "id": "worldcoin-wld",
    "name": "Worldcoin",
-   "rank": 58,
-   "price": 0.404497,
-   "mcap": 1473675936,
-   "fdv": 4047570207,
-   "circ": 3640890364.2642198,
+   "rank": 57,
+   "price": 0.403394,
+   "mcap": 1468889906,
+   "fdv": 4034414260,
+   "circ": 3640900045.530878,
    "total": 10000000000.0,
    "max": 10000000000.0,
    "circ_pct": 36.4,
@@ -1472,17 +1472,17 @@
    "ath": 11.74,
    "ath_date": "2024-03-09",
    "ath_change_pct": -96.6,
-   "chg_24h_pct": -10.05371,
+   "chg_24h_pct": -6.80952,
    "fa2_live": false,
    "fc2_live": true
   },
   "PLUME": {
    "id": "plume",
    "name": "Plume",
-   "rank": 309,
-   "price": 0.01314283,
-   "mcap": 83988403,
-   "fdv": 131354490,
+   "rank": 313,
+   "price": 0.01282459,
+   "mcap": 81971119,
+   "fdv": 128199539,
    "circ": 6394026052.0,
    "total": 10000000000.0,
    "max": 10000000000.0,
@@ -1490,8 +1490,8 @@
    "unminted_pct": 0.0,
    "ath": 0.247537,
    "ath_date": "2025-03-19",
-   "ath_change_pct": -94.7,
-   "chg_24h_pct": -4.40322,
+   "ath_change_pct": -94.8,
+   "chg_24h_pct": -9.90822,
    "fa2_live": false,
    "fc2_live": true
   },
@@ -1499,9 +1499,9 @@
    "id": "kaito",
    "name": "KAITO",
    "rank": 345,
-   "price": 0.298974,
-   "mcap": 72212035,
-   "fdv": 299152273,
+   "price": 0.299823,
+   "mcap": 72389722,
+   "fdv": 299888378,
    "circ": 241388889.0,
    "total": 1000000000.0,
    "max": 1000000000.0,
@@ -1510,7 +1510,7 @@
    "ath": 2.88,
    "ath_date": "2025-02-27",
    "ath_change_pct": -89.6,
-   "chg_24h_pct": -10.04234,
+   "chg_24h_pct": -8.45685,
    "fa2_live": false,
    "fc2_live": true
   },
@@ -1518,9 +1518,9 @@
    "id": "virtual-protocol",
    "name": "Virtuals Protocol",
    "rank": 116,
-   "price": 0.641477,
-   "mcap": 422870392,
-   "fdv": 642283544,
+   "price": 0.637056,
+   "mcap": 419471950,
+   "fdv": 637121766,
    "circ": 658385841.8252224,
    "total": 1000000000.0,
    "max": 1000000000.0,
@@ -1528,8 +1528,8 @@
    "unminted_pct": 0.0,
    "ath": 5.07,
    "ath_date": "2025-01-01",
-   "ath_change_pct": -87.3,
-   "chg_24h_pct": -9.5364,
+   "ath_change_pct": -87.4,
+   "chg_24h_pct": -7.88768,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Virtuals Protocol",
@@ -1544,18 +1544,18 @@
    "id": "bitcoin",
    "name": "Bitcoin",
    "rank": 1,
-   "price": 76940,
-   "mcap": 1545499670602,
-   "fdv": 1545499670602,
-   "circ": 20082346.0,
-   "total": 20082365.0,
+   "price": 77140,
+   "mcap": 1549051357700,
+   "fdv": 1549051357700,
+   "circ": 20082450.0,
+   "total": 20082450.0,
    "max": 21000000.0,
    "circ_pct": 100.0,
    "unminted_pct": 4.4,
    "ath": 126080,
    "ath_date": "2025-10-06",
-   "ath_change_pct": -39.0,
-   "chg_24h_pct": -2.89821,
+   "ath_change_pct": -38.8,
+   "chg_24h_pct": -1.68533,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "Bitcoin",
@@ -1569,19 +1569,19 @@
   "VVV": {
    "id": "venice-token",
    "name": "Venice Token",
-   "rank": 70,
-   "price": 23.6,
-   "mcap": 1131780369,
-   "fdv": 1912118406,
-   "circ": 47914641.27836354,
-   "total": 80979732.14382271,
+   "rank": 68,
+   "price": 25.43,
+   "mcap": 1219692947,
+   "fdv": 2060493597,
+   "circ": 47918947.62958795,
+   "total": 80980880.83103742,
    "max": null,
    "circ_pct": 59.2,
    "unminted_pct": 0.0,
    "ath": 29.19,
    "ath_date": "2026-09-09",
-   "ath_change_pct": -19.1,
-   "chg_24h_pct": -5.97171,
+   "ath_change_pct": -12.9,
+   "chg_24h_pct": 5.93655,
    "fa2_live": false,
    "fc2_live": false,
    "llama_src": "Venice",
@@ -1595,19 +1595,19 @@
   "PENDLE": {
    "id": "pendle",
    "name": "Pendle",
-   "rank": 126,
-   "price": 1.96,
-   "mcap": 339100362,
-   "fdv": 552043164,
-   "circ": 172932237.8026352,
+   "rank": 125,
+   "price": 2.03,
+   "mcap": 350776544,
+   "fdv": 570977479,
+   "circ": 172954677.07771868,
    "total": 281527448.4585314,
    "max": null,
    "circ_pct": 61.4,
    "unminted_pct": 0.0,
    "ath": 7.5,
    "ath_date": "2024-04-11",
-   "ath_change_pct": -73.9,
-   "chg_24h_pct": -6.20035,
+   "ath_change_pct": -73.0,
+   "chg_24h_pct": -1.86945,
    "fa2_live": false,
    "fc2_live": false,
    "llama_src": "Pendle V2, Boros",
@@ -1621,88 +1621,88 @@
   "AERO": {
    "id": "aerodrome-finance",
    "name": "Aerodrome Finance",
-   "rank": 101,
-   "price": 0.546363,
-   "mcap": 540589009,
-   "fdv": 1081412072,
-   "circ": 989011048.7232552,
+   "rank": 100,
+   "price": 0.553188,
+   "mcap": 547110129,
+   "fdv": 1094457043,
+   "circ": 989011132.3016694,
    "total": 1978450301.483024,
    "max": null,
    "circ_pct": 50.0,
    "unminted_pct": 0.0,
    "ath": 2.32,
    "ath_date": "2024-12-07",
-   "ath_change_pct": -76.4,
-   "chg_24h_pct": -5.01521,
+   "ath_change_pct": -76.1,
+   "chg_24h_pct": -1.57202,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Aerodrome V1, Aerodrome Slipstream",
-   "fees30d": 8466818,
+   "fees30d": 15828052,
    "fees30d_prev": 4945483,
-   "fees1y": 145718577,
-   "rev30d": 5708463,
+   "fees1y": 153079811,
+   "rev30d": 13190798,
    "rev30d_prev": 3725973,
-   "rev1y": 107501084
+   "rev1y": 114983419
   },
   "RAY": {
    "id": "raydium",
    "name": "Raydium",
-   "rank": 125,
-   "price": 1.28,
-   "mcap": 346340743,
-   "fdv": 713140843,
-   "circ": 269538779.59716,
+   "rank": 123,
+   "price": 1.35,
+   "mcap": 361469612,
+   "fdv": 743740563,
+   "circ": 269738729.766044,
    "total": 555000000.0,
    "max": 555000000.0,
    "circ_pct": 48.6,
    "unminted_pct": 0.0,
    "ath": 16.83,
    "ath_date": "2021-09-12",
-   "ath_change_pct": -92.4,
-   "chg_24h_pct": -3.26573,
+   "ath_change_pct": -92.0,
+   "chg_24h_pct": -0.33156,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Raydium AMM, LaunchLab",
-   "fees30d": 16097799,
+   "fees30d": 16435803,
    "fees30d_prev": 4833542,
-   "fees1y": 138596994,
-   "rev30d": 2656946,
+   "fees1y": 138934998,
+   "rev30d": 2724179,
    "rev30d_prev": 754248,
-   "rev1y": 21836649
+   "rev1y": 21903882
   },
   "PUMP": {
    "id": "pump-fun",
    "name": "Pump.fun",
    "rank": 52,
-   "price": 0.00389787,
-   "mcap": 1618302494,
-   "fdv": 3258033516,
-   "circ": 414651754057.48834,
-   "total": 834788573196.6761,
+   "price": 0.00391038,
+   "mcap": 1622169484,
+   "fdv": 3265965381,
+   "circ": 414609336827.17096,
+   "total": 834746155966.3588,
    "max": 1000000000000.0,
    "circ_pct": 49.7,
    "unminted_pct": 16.5,
    "ath": 0.00881908,
    "ath_date": "2025-09-14",
-   "ath_change_pct": -55.8,
-   "chg_24h_pct": -15.16578,
+   "ath_change_pct": -55.7,
+   "chg_24h_pct": -15.9284,
    "fa2_live": false,
    "fc2_live": false,
    "llama_src": "pump.fun, PumpSwap, Terminal, pump.fun Mobile App",
-   "fees30d": 151948164,
+   "fees30d": 151943318,
    "fees30d_prev": 91332043,
-   "fees1y": 1118260751,
-   "rev30d": 57126218,
+   "fees1y": 1118255905,
+   "rev30d": 57123115,
    "rev30d_prev": 36819179,
-   "rev1y": 464053264
+   "rev1y": 464050161
   },
   "LDO": {
    "id": "lido-dao",
    "name": "Lido DAO",
-   "rank": 136,
-   "price": 0.369022,
-   "mcap": 308078631,
-   "fdv": 369331826,
+   "rank": 134,
+   "price": 0.373202,
+   "mcap": 311247056,
+   "fdv": 373130208,
    "circ": 834151322.8543006,
    "total": 1000000000.0,
    "max": 1000000000.0,
@@ -1711,7 +1711,7 @@
    "ath": 7.3,
    "ath_date": "2021-08-20",
    "ath_change_pct": -94.9,
-   "chg_24h_pct": -3.21919,
+   "chg_24h_pct": -2.2787,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Lido",
@@ -1725,10 +1725,10 @@
   "ENA": {
    "id": "ethena",
    "name": "Ethena",
-   "rank": 57,
-   "price": 0.146877,
-   "mcap": 1483569441,
-   "fdv": 2204344008,
+   "rank": 58,
+   "price": 0.145119,
+   "mcap": 1465314414,
+   "fdv": 2177219993,
    "circ": 10095312500.0,
    "total": 15000000000.0,
    "max": 15000000000.0,
@@ -1736,8 +1736,8 @@
    "unminted_pct": 0.0,
    "ath": 1.52,
    "ath_date": "2024-04-11",
-   "ath_change_pct": -90.3,
-   "chg_24h_pct": -9.5351,
+   "ath_change_pct": -90.4,
+   "chg_24h_pct": -7.36314,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Ethena USDe",
@@ -1752,9 +1752,9 @@
    "id": "ondo-finance",
    "name": "Ondo",
    "rank": 51,
-   "price": 0.350494,
-   "mcap": 1707581699,
-   "fdv": 3506809915,
+   "price": 0.348724,
+   "mcap": 1697870300,
+   "fdv": 3486865901,
    "circ": 4869330647.0,
    "total": 10000000000.0,
    "max": 10000000000.0,
@@ -1762,8 +1762,8 @@
    "unminted_pct": 0.0,
    "ath": 2.14,
    "ath_date": "2024-12-15",
-   "ath_change_pct": -83.6,
-   "chg_24h_pct": -6.87489,
+   "ath_change_pct": -83.7,
+   "chg_24h_pct": -5.68118,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Ondo Yield Assets",
@@ -1778,9 +1778,9 @@
    "id": "leo-token",
    "name": "LEO Token",
    "rank": 18,
-   "price": 9.19,
-   "mcap": 8456323135,
-   "fdv": 9057381631,
+   "price": 9.2,
+   "mcap": 8459956700,
+   "fdv": 9061273463,
    "circ": 919857851.9,
    "total": 985239504.0,
    "max": null,
@@ -1788,8 +1788,8 @@
    "unminted_pct": 0.0,
    "ath": 10.61,
    "ath_date": "2026-05-04",
-   "ath_change_pct": -13.4,
-   "chg_24h_pct": 0.02216,
+   "ath_change_pct": -13.3,
+   "chg_24h_pct": 0.20641,
    "fa2_live": true,
    "fc2_live": false
   },
@@ -1797,9 +1797,9 @@
    "id": "okb",
    "name": "OKB",
    "rank": 42,
-   "price": 110.85,
-   "mcap": 2330865140,
-   "fdv": 2330865140,
+   "price": 111.23,
+   "mcap": 2335543310,
+   "fdv": 2335543310,
    "circ": 21000000.0,
    "total": 21000000.0,
    "max": 21000000.0,
@@ -1807,8 +1807,8 @@
    "unminted_pct": 0.0,
    "ath": 228.74,
    "ath_date": "2025-10-04",
-   "ath_change_pct": -51.5,
-   "chg_24h_pct": -2.77953,
+   "ath_change_pct": -51.4,
+   "chg_24h_pct": -1.52524,
    "fa2_live": true,
    "fc2_live": false,
    "llama_src": "X Layer",
@@ -1822,10 +1822,10 @@
   "ARB": {
    "id": "arbitrum",
    "name": "Arbitrum",
-   "rank": 73,
-   "price": 0.149136,
-   "mcap": 995185258,
-   "fdv": 1490227527,
+   "rank": 75,
+   "price": 0.148136,
+   "mcap": 989178012,
+   "fdv": 1481232053,
    "circ": 6678075931.0,
    "total": 10000000000.0,
    "max": 10000000000.0,
@@ -1834,7 +1834,7 @@
    "ath": 2.39,
    "ath_date": "2024-01-12",
    "ath_change_pct": -93.8,
-   "chg_24h_pct": -9.61518,
+   "chg_24h_pct": -3.56912,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Arbitrum Timeboost, Arbitrum Nitro",
@@ -1849,18 +1849,18 @@
    "id": "stellar",
    "name": "Stellar",
    "rank": 20,
-   "price": 0.177633,
-   "mcap": 6184518902,
-   "fdv": 8884310798,
-   "circ": 34807088908.31897,
+   "price": 0.178502,
+   "mcap": 6212415514,
+   "fdv": 8923573812,
+   "circ": 34810254591.38936,
    "total": 50001786839.70248,
    "max": null,
    "circ_pct": 69.6,
    "unminted_pct": 0.0,
    "ath": 0.875563,
    "ath_date": "2018-01-02",
-   "ath_change_pct": -79.7,
-   "chg_24h_pct": -5.55576,
+   "ath_change_pct": -79.6,
+   "chg_24h_pct": -3.62295,
    "fa2_live": false,
    "fc2_live": true,
    "llama_src": "Stellar",
@@ -1875,18 +1875,18 @@
    "id": "bitcoin-cash",
    "name": "Bitcoin Cash",
    "rank": 22,
-   "price": 227.75,
-   "mcap": 4582122282,
-   "fdv": 4582176458,
-   "circ": 20087274.89665078,
-   "total": 20087559.27165078,
+   "price": 227.01,
+   "mcap": 4560348543,
+   "fdv": 4560413812,
+   "circ": 20087381.14665078,
+   "total": 20087387.39665078,
    "max": 21000000.0,
    "circ_pct": 100.0,
    "unminted_pct": 4.3,
    "ath": 3785.82,
    "ath_date": "2017-12-19",
    "ath_change_pct": -94.0,
-   "chg_24h_pct": -11.62028,
+   "chg_24h_pct": -11.93144,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Bitcoincash",
@@ -1900,38 +1900,38 @@
   "ETC": {
    "id": "ethereum-classic",
    "name": "Ethereum Classic",
-   "rank": 68,
-   "price": 7.74,
-   "mcap": 1224521167,
-   "fdv": 1224521167,
-   "circ": 158130846.3427831,
-   "total": 158131695.8531831,
+   "rank": 69,
+   "price": 7.72,
+   "mcap": 1220444319,
+   "fdv": 1220447501,
+   "circ": 158133455.6995831,
+   "total": 158133868.0643831,
    "max": 210700000.0,
    "circ_pct": 100.0,
    "unminted_pct": 24.9,
    "ath": 167.09,
    "ath_date": "2021-05-06",
    "ath_change_pct": -95.4,
-   "chg_24h_pct": -6.89808,
+   "chg_24h_pct": -5.20791,
    "fa2_live": true,
    "fc2_live": true
   },
   "XTZ": {
    "id": "tezos",
    "name": "Tezos",
-   "rank": 143,
-   "price": 0.256146,
-   "mcap": 280677753,
-   "fdv": 285795174,
-   "circ": 1095786836.763412,
-   "total": 1115766384.897328,
+   "rank": 142,
+   "price": 0.262349,
+   "mcap": 287377401,
+   "fdv": 292617380,
+   "circ": 1095795699.126632,
+   "total": 1115776368.914902,
    "max": null,
    "circ_pct": 98.2,
    "unminted_pct": 0.0,
    "ath": 9.12,
    "ath_date": "2021-10-03",
-   "ath_change_pct": -97.2,
-   "chg_24h_pct": -3.2431,
+   "ath_change_pct": -97.1,
+   "chg_24h_pct": -1.17262,
    "fa2_live": true,
    "fc2_live": true,
    "llama_src": "Tezos",
