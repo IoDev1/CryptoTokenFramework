@@ -1,0 +1,173 @@
+{
+ "tokens": {
+  "UNI": {
+   "bits": [1,0,1,1,1,1,1,0,1,1,1,1,0],
+   "evidence": {
+    "FA1": "No documented Labs/Foundation dumping; 20M UNI/yr growth budget vests to Labs from Jan 2026 (spend, not dump); Foundation ops sales <1%",
+    "FA2": "Supplied circ 62.3% of capped 1B max (<70%); ~267M UNI treasury still governance-controlled",
+    "FA3": "Largest DEX by cumulative volume ($3.67T) and fees; top-2 DEX for 5+ years; v4 hooks + Unichain extend lead",
+    "FA4": "Hayden Adams/Uniswap Labs active: v4 (2025), Unichain Flashblocks (Jun 2026), Pools.trade launchpad (Aug 2026)",
+    "FB1": "Fee switch live since UNIfication (Feb 2026): v2/v3/v4 protocol fees + Unichain sequencer rev burn UNI today ($250M/yr)",
+    "FB2": "DeFiLlama fees30d $157.4M across v1-v4; rev30d $12.6M burned",
+    "FB3": "Burn ~22M UNI/yr (rev30d/price) >= 20M/yr growth budget -> net ~0%; no cliff >10% next 12m; budget on vesting contract",
+    "FC1": "UNI contract retains governance mint (2%/yr perpetual); Unichain L2 upgradeable by Labs multisig -> mint/upgrade authority",
+    "FC2": "Supplied -84.8% from ATH (2021-05-02) -> >=75% below",
+    "FC3": "rev30d $12.6M vs $5.1M prior; annualized burn $200M->$250M on record volume; Robinhood Chain >$3B/day mostly Uniswap",
+    "FC4": "SEC Wells notice closed Feb 2025; dilution/treasury risks public for years; no lawsuit, cliff, or fork pending",
+    "FC5": "rev30d $12.6M vs prior $5.1M (+148%); rev1y $43.2M with fee switch live only since Feb 2026 -> trend up",
+    "FC6": "Only undated items: fee-switch expansion 'late 2026', hooks '2026-27'; no dated upgrade/vote/listing in next 6 months"
+   },
+   "key_risk": "Burn is volume-dependent; if DEX volume falls, 20M UNI/yr treasury spend plus 2% mint option turn supply net inflationary",
+   "confidence": "M",
+   "sources": [
+    "https://blog.uniswap.org/unification",
+    "https://coinmarketcap.com/academy/article/uniswap-governance-approves-fee-switch-and-100m-token-burn",
+    "https://coinmarketcap.com/cmc-ai/uniswap/latest-updates/",
+    "https://coinlaw.io/uniswap-statistics/",
+    "https://cryptodaily.co.uk/2026/05/uniswap-fee-switch-aftermath-token-burns-volume",
+    "https://defillama.com/protocol/uniswap-v4"
+   ]
+  },
+  "HYPE": {
+   "bits": [1,0,1,1,1,1,0,0,0,1,1,1,0],
+   "evidence": {
+    "FA1": "Contributor tranches barely claimed (Mar 2026: 173k of 9.92M, 1.75%); Assistance Fund buys/burns 97% of fees; no insider dump evidence",
+    "FA2": "Supplied circ 22.2% of capped 1B (<70%); 238M contributor + 6% foundation tokens still locked/vesting",
+    "FA3": "~70% of on-chain perp volume, ~4x next competitor (Aster); #1 perp DEX since 2024; HIP-3 OI >$1B",
+    "FA4": "Jeff Yan / Hyperliquid Labs identifiable, shipping HyperEVM, HIP-3 (Oct 2025), HIP-4; Nasdaq treasury co. (PURR) holds 29M HYPE",
+    "FB1": "HYPE is gas on HyperEVM and staked to secure HyperBFT validators; 97% of fees buy back HYPE via Assistance Fund",
+    "FB2": "DeFiLlama fees30d $74.5M, rev30d $57.8M (HLP + perps + spot)",
+    "FB3": "Core contributor vesting 9.92M HYPE/month (~119M/yr = ~53% of supplied circ) through 2027; far above 3%/yr inflation limit",
+    "FC1": "Small validator set with Hyper Foundation majority stake; closed-source core; JELLY (Mar 2025) force-delist/settlement by validator vote",
+    "FC2": "Supplied -3.6% from ATH (2026-09-06) -> at highs, fails",
+    "FC3": "OI $9.2B (+580% YTD), RWA/HIP-3 >50% of volume by Jul 2026, users 1.4M (4x YoY 2025); rev1y $709M",
+    "FC4": "Monthly unlocks public since Nov 2024 schedule; no lawsuit/fork/delisting; ETF filings pending but not a negative binary",
+    "FC5": "rev30d $57.8M vs prior $32.0M (+81%); rev1y $709M (~$59M/mo avg) -> not down",
+    "FC6": "HIP-4 broader deployment and ETF have no dates; RWA 75%-of-volume target 'by 2027' -> nothing dated in next 6 months"
+   },
+   "key_risk": "Price at ATH with 78% of supply non-circulating and ~10M HYPE/month vesting to insiders; any slowdown in buybacks exposes dilution",
+   "confidence": "M",
+   "sources": [
+    "https://cryptoticker.io/en/hyperliquid-hype-unlock-dilution/",
+    "https://tokenomist.ai/hyperliquid",
+    "https://crypto.news/why-hype-is-different-inside-hyperliquids-buyback/",
+    "https://www.datawallet.com/crypto/hyperliquid-statistics",
+    "https://coinlaw.io/hyperliquid-statistics/",
+    "https://coinmarketcap.com/cmc-ai/hyperliquid/latest-updates/",
+    "https://www.coingecko.com/learn/hyperliquid-hip3-hip4-tokenized-stocks-and-prediction-markets"
+   ]
+  },
+  "LINK": {
+   "bits": [0,1,1,1,1,1,0,1,1,1,1,1,1],
+   "evidence": {
+    "FA1": "Labs non-circulating wallets release ~18-19M LINK/quarter to Binance (~7% of total, ~10% of circ/yr), ongoing pattern since 2021",
+    "FA2": "Supplied circ 74.8% of capped 1B max (>=70%); fully minted, no inflation",
+    "FA3": "Dominant oracle: 99% of oracle MEV recapture, CCIP 60+ chains, $33.6B cross-chain secured; lead held since 2019",
+    "FA4": "Sergey Nazarov / Chainlink Labs active: CCIP, CRE (22 mainnets), SVR, Reserve; Q1 2026 review published",
+    "FB1": "Node operators paid in LINK; staking v0.2 secures feeds; Reserve converts enterprise fees to LINK (5.2M LINK by Aug 2026)",
+    "FB2": "DeFiLlama fees30d $4.76M (requests + staking)",
+    "FB3": "~250M LINK still in Labs/node wallets released at Labs' discretion (~7%/yr of total), no published schedule -> >3% inflation",
+    "FC1": "LINK ERC-677 immutable, no mint/freeze/blacklist; fully minted; feeds are Labs-run but token itself cannot be rugged",
+    "FC2": "Supplied -76.3% from ATH (2021-05-09) -> >=75% below",
+    "FC3": "CCIP transfer volume +319% YoY, CCIP fee revenue +213% QoQ (Q1 2026); Reserve +1.47M LINK in Q1",
+    "FC4": "Labs supply releases public for years; SEC/CFTC classed LINK a commodity Q1 2026; no pending lawsuit/cliff/fork",
+    "FC5": "rev30d $4.47M vs prior $4.61M (-3%, flat); rev1y $58.5M (~$4.9M/mo avg) -> not clearly down",
+    "FC6": "Circle Arc mainnet launches 2026-09-16 with Chainlink as official oracle/connectivity partner (dated integration)"
+   },
+   "key_risk": "Chainlink Labs controls ~25% of supply and drips it onto Binance quarterly with no schedule; Reserve buys (~1.2% of mcap/yr) cannot offset",
+   "confidence": "M",
+   "sources": [
+    "https://chain.link/blog/quarterly-review-q1-2026",
+    "https://coinmarketcap.com/cmc-ai/chainlink/latest-updates/",
+    "https://tokenomist.ai/chainlink",
+    "https://cryptorank.io/news/feed/e2cec-chainlink-price-prediction-link-answered-the-question-we-ask-every-token-and-the-market-shrugged",
+    "https://crypto.news/chainlink-whale-sends-7-6m-in-link-to-coinbase/",
+    "https://blockeden.xyz/blog/2026/01/12/chainlink-ccip-cross-chain-interoperability-tradfi-bridge/"
+   ]
+  },
+  "FET": {
+   "bits": [0,1,0,1,1,0,0,0,1,0,0,0,0],
+   "evidence": {
+    "FA1": "ASI Alliance member Ocean converted 661M OCEAN -> 286M FET (~11% of circ, ~$120M) and sold in Jul 2025; Fetch sued Nov 2025",
+    "FA2": "Supplied circ 85.2% of capped 2.63B (>=70%); remaining locks ran off by Aug 2026",
+    "FA3": "One of many AI-agent tokens; Bittensor/Render/TAO lead by usage and mcap; no verifiable top-2 usage metric",
+    "FA4": "Humayun Sheikh / Fetch.ai still shipping (ASI:Create alpha Feb 2026, ASI:Chain devnet), though alliance fractured (Ocean left Oct 2025)",
+    "FB1": "FET is gas and staking token securing the Fetch.ai Cosmos mainnet",
+    "FB2": "No DeFiLlama fee/revenue data (supplied None); agent usage claims unverifiable",
+    "FB3": "Foundation minted 1.48B FET in 2024 by fiat for the merge; staking issuance undisclosed; schedule changeable by foundation",
+    "FC1": "ERC-20 FET has mint authority (used 2024); foundation-dominated validator set; not permissionless",
+    "FC2": "Supplied -94.8% from ATH (2024-03-28) -> >=75% below",
+    "FC3": "No verifiable 12-month usage trend; only vendor-reported agent counts; price -95% and no fee data",
+    "FC4": "Fetch vs Ocean class action (SDNY, Nov 2025) unresolved; FET->ASI ticker migration still pending",
+    "FC5": "No revenue data supplied or found -> fail",
+    "FC6": "ASI:Chain mainnet 'planned' late 2026/early 2027 with no date; no dated vote, listing, or upgrade"
+   },
+   "key_risk": "No measurable protocol revenue, a fractured alliance with an open lawsuit, and a foundation that has shown it can mint supply at will",
+   "confidence": "M",
+   "sources": [
+    "https://www.bitget.com/news/detail/12560605052994",
+    "https://www.panewslab.com/en/articles/2cac7138-7e40-42ee-bb36-22812b7e25a9",
+    "https://www.fetch.ai/blog/fet-token-supply-increased-to-support-forthcoming-asi-token-merge",
+    "https://coinstats.app/ai/a/fundamental-analysis-fetch-ai",
+    "https://coinlaw.io/fetch-ai-statistics/",
+    "https://superintelligence.io/asi-token-fet/"
+   ]
+  },
+  "BNB": {
+   "bits": [1,0,1,1,1,1,1,0,0,1,1,1,0],
+   "evidence": {
+    "FA1": "No documented Binance/CZ net selling; Binance burns rather than sells (36th quarterly burn Jul 2026, 1.6M BNB)",
+    "FA2": "Supplied circ 66.6% (<70%) vs original 200M cap; note FDV=mcap so burned supply is the gap, but rubric applied literally",
+    "FA3": "BSC top-3 chain by transactions/active addresses/fees for 4+ years; 31M daily tx ATH 2025",
+    "FA4": "Richard Teng (Binance) + BNB Chain core team shipping (450ms blocks, 5.2k TPS H1 2026); CZ pardoned Oct 2025",
+    "FB1": "BNB is gas on BSC/opBNB and staked to validators",
+    "FB2": "DeFiLlama fees30d $20.0M (BSC + opBNB)",
+    "FB3": "Net deflationary: quarterly Auto-Burn by fixed formula toward 100M + real-time gas burn; no unlocks",
+    "FC1": "Hardcoded protocol-level blacklist (used after 2022 bridge hack); 21-of-45 validators, several Binance-affiliated",
+    "FC2": "Supplied -44.9% from ATH (2025-10-13) -> not >=75% below",
+    "FC3": "Transactions +150% YoY (2025), ~2.2M daily active addresses, record activity into Feb 2026",
+    "FC4": "Centralization/freeze risk public for years; DOJ matters settled 2023-25; ETF S-1s pending but no negative binary",
+    "FC5": "rev30d $2.00M vs prior $1.11M (+81%); rev1y $22.5M (~$1.9M/mo avg) -> flat-to-up",
+    "FC6": "Next-gen L1 testnet 'late 2026', BEP-675 undated; BNB ETF S-1 amended May 2026 with no decision deadline"
+   },
+   "key_risk": "Value tied to Binance's regulatory standing; chain can freeze funds and a Binance-linked validator set can be compelled",
+   "confidence": "M",
+   "sources": [
+    "https://cryptoslate.com/press-releases/bnb-chain-completes-36th-quarterly-token-burn-marks-third-burn-of-2026/",
+    "https://ambcrypto.com/16-blockchains-can-freeze-your-funds-bybit-report/",
+    "https://www.bnbchain.org/en/blog/tech-roadmap-2026",
+    "https://coinmarketcap.com/cmc-ai/bnb/latest-updates/",
+    "https://messari.io/report/state-of-bnb-chain-q4-2025",
+    "https://www.bnbburn.info/"
+   ]
+  },
+  "Canton": {
+   "bits": [0,0,1,1,1,1,0,0,0,1,1,0,1],
+   "evidence": {
+    "FA1": "42 super validators (incl. Digital Asset, Cumberland) received ~48% of issuance until Jan 2026 (>10% of circ/yr); sales undisclosed",
+    "FA2": "Uncapped; mint ~10B CC/yr (months 19-60) vs ~39.5B circ (~25% gross); burn/mint ratio 0.72 -> net >5%/yr",
+    "FA3": "Structural lock-in: DTCC, Goldman, HSBC, Euroclear, $4T annual tokenized volume; largest institutional RWA network",
+    "FA4": "Yuval Rooz / Digital Asset; $355M raise Jun 2026 led by a16z with Citadel, CME, HSBC; Canton Foundation governance",
+    "FB1": "Traffic fees must be paid in CC (burned); validators/apps rewarded in CC",
+    "FB2": "DeFiLlama fees30d $49.8M; caveat: much is validator traffic fees recycled as rewards, not end-user demand",
+    "FB3": "Net inflation >3% (mint 10B/yr vs burn ~0.7x); SVs can change mint parameters via CIP vote (e.g. CIP-0096)",
+    "FC1": "Permissioned consortium of super validators runs consensus and can alter tokenomics; not permissionless",
+    "FC2": "Supplied -44.3% from ATH (2026-02-03) -> not >=75% below",
+    "FC3": "Burn/mint 0.16 (Jan) -> 0.72; tokenized Treasuries >$10B; DTCC production trades Jul 2026; ~3M daily ledger events",
+    "FC4": "Inflation and permissioned-set risks public since 2025 listing; no lawsuit, cliff or fork pending",
+    "FC5": "rev30d $49.8M vs prior $53.3M (-6.7%, down); rev1y $586M (~$48.9M/mo avg) flat",
+    "FC6": "DTCC broader tokenized Treasury/equity settlement rollout scheduled October 2026 (dated institutional integration)"
+   },
+   "key_risk": "Insider-heavy uncapped issuance (SVs got ~half of new supply) with opaque selling; reported fees are largely circular validator traffic",
+   "confidence": "L",
+   "sources": [
+    "https://docs.canton.network/overview/reference/canton-coin-tokenomics",
+    "https://canton.wiki/learn/canton-coin-cc-tokenomics",
+    "https://www.canton.network/blog/canton-coin-how-should-we-think-about-fdv",
+    "https://coinmarketcap.com/cmc-ai/canton-network/latest-updates/",
+    "https://cryptorank.io/ico/digital-asset",
+    "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/"
+   ]
+  }
+ }
+}

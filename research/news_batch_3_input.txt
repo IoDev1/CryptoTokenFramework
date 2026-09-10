@@ -1,0 +1,136 @@
+## RENDER  verdict bits 1101100011100  key risk: Burns are a rounding error vs emissions; ~50% of supply is OTOY/partner-controlled and revenue lags rivals by 10-50x.
+  [1] 2026-09-05 TradingView: Render to Power SUBMERGE: Beyond the Render in Washington, D.C. on September 11th
+  [2] 2026-09-01 Business Wire: Render Networks Previews Agentic AI Expansion, Brings Autonomy to Scale Network Delivery
+  [3] 2026-09-01 Binance: Render Price Today in Turkey | RENDER to TRY Live Price & Chart
+  [4] 2026-08-31 CoinMarketCap: Render (RENDER) Volatility: Polygon Incident, Unlock Looms
+  [5] 2026-09-01 NVIDIA: DLSS 5 3D-Guided Neural Rendering Debuts in NBA 2K27
+  [6] 2026-08-31 ABC7 New York: Community Calendar
+## SOL  verdict bits 1111110100111  key risk: Usage and revenue have fallen sharply from the 2025 memecoin peak while inflation still outpaces burns.
+  [1] 2026-08-28 CoinDesk: SOL news: Solana’s faster supply cuts lead vote while $800,000 daily burn plan trails
+  [2] 2026-09-05 The Motley Fool: Where Will Solana Be in 5 Years?
+  [3] 2026-09-08 Yellow.com: Solana Upgrade Draws $9.11M Whale Longs Despite Bearish Futures Market
+  [4] 2026-09-07 Forbes: Kraken Shock Cuts Solana Staking Yields To 2.25% As SOL Holds $102
+  [5] 2026-09-07 Yahoo Finance: Solana Is Up 40% in a Month and XRP 39%. Which Rally Has More Behind It?
+  [6] 2026-09-08 The Block: DeFi Development closes Strategy-style $11 million CHAD offering to grow Solana treasury
+## SKY  verdict bits 1111110001110  key risk: SKY is a governance token whose emission schedule and mint backstop are rewritten by governance semi-annually; buyback pace fell from ~$1M/day (2025) to ~$1M/month (mid-2026).
+  [1] 2026-09-05 CoinMarketCap: Sky (SKY) Surges 3.7% on MakerDAO Transition, DeFi Buzz
+  [2] 2026-09-08 Binance: 0.06084 | SKYUSDT USDⓈ-Margined Perpetual Chart | Binance Futures
+  [3] 2026-09-02 CryptoTicker: Maker Price Prediction September 2026: MKR Sky Scenarios
+  [4] 2026-09-01 CoinMarketCap: Sky (SKY) Price Surges 4.2% on DeFi Integration and Listing Buzz
+  [5] 2026-09-03 Memeburn: Crypto Projects Spent $638M on Token Buybacks in 2026, and It Is Becoming the New Way to Pick Coins
+  [6] 2026-09-02 ZebPay: Top 10 DeFi Tokens to Invest in September 2026
+## NEAR  verdict bits 1001100111100  key risk: ~5% inflation dilutes holders while chain fees are ~$50k/month; Intents growth accrues little value to NEAR the token.
+  [1] 2026-09-04 CoinMarketCap: NEAR Co-Founder Says AI Will Be Blockchain's Main User
+  [2] 2026-09-05 coinpedia.org: Near Protocol (NEAR) Price Prediction 2026, 2027 – 2030: NEAR Price To Record 2X Surge?
+  [3] 2026-09-05 TradingView: NEAR Protocol Price Is Back Above $2: What’s Behind The Rally?
+  [4] 2026-09-05 CryptoRank: NEAR Protocol Price Is Back Above $2: What’s Behind The Rally?
+  [5] 2026-09-10 FXStreet: Zcash, Near Protocol rally at risk as Bitcoin extends mild correction
+  [6] 2026-09-05 Benzinga: Venice Token, Near Protocol, Worldcoin Tokens Jump as AI Tailwinds Rise
+## LINK  verdict bits 0111110111111  key risk: Chainlink Labs controls ~25% of supply and drips it onto Binance quarterly with no schedule; Reserve buys (~1.2% of mcap/yr) cannot offset
+  [1] 2026-09-08 Yahoo Finance: Chainlink Price Forecast: LINK Breakout Targets $18 Rally
+  [2] 2026-09-05 coinpedia.org: Chainlink (LINK) Price Prediction 2026, 2027 – 2030: Will LINK Price Reach $100?
+  [3] 2026-09-07 CryptoRank: Chainlink Price Analysis: Can LINK Hold $12 as Institutional Demand Rises?
+  [4] 2026-08-28 finance.biggo.com: Chainlink Eyes $15 Breakout as Charles Schwab Adds LINK to Crypto Platform
+  [5] 2026-09-09 Altcoin Buzz: Chainlink Price LINK TA LINK Technical Analysis
+  [6] 2026-09-07 tokenpost.com: Chainlink Price Hits $13.64 as LINK Eyes $22
+## Canton  verdict bits 0011110001101  key risk: Insider-heavy uncapped issuance (SVs got ~half of new supply) with opaque selling; reported fees are largely circular validator traffic
+  [1] 2026-09-08 CoinMarketCap: Canton Network ETF Lists on Nasdaq, First of Its Kind in US
+  [2] 2026-09-03 CryptoRank: CC Price Eyes Recovery as Burn Activity Gains Ground
+  [3] 2026-09-10 finance.biggo.com: DSRV Adds Custody Support for Canton, the Institutional Blockchain Network, Expanding On-Chain Financial Infrastructure
+  [4] 2026-09-10 매일경제: Blockchain infrastructure company DSRV has started supporting the Canton Network, which is drawing a..
+  [5] 2026-08-29 CryptoTicker: Is Canton a Good Buy at Current Prices?
+  [6] 2026-09-09 CoinMarketCap: Canton (CC) Rises 3.9% on Multi-Catalyst Continuation
+## VET  verdict bits 1101101010101  key risk: Enterprise narrative has never converted into fee-paying usage; transactions are falling and the Foundation still steers protocol governance
+  [1] 2026-08-30 CoinMarketCap: VeChain (VET) Pullback Explained: No Direct Negative Catalyst
+  [2] 2026-09-09 coinpedia.org: VeChain (VET) Price Prediction 2026, 2027 – 2030: Long-Term Forecast and Market Outlook
+  [3] 2026-09-09 CryptoRank: VeChain Price Prediction September 2026: VET Breaks a Multi-Year Downtrend
+  [4] 2026-09-08 Bitget: VeChain VET price analysis: will the third resistance test finally break?
+  [5] 2026-09-09 Cryptonews.net: VeChain Price Prediction September 2026: VET Breaks a Multi-Year Downtrend
+  [6] 2026-08-30 Pluang: VeChain and Rain lead crypto gains while Stable and Arbitrum face declines amid mixed market moves.
+## LTC  verdict bits 1111101111100  key risk: Trivial fee revenue and a shrinking dev base; ETF drew only ~$5-9M in 10 months, so institutional demand story is unproven
+  [1] 2026-09-07 LiteFinance: Litecoin Price Forecast & Predictions for 2026, 2027, 2028–2030 and Beyond
+  [2] 2026-09-06 Moomoo: Nice trajectory. Current total Litecoin in MWEB addresses at 519k. HIGHER.
+  [3] 2026-09-03 Phemex: Learn All Crypto Topics | Phemex Blog
+  [4] 2026-09-04 CoinMarketCap: SEC Misses Litecoin ETF Deadline Amid Government Shutdown
+  [5] 2026-09-08 Bybit: Convert 1 USD (United States Dollar) to LTC (Litecoin)
+  [6] 2026-09-08 Bitget: Litecoin breaks key resistance, targets $145 as trading volume surges
+## ADA  verdict bits 1101101110101  key risk: Network usage falling ~30% YoY with only ~$40k/month fees against an $8.3B market cap, and the only ETF sponsor withdrew
+  [1] 2026-08-31 Yahoo Finance: Cardano Price Forecast: ADA Risks 30% Drop Toward $0.14
+  [2] 2026-08-28 FXStreet: What lies ahead for Cardano?
+  [3] 2026-09-02 The Motley Fool: Should You Buy Cardano While It's Under $1?
+  [4] 2026-09-07 coinpedia.org: Cardano (ADA) Price Prediction 2026, 2027 – 2030: Will ADA Price Hit $2?
+  [5] 2026-09-03 TradingView: Could ADA rip past $0.21 as Cardano governance turns from risk to catalyst?
+  [6] 2026-09-04 CoinMarketCap: Cardano (ADA) Swings 5% Amid Macro Rally and Project News
+## CRV  verdict bits 0011110110100  key risk: 4-5%/yr CRV emissions to LPs while protocol revenue has roughly halved YoY; founder has a history of leveraging and dumping supply
+  [1] 2026-09-07 coinpedia.org: Curve DAO Token (CRV) Price Prediction 2026, 2027-2030: Can CRV Break Its Long-Term Range?
+  [2] 2026-08-31 CoinMarketCap: Curve DAO Token (CRV) Surges 10% on Technical Breakout
+  [3] 2026-09-02 Cryptonews.net: Curve DAO surges over 16% as DeFi demand returns – Can CRV reach THIS?
+  [4] 2026-09-01 CryptoRank: Bitcoin Holds $78K as Arbitrum and Curve DAO Lead Altcoin Gains
+  [5] 2026-09-04 The Defiant: Curve Hands Its Risk Mandate To Two Resupply Developers
+  [6] 2026-09-07 CoinMarketCap: Curve DAO Token (CRV) Drops 3.6–3.9% Amid Market Pullback
+## YFI  verdict bits 1101101010100  key risk: TVL down ~68% YoY and revenue ~$46k/mo; the 90% revenue share to stakers is real but the pie is shrinking against Morpho-curated vaults
+  [1] 2026-09-03 Binance: Yearn Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast
+  [2] 2026-09-07 Yellow.com: DeFi - Page 3
+  [3] 2026-09-07 Yellow.com: Digital Assets: From Cryptocurrencies to Meme Coins - Page 15
+## JUP  verdict bits 1011110011110  key risk: Only 33% circulating with 3.5B JUP under team/DAO control; $70M+ of buybacks failed to hold price and a co-founder wants them halted
+  [1] 2026-09-04 Yellow.com: Jupiter Rises 14% As Solana Traders Return To DeFi Aggregators
+  [2] 2026-09-07 CoinMarketCap: Jupiter (JUP) Surges 21% on StonkFun Mania and Buybacks
+  [3] 2026-09-06 Pluang: Jupiter (JUP) jumps 12% amid buybacks and Solan...
+  [4] 2026-09-06 AMBCrypto: Jupiter up 12% as monthly buybacks pass 1M tokens – Can JUP break $0.25?
+  [5] 2026-09-06 CryptoTicker: Jupiter ASR: Claim JUP Rewards by October 8
+  [6] 2026-09-09 CoinMarketCap: Jupiter (JUP) Surges 5.6% on Universal Deposit Launch
+## SEI  verdict bits 0001100110100  key risk: Fees ~$700/month on a $340M mcap with ~1%/month of new supply unlocking; usage is farmed, not paid for
+  [1] 2026-08-29 coinpedia.org: Sei (SEI) Price Prediction 2026, 2027-2030: Will the Sei Giga Upgrade Trigger a Bullish Breakout?
+  [2] 2026-08-29 CoinMarketCap: Crypto News: USDY Fund Launches on Sei Network as Ondo Finance Expands Tokenized Treasury Products
+  [3] 2026-09-10 Stockholm Environment Institute: Building a community to shape research, policy and practice in the Mekong Region with SUMERNET
+  [4] 2026-09-08 Yahoo Finance: Why Is SEI Stock Rising Today?
+  [5] 2026-09-10 Stock Titan: 88% of wealthy investors keep some money away from advisors
+  [6] 2026-09-04 Yellow.com: SEI Hovers Near $0.06 As Giga Upgrade Eyes 200,000 TPS Leap | Yellow
+## EGLD  verdict bits 0001100110101  key risk: Hard cap abandoned for ~9.5% perpetual inflation while fees are ~$3k/month and exchanges are delisting pairs; Supernova is a speed fix, not a demand fix
+  [1] 2026-09-03 CryptoRank: MultiversX Price Prediction: EGLD Surges 55% in a Week Ahead of September 10 Supernova Launch
+  [2] 2026-09-04 CoinDCX: MultiversX (EGLD) Price Prediction 2026, 2027 & 2030
+  [3] 2026-09-02 CryptoSlate: Layer-1 chain to pause new transactions for 24 minutes to unlock a 10x speed boost
+  [4] 2026-09-09 TradingView: MultiversX: Supernova Network Release Goes Live on Mainnet - 10 Sep 2026
+  [5] 2026-09-10 Bitget: MultiversX crypto’s EGLD hits overbought RSI of 76 near key $5.77 resistance
+  [6] 2026-09-02 Cryptonews.net: August's Crypto Market Winners Explode as September Danger Looms
+## KAITO  verdict bits 1001000010100  key risk: 76% of supply still to unlock onto a business whose flagship product was shut by a single counterparty (X)
+  [1] 2026-09-08 Yahoo Sports: Marat KO Kaito
+  [2] 2026-08-28 CryptoRank: Kaito Holders And Distribution Chart
+  [3] 2026-09-09 Ocula: Imprint on Contours (Blue), 2024 by Kaito Itsuki
+  [4] 2026-09-04 조선일보: Kaito's DJ Debut on *Idol Radio Hot Chart*
+  [5] 2026-09-03 YouTube: 【KAITO】the sun burns【vocaloid original song】
+  [6] 2026-09-07 Yellow.com: Digital Assets: From Cryptocurrencies to Meme Coins - Page 16
+## VVV  verdict bits 1001100001101  key risk: Token at ATH on a $1.2B mcap while on-chain fees are <$1M/mo; Venice.ai company revenue only reaches VVV via discretionary burns and the company controls emissions
+  [1] 2026-09-09 Decrypt: Morning Minute: Venice’s VVV Token Soars After OpenAI Dispute
+  [2] 2026-09-10 Stock Titan: A token tied to an AI app joins TenX's crypto holdings
+  [3] 2026-08-30 CoinMarketCap: Venice Token (VVV) Swings 4.45% on Record Earnings, Media Focus
+  [4] 2026-09-09 CryptoRank: Venice Token Price Prediction: VVV Surges 50% as Buyers Target $30
+  [5] 2026-09-09 finance.biggo.com: Venice Token Soars Past $1.2 Billion Market Cap After Record Token Burn
+  [6] 2026-09-05 Benzinga: Venice Token, Near Protocol, Worldcoin Tokens Jump as AI Tailwinds Rise
+## RAY  verdict bits 1000111010110  key risk: Raydium has lost most of its Solana DEX share to PumpSwap/Orca/Meteora; buybacks depend on LaunchLab memecoin cycles and the team is anonymous
+  [1] 2026-09-06 Coinbase: Raydium (RAY) Price USD Today, News, Charts, Market Cap
+  [2] 2026-09-09 CoinMarketCap: Raydium (RAY) Surges 75% on Stonkfun Launchpad Boom
+  [3] 2026-09-08 Yellow.com: RAY Token Climbs 24%: What Is Driving Raydium's Renewed Momentum
+  [4] 2026-09-10 FXStreet: Raydium Price Forecast: Rally signals trend reversal amid network growth, buyback
+  [5] 2026-09-07 Pluang: Raydium jumps 33% to $1.09, hitting an 8-month high on strong buybacks and staking support.
+  [6] 2026-09-07 AMBCrypto: Raydium crypto flips $1 – Can $190M in buybacks sustain RAY’s rally?
+## ENA  verdict bits 0001010010000  key risk: USDe supply down 72% with revenue near zero; a 14%-of-float unlock lands Oct 5 while the buyback needs supply to nearly double before it fires
+  [1] 2026-08-28 Yahoo Finance: Ethena Adds Equities to Basis Trade, Shutters HIP-3 Market
+  [2] 2026-08-28 CoinDesk: Ethena looks beyond crypto to squeeze yield from booming equity perpetuals
+  [3] 2026-09-04 etftrends.com: Ethena's Guy Young: Stablecoin Growth Needs Real-World Reach
+  [4] 2026-08-28 TradingView: ENA token rises 10% as Ethena puts revenue-funded token buybacks to vote
+  [5] 2026-08-28 CryptoSlate: Ethena is targeting the $120 trillion Wall Street stock market to hunt yields 5x higher than Bitcoin
+  [6] 2026-09-01 NewsCord: Ethena Launches Ethena Pay Beta On Avalanche With USDe Payments In 48 Countries: how 10 outlets framed it
+## OKB  verdict bits 1111101001100  key risk: Only 50% off ATH with X Layer generating ~$40k/mo in fees; OKB value rests on OKX-controlled exchange perks, not on-chain demand
+  [1] 2026-09-05 CoinMarketCap: OKB Surges 38% as NYSE Owner ICE Backs OKX at $25B Valuation, Fortune Reported
+  [2] 2026-09-02 CoinMarketCap: OKB Drops 3% Amid Broad Crypto Risk-Off, OKX Statement
+  [3] 2026-09-04 Binance: OKB Price Today in India | OKB to INR Live Price & Chart
+  [4] 2026-08-28 CoinMarketCap: OKB Declines 4.6% Amid Broader Market Pullback
+  [5] 2026-09-03 invezz.com: RWAperp launches AI-executed perpetuals venue on OKX’s X Layer
+## BCH  verdict bits 1101101110100  key risk: Usage halved YoY on a chain with no moat; nothing but emission-funded security and a 2027 upgrade ahead
+  [1] 2026-09-01 bitcoinfoundation.org: Bitcoin Cash Price Prediction 2026-2030: Will BCH Skyrocket or Crash?
+  [2] 2026-09-10 coinpedia.org: Bitcoin Cash Price Prediction 2026, 2027 – 2030: Will BCH Hit $1000?
+  [3] 2026-09-07 CryptoSlate: Bitcoin Cash price today, BCH to USD chart, marketcap and volume
+  [4] 2026-09-02 Binance: What Is Bitcoin Cash (BCH)?
+  [5] 2026-09-05 CoinMarketCap: Bitcoin Cash (BCH) Drops 3.1% Amid Market Pullback
+  [6] 2026-09-04 PR Newswire: Hyperscale Data Holds Approximately $53 Million in Cash, Restricted Cash and Bitcoin, Representing Nearly 200% of Recent Market Capitalization

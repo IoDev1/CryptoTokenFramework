@@ -1,0 +1,142 @@
+## HBAR  verdict bits 1111100011100  key risk: Council/Foundation still hold ~12% of supply with a discretionary release schedule; fees are trivial so HBAR value rests on enterprise narrative.
+  [1] 2026-08-29 CryptoRank: Upbit Temporarily Suspends HBAR Deposits and Withdrawals for Hedera Wallet Maintenance
+  [2] 2026-09-09 CoinMarketCap: Hedera (HBAR) Drops 3.8% in Technical Pullback
+  [3] 2026-09-08 coinpedia.org: HBAR Price Eyes $0.12 as Hedera Adds Insurance Partner
+  [4] 2026-08-31 Pluang: Analyst projects HBAR could reach $6.76 by matc...
+  [5] 2026-09-09 YouTube: Hedera's HBAR PRICE IS FALLING… But Look Who’s STILL Buying
+  [6] 2026-09-08 Bitget: DOT patent highlights Hedera in road-charge plans, HBAR price targets emerge
+## AAVE  verdict bits 1111111010100  key risk: Revenue halved from 2025 run-rate as TVL fell 57%; buyback budget already cut from $50M to $30M.
+  [1] 2026-09-09 Yahoo Finance: Aave Nears $1B Milestone for V4 Deposits
+  [2] 2026-09-05 CoinMarketCap: Grayscale Says AAVE Price Could Hit $175 Within a Year
+  [3] 2026-09-03 Moomoo: Aave V4 on @avax nears $20 million deposits, reaching new all-time highs week after week.
+  [4] 2026-09-09 Altcoin Buzz: AAVE Price AAVE TA AAVE Technical Analysis
+  [5] 2026-08-30 TradingView: Aave: LlamaGuard PT starts managing its first production market - By 30 Aug 2026
+  [6] 2026-09-07 CryptoRank: 数据：某巨鲸斥资 450 万美元买入 PONS、CASHCAT、UNI 和 AAVE
+## TAO  verdict bits 1011100001100  key risk: ~14% inflation onto a 46%-circulating supply while OTF still holds sudo/PoA block production; subnet 'revenue' is mostly emissions.
+  [1] 2026-09-06 CoinMarketCap: AI News: Bittensor Leads Booming AI Sector Amid Agentic Finance Hype
+  [2] 2026-09-08 coinpedia.org: Bittensor (TAO) Price Prediction 2026, 2027 - 2030
+  [3] 2026-09-07 TradingView: Why Bittensor (TAO) Price Is Up Today?
+  [4] 2026-09-08 CryptoRank: Why Bittensor (TAO) Price Is Up Today?
+  [5] 2026-09-07 FXStreet: Could Bittensor extend its rally to $300 on parody meme coin launch?
+  [6] 2026-09-07 StreetInsider: Best Crypto To Buy Now as Bittensor (TAO) Upgrades Ignite AI Coin Rally? AlphaPepe Stage 20 Nears Sellout at $0.02902
+## XMR  verdict bits 1111101101100  key risk: Fee demand is trivial ($107k/30d) and the coin faces structural EU/CEX delisting pressure plus demonstrated hashrate concentration (Qubic).
+  [1] 2026-09-08 bitcoinfoundation.org: Privacy Coins Crush Crypto Market With 213% Surge as Zcash and Monero Break Away
+  [2] 2026-08-27 Milk Road: Midnight vs Monero, Zcash, Aleo, and Railgun: Crypto Privacy
+  [3] 2026-09-05 Changelly: Buy Monero in New Zealand | How to Buy XMR with Credit & Debit Card in New Zealand
+  [4] 2026-08-31 CoinMarketCap: Monero Surges 12.6% as THORChain Upgrade Drives XMR Rally
+  [5] 2026-09-01 coinpedia.org: Monero (XMR) Price Prediction 2026, 2027-2030: Will Privacy Coins Lead the Next Bull Run?
+  [6] 2026-09-05 CryptoRank: Monero Price Prediction September 2026: Can XMR Follow Zcash and Dash Past $530?
+## UNI  verdict bits 1011111011110  key risk: Burn is volume-dependent; if DEX volume falls, 20M UNI/yr treasury spend plus 2% mint option turn supply net inflationary
+  [1] 2026-09-03 Yahoo Finance: Uniswap (UNI) Price Surges 100%, and One Chain Playing ‘Robin Hood' Explains Why
+  [2] 2026-09-02 CoinMarketCap: Uniswap (UNI) Surges 10–13% on Robinhood Chain Fees, DeFi Rotation
+  [3] 2026-09-03 Altcoin Buzz: Uniswap (UNI) Price Eyes $10 as Trading Volume Surges 45% in a Week
+  [4] 2026-09-09 coinpedia.org: Uniswap (UNI) Price Prediction 2026, 2027 – 2030: Will Uniswap Reach $50?
+  [5] 2026-09-08 Phemex: Will UNI Burns Fuel an Explosive Rally by 2030?
+  [6] 2026-09-08 CryptoSlate: Uniswap price today, UNI to USD chart, marketcap and volume
+## FET  verdict bits 0101100010000  key risk: No measurable protocol revenue, a fractured alliance with an open lawsuit, and a foundation that has shown it can mint supply at will
+  [1] 2026-09-02 coinpedia.org: Artificial Superintelligence Alliance (FET) Price Prediction 2026, 2027-2030
+  [2] 2026-09-08 Cointribune: TOP AI Crypto 2026: Why Comparing Qubic, TAO, Render, FET and NEAR by Price No Longer Makes Sense
+  [3] 2026-09-05 Pluang: Fetch.ai offers 3 free projects per account to test Athena, its advanced AI execution layer.
+  [4] 2026-08-28 The Block: Ocean Protocol Price: OCEAN Price Index and Live Chart
+  [5] 2026-09-06 Traders Union: Fetch.ai rally gains traction as AI agent deployment tool enhances market confidence
+  [6] 2026-09-10 Crypto Briefing: Fetch.ai builds custom AI agents for US and UK universities to help students navigate campus life
+## AVAX  verdict bits 0001100110100  key risk: Foundation is a structural seller (discounted OTC to levered treasury cos) while chain fees collapsed to ~$118k/mo; ~3.5% issuance unburned
+  [1] 2026-09-07 coinpedia.org: Avalanche (AVAX) Price Prediction 2026, 2027 – 2030: Will AVAX Price Hit $100?
+  [2] 2026-09-03 CoinMarketCap: Avalanche (AVAX) Rises 4.65% Amid Broad Rally and Tokenization News
+  [3] 2026-08-28 Yahoo Finance: Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink
+  [4] 2026-08-29 CryptoRank: Avalanche Price Prediction: Will Charles Schwab’s Listing Send AVAX to $9.80?
+  [5] 2026-09-02 Binance: Avalanche Price Today | Live AVAX Price, Chart & Market Data
+  [6] 2026-09-09 Bybit: Avalanche (AVAX) Price Prediction for 2026 to 2031
+## TRX  verdict bits 1111110001000  key risk: Single-person control (Sun + 27 SRs) with an open SEC case, USDT dependence, and price only 21% off ATH leaves no valuation cushion
+  [1] 2026-09-02 Yahoo Finance: What to Expect From Tron (TRX) in September 2026
+  [2] 2026-09-09 bitcoinfoundation.org: Canary Capital Launches First US Staked TRON ETF as TRX Enters Wall Street
+  [3] 2026-09-07 Stocktwits: XRP Nears Key Rebound Zone Amid TRX Surge
+  [4] 2026-09-02 CoinMarketCap: TRON (TRX) Declines 3% Amid Macro Risk-Off and Altcoin Rotation
+  [5] 2026-09-09 The Block: First staked ETF tied to Tron hits the US markets on Wednesday
+  [6] 2026-09-09 Benzinga: Crypto ETFs Get Smarter With New TRON-Linked Yield Play - Canary Staked TRX ETF (BATS:TRXS)
+## SUI  verdict bits 1001100010100  key risk: ~15-20%/yr of circulating supply unlocking into a network whose TVL fell 82% and whose fees are ~$114k/month; validators have shown they can freeze funds
+  [1] 2026-08-28 Yahoo Finance: Sui Price Risks 12% Drop as Ecosystem Growth Stalls
+  [2] 2026-09-05 CoinMarketCap: SUI ETFs Debut on Nasdaq and NYSE Arca With Staking Rewards
+  [3] 2026-09-01 The Block: Sui Price: SUI Price Index and Live Chart
+  [4] 2026-09-01 coinpedia.org: Sui Crypto (SUI) Price Prediction 2026, 2027-2030: Is This the Best Time to Buy SUI?
+  [5] 2026-09-02 Coinbase: SUI Price, SUI Price, Live Charts, and Marketcap: sui coin, sui price, sui price usd - Coinbase Portugal
+  [6] 2026-08-30 Yellow.com: Sui Holds The Line At $1.07 With Bears Doing Most Of The Talking
+## DOT  verdict bits 1101100110100  key risk: Usage has collapsed to ~3k daily users and ~$300/month fees; JAM is a multi-year rebuild with no launch date
+  [1] 2026-09-01 bitcoinfoundation.org: Polkadot Price Prediction 2026: Will DOT Reach New Highs?
+  [2] 2026-09-09 coinpedia.org: Polkadot (DOT) Price Prediction 2026, 2027 – 2030: Can DOT Price Reach $60?
+  [3] 2026-09-06 CoinMarketCap: Polkadot (DOT) Rises 3% Amid Technical Breakout, Narrative Shift
+  [4] 2026-09-07 CryptoRank: Polkadot Price Prediction September 2026: DOT Extends Gains After a Short Squeeze
+  [5] 2026-09-04 graziamagazine.com: Dua Lipa's Chrome Polka Dot Manicure Is the Most Glamorous Nail Trend You'll Want to Copy This Summer
+  [6] 2026-09-09 AMBCrypto: Polkadot jumps 11.35% as dotUSD proposal advances – But DOT sellers emerge
+## Sonic  verdict bits 1100100010000  key risk: Founders and entire board gone in June 2026 while TVL is down 98% and fees are near zero; a chain with no team continuity and no usage
+  [1] 2026-08-29 CoinMarketCap: Sonic Labs Plans Vertical Integration To Boost Sonic Token
+## COMP  verdict bits 1101011010110  key risk: Governance-only token on a protocol losing share to Aave/Morpho, with a proven governance-capture vector and a brand-new leadership team
+  [1] 2026-09-07 The Defiant: Compound Opens Institutional-Only Lending Market
+  [2] 2026-09-09 crypto.news: Compound opens USDC market with up to 87% LTV
+  [3] 2026-09-05 CryptoSlate: DAOs are forcing crypto protocols to choose between code and emergency brakes
+  [4] 2026-09-06 Yellow.com: DeFi
+  [5] 2026-09-08 Crypto Briefing: Compound Foundation opens institutional-only lending market in biggest DeFi pivot yet
+  [6] 2026-09-08 cryptotimes.io: Compound Launches Institutional Market for DeFi Lending
+## XRP  verdict bits 0011100001100  key risk: Ripple controls ~35B escrowed XRP and sells continuously while on-ledger fees are trivial; token value rests on Ripple's business, not XRPL usage
+  [1] 2026-09-04 floridagators.com: Florida Athletics Debuts XRP cryptocurrency logo at Ben Hill Griffin Stadium
+  [2] 2026-09-07 Yahoo Finance: XRP Ripple Held Firm After its September Escrow Release
+  [3] 2026-08-28 CoinDesk: XRP analysis: Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives
+  [4] 2026-09-04 Orlando Sentinel: UF signs whopping deal, among nation’s highest to feature logos on Florida Field
+  [5] 2026-09-06 24/7 Wall St.: XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16?
+  [6] 2026-09-07 bitcoinfoundation.org: XRP Defies $1.38 Billion Ripple Unlock as Institutional Demand Rewrites the Market
+## ZEC  verdict bits 1111100101000  key risk: ZEC is up ~20x in a year with a freshly patched counterfeit bug in the shielded pool that cannot be fully audited; dev org fractured
+  [1] 2026-09-07 Yahoo Finance: Zcash Price Prediction: ZEC Bull Run May Still Be Early
+  [2] 2026-09-07 CoinDesk: This cat memecoin has paid holders $2.8 million in Zcash as ZEC tops $1,200
+  [3] 2026-09-06 Moomoo: $Zcash (ZEC.CC)$ just hit $1,000.
+  [4] 2026-09-09 Altcoin Buzz: Zcash Shorts Reach 72% as ZEC Holds Above $1,100
+  [5] 2026-09-06 TradingView: Zcash Flips HYPE As $2.4B Open Interest Raises The Stakes For Its Rally
+  [6] 2026-09-04 CoinMarketCap: Zcash (ZEC) Surges 5.02% on Short Squeeze, ETF Interest
+## WLD  verdict bits 0011000011000  key risk: Foundation keeps selling into a 29%/yr emission stream while an internal price-manipulation probe adds SEC tail risk
+  [1] 2026-09-10 coinpedia.org: Worldcoin (WLD) Price Prediction 2026, 2027 – 2030: Will WLD Price Reach $10?
+  [2] 2026-08-29 CoinMarketCap: Worldcoin Hits Record Low After World Foundation's $65M OTC Sale
+  [3] 2026-09-03 PR Newswire: Eightco Holdings (NASDAQ: ORBS) Reports Total Holdings of Approximately $380 Million, Includes OpenAI, Beast Industries, More Than 16,000 ETH and Nearly 302 Million WLD Tokens
+  [4] 2026-09-08 AMBCrypto: Worldcoin up 13% as AI coins awaken – Can WLD stay above $0.45?
+  [5] 2026-09-05 Brave New Coin: Worldcoin (WLD) Price Prediction: WLD’s 15% Bounce Raises Hopes for a Run Toward $4.10
+  [6] 2026-09-04 Binance: Worldcoin Price Today in Turkey | WLD to TRY Live Price & Chart
+## VIRTUAL  verdict bits 0001100010100  key risk: Protocol revenue down ~68% MoM and ~97% from peak with agent creation near zero; token demand is entirely speculative
+  [1] 2026-09-07 CoinMarketCap: Virtuals Protocol (VIRTUAL) Surges 3.75% on Robinhood Listing
+  [2] 2026-09-03 Tiger Research Reports: Virtuals Protocol: Beyond Crypto, Toward Infrastructure for the Agent and Robotics Industry
+  [3] 2026-09-08 Binance: 0.6462 | VIRTUALUSDT USDⓈ-Margined Perpetual Chart | Binance Futures
+  [4] 2026-08-29 The Motley Fool: This New AI Agent Platform Could Send Solana's Price Higher in September and Beyond
+  [5] 2026-09-01 CoinMarketCap: Virtuals Protocol (VIRTUAL) Rises 5.49% Amid Social Trading Surge
+  [6] 2026-09-02 CoinMarketCap: Virtuals Protocol (VIRTUAL) Drops 3.11% Amid Broad Crypto Risk-Off
+## PENDLE  verdict bits 1011101000100  key risk: TVL and fees fell ~90% with the Ethena/points cycle; Pendle revenue is now sub-$1M/mo and dependent on a new yield cycle that has not arrived
+  [1] 2026-09-08 TradingView: Pendle: Permissioned PT/YT Markets Pilot Targets Institutions Within Two Months - By 08 Nov 2026
+  [2] 2026-09-07 Cryptonews.net: Why PENDLE crypto could rally another 12% if THESE signals hold
+  [3] 2026-09-03 CoinMarketCap: Pendle Surges 7.1% on Milestones and Narrative Shifts
+  [4] 2026-09-09 Microsoft: Mystery Case Files: Incident at Pendle Tower Collector's Edition - Descargar y reproducir en Windows
+  [5] 2026-08-30 Sports Illustrated: Pendle Livesey
+  [6] 2026-09-04 Pluang: Pendle launches first yield-trading market on R...
+## PUMP  verdict bits 1011110001010  key risk: ~22% of circulating supply per year unlocks to team/investors for 3 years while a RICO class action against the founders proceeds; buybacks only offset if memecoin revenue holds
+  [1] 2026-09-07 CoinMarketCap: Meme Coin News: Trenches Lag as Market Sputters, Pump.fun Unveils App Expansion, and More
+  [2] 2026-09-09 Yellow.com: PUMP Gains 12% While Protocol Data Warns The Rebound May Be Fragile
+  [3] 2026-09-05 crypto.news: Pons vs Pump.fun: the launchpad war nobody expected
+  [4] 2026-08-31 Medium: Time to $PUMP Up the Future.. By Joseph Razo | by Joseph Razo | Aug, 2026
+  [5] 2026-08-31 TradingView: Hyperliquid, Pump.fun account for nearly 90% of record $638M crypto buybacks: FT
+  [6] 2026-09-10 深潮TechFlow: Coins paired with Nvidia are being launched, and Pump.fun has also turned US stocks into a meme quote board.
+## ONDO  verdict bits 0011010011000  key risk: Token captures none of $7.7M/mo product fees while a 35%-of-float unlock hits Jan 18 2027 and team wallets already route ONDO to Coinbase
+  [1] 2026-08-31 thestreet.com: Ondo Finance brings USDY and tokenized portfolios to LBank
+  [2] 2026-08-28 Eastern Progress: Ondo Finance Hires Allison Parent, Former GFMA Executive Director and Barclays Global Policy Head, as Chief Policy Officer
+  [3] 2026-09-09 CoinMarketCap: Tokenized Stocks Hit $1B With Ondo Holding 58% Share
+  [4] 2026-08-30 Pulse 2.0: Ondo Finance Names Allison Parent Chief Policy Officer As Tokenized Stocks Top $1 Billion TVL In Under 8 Months
+  [5] 2026-09-06 Yellow.com: The Quiet Treasury Boom Turning Ondo Finance Into A DeFi Market Structure Story
+  [6] 2026-09-02 finance.biggo.com: Ondo Finance Urges SEC, CFTC to Bring Stock Perpetual Futures Under US Oversight
+## ARB  verdict bits 1011010011110  key risk: Governance-only token with no fee accrual while ~12% of circulating supply still vests monthly into a -93% chart
+  [1] 2026-09-01 CoinDesk: Arbitrum (ARB) price jumps 30% after revenue surge from its partnership with Robinhood
+  [2] 2026-09-01 bitcoinfoundation.org: Arbitrum (ARB) Jumps 35%: Robinhood’s Billion-Dollar Chain Could Change the Token’s Outlook
+  [3] 2026-09-06 TradingView: Robinhood Chain Now Earns 240x The Fees Of Arbitrum Itself - And ARB Is Up 45% On The Cut It Gets
+  [4] 2026-09-05 Yahoo Finance: Robinhood Chain Brings Arbitrum Token Back from the Dead. ARB is Up 90%
+  [5] 2026-09-09 CoinMarketCap: Arbitrum (ARB) Surges 4.95% on Robinhood Chain Revenues
+  [6] 2026-09-02 coinpedia.org: Arbitrum (ARB) Coin Price Prediction 2026, 2027 – 2030: Will ARB Hit $6 by 2030?
+## ETC  verdict bits 1100101110000  key risk: Activity down two-thirds YoY, a client that went unmaintained for 21 months, and a contested treasury hard fork ahead
+  [1] 2026-09-10 CoinMarketCap: Ethereum Classic Drops 12% Amid Whale Selling, Risk-Off Sentiment
+  [2] 2026-09-08 TradingView: Ethereum Classic to Host Community Call on September 11th
+  [3] 2026-08-27 Stock Titan: Grayscale Ethereum Classic Trust (ETCG) overhauls ETC NAV benchmark
+  [4] 2026-09-10 Pluang: Ethereum Classic plunges 11.77% amid broad altc...
+  [5] 2026-09-09 AMBCrypto: Ethereum Classic rallies as altcoin rotation returns – What’s next for ETC?
+  [6] 2026-09-09 24/7 Wall St.: Crypto.com's Blockchain Rewound Two Hours to Undo a $74 Million Exploit. Could Bitcoin or Ethereum Ever Do the Same?

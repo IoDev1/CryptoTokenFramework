@@ -1,0 +1,6 @@
+HBAR: price $0.079869, mcap 3500927140, FDV 3993614605, circ 87.7% (max supply capped), from ATH -86.0% (ATH 2021-09-15), fees30d 0, rev30d 0, rev prior30d 0, rev1y 0, llama source: Hedera
+STX: price $0.273168, mcap 509460494, FDV 509461078, circ 100.0% (max supply UNCAPPED), from ATH -92.9% (ATH 2024-04-01), fees30d 38957, rev30d 0, rev prior30d 0, rev1y 0, llama source: Stacks
+RENDER: price $1.53, mcap 793195090, FDV 815763183, circ 80.5% (max supply capped), from ATH -88.7% (ATH 2024-03-17), fees30d 168084, rev30d 168084, rev prior30d 156328, rev1y 2052736.82, llama source: Render Network BME
+AAVE: price $130.77, mcap 2017372698, FDV 2092233133, circ 96.4% (max supply capped), from ATH -80.2% (ATH 2021-05-18), fees30d 33438650, rev30d 4645514, rev prior30d 3916313, rev1y 102645760, llama source: Aave V2, Aave V3, Aave V4
+QNT: price $68.93, mcap 1002556454, FDV 1007265658, circ 99.5% (max supply capped), from ATH -83.9% (ATH 2021-09-11), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
+SOL: price $104.77, mcap 61422619613, FDV 66397848928, circ 92.5% (max supply UNCAPPED), from ATH -64.3% (ATH 2025-01-19), fees30d 22419067, rev30d 2290386, rev prior30d 1584839, rev1y 29111270, llama source: Solana

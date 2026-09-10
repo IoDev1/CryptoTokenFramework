@@ -1,0 +1,179 @@
+{
+ "tokens": {
+  "TAO": {
+   "bits": [1,0,1,1,1,0,0,0,0,1,1,0,0],
+   "evidence": {
+    "FA1": "No insider/VC allocation at launch; no documented OTF or founder TAO dumping found in 2025-26 searches (SimplyTao Jan-2026 report).",
+    "FA2": "Supplied circ 45.7% of 21M cap, below the 70% threshold.",
+    "FA3": "Largest decentralized-AI network by subnet count/mcap since 2023; 128 subnets, ~$1.5B subnet mcap; no peer at that scale.",
+    "FA4": "Steeves/Shaabana left exec roles Feb-2026 but remain participants; OTF ~33 staff still shipping (dTAO, halving Dec-2025).",
+    "FB1": "TAO is the sole gas/staking/subnet-registration asset; alpha tokens are minted only by staking TAO.",
+    "FB2": "DeFiLlama fees/revenue None. Claimed $43M Q1 subnet revenue accrues to subnet companies, not verifiable protocol fees.",
+    "FB3": "Post-halving 3,600 TAO/day = ~1.31M/yr on ~9.6M circ = ~13.7% inflation, far above 3%.",
+    "FC1": "Sudo held by 3-person OTF Triumvirate (Senate veto); OTF produces blocks (PoA) and can halt chain; decentralization target Dec-2027.",
+    "FC2": "Supplied: -65.4% from ATH, not <= -75%.",
+    "FC3": "Active subnets ~32 (early 2025) -> 128 (2026); subnet market cap and usage revenue up YoY.",
+    "FC4": "CEO exit (Feb-26) and Covenant AI exit (Apr-26) already public; no cliff unlock; Grayscale S-1 pending is not a negative binary.",
+    "FC5": "No revenue data supplied (None) -> FAIL by rubric.",
+    "FC6": "Grayscale spot TAO ETF S-1 filed 30-Dec-2025 with no decision date; 256-subnet expansion and roadmap undated."
+   },
+   "key_risk": "~14% inflation onto a 46%-circulating supply while OTF still holds sudo/PoA block production; subnet 'revenue' is mostly emissions.",
+   "confidence": "M",
+   "sources": [
+    "https://docs.learnbittensor.org/learn/emissions",
+    "https://crypto.news/bittensor-tao-price-prediction-december-halving-2026/",
+    "https://yellow.com/research/bittensor-decentralized-ai-market-control-2026",
+    "https://cryptobriefing.com/bittensor-decentralization-roadmap-18-months/",
+    "https://simplytao.ai/blog/jacob-steeves-steps-down-as-opentensor-ceo",
+    "https://simplytao.ai/blog/bittensor-january-2026-report-tao-subnets-market-analysis",
+    "https://docs.learnbittensor.org/governance",
+    "https://coinpaper.com/16150/bittensor-tao-slumps-18-after-covenant-ai-exit-news"
+   ]
+  },
+  "ETH": {
+   "bits": [1,1,1,1,1,1,1,1,0,1,1,0,0],
+   "evidence": {
+    "FA1": "EF sold ~20k ETH (~$45M) in 2026 under published treasury policy; <0.02% of supply; EF also staked 70k ETH.",
+    "FA2": "Uncapped but net issuance ~0.23%/yr after EIP-1559 burn (2026), well under 3%.",
+    "FA3": "#1 smart-contract L1 by TVL, fees and developers for >5 years; supplied 30d fees $11.2M.",
+    "FA4": "EF plus >=5 independent execution/consensus client teams; continuous multi-year shipping (Dencun, Pectra, Fusaka, Glamsterdam).",
+    "FB1": "ETH is mandatory gas and the staking asset securing consensus.",
+    "FB2": "Supplied fees30d $11,193,795, above the $1M bar.",
+    "FB3": "Net inflation ~0.23%; no unlocks; issuance formula fixed in protocol, changeable only by hard fork.",
+    "FC1": "Permissionless PoS L1; no admin, freeze or mint authority; no foundation validator control.",
+    "FC2": "Supplied: -49.1% from ATH, not <= -75%.",
+    "FC3": "Q1-2026 record 200.4M L1 txs (+43% QoQ); active addresses at all-time highs (~2M daily).",
+    "FC4": "No pending lawsuit/cliff/delisting; Glamsterdam is a coordinated upgrade, not a contentious fork.",
+    "FC5": "rev30d $2.60M vs prior $1.85M (+41%) but 1y $68.5M = $5.7M/mo avg; current is ~46% of avg -> 1-yr clearly down.",
+    "FC6": "Glamsterdam has only a Sepolia testnet date (28-Sep-2026); mainnet undated (Sep-Dec window) -> no dated catalyst."
+   },
+   "key_risk": "L1 fee revenue has collapsed ~55% vs its 1-yr average as activity migrates to L2s, and Glamsterdam is designed to cut L1 fees a further ~79%.",
+   "confidence": "H",
+   "sources": [
+    "https://www.coindesk.com/business/2026/05/01/ethereum-foundation-finalizes-sale-of-10-000-ether-to-bitmine-as-part-of-its-treasury-strategy",
+    "https://blog.ethereum.org/2025/06/04/ef-treasury-policy",
+    "https://coinledger.io/learn/ultrasound-money",
+    "https://cryptoticker.io/en/ethereum-glamsterdam-date-sepolia-fork/",
+    "https://coinmarketcap.com/academy/article/ethereum-glamsterdam-upgrade-pushed-q3",
+    "https://www.figment.io/insights/ethereums-most-active-quarter-ever-what-it-means-for-institutional-stakers/",
+    "https://www.cryptopolitan.com/ethereum-l1-transactions-and-addresses/"
+   ]
+  },
+  "SKY": {
+   "bits": [1,1,1,1,1,1,0,0,0,1,1,1,0],
+   "evidence": {
+    "FA1": "Founder Rune Christensen used ~$1.3M staking rewards to buy SKY; no insider selling reports found; protocol buybacks $120M cumulative.",
+    "FA2": "Supplied circ 99.9% of capped supply (mcap ~= FDV).",
+    "FA3": "Maker/Sky is #1 decentralized stablecoin issuer since 2019; USDS supply $10.0B (Jun-26), +97% YoY.",
+    "FA4": "Rune Christensen and Sky core units actively shipping (Sky Agents, Aug-2026 buyback proposal, monthly settlement cycles).",
+    "FB1": "Governance token, but Smart Burn Engine buybacks flow today (18.6M SKY bought in 30d, Jun-26; 55% of SBE to buybacks since 13-Aug-26).",
+    "FB2": "Supplied fees30d $27,245,439; Q2-2026 gross protocol revenue $107M.",
+    "FB3": "Emissions reset by governance every 180 days (838M SKY staking emissions Mar-26; 600M/yr STR); net inflation unverifiable -> FAIL.",
+    "FC1": "Governance can mint SKY as backstop and trigger Emergency Shutdown; USDS carries a freeze function absent in DAI.",
+    "FC2": "Supplied: -34.5% from ATH, not <= -75%.",
+    "FC3": "USDS supply +96.9% YoY, sUSDS deposits +85% YoY, two straight >$100M revenue quarters in 2026.",
+    "FC4": "RWA/USDC-PSM exposure and governance risk public for years; no unlock, lawsuit or delisting pending.",
+    "FC5": "rev30d $13.48M vs prior $13.94M (-3.3%, flat); 1y $215M = $17.9M/mo avg, current ~75% -> not clearly down.",
+    "FC6": "Aug-13-2026 buyback vote already executed; SkyLink/srUSDS/Generator dated only 'over 2026 and beyond'."
+   },
+   "key_risk": "SKY is a governance token whose emission schedule and mint backstop are rewritten by governance semi-annually; buyback pace fell from ~$1M/day (2025) to ~$1M/month (mid-2026).",
+   "confidence": "M",
+   "sources": [
+    "https://www.coindesk.com/markets/2026/03/05/sky-jumps-nearly-10-after-governance-vote-cuts-emissions-while-buybacks-tighten-supply",
+    "https://crypto.news/sky-surges-amid-aggressive-buybacks-governance-changes/",
+    "https://tokenomics.com/articles/sky-tokenomics-how-the-smart-burn-engine-destroys-102m-in-sky-per-year",
+    "https://insights.skyeco.com/insights/sky-ecosystem-june-financial-operational-update",
+    "https://insights.skyeco.com/insights/sky-ecosystem-july-financial-operational-update",
+    "https://chainwire.org/2026/01/29/sky-frontier-foundation-estimates-611m-in-sky-ecosystem-gross-revenue-for-2026-with-21-billion-usds-supply/",
+    "https://blocksec.com/blog/stablecoins-that-cannot-be-frozen",
+    "https://cryptoadventure.com/sky-protocol-review-2026-usds-sky-savings-rate-and-stusds-risks/"
+   ]
+  },
+  "XMR": {
+   "bits": [1,1,1,1,1,1,1,1,0,1,1,0,0],
+   "evidence": {
+    "FA1": "No premine, foundation or team allocation; development funded by CCS community donations (e.g. 37 XMR/month proposals).",
+    "FA2": "Uncapped tail emission 0.6 XMR/block = ~158k XMR/yr, ~0.87% inflation in 2026.",
+    "FA3": "Dominant privacy coin by mcap ($9.4B), hashrate and transactions for >5 years; peers (Zcash, Dash) far smaller and more volatile.",
+    "FA4": "Leaderless: monerod reference plus independent Cuprate Rust node, MRL, Cake/Feather wallet teams; releases through Jul-2026.",
+    "FB1": "XMR is the only fee asset and the mining reward; unusable without it.",
+    "FB2": "Supplied fees30d $107k are trivial, but rubric-listed hashrate demand: ~13k XMR/month (~$6.6M) of PoW security spend.",
+    "FB3": "Fixed tail emission ~0.87%/yr, no unlocks, schedule hard-coded in consensus.",
+    "FC1": "Permissionless PoW; no admin, freeze or mint keys; Qubic 51% episode (Aug-2025) was hashrate, not an admin authority.",
+    "FC2": "Supplied: -37.0% from ATH (ATH Jan-2026), not <= -75%.",
+    "FC3": "Daily txs +15% YoY through 2025 (~26k avg), 25-40k/day in 2026; new ATH Jan-2026.",
+    "FC4": "Delistings (Binance 2024, Kraken EEA 2024) and Qubic attack public >6 months; EU AMLR Art.79 applies Jul-2027 (>6 months).",
+    "FC5": "Supplied rev30d 0 / rev1y 0 -> no revenue data -> FAIL.",
+    "FC6": "FCMP++ has no mainnet fork date; latest releases (v0.18.5.x, Jul-2026) contain no hard-fork activation."
+   },
+   "key_risk": "Fee demand is trivial ($107k/30d) and the coin faces structural EU/CEX delisting pressure plus demonstrated hashrate concentration (Qubic).",
+   "confidence": "M",
+   "sources": [
+    "https://ccs.getmonero.org/proposals/jeffro256-full-time-2026Q1.html",
+    "https://medium.com/@alestre/four-years-of-tail-emission-038a219f0264",
+    "https://www.coindesk.com/business/2025/08/12/qubic-claims-majority-control-of-monero-hashrate-raising-51-attack-fears",
+    "https://coinlaw.io/monero-statistics/",
+    "https://sqmagazine.co.uk/monero-statistics/",
+    "https://www.getmonero.org/blog/",
+    "https://github.com/monero-project/monero/releases",
+    "https://xgram.io/blog/monero-fcmp"
+   ]
+  },
+  "INJ": {
+   "bits": [1,0,0,1,1,0,0,1,1,0,1,0,0],
+   "evidence": {
+    "FA1": "Team/investor unlocks completed 2023; no documented insider dumping or exchange transfers found in 2025-26 coverage.",
+    "FA2": "Uncapped; INJ 3.0 mint bounds 4-7%/yr while burns are now ~$170-215k/month; net ~4-5% > 3% inflation leg.",
+    "FA3": "Not top-2 in any category: chain TVL $11.6M (Aug-26); one of many finance-focused L1s.",
+    "FA4": "Eric Chen / Albert Chon still lead Injective Labs; EVM mainnet, IIP-619 (Feb-26), record commits Aug-26.",
+    "FB1": "INJ is gas and the staking asset securing the chain.",
+    "FB2": "Supplied fees30d $203,704, below $1M.",
+    "FB3": "Gross inflation 4-7% with dynamic (staking-ratio-driven) rate; burns tiny; net well above 3%.",
+    "FC1": "Permissionless Cosmos-SDK PoS with on-chain governance; no freeze/blacklist authority; no frozen balances on record.",
+    "FC2": "Supplied: -88.0% from ATH -> PASS.",
+    "FC3": "DeFiLlama chain TVL $40.6M (Sep-25) -> $11.6M (Aug-26), -72% YoY; fees down.",
+    "FC4": "No unlocks (fully vested 2023), no lawsuit or delisting pending; usage decline is public.",
+    "FC5": "rev30d $203,704 vs prior $258,571 (-21%); 1y $4.19M = $349k/mo avg, current ~58% -> down.",
+    "FC6": "Only a Sept-2026 USDC standard migration and routine monthly buybacks; no dated major upgrade/listing."
+   },
+   "key_risk": "Usage is collapsing (TVL -72% YoY, fees ~$200k/month) while ~4-5% net inflation continues; 'record dev commits' are not users.",
+   "confidence": "M",
+   "sources": [
+    "https://tokenomist.ai/injective-protocol",
+    "https://injective.com/blog/the-block-injective-community-increases-injs-deflation-by-400/",
+    "https://injective.com/blog/2026-injective-community-buy-back-guide",
+    "https://api.llama.fi/v2/historicalChainTvl/Injective",
+    "https://coinmarketcap.com/cmc-ai/injective/latest-updates/",
+    "https://injective.com/blog/welcome-to-the-injective-era-native-evm-mainnet-launch-opens-new-frontiers-for-finance"
+   ]
+  },
+  "NEAR": {
+   "bits": [1,0,0,1,1,0,0,1,1,1,1,0,0],
+   "evidence": {
+    "FA1": "No documented NEAR Foundation dumps or large undisclosed exchange transfers found in 2025-26; treasury value undisclosed.",
+    "FA2": "Uncapped; max inflation 5%/yr with ~0.1% fee burn -> ~4.9% net; 2.5% cut proposal (Jun-2025) never confirmed passed.",
+    "FA3": "Not top-2 L1 by TVL/fees; Intents cross-chain swap volume growing but lead is <2 years old.",
+    "FA4": "Illia Polosukhin leads as CEO since 2024; shipped stateless validation, 9 shards, 1M TPS benchmark, Intents.",
+    "FB1": "NEAR is gas and the staking asset securing the chain.",
+    "FB2": "Supplied fees30d $49,539, far below $1M.",
+    "FB3": "~4.9% net inflation (>60M NEAR/yr minted); no cut ratified; emissions rate changeable by validator vote.",
+    "FC1": "Permissionless PoS with open validator set; no freeze/mint admin key; no frozen balances on record.",
+    "FC2": "Supplied: -88.0% from ATH -> PASS.",
+    "FC3": "NEAR Intents volume $10B (Jan-26) -> $22B cumulative; fee capture 11.5% -> 30.5%; Brave Wallet integration Mar-26.",
+    "FC4": "No unlock cliff, lawsuit or delisting pending; inflation debate and low fee burn public since mid-2025.",
+    "FC5": "rev30d $34,679 vs prior $30,063 (+15%) but 1y $1.33M = $111k/mo avg, current ~31% -> clearly down.",
+    "FC6": "SPICE/Nightshade 3.0 undated; post-quantum rollout undated; inflation-cut vote unresolved -> no dated catalyst."
+   },
+   "key_risk": "~5% inflation dilutes holders while chain fees are ~$50k/month; Intents growth accrues little value to NEAR the token.",
+   "confidence": "L",
+   "sources": [
+    "https://gov.near.org/t/reduce-inflation-for-near-protocol/41140",
+    "https://www.dlnews.com/articles/defi/near-blockchain-stakeholders-split-on-reducing-staking-rewards/",
+    "https://nansen.ai/post/nansen-near-quarterly-report-q2-2026",
+    "https://finance.yahoo.com/news/near-intents-achieves-10b-swap-183636390.html",
+    "https://altss.com/profile/near-foundation",
+    "https://near.foundation/"
+   ]
+  }
+ }
+}

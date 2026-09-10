@@ -1,0 +1,130 @@
+{
+ "tokens": {
+  "STX": {
+   "stance": "bullish",
+   "opinion": "Genesis Bond BTC-staking went live self-custodially with institutional backing from HashKey Cloud [1][5][6] — exactly the FC6 catalyst previously flagged as pending. Strengthens the institutional-adoption and usage case; watch whether staking demand ever shows up in fee revenue.",
+   "cited": [1, 5, 6],
+   "filters": ["FC6", "FC3"]
+  },
+  "QNT": {
+   "stance": "noise",
+   "opinion": "Both items are routine price-page filler [1][2] with no new information on licence-locking demand or Fusion staking. Verdict unchanged.",
+   "cited": [1, 2],
+   "filters": []
+  },
+  "ETH": {
+   "stance": "bearish",
+   "opinion": "CoinDesk reports Ethereum is enabling gas payment without holding ETH [2], which directly cuts against the mandatory-gas value-accrual thesis (FB1). Rest of the batch [1][3][5][6] is routine price/ETF filler.",
+   "cited": [2],
+   "filters": ["FB1"]
+  },
+  "INJ": {
+   "stance": "bearish",
+   "opinion": "Upbit placed INJ on a delisting watchlist after a security incident and Kraken flagged a funding-gateway issue [3][5]; Injective's damage-control statement [6] confirms funds are safe but not that the review is resolved. Record staking [4] is not the same as usage recovering.",
+   "cited": [3, 4, 5, 6],
+   "filters": ["FC4"]
+  },
+  "HYPE": {
+   "stance": "neutral",
+   "opinion": "Conflicting flow signals: ~261k HYPE moved to Coinbase Prime, read as possible insider/institutional selling [4], against claims of whale accumulation [5]. Both are speculative reads of the same on-chain data, not confirmed net selling; doesn't move the dilution-at-ATH risk either way.",
+   "cited": [4, 5],
+   "filters": ["FA1"]
+  },
+  "BNB": {
+   "stance": "noise",
+   "opinion": "Mostly price-page and promotional filler (buy-with-card ad [3], meme-coin-war speculation [4], market-cap milestone [6]); AI Beta registration [5] is a minor product note with no fundamental read-through. Verdict unchanged.",
+   "cited": [3, 4, 5, 6],
+   "filters": []
+  },
+  "KAS": {
+   "stance": "noise",
+   "opinion": "Entire batch is price-prediction spam and convert-widget pages [1][3][4][5][6] plus a routine pullback note [2] — none address hashrate, DAGKnight timing, or fee revenue. Verdict unchanged.",
+   "cited": [1, 2, 4, 5],
+   "filters": []
+  },
+  "CVX": {
+   "stance": "noise",
+   "opinion": "All four items are price-prediction spam [1][2] or mislabeled aggregator pages [3][4] unrelated to Convex fundamentals or Curve volume. Verdict unchanged.",
+   "cited": [1, 2, 3, 4],
+   "filters": []
+  },
+  "SNX": {
+   "stance": "bearish",
+   "opinion": "Upbit is terminating SNX trading support on Sept 28 [1][2][3], a real dated negative that adds delisting/liquidity risk on top of the existing sUSD-mint overhang. Rest of batch [4][5][6] is noise.",
+   "cited": [1, 2, 3],
+   "filters": ["FC4"]
+  },
+  "POL": {
+   "stance": "bearish",
+   "opinion": "Decrypt reports Polygon patched security flaws in two hard forks before disclosing them [3], with POL dropping 4-12% on the disclosure [2][4][6] — a real transparency/governance hit on top of the council-controlled-upgrade risk. [1][5] are noise.",
+   "cited": [2, 3, 4, 6],
+   "filters": ["FC1", "FC4"]
+  },
+  "ICP": {
+   "stance": "noise",
+   "opinion": "Mostly price-prediction spam and an unrelated promo plug [2][3][4]; the 'weakest among 60 cryptos' sentiment piece [6] echoes the known weak-fundamentals case but adds no new evidence. Verdict unchanged.",
+   "cited": [4, 6],
+   "filters": []
+  },
+  "DASH": {
+   "stance": "neutral",
+   "opinion": "Price outperformance [1][5] rides the broader privacy-coin rally alongside Zcash [4][6], which is exactly the narrative-not-fundamentals move already flagged as the key risk; [5]'s 'Shielded Upgrade' mention is too vague to verify. [2][3] are prediction spam.",
+   "cited": [1, 4, 5],
+   "filters": []
+  },
+  "MORPHO": {
+   "stance": "bullish",
+   "opinion": "Coinbase expanded its Morpho-powered USDC lending distribution to Brazil [2][4] and Midnight fixed-rate markets extended to Ethereum [3], with deposits cited near $14B [5] — reinforces the distribution moat and usage growth, though the fee switch (FB1) is still off.",
+   "cited": [2, 3, 4, 5],
+   "filters": ["FA3", "FC3"]
+  },
+  "TON": {
+   "stance": "neutral",
+   "opinion": "The 36% jump [1] tracks Telegram formally taking over and the TON->Gram rebrand [4], narrative/structural rather than new fundamentals. Gram Wallet's rollout to select users [6] is incremental progress on an already-known usage catalyst (FC3). [2][5] are noise.",
+   "cited": [1, 4, 6],
+   "filters": ["FC3"]
+  },
+  "PLUME": {
+   "stance": "noise",
+   "opinion": "Near-entirely keyword collisions with unrelated 'plume' stories — a WiFi vendor [1], methane research [3], a device warning [4], and literal smoke plumes [5][6] — not Plume Network. [2] is just a static holder-list page. Verdict unchanged.",
+   "cited": [1, 3, 4, 5, 6],
+   "filters": []
+  },
+  "BTC": {
+   "stance": "neutral",
+   "opinion": "Mostly macro narrative — 'crypto winter ending' [2] versus four-year-cycle-theory decline warnings [3] — plus a hack/scammer story [5][6] not about Bitcoin's own security. None of this addresses the falling-hashrate or Strategy-selling risk. [1][4] are filler.",
+   "cited": [2, 3],
+   "filters": []
+  },
+  "AERO": {
+   "stance": "bullish",
+   "opinion": "Repeated surges (5%/18%/17%) are tied to tokenized-stock trading volume and Base activity growth [1][3][5][6], the same funded tailwind already flagged as offsetting emissions — strengthens FC3/FB2 near-term, but the undated Aero token-migration overhang is untouched. [2][4] are noise.",
+   "cited": [1, 3, 5, 6],
+   "filters": ["FC3", "FB2"]
+  },
+  "LDO": {
+   "stance": "bearish",
+   "opinion": "Two independent pieces confirm Lido's staking share is shrinking even as institutional ETH staking overall booms [3][4], sharpening the core moat-erosion risk. An Oct 2026 CSM mainnet date [6] and a Sept 17 institutional discussion [1] are minor counterweights. [2][5] are filler.",
+   "cited": [3, 4],
+   "filters": ["FA3", "FC6"]
+  },
+  "LEO": {
+   "stance": "noise",
+   "opinion": "A plain price page [1] and a sponsored-style comparison piece hyping an obscure token 'ChainSpin' [2] — no real news on the BTC forfeiture case or burn schedule. Verdict unchanged.",
+   "cited": [1, 2],
+   "filters": []
+  },
+  "XLM": {
+   "stance": "bullish",
+   "opinion": "DTCC connecting its tokenization service to XLM [5] is a genuine institutional catalyst for the RWA moat (FA3), alongside a 'record activity' report [1] supporting the usage-growth read (FC3). The SDF supply-overhang risk is untouched. [2][3][4][6] are filler/promo.",
+   "cited": [1, 5],
+   "filters": ["FA3", "FC3"]
+  },
+  "XTZ": {
+   "stance": "neutral",
+   "opinion": "A post-quantum testnet launching in September [1] is a real, minor dated technical catalyst (FC6); [6] just covers the same price move. Doesn't touch collapsing L1/Etherlink usage or the 3.5% issuance drag. [2][4][5] are unrelated filler; [3]'s 82-token liquidity list may or may not include XTZ.",
+   "cited": [1, 6],
+   "filters": ["FC6"]
+  }
+ }
+}

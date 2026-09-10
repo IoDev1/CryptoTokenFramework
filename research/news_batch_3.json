@@ -1,0 +1,124 @@
+{
+  "tokens": {
+    "RENDER": {
+      "stance": "noise",
+      "opinion": "Mostly noise: an agentic-AI PR release [2], a DC event listing [1], a price page [3], and NVIDIA's own neural-rendering tech [5]/local calendar [6] are irrelevant. Only the unlock/volatility note [4] touches the partner-supply key risk, mildly bearish. Verdict unchanged.",
+      "cited": [1, 2, 3, 4, 5, 6],
+      "filters": []
+    },
+    "SOL": {
+      "stance": "neutral",
+      "opinion": "Governance advancing faster supply cuts [1] slightly eases the inflation-vs-burn risk, but Kraken cutting staking yield to 2.25% [4] weakens holder economics. A $11M treasury buy [6] is a real demand data point; [2,3,5] are momentum/opinion noise. Verdict unchanged.",
+      "cited": [1, 4, 6],
+      "filters": []
+    },
+    "SKY": {
+      "stance": "noise",
+      "opinion": "All noise: duplicate 'DeFi buzz' pump headlines [1,4], a price chart [2], price-prediction listicles [3,6], and an industry-wide buyback roundup [5] that doesn't address SKY's own buyback-pace slowdown. Verdict unchanged.",
+      "cited": [1, 2, 3, 4, 5, 6],
+      "filters": []
+    },
+    "NEAR": {
+      "stance": "noise",
+      "opinion": "AI-narrative pump [1,6] and duplicated 'back above $2' rally pieces [3,4] plus a price prediction [2] are mostly noise; FXStreet flags the rally as fragile if BTC keeps correcting [5]. None address inflation/Intents value-capture. Verdict unchanged.",
+      "cited": [1, 2, 3, 4, 5, 6],
+      "filters": []
+    },
+    "LINK": {
+      "stance": "neutral",
+      "opinion": "Mostly price-target/TA noise [1,2,5,6]. Charles Schwab adding LINK to its crypto platform [4] is a real distribution catalyst; institutional-demand claims [3] are plausible but unverified. Neither offsets the Labs' quarterly Binance supply drip. Verdict essentially unchanged.",
+      "cited": [3, 4],
+      "filters": []
+    },
+    "Canton": {
+      "stance": "bullish",
+      "opinion": "Real catalysts: a Canton Network ETF listing on Nasdaq [1] and DSRV adding institutional custody [3,4] expand access, while [2] cites rising burn activity. These strengthen adoption but don't touch the insider-issuance/circular-fee risk. [5,6] are opinion/recap noise.",
+      "cited": [1, 2, 3, 4],
+      "filters": []
+    },
+    "VET": {
+      "stance": "noise",
+      "opinion": "All noise/TA: duplicated 'breaks multi-year downtrend' pieces [3,5], resistance-test chatter [4], a no-catalyst pullback recap [1], a price prediction [2], and a generic gainers list [6]. Nothing on enterprise fee conversion. Verdict unchanged.",
+      "cited": [1, 2, 3, 4, 5, 6],
+      "filters": []
+    },
+    "LTC": {
+      "stance": "bearish",
+      "opinion": "SEC missing the Litecoin ETF deadline amid the government shutdown [4] extends the unproven-institutional-demand risk. Rising MWEB privacy-address usage [2] is a minor positive. Rest [1,3,5,6] is price-prediction/exchange noise. Verdict unchanged, slightly weakened.",
+      "cited": [2, 4],
+      "filters": []
+    },
+    "ADA": {
+      "stance": "noise",
+      "opinion": "Bearish and bullish price-target pieces cancel out [1,5], plus prediction/opinion filler [2,3,4,6]. Nothing addresses falling on-chain usage or the withdrawn ETF sponsor. Verdict unchanged.",
+      "cited": [1, 2, 3, 4, 5, 6],
+      "filters": []
+    },
+    "CRV": {
+      "stance": "neutral",
+      "opinion": "Curve handing its risk mandate to two Resupply developers [5] is a real governance change but doesn't offset the emissions-vs-halved-revenue risk or founder-dump history. Rest [1,2,3,4,6] is duplicated pump/dump price-action noise. Verdict unchanged.",
+      "cited": [5],
+      "filters": []
+    },
+    "YFI": {
+      "stance": "noise",
+      "opinion": "No real news: a price-prediction page [1] and two generic Yellow.com aggregator index pages [2,3] with no substantive content. Verdict unchanged, treat as noise.",
+      "cited": [1, 2, 3],
+      "filters": []
+    },
+    "JUP": {
+      "stance": "bullish",
+      "opinion": "Buybacks confirmed continuing at pace (~1M tokens/month) [4] alongside a Universal Deposit launch [6], both relevant to the buyback-efficacy risk. [2,3] are duplicate 'mania' pump headlines, [1,5] minor. Mildly positive; doesn't resolve the low-float/co-founder-halt risk.",
+      "cited": [2, 3, 4, 6],
+      "filters": []
+    },
+    "SEI": {
+      "stance": "neutral",
+      "opinion": "Real items: Ondo's USDY fund launching on Sei [2] and Giga Upgrade progress toward 200k TPS [6] could eventually help fee generation. [1] is a price prediction; [3,4,5] are unrelated SEI-ticker collisions (an NGO, SEI Investments stock). Doesn't yet fix the farmed-usage/thin-fee risk.",
+      "cited": [2, 6],
+      "filters": []
+    },
+    "EGLD": {
+      "stance": "bearish",
+      "opinion": "Supernova mainnet went live as planned [3,4] after a 55% pre-launch pump [1] — exactly the speed fix the key risk already flags as not a demand fix. Overbought RSI near resistance [5] signals sell-the-news risk. [2,6] are noise. Verdict unchanged, near-term pullback risk.",
+      "cited": [1, 3, 4, 5],
+      "filters": []
+    },
+    "KAITO": {
+      "stance": "noise",
+      "opinion": "Near-total name-collision noise: a boxer [1], an artist [3], a DJ [4], a Vocaloid song [5]. Only the holder/distribution chart [2] is on-topic and doesn't change the 76%-unlock overhang. Verdict unchanged.",
+      "cited": [2],
+      "filters": []
+    },
+    "VVV": {
+      "stance": "bearish",
+      "opinion": "Narrative pump: an OpenAI dispute [1], 'AI tailwinds' [6], and a 50%-surge piece [4] are hype; a confirmed record token burn [5] and a TenX corporate holding [2] are real. None address fees staying <$1M/mo against a swelling ATH market cap with discretionary, company-controlled burns.",
+      "cited": [1, 2, 4, 5, 6],
+      "filters": []
+    },
+    "RAY": {
+      "stance": "neutral",
+      "opinion": "Rally is explicitly tied to the Stonkfun/LaunchLab memecoin launchpad boom [2] and buybacks [4,5,6], with outlets openly asking if $190M in buybacks can sustain it [6] — confirms rather than resolves the memecoin-cycle-dependency risk. [1,3] add nothing. Verdict unchanged.",
+      "cited": [2, 4, 5, 6],
+      "filters": []
+    },
+    "ENA": {
+      "stance": "neutral",
+      "opinion": "Real pivot: equity perpetuals expansion [1,2] and Ethena Pay's 48-country USDe rollout [6] are genuine attempts to rebuild revenue after USDe's 72% supply drop, though shutting HIP-3 [1] shows product struggles. The buyback vote [4] is procedural; supply must still double first. [3,5] add little.",
+      "cited": [1, 2, 4, 6],
+      "filters": []
+    },
+    "OKB": {
+      "stance": "bullish",
+      "opinion": "NYSE-parent ICE reportedly backing OKX at a $25B valuation [1] is a real catalyst reinforcing the exchange-perk value driver the key risk already flags, explaining the 38% surge. RWAperp launching on X Layer [5] adds modest on-chain fee activity. [2,3,4] are routine volatility. Thesis mildly strengthened short-term.",
+      "cited": [1, 5],
+      "filters": []
+    },
+    "BCH": {
+      "stance": "noise",
+      "opinion": "No real news: duplicated price predictions [1,2], generic data/educational pages [3,4], a pullback recap [5], and a corporate treasury disclosure about USD cash and BTC (not BCH) misfiled here [6]. Verdict unchanged, treat as noise.",
+      "cited": [1, 2, 3, 4, 5, 6],
+      "filters": []
+    }
+  }
+}

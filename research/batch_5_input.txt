@@ -1,0 +1,6 @@
+SUI: price $0.824603, mcap 3378176159, FDV 8246418958, circ 41.0% (max supply capped), from ATH -84.6% (ATH 2025-01-04), fees30d 113761, rev30d 40516, rev prior30d 24415, rev1y 807990, llama source: Sui
+SNX: price $0.221858, mcap 128912236, FDV 129006235, circ 99.9% (max supply UNCAPPED), from ATH -99.2% (ATH 2021-02-13), fees30d 4802, rev30d 4802, rev prior30d 0, rev1y 21595, llama source: Synthetix v1+v2, Synthetix V3, Synthetix V4
+ADA: price $0.222025, mcap 8329671495, FDV 9992812485, circ 83.4% (max supply capped), from ATH -92.8% (ATH 2021-09-01), fees30d 40686, rev30d 8139, rev prior30d 7139, rev1y 110260, llama source: Cardano
+DOT: price $1.18, mcap 2005575316, FDV 2005577521, circ 81.0% (max supply capped), from ATH -97.9% (ATH 2021-11-04), fees30d 308.24, rev30d 0, rev prior30d 0, rev1y 0, llama source: Polkadot
+POL: price $0.098918, mcap 1059352692, FDV 1059352692, circ 100.0% (max supply UNCAPPED), from ATH -92.3% (ATH 2024-03-13), fees30d 2188233, rev30d 2186096, rev prior30d 2276986, rev1y 27529648.13, llama source: Polygon, Polygon zkEVM
+CRV: price $0.365026, mcap 567882709, FDV 882139663, circ 51.3% (max supply capped), from ATH -97.6% (ATH 2020-08-13), fees30d 4403598.08, rev30d 1157849, rev prior30d 1006388.01, rev1y 31902791.01, llama source: Curve DEX, crvUSD, Curve LlamaLend, Curve LlamaLend V2

@@ -1,0 +1,5 @@
+WLD: price $0.456439, mcap 1679547238, FDV 4565480518, circ 36.8% (max supply capped), from ATH -96.1% (ATH 2024-03-09), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
+PLUME: price $0.01399914, mcap 89514210, FDV 139996630, circ 63.9% (max supply capped), from ATH -94.3% (ATH 2025-03-19), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
+KAITO: price $0.330763, mcap 79866874, FDV 330863919, circ 24.1% (max supply capped), from ATH -88.5% (ATH 2025-02-27), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
+VIRTUAL: price $0.726504, mcap 478336751, FDV 726529522, circ 65.8% (max supply capped), from ATH -85.7% (ATH 2025-01-01), fees30d 684468, rev30d 684468, rev prior30d 2163822, rev1y 17897961, llama source: Virtuals Protocol
+BTC: price $79447, mcap 1595464551230, FDV 1595474243983, circ 95.6% (max supply capped), from ATH -37.0% (ATH 2025-10-06), fees30d 6725533, rev30d 0, rev prior30d 0, rev1y 0, llama source: Bitcoin

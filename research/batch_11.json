@@ -1,0 +1,150 @@
+{
+ "tokens": {
+  "ARB": {
+   "bits": [1,0,1,1,0,1,0,0,1,1,1,1,0],
+   "evidence": {
+    "FA1": "No documented insider dumping in 24m; Foundation funds by milestone, Offchain Labs runs an ARB buy plan; 2023 10M sale is >24m old",
+    "FA2": "Circ 6.67B of 9.99B existing = 66.8% (<70%); 770M ARB (11.5% of circ) still vests through Mar 2027",
+    "FA3": "Top-2 L2 by TVL since 2022 (Arbitrum/Base hold ~77% of L2 TVL mid-2026); #1 in RWA deployments",
+    "FA4": "Offchain Labs (Goldfeder/Felten/Kalodner) still shipping: ArbOS 51 Jan 2026, ArbOS 60 May 2026, Robinhood Chain Jul 2026",
+    "FB1": "Gas is ETH; ARB is governance-only. DAO income ($6.19M H1 2026) accrues to treasury, no burn/staking yield/distribution to ARB",
+    "FB2": "DeFiLlama fees30d $3.35M, rev30d $2.69M (Timeboost + Nitro) - above $1M threshold",
+    "FB3": "850M ARB (8.5% of total, ~12% of circ) unlocks across 7 monthly tranches to Mar 2027 (139M on Sep 23); >3%/yr",
+    "FC1": "9/12 Security Council multisig can upgrade contracts (used 24 May 2026); single centralized sequencer; L2BEAT Stage 1",
+    "FC2": "Supplied: -92.8% from ATH (Jan 2024) - passes mechanically",
+    "FC3": "Fees/revenue up: H1 2026 DAO income $6.19M vs $7.17M full trailing year; stablecoin holders +40%; DeFi TVL -55% YoY is the caveat",
+    "FC4": "Unlock overhang and Security Council risk public since 2023; no lawsuit; Sep 23 unlock is 2.1% of circ, below 10% cliff bar",
+    "FC5": "rev30d $2.69M vs prior $414k (up); rev1y $7.17M with H1 2026 alone $6.19M = rising; material",
+    "FC6": "No dated catalyst found: decentralized sequencer 'late 2026' undated; ArbiVerse Nov 19 is an event, not an upgrade"
+   },
+   "key_risk": "Governance-only token with no fee accrual while ~12% of circulating supply still vests monthly into a -93% chart",
+   "confidence": "M",
+   "sources": [
+    "https://blog.arbitrum.foundation/arbitrum-foundation-reports-first-half-2026-progress-update/",
+    "https://www.theblock.co/news/ecosystems/2026-09-02-arbitrum-dao-reports-6-2-million-first-half-income-robinhood-chain-adds-new-revenue-stream-413345",
+    "https://tokenomist.ai/arbitrum/unlock-events",
+    "https://forum.arbitrum.foundation/t/security-council-emergency-action-24-05-2026/30910",
+    "https://l2beat.com/scaling/projects/arbitrum",
+    "https://www.theblock.co/post/345602/offchain-labs-arbitrum-token",
+    "https://api.llama.fi/v2/historicalChainTvl/Arbitrum",
+    "https://docs.arbitrum.io/notices/arbos60-upgrade-notice"
+   ]
+  },
+  "XLM": {
+   "bits": [0,0,0,1,1,0,0,0,1,1,1,0,1],
+   "evidence": {
+    "FA1": "SDF mandate fell 18.45B (Aug 2025) to 14.93B XLM (Sep 2026): ~3.5B (~10% of circ) released in 13m; SDF sells on Kraken/Coinbase",
+    "FA2": "Circ 34.8B of 50.0B existing = 69.6% (<70%); SDF still holds 14.9B (30%) for discretionary release",
+    "FA3": "#4 in tokenized RWA ($3.1-3.3B) behind ETH/BNB/SOL; stablecoin payment flows far below Tron/Ethereum; not top-2 by fees, TVL or tx",
+    "FA4": "SDF (CEO Denelle Dixon since 2019, founder McCaleb on board) shipping Protocols 25-28 in 2026",
+    "FB1": "XLM required for tx fees and base reserves on every account",
+    "FB2": "DeFiLlama fees30d $39.7k - trivial; $5.5B/qtr stablecoin payment volume is not fee revenue to the protocol",
+    "FB3": "No issuance, but 14.9B SDF tokens released at SDF discretion (3.5B in past 13m); no fixed published schedule",
+    "FC1": "CAP-77 Quorum Freeze (Protocol 26, May 2026) lets the small tier-1 validator quorum freeze accounts/balances on-chain",
+    "FC2": "Supplied: -78.6% from ATH (Jan 2018) - passes mechanically",
+    "FC3": "Daily tx 2.83M (Sep 2025) to 3.70M (Sep 2026), +31%; stablecoin payments +72% YoY; DeFiLlama TVL $122M to $248M YoY",
+    "FC4": "SDF overhang and freeze powers public; no lawsuit or delisting pending; Protocol 28 vote is routine",
+    "FC5": "rev30d $39.7k vs $35.0k - immaterial (<$1M), fails on scale",
+    "FC6": "Protocol 28 'Adapter' mainnet upgrade vote scheduled Sep 16, 2026 17:00 UTC"
+   },
+   "key_risk": "SDF controls 30% of supply and pushed ~10% of circulating into the market in a year while protocol fees are ~$40k/month",
+   "confidence": "H",
+   "sources": [
+    "https://dashboard.stellar.org/api/v2/lumens",
+    "https://web.archive.org/web/20250901id_/https://dashboard.stellar.org/api/v2/lumens",
+    "https://stellar.org/foundation/mandate",
+    "https://stellar.org/blog/foundation-news/quorum-freeze-cap-77-governed-onchain-incident-response",
+    "https://stellar.org/blog/developers/adapter-protocol-28-upgrade-guide",
+    "https://nansen.ai/post/stellar-q2-2026-report",
+    "https://www.stobox.io/reports/state-of-rwa-2026",
+    "https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=xlm&metrics=TxCnt"
+   ]
+  },
+  "BCH": {
+   "bits": [1,1,0,1,1,0,1,1,1,0,1,0,0],
+   "evidence": {
+    "FA1": "No foundation, labs or founder treasury; only miner-sold emission; no documented insider dumping",
+    "FA2": "Circ 100% of existing (19.9M); 3.125 BCH/block = ~164k BCH/yr = ~0.8% inflation, next halving 2028",
+    "FA3": "Hashrate ~6 EH/s vs BTC ~1,000 EH/s; one of many low-fee payment coins; share lost steadily since 2017-18",
+    "FA4": "Leaderless with multiple independent nodes (BCHN v29.1 for May 2026 upgrade, Knuth, BU, Verde); continuity since 2020",
+    "FB1": "BCH is the only fee/gas asset on the chain",
+    "FB2": "DeFiLlama fees30d $2,137; block subsidy is emission and does not count",
+    "FB3": "Fixed halving schedule, ~0.8%/yr, no unlocks",
+    "FC1": "Permissionless PoW; no freeze/mint/admin authority",
+    "FC2": "Supplied: -93.2% from ATH (Dec 2017) - passes mechanically",
+    "FC3": "Coin Metrics: daily active addr 37.3k (Sep 2025) to 25.0k (Sep 2026); tx 24.9k to 12.5k/day; DeFiLlama TVL flat ~$7-9M",
+    "FC4": "No lawsuit, unlock or contentious fork pending; Layla upgrade activated May 15, 2026 without split",
+    "FC5": "rev30d $0 / fees $2k - no material revenue",
+    "FC6": "Next scheduled upgrade is May 15, 2027 (>6 months); no dated listing/ETF/tokenomics event"
+   },
+   "key_risk": "Usage halved YoY on a chain with no moat; nothing but emission-funded security and a 2027 upgrade ahead",
+   "confidence": "H",
+   "sources": [
+    "https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=bch&metrics=AdrActCnt,TxCnt",
+    "https://www.bitget.com/news/detail/12560605130273",
+    "https://bitcoincashnode.org/en/",
+    "https://bch.info/en/nodes",
+    "https://www.directionsmag.com/crypto/bitcoin-cash-halving",
+    "https://api.llama.fi/v2/historicalChainTvl/Bitcoin%20Cash"
+   ]
+  },
+  "ETC": {
+   "bits": [1,1,0,0,1,0,1,1,1,0,0,0,0],
+   "evidence": {
+    "FA1": "No foundation treasury; ETC Cooperative grant-funded; Grayscale ETCG (largest holder) sells only to cover its ~2.5% fee",
+    "FA2": "Circ 100% of existing (~158M); 1.6384 ETC/block after Aug 26, 2026 fifthening = ~3.9M/yr = ~2.5% inflation",
+    "FA3": "Negligible smart-contract usage (~8k tx/day, TVL ~$130k); 'top GPU-mining chain' is a hashrate/emission claim, not demand",
+    "FA4": "Core-Geth had no substantive commit Jun 2024-2026 (21-month gap), unanswered security disclosures, Mar 2026 bootnode CVE exploited",
+    "FB1": "ETC is the only gas asset",
+    "FB2": "No DeFiLlama fee data; ~7-8k tx/day implies trivial fees; miner revenue is emission",
+    "FB3": "5M20 schedule fixed in protocol (ECIP-1017), ~2.5%/yr, no unlocks",
+    "FC1": "Permissionless PoW; no freeze/mint/admin authority",
+    "FC2": "Supplied: -95.0% from ATH (May 2021) - passes mechanically",
+    "FC3": "Coin Metrics: daily active addr 10.0k (Sep 2025) to 3.4k (Sep 2026), -66%; tx 22.5k to 8.0k/day; TVL $402k to $133k",
+    "FC4": "Olympia hard fork (EIP-1559 + protocol treasury) targeted end-2026 with an open community split over fee allocation",
+    "FC5": "No revenue data - fails",
+    "FC6": "Olympia has no finalized activation block/date; 'end of 2026' target only"
+   },
+   "key_risk": "Activity down two-thirds YoY, a client that went unmaintained for 21 months, and a contested treasury hard fork ahead",
+   "confidence": "M",
+   "sources": [
+    "https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=etc&metrics=AdrActCnt,TxCnt",
+    "https://ethereumclassic.com/build/clients/core-geth-security-audit",
+    "https://ecips.ethereumclassic.org/ECIPs/ecip-1111",
+    "https://ethereumclassicdao.org/olympia",
+    "https://bitcoinfoundation.org/news/altcoins/ethereum-classic-community-splits-on-fee-plan/",
+    "https://www.kucoin.com/blog/ethereum-classic-2026-fifthening-price-prediction",
+    "https://api.llama.fi/v2/historicalChainTvl/Ethereum%20Classic"
+   ]
+  },
+  "XTZ": {
+   "bits": [1,1,0,1,1,0,0,1,1,0,1,0,0],
+   "evidence": {
+    "FA1": "TF biannual report: XTZ only $72M of $641M assets (Jun 2025), BTC-funded ops; grants $7.2M/H1; no documented tez sales or dumping",
+    "FA2": "Circ 98.2% of existing; TzKT total supply 1,076.97M (Sep 2025) to 1,114.99M tez (Sep 2026) = +3.5%/yr, under the ~5% bar",
+    "FA3": "One of many mid-tier PoS L1s; TVL $20M and Etherlink $15M; share lost steadily to Ethereum L2s/Solana",
+    "FA4": "Breitmans plus Nomadic Labs, Trilitech, Functori; Tallinn (Jan 2026) and Ushuaia (Jun 30, 2026) upgrades activated",
+    "FB1": "XTZ is gas and the staking asset securing consensus",
+    "FB2": "DeFiLlama fees30d $9.3k - trivial",
+    "FB3": "Net issuance ~3.5%/yr (>3%); adaptive issuance is 3.44% at 29.5% staked; no cliff unlocks",
+    "FC1": "Permissionless PoS L1 with on-chain governance; no freeze/mint authority",
+    "FC2": "Supplied: -97.3% from ATH (Oct 2021) - passes mechanically",
+    "FC3": "DeFiLlama Tezos TVL $41.2M to $20.0M YoY (-52%); Etherlink $51.9M to $15.0M (-71%); delegators 161k to 139k, bakers 260 to 197",
+    "FC4": "Risks (dilution, weak usage) public for years; no lawsuit, unlock or contentious fork inside 6 months",
+    "FC5": "rev30d $8.2k vs $1.2k - noise on immaterial base; fails on scale",
+    "FC6": "Tezos X mainnet 'summer 2026' target unmet and undated; Etherlink 7.0 was resubmitted Aug 19 after a security issue; no dated event"
+   },
+   "key_risk": "Usage collapsing on both L1 and Etherlink while issuance runs 3.5% with no fee offset",
+   "confidence": "M",
+   "sources": [
+    "https://tezos.foundation/wp-content/uploads/2025/08/Tezos_Foundation_Activity_Report_January_2025_June_2025.pdf",
+    "https://api.tzkt.io/v1/statistics/daily?date=2026-09-01",
+    "https://api.llama.fi/v2/historicalChainTvl/Etherlink",
+    "https://api.llama.fi/v2/historicalChainTvl/Tezos",
+    "https://spotlight.tezos.com/two-years-of-adaptive-issuance/index.html",
+    "https://forum.tezosagora.org/t/etherlink-7-0-ganesha-resubmission-via-fast-governance-on-wednesday-august-19th/7159",
+    "https://spotlight.tezos.com/ushuaia-breaking-down-tezos-21st-protocol-upgrade-proposal/index.html"
+   ]
+  }
+ }
+}

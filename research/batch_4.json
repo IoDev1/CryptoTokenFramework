@@ -1,0 +1,176 @@
+{
+ "tokens": {
+  "AVAX": {
+   "bits": [0,0,0,1,1,0,0,1,1,0,1,0,0],
+   "evidence": {
+    "FA1": "Foundation selling up to $1B AVAX at a discount to US treasury cos (AVAT $200M initial, 18-mo sale priority); >2%/yr of circ",
+    "FA2": "Circulating 60.0% of 720M cap (<70%); ~3.5% gross issuance vs negligible burn",
+    "FA3": "One of many general-purpose L1s; not top-2 by fees/TVL; chain fees only $118k/30d despite RWA marketing",
+    "FA4": "Ava Labs / Emin Gun Sirer still shipping (Teleporter v1.4 Sep-2026, Etna, ACP process); identifiable leadership",
+    "FB1": "AVAX is gas on P/C/X chains and required for validator staking",
+    "FB2": "DeFiLlama chain fees 30d = $117,845 (<$1M)",
+    "FB3": "Gross issuance ~3.5%/yr, burns ~0.04%/yr -> net >3%; unlocks small (~0.5%/qtr) but inflation leg fails",
+    "FC1": "Permissionless PoS validator set; no freeze/mint admin; fee burn protocol-level",
+    "FC2": "-94.5% from ATH (mechanical pass)",
+    "FC3": "Active addresses fell below 750k in Jun-2026 from May peak; TPS <15; 30d fees 72% below 1y avg; RWA claims not in on-chain usage",
+    "FC4": "Foundation sales/treasury-co risk public since Sep-2025; AVAT listed Q1-2026; no cliff >10% or lawsuit in 6 months",
+    "FC5": "rev30d $117.8k vs prior $60.7k up, but 1y rev $4.98M (avg $415k/mo) -> current 72% below; clearly down",
+    "FC6": "Schwab listing 'in coming months' (undated); no dated ACP upgrade Sep-26..Mar-27 found; Teleporter v1.4 already shipped"
+   },
+   "key_risk": "Foundation is a structural seller (discounted OTC to levered treasury cos) while chain fees collapsed to ~$118k/mo; ~3.5% issuance unburned",
+   "confidence": "M",
+   "sources": [
+    "https://www.theblock.co/news/ecosystems/2025-09-11-avalanche-foundation-1-billion-raise-avax-treasury-370279",
+    "https://www.coindesk.com/business/2025/10/02/avalanche-treasury-co-going-public-in-usd675m-spac-deal-backed-by-avax-ecosystem",
+    "https://tokenomist.ai/avalanche-2",
+    "https://coinstats.app/ai/a/fundamental-analysis-avalanche-2",
+    "https://coinmarketcap.com/cmc-ai/avalanche/latest-updates/",
+    "https://www.criptolog.com/coin/avalanche/avalanche-avax-price-prediction-2026-2030-schwab-listing-etf-accumulation-and-on-chain-signals/",
+    "https://www.avax.network/about/tokens"
+   ]
+  },
+  "KAS": {
+   "bits": [1,1,0,1,1,1,1,1,1,0,1,0,0],
+   "evidence": {
+    "FA1": "No premine/ICO/VC allocation; DAGLabs dissolved at launch; no documented insider dumps (2022 substack allegations unproven)",
+    "FA2": "96.5% of 28.7B cap circulating; emission ~1.89M KAS/day = ~2.5%/yr and halving yearly",
+    "FA3": "Sole notable blockDAG PoW chain but usage tiny (Kasplex L2: 600k tx / 3 months); hashrate fell from 700+ PH/s (2024) to ~322-420 PH/s",
+    "FA4": "Yonatan Sompolinsky + rusty-kaspa core devs shipping (Crescendo May-25, Toccata hard fork 30-Jun-26); public, accountable lead",
+    "FB1": "KAS is the only fee/mining asset; no usage without it",
+    "FB2": "No DeFiLlama fees; hashrate ~322 PH/s ASIC-secured, miner revenue ~$2.0M/30d (1.89M KAS/day x $0.036) passes hashrate clause",
+    "FB3": "Hard-coded smooth yearly-halving emission; ~2.5%/yr and falling; no unlocks; no cliffs",
+    "FC1": "Pure PoW, no admin keys, no mint/freeze authority; permissionless nodes",
+    "FC2": "-82.5% from ATH (mechanical pass)",
+    "FC3": "Hashrate down ~40-55% from 2024 peak; L2 usage small (20k accounts); no verified 12-mo uptick in addresses/fees",
+    "FC4": "Risks (no L1 smart contracts, miner margin squeeze, early-history allegations) public >6 months; DAGKnight is upgrade not split",
+    "FC5": "No revenue data on DeFiLlama -> FAIL",
+    "FC6": "DAGKnight 'Q3 2026 / TBD post-hardfork'; 17-Sep-26 only a social-media rumour; 25 BPS undated -> no confirmed dated catalyst"
+   },
+   "key_risk": "Pure-mining coin with declining hashrate and no fee revenue; value rests on undated DAGKnight/L2 roadmap in a market that already rerated it -82%",
+   "confidence": "M",
+   "sources": [
+    "https://kaspa.org/wp-content/uploads/2022/09/KASPA-EMISSION-SCHEDULE.pdf",
+    "https://minerstat.com/coin/KAS",
+    "https://miningreturns.com/news/kaspa-asic-mining-era-what-you-need-to-know",
+    "https://ourcryptotalk.com/blog/kaspa-roadmap-2026-2027",
+    "https://coinmarketcap.com/cmc-ai/kaspa/latest-updates/",
+    "https://techleaks24.substack.com/p/a-factual-account-of-the-kaspa-fraud",
+    "https://wiki.kaspa.org/en/tokenomics"
+   ]
+  },
+  "VET": {
+   "bits": [1,1,0,1,1,0,1,0,1,0,1,0,1],
+   "evidence": {
+    "FA1": "Foundation publishes quarterly treasury reports ($218M->$167M Q2-25, mostly price); no documented dumps >2%/yr of circ",
+    "FA2": "99.2% of 86.7B VET cap circulating; VET itself has zero issuance (inflation is in VTHO, now cut 50%)",
+    "FA3": "Supply-chain niche leader (BMW, Walmart China, Rekord) but ~194k clauses/day and falling; Hedera/Polygon lead enterprise usage",
+    "FA4": "Sunny Lu / VeChain Foundation still shipping: Galactica Jul-25, Hayabusa Dec-25, Interstellar Sep-26",
+    "FB1": "Post-Hayabusa DPoS: VET stake secures the chain and is the only source of VTHO gas",
+    "FB2": "No DeFiLlama fees; VTHO burn at ~200k clauses/day is far below $1M/30d; named enterprise volume too small",
+    "FB3": "VET supply fixed, no unlocks; VTHO emissions down 50.2% post-Hayabusa; schedule set by protocol upgrade",
+    "FC1": "Validators permissionless only since Dec-2025; protocol params/builtins still governed by Foundation-appointed Executor approvers",
+    "FC2": "-97.2% from ATH (mechanical pass)",
+    "FC3": "Avg daily clauses -27.7% QoQ to 194k in Q1-26; Jul-26 daily tx 16k-74k; EU DPP tailwind not yet in usage",
+    "FC4": "Risks (low usage, foundation dominance) public for years; no lawsuit/cliff/delisting pending in 6 months",
+    "FC5": "No revenue data on DeFiLlama -> FAIL",
+    "FC6": "Interstellar (VIP-255, 11 EIPs) scheduled for mainnet activation 16-Sep-2026"
+   },
+   "key_risk": "Enterprise narrative has never converted into fee-paying usage; transactions are falling and the Foundation still steers protocol governance",
+   "confidence": "M",
+   "sources": [
+    "https://www.bitget.com/news/detail/12560605002288",
+    "https://vechain.org/vechain-roadmap-2026-agentic-foundations-for-tomorrow-beyond",
+    "https://medium.com/coinmonks/vechain-renaissance-game-changing-tokenomics-upgrades-key-details-da470b740269",
+    "https://messari.io/report/state-of-vechain-q1-2026",
+    "https://coinmarketcap.com/cmc-ai/vechain/latest-updates/",
+    "https://vechain.org/vechains-2026-manifesto"
+   ]
+  },
+  "TRX": {
+   "bits": [1,1,1,1,1,1,0,0,0,1,0,0,0],
+   "evidence": {
+    "FA1": "Sun controls 10-15% of supply; no documented net selling in 24 months; Tron Inc/Sun entities bought 683M TRX Feb-2026",
+    "FA2": "Uncapped but net issuance ~+70.5M TRX/qtr (~0.3%/yr) after Aug-2025 energy-price cut; well under 3%",
+    "FA3": "Dominant USDT settlement chain: >46% of global USDT supply ($85B+), #2 chain by fees behind Hyperliquid for years",
+    "FA4": "Justin Sun identifiable and shipping (Sunswap v4 Mar-26, Tron Inc); SEC case stayed, not impairing operations",
+    "FB1": "TRX must be frozen or burned for bandwidth/energy; all fees paid in TRX",
+    "FB2": "DeFiLlama chain fees 30d = $24.6M",
+    "FB3": "Inflation ~0.3% and no unlocks, but 27 SRs changed fee params in Aug-2025 flipping supply to inflationary -> small group controls schedule",
+    "FC1": "27 Super Representatives, heavily Sun/exchange-aligned; validator set effectively controlled by founder stake",
+    "FC2": "-21.3% from ATH -> FAIL (mechanical)",
+    "FC3": "USDT on TRON >$85B (up YoY), small-transfer USDT share 43%->52% Q1->Q2 2026, fees Q1 $82M -> Q2 $89M",
+    "FC4": "SEC v. Sun (market manipulation) unresolved, stayed since 2025 with no resolution date -> pending binary event",
+    "FC5": "rev30d $24.6M vs prior $26.8M (-8%); 1y rev $359M (avg $29.9M/mo) -> current below; down",
+    "FC6": "TRX ETF already listed; no dated mainnet upgrade or listing announced for Sep-26..Mar-27"
+   },
+   "key_risk": "Single-person control (Sun + 27 SRs) with an open SEC case, USDT dependence, and price only 21% off ATH leaves no valuation cushion",
+   "confidence": "M",
+   "sources": [
+    "https://messari.io/report/state-of-tron-q1-2026",
+    "https://trondao.org/research/tron-q1-2026-quarterly-report",
+    "https://www.coindesk.com/markets/2026/02/05/justin-says-keep-going-on-tron-inc-s-trx-buys",
+    "https://tron.live/blog/tron-stopped-being-deflationary/",
+    "https://www.coindesk.com/research/tron-network-q2-2026",
+    "https://bingx.com/en/learn/article/what-is-justin-sun-net-worth",
+    "https://cryptorank.io/news/feed/4df07-tron-tops-blockchain-revenue-charts-as-usdt-activity-surges"
+   ]
+  },
+  "CVX": {
+   "bits": [1,1,1,0,1,1,1,1,1,1,1,1,0],
+   "evidence": {
+    "FA1": "Team vesting ended May-2022, treasury vesting ended May-2025; treasury (9.7%) deployed to yield (Dec-25 votes), no dumps documented",
+    "FA2": "93.2% of ~100M hard cap circulating; residual minting tied to CRV harvests, tapering to zero",
+    "FA3": "Controls the largest veCRV stake (permanently locked) for 4+ years; ~90% of Curve DAO votes with Yearn; structural lock-in",
+    "FA4": "Core team pseudonymous (C2tP, Winthorpe); not identifiable/accountable and no second independent dev team -> FAIL",
+    "FB1": "vlCVX and staked CVX receive protocol fees (cvxCRV/FXS/treasury share) today; fees flow to token",
+    "FB2": "DeFiLlama fees 30d = $2.01M (rev $963k)",
+    "FB3": "Inflation <1%/yr contract-fixed; no cliffs; fee splits changeable only within hard-coded caps",
+    "FC1": "3-of-5 multisig cannot access user deposits; fees capped at 20%; shutdown returns funds; core non-upgradeable; veCRV cannot be seized",
+    "FC2": "-96.3% from ATH (mechanical pass)",
+    "FC3": "Convex TVL $1.0B (Nov-25) -> $1.28B (Jan-26); monthly revenue ~$1.06M Aug-25 vs ~$1.4M Aug-26; Aave/Pendle strategies",
+    "FC4": "Curve-dependence risk public for years; no lawsuit, unlock, or delisting pending in 6 months",
+    "FC5": "rev30d $963k vs prior $724k (+33%); 1y $17.0M with monthly series roughly flat $0.8-1.5M -> not clearly down",
+    "FC6": "Only 'proposed' Pendle integration; no dated launch, vote, or listing announced"
+   },
+   "key_risk": "Pseudonymous team running a derivative of Curve whose relevance is shrinking; revenue is ~$12M/yr and fully hostage to Curve volume",
+   "confidence": "M",
+   "sources": [
+    "https://docs.convexfinance.com/convexfinance/llms-full.txt",
+    "https://api.llama.fi/summary/fees/convex-finance?dataType=dailyRevenue",
+    "https://www.cryptonewsnavigator.com/academy/article/three-on-chain-metrics-explain-cvxs-2026-trajectory",
+    "https://tokenomist.ai/convex-finance",
+    "https://messari.io/project/convex-finance-2",
+    "https://coinmarketcap.com/cmc-ai/convex-finance/price-prediction/"
+   ]
+  },
+  "LTC": {
+   "bits": [1,1,1,1,1,1,1,1,1,1,1,0,0],
+   "evidence": {
+    "FA1": "Charlie Lee sold all LTC in Dec-2017; Foundation donation-funded with no treasury sales reported 2025-26",
+    "FA2": "92.4% of 84M cap mined; inflation ~1.8%/yr, halving to ~0.9% Jul-2027",
+    "FA3": "Longest-lived non-BTC PoW payments coin: #1 Scrypt chain, top-2 merchant altcoin for a decade, first altcoin spot ETF (Oct-25)",
+    "FA4": "Charlie Lee + Litecoin Foundation + Core devs active (Core 0.21.5.4 Apr-2026, MWEB); 15-year continuity",
+    "FB1": "LTC is the only fee and block-reward asset",
+    "FB2": "No DeFiLlama fees; hashrate ~2.7-3.8 PH/s (near ATH), miner revenue ~$5.9M/30d (3,600 LTC/day x $54.5) passes hashrate clause",
+    "FB3": "Fixed halving schedule; ~1.8%/yr; no unlocks; immutable emission",
+    "FC1": "Permissionless PoW; no admin, freeze, or mint authority",
+    "FC2": "-86.7% from ATH (mechanical pass)",
+    "FC3": "Active addresses 237k (Feb-26) -> 255k (Sep-26); hashrate ~4x since 2023 halving, near ATH; SEC/CFTC commodity status",
+    "FC4": "No lawsuit, cliff, or delisting; halving is Jul-2027 (>6 months out); risks (low dev count, tiny ETF flows) public",
+    "FC5": "No revenue data on DeFiLlama -> FAIL",
+    "FC6": "LitVM mainnet 'Q4 2026 pending audits' (undated, third-party); halving outside 6-month window; no dated listing"
+   },
+   "key_risk": "Trivial fee revenue and a shrinking dev base; ETF drew only ~$5-9M in 10 months, so institutional demand story is unproven",
+   "confidence": "M",
+   "sources": [
+    "https://coinbureau.com/analysis/litecoin-founder-sells-ltc-avoid-conflict-interest",
+    "https://miningboard.com/mining/litecoin/halving",
+    "https://x.com/litecoin/status/2072079486368296980",
+    "https://stealthex.io/blog/litecoin-price-analysis-etf-outlook/",
+    "https://coinmarketcap.com/cmc-ai/litecoin/latest-updates/",
+    "https://coinstats.app/ai/a/investment-analysis-litecoin",
+    "https://crypto.news/litecoin-etf-altcoin-era/"
+   ]
+  }
+ }
+}

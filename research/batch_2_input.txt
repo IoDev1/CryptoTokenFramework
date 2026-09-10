@@ -1,0 +1,6 @@
+TAO: price $262.31, mcap 2517385288, FDV 5508219913, circ 45.7% (max supply capped), from ATH -65.4% (ATH 2024-03-07), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
+ETH: price $2517.51, mcap 307213655386, FDV 307213655386, circ 100.0% (max supply UNCAPPED), from ATH -49.1% (ATH 2025-08-24), fees30d 11193795, rev30d 2600118, rev prior30d 1846722, rev1y 68467391, llama source: Ethereum
+SKY: price $0.065891, mcap 1543759601, FDV 1546053143, circ 99.9% (max supply capped), from ATH -34.5% (ATH 2024-12-04), fees30d 27245439, rev30d 13478137, rev prior30d 13942046, rev1y 215412004, llama source: Sky Lending, Sky Money
+XMR: price $502.44, mcap 9447067717, FDV 9447068019, circ 100.0% (max supply UNCAPPED), from ATH -37.0% (ATH 2026-01-14), fees30d 107448, rev30d 0, rev prior30d 0, rev1y 0, llama source: Monero
+INJ: price $6.34, mcap 633889108, FDV 633889108, circ 100.0% (max supply UNCAPPED), from ATH -88.0% (ATH 2024-03-14), fees30d 203704, rev30d 203704, rev prior30d 258571, rev1y 4192240, llama source: Injective
+NEAR: price $2.46, mcap 3209882304, FDV 3209882400, circ 100.0% (max supply UNCAPPED), from ATH -88.0% (ATH 2022-01-16), fees30d 49539, rev30d 34679, rev prior30d 30063, rev1y 1334353, llama source: Near

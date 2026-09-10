@@ -1,0 +1,178 @@
+{
+ "tokens": {
+  "HBAR": {
+   "bits": [1,1,1,1,1,0,0,0,1,1,1,0,0],
+   "evidence": {
+    "FA1": "Council publishes quarterly treasury reports; 'released' != sold, recent releases far below forecast; no documented dumps.",
+    "FA2": "50B fixed pre-mint, no inflation; 87.7% circulating (supplied), remainder in Council/Foundation treasury.",
+    "FA3": "Enterprise DLT with 30+ corporate Council members (Google, IBM), CFTC/SEC commodity guidance; multi-year structural lock-in.",
+    "FA4": "Council + Hashgraph shipping monthly mainnet upgrades (v0.76 Aug-19-2026); Hiero open-sourced under LFDT.",
+    "FB1": "HBAR is the only gas/fee asset and staking asset on Hedera.",
+    "FB2": "DeFiLlama fees30d = 0; USD-fixed micro-fees ($0.0001-0.001/tx) imply well under $1M/30d.",
+    "FB3": "No mint, but release schedule is a Council forecast rolled forward quarterly (4.07B, ~9% circ, Q3-26) not fixed.",
+    "FC1": "Consensus nodes are permissioned Council-run; validator set foundation/council controlled.",
+    "FC2": "Supplied: -86.0% from ATH (>= -75%).",
+    "FC3": "Daily tx at all-time highs (~290-700k/day, Aug 2026); Canary spot ETF net inflows all year.",
+    "FC4": "Supply-release risk public for years; Q3 release ~9% circ, below 10% cliff threshold; no lawsuit/fork pending.",
+    "FC5": "Supplied rev30d 0 / rev1y 0; no revenue data.",
+    "FC6": "Only routine v0.77 upgrade (Oct 2026); no dated ETF decision or tokenomics vote in next 6 months."
+   },
+   "key_risk": "Council/Foundation still hold ~12% of supply with a discretionary release schedule; fees are trivial so HBAR value rests on enterprise narrative.",
+   "confidence": "M",
+   "sources": [
+    "https://hederacouncil.org/treasury",
+    "https://dailycoin.com/268-million-hbar-release-raises-fresh-supply-questions/",
+    "https://blockworks.com/token-transparency/filing/hedera/hedera-2026-h2-b1-initial",
+    "https://www.gate.com/crypto-wiki/article/what-is-hbar-tokenomics-how-does-token-distribution-inflation-design-and-burn-mechanism-work-in-hedera-20251221",
+    "https://coinmarketcap.com/top-stories/6a88cb98d927ed2cfe7ad892/",
+    "https://status.hedera.com/",
+    "https://docs.hgraph.com/hedera-stats/network-performance/revenue/"
+   ]
+  },
+  "STX": {
+   "bits": [0,0,1,1,1,0,0,1,1,1,1,0,1],
+   "evidence": {
+    "FA1": "Endowment funded by SIP-031 emissions with $27M/2026 budget (~5% of mcap); took credit lines to reduce STX sales; sales unquantified.",
+    "FA2": "Uncapped; SIP-031 growth emissions ~5.75%/yr; PoX-5 (Jul-30-2026) restored 1,000 STX/block plus 1,500 temporary boost.",
+    "FA3": "Longest-running BTC L2; #2 DeFi TVL among smart-contract BTC L2s (Rootstock $92M vs Stacks $83M, Jul 2026); sBTC $437-545M.",
+    "FA4": "Muneeb Ali / Stacks Foundation / core devs shipped Nakamoto, sBTC, PoX-5 hardfork in 2025-26.",
+    "FB1": "STX is gas for Stacks and is stacked in PoX to secure the chain.",
+    "FB2": "Supplied fees30d $38,957; far below $1M threshold.",
+    "FB3": "Inflation >3%, and emissions were changed twice by SIP vote (SIP-031, PoX-5) within 18 months; not a fixed schedule.",
+    "FC1": "STX has no freeze/mint admin; PoX mining permissionless (sBTC bridge is a 15-signer set, noted as a caveat).",
+    "FC2": "Supplied: -92.9% from ATH.",
+    "FC3": "Q1-2026 daily tx +20% vs 2025 avg; sBTC TVL peaked $545M in Q1 2026 after cap removal.",
+    "FC4": "Emission increase and endowment structure public since 2025; no cliff >10%, no lawsuit/delisting pending.",
+    "FC5": "Supplied rev30d 0 / rev1y 0; no protocol revenue data.",
+    "FC6": "Genesis Bond enrollment opens Sep-10-2026 (BTC block 966,350); 90-day DeFi incentive program from ~Sep-19-2026."
+   },
+   "key_risk": "Perpetual, governance-adjustable inflation (~5.75%/yr) plus foundation spend against near-zero protocol fees.",
+   "confidence": "M",
+   "sources": [
+    "https://www.stacks.co/blog/stacks-treasury-committee-december-2025",
+    "https://stacksendowment.co/blog/stacks-treasury-committee-march-2026-community-update",
+    "https://stacks.foundation/stx-token-supply",
+    "https://coinmarketcap.com/top-stories/6a5bce480a48bc4c2c768b0e/",
+    "https://chainwire.org/2026/07/30/stacks-successfully-activates-pox-5-laying-the-foundation-for-bitcoin-staking/",
+    "https://cryptobriefing.com/stacks-genesis-bond-bitcoin-staking/",
+    "https://www.stacks.co/blog/q1-2026-snapshot",
+    "https://www.stacks.co/blog/best-bitcoin-layer-2-projects"
+   ]
+  },
+  "RENDER": {
+   "bits": [1,1,0,1,1,0,0,0,1,1,1,1,0],
+   "evidence": {
+    "FA1": "Foundation sells small RENDER amounts for opex; 2025 emissions 5.64M (~1% supply) split net/foundation; no documented dumps.",
+    "FA2": "Capped, 80.5% circulating (supplied); BME net inflation ~1%/yr (emissions ~5.6M vs burns ~0.8M).",
+    "FA3": "Not top-2 by verifiable usage: Aethir $127M/yr and Akash ~$4-20M/yr on-chain vs Render BME $2.05M/yr; Render discloses no revenue.",
+    "FA4": "Jules Urbach / OTOY and Render Foundation active; RNP-021/022/023 passed and shipped (H200/MI300X, Salad 60k GPUs).",
+    "FB1": "Jobs are paid by burning RENDER (BME); node operators are paid in RENDER.",
+    "FB2": "Supplied fees30d $168,084; below $1M.",
+    "FB3": "Annual emissions set by yearly RNP vote ('Year 3 amount TBD'); partner escrows ~27% of supply; schedule not fixed.",
+    "FC1": "SPL token with active mint authority (BME requires minting) held by the Foundation; upgradeable.",
+    "FC2": "Supplied: -88.7% from ATH.",
+    "FC3": "Burns from compute purchases +279% YoY in 2025; Q2-2026 demand exceeded GPU supply.",
+    "FC4": "Insider-heavy supply and net-inflation known since 2023; no pending lawsuit, cliff, or delisting.",
+    "FC5": "Supplied rev30d $168k vs prior $156k (up); rev1y $2.05M implies flat 1-yr trend.",
+    "FC6": "Coinbase listing (Jul-10-2026) is past; 'Compute Subnet expansion Q3' undated; no dated catalyst ahead."
+   },
+   "key_risk": "Burns are a rounding error vs emissions; ~50% of supply is OTOY/partner-controlled and revenue lags rivals by 10-50x.",
+   "confidence": "M",
+   "sources": [
+    "https://rendernetwork.medium.com/how-the-render-network-operates-foundation-network-and-treasury-a43bc492616e",
+    "https://rendernetwork.medium.com/render-network-foundation-monthly-report-december-2025-43d956808e3f",
+    "https://know.rendernetwork.com/basics/burn-mint-equilibrium",
+    "https://ownyourmind.ai/tokenomics/render-vs-akash-vs-ionet/",
+    "https://blockeden.xyz/blog/2026/03/12/depin-compute-revenue-pivot-akash-ionet-aethir/",
+    "https://coinmarketcap.com/cmc-ai/render/latest-updates/",
+    "https://github.com/rendernetwork/RNPs/blob/main/RNP-006.md"
+   ]
+  },
+  "AAVE": {
+   "bits": [1,1,1,1,1,1,1,0,1,0,1,0,0],
+   "evidence": {
+    "FA1": "Dec-2025 $35-38M seller was an unidentified whale; founder bought 84k AAVE ($12.6M); no insider dumping documented.",
+    "FA2": "Capped 16M, 96.4% circulating (supplied); no emission schedule; buybacks net-deflationary.",
+    "FA3": "#1 DeFi lender by TVL for 4+ years ($18.3B TVL, $1T cumulative lending); V4 live Mar-30-2026.",
+    "FA4": "Stani Kulechov / Aave Labs active; BGD Labs exit (Apr-2026) absorbed via AWW service-provider deal.",
+    "FB1": "Safety Module/Umbrella staking plus $30-50M/yr buybacks funded by protocol revenue flow to AAVE today.",
+    "FB2": "Supplied fees30d $33.4M, rev30d $4.65M.",
+    "FB3": "Zero inflation; buybacks retired 1.28% of supply in <1 yr; no unlocks; spending decided by tokenholder DAO vote.",
+    "FC1": "Contracts upgradeable via governance and a Guardian multisig with emergency freeze/pause powers.",
+    "FC2": "Supplied: -80.2% from ATH.",
+    "FC3": "TVL $18.3B vs ~$43B in Sep-2025 (-57%); borrow fees down ~25% from peak.",
+    "FC4": "Labs/DAO fee dispute resolved by AWW (Apr-2026); no lawsuit, unlock, or delisting pending.",
+    "FC5": "30d up ($4.65M vs $3.92M) but rev1y $102.6M => ~$8.5M/mo avg; 1-yr trend clearly down.",
+    "FC6": "V4, Horizon, GHO all already live; no dated catalyst announced for the next 6 months."
+   },
+   "key_risk": "Revenue halved from 2025 run-rate as TVL fell 57%; buyback budget already cut from $50M to $30M.",
+   "confidence": "H",
+   "sources": [
+    "https://blog.mexc.com/aave-down-18-dao-governance-crisis-founder-buys-12-6m-as-vote-fails/",
+    "https://www.coindesk.com/business/2026/02/12/aave-labs-proposes-aave-will-win-plan-to-send-100-of-product-revenue-to-dao",
+    "https://thedefiant.io/news/defi/aave-confirms-aavenomics-3-0-live-buybacks-dao-spending-cut",
+    "https://governance.aave.com/t/aave-dao-funding-insights/24192",
+    "https://thedefiant.io/news/defi/aave-v4-launches-on-ethereum-mainnet",
+    "https://coinlaw.io/aave-statistics/",
+    "https://defillama.com/protocol/aave"
+   ]
+  },
+  "QNT": {
+   "bits": [0,1,0,1,0,0,1,0,1,0,1,0,0],
+   "evidence": {
+    "FA1": "Quant Ltd holds ~2M QNT (~14%) it 'can sell at any time'; no public treasury reporting; sales unverifiable.",
+    "FA2": "Fixed 14.6M supply, 99.5% circulating (supplied), no minting.",
+    "FA3": "Enterprise interop is dominated by Chainlink CCIP/LayerZero; Quant lead unproven by any usage metric; ECB/BoE roles are company pilots.",
+    "FA4": "Gilbert Verdian still CEO; Fusion rollup shipped Jun-2-2026; Overledger continuously updated.",
+    "FB1": "Licences paid in fiat then converted/locked by Quant per its own docs; no on-chain proof; staking not yet live.",
+    "FB2": "Supplied fees None; Overledger revenue accrues to Quant Ltd, not the token.",
+    "FB3": "No inflation, no vesting cliffs, fixed supply.",
+    "FC1": "Fusion rollup nodes run under company-controlled Trusted Node Program; network is centrally operated.",
+    "FC2": "Supplied: -83.9% from ATH.",
+    "FC3": "No measurable on-chain usage metric published for Overledger/Fusion; adoption claims are company PR.",
+    "FC4": "Centralization and opacity known for years; no lawsuit, unlock, or delisting pending.",
+    "FC5": "Supplied revenue None.",
+    "FC6": "Trusted Node staking 'mid-2026' still not live and undated; no dated catalyst."
+   },
+   "key_risk": "Token demand depends entirely on unverifiable claims of licence-locking by a private company.",
+   "confidence": "L",
+   "sources": [
+    "https://www.altcoinbuzz.io/reviews/altcoin-projects/quant-network-qnt-treasury-model-guide/",
+    "https://coinbureau.com/review/quant-network-qnt",
+    "https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675",
+    "https://www.disruptionbanking.com/2026/06/03/quants-fusion-rollup-goes-live-unifying-74-blockchains-for-institutions/",
+    "https://coinmarketcap.com/top-stories/6a1ed03eede5853686ae6f40/",
+    "https://onekey.so/blog/ecosystem/qnt-deep-research-report-token-fundamentals-institutional-adoption-and-price-outlook/"
+   ]
+  },
+  "SOL": {
+   "bits": [1,1,1,1,1,1,0,1,0,0,1,1,1],
+   "evidence": {
+    "FA1": "Foundation sells via discounted OTC deals to DATs (e.g. $50M at 15% off); well under 2% of circ/yr; FTX unlocks pre-sold OTC.",
+    "FA2": "Uncapped but inflation 3.8% (<5%); 92.5% circulating (supplied).",
+    "FA3": "Top-2 L1 by fees/DEX volume/active users for 2+ years; $22.4M fees30d.",
+    "FA4": "Anatoly/Labs, Anza (Agave) and Jump (Firedancer) = 2+ independent clients; Alpenglow shipping.",
+    "FB1": "SOL is gas and staking asset securing the chain.",
+    "FB2": "Supplied fees30d $22.4M, rev30d $2.29M.",
+    "FB3": "Inflation ~3.8% vs burns ~$47k/day => net >3%; SIMD-0550 passed but not yet activated (needs SIMD-0607/Agave 4.4).",
+    "FC1": "Permissionless L1, no freeze/mint authority on SOL.",
+    "FC2": "Supplied: -64.3% from ATH (fails <= -75%).",
+    "FC3": "MAU at 2-yr low (34.1M), fees -50% since Jan, TVL -56% from Aug-2025 peak.",
+    "FC4": "FTX unlocks largely done; ETFs live; no lawsuit or cliff >10% ahead.",
+    "FC5": "rev30d $2.29M vs prior $1.58M (up); rev1y $29.1M => $2.4M/mo avg, roughly flat.",
+    "FC6": "Alpenglow mainnet activation Sep-28-2026 (Agave 4.3), Transaction V1 Sep-9-2026."
+   },
+   "key_risk": "Usage and revenue have fallen sharply from the 2025 memecoin peak while inflation still outpaces burns.",
+   "confidence": "H",
+   "sources": [
+    "https://www.theblock.co/post/374029/solana-foundations-many-discounted-token-deals-fuels-sol-treasury-explosion",
+    "https://blockworks.com/news/sol-investors-shrug-off-unlocks",
+    "https://solanacompass.com/news/simd-0550-proposes-doubling-solanas-disinflation-rate-cutting-15b-in-future-sol-emissions",
+    "https://solanacompass.com/news/simd-0607-must-merge-before-solanas-disinflation-rate-can-activate-anza-says",
+    "https://www.ccn.com/analysis/crypto/solana-alpenglow-upgrade-tvl-fees-price-2026/",
+    "https://solanacompass.com/news/anza-publishes-agave-43-release-schedule-alpenglow-consensus-targets-september-28-mainnet-activation",
+    "https://www.coindesk.com/tech/2026/08/04/a-new-solana-proposal-would-take-daily-sol-burns-from-usd47-000-to-usd650-000"
+   ]
+  }
+ }
+}

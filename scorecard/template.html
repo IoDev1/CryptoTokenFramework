@@ -1,0 +1,473 @@
+<title>Conviction Scorecard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f4f5f2; --surface:#fcfcfb; --surface-2:#eceeea; --line:#d9dcd6; --line-strong:#b9bdb6;
+  --ink:#141a18; --ink-2:#4f5651; --muted:#858b86;
+  --accent:#1f6f8b; --accent-ink:#ffffff; --accent-soft:#dcebf1;
+  --good:#0ca30c; --good-soft:#e2f4e2; --crit:#d03b3b; --crit-soft:#f8e3e3; --warn:#c98500; --warn-soft:#f7ecd2;
+  --s1:#2a78d6; --s2:#eb6834; --grid:#e1e0d9;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#101312; --surface:#181c1a; --surface-2:#202623; --line:#2c332f; --line-strong:#3d4641;
+    --ink:#f2f4f1; --ink-2:#b9c0bb; --muted:#7f877f;
+    --accent:#5fb3cf; --accent-ink:#0b1114; --accent-soft:#17323b;
+    --good:#0ca30c; --good-soft:#153a15; --crit:#e05a5a; --crit-soft:#3d1a1a; --warn:#fab219; --warn-soft:#3a2d0f;
+    --s1:#3987e5; --s2:#d95926; --grid:#2c2c2a;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#101312; --surface:#181c1a; --surface-2:#202623; --line:#2c332f; --line-strong:#3d4641;
+  --ink:#f2f4f1; --ink-2:#b9c0bb; --muted:#7f877f;
+  --accent:#5fb3cf; --accent-ink:#0b1114; --accent-soft:#17323b;
+  --good:#0ca30c; --good-soft:#153a15; --crit:#e05a5a; --crit-soft:#3d1a1a; --warn:#fab219; --warn-soft:#3a2d0f;
+  --s1:#3987e5; --s2:#d95926; --grid:#2c2c2a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45}
+button,select,input{font:inherit;color:inherit}
+button:focus-visible,select:focus-visible,input:focus-visible,tr:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:var(--mono)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+header{padding:20px 24px 14px;border-bottom:1px solid var(--line);background:var(--surface)}
+.hd-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px}
+h1{margin:0;font-size:20px;font-weight:600;letter-spacing:-.01em}
+.hd-top .sub{color:var(--ink-2);max-width:62ch}
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:14px}
+.label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:500}
+.seg{display:inline-flex;border:1px solid var(--line-strong);border-radius:6px;overflow:hidden}
+.seg button{background:var(--surface);border:0;padding:6px 11px;cursor:pointer;color:var(--ink-2);border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.toggle{display:inline-flex;align-items:center;gap:8px;cursor:pointer;padding:6px 10px;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface)}
+.toggle input{accent-color:var(--accent);margin:0}
+.layout{display:grid;grid-template-columns:260px minmax(0,1fr) 340px;gap:0;min-height:calc(100vh - 110px)}
+.weights{border-right:1px solid var(--line);padding:16px 18px;background:var(--surface)}
+.ranking{padding:16px 20px;min-width:0}
+.detail{border-left:1px solid var(--line);padding:16px 18px;background:var(--surface)}
+@media (max-width:1100px){.layout{grid-template-columns:240px minmax(0,1fr)}.detail{grid-column:1/-1;border-left:0;border-top:1px solid var(--line)}}
+@media (max-width:720px){.layout{grid-template-columns:1fr}.weights{border-right:0;border-bottom:1px solid var(--line)}}
+.tier{margin-bottom:16px}
+.tier-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.tier-h .label{color:var(--ink-2)}
+.tier-h .num{color:var(--muted);font-size:12px}
+.w{display:grid;grid-template-columns:34px 1fr 38px;align-items:center;gap:8px;padding:4px 0}
+.w .id{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.w .nm{grid-column:2/4;font-size:12px;color:var(--muted);margin-top:-4px;line-height:1.2}
+.w input[type=range]{width:100%;accent-color:var(--accent);margin:0}
+.w .val{text-align:right;font-size:12px}
+.w.zero .id,.w.zero .val{color:var(--muted);opacity:.6}
+.small-btn{background:none;border:1px solid var(--line-strong);border-radius:5px;padding:4px 9px;font-size:12px;color:var(--ink-2);cursor:pointer}
+.small-btn:hover{background:var(--surface-2)}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.tile{border:1px solid var(--line);border-radius:6px;padding:10px 12px;background:var(--surface);position:relative;overflow:hidden}
+.tile::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--tile)}
+.tile .k{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:500}
+.tile .v{font-family:var(--mono);font-size:22px;font-weight:600;margin-top:2px}
+.tile .t{font-size:12px;color:var(--ink-2)}
+.thr{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin-bottom:10px;color:var(--ink-2);font-size:13px}
+.thr input[type=number]{width:56px;padding:3px 6px;border:1px solid var(--line-strong);border-radius:5px;background:var(--surface);font-family:var(--mono)}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:640px}
+th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:500;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:0;background:var(--surface);z-index:1}
+td{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+tr[tabindex]{cursor:pointer}
+tbody tr:hover{background:var(--surface-2)}
+tbody tr.sel{background:var(--accent-soft)}
+tbody tr.excl td{color:var(--muted)}
+td.tok{font-family:var(--mono);font-weight:600}
+td.risk{white-space:normal;min-width:220px;color:var(--ink-2);font-size:13px}
+.bar{display:flex;align-items:center;gap:8px;min-width:150px}
+.bar .tr{flex:1;height:8px;background:var(--surface-2);border-radius:4px;overflow:hidden}
+.bar .fl{height:100%;border-radius:4px;background:var(--accent)}
+.excl .bar .fl{background:var(--line-strong)}
+.chip{display:inline-block;font-size:11px;font-weight:500;padding:2px 7px;border-radius:4px;letter-spacing:.02em}
+.chip.core{background:var(--good-soft);color:var(--good)}
+.chip.watch{background:var(--warn-soft);color:var(--warn)}
+.chip.avoid{background:var(--crit-soft);color:var(--crit)}
+.chip.gate{background:var(--surface-2);color:var(--ink-2);border:1px solid var(--line-strong)}
+.dots{display:inline-flex;gap:3px}
+.dots i{width:8px;height:8px;border-radius:2px;display:inline-block;background:var(--good)}
+.dots i.x{background:var(--crit)}
+.detail h2{margin:0;font-family:var(--mono);font-size:26px;font-weight:600;letter-spacing:-.01em;display:flex;align-items:baseline;gap:10px}
+.detail h2 .sc{font-size:16px;color:var(--ink-2);font-weight:500}
+.detail .risk{color:var(--ink-2);margin:4px 0 12px;font-size:13px}
+.cmp{display:flex;align-items:center;gap:8px;margin:8px 0 6px;font-size:13px;color:var(--ink-2)}
+.cmp select{padding:4px 8px;border:1px solid var(--line-strong);border-radius:5px;background:var(--surface);font-family:var(--mono)}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--ink-2);margin:4px 0 6px}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+svg.radar{width:100%;height:auto;display:block}
+.axes{width:100%;border-collapse:collapse;font-size:12px;margin-top:6px}
+.axes td{padding:3px 4px;border-bottom:1px solid var(--line)}
+.axes td:first-child{color:var(--ink-2)}
+.axes td.num{text-align:right}
+.fl-list{margin-top:14px;border-top:1px solid var(--line)}
+.fl-row{display:grid;grid-template-columns:18px 36px 1fr 44px;gap:8px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line);font-size:13px}
+.fl-row .ok{color:var(--good);font-weight:600}
+.fl-row .no{color:var(--crit);font-weight:600}
+.fl-row .id{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.fl-row .pt{text-align:right;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.fl-row.fail .pt{color:var(--crit)}
+.note{font-size:12px;color:var(--muted);margin-top:10px;max-width:60ch}
+.note b{color:var(--ink-2);font-weight:500}
+td.num.neg{color:var(--crit)} td.num.pos{color:var(--good)}
+.live{font-size:11px;font-family:var(--mono);color:var(--muted)} .live.diff{color:var(--warn);font-weight:600}
+.mkt{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;margin:10px 0 4px;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--surface-2)}
+.mkt .k{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)} .mkt .v{font-family:var(--mono);font-size:13px}
+.mkt .src{grid-column:1/-1;font-size:11px;color:var(--muted)}
+.fl-row{grid-template-columns:18px 36px 1fr auto 44px}
+.ev{font-size:11px;color:var(--muted);line-height:1.3;margin-top:1px}
+.sec{margin-top:14px;padding-top:10px;border-top:1px solid var(--line)}
+.sec h3{margin:0 0 8px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:500}
+.tg{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.tg label{font-size:11px;color:var(--muted);display:block}
+.tg input{width:100%;padding:4px 6px;border:1px solid var(--line-strong);border-radius:5px;background:var(--surface);font-family:var(--mono);font-size:13px}
+.tg .note-in{grid-column:1/-1}
+.tgt{width:100%;border-collapse:collapse;font-size:12px;margin-top:8px}
+.tgt th{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:500;text-align:right;padding:3px 4px;border-bottom:1px solid var(--line)}
+.tgt th:first-child,.tgt td:first-child{text-align:left;color:var(--ink-2)}
+.tgt td{padding:3px 4px;text-align:right;font-family:var(--mono);border-bottom:1px solid var(--line)}
+.chip.entry{background:var(--accent-soft);color:var(--accent)}
+.chip.ok{background:var(--good-soft);color:var(--good)} .chip.hit{background:var(--warn-soft);color:var(--warn)}
+.chip.bull{background:var(--good-soft);color:var(--good)} .chip.bear{background:var(--crit-soft);color:var(--crit)} .chip.neut{background:var(--surface-2);color:var(--ink-2)} .chip.noise{background:var(--surface-2);color:var(--muted)}
+.nw{list-style:none;margin:6px 0 0;padding:0}
+.nw li{display:grid;grid-template-columns:18px 1fr;gap:6px;padding:4px 0;border-bottom:1px solid var(--line);font-size:12px;line-height:1.35}
+.nw .n{font-family:var(--mono);color:var(--muted)} .nw .m{color:var(--muted);font-size:11px}
+.nw a{color:var(--ink);text-decoration:none} .nw a:hover{text-decoration:underline}
+.nw li.cited .n{color:var(--accent);font-weight:600}
+.exp{width:100%;height:90px;font-family:var(--mono);font-size:11px;background:var(--surface-2);border:1px solid var(--line);border-radius:5px;padding:6px;color:var(--ink)}
+td.num.tgtc{color:var(--muted)}
+.banner{background:var(--accent-soft);color:var(--ink);padding:8px 24px;font-size:13px;border-bottom:1px solid var(--line)}
+.banner b{color:var(--accent);font-weight:600}
+.plan{border:1px solid var(--line);border-radius:6px;background:var(--surface);margin-bottom:14px;padding:10px 12px}
+.plan-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px}
+.plan-h .label{color:var(--ink-2)}
+.plan-kpis{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--ink-2)}
+.plan-kpis b{font-family:var(--mono);color:var(--ink);font-weight:600}
+.plan table{width:100%;border-collapse:collapse;font-size:12px;margin-top:8px}
+.plan th{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:500;text-align:right;padding:3px 6px;border-bottom:1px solid var(--line)}
+.plan td{padding:3px 6px;text-align:right;font-family:var(--mono);border-bottom:1px solid var(--line)}
+.plan th:first-child,.plan td:first-child{text-align:left}
+.plan td.tok{font-weight:600;cursor:pointer}
+.plan .empty{color:var(--muted);font-size:13px;margin:6px 0 0}
+.share{display:flex;align-items:center;gap:8px}
+.share input{width:260px;padding:4px 6px;border:1px solid var(--line-strong);border-radius:5px;background:var(--surface);font-family:var(--mono);font-size:11px}
+.about{max-width:72ch;padding:24px;margin:0 auto;color:var(--ink-2);font-size:14px;line-height:1.55;border-top:1px solid var(--line)}
+.about h2{font-size:16px;color:var(--ink);margin:18px 0 6px}
+.about h2:first-child{margin-top:0}
+.about dl{display:grid;grid-template-columns:52px 1fr;gap:4px 10px;margin:8px 0}
+.about dt{font-family:var(--mono);font-size:12px;color:var(--ink)}
+.about dd{margin:0;font-size:13px}
+.about .disc{border:1px solid var(--line-strong);border-radius:6px;padding:10px 12px;background:var(--surface);color:var(--ink);font-size:13px}
+.nw li.op{background:var(--surface-2);border-radius:4px;padding:6px}
+@media (prefers-reduced-motion:no-preference){.bar .fl{transition:width .25s ease}svg.radar polygon{transition:points .25s ease}}
+</style>
+
+<header>
+  <div class="hd-top">
+    <h1>Conviction Scorecard</h1>
+    <div class="sub" style="max-width:none"><b style="font-weight:600;color:var(--ink)">Plan a bear-market portfolio with the reasoning attached.</b></div>
+    <div class="sub">62 tokens scored against 13 filters by two model-driven research passes, with evidence and sources per cell. Set your own weights, your own entry and exit levels, and see what the plan implies. Market data from CoinGecko and DeFiLlama, <span id="asof"></span>. Research tooling, not advice: every level here is yours.</div>
+  </div>
+  <div class="controls">
+    <span class="label">Verdicts</span>
+    <div class="seg" id="raters" role="group" aria-label="Whose verdicts to score"></div>
+    <span class="label">Philosophy</span>
+    <div class="seg" id="presets" role="group" aria-label="Weight presets"></div>
+    <label class="toggle"><input type="checkbox" id="gate"> Treat Tier A as hard gates</label>
+    <label class="toggle"><input type="checkbox" id="live"> Correct Opus FA2 &amp; FC2 with live data</label>
+    <button class="small-btn" id="reset">Reset to original</button>
+    <span class="share"><button class="small-btn" id="shareBtn">Share plan</button><input id="shareUrl" readonly hidden aria-label="Share link"></span>
+  </div>
+</header>
+
+<div class="banner" id="banner" hidden></div>
+<div class="layout">
+  <aside class="weights" id="weights" aria-label="Filter weights"></aside>
+
+  <section class="ranking">
+    <section class="plan" id="plan" aria-label="Your plan"></section>
+    <div class="tiles" id="tiles"></div>
+    <div class="thr">
+      <span class="label">Thresholds (/12)</span>
+      <label>Core hold &#x2265; <input type="number" id="thrCore" value="10" step="0.5" min="0" max="12"></label>
+      <label>Watch &#x2265; <input type="number" id="thrWatch" value="8" step="0.5" min="0" max="12"></label>
+      <span id="gateNote"></span>
+    </div>
+    <div class="tbl-wrap">
+      <table id="tbl">
+        <thead><tr><th>#</th><th>Token</th><th>Score</th><th></th><th>Tier</th><th>Price</th><th title="Distance from all-time high">ATH &#x394;</th><th title="Circulating / max supply">Circ %</th><th title="DeFiLlama protocol or chain revenue, last 30 days">Rev 30d</th><th title="Cells where Opus and Claude disagree">O&#x2260;C</th><th title="Your entry price and distance from current">Entry</th><th title="Your exit target and multiple from current">Target</th><th title="News stance, last 14 days">News</th><th title="Tier A: FA1 FA2 FA3 FA4">Dealbreakers</th><th>Key risk</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <p class="note">Tick data transcribed from the v1 result tables; the "Key risk" column is the model's own note. <b>Original</b> weights are the v1 scheme (A 1.5, B 1.0, C 0.5).</p>
+  </section>
+
+  <aside class="detail" id="detail" aria-live="polite"></aside>
+</div>
+
+<section class="about" id="about">
+  <h2>What this is</h2>
+  <p>A scoring framework for tokens that might be held through a bear market, and a planner on top of it. Each token is checked against 13 filters in three tiers: dealbreakers (1.5 points each), foundation (1.0) and context (0.5), for a total of 12. Two research passes scored the same tokens: an Opus 4.6 run and a Claude run with web search under a written rubric. Where they disagree, the table says so, and every Claude cell shows its evidence line and the sources it consulted.</p>
+  <h2>How to read a score</h2>
+  <p>Scores are rescaled to /12 whatever weights you set. Core hold means the token clears your threshold on your weights, Watch sits between the two thresholds, Avoid is below. Turning on hard gates drops any token that fails a dealbreaker regardless of score. Entry is a separate question from quality: the ATH distance column and the far-from-ATH filter say whether it is cheap, not whether it is good.</p>
+  <h2>The 13 filters</h2>
+  <dl id="aboutFilters"></dl>
+  <h2>Data and dates</h2>
+  <p id="aboutData"></p>
+  <h2>Your plan</h2>
+  <p>Entry, target, stop and allocation are yours and stay in your browser. The plan panel shows what those levels imply: the market cap a target needs at today's float, the fully diluted ceiling, where that would rank today, and the portfolio multiple if every target is hit, if only Core holds hit, or if the rest go to zero. Share plan copies a link that carries your levels and weights; whoever opens it gets their own editable copy.</p>
+  <div class="disc"><b>Not advice.</b> Verdicts are model-generated from public sources and can be wrong. Nothing on this page recommends buying or selling anything. Check the sources, decide for yourself, and never allocate what you cannot lose.</div>
+</section>
+<script>
+const FILTERS=[
+ ["FA1","A","Team doesn't dump"],["FA2","A","Low dilution (>70% circ)"],["FA3","A","Competitive moat"],["FA4","A","Team is known & solid"],
+ ["FB1","B","Token required for usage"],["FB2","B","Real revenue / demand"],["FB3","B","Effective supply dynamics"],
+ ["FC1","C","Can't be rugged"],["FC2","C","Far from ATH (>75%)"],["FC3","C","Growing narrative"],["FC4","C","Known risks priced in"],["FC5","C","Revenue trajectory"],["FC6","C","Upcoming catalysts"]
+];
+const TIERS={A:"A &#xB7; Dealbreaker",B:"B &#xB7; Foundation",C:"C &#xB7; Context"};
+// [ticker, 13 pass bits in FILTERS order, key risk]
+const TOKENS=[
+ ["HBAR","1111111111111","None identified"],
+ ["STX","1111111111111","Bitcoin dependency"],
+ ["RENDER","1111111111101","FC5: Revenue hard to verify"],
+ ["AAVE","1111011111111","FB1: Token NOT required"],
+ ["QNT","1111111110101","FC3/FC5: Niche, opaque revenue"],
+ ["SOL","1111111101101","FC2/FC5: Near ATH, meme-driven"],
+ ["TAO","1011111111111","FA2: 62.5% insider-mined, no distribution docs, $70M post-dTAO dump"],
+ ["ETH","1111110101101","FB3/FC5: Can be inflationary, L2 drain"],
+ ["SKY","1110111101111","FA4: Rune single-person dependency"],
+ ["XMR","1110111101110","FA4: Anon devs"],
+ ["INJ","1101101110101","FA3/FB2: Not dominant"],
+ ["NEAR","1101101110101","FA3/FB2: Low revenue"],
+ ["UNI","1011010111111","FA2/FB1: 60% circ"],
+ ["HYPE","1011110001110","FA2/FC1: 33% circ, can freeze"],
+ ["LINK","0011110111111","FA1/FA2: Team sells, 63% circ"],
+ ["FET","1101100111101","FA3/FB2: No moat"],
+ ["BNB","0110111001110","FA1/FA4: CZ prison, centralized"],
+ ["Canton","1011010101011","FA2/FB3: Unlimited supply"],
+ ["AVAX","1001110110101","FA2/FA3: 60% circ, not dominant"],
+ ["KAS","1101100100101","FA3/FB2: No ecosystem"],
+ ["VET","1101001110100","FA3/FB1: Enterprise != price"],
+ ["TRX","0110110101010","FA1/FA4: Justin Sun SEC fraud"],
+ ["CVX","1100110110100","FA3/FA4: Curve-dependent, anon"],
+ ["LTC","1100001110101","FA3/FA4: No moat, founder sold"],
+ ["SUI","0001110101111","FA1/FA2/FA3: Insider unlocks"],
+ ["SNX","1100100110101","FA3/FA4: sUSD depegged"],
+ ["ADA","1100001110100","FA3/FA4: TVL collapsed"],
+ ["DOT","1001100110001","FA2/FA3: Treasury burn $133M/yr"],
+ ["POL","0100110110101","FA1/FA3/FA4: 3/4 founders left"],
+ ["CRV","0010110110100","FA1/FA2/FA4: Egorov loans"],
+ ["Sonic","0100110110100","FA1/FA3/FA4: Cronje abandons"],
+ ["ICP","0001100110101","FA1/FA2/FA3: -99% from launch"],
+ ["YFI","1100000110100","FA3/FA4: Founder left, dead"],
+ ["COMP","1100000110100","FA3/FA4: Leshner left"],
+ ["DASH","1100000110100","FA3/FA4: Use case dead"],
+ ["JUP","0010010101011","FA1/FA2/FA4: 19% circ, 72% top 10"],
+ ["XRP","0001010110100","FA1/FA2/FA3: 38B escrow, 1B/mo"],
+ ["MORPHO","0001000101011","FA1/FA2/FA3: Zero rev, 32% circ"],
+ ["SEI","0001100110000","FA1/FA2/FA3: 15% inflation"],
+ ["ZEC","0100001110000","FA1/FA3/FA4: Dev team resigned"],
+ ["TON","0000100110100","ALL FA: Durov arrested, 85% insider"],
+ ["EGLD","0000100010000","FA1/FA4: Removing supply cap"],
+ ["WLD","0000000101000","ALL FA: 1.8M tokens/week VC flood"],
+ ["PLUME","0000000101000","ALL FA: 8 months old, 80% locked"],
+ ["KAITO","0000000001000","ALL FA: Unproven, 24% circ"],
+ ["VIRTUAL","0000000010000","ALL FA: 99.9% revenue collapse"],
+ ["BTC",null,"Calibration anchor, not in the Opus run"],
+ ["VVV",null,"Added 2026-09-09, not in the Opus run"],["PENDLE",null,"Added 2026-09-09, not in the Opus run"],
+ ["AERO",null,"Added 2026-09-09, not in the Opus run"],["RAY",null,"Added 2026-09-09, not in the Opus run"],
+ ["PUMP",null,"Added 2026-09-09, not in the Opus run"],["LDO",null,"Added 2026-09-09, not in the Opus run"],
+ ["ENA",null,"Added 2026-09-09, not in the Opus run"],["ONDO",null,"Added 2026-09-09, not in the Opus run"],
+ ["LEO",null,"Added 2026-09-09, not in the Opus run"],["OKB",null,"Added 2026-09-09, not in the Opus run"],
+ ["ARB",null,"Added 2026-09-09, not in the Opus run"],["XLM",null,"Added 2026-09-09, not in the Opus run"],
+ ["BCH",null,"Control: widely seen as a non-recoverer"],["ETC",null,"Control: widely seen as a non-recoverer"],
+ ["XTZ",null,"Control: widely seen as a non-recoverer"]
+].map((t,i)=>({tk:t[0],bits:t[1]?[...t[1]].map(Number):null,risk:t[2],order:i}));
+const RESEARCH=__RESEARCH_JSON__;
+const NEWS=__NEWS_JSON__;
+const TARGETS_DEFAULT=__TARGETS_JSON__;
+let TARGETS={};try{TARGETS=Object.assign({},TARGETS_DEFAULT.tokens||{},JSON.parse(localStorage.getItem("cs.targets")||"{}"));}catch(e){TARGETS=Object.assign({},TARGETS_DEFAULT.tokens||{});}
+function saveTargets(){try{localStorage.setItem("cs.targets",JSON.stringify(TARGETS));}catch(e){}}
+function rankAt(mcap){const l=MARKET.top100||[];let r=1;for(const c of l){if(c.mcap>mcap)r++;}return r<=100?r:null;}
+function tgtCalc(tk){const m=MARKET.tokens[tk]||{},t=TARGETS[tk]||{};const px=m.price,circ=m.circ,total=m.total||m.circ;
+  const row=v=>v&&circ?{price:v,mcap:v*circ,fdv:v*total,mult:px?v/px:null,rank:rankAt(v*circ)}:null;
+  return{entry:row(+t.entry||0),target:row(+t.target||0),stop:row(+t.stop||0),note:t.note||"",status:(()=>{if(!px)return null;if(t.target&&px>=+t.target)return"hit";if(t.entry&&px<=+t.entry)return"entry";if(t.stop&&px<=+t.stop)return"stop";return t.entry?"wait":null;})()};}
+const RATERS={opus:"Opus 4.6",claude:"Claude",consensus:"Consensus"};
+// Live market data only corrects the Opus cells (researched earlier, now stale). The Claude
+// cells already use today's figures plus the inflation judgment, so they are never overridden.
+function opusLive(t){if(!t.bits)return null;const b=t.bits.slice();const m=MARKET.tokens[t.tk];
+  if(live&&m&&!m.error){if(m.fa2_live!=null)b[IDX.FA2]=m.fa2_live?1:0;if(m.fc2_live!=null)b[IDX.FC2]=m.fc2_live?1:0;}return b;}
+function raterBits(t,r){const c=RESEARCH.tokens[t.tk];const cb=c?c.bits:null;const ob=opusLive(t);
+  if(r==="claude")return cb;if(r==="opus")return ob;if(!cb||!ob)return null;return ob.map((b,i)=>b&&cb[i]?1:0);}
+
+const MARKET=__MARKET_JSON__;
+const IDX={FA2:1,FC2:8};
+function bitsOf(t){const src=raterBits(t,rater);return src?src.slice():null;}
+const money=n=>n==null?"&#x2014;":n>=1e9?"$"+(n/1e9).toFixed(2)+"B":n>=1e6?"$"+(n/1e6).toFixed(1)+"M":n>=1e3?"$"+(n/1e3).toFixed(0)+"K":"$"+n.toFixed(0);
+const price=n=>n==null?"&#x2014;":n>=1000?"$"+n.toLocaleString("en-US",{maximumFractionDigits:0}):n>=1?"$"+n.toFixed(2):"$"+n.toPrecision(3);
+const pct=n=>n==null?"&#x2014;":(n>0?"+":"")+n.toFixed(1)+"%";
+const PRESETS={
+ "Original":     {A:1.5,B:1.0,C:0.5},
+ "Risk-averse":  {A:2.5,B:1.0,C:0.25},
+ "Fundamentals": {A:1.0,B:2.0,C:0.5},
+ "Cash-flow":    {FA1:1,FA2:1,FA3:1.5,FA4:1,FB1:1.5,FB2:2.5,FB3:1,FC1:0.5,FC2:0.25,FC3:0.25,FC4:0.25,FC5:2,FC6:0.25},
+ "Custom":null
+};
+const AXES=[
+ ["Team",["FA1","FA4"]],["Supply",["FA2","FB3"]],["Moat",["FA3"]],["Utility",["FB1"]],
+ ["Revenue",["FB2","FC5"]],["Safety",["FC1","FC4"]],["Momentum",["FC3","FC6"]],["Entry",["FC2"]]
+];
+
+let W={}, preset="Original", gate=false, live=false, rater="claude", sel="HBAR", cmp="";
+function presetWeights(name){const p=PRESETS[name];const o={};FILTERS.forEach(([id,t])=>{o[id]=p[id]!==undefined?p[id]:p[t];});return o;}
+function load(){try{const s=JSON.parse(localStorage.getItem("cs.v1")||"null");if(s&&s.W){W=s.W;preset=s.preset||"Custom";gate=!!s.gate;live=!!s.live;rater=s.rater||"claude";sel=s.sel||sel;cmp=s.cmp||"";return;}}catch(e){}W=presetWeights("Original");}
+function save(){try{localStorage.setItem("cs.v1",JSON.stringify({W,preset,gate,live,rater,sel,cmp}));}catch(e){}}
+
+function score(t){const bits=bitsOf(t)||FILTERS.map(()=>0);const max=FILTERS.reduce((s,[id])=>s+W[id],0);const raw=FILTERS.reduce((s,[id],i)=>s+W[id]*bits[i],0);const afails=FILTERS.filter(([id,tier],i)=>tier==="A"&&!bits[i]).map(([id])=>id);const c=RESEARCH.tokens[t.tk];const diff=(c&&t.bits)?t.bits.reduce((n,b,i)=>n+(b!==c.bits[i]?1:0),0):null;
+  return{raw,max,norm:max?raw/max*12:0,afails,excluded:gate&&afails.length>0,diff,unscored:!raterBits(t,rater)};}
+function tierOf(s,thrC,thrW){if(s.excluded)return"gate";if(s.norm>=thrC)return"core";if(s.norm>=thrW)return"watch";return"avoid";}
+function axisVals(t){const bits=bitsOf(t)||FILTERS.map(()=>0);return AXES.map(([name,ids])=>{let w=0,v=0;ids.forEach(id=>{const i=FILTERS.findIndex(f=>f[0]===id);w+=W[id];v+=W[id]*bits[i];});return{name,v:w?v/w:null};});}
+const fmt=n=>(Math.round(n*10)/10).toFixed(1);
+
+function renderPlan(scored,thrC,thrW){
+  const el=document.getElementById("plan");const rows=[];let alloc=0,all=0,coreFlat=0,coreZero=0;
+  scored.forEach(x=>{const t=TARGETS[x.t.tk]||{};if(!(t.alloc>0||t.target||t.entry))return;const c=tgtCalc(x.t.tk);const m=MARKET.tokens[x.t.tk]||{};
+    const base=t.entry?+t.entry:m.price;const mult=(t.target&&base)?+t.target/base:null;const a=+t.alloc||0;alloc+=a;
+    const isCore=x.tier==="core";if(mult!=null){all+=a*mult;coreFlat+=a*(isCore?mult:1);coreZero+=a*(isCore?mult:0);}else{all+=a;coreFlat+=a;coreZero+=isCore?a:0;}
+    rows.push({tk:x.t.tk,tier:x.tier,a,entry:t.entry,target:t.target,mult,now:m.price,status:c.status,unscored:x.s.unscored});});
+  if(!rows.length){el.innerHTML=`<div class="plan-h"><span class="label">Your plan</span></div><p class="empty">Pick a token, set an entry, target and allocation in the panel on the right. The plan and its portfolio multiple appear here.</p>`;return;}
+  const cash=Math.max(0,100-alloc);const tot=alloc+cash;const k=v=>tot?((v+cash)/tot).toFixed(2)+"&#xD7;":"&#x2014;";
+  const tierLbl={core:"Core hold",watch:"Watch",avoid:"Avoid",gate:"Gate fail"};
+  el.innerHTML=`<div class="plan-h"><span class="label">Your plan</span><div class="plan-kpis"><span>allocated <b>${alloc.toFixed(0)}%</b></span><span>all targets hit <b>${k(all)}</b></span><span>only Core holds hit, rest flat <b>${k(coreFlat)}</b></span><span>rest to zero <b>${k(coreZero)}</b></span></div></div>
+  <table><thead><tr><th>Token</th><th>Tier</th><th>Alloc</th><th>Entry</th><th>Now</th><th>Target</th><th>&#xD7;</th><th>Status</th></tr></thead><tbody>${rows.map(r=>`<tr><td class="tok" data-tk="${r.tk}">${r.tk}</td><td style="text-align:left">${r.unscored?"&#x2014;":tierLbl[r.tier]}</td><td>${r.a?r.a.toFixed(0)+"%":"&#x2014;"}</td><td>${r.entry?price(+r.entry):"&#x2014;"}</td><td>${price(r.now)}</td><td>${r.target?price(+r.target):"&#x2014;"}</td><td>${r.mult!=null?r.mult.toFixed(1)+"&#xD7;":"&#x2014;"}</td><td style="text-align:left">${{entry:'<span class="chip entry">In zone</span>',hit:'<span class="chip hit">Target hit</span>',stop:'<span class="chip avoid">Stop</span>',wait:'<span class="chip gate">Waiting</span>'}[r.status]||""}</td></tr>`).join("")}</tbody></table>
+  <p class="note">Multiple = target &#xF7; entry (or &#xF7; current price when no entry), weighted by allocation; unallocated share counts as cash at 1&#xD7;. Tiers use the weights and thresholds you set above.</p>`;
+  el.querySelectorAll("td.tok").forEach(td=>td.onclick=()=>{sel=td.dataset.tk;update();});
+}
+function planState(){return{t:TARGETS,W,preset,rater,gate,live,c:+document.getElementById("thrCore").value,w:+document.getElementById("thrWatch").value};}
+function encodePlan(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");}
+function decodePlan(s){try{s=s.replace(/-/g,"+").replace(/_/g,"/");while(s.length%4)s+="=";return JSON.parse(decodeURIComponent(escape(atob(s))));}catch(e){return null;}}
+function loadHash(){const m=location.hash.match(/^#p=(.+)$/);if(!m)return false;const o=decodePlan(m[1]);if(!o||!o.W)return false;
+  TARGETS=o.t||{};W=o.W;preset=o.preset||"Custom";rater=o.rater||"claude";gate=!!o.gate;live=!!o.live;
+  if(o.c)document.getElementById("thrCore").value=o.c;if(o.w)document.getElementById("thrWatch").value=o.w;saveTargets();
+  const b=document.getElementById("banner");b.hidden=false;b.innerHTML="<b>Shared plan loaded.</b> It is now your own copy: edits stay in this browser and do not change the sender&#x2019;s link.";
+  history.replaceState(null,"",location.pathname+location.search);return true;}
+function renderRaters(){const el=document.getElementById("raters");el.innerHTML="";Object.entries(RATERS).forEach(([k,n])=>{const b=document.createElement("button");b.textContent=n;b.setAttribute("aria-pressed",rater===k);b.title={opus:"Pass/fail as researched by Claude Opus 4.6 (your run)",claude:"Pass/fail as researched by Claude with web search on "+RESEARCH.as_of+" under research/RUBRIC.md",consensus:"A cell passes only if both raters passed it"}[k];b.onclick=()=>{rater=k;renderRaters();update();};el.appendChild(b);});}
+function renderPresets(){const el=document.getElementById("presets");el.innerHTML="";Object.keys(PRESETS).forEach(n=>{const b=document.createElement("button");b.textContent=n;b.setAttribute("aria-pressed",preset===n);b.disabled=(n==="Custom");b.onclick=()=>{preset=n;W=presetWeights(n);renderWeights();update();};el.appendChild(b);});}
+function renderWeights(){const el=document.getElementById("weights");el.innerHTML="";["A","B","C"].forEach(tier=>{const box=document.createElement("div");box.className="tier";const ids=FILTERS.filter(f=>f[1]===tier);const sum=ids.reduce((s,[id])=>s+W[id],0);box.innerHTML=`<div class="tier-h"><span class="label">${TIERS[tier]}</span><span class="num" data-sum="${tier}">${fmt(sum)} pts</span></div>`;ids.forEach(([id,,name])=>{const row=document.createElement("div");row.className="w"+(W[id]===0?" zero":"");row.innerHTML=`<span class="id">${id}</span><input type="range" min="0" max="3" step="0.25" value="${W[id]}" aria-label="${name} weight"><span class="val num">${fmt(W[id])}</span><span class="nm">${name}</span>`;row.querySelector("input").oninput=e=>{W[id]=+e.target.value;row.querySelector(".val").textContent=fmt(W[id]);row.classList.toggle("zero",W[id]===0);preset="Custom";renderPresets();update(false);};box.appendChild(row);});el.appendChild(box);});}
+
+function update(rebuildWeights){
+  window.__lastScored=null;
+  const thrC=+document.getElementById("thrCore").value, thrW=+document.getElementById("thrWatch").value;
+  const scored=TOKENS.map(t=>({t,s:score(t)}));
+  scored.sort((a,b)=>(a.s.unscored-b.s.unscored)||(a.s.excluded-b.s.excluded)||(b.s.norm-a.s.norm)||(a.t.order-b.t.order));
+  const counts={core:0,watch:0,avoid:0,gate:0};
+  scored.forEach(x=>{x.tier=tierOf(x.s,thrC,thrW);if(!x.s.unscored)counts[x.tier]++;});
+  // sums in weight panel
+  ["A","B","C"].forEach(tier=>{const el=document.querySelector(`[data-sum="${tier}"]`);if(el)el.textContent=fmt(FILTERS.filter(f=>f[1]===tier).reduce((s,[id])=>s+W[id],0))+" pts";});
+  // tiles
+  document.getElementById("tiles").innerHTML=[
+    ["Core hold",counts.core,`&#x2265; ${thrC}/12`+(gate?", no A fails":""),"var(--good)"],
+    ["Watch",counts.watch,`${thrW} &#x2013; ${thrC}`,"var(--warn)"],
+    ["Avoid",counts.avoid+counts.gate,gate?`${counts.gate} excluded by gates`:`< ${thrW}/12`,"var(--crit)"]
+  ].map(([k,v,t,c])=>`<div class="tile" style="--tile:${c}"><div class="k">${k}</div><div class="v">${v}</div><div class="t">${t}</div></div>`).join("");
+  document.getElementById("gateNote").textContent=gate?"Any Tier A fail sinks the token to the bottom regardless of score.":"";
+  // table
+  const tb=document.getElementById("rows");tb.innerHTML="";
+  scored.forEach((x,i)=>{const tr=document.createElement("tr");tr.tabIndex=0;tr.className=(x.t.tk===sel?"sel ":"")+((x.s.excluded||x.s.unscored)?"excl":"");
+    const dots=FILTERS.filter(f=>f[1]==="A").map(([id])=>`<i class="${x.s.afails.includes(id)?"x":""}" title="${id}"></i>`).join("");
+    const chip=x.s.unscored?'<span class="chip gate">Not scored</span>':{core:'<span class="chip core">Core hold</span>',watch:'<span class="chip watch">Watch</span>',avoid:'<span class="chip avoid">Avoid</span>',gate:'<span class="chip gate">Gate fail</span>'}[x.tier];
+    tr.innerHTML=`<td class="num">${i+1}</td><td class="tok">${x.t.tk}</td><td class="num">${x.s.unscored?"&#x2014;":fmt(x.s.norm)}</td><td><div class="bar"><div class="tr"><div class="fl" style="width:${x.s.norm/12*100}%"></div></div></div></td><td>${chip}</td>${(()=>{const m=MARKET.tokens[x.t.tk]||{};const a=m.ath_change_pct;return`<td class="num">${price(m.price)}</td><td class="num ${a!=null&&a<=-75?"neg":""}">${pct(a)}</td><td class="num">${m.circ_pct==null?"&#x2014;":m.circ_pct.toFixed(0)+"%"}</td><td class="num">${money(m.rev30d)}</td>`;})()}<td class="num ${x.s.diff>=4?"neg":""}">${x.s.diff==null?"&#x2014;":x.s.diff}</td>${(()=>{const c=tgtCalc(x.t.tk);const st={entry:'<span class="chip entry">In zone</span>',hit:'<span class="chip hit">Target hit</span>',stop:'<span class="chip avoid">Stop</span>'}[c.status]||"";
+  return`<td class="num tgtc">${c.entry?price(c.entry.price)+" <span class='live'>"+pct((c.entry.mult-1)*100)+"</span>":"&#x2014;"} ${st}</td><td class="num tgtc">${c.target?price(c.target.price)+" <span class='live'>"+c.target.mult.toFixed(1)+"&#xD7;</span>":"&#x2014;"}</td><td>${(()=>{const o=(NEWS.tokens[x.t.tk]||{}).opinion;if(!o)return"&#x2014;";const cls={bullish:"bull",bearish:"bear",neutral:"neut",noise:"noise"}[o.stance]||"neut";return`<span class="chip ${cls}" title="${(o.text||"").replace(/"/g,"&quot;")}">${o.stance}</span>`;})()}</td>`;})()}<td><span class="dots">${dots}</span></td><td class="risk">${(rater==="opus"?x.t.risk:(RESEARCH.tokens[x.t.tk]||{}).key_risk)||x.t.risk}</td>`;
+    const pick=()=>{sel=x.t.tk;update();};tr.onclick=pick;tr.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();pick();}};
+    tb.appendChild(tr);});
+  renderPlan(scored,thrC,thrW);
+  renderDetail(scored,thrC,thrW);
+  save();
+}
+
+function radarSVG(a,b){
+  const N=AXES.length,cx=190,cy=150,R=96;const ang=i=>-Math.PI/2+i*2*Math.PI/N;
+  const pt=(i,r)=>[cx+Math.cos(ang(i))*r,cy+Math.sin(ang(i))*r];
+  let s=`<svg class="radar" viewBox="0 0 380 300" role="img" aria-label="Spider chart of weighted pass rate per category">`;
+  [0.25,0.5,0.75,1].forEach(f=>{s+=`<polygon points="${AXES.map((_,i)=>pt(i,R*f).join(",")).join(" ")}" fill="none" stroke="var(--grid)" stroke-width="1"/>`;});
+  AXES.forEach((ax,i)=>{const [x,y]=pt(i,R);s+=`<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="var(--grid)" stroke-width="1"/>`;const [lx,ly]=pt(i,R+20);const anchor=Math.abs(lx-cx)<6?"middle":(lx<cx?"end":"start");s+=`<text x="${lx}" y="${ly+4}" text-anchor="${anchor}" font-size="11" fill="var(--ink-2)" font-family="IBM Plex Sans,system-ui,sans-serif">${ax[0]}</text>`;});
+  const poly=(vals,color,dash)=>{const pts=vals.map((v,i)=>pt(i,R*(v.v??0)));s+=`<polygon points="${pts.map(p=>p.join(",")).join(" ")}" fill="${color}" fill-opacity="0.18" stroke="${color}" stroke-width="2" ${dash?'stroke-dasharray="4 3"':""} stroke-linejoin="round"/>`;pts.forEach(p=>{s+=`<circle cx="${p[0]}" cy="${p[1]}" r="3.5" fill="${color}" stroke="var(--surface)" stroke-width="2"/>`;});};
+  if(b)poly(b,"var(--s2)",true);poly(a,"var(--s1)",false);
+  return s+"</svg>";
+}
+function renderDetail(scored,thrC,thrW){
+  const x=scored.find(z=>z.t.tk===sel)||scored[0];const y=cmp?scored.find(z=>z.t.tk===cmp):null;
+  const a=axisVals(x.t),b=y?axisVals(y.t):null;
+  const opts=['<option value="">none</option>'].concat(TOKENS.filter(t=>t.tk!==sel).map(t=>`<option value="${t.tk}" ${t.tk===cmp?"selected":""}>${t.tk}</option>`)).join("");
+  const tierLbl={core:"Core hold",watch:"Watch",avoid:"Avoid",gate:"Gate fail"};
+  const R=RESEARCH.tokens[x.t.tk];
+  let h=`<h2>${x.t.tk}<span class="sc num">${x.s.unscored?"&#x2014;":fmt(x.s.norm)+" / 12 &#xB7; "+tierLbl[x.tier]}</span></h2>`;
+  h+=`<div class="risk"><b style="font-weight:500;color:var(--ink)">Opus:</b> ${x.t.risk}${R?`<br><b style="font-weight:500;color:var(--ink)">Claude (${R.confidence}):</b> ${R.key_risk}`:""}</div>`;
+  {const m=MARKET.tokens[x.t.tk];if(m&&!m.error){const tr=(m.rev30d!=null&&m.rev30d_prev)?((m.rev30d-m.rev30d_prev)/m.rev30d_prev*100):null;
+    h+=`<div class="mkt"><div><div class="k">Price</div><div class="v">${price(m.price)} <span style="color:var(--muted)">${pct(m.chg_24h_pct)} 24h</span></div></div>
+    <div><div class="k">Rank</div><div class="v">#${m.rank??"&#x2014;"}</div></div>
+    <div><div class="k">Market cap</div><div class="v">${money(m.mcap)}</div></div><div><div class="k">FDV</div><div class="v">${money(m.fdv)}</div></div>
+    <div><div class="k">Circulating</div><div class="v">${m.circ_pct==null?"&#x2014;":m.circ_pct.toFixed(1)+"%"}</div></div>
+    <div><div class="k">From ATH</div><div class="v">${pct(m.ath_change_pct)} <span style="color:var(--muted)">${m.ath_date||""}</span></div></div>
+    <div><div class="k">Fees 30d</div><div class="v">${money(m.fees30d)}</div></div>
+    <div><div class="k">Revenue 30d</div><div class="v">${money(m.rev30d)} <span style="color:var(--muted)">${tr==null?"":pct(tr)+" vs prior 30d"}</span></div></div>
+    <div class="src">CoinGecko: ${m.id}${m.llama_src?" &#xB7; DeFiLlama: "+m.llama_src:" &#xB7; no DeFiLlama match"}</div></div>`;}}
+  h+=`<div class="cmp"><label for="cmpSel">Compare with</label><select id="cmpSel">${opts}</select></div>`;
+  h+=`<div class="legend"><span style="--c:var(--s1)">${x.t.tk}</span>${y?`<span style="--c:var(--s2)">${y.t.tk}</span>`:""}</div>`;
+  h+=radarSVG(a,b);
+  h+=`<table class="axes"><tbody>${a.map((v,i)=>`<tr><td>${v.name}</td><td class="num">${v.v===null?"n/a":Math.round(v.v*100)+"%"}</td>${y?`<td class="num" style="color:var(--muted)">${b[i].v===null?"n/a":Math.round(b[i].v*100)+"%"}</td>`:""}</tr>`).join("")}</tbody></table>`;
+  {const c=tgtCalc(x.t.tk),t=TARGETS[x.t.tk]||{},m=MARKET.tokens[x.t.tk]||{};
+   h+=`<div class="sec"><h3>Targets</h3><div class="tg">
+     <div><label for="tgEntry">Entry $</label><input id="tgEntry" type="number" step="any" value="${t.entry??""}" placeholder="buy at"></div>
+     <div><label for="tgTarget">Target $</label><input id="tgTarget" type="number" step="any" value="${t.target??""}" placeholder="sell at"></div>
+     <div><label for="tgStop">Stop $</label><input id="tgStop" type="number" step="any" value="${t.stop??""}" placeholder="optional"></div>
+     <div><label for="tgAlloc">Allocation %</label><input id="tgAlloc" type="number" step="any" min="0" max="100" value="${t.alloc??""}" placeholder="of portfolio"></div>
+     <div class="note-in"><label for="tgNote">Note</label><input id="tgNote" type="text" value="${(t.note||"").replace(/"/g,"&quot;")}" placeholder="why this level"></div></div>`;
+   if(c.entry||c.target||c.stop){h+=`<table class="tgt"><thead><tr><th></th><th>Price</th><th>vs now</th><th>Mcap (today's float)</th><th>Fully diluted</th><th>Rank</th></tr></thead><tbody>`;
+     [["Entry",c.entry],["Target",c.target],["Stop",c.stop]].forEach(([k,r])=>{if(r)h+=`<tr><td>${k}</td><td>${price(r.price)}</td><td>${r.mult>=2?r.mult.toFixed(1)+"&#xD7;":pct((r.mult-1)*100)}</td><td>${money(r.mcap)}</td><td>${money(r.fdv)}</td><td>${r.rank?"#"+r.rank:"&gt;100"}</td></tr>`;});
+     h+=`</tbody></table><p class="note">Market cap uses today's circulating supply (${m.circ_pct!=null?m.circ_pct.toFixed(0)+"% of existing supply":"n/a"}), so it ignores future emissions. The fully diluted column is the ceiling once every existing token is unlocked. Rank compares against today's top 100.</p>`;}
+   h+=`<details><summary class="note" style="cursor:pointer">Export plan as JSON</summary><textarea class="exp" readonly>${JSON.stringify({as_of:new Date().toISOString().slice(0,10),tokens:TARGETS},null,1).replace(/</g,"&lt;")}</textarea><div class="note">Paste into data/targets.json to keep them in the repo.</div></details></div>`;
+   const nw=NEWS.tokens[x.t.tk];if(nw&&((nw.items&&nw.items.length)||nw.opinion)){const o=nw.opinion;const cls=o?({bullish:"bull",bearish:"bear",neutral:"neut",noise:"noise"}[o.stance]||"neut"):"";
+     h+=`<div class="sec"><h3>News, last 14 days &#xB7; ${NEWS.source}</h3>`;
+     if(o)h+=`<div class="risk"><span class="chip ${cls}">${o.stance}</span> ${o.text}${o.filters&&o.filters.length?` <span class="live">touches ${o.filters.join(", ")}</span>`:""}${o.as_of?` <span class="live">(${o.as_of})</span>`:""}</div>`;
+     if(o&&o.cited_items&&o.cited_items.length)h+=`<ul class="nw">${o.cited_items.map((it,i)=>`<li class="cited"><span class="n">${i+1}</span><span><a href="${it.url}" target="_blank" rel="noopener">${it.title.replace(/</g,"&lt;")}</a><div class="m">${it.source} &#xB7; ${it.date} &#xB7; cited</div></span></li>`).join("")}</ul>`;
+     h+=`<h3 style="margin-top:10px">Latest headlines</h3><ul class="nw">${nw.items.map((it,i)=>`<li><span class="n">${i+1}</span><span><a href="${it.url}" target="_blank" rel="noopener">${it.title.replace(/</g,"&lt;")}</a><div class="m">${it.source} &#xB7; ${it.date}</div></span></li>`).join("")}</ul></div>`;}
+   else{h+=`<div class="sec"><h3>News</h3><p class="note">No coverage in the tracked outlets in the last 14 days.</p></div>`;}}
+  const eb=bitsOf(x.t);h+=`<div class="fl-list">${FILTERS.map(([id,tier,name],i)=>{const p=eb[i];const m=MARKET.tokens[x.t.tk]||{};let note="";
+    if(rater==="opus"&&x.t.bits){if(id==="FA2"&&m.circ_pct!=null){const lv=m.fa2_live?1:0;note=`<span class="live ${lv!==x.t.bits[i]?"diff":""}">${m.circ_pct.toFixed(0)}% circ${lv!==x.t.bits[i]?" (Opus said "+(x.t.bits[i]?"&#x2713;":"&#x2717;")+")":""}</span>`;}
+    if(id==="FC2"&&m.ath_change_pct!=null){const lv=m.fc2_live?1:0;note=`<span class="live ${lv!==x.t.bits[i]?"diff":""}">${pct(m.ath_change_pct)}${lv!==x.t.bits[i]?" (Opus said "+(x.t.bits[i]?"&#x2713;":"&#x2717;")+")":""}</span>`;}}
+    const ob=x.t.bits?x.t.bits[i]:null,cb=R?R.bits[i]:null;const ev=R?(R.evidence[id]||""):"";
+    const both=`<span class="live ${(ob!=null&&cb!=null&&ob!==cb)?"diff":""}" title="${ev.replace(/"/g,"&quot;")}">O ${ob==null?"&#x2014;":ob?"&#x2713;":"&#x2717;"} &#xB7; C ${cb==null?"&#x2014;":cb?"&#x2713;":"&#x2717;"}</span>`;
+    return`<div class="fl-row ${p?"":"fail"}"><span class="${p?"ok":"no"}">${p?"&#x2713;":"&#x2717;"}</span><span class="id">${id}</span><span title="${ev.replace(/"/g,"&quot;")}">${name}${ev?`<div class="ev">${ev}</div>`:""}</span>${note||both}<span class="pt">${p?"+":"&#x2212;"}${fmt(W[id])}</span></div>`;}).join("")}</div>`;
+  if(R&&R.sources.length)h+=`<div class="note"><b>Sources checked:</b> ${R.sources.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener" style="color:var(--accent)">[${i+1}]</a>`).join(" ")}</div>`;
+  h+=`<p class="note">Each filter row shows both verdicts: O = Opus 4.6 (your run), C = Claude with web search on ${RESEARCH.as_of}. Hover a filter for the evidence line. Each spider axis is the weighted pass rate of its filters, so it moves with your weights. <b>Entry</b> is FC2 alone: it says whether the price is cheap, not whether the token is good.</p>`;
+  const el=document.getElementById("detail");el.innerHTML=h;
+  el.querySelector("#cmpSel").onchange=e=>{cmp=e.target.value;update();};
+  [["tgEntry","entry"],["tgTarget","target"],["tgStop","stop"],["tgAlloc","alloc"],["tgNote","note"]].forEach(([id,k])=>{const inp=el.querySelector("#"+id);if(!inp)return;
+    inp.onchange=e=>{const t=TARGETS[x.t.tk]||(TARGETS[x.t.tk]={});const v=e.target.value;if(k==="note")t.note=v;else if(v==="")delete t[k];else t[k]=+v;if(!Object.keys(t).length)delete TARGETS[x.t.tk];saveTargets();update();};});
+}
+
+load();
+document.getElementById("gate").checked=gate;
+document.getElementById("gate").onchange=e=>{gate=e.target.checked;update();};
+document.getElementById("live").checked=live;
+document.getElementById("live").onchange=e=>{live=e.target.checked;update();};
+document.getElementById("asof").textContent="as of "+MARKET.as_of;
+document.getElementById("reset").onclick=()=>{preset="Original";W=presetWeights("Original");gate=false;live=false;document.getElementById("gate").checked=false;document.getElementById("live").checked=false;document.getElementById("thrCore").value=10;document.getElementById("thrWatch").value=8;renderPresets();renderWeights();update();};
+["thrCore","thrWatch"].forEach(id=>document.getElementById(id).oninput=()=>update());
+loadHash();
+document.getElementById("shareBtn").onclick=()=>{const url=location.origin+location.pathname+"#p="+encodePlan(planState());const inp=document.getElementById("shareUrl");inp.value=url;inp.hidden=false;inp.select();
+  const done=()=>{document.getElementById("shareBtn").textContent="Link copied";setTimeout(()=>document.getElementById("shareBtn").textContent="Share plan",1800);};
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(url).then(done,()=>{});else{try{document.execCommand("copy");done();}catch(e){}}};
+document.getElementById("aboutFilters").innerHTML=FILTERS.map(([id,t,n])=>`<dt>${id}</dt><dd><b style="font-weight:500;color:var(--ink)">${n}</b> &#xB7; ${TIERS[t]} &#xB7; ${({A:"1.5",B:"1.0",C:"0.5"})[t]} pts in the original weights</dd>`).join("");
+document.getElementById("aboutData").textContent=`Market data: CoinGecko and DeFiLlama, ${MARKET.as_of}. Claude research: ${RESEARCH.rater}, ${RESEARCH.as_of}, rubric in the project repository. News: ${NEWS.source}, ${NEWS.as_of}. Opinions are written by a model from headlines only and cite the items they used.`;
+renderRaters();renderPresets();renderWeights();update();
+</script>

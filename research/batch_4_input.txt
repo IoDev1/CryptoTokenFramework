@@ -1,0 +1,6 @@
+AVAX: price $8.03, mcap 3467562594, FDV 3721897281, circ 60.0% (max supply capped), from ATH -94.5% (ATH 2021-11-21), fees30d 117845, rev30d 117845, rev prior30d 60713, rev1y 4977849, llama source: Avalanche
+KAS: price $0.03620116, mcap 1002473342, FDV 1002581782, circ 96.5% (max supply capped), from ATH -82.5% (ATH 2024-07-31), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
+VET: price $0.00787551, mcap 676747276, FDV 676747276, circ 99.2% (max supply capped), from ATH -97.2% (ATH 2021-04-18), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
+TRX: price $0.339384, mcap 32219228974, FDV 32219668091, circ 100.0% (max supply UNCAPPED), from ATH -21.3% (ATH 2024-12-03), fees30d 24648407, rev30d 24648407, rev prior30d 26794675, rev1y 358951972, llama source: Tron
+CVX: price $2.21, mcap 206187656, FDV 221221076, circ 93.2% (max supply capped), from ATH -96.3% (ATH 2022-01-01), fees30d 2011764, rev30d 962945, rev prior30d 723687, rev1y 17013431, llama source: Convex Finance
+LTC: price $54.51, mcap 4230612918, FDV 4230611555, circ 92.4% (max supply capped), from ATH -86.7% (ATH 2021-05-09), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None

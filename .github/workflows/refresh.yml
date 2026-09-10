@@ -1,0 +1,55 @@
+name: Refresh data and deploy
+
+on:
+  schedule:
+    - cron: "15 6 * * *"      # daily 06:15 UTC: market + news, rebuild, deploy
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Market data (CoinGecko + DeFiLlama, no key)
+        run: python3 scripts/fetch_market.py
+      - name: News (outlet RSS, no key; keeps last opinions)
+        run: python3 scripts/fetch_news.py
+      # Model steps (news stance daily, research monthly) are added in the next step with
+      # ANTHROPIC_API_KEY as a repository secret. Until then the last stored opinions are shown.
+      - name: Build page and snapshot data
+        run: python3 scripts/build.py
+      - name: Commit refreshed data
+        run: |
+          git config user.name "refresh-bot"
+          git config user.email "refresh-bot@users.noreply.github.com"
+          git add data scorecard/index.html
+          git diff --cached --quiet || git commit -m "data: refresh $(date -u +%F)"
+          git push
+      - name: Prepare site
+        run: |
+          mkdir -p _site && cp scorecard/index.html _site/index.html && touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

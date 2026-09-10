@@ -1,0 +1,178 @@
+{
+ "tokens": {
+  "SUI": {
+   "bits": [1,0,0,1,1,0,0,0,1,0,1,0,0],
+   "evidence": {
+    "FA1": "Oct-2024 $400M 'insider selling' claim rebutted; wallet was a lockup-compliant partner; Mysten treasury vests to 2030; no dump documented",
+    "FA2": "Circulating 41% of 10B capped supply; ~52% still allocated for release through 2030",
+    "FA3": "Not top-2 among smart-contract L1s by fees/TVL (TVL $465M, fees $114k/30d); no structural lock-in",
+    "FA4": "Mysten Labs core team still shipping (Mysticeti, USDsui, ETH bridge Apr-2026; PQ signature roadmap Aug-2026)",
+    "FB1": "SUI is gas and PoS staking asset; network unusable without it",
+    "FB2": "DeFiLlama fees30d $113,761, far below $1M",
+    "FB3": "~64M SUI/month unlocks (~1-1.7% of circ per month, ~15-20%/yr) continuing to 2030; Sep-1-2026 unlock 22M",
+    "FC1": "Validators froze $162M of Cetus exploit funds May-2025 and voted to move them (90.9%); demonstrated freeze power",
+    "FC2": "-84.6% from ATH (2025-01-04); <= -75% passes",
+    "FC3": "TVL $465M in Aug-2026, 82% below $2.6B late-2025 peak; 30d revenue annualized below 1y figure",
+    "FC4": "Unlocks linear not cliff; Cetus freeze >12 months old; ETPs already listed Feb-2026; no pending binary event",
+    "FC5": "rev30d $40,516 vs prior $24,415 up, but annualized $486k vs rev1y $808k = clearly down 1y trend",
+    "FC6": "PQ vault 'before end of 2026' and ML-DSA mainnet 'Q1 2027' are quarter targets without dates; no dated catalyst"
+   },
+   "key_risk": "~15-20%/yr of circulating supply unlocking into a network whose TVL fell 82% and whose fees are ~$114k/month; validators have shown they can freeze funds",
+   "confidence": "M",
+   "sources": [
+    "https://cryptoslate.com/sui-foundation-rebuffs-allegations-of-insiders-selling-tokens-worth-400-million/",
+    "https://tokenomist.ai/sui/unlock-events",
+    "https://www.coingabbar.com/en/crypto-currency-news/sui-token-unlock-september-2026",
+    "https://cointelegraph.com/news/sui-passes-governance-vote-to-recover-162m-cetus-funds",
+    "https://cryptorank.io/news/feed/594e4-sui-price-outlook-2026-2030-2",
+    "https://www.kucoin.com/blog/sui-gains-institutional-attention-complete-guide-to-sui-blockchain-2026",
+    "https://crypto.news/sui-targets-2027-mainnet-rollout-for-native-quantum-safe-account-authentication/"
+   ]
+  },
+  "SNX": {
+   "bits": [1,0,0,1,1,0,0,0,1,0,0,1,0],
+   "evidence": {
+    "FA1": "No documented Warwick/treasury SNX market sales 2024-26; sUSD failure was treasury mismanagement, not token dumping",
+    "FA2": "Uncapped; total supply 581M vs ~344M a year ago (+69%) via Derive mint (29.3M) and SIP-423 sUSD compensation mints",
+    "FA3": "Perps volume far behind Hyperliquid/dYdX/GMX; volume fell during L2 sunset; fees $4.8k/30d; many interchangeable rivals",
+    "FA4": "Kain Warwick back leading; mainnet perps Dec-2025, multi-collateral Apr-2026, SLP; actively shipping",
+    "FB1": "SNX staking backs system; all trading revenue funds 50/50 SNX+sUSD buybacks today (fees flow to token)",
+    "FB2": "DeFiLlama fees30d $4,802 (trivial)",
+    "FB3": "~237M SNX minted for sUSD compensation/Derive (~69% of prior supply); Spartan Council can mint; vesting from mid-2027",
+    "FC1": "Contracts upgradeable via pDAO/Spartan Council multisig; SIP-423 froze the sUSD contract in Jun-2026",
+    "FC2": "-99.2% from ATH (2021-02-13)",
+    "FC3": "Volume/TVL down vs 2025 after sUSD depeg and L2 sunset; 30d fees $4.8k; no metric up YoY",
+    "FC4": "Compensation overhang (~237M SNX) created Jun-2026, public <6 months; unlock begins ~Jun-2027",
+    "FC5": "rev30d $4,802 vs prior $0 up; annualized $57.6k > rev1y $21.6k; passes mechanically on supplied figures",
+    "FC6": "SLP public launch and cbBTC margin 'Q3 2026', sUSD upgrade 'H2' undated; no dated catalyst"
+   },
+   "key_risk": "SIP-423 minted ~237M SNX (69% of supply) for sUSD holders that begins vesting mid-2027 onto a protocol earning ~$5k/month",
+   "confidence": "M",
+   "sources": [
+    "https://thedefiant.io/news/defi/warwick-personal-blame-susd-mismanagement-basis-vault-replacement",
+    "https://coinmarketcap.com/cmc-ai/synthetix/latest-updates/",
+    "https://coinmarketcap.com/currencies/synthetix/",
+    "https://coinjournal.net/news/snx-token-rises-as-synthetix-moves-to-re-acquire-derive-for-mainnet-perps/",
+    "https://blog.synthetix.io/2026-roadmap/",
+    "https://blog.synthetix.io/2026-roadmap-update-q2/",
+    "https://blog.synthetix.io/the-end-of-synthetix-token-inflation/"
+   ]
+  },
+  "ADA": {
+   "bits": [1,1,0,1,1,0,1,1,1,0,1,1,1],
+   "evidence": {
+    "FA1": "No documented insider dumping; IOG returned 4.1M ADA to treasury; treasury outflows gated by DRep votes (32.9M request rejected)",
+    "FA2": "83.4% of 45B cap circulating; reserve emission ~2%/yr and declining",
+    "FA3": "Not top-2 L1 by fees/TVL (TVL ~$65M, fees $41k/30d); no structural lock-in; share lost to ETH/SOL",
+    "FA4": "IOG/Hoskinson shipping Leios/Hydra; Cardano Foundation, Emurgo, Intersect provide multiple dev teams",
+    "FB1": "ADA is gas and the PoS staking asset",
+    "FB2": "DeFiLlama fees30d $40,686",
+    "FB3": "Fixed 0.3%-of-reserve per epoch (~2%/yr), 80/20 pools/treasury, no cliffs; change requires hard fork+governance",
+    "FC1": "Permissionless PoS, no freeze/blacklist; no history of frozen balances",
+    "FC2": "-92.8% from ATH (2021-09-01)",
+    "FC3": "Q4-2025 daily txs -27%, active addresses -30%; Sep-2026 weekly active addresses -37%; TVL ~$65M vs >$300M a year ago",
+    "FC4": "Grayscale withdrew sole ADA ETF filing Aug-7-2026 so no pending decision; security-status risk public for years",
+    "FC5": "rev30d $8,139 vs prior $7,139 (+14%); annualized $97.7k vs rev1y $110k (89%) not clearly down",
+    "FC6": "Dijkstra phase-1 hard fork (Ouroboros Leios) scheduled Q4-2026, published window Dec-5-2026 to Jan-4-2027"
+   },
+   "key_risk": "Network usage falling ~30% YoY with only ~$40k/month fees against an $8.3B market cap, and the only ETF sponsor withdrew",
+   "confidence": "M",
+   "sources": [
+    "https://thecryptobasic.com/2026/04/09/hoskinson-rejects-claims-that-iog-has-abandoned-cardano/",
+    "https://themarketperiodical.com/2026/05/24/cardano-news-iog-wins-four-treasury-votes-as-hoskinson-urges-more-support/",
+    "https://www.stakingrewards.com/asset/cardano",
+    "https://www.kucoin.com/news/flash/cardano-meets-sec-etf-shortcut-criteria-but-last-sponsor-withdraws-filing",
+    "https://messari.io/report/state-of-cardano-q4-2025",
+    "https://www.thecoinrepublic.com/2026/09/07/cardano-news-defi-tvl-breaks-record-as-iog-unveils-key-tech-development-stack/",
+    "https://primexbt.com/news/cardano-schedules-two-phase-dijkstra-hard-fork-for-q4-2026-and-q2-2027/"
+   ]
+  },
+  "DOT": {
+   "bits": [1,1,0,1,1,0,0,1,1,0,1,0,0],
+   "evidence": {
+    "FA1": "W3F states 5+ years runway without selling DOT; treasury spend via OpenGov; no documented insider dumps",
+    "FA2": "Hard cap 2.1B (Refs 1710/1828), ~81% circulating; issuance cut to ~56.9M/yr (~3.1%) on Mar-14-2026",
+    "FA3": "~3,300 daily active addresses (rank ~88) vs ~27k in 2022; parachain model widely judged failed; share lost",
+    "FA4": "Parity/Gavin Wood shipping JAM (M1 testnet), Sassafras; W3F and multiple JAM implementer teams",
+    "FB1": "DOT is gas, NPoS staking and coretime payment asset",
+    "FB2": "DeFiLlama fees30d $308",
+    "FB3": "Gross issuance ~3.1-3.35%/yr (>3%); treasury burn offset unverified; schedule changeable by referendum",
+    "FC1": "Permissionless NPoS relay chain, no freeze/blacklist authority",
+    "FC2": "-97.9% from ATH (2021-11-04)",
+    "FC3": "DAU at multi-year lows, TVL trailing L2s/Solana; 21Shares TDOT inflows only ~$11M; no metric up YoY",
+    "FC4": "Risks public for years; JAM vote not yet scheduled; no cliff unlocks or lawsuits pending",
+    "FC5": "DeFiLlama rev30d $0, rev1y $0",
+    "FC6": "JAM mainnet proposal 'Q3-Q4 2026' undated; dotUSD referendum (Sep-8-2026) needs separate undated runtime upgrade"
+   },
+   "key_risk": "Usage has collapsed to ~3k daily users and ~$300/month fees; JAM is a multi-year rebuild with no launch date",
+   "confidence": "M",
+   "sources": [
+    "https://cryptoslate.com/web3-foundation-parity-technologies-dismiss-polkadot-treasury-depletion-fears/",
+    "https://www.kucoin.com/news/flash/polkadot-s-annual-inflation-rate-to-drop-to-3-11-in-march-2026",
+    "https://polkadot.polkassembly.io/referenda/1710",
+    "https://thedefiant.io/news/blockchains/polkadot-ecosystem-update-may-2026",
+    "https://www.bitget.com/academy/polkadot-dot-2026",
+    "https://coinbureau.com/review/polkadot-dot",
+    "https://coinmarketcap.com/cmc-ai/polkadot-new/latest-updates/"
+   ]
+  },
+  "POL": {
+   "bits": [1,1,0,1,1,1,1,0,1,1,1,1,0],
+   "evidence": {
+    "FA1": "Dec-2024 founder-linked wallet sent ~20M POL (~0.2% of supply) to Binance, sale unconfirmed; no >2%/yr dumping documented",
+    "FA2": "Uncapped but fixed 2%/yr emission (1% validators, 1% treasury) minus EIP-1559 burns; net <=3%",
+    "FA3": "Behind Base and Arbitrum on L2 TVL/fees and losing share since 2023; stablecoin-payments niche not a top-2 lead",
+    "FA4": "Nailwal (Foundation CEO) and Boiron (Labs CEO) active; co-founders Kanani/Bjelic/Baylina left but replaced; 2 layoff rounds 2026",
+    "FB1": "POL is gas on Polygon PoS and the validator staking asset",
+    "FB2": "DeFiLlama fees30d $2,188,233",
+    "FB3": "Contract-encoded 2%/yr emission, no cliffs; inflation-removal proposal still draft (unvoted)",
+    "FC1": "PoS staking/bridge contracts on Ethereum upgradeable by 13-member Protocol Council multisig; validator set gated there",
+    "FC2": "-92.3% from ATH (2024-03-13)",
+    "FC3": "Record tx counts, stablecoin supply >$3B, Visa settlement $7B run-rate (Apr-2026), Revolut EURR (Aug-2026); fees flat YoY",
+    "FC4": "Layoffs/payments pivot public since Jan-2026; no unlock, lawsuit or delisting pending; tokenomics vote not scheduled",
+    "FC5": "rev30d $2.186M vs prior $2.277M (-4%, flat); annualized $26.2M vs rev1y $27.5M (95%) flat",
+    "FC6": "No dated upgrade/vote for Sep-2026 to Mar-2027 on Polygon blog; Gigagas milestones undated"
+   },
+   "key_risk": "Polygon Labs' payments revenue accrues to the company, not POL, while Base/Arbitrum take L2 share and a 13-member council controls upgrades",
+   "confidence": "M",
+   "sources": [
+    "https://coingape.com/is-polygon-co-founder-dumping-pol-matic-tokens-to-binance/",
+    "https://forum.polygon.technology/t/proposal-revision-of-pol-tokenomics-elimination-of-2-inflation-and-introduction-of-treasury-buyback-burn-policy/21323",
+    "https://ambcrypto.com/polygon-labs-announces-second-round-of-2026-layoffs-as-it-targets-profitability-in-2027/",
+    "https://www.cryptotimes.io/2026/07/20/pol-price-plunge-sparks-debate-over-polygon-foundations-accountability/",
+    "https://coinmarketcap.com/cmc-ai/polygon-ecosystem-token/latest-updates/",
+    "https://www.spendnode.io/blog/polygon-gas-limit-90m-2100-tps-gigagas-roadmap-stablecoin-payments/",
+    "https://polygon.technology/blog"
+   ]
+  },
+  "CRV": {
+   "bits": [0,0,1,1,1,1,0,1,1,0,1,0,0],
+   "evidence": {
+    "FA1": "Founder's ~$141M CRV-backed loans liquidated Jun-2024 after 158.65M CRV OTC sale Aug-2023; rubric names liquidated founder loans as FAIL",
+    "FA2": "Circulating 51.3% of 3.03B max; vesting continues to 2030",
+    "FA3": "Top-2 DEX by TVL (~$2B) for 4+ years and dominant stable-swap venue; crvUSD/LlamaLend add lock-in",
+    "FA4": "Egorov and core team shipping: LlamaLend V2 (Jul-2026), Resupply, YieldBasis credit line",
+    "FB1": "veCRV receives 50% of pool fees and crvUSD interest today; governance plus live fee share",
+    "FB2": "DeFiLlama fees30d $4,403,598",
+    "FB3": "Hardcoded emissions still ~4.0-4.8%/yr after Aug-2026 15% cut (>3%)",
+    "FC1": "Pools immutable, DAO-owned; emergency DAO can only kill gauges, no freeze/blacklist/mint authority",
+    "FC2": "-97.6% from ATH (2020-08-13)",
+    "FC3": "TVL ~$2.0-2.5B vs $3.05B 2025 average; 30d revenue $1.16M vs $2.66M/month 1y average; down",
+    "FC4": "Egorov leverage risk public >2 years; linear vesting only; no lawsuits or cliff unlocks ahead",
+    "FC5": "rev30d $1.158M vs prior $1.006M (+15%) but annualized $13.9M vs rev1y $31.9M = clearly down",
+    "FC6": "LlamaLend V2 L2 expansion undated; YieldBasis credit line already approved, not upcoming"
+   },
+   "key_risk": "4-5%/yr CRV emissions to LPs while protocol revenue has roughly halved YoY; founder has a history of leveraging and dumping supply",
+   "confidence": "M",
+   "sources": [
+    "https://www.theblock.co/post/299864/curve-founder-loan-positions-liquidation-risk",
+    "https://www.cryptotimes.io/2026/04/27/fact-check-did-michael-egorov-pull-100m-from-crv-to-buy-mansions-and-leave-bad-debt/",
+    "https://news.curve.finance/crv-emission-rate-gets-a-cut-as-programmed/",
+    "https://tokenomist.ai/curve-dao-token",
+    "https://news.curve.finance/curve-2025-year-in-review/",
+    "https://coinmarketcap.com/cmc-ai/curve-dao-token/latest-updates/",
+    "https://docs.curve.finance/liquidity-gauges-and-minting-crv/overview/"
+   ]
+  }
+ }
+}

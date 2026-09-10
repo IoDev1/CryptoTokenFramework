@@ -1,0 +1,260 @@
+{
+ "tokens": {
+  "XRP": {
+   "bits": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "Q1'25: escrow -900M XRP but Ripple wallet only +77M -> ~823M (1.4% circ) distributed/sold in one qtr; Larsen moved ~$344M to exchanges 2025",
+    "FA2": "Circulating 62.7% of 100B cap (<70%); ~35B still in Ripple escrow",
+    "FA3": "Largest payments L1 vs XLM for years; only altcoin with SEC-settled status, 5+ US spot ETFs ($1.5B), RLUSD $2.3B",
+    "FA4": "Garlinghouse/Ripple actively shipping (RLUSD, lending, Ripple Prime); rippled renamed XRPLD v3.2 June 2026",
+    "FB1": "XRP is the only gas on XRPL (fees burned) and required for account reserves",
+    "FB2": "DeFiLlama fees30d $12,967 (trivial); Ripple Prime/company revenue is not XRP's",
+    "FB3": "No minting, but Ripple unilaterally decides monthly re-lock of 1B escrow; net ~3-3.6B/yr (~5% circ) released at its discretion",
+    "FC1": "Validator UNL is a curated list published by Ripple/XRPLF (permissioned trust list); Ripple-influenced amendment voting",
+    "FC2": "-60.5% from ATH (supplied) > -75% threshold",
+    "FC3": "Daily txs hit 3M Mar 2026 (3x mid-2025), RLUSD to $2.3B, ETF AUM $1.5B; but DAU down ~61% and new wallets at Nov-2024 low",
+    "FC4": "SEC case dismissed Aug 2025; escrow schedule known since 2017; no lawsuit/cliff/fork pending in 6 months",
+    "FC5": "rev30d $12,967 vs prior $8,435 up, but 1y $312,685 (~$26k/mo avg) -> current run-rate ~50% below 1y average",
+    "FC6": "Only fixCleanup3_3_0 bug-fix amendment (Sept 2026); EVM sidechain/lending are undated roadmap items; no dated catalyst"
+   },
+   "key_risk": "Ripple controls ~35B escrowed XRP and sells continuously while on-ledger fees are trivial; token value rests on Ripple's business, not XRPL usage",
+   "confidence": "M",
+   "sources": [
+    "https://ripple.com/insights/q1-2025-xrp-markets-report/",
+    "https://www.theblock.co/post/363186/ripple-co-founder-chris-larsen-moves-nearly-30-million-worth-of-xrp-to-coinbase-as-token-nears-all-time-high",
+    "https://cryptobriefing.com/xrp-ledger-institutional-transactions-active-accounts/",
+    "https://coinedition.com/xrp-ledger-activity-hits-2026-low-as-traders-await-next-catalyst/",
+    "https://cryptoslate.com/xrpls-coming-hard-fork-shows-who-really-controls-a-blockchain-split/",
+    "https://ripple.com/insights/xrp-etfs-the-institutional-era-has-begun/",
+    "https://coinlaw.io/xrp-statistics/"
+   ]
+  },
+  "MORPHO": {
+   "bits": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "No documented insider selling; founders re-locked to 2y linear vest ending May 2028; VCs BOUGHT $175M (Jun 2026), Apollo up to 90M over 4y",
+    "FA2": "Circulating 68.9% of 1B cap (<70%); ~311M still locked",
+    "FA3": "#2 DeFi lender by TVL behind Aave; exclusive distribution via Coinbase, Crypto.com, Gemini, SocGen Forge; $7-8B TVL",
+    "FA4": "Paul Frambot + co-founders active; Morpho Labs now subsidiary of Morpho Association; V2/Midnight shipped 2025-26",
+    "FB1": "Governance-only token; fee switch (max 25% of interest) exists but is OFF; $0 of ~$257M cumulative fees to holders",
+    "FB2": "DeFiLlama fees30d $18.55M (>= $1M) from Morpho Blue/Midnight",
+    "FB3": "~311M locked vesting linearly to 2027-2029 (~100M/yr, ~15% of circ/yr); DAO can redirect 35% governance reserve",
+    "FC1": "Wrapped MORPHO is an upgradeable token contract under DAO/multisig; Blue core is immutable but token is not",
+    "FC2": "-42.2% from ATH (supplied) > -75% threshold",
+    "FC3": "Users 67k -> 1.4M, deposits $5B -> $13B peak (Apr 2026), settled $7-8B; fees $18.5M/30d",
+    "FC4": "Fee-switch legal limbo and vesting public since 2024-25; linear unlocks only, no cliff >10%; no lawsuit",
+    "FC5": "DeFiLlama rev30d $0 / prior $0 / 1y $0 -> no protocol revenue data",
+    "FC6": "Morpho 2026 blog lists V2 priorities but no dated launch; fee-switch vote not scheduled"
+   },
+   "key_risk": "All value accrues to lenders/curators, none to MORPHO; fee switch stuck on legal work while ~31% of supply still vests",
+   "confidence": "M",
+   "sources": [
+    "https://docs.morpho.org/learn/governance/morpho-token/",
+    "https://tokenomist.ai/morpho/unlock-events",
+    "https://fortune.com/2026/06/09/morpho-fundraise-a16z-crypto-paradigm-ribbit-capital-175-million/",
+    "https://morpho.org/blog/morpho-2026/",
+    "https://cryptobriefing.com/morpho-record-token-exchange-outflow/",
+    "https://defillama.com/token/morpho",
+    "https://www.bitget.com/news/detail/12560605211613"
+   ]
+  },
+  "SEI": {
+   "bits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "Team unlocks 55.56M SEI/month (~8% of circ/yr), disposition undisclosed; foundation ecosystem spend unaudited -> unverifiable",
+    "FA2": "Uncapped; circulating 67.3% of current total (<70%); ~2.76B still vesting",
+    "FA3": "One of many EVM/parallel L1s; TVL collapsed from >$600M peak in early 2026; fees $684/30d",
+    "FA4": "Jay Jog / Jeff Feng at Sei Labs actively shipping (Giga v6.6 Aug 2026, Bilinear Labs acquisition 8 Sep 2026)",
+    "FB1": "SEI is gas and the staking asset securing the chain",
+    "FB2": "DeFiLlama fees30d $684 (trivial)",
+    "FB3": "Uncapped staking issuance plus ~1%/mo team+investor unlocks on a 9-year schedule; >10% of circ unlocks over 12 months",
+    "FC1": "Permissionless PoS validator set; no freeze/blacklist authority documented",
+    "FC2": "-95.6% from ATH (supplied) <= -75%",
+    "FC3": "TVL collapsed early 2026; fees 30d $684 vs 1y $97,495 (~$8.1k/mo avg); DAU 1.3-2M looks incentive-driven",
+    "FC4": "Dilution and low-fee risks public since 2024; only linear monthly unlocks, no cliff >10%; no lawsuit",
+    "FC5": "rev30d $684 vs prior $579 up, but 1y $97,495 (~$8.1k/mo) -> ~90% below 1y average",
+    "FC6": "Giga Autobahn consensus 'late 2026' with no date; Giga originally promised Q1 2026 and slipped"
+   },
+   "key_risk": "Fees ~$700/month on a $340M mcap with ~1%/month of new supply unlocking; usage is farmed, not paid for",
+   "confidence": "M",
+   "sources": [
+    "https://tokenomist.ai/sei-network",
+    "https://www.cryptonewsnavigator.com/academy/article/sei-tokenomics-distribution-and-dilution",
+    "https://coinmarketcap.com/cmc-ai/sei/latest-updates/",
+    "https://www.altcoinbuzz.io/reviews/can-sei-network-succeed-in-2026/",
+    "https://www.weex.com/questions/article/does-sei-sei-have-a-future-a-2026-market-analysis-lccbdn7ngxt0ydy9ojmaa3x9",
+    "https://coinstats.app/ai/a/investment-analysis-sei-network"
+   ]
+  },
+  "ZEC": {
+   "bits": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "Dev fund = 20% of subsidy (~0.7% of supply/yr) to ECC/ZF/ZCG/lockbox for ops; no documented insider dumps; Cypherpunk Tech accumulating 1.9%",
+    "FA2": "Capped 21M; circulating 80.6% (>=70%); issuance ~3.45%/yr and halving",
+    "FA3": "Largest privacy coin ($21B mcap vs XMR); only US spot privacy ETF (Grayscale ZCSH, 25 Aug 2026); SEC probe closed Jan 2026",
+    "FA4": "ECC staff resigned Jan 2026 but ZF (Zebra), Shielded Labs, ZODL ($25M raise Mar 2026) continue; Ironwood NU6.3 shipped Jul 2026",
+    "FB1": "ZEC is the only fee asset for Zcash transactions",
+    "FB2": "Fees30d $59,507 trivial, but hashrate at record ~17.2 GH/s (Aug 2026) vs prior peaks 10-11 GH/s = organic demand per rubric",
+    "FB3": "Inflation ~3.45%/yr (1.5625 ZEC/75s block) exceeds 3% cap; next halving Nov 2028",
+    "FC1": "PoW, no freeze/mint/blacklist; no upgradeable admin; ECC cannot freeze balances",
+    "FC2": "-61.0% from ATH (supplied) > -75% threshold",
+    "FC3": "Shielded supply 8% (2024) -> ~30% (Sep 2026, 4.9M ZEC); txs +137% y/y; hashrate record",
+    "FC4": "Critical Orchard counterfeiting vuln disclosed ~Jun 2026 (<6 months); 460k ZEC still migrating through turnstile; ECC schism Jan 2026",
+    "FC5": "DeFiLlama rev30d $0 / prior $0 / 1y $0 -> no revenue data",
+    "FC6": "NU7 in testing since May 2026 with no mainnet date; ETF already launched 25 Aug 2026"
+   },
+   "key_risk": "ZEC is up ~20x in a year with a freshly patched counterfeit bug in the shielded pool that cannot be fully audited; dev org fractured",
+   "confidence": "M",
+   "sources": [
+    "https://www.coindesk.com/tech/2026/01/08/zcash-developer-team-behind-ecc-quits-after-governance-clash-with-bootstrap-board",
+    "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517",
+    "https://www.datawallet.com/crypto/zcash-statistics",
+    "https://crypto.news/why-30-of-zcash-supply-is-now-in-the-shielded-pool/",
+    "https://coinstats.app/ai/a/fundamental-analysis-zcash",
+    "https://electriccoin.co/blog/zcash-halvening-nu6-embracing-the-new-dev-fund/",
+    "https://phemex.com/blogs/zcash-shielded-pool-1-billion-ironwood-upgrade"
+   ]
+  },
+  "TON": {
+   "bits": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "Believers Fund (early holders) releases ~36.6M GRAM/month (~16% of circ/yr) through Oct 2028; disposition undisclosed -> unverifiable",
+    "FA2": "Uncapped; circulating 53.1% of total (<70%); inflation raised to ~3.6% after Catchain 2.0",
+    "FA3": "Exclusive Telegram integration (1B users, Gram Wallet, Stars); Telegram is largest validator since May 2026",
+    "FA4": "Durov/Telegram took over TON Foundation role May 2026; TON Core shipped Catchain 2.0 (Apr 2026); Durov's French probe not impairing",
+    "FB1": "GRAM is gas and the staking asset for validators",
+    "FB2": "DeFiLlama fees30d $86,357 (trivial); Telegram's revenue is not the token's",
+    "FB3": "Inflation ~3.6% (>3%); 1.081B GRAM frozen mining wallets (~39% of circ) unlock 21 Feb 2027; reward cut only 'expected', not passed",
+    "FC1": "Validators froze 1.08B TON in 171 wallets in Feb 2023 -> chain has frozen balances before",
+    "FC2": "-82.9% from ATH (supplied) <= -75%",
+    "FC3": "Monthly active addresses ~1.4M -> ~4.5M in 2026; Gram Wallet distribution to Telegram base from 31 Aug 2026",
+    "FC4": "1.081B GRAM whale-wallet unfreeze on 21 Feb 2027 falls inside 6 months; block-reward cut vote unresolved",
+    "FC5": "rev30d $43,181 vs prior $41,187 up, but 1y $1.17M (~$97k/mo) -> ~55% below 1y average",
+    "FC6": "Gram Wallet rollout (31 Aug) already live; remaining MTONGA steps undated; no dated catalyst"
+   },
+   "key_risk": "~39% of circulating supply unfreezes in Feb 2027 on top of ~37M/month insider releases, while chain fees are <$100k/month",
+   "confidence": "M",
+   "sources": [
+    "https://coinmarketcap.com/academy/article/toncoin-rebrands-to-gram",
+    "https://coinpaper.com/16818/ton-price-prediction-ahead-of-telegram-replacing-ton-foundation-s-lead-role",
+    "https://cryptoadventure.com/ton-monthly-active-addresses-triple-in-2026-as-gram-push-accelerates/",
+    "https://coinmarketcap.com/cmc-ai/gram/latest-updates/",
+    "https://coinstats.app/ai/a/fundamental-analysis-the-open-network",
+    "https://coinmarketcap.com/cmc-ai/toncoin/price-prediction/",
+    "https://www.dextools.io/tutorials/ton-tokenomics-toncoin-supply-distribution-inflation-guide-2026"
+   ]
+  },
+  "EGLD": {
+   "bits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "evidence": {
+    "FA1": "No documented dumps, but new 9.47% emissions route to foundation-directed 'ecosystem builders' with no sales disclosure -> unverifiable",
+    "FA2": "Uncapped since Oct 2025 vote; ~9.47%/yr tail inflation (>5%); '100% circ' is meaningless without a cap",
+    "FA3": "Interchangeable sharded L1; TVL ~$80M; Binance dropped EGLD/BTC & EGLD/ETH pairs Jun 2026, Bitfinex delisted Mar 2026",
+    "FA4": "Beniamin & Lucian Mincu still leading; Supernova v2.0.6.0 shipped, 84% nodes upgraded within a day",
+    "FB1": "EGLD is gas and the staking asset for 3,250+ validators",
+    "FB2": "DeFiLlama fees30d $2,722 (trivial)",
+    "FB3": "~9.47%/yr inflation minus 10% fee burn on $2.7k fees; schedule changed by one governance vote in Oct 2025",
+    "FC1": "Permissionless validator set; no freeze/mint authority on EGLD documented (ESDT freeze applies to issued tokens only)",
+    "FC2": "-99.1% from ATH (supplied) <= -75%",
+    "FC3": "Fees $2.7k/30d and rev1y $0; TVL ~$80M; exchange pairs delisted for low liquidity; ~300k tx/day not monetized",
+    "FC4": "Inflation reset public since Oct 2025 (>6 mo); delistings done; no lawsuit or cliff ahead",
+    "FC5": "DeFiLlama rev30d $0 / prior $0 / 1y $0 -> no revenue data",
+    "FC6": "Supernova activation at epoch 2233 on 10 Sep 2026 (600ms blocks, 24-min network pause)"
+   },
+   "key_risk": "Hard cap abandoned for ~9.5% perpetual inflation while fees are ~$3k/month and exchanges are delisting pairs; Supernova is a speed fix, not a demand fix",
+   "confidence": "M",
+   "sources": [
+    "https://coinmarketcap.com/cmc-ai/multiversx-egld/latest-updates/",
+    "https://coinedition.com/multiversx-price-prediction-egld-surges-55-in-a-week-ahead-of-september-10-supernova-launch/",
+    "https://coinmarketcap.com/cmc-ai/multiversx-egld/price-prediction/",
+    "https://support.bitfinex.com/hc/en-us/articles/900001978166-MultiversX-EGLD",
+    "https://multiversx.com/blog/the-multiversx-economic-evolution-a-blueprint-for-growth-and-strategic-expansion",
+    "https://www.cryptonewsnavigator.com/academy/article/multiversx-egld-architectural-advantages-ethereum-comparison"
+   ]
+  }
+ }
+}

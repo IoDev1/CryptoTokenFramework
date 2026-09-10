@@ -1,0 +1,216 @@
+{
+ "tokens": {
+  "WLD": {
+   "bits": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "Foundation sold 217M WLD ($52.5M) Jul-2026 + ~$65M OTC Mar-2026 = ~6%+ of circ in a year; insider sales flagged Sep-2026",
+    "FA2": "Circulating 36.8% of 10B capped supply, far below 70%",
+    "FA3": "Top-1 proof-of-personhood: 18M Orb-verified humans, ~2,000 Orbs, no peer near scale, lead held since 2023 launch",
+    "FA4": "Blania/Altman-led TFH still shipping (World ID 3.0, Orb Mini, Apr-2026 Lift Off); probes are internal, not prosecution",
+    "FB1": "World Chain gas is ETH; WLD is governance/utility, human gas subsidies paid from treasury, not required for use",
+    "FB2": "No DeFiLlama fees/revenue supplied (None); no verified protocol fees >= $1M/30d",
+    "FB3": "~2.9M WLD unlocked daily after 43% cut = ~1.06B/yr vs ~3.7B circ (~29%/yr inflation); schedule was changed by TFH",
+    "FC1": "World Chain is OP-Stack L2 with centralized sequencer and foundation-upgradeable contracts",
+    "FC2": "-96.1% from ATH (mechanical pass)",
+    "FC3": "Verified humans 8.4M (Dec-2024) -> 18M (Apr-2026); on-chain activity hit 2026 highs May-2026",
+    "FC4": "Price-manipulation/FCPA probes surfaced Jun-2026 (<6 months) with possible SEC exposure; fresh insider-sale flags",
+    "FC5": "No revenue data supplied; FAIL by rule",
+    "FC6": "No dated catalyst found for Sep-2026..Mar-2027; Orb Mini/sequencer decentralization undated"
+   },
+   "key_risk": "Foundation keeps selling into a 29%/yr emission stream while an internal price-manipulation probe adds SEC tail risk",
+   "confidence": "M",
+   "sources": [
+    "https://en.cryptonomist.ch/2026/07/25/wld-token-sale-world-id/",
+    "https://beincrypto.com/worldcoin-token-sales-price-crash/",
+    "https://news.bitcoin.com/wld-token-inflation-slows-as-sam-altmans-world-cuts-daily-unlock-rate/",
+    "https://www.biometricupdate.com/202606/tools-for-humanity-hired-two-law-firms-to-probe-bribery-and-financial-misconduct",
+    "https://docs.world.org/world-chain",
+    "https://www.kucoin.com/news/flash/worldcoin-on-chain-activity-hits-2026-highs",
+    "https://world.org/blog/announcements/world-network-growth-helps-mini-apps-developers-reach-millions-daily"
+   ]
+  },
+  "PLUME": {
+   "bits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "No disclosure or on-chain data verifying team/foundation non-selling post Jan-2026 cliff; unverifiable = 0",
+    "FA2": "Circulating 63.9% of 10B capped supply, below 70%",
+    "FA3": "DeFi TVL $6.5M (Aug-2026) vs $237M (Nov-2025); RWA value ~$177M, far behind Ethereum/Canton/Ondo in RWA",
+    "FA4": "CEO Chris Yin + Teddy Pornprinya still shipping (ArbOS 51 Feb-2026, ADGM license, Nest on Solana); CTO Shen died May-2025",
+    "FB1": "PLUME is the native gas token of Plume mainnet (Arbitrum Orbit L2)",
+    "FB2": "No DeFiLlama fees/revenue supplied (None); chain TVL $6.5M implies trivial fees",
+    "FB3": "~36% of supply still vesting monthly to Jan-2028 (~2.5B+/yr vs 6.4B circ, ~40%/yr); monthly unlocks up to 3.5% of mcap",
+    "FC1": "Arbitrum Orbit L2 with centralized sequencer and team-upgradeable contracts (ArbOS migrations by core team)",
+    "FC2": "-94.3% from ATH (mechanical pass)",
+    "FC3": "DeFi TVL down ~97% YoY; tokenized asset value fell from $645M (early 2026) to ~$177M (Aug-2026)",
+    "FC4": "Founder death and TVL collapse public >6 months; largest upcoming unlock 3.5% (no >10% cliff), no lawsuit",
+    "FC5": "No revenue data supplied; FAIL by rule",
+    "FC6": "No dated event found for Sep-2026..Mar-2027; roadmap items (staking/fee utility) undated"
+   },
+   "key_risk": "Usage collapsed ~97% while ~40%/yr of new supply keeps unlocking into a $90M-cap token",
+   "confidence": "M",
+   "sources": [
+    "https://tokenomist.ai/plume",
+    "https://defillama.com/chain/plume-mainnet",
+    "https://coinmarketcap.com/cmc-ai/plume/latest-updates/",
+    "https://protos.com/rwa-firm-plume-in-shock-after-death-of-founder-eugene-shen/",
+    "https://eco.com/support/en/articles/15483240-what-is-plume-network-rwa-tokenization-l2",
+    "https://www.kucoin.com/blog/upcoming-july-2026-token-unlocks"
+   ]
+  },
+  "KAITO": {
+   "bits": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "Team stated no token sales since Feb-2025 after Web3Port dispute; protocol ran open-market buybacks; no dump evidence found",
+    "FA2": "Circulating 24.1% of 1B capped supply, far below 70%",
+    "FA3": "Yaps (core product) killed Jan-2026 by X API ban; lead <2 years and dependent on X data deal, not structural",
+    "FA4": "Founder Yu Hu (ex-Citadel) active; shipped Attention Markets (Mar-2026), Katalyst (Jul-2026), X data deal (Jul-2026)",
+    "FB1": "Kaito Pro payable in fiat; KAITO is staking/governance/launchpad access; 2026 buyback flow unverified -> 0",
+    "FB2": "No DeFiLlama data; Pro subscription revenue is company revenue, not protocol fees",
+    "FB3": "Aug-20-2026 unlock 7.63% of circ; monthly contributor/ecosystem unlocks to 2029 with 76% still locked (>>3%/yr)",
+    "FC1": "KAITO token (Base) admin/mint/upgrade status not verified; unknown = 0",
+    "FC2": "-88.5% from ATH (mechanical pass)",
+    "FC3": "Yaps + incentivized leaderboards shut Jan-2026; launchpad raised only ~$6M; no 12-month usage metric shown up",
+    "FC4": "Inflation and X-dependence public >6 months; no >10% cliff or lawsuit identified in next 6 months",
+    "FC5": "No revenue data supplied; FAIL by rule",
+    "FC6": "Kaito Markets 'in development' with no launch date; no dated catalyst"
+   },
+   "key_risk": "76% of supply still to unlock onto a business whose flagship product was shut by a single counterparty (X)",
+   "confidence": "M",
+   "sources": [
+    "https://beincrypto.com/kaito-clarifies-token-sales-market-maker-dispute/",
+    "https://tokenomist.ai/kaito/unlock-events",
+    "https://phemex.com/blogs/what-is-kaito-token-release-drawdown",
+    "https://www.coingecko.com/learn/what-is-kaito-earn-yap-points",
+    "https://www.theblock.co/post/389210/polymarket-to-let-users-wager-on-brand-popularity-and-public-opinion-in-kaito-ai-tie-up",
+    "https://finance.yahoo.com/markets/crypto/articles/3-token-unlocks-watch-fourth-081157400.html"
+   ]
+  },
+  "VIRTUAL": {
+   "bits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "Team deposited 13.05M VIRTUAL (~$7.5M, ~2% of circ) to Binance undisclosed (EmberCN); 2026 treasury flows unverified",
+    "FA2": "Circulating 65.8% of 1B capped supply, below 70%",
+    "FA3": "Agent-launchpad lead <2 yrs (Oct-2024) and revenue down 97%; ACP competes with Coinbase x402/Google AP2",
+    "FA4": "CEO Jansen Teng and core team identifiable, shipping (ACP on Arbitrum Mar-2026, CCIP Jun-2026, EconomyOS Sep-2026)",
+    "FB1": "Agent creation/pairing and 1% trade tax are denominated in VIRTUAL; core use impossible without token",
+    "FB2": "DeFiLlama fees30d $684K < $1M threshold",
+    "FB3": "Ecosystem treasury emits up to 10%/yr at DAO-multisig discretion; not a fixed schedule; 25.7% not yet released",
+    "FC1": "Treasury and protocol contracts controlled by DAO multisig; agent contracts routed via Wasabi were hit in exploit",
+    "FC2": "-85.7% from ATH (mechanical pass)",
+    "FC3": "Revenue $3.9M (Jan-2025) -> <$0.7M/30d; new agents <10/day; DAU and smart-money holdings down",
+    "FC4": "Revenue collapse public >12 months; remaining unlocks 0.3-0.4% each, all vested by Dec-28-2026; no lawsuit",
+    "FC5": "rev30d $684K vs prior $2.16M = -68%; 1y trend down",
+    "FC6": "EconomyOS already launched Sep-5-2026; no dated future catalyst in next 6 months"
+   },
+   "key_risk": "Protocol revenue down ~68% MoM and ~97% from peak with agent creation near zero; token demand is entirely speculative",
+   "confidence": "M",
+   "sources": [
+    "https://cryptorank.io/news/feed/925b0-virtuals-protocol-binance-deposit-analysis",
+    "https://tokenomist.ai/virtual-protocol",
+    "https://crypto.news/virtuals-protocol-token-drain-revenue-plummets/",
+    "https://benzinga.com/content/44039425/virtuals-protocol-sees-97-drop-in-revenue-despite-expansion-to-solana",
+    "https://coinmarketcap.com/cmc-ai/virtual-protocol/latest-updates/",
+    "https://coinstats.app/ai/a/fundamental-analysis-virtual-protocol",
+    "https://www.datawallet.com/crypto/what-is-virtuals-protocol"
+   ]
+  },
+  "BTC": {
+   "bits": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "evidence": {
+    "FA1": "No foundation/team/insider allocation; Satoshi coins unmoved; corporate holders (Strategy) are not insiders",
+    "FA2": "95.6% of 21M cap issued; issuance ~164K BTC/yr = ~0.8% inflation",
+    "FA3": "Largest PoW network by hashrate (~860-930 EH/s) and mcap ($1.6T) for 15+ years; ETF/treasury lock-in",
+    "FA4": "Leaderless: Bitcoin Core + Knots + btcd/libbitcoin clients, multi-year continuity, no single point of failure",
+    "FB1": "BTC is the only asset for transaction fees and block rewards",
+    "FB2": "fees30d $6.73M >= $1M; hashrate ~860-930 EH/s is organic demand at scale",
+    "FB3": "Fixed halving schedule, ~0.8%/yr, no unlocks, consensus change requires broad node adoption",
+    "FC1": "Permissionless PoW L1, no freeze/mint/blacklist, no admin keys",
+    "FC2": "-37.0% from ATH; needs <= -75% (mechanical fail)",
+    "FC3": "Hashrate ~1,119 EH/s (Sep-2025) -> ~858-932 EH/s (Sep-2026), down ~17-23%; Strategy now selling BTC",
+    "FC4": "Quantum/BIP-360 debate public since Feb-2026; no dated fork, lawsuit or unlock ahead",
+    "FC5": "rev30d 0 vs prior 0 (fees go to miners, not holders); no revenue = FAIL by rule",
+    "FC6": "No concrete dated catalyst found; CLARITY Act timing and post-quantum roadmap undated"
+   },
+   "key_risk": "Hashrate down ~20% YoY and the largest corporate buyer has flipped to selling while price sits only 37% off ATH",
+   "confidence": "H",
+   "sources": [
+    "https://mempool.space/api/v1/mining/hashrate/1y",
+    "https://fortune.com/2026/07/06/michael-saylor-strategy-216-million-bitcoin-sale-largest-ever/",
+    "https://bitbo.io/treasuries/microstrategy",
+    "https://bitcoinmagazine.com/news/btq-deploys-first-bip-360-quantum",
+    "https://terminalfeed.io/blog/bitcoin-mempool",
+    "https://www.cmegroup.com/openmarkets/equity-index/2026/Can-Bitcoins-Long-Term-Catalysts-Overcome-Recent-Headwinds.html"
+   ]
+  }
+ }
+}

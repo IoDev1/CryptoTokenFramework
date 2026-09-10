@@ -1,0 +1,137 @@
+## STX  verdict bits 0011100111101  key risk: Perpetual, governance-adjustable inflation (~5.75%/yr) plus foundation spend against near-zero protocol fees.
+  [1] 2026-08-28 CryptoSlate: HashKey Cloud backs Stacks’ Genesis Bond to prove institutional appetite for native Bitcoin yield
+  [2] 2026-09-01 CoinMarketCap: Stacks (STX) Surges 5.5% on Bitcoin Staking Infrastructure
+  [3] 2026-09-04 TradingView: Stacks: Bitcoin Staking Goes Live With Native BTC Yield on the Network - By 13 Sep 2026
+  [4] 2026-08-28 Cryptonews.net: STX crypto review 2026: Tokenomics, BTC yield and staking demand
+  [5] 2026-09-10 The Block: The First Bitcoin Staking Bond Is Live on Stacks: Self-Custodial BTC Yield Beings
+  [6] 2026-09-08 crypto.news: HashKey Cloud joins Stacks Bitcoin staking launch
+## QNT  verdict bits 0101001010100  key risk: Token demand depends entirely on unverifiable claims of licence-locking by a private company.
+  [1] 2026-08-31 CoinMarketCap: Quant (QNT) Price Move: Routine Volatility, Not Catalyst
+  [2] 2026-08-30 Binance: Quant Price Today | Live QNT Price, Chart & Market Data
+## ETH  verdict bits 1111111101100  key risk: L1 fee revenue has collapsed ~55% vs its 1-yr average as activity migrates to L2s, and Glamsterdam is designed to cut L1 fees a further ~79%.
+  [1] 2026-09-07 Yahoo Finance: Bitcoin and ethereum prices today, Monday, September 7, 2026: Crypto investors on rate watch
+  [2] 2026-09-07 CoinDesk: Ethereum commits to letting users pay gas fees without having to hold ETH
+  [3] 2026-09-09 Fortune: Current price of Ethereum for September 9, 2026
+  [4] 2026-09-09 ethereum.org: Join Us: EF Protocol Reddit AMA - September 16th, 2026
+  [5] 2026-08-29 24/7 Wall St.: Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?
+  [6] 2026-09-04 NerdWallet: 29 Ethereum ETFs (Plus Their Fees, Holdings and Promotions)
+## INJ  verdict bits 1001100110100  key risk: Usage is collapsing (TVL -72% YoY, fees ~$200k/month) while ~4-5% net inflation continues; 'record dev commits' are not users.
+  [1] 2026-09-03 CoinMarketCap: Injective (INJ) Bounces 3.9% Amid Mixed Catalysts
+  [2] 2026-09-02 Altcoin Buzz: INJ price Injective TA INJ Technical Analysis
+  [3] 2026-08-31 TradingView: Kraken Says Investigating Issue With Injective (INJ) Funding Gateway
+  [4] 2026-09-07 bloomingbit: Injective’s INJ Staking Hits Record High, Tops 58.8 Million Tokens
+  [5] 2026-09-01 CryptoRank: Upbit Places Injective (INJ) on Delisting Watchlist Following Security Incident
+  [6] 2026-09-01 Cryptonews.net: Injective Clarifies Chain Upgrade, Not Halt, Assures INJ Funds Secure
+## HYPE  verdict bits 1011110001110  key risk: Price at ATH with 78% of supply non-circulating and ~10M HYPE/month vesting to insiders; any slowdown in buybacks exposes dilution
+  [1] 2026-09-07 Yellow.com: HYPE Token Rises To $43.68 While Hyperliquid DEX Volume Hits $331M
+  [2] 2026-09-09 Yahoo! Finance Canada: Hyperliquid Price Prediction: HYPE Eyes $100 as Risks Rise
+  [3] 2026-09-02 CoinMarketCap: Hyperliquid (HYPE) Drops 3.13% Amid Normal Consolidation
+  [4] 2026-09-02 TradingView: 261,555 Hyperliquid (HYPE) Deposited to Coinbase Prime: Are Institutions Selling?
+  [5] 2026-09-01 CryptoRank: Hyperliquid (HYPE) Whale Accumulation Intensifies—Can the Price Break Out Toward $100?
+  [6] 2026-09-10 Altcoin Buzz: HYPE Price Hyperliquid TA HYPE TA HYPE Technical Analysis
+## BNB  verdict bits 1111111001110  key risk: Value tied to Binance's regulatory standing; chain can freeze funds and a Binance-linked validator set can be compelled
+  [1] 2026-09-08 Coinbase: Bnb (BNB) Price USD Today, News, Charts, Market Cap
+  [2] 2026-09-07 Binance: $BNB Holds Steady as Binance Chain Unleashes a 'Coin-Stock Meme' Battleground, Learning from $ETH &
+  [3] 2026-09-01 Changelly: Buy Binance Coin (BSC) in Belize | How to Buy BNB with Credit & Debit Card
+  [4] 2026-08-30 Yahoo Finance: Crypto’s Next Meme Coin War? Traders Want Tokens That Can Move Real Stocks
+  [5] 2026-09-07 TradingView: BNB Opened Registration for Binance AI Beta
+  [6] 2026-09-10 Startup Fortune: Binance's BNB Token Reclaimed a $100 Billion Market Cap This Month
+## KAS  verdict bits 1101101110100  key risk: Pure-mining coin with declining hashrate and no fee revenue; value rests on undated DAGKnight/L2 roadmap in a market that already rerated it -82%
+  [1] 2026-09-04 StealthEX: Kaspa (KAS) Price Prediction 2026, 2027-2030: Will Kaspa Reach $1?
+  [2] 2026-08-28 CoinMarketCap: Kaspa (KAS) Drops 4.9% Amid Broad Altcoin Pullback
+  [3] 2026-09-08 CryptoRank: Crypto Price Prediction: Internet Computer (ICP), Kaspa (KAS), Terra Classic (LUNC)
+  [4] 2026-09-08 coinpedia.org: Kaspa Coin Price Prediction 2026, 2027 – 2030: Will KAS Hit $0.1?
+  [5] 2026-08-28 TradingView: Kaspa Price Nears a Critical Falling Wedge Breakout, Can It Rally 120% Next?
+  [6] 2026-09-09 Bybit: Convert 1 KAS (Kaspa) to USD (United States Dollar)
+## CVX  verdict bits 1110111111110  key risk: Pseudonymous team running a derivative of Curve whose relevance is shrinking; revenue is ~$12M/yr and fully hostage to Curve volume
+  [1] 2026-09-04 coinpedia.org: Convex Finance (CVX) Price Prediction 2026, 2027-2030: Will CVX Price Go Up?
+  [2] 2026-09-05 CryptoRank: Convex Finance (CVX) Price Prediction 2026, 2027-2030: Will CVX Price Go Up?
+  [3] 2026-09-03 Yellow.com: DeFi - Page 2
+  [4] 2026-09-04 coinpedia.org: Crypto News Today: Bitcoin, Ethereum and XRP Prices Crash As Zcash Rallies 13%
+## SNX  verdict bits 1001100010000  key risk: SIP-423 minted ~237M SNX (69% of supply) for sUSD holders that begins vesting mid-2027 onto a protocol earning ~$5k/month
+  [1] 2026-08-28 TradingView: Synthetix: Upbit terminates SNX market support - 28 Sep 2026
+  [2] 2026-08-28 CryptoRank: UPBIT 将下架 Synthetix (SNX) 相关交易对
+  [3] 2026-08-28 bloomingbit: Upbit to End Synthetix (SNX) Trading Support on Sept. 28 at 3 p.m.
+  [4] 2026-09-08 Bybit: Convert 0.001 SNX (SNX) to USD (United States Dollar)
+  [5] 2026-08-28 CoinMarketCap: What Is a Stablecoin? The Answer Has Become Surprisingly Complex
+  [6] 2026-09-07 Yellow.com: DeFi - Page 3
+## POL  verdict bits 1101111011110  key risk: Polygon Labs' payments revenue accrues to the company, not POL, while Base/Arbitrum take L2 share and a 13-member council controls upgrades
+  [1] 2026-09-09 coinpedia.org: Polygon (MATIC) Price Prediction 2026, 2027 – 2030: Will MATIC Price Surge to $0.2?
+  [2] 2026-08-29 CoinMarketCap: Polygon (POL) Drops 4% on Security Disclosures and Social Media
+  [3] 2026-08-30 Decrypt: Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them
+  [4] 2026-08-28 Cryptonews.net: Polygon loses 12% amid intense selling pressure: Can POL redeem itself?
+  [5] 2026-09-04 Binance: Polygon (prev. MATIC) Price Today | POL to AED Live Price, Market Cap & Chart
+  [6] 2026-08-29 TradingView: Polygon discloses security flaws fixed in recent hard forks
+## ICP  verdict bits 1001100010100  key risk: Net inflation still ~7%+ with revenue ~$140k/mo; Mission 70 cuts are votes DFINITY controls, and cycle burn is nowhere near issuance
+  [1] 2026-08-29 CoinMarketCap: Internet Computer (ICP) Surges 3.64% on Key Partnerships
+  [2] 2026-09-07 coinpedia.org: Internet Computer (ICP) Price Prediction 2026, 2027 – 2030
+  [3] 2026-09-08 CryptoRank: Crypto Price Prediction: Internet Computer (ICP), Kaspa (KAS), Terra Classic (LUNC)
+  [4] 2026-09-07 StreetInsider: Next Crypto To Explode as Internet Computer (ICP) Whales Accumulate? AlphaPepe Gives Retail the First-Cycle Trade
+  [5] 2026-09-08 Yellow.com: Internet Computer Reclaims $3 Level As Trading Volume Surges
+  [6] 2026-09-04 AMBCrypto: ICP labeled ‘weakest among 60 cryptos’ – Can Internet Computer ride Fed sentiment past THIS?
+## DASH  verdict bits 1101101110100  key risk: Zero protocol revenue and flat usage; the Sept-2026 privacy-coin rally is narrative while the EU AMLR ban (Jul-2027) and delisting risk sit ahead
+  [1] 2026-09-07 Benzinga: Dash Beat Bitcoin, Ethereum and Solana Last Week and Sprang to Take Place in Top 3 Gainers: Here's the Co
+  [2] 2026-09-05 coinpedia.org: Dash Price Prediction 2026, 2027 – 2030: Forecast, Targets & Growth Potential
+  [3] 2026-09-07 Cryptonews.net: Dash price prediction 2026-2032: Is DASH recovering soon?
+  [4] 2026-09-04 CoinDesk: Bitcoin clears $81,000 as privacy coins lead a broad crypto rally: Crypto Markets Today
+  [5] 2026-09-03 CoinMarketCap: Dash Surges 3.19% on Privacy Coin Rally and Shielded Upgrade
+  [6] 2026-09-04 CryptoRank: DASH Price Eyes $72 as Zcash ETF Fuels Privacy Coin Rally
+## MORPHO  verdict bits 1011010001100  key risk: All value accrues to lenders/curators, none to MORPHO; fee switch stuck on legal work while ~31% of supply still vests
+  [1] 2026-08-31 CoinMarketCap: Morpho Surges 4.59% Amid DeFi Lending Growth and Social Attention
+  [2] 2026-09-10 Coinbase: Coinbase and Morpho bring USDC earning to Brazil
+  [3] 2026-09-08 The Defiant: Morpho Expands Fixed-Rate Midnight Markets to Ethereum
+  [4] 2026-09-09 crypto.news: Coinbase expands Morpho-powered USDC lending to Brazil
+  [5] 2026-09-04 CryptoRank: MORPHO Price Eyes $3 as Total Deposits Hit $14B
+  [6] 2026-09-08 深潮TechFlow: Solving the Cold Start Problem in Fixed-Rate Lending: How Morpho Keeps Funds from Sitting Idle?
+## TON  verdict bits 0011100011000  key risk: ~39% of circulating supply unfreezes in Feb 2027 on top of ~37M/month insider releases, while chain fees are <$100k/month
+  [1] 2026-09-08 CoinMarketCap: Toncoin Jumps 36% as Telegram Takes Over TON Chain
+  [2] 2026-09-08 CryptoSlate: Gram (prev. Toncoin) price today, GRAM to USD chart, marketcap and volume
+  [3] 2026-09-03 Yellow.com: Can Telegram Turn TON Into Crypto’s First Mass-Market Blockchain?
+  [4] 2026-09-05 CoinMarketCap: Toncoin Rebrands as Gram in Return to Original Name
+  [5] 2026-09-04 StreetInsider: Could These Best 1000x Cryptos Explode Next? Top 5 Coins as Apeing’s Countdown Tightens
+  [6] 2026-09-01 finance.biggo.com: Telegram Flips on Gram Wallet for Select Users, Full Rollout Expected Within Weeks
+## PLUME  verdict bits 0001100010100  key risk: Usage collapsed ~97% while ~40%/yr of new supply keeps unlocking into a $90M-cap token
+  [1] 2026-09-09 PR Newswire: Mobinet to Deploy Plume Platform for Delivery of Smarter WiFi, Enhanced Security and Better Customer Experience to Subscribers across Mongolia
+  [2] 2026-08-28 CryptoRank: Plume Network Rich List — Top 100 Holders & Distribution Chart
+  [3] 2026-09-01 Google Research: Mapping global methane emissions from space with deep learning
+  [4] 2026-08-31 Ars Technica: Think twice before installing this device promising free movies
+  [5] 2026-09-08 The Mercury News: Prescribed burn at Angel Island sends plume of smoke into Bay Area skies
+  [6] 2026-09-08 KTLA: Chemical tank leak sends plume of orange smoke into air in Orange County
+## BTC  verdict bits 1111111100100  key risk: Hashrate down ~20% YoY and the largest corporate buyer has flipped to selling while price sits only 37% off ATH
+  [1] 2026-09-04 CNBC: Bitcoin heads for third winning week in a row as macro pressures mount
+  [2] 2026-09-04 Yahoo Finance: Bitcoin tops $80,000: 'Crypto winter is close to being over'
+  [3] 2026-09-04 Fortune: Bitcoin is trading more like an ‘amplified version of gold’ again, but the four-year cycle theory threatens further declines
+  [4] 2026-09-01 bitcoinfoundation.org: What Is Bitcoin Mining and How Does It Work in 2026?
+  [5] 2026-09-07 AP News: Party's over for crypto scammers who went on a spending spree after a $240 million bitcoin theft
+  [6] 2026-09-07 Bloomberg.com: Bitcoin Hack Drains $320 Million From Crypto Network
+## AERO  verdict bits 1011110001000  key risk: Revenue run-rate is ~40% below the trailing-year average while ~11%/yr emissions continue and an undated token migration to the merged Aero hangs over holders
+  [1] 2026-09-09 Altcoin Buzz: Aerodrome Finance (AERO) Surges 5% as Tokenized Stocks and Base Growth Boost Demand
+  [2] 2026-09-08 coinpedia.org: Aerodrome Finance (AERO) Prediction for 2026-2030: How High Will It Go?
+  [3] 2026-09-08 CoinMarketCap: Aerodrome Finance (AERO) Surges 18% on Base Memecoin Narrative
+  [4] 2026-09-03 Milk Road: 🥛 UNI got its 40% week. Is AERO next? 📈
+  [5] 2026-09-05 TradingView: Aerodrome Price Eyes $0.85 as Stock Trading Volume Surges
+  [6] 2026-09-09 Analytics Insight: Aerodrome Finance Price Prediction: AERO Jumps 17% as Base Activity Grows
+## LDO  verdict bits 1111011111010  key risk: Governance-only token whose fee-linked buyback is switched off below $40M revenue, while ETH staking share keeps slipping to custodial/institutional rivals
+  [1] 2026-09-05 TradingView: Lido DAO to Hold Institutional Staking Discussion on September 17th
+  [2] 2026-09-09 Bybit: Convert 1 LDO (LDO) to USD (United States Dollar)
+  [3] 2026-09-09 深潮TechFlow: As institutional staking surges on Ethereum, why is Lido’s market share actually declining?
+  [4] 2026-09-09 CryptoSlate: Ethereum’s institutional staking boom is growing, but Lido’s share is shrinking
+  [5] 2026-09-09 TradingView: Lido DAO: Stakely Launches First Public ETH Staking Vault on stVaults - 09 Sep 2026
+  [6] 2026-09-08 TradingView: Lido DAO: Targets 0x02 CSM Mainnet Launch - Oct 2026
+## LEO  verdict bits 1101101000000  key risk: Price sits 13% off ATH on an undated $5B BTC-recovery burn; if the forfeiture proceedings favor claimants, the premium unwinds against a fully centralized, mintable contract
+  [1] 2026-09-07 Binance: UNUS SED LEO Price Today in India | LEO to INR Live Price & Chart
+  [2] 2026-08-31 openPR.com: LEO Price Prediction: LEO Holds $9.70 as ChainSpin's $0.0125 Entry Fuels the Earlier-Stage Upside Debate
+## XLM  verdict bits 0001100011101  key risk: SDF controls 30% of supply and pushed ~10% of circulating into the market in a year while protocol fees are ~$40k/month
+  [1] 2026-09-07 Yellow.com: Stellar Network Hits 2025 Record Activity As XLM Tests $0.24 Support Zone
+  [2] 2026-09-07 CoinMarketCap: Stellar (XLM) Gains 4.42% Over 37 Hours: Key Drivers Explored
+  [3] 2026-09-05 Bybit: Convert 1 XLM (Stellar Lumens) to USD (United States Dollar)
+  [4] 2026-09-10 FXStreet: Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support
+  [5] 2026-09-04 TradingView: Stellar: DTCC connects tokenization service to XLM for tokenized assets - Q2 2027
+  [6] 2026-09-03 StreetInsider: XLM Price Prediction: Stellar’s Tokenization Story Grows as Remittix Pushes Crypto-to-Fiat Bank Payments Forward
+## XTZ  verdict bits 1101100110100  key risk: Usage collapsing on both L1 and Etherlink while issuance runs 3.5% with no fee offset
+  [1] 2026-09-03 TradingView: Tezos to Launch Post-Quantum Testnet in September
+  [2] 2026-09-09 Bybit: Convert 10 XTZ (XTZ) to USD (United States Dollar)
+  [3] 2026-08-31 CryptoRank: Phemex puts 82 tokens on notice over liquidity and project compliance concerns
+  [4] 2026-09-10 MEXC: What Is StableFund? Tether and Fasanara Launch $400M Private Credit Fund
+  [5] 2026-09-04 MEXC: PONS, LONG and the Robinhood Chain Launchpad Boom: Where the Fees Are Coming From
+  [6] 2026-09-09 Traders Union: What's behind Tezos's latest 10.0% price surge?

@@ -1,0 +1,6 @@
+XRP: price $1.44, mcap 90302490357, FDV 143900269860, circ 62.7% (max supply capped), from ATH -60.5% (ATH 2025-07-17), fees30d 12967, rev30d 12967, rev prior30d 8435, rev1y 312685, llama source: XRPL
+MORPHO: price $2.41, mcap 1660404081, FDV 2410478427, circ 68.9% (max supply capped), from ATH -42.2% (ATH 2025-01-17), fees30d 18546853.89, rev30d 0, rev prior30d 0, rev1y 0, llama source: Morpho Blue, Morpho Midnight
+SEI: price $0.050462, mcap 339824028, FDV 504689151, circ 67.3% (max supply UNCAPPED), from ATH -95.6% (ATH 2024-03-15), fees30d 683.64, rev30d 683.64, rev prior30d 579.2900000000001, rev1y 97494.93000000001, llama source: Sei
+ZEC: price $1243.44, mcap 21042670461, FDV 21043579785, circ 80.6% (max supply capped), from ATH -61.0% (ATH 2016-10-28), fees30d 59507, rev30d 0, rev prior30d 0, rev1y 0, llama source: Zcash
+TON: price $1.41, mcap 3920663706, FDV 7384781962, circ 53.1% (max supply UNCAPPED), from ATH -82.9% (ATH 2024-06-14), fees30d 86357, rev30d 43181, rev prior30d 41187, rev1y 1168348, llama source: TON
+EGLD: price $5.0, mcap 153703491, FDV 153703491, circ 100.0% (max supply UNCAPPED), from ATH -99.1% (ATH 2021-11-23), fees30d 2722, rev30d 0, rev prior30d 0, rev1y 0, llama source: MultiversX

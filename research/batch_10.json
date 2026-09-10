@@ -1,0 +1,152 @@
+{
+ "tokens": {
+  "LDO": {
+   "bits": [1,1,1,1,0,1,1,1,1,1,0,1,0],
+   "evidence": {
+    "FA1": "No documented insider dumping 2024-26; DAO is net BUYER (1,591 stETH -> ~10M LDO, Apr-Jul 2026); last treasury sale 2022 (Dragonfly)",
+    "FA2": "Circ 83.4% of existing supply (>=70%); vesting ended 2024; capped 1B, zero emissions; treasury buybacks reduce float",
+    "FA3": "#1 liquid staking ~62% LST share for 3+ yrs (~$19B of $30.8B ETH LST); overall ETH staking share slipping 23.9%->21.2% H1 2026",
+    "FA4": "Identifiable core contributors (Shapovalov, Lomashuk, Hasu) still shipping: Dual Governance live, CircuitBreaker, stVaults, H1 2026 report",
+    "FB1": "Governance-only; stETH needs no LDO. NEST fee-funded buyback PAUSED (needs >$40M ann. revenue); Apr-Jul buyback was treasury, not fees",
+    "FB2": "DeFiLlama fees30d $44.0M, DAO revenue30d $2.73M -> well above $1M threshold; core take rate 6.15%",
+    "FB3": "Zero emissions, fully vested, no cliffs; DAO buying back (~1.1% of circ acquired 2026); schedule fixed by capped supply",
+    "FC1": "Upgrades need Aragon token vote plus stETH-holder veto (Dual Governance), not a small multisig; CircuitBreaker can only time-limit pause",
+    "FC2": "-94.7% from ATH (supplied) -> pass",
+    "FC3": "ETH staked 8.68M (Sep 2025) -> 9.69M (Sep 2026, +12%, DeFiLlama); USD TVL $37.3B->$24.4B and staking share down, but usage in ETH is up",
+    "FC4": "Samuels v. Lido DAO (unregistered securities; DAO = general partnership ruling) unresolved; SJ briefing runs into late 2026 -> pending event",
+    "FC5": "Rev30d $2.73M vs prior $2.17M (+26%); 1y rev $36.6M (~$3.05M/mo avg) so not clearly down; material (>$1M)",
+    "FC6": "NEST buyback paused; 'two DeFi products before YE2026' and ValMart 'early 2027' are undated roadmap items -> no concrete dated catalyst"
+   },
+   "key_risk": "Governance-only token whose fee-linked buyback is switched off below $40M revenue, while ETH staking share keeps slipping to custodial/institutional rivals",
+   "confidence": "M",
+   "sources": [
+    "https://lido.fi/ldo-hub/reports/h1-2026",
+    "https://www.coindesk.com/markets/2026/03/30/lido-dao-proposes-usd20-million-ldo-buyback-to-boost-price-after-95-slide",
+    "https://themerkle.com/lido-dao-eyes-automated-ldo-buyback-mechanism-for-2026-launch/",
+    "https://tokenomist.ai/lido-dao",
+    "https://docs.lido.fi/multisigs/emergency-brakes/",
+    "https://www.theblock.co/post/360212/lido-dao-votes-to-enable-dual-governance-giving-stakers-veto-power",
+    "https://www.courtlistener.com/docket/68095676/samuels-v-lido-dao/",
+    "https://api.llama.fi/protocol/lido"
+   ]
+  },
+  "ENA": {
+   "bits": [0,0,0,1,0,1,0,0,1,0,0,0,0],
+   "evidence": {
+    "FA1": "Foundation itself documented seed investors selling since Oct 2025 peak (bought them out Aug 2026); Ethena Safe sent 170M ENA to FalconX",
+    "FA2": "Circ 67.3% of existing supply (<70%); ~1.41B ENA (~14% of circ) still to unlock Oct 5 2026",
+    "FA3": "#1 synthetic dollar but USDe shrank $14.5B -> $4.07B (Aug 30 2026, -72%), DAU ~1,200; share lost steadily since Oct 2025",
+    "FA4": "Guy Young / Ethena Labs identifiable and shipping (fee switch, buyouts, Ethena X); Converge chain slipped but team intact",
+    "FB1": "Governance/sENA only today; fee switch passed Sep 2 2026 but buybacks dormant until USDe >= $7.5B (now $4.1B) -> no fees flow yet",
+    "FB2": "DeFiLlama fees30d $16.4M (>= $1M) though protocol revenue30d only $14.4k",
+    "FB3": "Cliff: remaining investor allocation consolidated into single Oct 5 2026 unlock ~1.41B ENA (~14% of circ, >10%)",
+    "FC1": "Mint/redeem gated to whitelisted parties; upgradeable contracts and USDe custody controlled by Ethena multisig, not permissionless",
+    "FC2": "-89.2% from ATH (supplied) -> pass",
+    "FC3": "USDe supply -72% from peak, Q1 2026 gross revenue -32% QoQ, sUSDe APY 9.4%->7.1%, DAU at lows -> usage down",
+    "FC4": "~14%-of-circ investor cliff on Oct 5 2026 is a pending large unlock inside 6 months",
+    "FC5": "Rev30d $14.4k vs prior $25.6k (-44%); 1y rev $4.6M but current run-rate immaterial (<$1M/mo)",
+    "FC6": "Fee-switch vote passed but activation gated on USDe $7.5B (needs +82%); Ethena X/Converge have no dates -> nothing dated and concrete"
+   },
+   "key_risk": "USDe supply down 72% with revenue near zero; a 14%-of-float unlock lands Oct 5 while the buyback needs supply to nearly double before it fires",
+   "confidence": "M",
+   "sources": [
+    "https://www.theblock.co/news/ecosystems/2026-08-27-ethena-foundation-proposes-fee-switch-ena-token-buybacks-other-updates-412951",
+    "https://insights.unlocks.app/ethena-bought-out-its-sellers-and-deleted-the-investor-unlock-calendar-the-buyback-replacing-it-arms-at-7-5b-usde/",
+    "https://cryptoticker.io/en/ethena-ena-investor-unlock/",
+    "https://en.coinotag.com/ethena-ena-buyback-vote-17-8m-tokens-in-favor",
+    "https://stablecoininsider.org/ethena-usde-q1-2026-report/",
+    "https://blockster.com/ethenas-usde-supply-drops-below-6b-as-yield-woes-deepen",
+    "https://cryptonews.net/news/analytics/33319759/",
+    "https://www.theblock.co/post/380815/ethena-incubated-dex-terminal-finance-abandons-launch-after-converge-chain-fails-to-materialize"
+   ]
+  },
+  "ONDO": {
+   "bits": [0,0,1,1,0,1,0,0,1,1,0,0,0],
+   "evidence": {
+    "FA1": "May 2026: team multisig -> intermediary wallet (425M ONDO, ~$147M since Apr 22) -> repeated Coinbase deposits (18.8M ONDO on May 12)",
+    "FA2": "Circ 48.7% of existing supply (<70%); 51.3% locked, unlocks run to 2029",
+    "FA3": "Top-2 tokenized-treasury/RWA issuer since 2023 (USDY $2.1B, OUSG, $1B tokenized stocks, $3.6B TVL) behind only BlackRock BUIDL",
+    "FA4": "Nathan Allman / Ondo Finance identifiable, shipping (Ondo Network Jul 28 2026, Oasis Pro FINRA approvals); no founder departures",
+    "FB1": "Governance-only; $0 distributed to holders, no buyback/burn/staking live; fee switch is a proposal without a vote",
+    "FB2": "DeFiLlama fees30d $7.67M (Ondo Yield Assets) >= $1M; users pay via yield spread/0.15% mgmt fee",
+    "FB3": "Cliff: Jan 18 2027 unlock of 1.71B ONDO = ~35% of circ (4.87B) -> far above 10%",
+    "FC1": "Product tokens (USDY/OUSG) permissioned with freeze/blacklist; admin keys and DAO votes dominated by Ondo Foundation/insiders",
+    "FC2": "-82.5% from ATH (supplied) -> pass",
+    "FC3": "TVL $3.6B, USDY +$1.4B net inflows H1 2026, tokenized stocks $1B/268 symbols, 173k holders -> usage up",
+    "FC4": "35%-of-circ cliff unlock Jan 18 2027 falls inside 6 months",
+    "FC5": "Rev30d $0 vs prior $0 (supplied); no protocol revenue accrues -> no material revenue trajectory",
+    "FC6": "Ondo Chain cancelled (replaced by Ondo Network Jul 28); fee-switch vote 'H2 2026' with no date -> vague"
+   },
+   "key_risk": "Token captures none of $7.7M/mo product fees while a 35%-of-float unlock hits Jan 18 2027 and team wallets already route ONDO to Coinbase",
+   "confidence": "M",
+   "sources": [
+    "https://ambcrypto.com/ondo-finance-moves-63-9mln-is-a-sell-off-looming/",
+    "https://cryptonews.net/news/altcoins/33048535/",
+    "https://tokenomist.ai/ondo-finance",
+    "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network",
+    "https://www.livebitcoinnews.com/ondo-token-value-hinges-on-fee-switch-vote-as-protocol-revenue-grows/",
+    "https://x.com/BSCNews/status/2080654358643937712",
+    "https://defillama.com/protocol/ondo-finance"
+   ]
+  },
+  "LEO": {
+   "bits": [1,1,0,1,1,0,1,0,0,0,0,0,0],
+   "evidence": {
+    "FA1": "No documented iFinex/insider selling; issuer is a net buyer (continuous buyback-and-burn); circ 920.9M Apr 2026 -> 919.9M Sep 2026",
+    "FA2": "Circ 93.4% of existing supply; 1B initial cap, no minting in practice, deflationary via burns",
+    "FA3": "Bitfinex <1% of global spot volume (~$14B/mo) vs Binance ~40%; share has eroded for years -> no top-2 position or lock-in",
+    "FA4": "Paolo Ardoino / iFinex leadership identifiable, multi-year; Tether-Bitfinex class action pending but not impairing operations",
+    "FB1": "Not required for trading; contractual 27%-of-revenue buyback/burn is live (supply declining), so value flows to token today -> encode 1",
+    "FB2": "No DeFiLlama data (None); iFinex revenue is company revenue; burn size only company-reported (ETH totalSupply constant 660M) -> unverifiable",
+    "FB3": "No emissions or unlocks; whitepaper-fixed 27% burn plus 80%-of-hack-recovery burn; supply only falls",
+    "FC1": "Audited contract: owner can mint unlimited, blacklist/erase balances and upgrade; iFinex has full centralized control",
+    "FC2": "-13.5% from ATH (supplied) -> fail",
+    "FC3": "Bitfinex spot share <1% and stagnant; zero-fee trading since Dec 2025 reduces fee revenue; no usage metric shown up 12m",
+    "FC4": "94,643 BTC recovery ordered but still frozen pending ancillary forfeiture claims; Tether/Bitfinex class-cert appeal -> binary events ahead",
+    "FC5": "No revenue data (supplied None) -> fail",
+    "FC6": "80%-of-recovery burn 'within 18 months of receipt' has no receipt date; no dated event inside 6 months"
+   },
+   "key_risk": "Price sits 13% off ATH on an undated $5B BTC-recovery burn; if the forfeiture proceedings favor claimants, the premium unwinds against a fully centralized, mintable contract",
+   "confidence": "M",
+   "sources": [
+    "https://coinmarketcap.com/top-stories/69b14cfbba1d4d1432653966/",
+    "https://bravenewcoin.com/insights/court-orders-return-of-9-billion-bitcoin-to-bitfinex-in-landmark-ruling",
+    "https://support.bitfinex.com/hc/en-us/articles/4417401349657-2016-Security-Breach-Bitcoin-Recovery-Frequently-Asked-Questions-FAQ",
+    "https://beincrypto.com/bitfinex-unus-sed-leo-smart-contract-audit-reveals-nasty-surprises-for-holders/",
+    "https://coinlaw.io/bitfinex-statistics/",
+    "https://www.law360.com/articles/2451874/tether-bitfinex-appeal-class-cert-in-bitcoin-rigging-suit",
+    "https://bingx.com/en/learn/article/what-is-unus-sed-leo-leo-how-does-it-work",
+    "https://api.coingecko.com/api/v3/coins/leo-token"
+   ]
+  },
+  "OKB": {
+   "bits": [1,1,1,1,1,0,1,0,0,1,1,0,0],
+   "evidence": {
+    "FA1": "No documented OKX/insider selling; OKX burned 65.26M OKB (incl. its own holdings) Aug 2025 and removed mint/burn functions",
+    "FA2": "Circ 100% of 21M hard cap; contract minting permanently removed Aug 2025 -> zero inflation",
+    "FA3": "OKX consistently top-3 global exchange by spot/derivatives volume 2023-26; OKB exclusive to its 120M-user ecosystem and sole X Layer gas",
+    "FA4": "Star Xu founder + new CEO (Jun 2025) shipping (X Layer PP upgrade, Exchange OS, ICE $200M deal Mar 2026); DOJ plea settled Feb 2025",
+    "FB1": "Sole gas token of X Layer (OKX's L2) after Aug 2025 upgrade -> required for network usage",
+    "FB2": "DeFiLlama X Layer fees30d $40.8k (<$1M); OKX exchange revenue is company revenue, not OKB's",
+    "FB3": "Fixed 21M supply, no emissions, no unlocks; mint/burn functions removed on-chain",
+    "FC1": "X Layer sequencer/upgrades and bridge controlled by OKX; OKX unilaterally upgraded OKB contract in 2025 -> centralized control",
+    "FC2": "-50.1% from ATH (supplied) -> fail",
+    "FC3": "X Layer TVL $19.8M (Sep 2025) -> $168M (Sep 2026, DeFiLlama, ~8x); Aave deployed; stablecoin mcap ~$1.5B",
+    "FC4": "$504M DOJ AML plea (Feb 2025) resolved >18 months ago; no cliff, fork or delisting pending; IPO not scheduled",
+    "FC5": "Rev30d $40.8k vs prior $7.8k, up but immaterial (<$1M) -> noise, fail",
+    "FC6": "X Layer 'Q4 2026 protocol upgrades' and OKX IPO have no dates; ICE tokenized-equity plan undated -> vague"
+   },
+   "key_risk": "Only 50% off ATH with X Layer generating ~$40k/mo in fees; OKB value rests on OKX-controlled exchange perks, not on-chain demand",
+   "confidence": "M",
+   "sources": [
+    "https://www.coindesk.com/business/2025/08/13/okx-slashes-okb-token-supply-by-50-with-usd7-6b-burn-price-surges",
+    "https://www.okx.com/en-us/help/announcement-on-the-pp-upgrade-of-x-layer-and-optimisation-of-the-okb-gas",
+    "https://api.llama.fi/v2/historicalChainTvl/X%20Layer",
+    "https://www.coindesk.com/business/2026/03/26/okx-says-it-won-t-go-public-until-it-can-deliver-returns-to-investors",
+    "https://www.justice.gov/usao-sdny/pr/okx-pleads-guilty-violating-us-anti-money-laundering-laws-and-agrees-pay-penalties",
+    "https://cryptobriefing.com/okx-exchange-os-x-layer-upgrade/",
+    "https://financefeeds.com/okb-price-outlook/"
+   ]
+  }
+ }
+}

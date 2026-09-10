@@ -1,0 +1,130 @@
+{
+ "tokens": {
+  "HBAR": {
+   "stance": "noise",
+   "opinion": "Mostly noise: price-prediction spam [4], clickbait [5,6] and a routine exchange maintenance halt [1] dominate; a minor insurance-partner note [3] and a 3.8% pullback [2] don't move the enterprise-narrative or council-supply thesis.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "AAVE": {
+   "stance": "bullish",
+   "opinion": "V4 deposits nearing $1B [1] and ~$20M on Avalanche at new highs [3], plus a live LlamaGuard-managed market [5], are real TVL growth that eases the revenue/TVL-collapse risk. [2,4,6] are price-target spam, TA noise and a whale-buy blurb.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "TAO": {
+   "stance": "noise",
+   "opinion": "Pure noise: duplicate 'why TAO is up' wires [1,3,4], price-prediction spam [2], and a rally-to-$300-on-a-memecoin plus 'best crypto to buy' ad copy [5,6]. Nothing here addresses inflation or OTF sudo/PoA control risk.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "XMR": {
+   "stance": "neutral",
+   "opinion": "Real rally: privacy-coin sector +213% [1] and a THORChain-integration-driven 12.6% surge [4], with a Midnight comparison piece [2] adding context. [3,5,6] are buy-guide/price-prediction spam. Delisting and hashrate-concentration risk untouched.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "UNI": {
+   "stance": "bullish",
+   "opinion": "Robinhood Chain fee activity is driving genuine volume — UNI +100% [1], +10-13% [2], DEX volume +45%/week [3] — which directly strengthens the volume-dependent burn mechanism the key risk flags. [4,5,6] are price-target spam and routine data.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "FET": {
+   "stance": "neutral",
+   "opinion": "Mostly noise: price-prediction spam [1], an AI-coin comparison piece [2], and an unrelated Ocean Protocol mismatch [4]. A free-tier product push [3] and a university AI-agent partnership [6] are minor real items but don't touch the lawsuit or no-revenue risk.",
+   "cited": [1, 2, 3, 4, 6],
+   "filters": []
+  },
+  "AVAX": {
+   "stance": "neutral",
+   "opinion": "Charles Schwab adding AVAX access [3], echoed in a price-target piece [4], is genuine distribution news; rest is prediction spam [1,6] and routine price pages [2,5]. Doesn't address the Foundation-as-structural-seller or collapsed-fee risk.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "TRX": {
+   "stance": "bullish",
+   "opinion": "Canary Capital's first US staked TRON ETF actually launched [2,5,6], a real institutional milestone. [1] is filler, [3] tangential, [4] a routine 3% dip. Doesn't resolve Sun's single-person control or the open SEC case.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "SUI": {
+   "stance": "neutral",
+   "opinion": "Mixed: SUI ETFs debuting on Nasdaq/NYSE with staking [2] is a real bullish catalyst, but [1] and [6] flag stalling ecosystem growth and bearish price action, corroborating the TVL-collapse key risk. [3,4,5] are routine pages/spam.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "DOT": {
+   "stance": "neutral",
+   "opinion": "Mostly noise: price-prediction spam [1,2], a Dua Lipa nail-trend false match [5], and technical-breakout/short-squeeze chatter [3,4]. The dotUSD stablecoin proposal advancing [6] is a real early-stage item but doesn't reverse collapsed usage.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "Sonic": {
+   "stance": "neutral",
+   "opinion": "Thin coverage: a single vague 'vertical integration' announcement [1] with no detail on revenue, users, or leadership. Doesn't address the founder/board exodus or the ~98% TVL collapse.",
+   "cited": [1],
+   "filters": []
+  },
+  "COMP": {
+   "stance": "bullish",
+   "opinion": "Compound's institutional-only lending pivot and new USDC market up to 87% LTV are confirmed by multiple independent outlets [1,2,5,6], a real growth move addressing share loss to Aave/Morpho under new leadership. [3] on DAO governance brakes is tangentially relevant to the capture-vector risk.",
+   "cited": [1, 2, 3, 5, 6],
+   "filters": []
+  },
+  "XRP": {
+   "stance": "neutral",
+   "opinion": "Ripple absorbed a large September escrow release [2,6] without price damage, confirming continuous Ripple selling but no new risk. Quantum-readiness prep [3] is a minor real positive; the Florida stadium logo deal [1,4] is pure marketing noise.",
+   "cited": [1, 2, 3, 4, 6],
+   "filters": []
+  },
+  "ZEC": {
+   "stance": "bearish",
+   "opinion": "Despite the rally, shorts at 72% [4] and $2.4B open interest [5] show a leverage-driven, crowded squeeze sitting atop the still-unresolved shielded-pool audit risk; [1,2,3,6] are price-momentum noise that don't change the fractured-dev-org thesis.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "WLD": {
+   "stance": "bearish",
+   "opinion": "WLD hit a record low after the Foundation's $65M OTC sale [2], directly confirming the emission-sale key risk; the subsequent 13-15% bounce [4,5] is unconfirmed and [1] is prediction spam. [3,6] are tangential/routine.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "VIRTUAL": {
+   "stance": "neutral",
+   "opinion": "The Robinhood listing [1] is a real speculative demand catalyst but does nothing for the ~68% MoM revenue collapse. [2] is a promotional research piece, [4] an unrelated Motley Fool tie-in, [3,5,6] routine price swings.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "PENDLE": {
+   "stance": "neutral",
+   "opinion": "Cautiously constructive: an institutional-focused permissioned PT/YT pilot [1] and a new yield-trading market launch [6] are genuine early steps toward a new cycle, though unlaunched. [4,5] are false-match noise (a game, a rugby player); [2,3] are spam/vague pump.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "PUMP": {
+   "stance": "neutral",
+   "opinion": "Buyback volume is real and strong — Pump.fun near 90% of $638M industry buybacks [5] — but protocol data flags the rebound as fragile [2] and a new launchpad rival emerged [3]. [1,4,6] are blog spam/tangential. Unlock schedule and RICO risk unchanged.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "ONDO": {
+   "stance": "neutral",
+   "opinion": "Business momentum is real — Ondo holds 58% of the $1B tokenized-stocks market [3], a policy-chief hire [2,4] and SEC/CFTC engagement [6] strengthen its regulatory footing, and distribution expands via LBank [1] and a treasury feature [5] — but none of it gives the ONDO token fee capture, so the core risk is unchanged.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "ARB": {
+   "stance": "bullish",
+   "opinion": "Five independent outlets [1,2,3,4,5] confirm ARB now captures real fee value from Robinhood Chain's volume, a material update to the 'no fee accrual' key risk — durability still unproven. [6] is price-target spam.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  },
+  "ETC": {
+   "stance": "bearish",
+   "opinion": "A 12% whale-driven drop amid broad risk-off [1,4] confirms ongoing fragility; a Grayscale Trust NAV overhaul [3] is a real but minor structural item. A community call [2] may bear on the contested fork but resolves nothing yet; [5,6] are routine/tangential.",
+   "cited": [1, 2, 3, 4, 5, 6],
+   "filters": []
+  }
+ }
+}
