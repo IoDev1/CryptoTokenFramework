@@ -95,3 +95,22 @@ Assessment:
   the product in the terms; use a merchant of record for EU VAT.
 - Keep wording as "your plan", never "our recommendation": planner + alerts sits closer to
   advice than a screener does.
+
+## Competitor scan 2026-09-10
+
+Scoring products: CryptoScores (7,000+ assets, six dimensions, clickable sources per datapoint,
+$29/$99/$299 a month, alerts, no planning); Token Metrics (Investor Grade, model portfolios,
+$39.99 / $199.99 a month); CoinXSight ASI score (tokenomics/momentum/on-chain/social, no planning);
+Messari, Token Terminal, Nansen AI for institutional research. Planning products: Merlin
+(exit ladders + alerts, no research, US/Canada), TakeMyProfits (free exit calculator + email
+alerts), CoinStats exit strategy, Delta and PortfolioTrackr ($299 lifetime).
+
+Nobody found combines: a stated bear-market thesis, evidence per cell, two raters with visible
+disagreement, user-set weights, controls and anchors, a plan with portfolio multiples, and a
+share link. The combination is the gap; each single feature exists elsewhere.
+
+Verdict: worth building as an indie tool, not a venture-scale idea. Moat is the process
+(rubric, consistency rules, history, validated weights), not the output, because LLM-generated
+grades are becoming a commodity. Make-or-break: the 2022 backtest. Launch content: the BCH vs
+LTC finding and the Opus-vs-Claude disagreements. Keep the curated universe (62 tokens) as a
+feature against 7,000-asset noise; let users request additions.
