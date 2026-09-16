@@ -27,8 +27,11 @@ jobs:
         run: python3 scripts/fetch_market.py
       - name: News (outlet RSS, no key; keeps last opinions)
         run: python3 scripts/fetch_news.py
-      # Model steps (news stance daily, research monthly) are added in the next step with
-      # ANTHROPIC_API_KEY as a repository secret. Until then the last stored opinions are shown.
+      - name: News stance (claude-haiku-4-5; skipped when the secret is absent)
+        env: { ANTHROPIC_API_KEY: "${{ secrets.ANTHROPIC_API_KEY }}" }
+        run: |
+          pip install -q -r requirements.txt
+          python3 scripts/news_opinion.py --api && python3 scripts/merge_news.py
       - name: Build page and snapshot data
         run: python3 scripts/build.py
       - name: Commit refreshed data

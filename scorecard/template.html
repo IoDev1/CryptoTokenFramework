@@ -185,6 +185,7 @@ td.num.tgtc{color:var(--muted)}
     <label class="toggle"><input type="checkbox" id="live"> Correct Opus FA2 &amp; FC2 with live data</label>
     <button class="small-btn" id="reset">Reset to original</button>
     <span class="share"><button class="small-btn" id="shareBtn">Share plan</button><input id="shareUrl" readonly hidden aria-label="Share link"></span>
+    <a class="small-btn" id="newsletter" hidden target="_blank" rel="noopener" style="text-decoration:none;margin-left:auto;background:var(--accent);color:var(--accent-ink);border-color:var(--accent)"></a>
   </div>
 </header>
 
@@ -294,6 +295,7 @@ const TOKENS=[
 const RESEARCH=__RESEARCH_JSON__;
 const NEWS=__NEWS_JSON__;
 const TARGETS_DEFAULT=__TARGETS_JSON__;
+const SITE=__SITE_JSON__;
 let TARGETS={};try{TARGETS=Object.assign({},TARGETS_DEFAULT.tokens||{},JSON.parse(localStorage.getItem("cs.targets")||"{}"));}catch(e){TARGETS=Object.assign({},TARGETS_DEFAULT.tokens||{});}
 function saveTargets(){try{localStorage.setItem("cs.targets",JSON.stringify(TARGETS));}catch(e){}}
 function rankAt(mcap){const l=MARKET.top100||[];let r=1;for(const c of l){if(c.mcap>mcap)r++;}return r<=100?r:null;}
@@ -464,6 +466,15 @@ document.getElementById("asof").textContent="as of "+MARKET.as_of;
 document.getElementById("reset").onclick=()=>{preset="Original";W=presetWeights("Original");gate=false;live=false;document.getElementById("gate").checked=false;document.getElementById("live").checked=false;document.getElementById("thrCore").value=10;document.getElementById("thrWatch").value=8;renderPresets();renderWeights();update();};
 ["thrCore","thrWatch"].forEach(id=>document.getElementById(id).oninput=()=>update());
 loadHash();
+if(SITE.newsletter_url){const a=document.getElementById("newsletter");a.href=SITE.newsletter_url;a.textContent=SITE.newsletter_label||"Newsletter";a.hidden=false;}
+if(SITE.posthog_key){!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],Object.defineProperty(u,"toString",{configurable:!0,enumerable:!0,writable:!0,value:function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e}}),Object.defineProperty(u.people,"toString",{configurable:!0,enumerable:!0,writable:!0,value:function(){return u.toString(1)+".people (stub)"}}),o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+  // EU cloud, cookieless (memory persistence), no session recording, no autocapture: no consent banner needed
+  posthog.init(SITE.posthog_key,{api_host:SITE.posthog_host||"https://eu.i.posthog.com",defaults:"2026-05-30",persistence:"memory",disable_session_recording:true,autocapture:false,capture_pageview:true,person_profiles:"never"});
+  const ev=(n,p)=>{try{posthog.capture(n,p||{});}catch(e){}};
+  document.getElementById("shareBtn").addEventListener("click",()=>ev("share_plan"));
+  document.getElementById("newsletter").addEventListener("click",()=>ev("newsletter_click"));
+  document.getElementById("presets").addEventListener("click",e=>{if(e.target.tagName==="BUTTON")ev("preset",{name:e.target.textContent});});
+  document.getElementById("raters").addEventListener("click",e=>{if(e.target.tagName==="BUTTON")ev("rater",{name:e.target.textContent});});}
 document.getElementById("shareBtn").onclick=()=>{const url=location.origin+location.pathname+"#p="+encodePlan(planState());const inp=document.getElementById("shareUrl");inp.value=url;inp.hidden=false;inp.select();
   const done=()=>{document.getElementById("shareBtn").textContent="Link copied";setTimeout(()=>document.getElementById("shareBtn").textContent="Share plan",1800);};
   if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(url).then(done,()=>{});else{try{document.execCommand("copy");done();}catch(e){}}};

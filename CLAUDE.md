@@ -16,8 +16,12 @@ JSON and never calls a model per visitor.
 | `research/batch_*_input.txt`, `research/batch_*.json` | Per-batch research inputs and agent outputs (raw) |
 | `research/news_batch_*` | Same for news opinions |
 | `scripts/fetch_market.py` | CoinGecko + DeFiLlama -> `data/market.json` (+ top-100 ladder) |
-| `scripts/fetch_news.py` | Google News RSS -> `data/news.json` (headlines with source/date/link) |
-| `scripts/news_opinion.py` | Builds news inputs; runs `claude -p` per batch on the user's plan |
+| `scripts/fetch_news.py` | Outlet RSS (8 feeds), rolling 14-day store -> `data/news.json`; `--google` for personal use |
+| `scripts/news_opinion.py` | Builds news inputs; `--api` runs claude-haiku-4-5 (CI), default runs `claude -p` on the user's plan |
+| `scripts/research_run.py` | `--prepare` writes batch inputs from market data; `--api` runs claude-opus-5 + web search per batch (monthly CI) |
+| `scripts/model_api.py` | Shared API helper: streamed request, pause_turn loop, refusal check, JSON extraction, cost estimate |
+| `data/site.json` | Public-site config: newsletter link, PostHog key/host (EU), affiliates. Injected as `__SITE_JSON__` |
+| `.github/workflows/research.yml` | Monthly: market + research pass + merge + build + commit (the daily workflow deploys it) |
 | `scripts/merge_research.py` | `research/batch_*.json` -> `data/research.json`, applies consistency rules |
 | `scripts/merge_news.py` | `research/news_batch_*.json` -> opinions folded into `data/news.json` |
 | `scripts/build.py` | Injects the four JSON files into `scorecard/template.html` -> `scorecard/index.html` |
@@ -56,4 +60,7 @@ Research re-run: agents score `research/batch_N_input.txt` under `research/RUBRI
 - Share links encode the whole plan in `#p=<base64url JSON>`; `loadHash()` imports it and clears the hash.
 - News is a rolling 14-day store per token (union by URL across runs); opinions carry `cited_items` so headline indices never drift. `fetch_news.py --google` is personal-use only.
 - Keep each day's JSON (commit, don't overwrite) once public: verdict history is the backtest.
+- Both model steps exit 0 and keep stored output when `ANTHROPIC_API_KEY` is absent; the site never breaks on a missing secret.
+- PostHog is EU cloud, memory persistence, no recording, no autocapture: no consent banner needed. Only loads when `site.json` has a key.
+- Pushes made with `GITHUB_TOKEN` do not trigger other workflows, so the monthly research commit is deployed by the next daily refresh.
 - This is research tooling, not advice. Keep wording educational on anything public.

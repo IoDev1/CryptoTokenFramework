@@ -114,3 +114,15 @@ Verdict: worth building as an indie tool, not a venture-scale idea. Moat is the 
 grades are becoming a commodity. Make-or-break: the 2022 backtest. Launch content: the BCH vs
 LTC finding and the Opus-vs-Claude disagreements. Keep the curated universe (62 tokens) as a
 feature against 7,000-asset noise; let users request additions.
+
+## Plan from the 2026-09-16 brainstorm (other chat) and assessment
+
+Proposed: research letter on Beehiiv at 5 EUR/mo or 39 EUR/yr (score changes + model
+disagreements), affiliate links, "research JSON feeds OnchainArena", 5 subscribers cover the API.
+Steps: GitHub repo + Pages + daily workflow; PostHog; Beehiiv linked from header; model steps on
+the API with one secret.
+
+Assessment: the letter is the right first product (monetises the process, no backend, Beehiiv
+handles billing/VAT); push the annual price. Swap the order: API model steps before the letter,
+because the letter's content is the diff between unattended refreshes. "OnchainArena" is unknown
+here; clarify before building an export. PostHog on EU cloud, cookieless, no recording.

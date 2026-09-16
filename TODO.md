@@ -21,7 +21,13 @@
 - [ ] Table is wide; consider column groups or a compact mode
 
 ## Public version (see `PRODUCT_NOTES.md`)
-- [ ] Replace `claude -p` with API calls: Haiku 4.5 for news stance, Opus 5 for the monthly research pass
+- [ ] Create GitHub repo, push, enable Pages (Actions), add `ANTHROPIC_API_KEY` secret
+- [ ] Open Beehiiv publication; put its URL in `data/site.json` -> `newsletter_url`
+- [ ] Create PostHog project on EU cloud; put the key in `data/site.json` -> `posthog_key`
+- [ ] Clarify "OnchainArena" JSON feed request from the other brainstorm (unknown to this repo)
+- [ ] Weekly letter format: score changes since last issue + Opus-vs-Claude disagreements + news stance shifts (a `scripts/diff_history.py` would produce it from `data/history/`)
+- [x] API model steps: `news_opinion.py --api` (Haiku 4.5, daily) and `research_run.py --api` (Opus 5 + web search, monthly); untested live until a key exists
+- [ ] First live run of both API steps with the secret set; confirm cost per run against the estimate printed
 - [x] GitHub Actions: daily market + news, rebuild, commit, deploy to Pages (`.github/workflows/refresh.yml`)
 - [ ] Create the GitHub repo, push, enable Pages (Settings > Pages > Source: GitHub Actions)
 - [x] Static hosting via GitHub Pages (workflow ready)

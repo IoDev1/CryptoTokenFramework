@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Free path for the news opinion step: run it through Claude Code on your plan, no API key.
+"""News stance step.
 
-  python3 scripts/news_opinion.py            # builds research/news_batch_*_input.txt and runs `claude -p` per batch
-  python3 scripts/news_opinion.py --prepare  # only builds the inputs (then paste them into a Claude session yourself)
+  python3 scripts/news_opinion.py            # builds research/news_batch_*_input.txt and runs `claude -p` per batch (personal plan)
+  python3 scripts/news_opinion.py --api      # same, but on the Claude API with claude-haiku-4-5 (CI; needs ANTHROPIC_API_KEY)
+  python3 scripts/news_opinion.py --prepare  # only builds the inputs
 
 Then: python3 scripts/merge_news.py && python3 scripts/build.py
 """
 import json, pathlib, shutil, subprocess, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 n = json.loads((ROOT/"data"/"news.json").read_text())["tokens"]; r = json.loads((ROOT/"data"/"research.json").read_text())["tokens"]
 tks = [t for t in n if (n[t]["items"] if isinstance(n[t], dict) else n[t])]
@@ -21,6 +23,18 @@ for gi, g in enumerate(groups, 1):
     (ROOT/"research"/f"news_batch_{gi}_input.txt").write_text("\n".join(lines))
 print("inputs written: research/news_batch_1..3_input.txt")
 if "--prepare" in sys.argv: sys.exit(0)
+if "--api" in sys.argv:
+    import model_api as M
+    if not M.have_key():
+        print("ANTHROPIC_API_KEY not set: skipping news stance, keeping stored opinions"); sys.exit(0)
+    prompt = (ROOT/"research"/"NEWS_OPINION_PROMPT.md").read_text()
+    total = 0.0
+    for gi in range(1, 4):
+        inp = (ROOT/"research"/f"news_batch_{gi}_input.txt").read_text()
+        obj, usage = M.run_json(prompt + "\nReply with the JSON object only.", "INPUT:\n" + inp, model=M.HAIKU, max_tokens=8000)
+        (ROOT/"research"/f"news_batch_{gi}.json").write_text(json.dumps(obj, indent=1))
+        c = M.cost_usd(M.HAIKU, usage); total += c; print(f"news batch {gi}: {len(obj.get('tokens',{}))} tokens, ~${c:.3f}")
+    print(f"news stance total ~${total:.2f}"); sys.exit(0)
 if not shutil.which("claude"):
     print("claude CLI not found; run with --prepare and paste the inputs into a Claude Code session"); sys.exit(1)
 prompt = (ROOT/"research"/"NEWS_OPINION_PROMPT.md").read_text()

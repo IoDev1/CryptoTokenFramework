@@ -9,11 +9,12 @@ def load(name, default):
     f = ROOT/"data"/name
     return json.dumps(json.loads(f.read_text()), separators=(",",":")) if f.exists() else default
 news = load("news.json", '{"as_of":"","source":"","tokens":{}}'); targets = load("targets.json", '{"tokens":{}}')
-for ph in ("__MARKET_JSON__","__RESEARCH_JSON__","__NEWS_JSON__","__TARGETS_JSON__"): assert ph in tpl, ph
+site = load("site.json", '{}')
+for ph in ("__MARKET_JSON__","__RESEARCH_JSON__","__NEWS_JSON__","__TARGETS_JSON__","__SITE_JSON__"): assert ph in tpl, ph
 # versioned outputs: one folder per day, so verdict history accumulates for a later backtest
 import datetime, shutil
 hist = ROOT/"data"/"history"/datetime.date.today().isoformat(); hist.mkdir(parents=True, exist_ok=True)
 for name in ("market.json","research.json","news.json"):
     if (ROOT/"data"/name).exists(): shutil.copy(ROOT/"data"/name, hist/name)
-(ROOT/"scorecard"/"index.html").write_text(tpl.replace("__MARKET_JSON__", data).replace("__RESEARCH_JSON__", research).replace("__NEWS_JSON__", news).replace("__TARGETS_JSON__", targets))
+(ROOT/"scorecard"/"index.html").write_text(tpl.replace("__MARKET_JSON__", data).replace("__RESEARCH_JSON__", research).replace("__NEWS_JSON__", news).replace("__TARGETS_JSON__", targets).replace("__SITE_JSON__", site))
 print("built scorecard/index.html")
