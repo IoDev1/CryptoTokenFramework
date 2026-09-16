@@ -167,6 +167,17 @@ td.num.tgtc{color:var(--muted)}
 .about dd{margin:0;font-size:13px}
 .about .disc{border:1px solid var(--line-strong);border-radius:6px;padding:10px 12px;background:var(--surface);color:var(--ink);font-size:13px}
 .nw li.op{background:var(--surface-2);border-radius:4px;padding:6px}
+.week{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;background:var(--surface);margin-bottom:14px;padding:10px 12px}
+.week-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px}
+.week-h .label{color:var(--ink-2)} .week-h .when{font-size:12px;color:var(--muted);font-family:var(--mono)}
+.week ul{margin:6px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:4px 16px}
+.week li{font-size:13px;padding:3px 0;border-bottom:1px solid var(--line)} .week li b{font-family:var(--mono);cursor:pointer;color:var(--accent)}
+.week .empty{font-size:13px;color:var(--muted);margin:6px 0 0}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
+.modal .box{background:var(--surface);border:1px solid var(--line-strong);border-radius:8px;padding:14px;max-width:min(96vw,860px);width:100%}
+.modal canvas{width:100%;height:auto;display:block;border-radius:4px;border:1px solid var(--line)}
+.modal .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+.modal .row .note{margin:0;margin-left:auto}
 @media (prefers-reduced-motion:no-preference){.bar .fl{transition:width .25s ease}svg.radar polygon{transition:points .25s ease}}
 </style>
 
@@ -185,6 +196,7 @@ td.num.tgtc{color:var(--muted)}
     <label class="toggle"><input type="checkbox" id="live"> Correct Opus FA2 &amp; FC2 with live data</label>
     <button class="small-btn" id="reset">Reset to original</button>
     <span class="share"><button class="small-btn" id="shareBtn">Share plan</button><input id="shareUrl" readonly hidden aria-label="Share link"></span>
+    <a class="small-btn" href="ledger.html" style="text-decoration:none">Ledger</a>
     <a class="small-btn" id="newsletter" hidden target="_blank" rel="noopener" style="text-decoration:none;margin-left:auto;background:var(--accent);color:var(--accent-ink);border-color:var(--accent)"></a>
   </div>
 </header>
@@ -194,6 +206,7 @@ td.num.tgtc{color:var(--muted)}
   <aside class="weights" id="weights" aria-label="Filter weights"></aside>
 
   <section class="ranking">
+    <section class="week" id="week" aria-label="This week"></section>
     <section class="plan" id="plan" aria-label="Your plan"></section>
     <div class="tiles" id="tiles"></div>
     <div class="thr">
@@ -296,6 +309,7 @@ const RESEARCH=__RESEARCH_JSON__;
 const NEWS=__NEWS_JSON__;
 const TARGETS_DEFAULT=__TARGETS_JSON__;
 const SITE=__SITE_JSON__;
+const CHANGES=__CHANGES_JSON__;
 let TARGETS={};try{TARGETS=Object.assign({},TARGETS_DEFAULT.tokens||{},JSON.parse(localStorage.getItem("cs.targets")||"{}"));}catch(e){TARGETS=Object.assign({},TARGETS_DEFAULT.tokens||{});}
 function saveTargets(){try{localStorage.setItem("cs.targets",JSON.stringify(TARGETS));}catch(e){}}
 function rankAt(mcap){const l=MARKET.top100||[];let r=1;for(const c of l){if(c.mcap>mcap)r++;}return r<=100?r:null;}
@@ -339,6 +353,53 @@ function tierOf(s,thrC,thrW){if(s.excluded)return"gate";if(s.norm>=thrC)return"c
 function axisVals(t){const bits=bitsOf(t)||FILTERS.map(()=>0);return AXES.map(([name,ids])=>{let w=0,v=0;ids.forEach(id=>{const i=FILTERS.findIndex(f=>f[0]===id);w+=W[id];v+=W[id]*bits[i];});return{name,v:w?v/w:null};});}
 const fmt=n=>(Math.round(n*10)/10).toFixed(1);
 
+// ---------- image cards (1200x675, X-friendly), drawn on canvas; downloads work on the public site
+const CARD={bg:"#101312",surface:"#181c1a",line:"#2c332f",ink:"#f2f4f1",ink2:"#b9c0bb",muted:"#7f877f",accent:"#5fb3cf",good:"#0ca30c",warn:"#fab219",crit:"#e05a5a",gate:"#3d4641"};
+function cardCanvas(){const c=document.createElement("canvas");c.width=1200;c.height=675;const g=c.getContext("2d");g.fillStyle=CARD.bg;g.fillRect(0,0,1200,675);return[c,g];}
+function wrap(g,text,x,y,maxW,lh,maxLines){const words=String(text).split(/\s+/);let line="",n=0;for(const w of words){const t=line?line+" "+w:w;if(g.measureText(t).width>maxW&&line){g.fillText(line,x,y);y+=lh;line=w;if(++n>=maxLines-1){line=line;break;}}else line=t;}if(line){if(n>=maxLines-1&&g.measureText(line).width>maxW){while(g.measureText(line+"\u2026").width>maxW)line=line.slice(0,-1);line+="\u2026";}g.fillText(line,x,y);y+=lh;}return y;}
+function chipCard(g,x,y,text,color){g.font="600 22px 'IBM Plex Sans',system-ui,sans-serif";const w=g.measureText(text).width+28;g.fillStyle=color+"33";g.beginPath();g.roundRect(x,y-24,w,36,6);g.fill();g.fillStyle=color;g.fillText(text,x+14,y);return w;}
+function footer(g,left){g.font="500 18px 'IBM Plex Mono',monospace";g.fillStyle=CARD.muted;g.fillText(left,48,640);const r="Research tooling, not advice \u00B7 "+(SITE.newsletter_url?SITE.newsletter_url.replace(/^https?:\/\//,""):location.host||"conviction scorecard");g.fillText(r,1152-g.measureText(r).width,640);}
+function drawTokenCard(x){const[c,g]=cardCanvas();const m=MARKET.tokens[x.t.tk]||{},R=RESEARCH.tokens[x.t.tk],bits=bitsOf(x.t)||FILTERS.map(()=>0);const tl={core:"Core hold",watch:"Watch",avoid:"Avoid",gate:"Gate fail"},tc={core:CARD.good,watch:CARD.warn,avoid:CARD.crit,gate:CARD.muted};
+  g.fillStyle=CARD.ink;g.font="600 84px 'IBM Plex Mono',monospace";g.fillText(x.t.tk,48,120);
+  g.font="500 30px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle=CARD.ink2;g.fillText(m.name||"",48,160);
+  g.fillStyle=CARD.ink;g.font="600 84px 'IBM Plex Mono',monospace";const sc=x.s.unscored?"\u2014":fmt(x.s.norm);const sw=g.measureText(sc).width;g.fillText(sc,1152-sw-110,120);g.font="500 34px 'IBM Plex Mono',monospace";g.fillStyle=CARD.muted;g.fillText("/ 12",1152-100,120);
+  if(!x.s.unscored){g.font="600 22px 'IBM Plex Sans',system-ui,sans-serif";const w=g.measureText(tl[x.tier]).width+28;chipCard(g,1152-w,160,tl[x.tier],tc[x.tier]);}
+  // 13 cells
+  let cx=48;const cy=200;FILTERS.forEach(([id,tier],i)=>{const p=bits[i];g.fillStyle=p?CARD.good:CARD.crit;g.globalAlpha=.9;g.beginPath();g.roundRect(cx,cy,74,54,6);g.fill();g.globalAlpha=1;g.fillStyle="#fff";g.font="600 20px 'IBM Plex Mono',monospace";g.fillText(id,cx+10,cy+34);cx+=84;});
+  g.font="500 18px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle=CARD.muted;g.fillText("Dealbreakers 1.5 \u00B7 Foundation 1.0 \u00B7 Context 0.5 \u00B7 verdicts: "+RATERS[rater]+(rater!=="opus"&&R?", "+RESEARCH.as_of:""),48,284);
+  // market line
+  g.font="500 26px 'IBM Plex Mono',monospace";g.fillStyle=CARD.ink2;g.fillText(`${price(m.price)}   ${pct(m.ath_change_pct)} from ATH   ${m.circ_pct!=null?m.circ_pct.toFixed(0)+"% circ":""}   ${m.rev30d!=null?"rev 30d "+money(m.rev30d):""}`,48,330);
+  // key risk
+  g.font="600 22px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle=CARD.muted;g.fillText("KEY RISK",48,388);
+  g.font="500 30px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle=CARD.ink;const risk=(rater==="opus"?x.t.risk:(R&&R.key_risk))||x.t.risk||"";wrap(g,risk,48,428,1104,40,4);
+  footer(g,"conviction scorecard \u00B7 "+MARKET.as_of.slice(0,10));return c;}
+function drawPlanCard(rows,k){const[c,g]=cardCanvas();g.fillStyle=CARD.ink;g.font="600 56px 'IBM Plex Sans',system-ui,sans-serif";g.fillText("My bear-market plan",48,96);
+  g.font="500 26px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle=CARD.ink2;g.fillText(`${rows.length} positions \u00B7 ${k.alloc.toFixed(0)}% allocated \u00B7 weights: ${preset}`,48,138);
+  const tl={core:"Core",watch:"Watch",avoid:"Avoid",gate:"Gate"};const cols=[48,260,400,560,760,940];g.font="600 20px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle=CARD.muted;["TOKEN","TIER","ALLOC","ENTRY","TARGET","\u00D7"].forEach((h,i)=>g.fillText(h,cols[i],196));
+  g.fillStyle=CARD.line;g.fillRect(48,206,1104,2);let y=246;const show=rows.slice(0,8);
+  show.forEach(r=>{g.font="600 30px 'IBM Plex Mono',monospace";g.fillStyle=CARD.ink;g.fillText(r.tk,cols[0],y);g.font="500 26px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle={core:CARD.good,watch:CARD.warn,avoid:CARD.crit}[r.tier]||CARD.muted;g.fillText(r.unscored?"\u2014":tl[r.tier],cols[1],y);g.fillStyle=CARD.ink2;g.font="500 28px 'IBM Plex Mono',monospace";g.fillText(r.a?r.a.toFixed(0)+"%":"\u2014",cols[2],y);g.fillText(r.entry?price(+r.entry):"\u2014",cols[3],y);g.fillText(r.target?price(+r.target):"\u2014",cols[4],y);g.fillStyle=CARD.ink;g.fillText(r.mult!=null?r.mult.toFixed(1)+"\u00D7":"\u2014",cols[5],y);y+=44;});
+  if(rows.length>8){g.font="500 22px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle=CARD.muted;g.fillText(`+${rows.length-8} more`,48,y);}
+  const ky=600;[["ALL TARGETS HIT",k.all,CARD.good],["ONLY CORE HOLDS HIT",k.flat,CARD.warn],["REST TO ZERO",k.zero,CARD.crit]].forEach(([lab,v,col],i)=>{const x=48+i*370;g.font="600 18px 'IBM Plex Sans',system-ui,sans-serif";g.fillStyle=CARD.muted;g.fillText(lab,x,ky-46);g.font="600 44px 'IBM Plex Mono',monospace";g.fillStyle=col;g.fillText(String(v).replace("&#xD7;","\u00D7"),x,ky);});
+  footer(g,"conviction scorecard \u00B7 "+new Date().toISOString().slice(0,10)+" \u00B7 my levels, my risk");return c;}
+function showCard(canvas,name){const m=document.createElement("div");m.className="modal";m.innerHTML=`<div class="box"></div>`;const box=m.querySelector(".box");box.appendChild(canvas);
+  const row=document.createElement("div");row.className="row";row.innerHTML=`<button class="small-btn" id="cardDl">Download PNG</button><button class="small-btn" id="cardCp">Copy image</button><button class="small-btn" id="cardX">Close</button><span class="note">1200\u00D7675, ready for X. Downloads are blocked inside the preview sandbox; they work on the public site.</span>`;box.appendChild(row);
+  row.querySelector("#cardDl").onclick=()=>{canvas.toBlob(b=>{const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name+".png";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);},"image/png");};
+  row.querySelector("#cardCp").onclick=()=>{canvas.toBlob(async b=>{try{await navigator.clipboard.write([new ClipboardItem({"image/png":b})]);row.querySelector("#cardCp").textContent="Copied";}catch(e){row.querySelector("#cardCp").textContent="Copy not allowed here";}},"image/png");};
+  row.querySelector("#cardX").onclick=()=>m.remove();m.addEventListener("click",e=>{if(e.target===m)m.remove();});document.body.appendChild(m);}
+function renderWeek(scored){
+  const el=document.getElementById("week");const c=CHANGES;const tl={core:"Core hold",watch:"Watch",avoid:"Avoid"};
+  if(!c||!c.from){el.innerHTML=`<div class="week-h"><span class="label">This week</span><span class="when">${c&&c.to?c.to:""}</span></div><p class="empty">First snapshot. Changes appear here from the next refresh: price movers, verdict cells that flipped, tier changes and news stance shifts.</p>`;return;}
+  const items=[];
+  c.tiers.forEach(t=>items.push(`<b data-tk="${t.tk}">${t.tk}</b> moved ${tl[t.from]} &rarr; ${tl[t.to]}`));
+  c.verdicts.forEach(v=>items.push(`<b data-tk="${v.tk}">${v.tk}</b> ${v.from}&rarr;${v.to}: ${v.flips.map(f=>f.id+" "+(f.from?"&#x2713;":"&#x2717;")+"&rarr;"+(f.to?"&#x2713;":"&#x2717;")).join(", ")}`));
+  c.stances.forEach(st=>items.push(`<b data-tk="${st.tk}">${st.tk}</b> news ${st.from} &rarr; ${st.to}`));
+  c.movers.slice(0,4).forEach(m=>items.push(`<b data-tk="${m.tk}">${m.tk}</b> ${pct(m.pct)} to ${price(m.price)}`));
+  const dis=scored.filter(x=>x.s.diff!=null).sort((a,b)=>b.s.diff-a.s.diff)[0];
+  if(dis)items.push(`Biggest disagreement: <b data-tk="${dis.t.tk}">${dis.t.tk}</b>, ${dis.s.diff} of 13 cells`);
+  if(c.new_tokens.length)items.push(`New: ${c.new_tokens.map(t=>`<b data-tk="${t}">${t}</b>`).join(", ")}`);
+  el.innerHTML=`<div class="week-h"><span class="label">This week</span><span class="when">${c.from} &rarr; ${c.to}, ${c.days}d</span></div>${items.length?`<ul>${items.map(i=>`<li>${i}</li>`).join("")}</ul>`:`<p class="empty">Nothing changed in verdicts or stances. Prices moved less than usual.</p>`}`;
+  el.querySelectorAll("b[data-tk]").forEach(b=>b.onclick=()=>{sel=b.dataset.tk;update();});
+}
 function renderPlan(scored,thrC,thrW){
   const el=document.getElementById("plan");const rows=[];let alloc=0,all=0,coreFlat=0,coreZero=0;
   scored.forEach(x=>{const t=TARGETS[x.t.tk]||{};if(!(t.alloc>0||t.target||t.entry))return;const c=tgtCalc(x.t.tk);const m=MARKET.tokens[x.t.tk]||{};
@@ -348,10 +409,11 @@ function renderPlan(scored,thrC,thrW){
   if(!rows.length){el.innerHTML=`<div class="plan-h"><span class="label">Your plan</span></div><p class="empty">Pick a token, set an entry, target and allocation in the panel on the right. The plan and its portfolio multiple appear here.</p>`;return;}
   const cash=Math.max(0,100-alloc);const tot=alloc+cash;const k=v=>tot?((v+cash)/tot).toFixed(2)+"&#xD7;":"&#x2014;";
   const tierLbl={core:"Core hold",watch:"Watch",avoid:"Avoid",gate:"Gate fail"};
-  el.innerHTML=`<div class="plan-h"><span class="label">Your plan</span><div class="plan-kpis"><span>allocated <b>${alloc.toFixed(0)}%</b></span><span>all targets hit <b>${k(all)}</b></span><span>only Core holds hit, rest flat <b>${k(coreFlat)}</b></span><span>rest to zero <b>${k(coreZero)}</b></span></div></div>
+  el.innerHTML=`<div class="plan-h"><span class="label">Your plan</span><div class="plan-kpis"><span>allocated <b>${alloc.toFixed(0)}%</b></span><span>all targets hit <b>${k(all)}</b></span><span>only Core holds hit, rest flat <b>${k(coreFlat)}</b></span><span>rest to zero <b>${k(coreZero)}</b></span><button class="small-btn" id="planCard">Plan card</button></div></div>
   <table><thead><tr><th>Token</th><th>Tier</th><th>Alloc</th><th>Entry</th><th>Now</th><th>Target</th><th>&#xD7;</th><th>Status</th></tr></thead><tbody>${rows.map(r=>`<tr><td class="tok" data-tk="${r.tk}">${r.tk}</td><td style="text-align:left">${r.unscored?"&#x2014;":tierLbl[r.tier]}</td><td>${r.a?r.a.toFixed(0)+"%":"&#x2014;"}</td><td>${r.entry?price(+r.entry):"&#x2014;"}</td><td>${price(r.now)}</td><td>${r.target?price(+r.target):"&#x2014;"}</td><td>${r.mult!=null?r.mult.toFixed(1)+"&#xD7;":"&#x2014;"}</td><td style="text-align:left">${{entry:'<span class="chip entry">In zone</span>',hit:'<span class="chip hit">Target hit</span>',stop:'<span class="chip avoid">Stop</span>',wait:'<span class="chip gate">Waiting</span>'}[r.status]||""}</td></tr>`).join("")}</tbody></table>
   <p class="note">Multiple = target &#xF7; entry (or &#xF7; current price when no entry), weighted by allocation; unallocated share counts as cash at 1&#xD7;. Tiers use the weights and thresholds you set above.</p>`;
   el.querySelectorAll("td.tok").forEach(td=>td.onclick=()=>{sel=td.dataset.tk;update();});
+  const pb=el.querySelector("#planCard");if(pb)pb.onclick=()=>showCard(drawPlanCard(rows,{alloc,all:k(all),flat:k(coreFlat),zero:k(coreZero)}),"plan-card");
 }
 function planState(){return{t:TARGETS,W,preset,rater,gate,live,c:+document.getElementById("thrCore").value,w:+document.getElementById("thrWatch").value};}
 function encodePlan(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");}
@@ -390,6 +452,7 @@ function update(rebuildWeights){
   return`<td class="num tgtc">${c.entry?price(c.entry.price)+" <span class='live'>"+pct((c.entry.mult-1)*100)+"</span>":"&#x2014;"} ${st}</td><td class="num tgtc">${c.target?price(c.target.price)+" <span class='live'>"+c.target.mult.toFixed(1)+"&#xD7;</span>":"&#x2014;"}</td><td>${(()=>{const o=(NEWS.tokens[x.t.tk]||{}).opinion;if(!o)return"&#x2014;";const cls={bullish:"bull",bearish:"bear",neutral:"neut",noise:"noise"}[o.stance]||"neut";return`<span class="chip ${cls}" title="${(o.text||"").replace(/"/g,"&quot;")}">${o.stance}</span>`;})()}</td>`;})()}<td><span class="dots">${dots}</span></td><td class="risk">${(rater==="opus"?x.t.risk:(RESEARCH.tokens[x.t.tk]||{}).key_risk)||x.t.risk}</td>`;
     const pick=()=>{sel=x.t.tk;update();};tr.onclick=pick;tr.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();pick();}};
     tb.appendChild(tr);});
+  renderWeek(scored);
   renderPlan(scored,thrC,thrW);
   renderDetail(scored,thrC,thrW);
   save();
@@ -422,6 +485,7 @@ function renderDetail(scored,thrC,thrW){
     <div><div class="k">Fees 30d</div><div class="v">${money(m.fees30d)}</div></div>
     <div><div class="k">Revenue 30d</div><div class="v">${money(m.rev30d)} <span style="color:var(--muted)">${tr==null?"":pct(tr)+" vs prior 30d"}</span></div></div>
     <div class="src">CoinGecko: ${m.id}${m.llama_src?" &#xB7; DeFiLlama: "+m.llama_src:" &#xB7; no DeFiLlama match"}</div></div>`;}}
+  h+=`<div class="cmp"><button class="small-btn" id="tokCard">Card for X</button></div>`;
   h+=`<div class="cmp"><label for="cmpSel">Compare with</label><select id="cmpSel">${opts}</select></div>`;
   h+=`<div class="legend"><span style="--c:var(--s1)">${x.t.tk}</span>${y?`<span style="--c:var(--s2)">${y.t.tk}</span>`:""}</div>`;
   h+=radarSVG(a,b);
@@ -453,6 +517,7 @@ function renderDetail(scored,thrC,thrW){
   h+=`<p class="note">Each filter row shows both verdicts: O = Opus 4.6 (your run), C = Claude with web search on ${RESEARCH.as_of}. Hover a filter for the evidence line. Each spider axis is the weighted pass rate of its filters, so it moves with your weights. <b>Entry</b> is FC2 alone: it says whether the price is cheap, not whether the token is good.</p>`;
   const el=document.getElementById("detail");el.innerHTML=h;
   el.querySelector("#cmpSel").onchange=e=>{cmp=e.target.value;update();};
+  el.querySelector("#tokCard").onclick=()=>showCard(drawTokenCard(x),x.t.tk.toLowerCase()+"-card");
   [["tgEntry","entry"],["tgTarget","target"],["tgStop","stop"],["tgAlloc","alloc"],["tgNote","note"]].forEach(([id,k])=>{const inp=el.querySelector("#"+id);if(!inp)return;
     inp.onchange=e=>{const t=TARGETS[x.t.tk]||(TARGETS[x.t.tk]={});const v=e.target.value;if(k==="note")t.note=v;else if(v==="")delete t[k];else t[k]=+v;if(!Object.keys(t).length)delete TARGETS[x.t.tk];saveTargets();update();};});
 }

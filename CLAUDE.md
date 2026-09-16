@@ -24,7 +24,9 @@ JSON and never calls a model per visitor.
 | `.github/workflows/research.yml` | Monthly: market + research pass + merge + build + commit (the daily workflow deploys it) |
 | `scripts/merge_research.py` | `research/batch_*.json` -> `data/research.json`, applies consistency rules |
 | `scripts/merge_news.py` | `research/news_batch_*.json` -> opinions folded into `data/news.json` |
-| `scripts/build.py` | Injects the four JSON files into `scorecard/template.html` -> `scorecard/index.html` |
+| `scripts/build.py` | Snapshots data, runs `diff_history.py`, injects JSON into the templates -> `scorecard/{index,ledger}.html` (bare, for the artifact) and `site/{index,ledger}.html` (full documents, for Pages) |
+| `scripts/diff_history.py` | `data/history/*` -> `data/changes.json` (this-week panel) and `data/ledger.json` (public ledger) |
+| `scorecard/ledger_template.html` | Ledger page source; placeholder `__LEDGER_JSON__` |
 | `scorecard/template.html` | THE source of the page. Placeholders `__MARKET_JSON__`, `__RESEARCH_JSON__`, `__NEWS_JSON__`, `__TARGETS_JSON__` |
 | `scorecard/index.html` | Build output. Never edit by hand |
 | `data/*.json` | market, research, news, targets. `data/history/<date>/` holds daily snapshots |
@@ -53,8 +55,10 @@ Research re-run: agents score `research/batch_N_input.txt` under `research/RUBRI
 - The page rescales every score to /12 so weight presets stay comparable.
 - "Correct Opus FA2 & FC2 with live data" only touches Opus cells. Claude cells already use
   today's data plus judgment; never override them mechanically.
-- Non-ASCII in the template is written as numeric entities (`&#x2265;`): a local `python -m
-  http.server` preview mis-decodes UTF-8 otherwise.
+- Non-ASCII in the templates: `&#x...;` entities in markup, `\uXXXX` escapes inside `<script>` (canvas text
+  cannot use entities). A local `python -m http.server` preview mis-decodes raw UTF-8 otherwise.
+- Image cards (token, plan) are drawn on a 1200x675 canvas in the browser; download/copy work on the public site, not inside the artifact sandbox.
+- Ledger and this-week panel always use v1 weights, Claude verdicts, thresholds 10/8, no gates, so they are stable regardless of visitor settings.
 - Tokens without Opus bits (BTC and the 15 added 2026-09-09) show "Not scored" under the Opus rater.
 - Targets/allocations are per-browser (`localStorage` key `cs.targets`); `data/targets.json` holds defaults.
 - Share links encode the whole plan in `#p=<base64url JSON>`; `loadHash()` imports it and clears the hash.

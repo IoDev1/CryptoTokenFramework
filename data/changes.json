@@ -1,0 +1,42 @@
+{
+ "to": "2026-09-16",
+ "from": "2026-09-10",
+ "days": 6,
+ "movers": [
+  {
+   "tk": "EGLD",
+   "pct": -26.7,
+   "price": 3.76
+  },
+  {
+   "tk": "PENDLE",
+   "pct": 15.8,
+   "price": 2.27
+  },
+  {
+   "tk": "KAS",
+   "pct": -14.1,
+   "price": 0.032507
+  },
+  {
+   "tk": "STX",
+   "pct": -12.3,
+   "price": 0.232865
+  },
+  {
+   "tk": "CVX",
+   "pct": -12.1,
+   "price": 1.82
+  },
+  {
+   "tk": "VET",
+   "pct": -11.5,
+   "price": 0.00701677
+  }
+ ],
+ "verdicts": [],
+ "tiers": [],
+ "stances": [],
+ "disagreement": null,
+ "new_tokens": []
+}

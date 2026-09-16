@@ -25,7 +25,10 @@
 - [ ] Open Beehiiv publication; put its URL in `data/site.json` -> `newsletter_url`
 - [ ] Create PostHog project on EU cloud; put the key in `data/site.json` -> `posthog_key`
 - [ ] Clarify "OnchainArena" JSON feed request from the other brainstorm (unknown to this repo)
-- [ ] Weekly letter format: score changes since last issue + Opus-vs-Claude disagreements + news stance shifts (a `scripts/diff_history.py` would produce it from `data/history/`)
+- [x] `scripts/diff_history.py` produces `data/changes.json` (this-week) and `data/ledger.json`; the letter can be written from `changes.json`
+- [x] This-week panel, token and plan image cards (canvas, 1200x675), public ledger page
+- [ ] Ledger: add a BTC-relative return column and a per-token sparkline once there are >= 8 snapshots
+- [ ] Cards: server-side PNG (Pillow) in CI for automated daily posts; browser cards cover manual posting
 - [x] API model steps: `news_opinion.py --api` (Haiku 4.5, daily) and `research_run.py --api` (Opus 5 + web search, monthly); untested live until a key exists
 - [ ] First live run of both API steps with the secret set; confirm cost per run against the estimate printed
 - [x] GitHub Actions: daily market + news, rebuild, commit, deploy to Pages (`.github/workflows/refresh.yml`)
