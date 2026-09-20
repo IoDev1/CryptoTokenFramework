@@ -31,7 +31,7 @@ JSON and never calls a model per visitor.
 | `scorecard/index.html` | Build output. Never edit by hand |
 | `data/*.json` | market, research, news, targets. `data/history/<date>/` holds daily snapshots |
 | `.github/workflows/refresh.yml` | Daily: fetch market + news, build, commit, deploy to GitHub Pages |
-| `scripts/backtest/` | `cmc_snapshot.py` (CMC weekly snapshot -> JSON), `universe.py`, `enrich.py` (pre-cutoff ATH via CoinGecko/Yahoo verified, DeFiLlama historical fees), `analyze.py` (merge, baskets, per-filter signal, weight sweep -> `BACKTEST.md`) |
+| `scripts/backtest/` | `cmc_snapshot.py` (CMC weekly snapshot -> JSON), `universe.py`, `enrich.py` (pre-cutoff ATH via CoinGecko/Yahoo verified, DeFiLlama historical fees), `analyze.py` (merge, baskets, per-filter signal, weight sweep -> `BACKTEST.md`), `analyze_v2.py` (v2 approximation from v1 cells + mechanical data, relative tiers, appends to the report) |
 | `research/BACKTEST_RUBRIC.md` | Same 13 filters with the 2022-11-15 information cutoff rules |
 | `data/backtest/` | snapshots, universe, batch inputs/outputs, results.json |
 

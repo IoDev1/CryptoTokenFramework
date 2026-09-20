@@ -35,6 +35,8 @@ were 64% positive (median +53%). But gating would also have excluded all four BT
 a relative-strength filter; narrow FA1 to undisclosed or deceptive insider selling; raise the weight of value accrual, revenue and supply health;
 make tiers relative; keep BTC as the benchmark every basket must beat; treat gates as a risk setting the user can switch on.
 
+**v2 on the same data** (section at the end): rank correlation 0.20 vs 0.16, relative tiers give a 15-token Core basket that was 93% positive with a median of +133%, versus +43% for the bottom half. Value accrual (median +159% vs -19%), revenue level (P/S) and supply health separate outcomes most.
+
 **Hindsight caveat, again.** The judgment cells were researched by models that know 2023-2025. The cutoff instruction was followed (several agents
 reported finding and excluding post-cutoff facts), but leakage cannot be ruled out, and the mechanical cells are the only fully clean ones. The
 daily verdict history started 2026-09-10 is the leak-free version of this test.
@@ -151,3 +153,95 @@ Median return of tokens that passed vs failed each filter, and the share that be
 | 66 | APT | 2.5 | avoid | FA1,FA2,FA3 | -56.7% | 108.8% | no | H | 13% float with 7% inflation and a 2023 insider cliff, plus a bankrupt lead investor (FTX Ventures) holding loc |
 | 54 | HT | 1.5 | avoid | FA1,FA2,FA3,FA4 | -87.8% | -75.4% | no | M | Opaque change of control to About Capital/Justin Sun with 74M HT moved from official wallets, on top of a reve |
 | 39 | XCN | 0.0 | avoid | FA1,FA2,FA3,FA4 | -73.6% | -94.4% | no | M | Opaque, insider-concentrated supply with thin real demand behind a $1B market cap. |
+
+## v2 approximation on the same universe
+
+v2 Quality rebuilt from the v1 cells plus mechanical data (survivorship from listing date and ATH cycle, P/S and revenue trend from DeFiLlama, S7 concentration unavailable and excluded), relative tiers (top quartile / second quartile / bottom half), gates optional, entry separate. Details in `scripts/backtest/analyze_v2.py`.
+
+Rank correlation with return: **v2 0.204** vs v1 0.159.
+
+| Basket | n | Median | Mean | Positive | Beat BTC |
+|---|---|---|---|---|---|
+| v2 Core (relative) | 15 | 132.8% | 147.5% | 93% | 0% |
+| v2 Watch (relative) | 15 | 138.9% | 161.1% | 80% | 7% |
+| v2 Avoid (relative) | 30 | 43.4% | 140.7% | 67% | 10% |
+| v2 Core + gates | 7 | 110.3% | 149.9% | 100% | 0% |
+| v2 Watch + gates | 5 | 18.5% | 81.0% | 80% | 0% |
+| v2 Avoid + gates | 48 | 88.9% | 154.0% | 73% | 8% |
+| E1 far from ATH | 49 | 69.1% | 162.6% | 78% | 8% |
+| not E1 | 11 | 108.8% | 80.2% | 73% | 0% |
+| E2 relative strength | 30 | 93.4% | 128.9% | 77% | 3% |
+| not E2 | 30 | 51.3% | 166.0% | 77% | 10% |
+
+| v2 cell | Pass n / median | Partial n / median | Fail n / median |
+|---|---|---|---|
+| S1 Survivorship | 18 / 94.2% | 0 / None% | 42 / 61.2% |
+| S2 Value accrual | 8 / 158.9% | 46 / 93.4% | 6 / -18.7% |
+| S3 Revenue level (P/S) | 4 / 246.7% | 9 / 108.8% | 47 / 57.2% |
+| S4 Revenue trend | 12 / 136.8% | 7 / 193.4% | 41 / 49.2% |
+| S5 Supply health | 16 / 116.5% | 16 / 122.5% | 28 / 20.0% |
+| S6 Moat | 29 / 110.3% | 0 / None% | 31 / 57.2% |
+| S8 Usage growth | 14 / 156.6% | 0 / None% | 46 / 63.1% |
+
+| Token | v2 Q | v2 tier | gates | v1 | v1 tier | Return |
+|---|---|---|---|---|---|---|
+| ETH | 8.89 | core | - | 10.0 | core | 167.3% |
+| BTC | 8.33 | core | - | 10.5 | core | 477.8% |
+| MKR | 8.06 | core | - | 9.5 | watch | 110.3% |
+| BNB | 8.06 | core | G1 | 8.5 | watch | 150.6% |
+| XMR | 6.94 | core | - | 9.5 | watch | 56.8% |
+| TRX | 6.94 | core | G1,G2 | 8.5 | watch | 358.7% |
+| MATIC | 6.39 | core | G1 | 9.5 | watch | -49.4% |
+| VET | 6.39 | core | G1 | 9.5 | watch | 132.8% |
+| THETA | 6.39 | core | G1 | 9.5 | watch | 141.7% |
+| XTZ | 6.39 | core | - | 9.0 | watch | 24.4% |
+| MANA | 6.39 | core | G1 | 9.0 | watch | 7.0% |
+| LTC | 6.11 | core | - | 8.5 | watch | 78.0% |
+| AAVE | 5.83 | core | G1 | 9.0 | watch | 408.3% |
+| SNX | 5.83 | core | G1 | 6.5 | avoid | 13.3% |
+| UNI | 5.56 | core | - | 9.0 | watch | 134.7% |
+| ETC | 5.56 | watch | - | 8.5 | watch | 26.6% |
+| DOGE | 5.56 | watch | G3 | 7.0 | avoid | 295.7% |
+| CAKE | 5.56 | watch | G1,G3 | 6.0 | avoid | -42.6% |
+| FIL | 5.28 | watch | - | 6.5 | avoid | 18.5% |
+| LINK | 5.28 | watch | G1 | 6.0 | avoid | 226.7% |
+| ADA | 5.0 | watch | G1 | 7.0 | avoid | 193.4% |
+| ZEC | 3.61 | watch | - | 6.5 | avoid | 18.0% |
+| SHIB | 3.61 | watch | G3 | 5.5 | avoid | 138.9% |
+| FTM | 3.33 | watch | G1 | 6.0 | avoid | 286.5% |
+| ATOM | 3.06 | watch | - | 7.0 | avoid | -36.5% |
+| XLM | 3.06 | watch | - | 5.5 | avoid | 378.5% |
+| TON | 3.06 | watch | G1 | 5.0 | avoid | 220.6% |
+| SAND | 3.06 | watch | G1 | 5.0 | avoid | -1.4% |
+| XRP | 3.06 | watch | G3 | 4.0 | avoid | 636.5% |
+| KCS | 3.06 | watch | G1 | 4.0 | avoid | 57.2% |
+| HT | 3.06 | avoid | G1,G3 | 1.5 | avoid | -75.4% |
+| BCH | 2.5 | avoid | - | 8.5 | watch | 349.4% |
+| XEC | 2.5 | avoid | - | 8.0 | watch | 27.1% |
+| NEO | 2.5 | avoid | G1 | 7.5 | avoid | 122.8% |
+| DOT | 2.5 | avoid | - | 7.0 | avoid | 15.2% |
+| BSV | 2.5 | avoid | G1,G3 | 6.0 | avoid | 49.2% |
+| BTT | 2.5 | avoid | G1 | 6.0 | avoid | 69.1% |
+| CHZ | 2.5 | avoid | G1 | 5.5 | avoid | -59.6% |
+| CRO | 2.22 | avoid | G1 | 6.0 | avoid | 110.5% |
+| NEAR | 2.22 | avoid | - | 5.5 | avoid | 154.4% |
+| TWT | 2.22 | avoid | G1 | 5.5 | avoid | -39.5% |
+| SOL | 2.22 | avoid | - | 4.5 | avoid | 1332.3% |
+| QNT | 1.67 | avoid | - | 7.0 | avoid | 2.1% |
+| MIOTA | 1.67 | avoid | G1 | 6.5 | avoid | 53.4% |
+| LEO | 1.67 | avoid | G1 | 6.0 | avoid | 134.6% |
+| FLOW | 1.67 | avoid | G1 | 6.0 | avoid | -38.9% |
+| EOS | 1.67 | avoid | G1 | 5.0 | avoid | -11.2% |
+| BIT | 1.67 | avoid | G1 | 5.0 | avoid | 1068.5% |
+| LUNC | 1.67 | avoid | G1,G3 | 3.0 | avoid | -40.5% |
+| HBAR | 1.39 | avoid | G1 | 5.5 | avoid | 513.2% |
+| AXS | 1.39 | avoid | G1 | 4.5 | avoid | -12.6% |
+| ICP | 1.39 | avoid | G1 | 3.5 | avoid | 158.8% |
+| APT | 1.39 | avoid | G1 | 2.5 | avoid | 108.8% |
+| ALGO | 0.83 | avoid | G1 | 5.5 | avoid | 37.5% |
+| AVAX | 0.83 | avoid | - | 5.0 | avoid | 180.1% |
+| EGLD | 0.83 | avoid | G1 | 5.0 | avoid | -24.0% |
+| OKB | 0.83 | avoid | G1 | 4.0 | avoid | 169.4% |
+| KLAY | 0.83 | avoid | G1 | 3.5 | avoid | 21.5% |
+| APE | 0.0 | avoid | - | 4.5 | avoid | -62.2% |
+| XCN | 0.0 | avoid | G1,G2,G3 | 0.0 | avoid | -94.4% |

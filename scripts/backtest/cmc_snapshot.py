@@ -26,7 +26,7 @@ for c in listing:
     q = (c.get("quote") or {}).get("USD") or {}
     out.append({"rank": c.get("cmcRank"), "id": c.get("id"), "symbol": c.get("symbol"), "name": c.get("name"), "slug": c.get("slug"),
                 "price": q.get("price"), "mcap": q.get("marketCap"), "circ": c.get("circulatingSupply"), "total": c.get("totalSupply"), "max": c.get("maxSupply"),
-                "tags": c.get("tags", []), "platform": (c.get("platform") or {}).get("symbol")})
+                "date_added": (c.get("dateAdded") or "")[:10], "tags": c.get("tags", []), "platform": (c.get("platform") or {}).get("symbol")})
 out.sort(key=lambda r: r["rank"] or 9999)
 p = ROOT/"data"/"backtest"/f"cmc_{date}.json"; p.write_text(json.dumps({"date": date, "rows": out}, indent=1))
 print(f"{date}: {len(out)} rows; top: {[r['symbol'] for r in out[:12]]}")

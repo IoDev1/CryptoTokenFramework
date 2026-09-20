@@ -27,7 +27,8 @@
    "fees30d": 9258205,
    "fees30d_prev": 7290833,
    "fees1y": 156158493,
-   "ret_pct": 477.8
+   "ret_pct": 477.8,
+   "date_added": "2013-04-28"
   },
   {
    "tk": "ETH",
@@ -54,7 +55,8 @@
    "fees30d": 113482743,
    "fees30d_prev": 75046212,
    "fees1y": 6241588649,
-   "ret_pct": 167.3
+   "ret_pct": 167.3,
+   "date_added": "2015-08-07"
   },
   {
    "tk": "BNB",
@@ -81,7 +83,8 @@
    "fees30d": 24142388,
    "fees30d_prev": 19155530,
    "fees1y": 635198040,
-   "ret_pct": 150.6
+   "ret_pct": 150.6,
+   "date_added": "2017-07-25"
   },
   {
    "tk": "XRP",
@@ -108,7 +111,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 636.5
+   "ret_pct": 636.5,
+   "date_added": "2013-08-04"
   },
   {
    "tk": "ADA",
@@ -135,7 +139,8 @@
    "fees30d": 305973,
    "fees30d_prev": 282248,
    "fees1y": 10159763,
-   "ret_pct": 193.4
+   "ret_pct": 193.4,
+   "date_added": "2017-10-01"
   },
   {
    "tk": "DOGE",
@@ -162,7 +167,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 295.7
+   "ret_pct": 295.7,
+   "date_added": "2013-12-15"
   },
   {
    "tk": "MATIC",
@@ -189,7 +195,8 @@
    "fees30d": 3363265,
    "fees30d_prev": 1087029,
    "fees1y": 28491410,
-   "ret_pct": -49.4
+   "ret_pct": -49.4,
+   "date_added": "2019-04-28"
   },
   {
    "tk": "DOT",
@@ -216,7 +223,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 15.2
+   "ret_pct": 15.2,
+   "date_added": "2020-08-19"
   },
   {
    "tk": "SHIB",
@@ -243,7 +251,8 @@
    "fees30d": 1515365,
    "fees30d_prev": 941552,
    "fees1y": 17335951,
-   "ret_pct": 138.9
+   "ret_pct": 138.9,
+   "date_added": "2020-08-01"
   },
   {
    "tk": "SOL",
@@ -270,7 +279,8 @@
    "fees30d": 1568419,
    "fees30d_prev": 1552978,
    "fees1y": 36356999,
-   "ret_pct": 1332.3
+   "ret_pct": 1332.3,
+   "date_added": "2020-04-10"
   },
   {
    "tk": "TRX",
@@ -297,7 +307,8 @@
    "fees30d": 16088419,
    "fees30d_prev": 12448271,
    "fees1y": 179316938,
-   "ret_pct": 358.7
+   "ret_pct": 358.7,
+   "date_added": "2017-09-13"
   },
   {
    "tk": "UNI",
@@ -324,7 +335,8 @@
    "fees30d": 61343382,
    "fees30d_prev": 37991091,
    "fees1y": 1049618339,
-   "ret_pct": 134.7
+   "ret_pct": 134.7,
+   "date_added": "2020-09-17"
   },
   {
    "tk": "LTC",
@@ -351,7 +363,8 @@
    "fees30d": 25861,
    "fees30d_prev": 23523,
    "fees1y": 550409,
-   "ret_pct": 78.0
+   "ret_pct": 78.0,
+   "date_added": "2013-04-28"
   },
   {
    "tk": "AVAX",
@@ -378,7 +391,8 @@
    "fees30d": 205609,
    "fees30d_prev": 0,
    "fees1y": 205609,
-   "ret_pct": 180.1
+   "ret_pct": 180.1,
+   "date_added": "2020-07-13"
   },
   {
    "tk": "LEO",
@@ -405,7 +419,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 134.6
+   "ret_pct": 134.6,
+   "date_added": "2019-05-21"
   },
   {
    "tk": "LINK",
@@ -432,7 +447,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 226.7
+   "ret_pct": 226.7,
+   "date_added": "2017-09-20"
   },
   {
    "tk": "ATOM",
@@ -459,7 +475,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": -36.5
+   "ret_pct": -36.5,
+   "date_added": "2019-03-14"
   },
   {
    "tk": "ETC",
@@ -486,7 +503,8 @@
    "fees30d": 3808,
    "fees30d_prev": 5432,
    "fees1y": 31112,
-   "ret_pct": 26.6
+   "ret_pct": 26.6,
+   "date_added": "2016-07-24"
   },
   {
    "tk": "XMR",
@@ -513,7 +531,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 56.8
+   "ret_pct": 56.8,
+   "date_added": "2014-05-21"
   },
   {
    "tk": "XLM",
@@ -540,7 +559,8 @@
    "fees30d": 14263,
    "fees30d_prev": 12997,
    "fees1y": 227966,
-   "ret_pct": 378.5
+   "ret_pct": 378.5,
+   "date_added": "2014-08-05"
   },
   {
    "tk": "TON",
@@ -567,7 +587,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 220.6
+   "ret_pct": 220.6,
+   "date_added": "2021-08-26"
   },
   {
    "tk": "BCH",
@@ -594,7 +615,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 349.4
+   "ret_pct": 349.4,
+   "date_added": "2017-07-23"
   },
   {
    "tk": "ALGO",
@@ -621,7 +643,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 37.5
+   "ret_pct": 37.5,
+   "date_added": "2019-06-20"
   },
   {
    "tk": "NEAR",
@@ -648,7 +671,8 @@
    "fees30d": 66449,
    "fees30d_prev": 94251,
    "fees1y": 3562683,
-   "ret_pct": 154.4
+   "ret_pct": 154.4,
+   "date_added": "2020-08-11"
   },
   {
    "tk": "CRO",
@@ -675,7 +699,8 @@
    "fees30d": 287313,
    "fees30d_prev": 293470,
    "fees1y": 5864537,
-   "ret_pct": 110.5
+   "ret_pct": 110.5,
+   "date_added": "2018-12-14"
   },
   {
    "tk": "VET",
@@ -702,7 +727,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 132.8
+   "ret_pct": 132.8,
+   "date_added": "2017-08-22"
   },
   {
    "tk": "FIL",
@@ -729,7 +755,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 18.5
+   "ret_pct": 18.5,
+   "date_added": "2017-12-13"
   },
   {
    "tk": "QNT",
@@ -756,7 +783,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 2.1
+   "ret_pct": 2.1,
+   "date_added": "2018-08-10"
   },
   {
    "tk": "FLOW",
@@ -783,7 +811,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": -38.9
+   "ret_pct": -38.9,
+   "date_added": "2021-01-27"
   },
   {
    "tk": "CHZ",
@@ -810,7 +839,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": -59.6
+   "ret_pct": -59.6,
+   "date_added": "2019-07-01"
   },
   {
    "tk": "LUNC",
@@ -837,7 +867,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": -40.5
+   "ret_pct": -40.5,
+   "date_added": "2019-07-26"
   },
   {
    "tk": "ICP",
@@ -864,7 +895,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 158.8
+   "ret_pct": 158.8,
+   "date_added": "2021-03-23"
   },
   {
    "tk": "OKB",
@@ -891,7 +923,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 169.4
+   "ret_pct": 169.4,
+   "date_added": "2019-04-30"
   },
   {
    "tk": "XCN",
@@ -919,7 +952,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": -94.4
+   "ret_pct": -94.4,
+   "date_added": "2022-03-09"
   },
   {
    "tk": "HBAR",
@@ -946,7 +980,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": 513.2
+   "ret_pct": 513.2,
+   "date_added": "2019-09-17"
   },
   {
    "tk": "EGLD",
@@ -973,7 +1008,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": -24.0
+   "ret_pct": -24.0,
+   "date_added": "2020-09-04"
   },
   {
    "tk": "EOS",
@@ -1000,7 +1036,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": -11.2
+   "ret_pct": -11.2,
+   "date_added": "2017-07-01"
   },
   {
    "tk": "XTZ",
@@ -1027,7 +1064,8 @@
    "fees30d": 1351119,
    "fees30d_prev": 1020767,
    "fees1y": 10802144,
-   "ret_pct": 24.4
+   "ret_pct": 24.4,
+   "date_added": "2017-10-06"
   },
   {
    "tk": "SAND",
@@ -1054,7 +1092,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": -1.4
+   "ret_pct": -1.4,
+   "date_added": "2020-08-05"
   },
   {
    "tk": "APE",
@@ -1081,7 +1120,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": -62.2
+   "ret_pct": -62.2,
+   "date_added": "2022-03-17"
   },
   {
    "tk": "THETA",
@@ -1108,7 +1148,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 141.7
+   "ret_pct": 141.7,
+   "date_added": "2018-01-17"
   },
   {
    "tk": "MANA",
@@ -1135,7 +1176,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 7.0
+   "ret_pct": 7.0,
+   "date_added": "2017-09-17"
   },
   {
    "tk": "AAVE",
@@ -1162,7 +1204,8 @@
    "fees30d": 5366825,
    "fees30d_prev": 4690198,
    "fees1y": 166282997,
-   "ret_pct": 408.3
+   "ret_pct": 408.3,
+   "date_added": "2020-10-02"
   },
   {
    "tk": "TWT",
@@ -1190,7 +1233,8 @@
    "fees30d": 0,
    "fees30d_prev": 0,
    "fees1y": 0,
-   "ret_pct": -39.5
+   "ret_pct": -39.5,
+   "date_added": "2020-07-30"
   },
   {
    "tk": "BSV",
@@ -1217,7 +1261,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 49.2
+   "ret_pct": 49.2,
+   "date_added": "2018-11-09"
   },
   {
    "tk": "HT",
@@ -1245,7 +1290,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": -75.4
+   "ret_pct": -75.4,
+   "date_added": "2018-02-03"
   },
   {
    "tk": "KCS",
@@ -1272,7 +1318,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 57.2
+   "ret_pct": 57.2,
+   "date_added": "2017-10-24"
   },
   {
    "tk": "AXS",
@@ -1299,7 +1346,8 @@
    "fees30d": 336930,
    "fees30d_prev": 811216,
    "fees1y": 228104598,
-   "ret_pct": -12.6
+   "ret_pct": -12.6,
+   "date_added": "2020-08-31"
   },
   {
    "tk": "MKR",
@@ -1326,7 +1374,8 @@
    "fees30d": 1036475,
    "fees30d_prev": 834675,
    "fees1y": 57035708,
-   "ret_pct": 110.3
+   "ret_pct": 110.3,
+   "date_added": "2017-01-29"
   },
   {
    "tk": "BTT",
@@ -1353,7 +1402,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 69.1
+   "ret_pct": 69.1,
+   "date_added": "2019-01-31"
   },
   {
    "tk": "BIT",
@@ -1381,7 +1431,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 1068.5
+   "ret_pct": 1068.5,
+   "date_added": "2021-08-11"
   },
   {
    "tk": "ZEC",
@@ -1408,7 +1459,8 @@
    "fees30d": 985,
    "fees30d_prev": 833,
    "fees1y": 29542,
-   "ret_pct": 18.0
+   "ret_pct": 18.0,
+   "date_added": "2016-10-29"
   },
   {
    "tk": "MIOTA",
@@ -1435,7 +1487,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 53.4
+   "ret_pct": 53.4,
+   "date_added": "2017-06-13"
   },
   {
    "tk": "CAKE",
@@ -1462,7 +1515,8 @@
    "fees30d": 22605661,
    "fees30d_prev": 14762817,
    "fees1y": 517046616,
-   "ret_pct": -42.6
+   "ret_pct": -42.6,
+   "date_added": "2020-09-25"
   },
   {
    "tk": "APT",
@@ -1489,7 +1543,8 @@
    "fees30d": 455248,
    "fees30d_prev": 0,
    "fees1y": 455248,
-   "ret_pct": 108.8
+   "ret_pct": 108.8,
+   "date_added": "2022-10-19"
   },
   {
    "tk": "XEC",
@@ -1516,7 +1571,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 27.1
+   "ret_pct": 27.1,
+   "date_added": "2021-07-08"
   },
   {
    "tk": "KLAY",
@@ -1544,7 +1600,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 21.5
+   "ret_pct": 21.5,
+   "date_added": "2020-03-30"
   },
   {
    "tk": "SNX",
@@ -1571,7 +1628,8 @@
    "fees30d": 389374,
    "fees30d_prev": 376524,
    "fees1y": 24753831,
-   "ret_pct": 13.3
+   "ret_pct": 13.3,
+   "date_added": "2018-03-14"
   },
   {
    "tk": "NEO",
@@ -1598,7 +1656,8 @@
    "fees30d": null,
    "fees30d_prev": null,
    "fees1y": null,
-   "ret_pct": 122.8
+   "ret_pct": 122.8,
+   "date_added": "2016-09-08"
   },
   {
    "tk": "FTM",
@@ -1625,7 +1684,8 @@
    "fees30d": 283311,
    "fees30d_prev": 86565,
    "fees1y": 26938325,
-   "ret_pct": 286.5
+   "ret_pct": 286.5,
+   "date_added": "2018-10-29"
   }
  ]
 }

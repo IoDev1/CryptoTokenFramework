@@ -8,7 +8,7 @@ and separately identify whether *now* is a good entry. v1 mixed those two questi
 | ID | Gate | Pass definition (must be evidenced) |
 |----|------|-------------------------------------|
 | G1 | Not ruggable | No freeze/mint authority, no unilateral supply change, admin/upgrade keys (if any) behind a >=5-of-N multisig or timelock >=48h |
-| G2 | Insiders don't dump | Foundation + team + top insiders net sales < 5% of circulating supply per 12 months, with a disclosed schedule (ETH, LINK, SOL must be judged by the same number) |
+| G2 | No deceptive insider selling | Fails only on UNDISCLOSED or deceptive selling: unreported transfers to exchanges, treasury reports that contradict on-chain flows, founder loans liquidated, sales timed against public statements. Scheduled, disclosed foundation sales (even large ones) do not fail this gate: the 2022 backtest showed they did not predict underperformance |
 | G3 | Stewardship | Identifiable, accountable core stewards **or** proven leaderless decentralization (BTC/XMR clause: >=2 independent client teams, no single point of failure) |
 | G4 | Treasury runway | Foundation/lab holds >= 3 years of runway at current burn in non-native assets (stables, BTC, ETH). Unknown = fail |
 | G5 | Listing / regulatory | Listed on >= 2 of Coinbase, Kraken, Binance; no active enforcement action alleging the token is a security |
@@ -30,17 +30,31 @@ and separately identify whether *now* is a good entry. v1 mixed those two questi
 
 | ID | W | Filter |
 |----|---|--------|
-| E1 | 1 | >= 75% below USD ATH |
-| E2 | 1 | Token/BTC ratio at a multi-year low |
+| E1 | 1 | >= 75% below USD ATH (cheapness; note the 2022 backtest found this had NEGATIVE signal for recovery, it is an entry-timing input only) |
+| E2 | 1 | Relative strength: drawdown from ATH better than the median of the scored universe (in 2022 this group had a median return of +109% vs +69%) |
 | E3 | 1 | FDV/revenue at or below its own prior-cycle low |
 | E4 | 1 | Known risks already public and priced (news is old, not breaking) |
 
 ## 4. Classification
 
-- **Core hold**: all gates pass AND Quality >= 8
-- **Watch**: all gates pass AND Quality 6–8
-- **Avoid**: any gate fail OR Quality < 6
-- Entry score decides *when*, not *whether*.
+Tiers are RELATIVE to the scored universe, because context and revenue filters are pro-cyclical (at the
+November 2022 bottom only 2 of 60 tokens reached an absolute Core threshold):
+
+- **Core hold**: Quality in the top quartile of the universe
+- **Watch**: second quartile
+- **Avoid**: bottom half
+- **Gates** are a user setting, off by default: when on, any gate fail moves the token to Avoid regardless of
+  Quality. In 2022 gates would have cut losers (no-fail tokens 92% positive vs 64%) but also excluded every
+  token that beat BTC.
+- Entry score decides *when*, not *whether*. It never enters the Quality score.
+- **BTC is the benchmark.** Every basket is reported against holding BTC over the same period.
+
+## 4b. What the framework claims
+
+An informed, structured way to choose what to hold through a bear market, with the evidence attached. The
+2022 backtest supports one claim: high-Quality tokens rarely blew up (top 20 by score: 95% positive, none below
+-50%). It does not support picking the biggest winners, and the product must never claim that. Results belong
+to users; the platform gives them the structure, the sources and a way to share their own plans and outcomes.
 
 ## 5. Research rules for the model
 

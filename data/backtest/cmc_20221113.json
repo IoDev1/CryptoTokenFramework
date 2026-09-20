@@ -12,6 +12,7 @@
    "circ": 19206643,
    "total": 19206643,
    "max": 21000000,
+   "date_added": "2013-04-28",
    "tags": [
     "mineable",
     "pow",
@@ -55,6 +56,7 @@
    "circ": 122373866.2178,
    "total": 122373866.2178,
    "max": null,
+   "date_added": "2015-08-07",
    "tags": [
     "pos",
     "smart-contracts",
@@ -98,6 +100,7 @@
    "circ": 66433360735.02212,
    "total": 73141766321.23428,
    "max": null,
+   "date_added": "2015-02-25",
    "tags": [
     "payments",
     "stablecoin",
@@ -123,6 +126,7 @@
    "circ": 159974616.44885942,
    "total": 159979963.59042934,
    "max": 200000000,
+   "date_added": "2017-07-25",
    "tags": [
     "marketplace",
     "centralized-exchange",
@@ -146,6 +150,7 @@
    "circ": 44069979160.371666,
    "total": 44069979160.371666,
    "max": null,
+   "date_added": "2018-10-08",
    "tags": [
     "medium-of-exchange",
     "stablecoin",
@@ -169,6 +174,7 @@
    "circ": 23345613455.509254,
    "total": 23345613455.509254,
    "max": null,
+   "date_added": "2019-09-20",
    "tags": [
     "stablecoin",
     "asset-backed-stablecoin",
@@ -190,6 +196,7 @@
    "circ": 50215300844,
    "total": 99989233161,
    "max": 100000000000,
+   "date_added": "2013-08-04",
    "tags": [
     "medium-of-exchange",
     "enterprise-solutions",
@@ -211,6 +218,7 @@
    "circ": 34396146141.146,
    "total": 35138883455.092,
    "max": 45000000000,
+   "date_added": "2017-10-01",
    "tags": [
     "dpos",
     "pos",
@@ -234,6 +242,7 @@
    "circ": 132670764299.89409,
    "total": 132670764299.89409,
    "max": null,
+   "date_added": "2013-12-15",
    "tags": [
     "mineable",
     "pow",
@@ -257,6 +266,7 @@
    "circ": 8734317475.28493,
    "total": 10000000000,
    "max": 10000000000,
+   "date_added": "2019-04-28",
    "tags": [
     "platform",
     "enterprise-solutions",
@@ -282,6 +292,7 @@
    "circ": 1134929009.713019,
    "total": 1250752680.0381987,
    "max": null,
+   "date_added": "2020-08-19",
    "tags": [
     "substrate",
     "polkadot",
@@ -320,6 +331,7 @@
    "circ": 5921988501.722699,
    "total": 5921988501.722699,
    "max": null,
+   "date_added": "2019-11-22",
    "tags": [
     "defi",
     "stablecoin",
@@ -347,6 +359,7 @@
    "circ": 549063278876301.94,
    "total": 589735030408322.8,
    "max": null,
+   "date_added": "2020-08-01",
    "tags": [
     "memes",
     "ethereum-ecosystem",
@@ -365,6 +378,7 @@
    "circ": 362763315.2791191,
    "total": 533493456.3742483,
    "max": null,
+   "date_added": "2020-04-10",
    "tags": [
     "pos",
     "platform",
@@ -388,6 +402,7 @@
    "circ": 92206017385.33765,
    "total": 92206013326.03392,
    "max": null,
+   "date_added": "2017-09-13",
    "tags": [
     "media",
     "payments",
@@ -406,6 +421,7 @@
    "circ": 762209326.5354977,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2020-09-17",
    "tags": [
     "decentralized-exchange",
     "defi",
@@ -438,6 +454,7 @@
    "circ": 71605093.72976825,
    "total": 84000000,
    "max": 84000000,
+   "date_added": "2013-04-28",
    "tags": [
     "mineable",
     "pow",
@@ -457,6 +474,7 @@
    "circ": 302195455.76020795,
    "total": 404229626.49901325,
    "max": 720000000,
+   "date_added": "2020-07-13",
    "tags": [
     "defi",
     "smart-contracts",
@@ -481,6 +499,7 @@
    "circ": 238013.40739945,
    "total": 238013.40739945,
    "max": null,
+   "date_added": "2019-01-30",
    "tags": [
     "medium-of-exchange",
     "defi",
@@ -502,6 +521,7 @@
    "circ": 953954130,
    "total": 985239504,
    "max": null,
+   "date_added": "2019-05-21",
    "tags": [
     "marketplace",
     "centralized-exchange",
@@ -523,6 +543,7 @@
    "circ": 491599970.4527867,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2017-09-20",
    "tags": [
     "platform",
     "defi",
@@ -556,6 +577,7 @@
    "circ": 286370297,
    "total": 0,
    "max": null,
+   "date_added": "2019-03-14",
    "tags": [
     "platform",
     "cosmos-ecosystem",
@@ -582,6 +604,7 @@
    "circ": 137880523.2669121,
    "total": 210700000,
    "max": 210700000,
+   "date_added": "2016-07-24",
    "tags": [
     "mineable",
     "pow",
@@ -603,6 +626,7 @@
    "circ": 18200288.96618058,
    "total": 18200288.96618058,
    "max": null,
+   "date_added": "2014-05-21",
    "tags": [
     "mineable",
     "pow",
@@ -626,6 +650,7 @@
    "circ": 25655641525.236942,
    "total": 50001787542.62751,
    "max": 50001806812,
+   "date_added": "2014-08-05",
    "tags": [
     "medium-of-exchange",
     "enterprise-solutions",
@@ -646,6 +671,7 @@
    "circ": 1221401181,
    "total": 5047558528,
    "max": 5000000000,
+   "date_added": "2021-08-26",
    "tags": [
     "pos"
    ],
@@ -662,6 +688,7 @@
    "circ": 19228193.75,
    "total": 19228193.75,
    "max": 21000000,
+   "date_added": "2017-07-23",
    "tags": [
     "mineable",
     "pow",
@@ -685,6 +712,7 @@
    "circ": 7096020865.842129,
    "total": 7318246686.250059,
    "max": 10000000000,
+   "date_added": "2019-06-20",
    "tags": [
     "pos",
     "platform",
@@ -709,6 +737,7 @@
    "circ": 822014744,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2020-08-11",
    "tags": [
     "platform",
     "staking",
@@ -735,6 +764,7 @@
    "circ": 25263013692,
    "total": 30263013692,
    "max": 30263013692,
+   "date_added": "2018-12-14",
    "tags": [
     "medium-of-exchange",
     "cosmos-ecosystem",
@@ -756,6 +786,7 @@
    "circ": 72511146418,
    "total": 85985041177,
    "max": 86712634466,
+   "date_added": "2017-08-22",
    "tags": [
     "logistics",
     "data-provenance",
@@ -776,6 +807,7 @@
    "circ": 318904267,
    "total": 318904267,
    "max": null,
+   "date_added": "2017-12-13",
    "tags": [
     "mineable",
     "distributed-computing",
@@ -804,6 +836,7 @@
    "circ": 12072738,
    "total": 14612493.080826,
    "max": 14612493,
+   "date_added": "2018-08-10",
    "tags": [
     "platform",
     "interoperability"
@@ -821,6 +854,7 @@
    "circ": 1036200000,
    "total": 1368093963,
    "max": null,
+   "date_added": "2021-01-27",
    "tags": [
     "collectibles-nfts",
     "coinbase-ventures-portfolio",
@@ -843,6 +877,7 @@
    "circ": 6044972347.333258,
    "total": 8888888888,
    "max": 8888888888,
+   "date_added": "2019-07-01",
    "tags": [
     "sports",
     "collectibles-nfts",
@@ -862,6 +897,7 @@
    "circ": 6594003681443.413,
    "total": 6880326726229.031,
    "max": null,
+   "date_added": "2019-07-26",
    "tags": [
     "cosmos-ecosystem",
     "store-of-value",
@@ -891,6 +927,7 @@
    "circ": 273417166.77710825,
    "total": 488508776.41603994,
    "max": null,
+   "date_added": "2021-03-23",
    "tags": [
     "platform",
     "distributed-computing",
@@ -918,6 +955,7 @@
    "circ": 60000000,
    "total": 300000000,
    "max": null,
+   "date_added": "2019-04-30",
    "tags": [
     "marketplace",
     "centralized-exchange",
@@ -937,6 +975,7 @@
    "circ": 21472783889,
    "total": 53470523779,
    "max": 53474611831,
+   "date_added": "2022-03-09",
    "tags": [],
    "platform": "ETH"
   },
@@ -951,6 +990,7 @@
    "circ": 22968168350.94327,
    "total": 50000000000,
    "max": 50000000000,
+   "date_added": "2019-09-17",
    "tags": [
     "dag",
     "marketplace",
@@ -971,6 +1011,7 @@
    "circ": 23686011.35419156,
    "total": 23016298,
    "max": 31415926,
+   "date_added": "2020-09-04",
    "tags": [
     "binance-launchpad",
     "binance-labs-portfolio",
@@ -993,6 +1034,7 @@
    "circ": 1074088051.8302,
    "total": 1061006819.1993,
    "max": null,
+   "date_added": "2017-07-01",
    "tags": [
     "medium-of-exchange",
     "enterprise-solutions",
@@ -1013,6 +1055,7 @@
    "circ": 945642940.11,
    "total": 945642940.11,
    "max": null,
+   "date_added": "2018-09-27",
    "tags": [
     "store-of-value",
     "stablecoin",
@@ -1033,6 +1076,7 @@
    "circ": 916002417.127983,
    "total": 937460715.58588,
    "max": null,
+   "date_added": "2017-10-06",
    "tags": [
     "pos",
     "platform",
@@ -1057,6 +1101,7 @@
    "circ": 1499470108.2233226,
    "total": 3000000000,
    "max": 3000000000,
+   "date_added": "2020-08-05",
    "tags": [
     "collectibles-nfts",
     "content-creation",
@@ -1080,6 +1125,7 @@
    "circ": 306875000,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2022-03-17",
    "tags": [
     "collectibles-nfts",
     "content-creation",
@@ -1103,6 +1149,7 @@
    "circ": 1000000000,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2018-01-17",
    "tags": [
     "media",
     "collectibles-nfts",
@@ -1126,6 +1173,7 @@
    "circ": 869983023.2697328,
    "total": 869983023.2697328,
    "max": null,
+   "date_added": "2018-03-06",
    "tags": [
     "store-of-value",
     "stablecoin",
@@ -1148,6 +1196,7 @@
    "circ": 1855084191.7804768,
    "total": 2193539027.320146,
    "max": null,
+   "date_added": "2017-09-17",
    "tags": [
     "platform",
     "collectibles-nfts",
@@ -1174,6 +1223,7 @@
    "circ": 14093192.58056459,
    "total": 16000000,
    "max": 16000000,
+   "date_added": "2020-10-02",
    "tags": [
     "defi",
     "dao",
@@ -1203,6 +1253,7 @@
    "circ": 791673104.43,
    "total": 791673104.43,
    "max": 0,
+   "date_added": "2018-10-05",
    "tags": [
     "store-of-value",
     "stablecoin",
@@ -1222,6 +1273,7 @@
    "circ": 416649900,
    "total": 999668148,
    "max": 1000000000,
+   "date_added": "2020-07-30",
    "tags": [
     "wallet",
     "polygon-ecosystem",
@@ -1240,6 +1292,7 @@
    "circ": 19223820.39423905,
    "total": 19223820.39423905,
    "max": 21000000,
+   "date_added": "2018-11-09",
    "tags": [
     "mineable",
     "pow",
@@ -1261,6 +1314,7 @@
    "circ": 153357694.25441208,
    "total": 500000000,
    "max": 500000000,
+   "date_added": "2018-02-03",
    "tags": [
     "marketplace",
     "centralized-exchange",
@@ -1284,6 +1338,7 @@
    "circ": 98379860.95,
    "total": 145879861,
    "max": 170118638,
+   "date_added": "2017-10-24",
    "tags": [
     "marketplace",
     "centralized-exchange",
@@ -1303,6 +1358,7 @@
    "circ": 725332037.448229,
    "total": 725332037.448229,
    "max": null,
+   "date_added": "2022-05-02",
    "tags": [
     "stablecoin",
     "algorithmic-stablecoin",
@@ -1321,6 +1377,7 @@
    "circ": 96194370.51335599,
    "total": 270000000,
    "max": 270000000,
+   "date_added": "2020-08-31",
    "tags": [
     "collectibles-nfts",
     "gaming",
@@ -1343,6 +1400,7 @@
    "circ": 977631.03695089,
    "total": 977631.03695089,
    "max": 1005577,
+   "date_added": "2017-01-29",
    "tags": [
     "store-of-value",
     "defi",
@@ -1375,6 +1433,7 @@
    "circ": 680266294.444135,
    "total": 680266898.5042378,
    "max": null,
+   "date_added": "2020-01-30",
    "tags": [
     "defi",
     "stablecoin",
@@ -1395,6 +1454,7 @@
    "circ": 945326125000000,
    "total": 990000000000000,
    "max": null,
+   "date_added": "2019-01-31",
    "tags": [
     "platform",
     "distributed-computing",
@@ -1421,6 +1481,7 @@
    "circ": 2090946168.860899,
    "total": 10000000000,
    "max": 10000000000,
+   "date_added": "2021-08-11",
    "tags": [
     "dao",
     "governance",
@@ -1442,6 +1503,7 @@
    "circ": 15694937.5,
    "total": 15694937.5,
    "max": 21000000,
+   "date_added": "2016-10-29",
    "tags": [
     "mineable",
     "pow",
@@ -1473,6 +1535,7 @@
    "circ": 2779530283,
    "total": 2779530283,
    "max": 2779530283,
+   "date_added": "2017-06-13",
    "tags": [
     "dag",
     "medium-of-exchange",
@@ -1492,6 +1555,7 @@
    "circ": 147035745.7057221,
    "total": 345583022.9753188,
    "max": 750000000,
+   "date_added": "2020-09-25",
    "tags": [
     "collectibles-nfts",
     "decentralized-exchange",
@@ -1516,6 +1580,7 @@
    "circ": 325209.481,
    "total": 325209.481,
    "max": null,
+   "date_added": "2019-09-26",
    "tags": [
     "bnb-chain",
     "tokenized-gold"
@@ -1533,6 +1598,7 @@
    "circ": 130000000,
    "total": 1000000000,
    "max": 0,
+   "date_added": "2022-10-19",
    "tags": [
     "aptos-ecosystem"
    ],
@@ -1549,6 +1615,7 @@
    "circ": 19224517173303,
    "total": 18899704673313,
    "max": 21000000000000,
+   "date_added": "2021-07-08",
    "tags": [],
    "platform": null
   },
@@ -1563,6 +1630,7 @@
    "circ": 3014639276.885553,
    "total": 10947024906.885553,
    "max": null,
+   "date_added": "2020-03-30",
    "tags": [
     "platform",
     "enterprise-solutions",
@@ -1581,6 +1649,7 @@
    "circ": 305665962.1395232,
    "total": 306389870.0887736,
    "max": 291657310,
+   "date_added": "2018-03-14",
    "tags": [
     "services",
     "decentralized-exchange",
@@ -1614,6 +1683,7 @@
    "circ": 70538831,
    "total": 100000000,
    "max": 100000000,
+   "date_added": "2016-09-08",
    "tags": [
     "platform",
     "enterprise-solutions",
@@ -1632,6 +1702,7 @@
    "circ": 2545006273,
    "total": 2545006273,
    "max": 3175000000,
+   "date_added": "2018-10-29",
    "tags": [
     "platform",
     "enterprise-solutions",
@@ -1655,6 +1726,7 @@
    "circ": 6900000000,
    "total": 10000000000,
    "max": 10057044431,
+   "date_added": "2020-12-17",
    "tags": [
     "ai-big-data",
     "enterprise-solutions",
@@ -1690,6 +1762,7 @@
    "circ": 424996177.78890556,
    "total": 426116732.6917724,
    "max": null,
+   "date_added": "2021-03-02",
    "tags": [
     "defi",
     "stablecoin",
@@ -1708,6 +1781,7 @@
    "circ": 107156021.04993,
    "total": 107156021.04993,
    "max": null,
+   "date_added": "2022-08-08",
    "tags": [
     "pow"
    ],
@@ -1724,6 +1798,7 @@
    "circ": 2786854.08270372,
    "total": 6172224.77095096,
    "max": 21000000,
+   "date_added": "2021-05-18",
    "tags": [
     "mvb",
     "bnb-chain"
@@ -1741,6 +1816,7 @@
    "circ": 740247690.8400393,
    "total": 824104972,
    "max": null,
+   "date_added": "2021-03-02",
    "tags": [
     "pos",
     "zero-knowledge-proofs",
@@ -1762,6 +1838,7 @@
    "circ": 560000011,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2018-05-01",
    "tags": [
     "services",
     "payments",
@@ -1780,6 +1857,7 @@
    "circ": 108265076.62840587,
    "total": 300000000,
    "max": null,
+   "date_added": "2019-08-20",
    "tags": [
     "marketplace",
     "centralized-exchange",
@@ -1799,6 +1877,7 @@
    "circ": 330688061.33445597,
    "total": 334937974.91478544,
    "max": 500000000,
+   "date_added": "2019-07-23",
    "tags": [
     "cosmos-ecosystem",
     "decentralized-exchange",
@@ -1820,6 +1899,7 @@
    "circ": 11002372.93902136,
    "total": 11002372.93902136,
    "max": 18900000,
+   "date_added": "2014-02-14",
    "tags": [
     "mineable",
     "hybrid-pow-pos",
@@ -1843,6 +1923,7 @@
    "circ": 531583334.41539234,
    "total": 1820680573.067954,
    "max": 3303030299,
+   "date_added": "2020-08-14",
    "tags": [
     "decentralized-exchange",
     "defi",
@@ -1869,6 +1950,7 @@
    "circ": 1495680554.4163349,
    "total": 1500000000,
    "max": 1500000000,
+   "date_added": "2017-06-01",
    "tags": [
     "marketing",
     "content-creation",
@@ -1893,6 +1975,7 @@
    "circ": 312951153.95865756,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2020-12-15",
    "tags": [
     "defi",
     "dao",
@@ -1912,6 +1995,7 @@
    "circ": 1330133545.5263836,
    "total": 1373873437.4424574,
    "max": 1374513896,
+   "date_added": "2017-08-30",
    "tags": [
     "marketplace",
     "decentralized-exchange",
@@ -1943,6 +2027,7 @@
    "circ": 621731573.0759276,
    "total": 1500000000,
    "max": null,
+   "date_added": "2020-12-25",
    "tags": [
     "decentralized-exchange",
     "defi",
@@ -1969,6 +2054,7 @@
    "circ": 10502673398,
    "total": 11285325496,
    "max": null,
+   "date_added": "2020-07-21",
    "tags": [
     "enterprise-solutions",
     "arrington-xrp-capital-portfolio",
@@ -1989,6 +2075,7 @@
    "circ": 282464369,
    "total": 325000000,
    "max": 1000000000,
+   "date_added": "2021-09-30",
    "tags": [
     "cosmos-ecosystem",
     "injective-ecosystem"
@@ -2006,6 +2093,7 @@
    "circ": 130550450.67530447,
    "total": 223000000,
    "max": 223000000,
+   "date_added": "2020-06-05",
    "tags": [
     "mineable",
     "enterprise-solutions",
@@ -2028,6 +2116,7 @@
    "circ": 7990696,
    "total": 8648199.74,
    "max": null,
+   "date_added": "2021-09-13",
    "tags": [
     "derivatives",
     "arbitrum-ecosytem"
@@ -2045,6 +2134,7 @@
    "circ": 1000000000,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2017-11-01",
    "tags": [
     "media",
     "collectibles-nfts",
@@ -2066,6 +2156,7 @@
    "circ": 12305012698.75,
    "total": 37705012698.75,
    "max": null,
+   "date_added": "2018-04-12",
    "tags": [
     "xdc-ecosystem"
    ],
@@ -2082,6 +2173,7 @@
    "circ": 70350305.7314533,
    "total": 95834595.39136556,
    "max": 100000000,
+   "date_added": "2021-05-18",
    "tags": [
     "defi",
     "yield-aggregator"
@@ -2099,6 +2191,7 @@
    "circ": 321307159,
    "total": 321307158,
    "max": null,
+   "date_added": "2019-10-25",
    "tags": [
     "cosmos-ecosystem",
     "defi",
@@ -2123,6 +2216,7 @@
    "circ": 1343719323.596506,
    "total": 1352464600,
    "max": 1818000000,
+   "date_added": "2019-10-28",
    "tags": [
     "mineable",
     "platform",
@@ -2153,6 +2247,7 @@
    "circ": 33394701,
    "total": 63190435,
    "max": 66000000,
+   "date_added": "2020-05-27",
    "tags": [
     "distributed-computing",
     "filesharing",
@@ -2178,6 +2273,7 @@
    "circ": 14502810.8676252,
    "total": 14185885.35481751,
    "max": 21000000,
+   "date_added": "2016-02-10",
    "tags": [
     "mineable",
     "hybrid-pow-pos",
@@ -2201,6 +2297,7 @@
    "circ": 8999999999,
    "total": 8999999999,
    "max": 8999999999,
+   "date_added": "2015-04-01",
    "tags": [
     "poi",
     "medium-of-exchange",
@@ -2221,6 +2318,7 @@
    "circ": 679443993.7,
    "total": 2000000000,
    "max": 2000000000,
+   "date_added": "2021-06-24",
    "tags": [
     "collectibles-nfts",
     "scaling",
@@ -2241,6 +2339,7 @@
    "circ": 7267151.99852569,
    "total": 10000000,
    "max": 10000000,
+   "date_added": "2020-06-16",
    "tags": [
     "defi",
     "dao",
@@ -2271,6 +2370,7 @@
    "circ": 13529931419.00397,
    "total": 16821398572.00397,
    "max": 21000000000,
+   "date_added": "2018-01-25",
    "tags": [
     "mineable",
     "platform",
@@ -2295,6 +2395,7 @@
    "circ": 173342974126.73712,
    "total": 177619433541.14133,
    "max": null,
+   "date_added": "2018-04-29",
    "tags": [
     "platform",
     "distributed-computing",
@@ -2314,6 +2415,7 @@
    "circ": 11880311499.796465,
    "total": 11880311499.796465,
    "max": 21000000000,
+   "date_added": "2018-03-10",
    "tags": [
     "mineable",
     "pow",
@@ -2333,6 +2435,7 @@
    "circ": 17513923.589,
    "total": 17513923.589,
    "max": 21000000,
+   "date_added": "2017-10-23",
    "tags": [
     "mineable",
     "medium-of-exchange",
@@ -2351,6 +2454,7 @@
    "circ": 20244862.09054775,
    "total": 100000000,
    "max": 100000000,
+   "date_added": "2021-11-09",
    "tags": [
     "dao",
     "governance",
@@ -2369,6 +2473,7 @@
    "circ": 109847962,
    "total": 109847962,
    "max": null,
+   "date_added": "2016-06-02",
    "tags": [
     "lpos",
     "platform",
@@ -2387,6 +2492,7 @@
    "circ": 45289685.22177737,
    "total": 53427062.59883816,
    "max": 96150704,
+   "date_added": "2020-06-24",
    "tags": [
     "decentralized-exchange",
     "defi",
@@ -2415,6 +2521,7 @@
    "circ": 600000000,
    "total": 6000000000,
    "max": 6000000000,
+   "date_added": "2022-03-09",
    "tags": [
     "collectibles-nfts",
     "gaming",
@@ -2437,6 +2544,7 @@
    "circ": 5027383223,
    "total": 10000000000,
    "max": 10000000000,
+   "date_added": "2020-11-12",
    "tags": [
     "cosmos-ecosystem",
     "collectibles-nfts",
@@ -2470,6 +2578,7 @@
    "circ": 2579588,
    "total": 3000000,
    "max": 3000000,
+   "date_added": "2017-05-01",
    "tags": [
     "services",
     "decentralized-exchange",
@@ -2491,6 +2600,7 @@
    "circ": 9540779324.30788,
    "total": 9626124332.32,
    "max": 10000000000,
+   "date_added": "2018-05-25",
    "tags": [
     "platform",
     "iot",
@@ -2512,6 +2622,7 @@
    "circ": 9807456261.311523,
    "total": 10254324365.51106,
    "max": null,
+   "date_added": "2020-09-21",
    "tags": [
     "cosmos-ecosystem",
     "stablecoin",
@@ -2534,6 +2645,7 @@
    "circ": 5301214400,
    "total": 5301214400,
    "max": null,
+   "date_added": "2019-03-28",
    "tags": [
     "media",
     "content-creation",
@@ -2553,6 +2665,7 @@
    "circ": 1000000000,
    "total": 1000000000,
    "max": null,
+   "date_added": "2018-02-02",
    "tags": [
     "asset-management",
     "staking"
@@ -2570,6 +2683,7 @@
    "circ": 234748364,
    "total": 4294967296,
    "max": null,
+   "date_added": "2022-05-31",
    "tags": [],
    "platform": "OP"
   },
@@ -2584,6 +2698,7 @@
    "circ": 127475474.310907,
    "total": 1004262701,
    "max": 0,
+   "date_added": "2022-05-26",
    "tags": [],
    "platform": null
   },
@@ -2598,6 +2713,7 @@
    "circ": 104410581.5,
    "total": 103944501,
    "max": 107822406,
+   "date_added": "2017-05-24",
    "tags": [
     "platform",
     "smart-contracts",
@@ -2616,6 +2732,7 @@
    "circ": 36637.72122588,
    "total": 36666,
    "max": 36666,
+   "date_added": "2020-07-18",
    "tags": [
     "defi",
     "dao",
@@ -2646,6 +2763,7 @@
    "circ": 6977205436,
    "total": 35240112493,
    "max": null,
+   "date_added": "2020-09-16",
    "tags": [
     "collectibles-nfts",
     "gaming",
@@ -2666,6 +2784,7 @@
    "circ": 473376178,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2020-05-22",
    "tags": [
     "pos",
     "zero-knowledge-proofs",
@@ -2692,6 +2811,7 @@
    "circ": 133025776.23715724,
    "total": 328895112.304385,
    "max": 352170015,
+   "date_added": "2019-07-31",
    "tags": [
     "marketplace",
     "centralized-exchange",
@@ -2715,6 +2835,7 @@
    "circ": 8470098.05726206,
    "total": 9651217.45126206,
    "max": null,
+   "date_added": "2019-12-12",
    "tags": [
     "substrate",
     "polkadot-ecosystem",
@@ -2736,6 +2857,7 @@
    "circ": 9662899377.791666,
    "total": 10000000000,
    "max": 10000000000,
+   "date_added": "2019-03-06",
    "tags": [
     "platform",
     "cosmos-ecosystem",
@@ -2764,6 +2886,7 @@
    "circ": 1000000000,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2016-11-18",
    "tags": [
     "platform",
     "distributed-computing",
@@ -2784,6 +2907,7 @@
    "circ": 8902080000,
    "total": 9900000000,
    "max": 9900000000,
+   "date_added": "2020-05-07",
    "tags": [
     "defi",
     "tron-ecosystem"
@@ -2801,6 +2925,7 @@
    "circ": 5582460004.558402,
    "total": 7967988929.50477,
    "max": 8999999999,
+   "date_added": "2021-03-03",
    "tags": [
     "posplus"
    ],
@@ -2817,6 +2942,7 @@
    "circ": 5640702,
    "total": 26640702,
    "max": null,
+   "date_added": "2021-04-16",
    "tags": [],
    "platform": null
   },
@@ -2831,6 +2957,7 @@
    "circ": 198047245.19819,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2020-05-31",
    "tags": [
     "mineable",
     "pow",
@@ -2856,6 +2983,7 @@
    "circ": 12785635489.447855,
    "total": 13673678489.447866,
    "max": null,
+   "date_added": "2019-06-01",
    "tags": [
     "platform",
     "enterprise-solutions",
@@ -2881,6 +3009,7 @@
    "circ": 1046603004.8254304,
    "total": 1500000000,
    "max": 1500000000,
+   "date_added": "2018-10-12",
    "tags": [
     "dpos",
     "platform",
@@ -2899,6 +3028,7 @@
    "circ": 42302323974,
    "total": 100000000000,
    "max": 100000000000,
+   "date_added": "2019-05-24",
    "tags": [
     "store-of-value",
     "defi",
@@ -2918,6 +3048,7 @@
    "circ": 924998413,
    "total": 1000000000,
    "max": null,
+   "date_added": "2018-02-02",
    "tags": [
     "marketplace",
     "crowdfunding"
@@ -2935,6 +3066,7 @@
    "circ": 25023883.63082677,
    "total": 25866593.82796716,
    "max": null,
+   "date_added": "2018-12-19",
    "tags": [
     "coinfund-portfolio",
     "dcg-portfolio",
@@ -2955,6 +3087,7 @@
    "circ": 452150819,
    "total": 1042922678,
    "max": null,
+   "date_added": "2022-01-11",
    "tags": [
     "smart-contracts",
     "substrate",
@@ -2977,6 +3110,7 @@
    "circ": 127244443,
    "total": 244542058.52552503,
    "max": 250000000,
+   "date_added": "2020-08-28",
    "tags": [
     "collectibles-nfts",
     "decentralized-exchange",
@@ -3012,6 +3146,7 @@
    "circ": 473738583.873,
    "total": 473738583.873,
    "max": null,
+   "date_added": "2020-03-26",
    "tags": [
     "dpos",
     "media",
@@ -3032,6 +3167,7 @@
    "circ": 551014104144856.94,
    "total": 1000000000000000,
    "max": 1000000000000000,
+   "date_added": "2021-04-23",
    "tags": [
     "memes",
     "payments",
@@ -3051,6 +3187,7 @@
    "circ": 140245398.24513277,
    "total": 140245398.24513277,
    "max": 140245399,
+   "date_added": "2017-07-14",
    "tags": [
     "medium-of-exchange",
     "payments",
@@ -3071,6 +3208,7 @@
    "circ": 18588745668,
    "total": 18588745668,
    "max": 90000000000,
+   "date_added": "2018-01-16",
    "tags": [
     "hardware",
     "iot",
@@ -3089,6 +3227,7 @@
    "circ": 65569295,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2021-08-03",
    "tags": [
     "defi",
     "derivatives",
@@ -3109,6 +3248,7 @@
    "circ": 42227702186,
    "total": 99213408535,
    "max": 99444125026,
+   "date_added": "2020-09-08",
    "tags": [],
    "platform": "ETH"
   },
@@ -3123,6 +3263,7 @@
    "circ": 847496054.8027713,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2017-08-16",
    "tags": [
     "platform",
     "decentralized-exchange",
@@ -3154,6 +3295,7 @@
    "circ": 875249524,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2018-03-08",
    "tags": [
     "enterprise-solutions",
     "identity",
@@ -3178,6 +3320,7 @@
    "circ": 1193475032.2751396,
    "total": 2960369035.376203,
    "max": 3000000000,
+   "date_added": "2020-10-23",
    "tags": [
     "centralized-exchange",
     "three-arrows-capital-portfolio",
@@ -3202,6 +3345,7 @@
    "circ": 277080562500000,
    "total": 999990000000000,
    "max": 999990000000000,
+   "date_added": "2021-05-14",
    "tags": [
     "art",
     "collectibles-nfts",
@@ -3220,6 +3364,7 @@
    "circ": 927500000,
    "total": 1205750000,
    "max": null,
+   "date_added": "2019-03-18",
    "tags": [
     "marketplace",
     "gaming"
@@ -3237,6 +3382,7 @@
    "circ": 919483096,
    "total": 926210351,
    "max": null,
+   "date_added": "2017-10-27",
    "tags": [
     "platform",
     "enterprise-solutions",
@@ -3258,6 +3404,7 @@
    "circ": 8245460686,
    "total": 10000000000,
    "max": 10000000000,
+   "date_added": "2022-01-31",
    "tags": [],
    "platform": "ETH"
   },
@@ -3272,6 +3419,7 @@
    "circ": 923501066,
    "total": 1135108974,
    "max": null,
+   "date_added": "2020-10-20",
    "tags": [
     "music",
     "dao",
@@ -3295,6 +3443,7 @@
    "circ": 13036281.25,
    "total": 12093400,
    "max": 21000000,
+   "date_added": "2017-06-01",
    "tags": [
     "mineable",
     "pow",
@@ -3319,6 +3468,7 @@
    "circ": 3704505166,
    "total": 7000000000,
    "max": null,
+   "date_added": "2021-10-19",
    "tags": [
     "polkadot-ecosystem",
     "okex-blockdream-ventures-portfolio"
@@ -3336,6 +3486,7 @@
    "circ": 73005554.33,
    "total": 100000000,
    "max": 100000000,
+   "date_added": "2020-09-29",
    "tags": [
     "pos",
     "platform",
@@ -3364,6 +3515,7 @@
    "circ": 124528544,
    "total": 250000000,
    "max": 250000000,
+   "date_added": "2021-09-02",
    "tags": [
     "coinbase-ventures-portfolio",
     "web3"
@@ -3381,6 +3533,7 @@
    "circ": 412937122.13631105,
    "total": 424999998.00001335,
    "max": null,
+   "date_added": "2017-07-02",
    "tags": [
     "platform",
     "distributed-computing",
@@ -3401,6 +3554,7 @@
    "circ": 503987618.51517665,
    "total": 525116693.32666117,
    "max": null,
+   "date_added": "2019-08-26",
    "tags": [
     "medium-of-exchange",
     "defi",
@@ -3423,6 +3577,7 @@
    "circ": 52524592991,
    "total": 52524592991,
    "max": null,
+   "date_added": "2015-08-26",
    "tags": [
     "mineable",
     "pow",
@@ -3450,6 +3605,7 @@
    "circ": 253798859.69384697,
    "total": 530962614.97878325,
    "max": 536870912,
+   "date_added": "2020-06-11",
    "tags": [
     "art",
     "media",
@@ -3478,6 +3634,7 @@
    "circ": 770011370,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2019-04-05",
    "tags": [
     "cybersecurity",
     "platform",
@@ -3508,6 +3665,7 @@
    "circ": 281454911.6494039,
    "total": 281454911.6494039,
    "max": 440000000,
+   "date_added": "2018-08-02",
    "tags": [
     "mineable",
     "pow",
@@ -3536,6 +3694,7 @@
    "circ": 2269870691.285783,
    "total": 3960913516.459444,
    "max": null,
+   "date_added": "2017-12-21",
    "tags": [
     "media",
     "collectibles-nfts",
@@ -3561,6 +3720,7 @@
    "circ": 68947415.07943583,
    "total": 108858566.96540223,
    "max": 101172570,
+   "date_added": "2020-05-25",
    "tags": [
     "defi",
     "derivatives",
@@ -3588,6 +3748,7 @@
    "circ": 573012207.4604506,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2021-10-07",
    "tags": [
     "derivatives",
     "coinbase-ventures-portfolio"
@@ -3605,6 +3766,7 @@
    "circ": 238863519.826,
    "total": 695658160,
    "max": 695658160,
+   "date_added": "2018-05-18",
    "tags": [
     "lending-borowing",
     "exnetwork-capital-portfolio"
@@ -3622,6 +3784,7 @@
    "circ": 5060137334.7,
    "total": 5060137334.7,
    "max": 5060137334,
+   "date_added": "2021-11-19",
    "tags": [],
    "platform": "ETH"
   },
@@ -3636,6 +3799,7 @@
    "circ": 4013686004,
    "total": 5447166667,
    "max": 7000000000,
+   "date_added": "2020-06-12",
    "tags": [
     "platform",
     "scaling",
@@ -3659,6 +3823,7 @@
    "circ": 42673595392,
    "total": 42673595392,
    "max": null,
+   "date_added": "2020-07-08",
    "tags": [
     "collectibles-nfts",
     "play-to-earn"
@@ -3676,6 +3841,7 @@
    "circ": 15795840252.13981,
    "total": 15795840252.13981,
    "max": 21000000000,
+   "date_added": "2014-02-06",
    "tags": [
     "mineable",
     "pow",
@@ -3698,6 +3864,7 @@
    "circ": 163295557,
    "total": 190165060,
    "max": null,
+   "date_added": "2020-05-19",
    "tags": [
     "cosmos-ecosystem",
     "defi",
@@ -3717,6 +3884,7 @@
    "circ": 164893760,
    "total": 223368900,
    "max": 226000000,
+   "date_added": "2021-04-26",
    "tags": [
     "marketplace",
     "decentralized-exchange",
@@ -3742,6 +3910,7 @@
    "circ": 453448622,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2021-03-30",
    "tags": [
     "defi",
     "stablecoin",
@@ -3761,6 +3930,7 @@
    "circ": 258491637.23,
    "total": 258491637.23,
    "max": 258526640,
+   "date_added": "2021-03-31",
    "tags": [],
    "platform": "ETH"
   },
@@ -3775,6 +3945,7 @@
    "circ": 128900444.52198455,
    "total": 144818773,
    "max": null,
+   "date_added": "2016-04-06",
    "tags": [
     "dpos",
     "platform",
@@ -3794,6 +3965,7 @@
    "circ": 2642132371.4,
    "total": 2664965800,
    "max": 2664965800,
+   "date_added": "2018-12-06",
    "tags": [
     "iot",
     "substrate",
@@ -3812,6 +3984,7 @@
    "circ": 488229678,
    "total": 700000000,
    "max": 700000000,
+   "date_added": "2020-10-20",
    "tags": [
     "gaming",
     "ethereum-ecosystem",
@@ -3831,6 +4004,7 @@
    "circ": 30062138,
    "total": 48638535.4433,
    "max": 100000000,
+   "date_added": "2020-03-28",
    "tags": [
     "energy",
     "enterprise-solutions",
@@ -3851,6 +4025,7 @@
    "circ": 961737300000,
    "total": 993701859243.4863,
    "max": 999000000000,
+   "date_added": "2019-08-01",
    "tags": [
     "oracles",
     "tron-ecosystem",
@@ -3871,6 +4046,7 @@
    "circ": 1000000000,
    "total": 1000000000,
    "max": null,
+   "date_added": "2017-07-17",
    "tags": [
     "enterprise-solutions",
     "identity",
@@ -3892,6 +4068,7 @@
    "circ": 6222777786,
    "total": 8292596630,
    "max": null,
+   "date_added": "2017-12-22",
    "tags": [
     "health",
     "cosmos-ecosystem",
@@ -3910,6 +4087,7 @@
    "circ": 29130722.72384565,
    "total": 100000000,
    "max": 100000000,
+   "date_added": "2021-02-21",
    "tags": [
     "communications-social-media",
     "collectibles-nfts",
@@ -3935,6 +4113,7 @@
    "circ": 33340068750.291035,
    "total": 36680680992.46365,
    "max": null,
+   "date_added": "2019-11-19",
    "tags": [
     "mineable",
     "pow",
@@ -3971,6 +4150,7 @@
    "circ": 139773376,
    "total": 192696599,
    "max": 250000000,
+   "date_added": "2021-09-26",
    "tags": [
     "interoperability",
     "three-arrows-capital-portfolio",
@@ -3989,6 +4169,7 @@
    "circ": 99999999.9997,
    "total": 450000000,
    "max": null,
+   "date_added": "2019-09-24",
    "tags": [
     "marketplace",
     "centralized-exchange",
@@ -4007,6 +4188,7 @@
    "circ": 4396077.68425,
    "total": 5410000.51,
    "max": 10000000,
+   "date_added": "2021-05-08",
    "tags": [
     "scaling",
     "rollups",
@@ -4026,6 +4208,7 @@
    "circ": 999830316.0398655,
    "total": 999877117,
    "max": 999877117,
+   "date_added": "2017-10-20",
    "tags": [
     "medium-of-exchange",
     "defi",
@@ -4045,6 +4228,7 @@
    "circ": 613099140.9978136,
    "total": 613099141,
    "max": 1410000000,
+   "date_added": "2019-05-06",
    "tags": [
     "platform",
     "ai-big-data",
@@ -4073,6 +4257,7 @@
    "circ": 38596,
    "total": 39375,
    "max": 39375,
+   "date_added": "2020-07-29",
    "tags": [
     "defi",
     "dao",
@@ -4095,6 +4280,7 @@
    "circ": 805717779.245471,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2018-06-11",
    "tags": [
     "vr-ar",
     "collectibles-nfts",
@@ -4114,6 +4300,7 @@
    "circ": 133248297.197,
    "total": 133248297.197,
    "max": 133248297,
+   "date_added": "2017-03-06",
    "tags": [
     "dag",
     "blake2b",
@@ -4134,6 +4321,7 @@
    "circ": 56547601,
    "total": 114855860,
    "max": null,
+   "date_added": "2020-11-21",
    "tags": [
     "defi",
     "oracles",
@@ -4161,6 +4349,7 @@
    "circ": 92074258.92539924,
    "total": 274810687,
    "max": 312000000,
+   "date_added": "2021-02-09",
    "tags": [
     "defi",
     "governance",
@@ -4182,6 +4371,7 @@
    "circ": 7085488367.278,
    "total": 10000000000,
    "max": 10000000000,
+   "date_added": "2019-03-25",
    "tags": [
     "platform",
     "enterprise-solutions",
@@ -4209,6 +4399,7 @@
    "circ": 1108643952.08,
    "total": 2000000000,
    "max": 2000000000,
+   "date_added": "2019-06-04",
    "tags": [
     "defi",
     "fantom-ecosystem",
@@ -4229,6 +4420,7 @@
    "circ": 10000000,
    "total": 11012871,
    "max": null,
+   "date_added": "2021-10-22",
    "tags": [],
    "platform": "ETH"
   },
@@ -4243,6 +4435,7 @@
    "circ": 999037500.3618875,
    "total": 999999632.80375,
    "max": 1000000000,
+   "date_added": "2018-02-21",
    "tags": [
     "marketplace",
     "defi",
@@ -4267,6 +4460,7 @@
    "circ": 132301281.239121,
    "total": 155001281.239121,
    "max": null,
+   "date_added": "2020-10-03",
    "tags": [
     "dpos",
     "cosmos-ecosystem",
@@ -4291,6 +4485,7 @@
    "circ": 324366799.9127424,
    "total": 1000000000,
    "max": 1000000000,
+   "date_added": "2018-08-23",
    "tags": [
     "ontology-ecosystem"
    ],
@@ -4307,6 +4502,7 @@
    "circ": 16209404.69824367,
    "total": 99899045.23782395,
    "max": null,
+   "date_added": "2020-09-08",
    "tags": [
     "defi",
     "seigniorage",
@@ -4328,6 +4524,7 @@
    "circ": 41958140,
    "total": 45094973,
    "max": null,
+   "date_added": "2017-05-18",
    "tags": [
     "platform",
     "enterprise-solutions",
@@ -4351,6 +4548,7 @@
    "circ": 278482214.1856918,
    "total": 278482214.1856918,
    "max": 279387971,
+   "date_added": "2017-07-18",
    "tags": [
     "asset-management",
     "wallet",
@@ -4369,6 +4567,7 @@
    "circ": 10962808529.398026,
    "total": 10977277070.398026,
    "max": 10999873621,
+   "date_added": "2017-06-27",
    "tags": [
     "gambling",
     "marketplace",
@@ -4388,6 +4587,7 @@
    "circ": 346613953,
    "total": 430011123,
    "max": null,
+   "date_added": "2020-08-28",
    "tags": [
     "ethereum-ecosystem",
     "substrate",

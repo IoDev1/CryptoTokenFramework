@@ -126,3 +126,11 @@ Assessment: the letter is the right first product (monetises the process, no bac
 handles billing/VAT); push the annual price. Swap the order: API model steps before the letter,
 because the letter's content is the diff between unattended refreshes. "OnchainArena" is unknown
 here; clarify before building an export. PostHog on EU cloud, cookieless, no recording.
+
+## Framing, confirmed 2026-09-20
+
+The product is an informed, structured way to decide what to buy and hold, not a claim that AI picks
+winners. "Show results" means users share their own plans and outcomes on the platform; the platform never
+publishes model returns as its own track record. The ledger stays as transparency (what the model said, when),
+the backtest stays as methodology evidence (loss avoidance, not winner picking), and every level and result
+shown is the user's. Copy rule: "your plan, your results, our structure and sources".
