@@ -49,6 +49,10 @@ Research re-run: score `research/batch_N_input.txt` under `research/RUBRIC.md` i
 - BCH (a known non-recoverer) scores 8.0, close to LTC at 10.0: the v1 filters cannot separate
   "nothing wrong" from "something right". v2 adds prior-cycle survivorship and value accrual.
 
+## Backtest
+
+`BACKTEST.md`: the v1 framework scored the top 60 of November 2022 as of that date and measured returns to January 2025. It sorted losers well (top 20 by score 95% positive) but not winners (all four BTC-beaters scored Avoid), and two filters pointed the wrong way. Findings feed `FRAMEWORK_v2.md`.
+
 ## Disclaimer
 
 Research output, not investment advice. Verdicts are model-generated from public sources and

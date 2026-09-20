@@ -65,3 +65,20 @@ Infra: ATOM, TIA, FIL, AR, GRT, ALGO, XLM, XTZ
 Exchange tokens vs BNB: OKB, LEO, CRO
 Memes as control: DOGE, PEPE
 Historical failure controls: EOS, IOTA, BCH, NEO, ETC, LUNC
+
+## 8. Evidence from the 2022 backtest (2026-09-20, see BACKTEST.md)
+
+Top 60 on 2022-11-13, scored as of the cutoff, returns to 2025-01-12. What it changes in this proposal:
+
+- **FC2 leaves the Quality score.** "Far from ATH" had negative signal (median edge -40). It stays in Entry only, and E2 (token/BTC
+  ratio at a low) should be replaced by a relative-strength check: drawdown better than the universe median is a positive.
+- **G2 / FA1 is narrowed.** Disclosed foundation selling did not predict underperformance (edge -52). The gate should catch undisclosed
+  transfers, deceptive reporting and founder-loan liquidations, not scheduled sales.
+- **S2, S3, S5 carry the weight.** Real revenue (+90), low dilution (+97) and supply dynamics (+69) were the strongest quality signals;
+  foundation-only weights had the best rank correlation (0.25 vs 0.16 for v1).
+- **Tiers become relative.** Only 2 of 60 reached the absolute Core threshold at the bottom because context filters are pro-cyclical.
+  Core = top quartile of the scored universe, Avoid = bottom half, or equivalent percentile cut.
+- **Gates are a risk setting, not a default.** No-dealbreaker-fail tokens were 92% positive versus 64% for two-plus fails, but gates
+  would have excluded every token that beat BTC (SOL, XRP, HBAR, BIT).
+- **BTC is the benchmark.** 4 of 60 beat it. A basket that does not beat BTC is not a reason to hold anything else.
+- **Loss avoidance is the product.** Top 20 by score: 95% positive, none below -50%. That is the claim the framework can support today.

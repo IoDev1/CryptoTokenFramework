@@ -1,0 +1,162 @@
+{
+  "tokens": {
+    "LUNC": {
+      "bits": [0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "Founder Do Kwon under Interpol red notice (Sep 26 2022); Korean prosecutors allege insiders cashed out around the May 2022 collapse.",
+        "FA2": "95.8% circulating; post-fork chain has no mint module active and a 0.2% on-chain burn tax (prop 5234, Oct 19 2022): net supply flat/down.",
+        "FA3": "Terra ecosystem (Anchor, Mirror, UST peg) died in May 2022; LUNC is a community-run remnant with no category lead.",
+        "FA4": "Terraform Labs abandoned the chain for Terra 2.0 (May 2022); founder is a fugitive; volunteer devs, no accountable leadership.",
+        "FB1": "LUNC is gas and the staking asset of Terra Classic; burn tax is levied in LUNC.",
+        "FB2": "No DeFiLlama fee data; on-chain volume fell >90% after the 1.2% tax (Oct 2022); Binance fee burns are exchange policy, not protocol fees.",
+        "FB3": "Supply went 350M to 6.5T in May 2022; tax rate changed twice in 5 weeks by governance where 58 of 85 validators abstained: not fixed.",
+        "FC1": "Validators halted the chain twice and disabled delegations/IBC on May 12-13 2022: precedent for coordinated freezes.",
+        "FC2": "Mechanical: -100.0% from ATH $119.18 (supplied).",
+        "FC3": "Ecosystem usage collapsed with UST (May 2022); on-chain volume down >90% after Sep 2022 tax; no metric up over 12 months.",
+        "FC4": "Korean prosecution, Interpol notice (Sep 2022), SEC probe and class actions all unresolved inside the next 6 months.",
+        "FC5": "No revenue data; fee income immaterial (<$1M/30d).",
+        "FC6": "No dated upgrade or listing within 6 months; USTC repeg and burn ideas are undated community proposals."
+      },
+      "key_risk": "Fugitive founder and open prosecutions on a chain whose supply and tax parameters are rewritten by a thin validator quorum.",
+      "confidence": "M",
+      "sources": [
+        "https://siliconangle.com/2022/09/26/interpol-issues-red-notice-terraform-labs-founder-kwon/",
+        "https://www.coindesk.com/business/2022/09/26/interpol-issues-red-notice-for-do-kwon-report",
+        "https://www.cnbc.com/2022/09/27/do-kwon-says-hes-not-hiding-amid-manhunt-after-ust-luna-collapse.html",
+        "https://thecryptobasic.com/2022/10/18/terra-classic-lunc-community-passes-new-proposal-decreasing-burn-tax-from-1-2-to-0-2/"
+      ]
+    },
+    "ICP": {
+      "bits": [0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0],
+      "evidence": {
+        "FA1": "Arkham (Jun 28 2021): treasury sent 8.3M ICP straight to exchanges and 34.1M to insider wallets that deposited 10.7M; foundation unvested.",
+        "FA2": "56.0% circulating (supplied); rest locked in neurons; governance-reward inflation targeted ~8%/yr per DFINITY reports.",
+        "FA3": "Not top-2 in any usage metric; one of many smart-contract L1s, small dapp TVL and volume in 2022.",
+        "FA4": "Dominic Williams and DFINITY (200+ staff) still shipping (BTC integration, SNS) as of the Oct 2022 NNS report.",
+        "FB1": "Cycles that pay for compute can only be minted by burning ICP; NNS staking secures governance.",
+        "FB2": "DeFiLlama fees 0 (supplied); cycle burn worth well under $1M/30d in 2022.",
+        "FB3": "Inflation above 3% (governance ~8% target, node rewards) and the NNS can alter emission by proposal; genesis neurons keep dissolving.",
+        "FC1": "NNS can upgrade any subnet and canister; DFINITY and its followees held a decisive share of voting power in 2022.",
+        "FC2": "Mechanical: -99.4% from ATH $700.65 (supplied).",
+        "FC3": "DFINITY reports cycles burned up ~400% annualized in 2022 and 158k+ canisters running: usage up over 12 months.",
+        "FC4": "Class action (filed Jul 2021, N.D. Cal.) alleging unregistered securities and insider dumping still unresolved at cutoff.",
+        "FC5": "No material fee revenue (supplied 0); fails materiality.",
+        "FC6": "Bitcoin integration slipped from Q1 2022 roadmap with no firm mainnet date public by Nov 15 2022."
+      },
+      "key_risk": "Foundation-dominated governance and a documented 2021 insider-dump pattern, with a pending securities class action.",
+      "confidence": "M",
+      "sources": [
+        "https://info.arkm.com/researches/reports/icp-report",
+        "https://cryptobriefing.com/was-the-dfinity-team-responsible-icps-95-crash/",
+        "https://decrypt.co/76614/dfinity-hit-with-lawsuit-claiming-icp-unregistered-security",
+        "https://www.fxempire.com/news/article/internet-computers-icp-2022-roadmap-includes-bitcoin-and-ethereum-integrations-882507",
+        "https://medium.com/dfinity/nns-and-icp-token-metrics-monthly-report-sept-2022-d288e9ed3277",
+        "https://medium.com/dfinity/nns-and-icp-token-metrics-monthly-report-oct-2022-fba10ce1ea63"
+      ]
+    },
+    "OKB": {
+      "bits": [1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "OKX has run quarterly buy-back-and-burn since 2019 (help-center reports); no documented insider or foundation dumping into market.",
+        "FA2": "20.0% circulating (supplied): 240M of 300M OKB held by issuer/foundation and unreleased.",
+        "FA3": "OKX is a top-5 exchange but OKB trails BNB by an order of magnitude in usage; no 2-year top-2 lead for the token.",
+        "FA4": "Star Xu-founded OKX with an identifiable executive team, actively operating and shipping (OKC, wallet) in 2022.",
+        "FB1": "Partial: OKB gives fee discounts only, but OKX burns OKB bought with 30% of spot fees every quarter, so value flows today.",
+        "FB2": "Trading fees are OKX company revenue, not protocol revenue (Ripple rule); no DeFiLlama data (supplied).",
+        "FB3": "80% of supply sits with the issuer with no published, fixed release schedule; company can change burns or releases at will.",
+        "FC1": "Centrally issued ERC-20 controlled by OKX; supply and burns are corporate decisions.",
+        "FC2": "Mechanical: -58.1% from ATH $42.36 (supplied): fails the -75% test.",
+        "FC3": "No verified usage metric up over 12 months; 2022 exchange volumes fell industry-wide in the bear market.",
+        "FC4": "FTX/FTT collapse (Nov 8-11 2022) put exchange-token solvency risk live and unpriced; issuer-held 240M OKB release terms undisclosed.",
+        "FC5": "No protocol revenue data; fails.",
+        "FC6": "No dated token catalyst; a proof-of-reserves page (promised Nov 2022) is an exchange disclosure, not a token event."
+      },
+      "key_risk": "Exchange-token contagion four days after FTX, on a token where the issuer holds 80% of supply with no fixed release schedule.",
+      "confidence": "L",
+      "sources": [
+        "https://www.okx.com/help/section/announcements-okb-buy-back-burn",
+        "https://medium.com/coinmonks/a-journey-to-the-top-50-cryptocurrencies-on-coinmarketcap-and-coingecko-okb-the-utility-token-9dd19eef98e2",
+        "https://learn.okx.com/glossary/what-is-okb/"
+      ]
+    },
+    "XCN": {
+      "bits": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "Dirty Bubble (Feb 14 2022): top-10 wallets hold 75% of supply, eight tied to Chain; insider flows opaque, unverifiable = fail.",
+        "FA2": "40.2% circulating (supplied); staking, foundation and DAO allocations still locked.",
+        "FA3": "Chain Cloud (beta Jun 9 2022) is one of many RPC providers; Sequence is a niche ledger product; no category lead.",
+        "FA4": "Original Chain founders (Ludwin) left in 2018; brand relaunched under Deepak Thapliyal, a CEO with no prior public track record.",
+        "FB1": "XCN is a discount/payment/governance token on Sequence and Chain Cloud; usage is possible without it.",
+        "FB2": "No DeFiLlama data (supplied); no verifiable paying demand of ~$1M/30d.",
+        "FB3": "Cliff-vested staking and foundation allocations (60% of supply) with an issuer-set schedule; not fixed.",
+        "FC1": "Company-issued ERC-20; Chain unilaterally destroyed ~30% of unclaimed tokens (Mar 1 2022): issuer control over supply.",
+        "FC2": "Mechanical: -73.6% from ATH $0.184 (supplied): fails the -75% test.",
+        "FC3": "MDT acquisition (Jul 25 2022) added claimed users, but no verifiable on-chain usage metric up over 12 months.",
+        "FC4": "Concentrated holdings and thin liquidity (volume ~0.1% of mcap, Feb 2022) remain unresolved; large locked tranches ahead.",
+        "FC5": "No revenue data; fails.",
+        "FC6": "Chain Cloud public launch promised 'early Q3 2022' with no later dated milestone."
+      },
+      "key_risk": "Opaque, insider-concentrated supply with thin real demand behind a $1B market cap.",
+      "confidence": "M",
+      "sources": [
+        "https://www.dirtybubblemedia.com/p/who-spends-24-million-on-an-nft-meet",
+        "https://www.globenewswire.com/news-release/2022/06/09/2459798/0/en/Chain-Launches-Chain-Cloud.html",
+        "https://www.globenewswire.com/en/news-release/2022/07/25/2485343/0/en/Chain-Announces-Acquisition-of-Measurable-Data-Token.html",
+        "https://beincrypto.com/chain-ceo-deepak-thapliyal-breaks-record-for-cryptopunk-nft-purchase/"
+      ]
+    },
+    "HBAR": {
+      "bits": [1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0],
+      "evidence": {
+        "FA1": "Co-founders self-limited exec and early-SAFT release schedules; treasury releases are published; no documented insider dumping.",
+        "FA2": "45.9% circulating of a 50B pre-mint (supplied); treasury still releasing to SAFT holders and grants through 2023+.",
+        "FA3": "Enterprise council is unique but usage lead is not top-2: HCS volume down 79% from peak and DeFi tiny (Messari Q3 2022).",
+        "FA4": "Leemon Baird and Mance Harmon still lead; 30+ council members; staking shipped Jul 21 and rewards Oct 21 2022.",
+        "FB1": "HBAR pays all network fees and is the staking asset for consensus nodes.",
+        "FB2": "DeFiLlama fees 0 (supplied); sub-cent fees on ~1M tx/day is far below $1M/30d.",
+        "FB3": "Treasury release of several billion HBAR/yr (>10% of circulating) on a council-set schedule.",
+        "FC1": "Consensus nodes are permissioned and run only by Governing Council members; council controls treasury and upgrades.",
+        "FC2": "Mechanical: -92.0% from ATH $0.569 (supplied).",
+        "FC3": "Messari Q3 2022: network activity up, NFT users +90% and tx +107% QoQ, first DEX SaucerSwap live.",
+        "FC4": "Permissioned nodes and long treasury release have been public since 2018-19; no binary event dated in next 6 months.",
+        "FC5": "No material fee revenue (supplied 0).",
+        "FC6": "No dated mainnet event in the window; permissionless-node roadmap and council additions are undated."
+      },
+      "key_risk": "Council-run permissioned network with 54% of supply still in treasury and no fee revenue to speak of.",
+      "confidence": "M",
+      "sources": [
+        "https://hedera.com/blog/a-message-from-our-co-founders-why-were-limiting-exec-and-early-saft-holder-coin-release-schedules/",
+        "https://hedera.com/blog/introducing-native-staking-phase-1-on-the-hedera-network/",
+        "https://hedera.com/blog/decentralization-of-the-hedera-mainnet-consensus-node-hosting-and-stake-distribution/",
+        "https://messari.io/report/state-of-hedera-q3-2022"
+      ]
+    },
+    "EGLD": {
+      "bits": [1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Team tokens vest 3.5 years (2019 blog), 570k unlocked Jan and Jul 2022; no documented foundation or founder dumping.",
+        "FA2": "102.9% circulating (supplied) but year-3 issuance ~1.7M EGLD on 23.7M is ~7%/yr, above the 5% ceiling.",
+        "FA3": "One of many alt-L1s; Maiar DEX TVL fell from >$1B (Nov 2021) to ~$438M by Aug 2022; no top-2 usage position.",
+        "FA4": "Beniamin and Lucian Mincu, Lucian Todea active; Utrust acquired Jan 2022; MultiversX rebrand shipped Nov 3-5 2022.",
+        "FB1": "EGLD is gas and the staking asset securing the chain.",
+        "FB2": "DeFiLlama fees 0 (supplied); fee income well under $1M/30d.",
+        "FB3": "Decreasing 10-year emission schedule is published but inflation still ~7%/yr, above the 3% bar.",
+        "FC1": "Jun 2022 VM bug minted 1.65M EGLD; team paused Maiar DEX and pushed a hotfix that reversed the attacker's gains.",
+        "FC2": "Mechanical: -92.1% from ATH $545.64 (supplied).",
+        "FC3": "TVL and dev activity down through 2022 (AMBCrypto, Aug 2022); no usage metric up over 12 months.",
+        "FC4": "Inflation, exploit and rebrand all public; no unlock, lawsuit or fork dated in the next 6 months.",
+        "FC5": "No material revenue; fails.",
+        "FC6": "xPortal, xFabric and xWorlds announced Nov 4 2022 without launch dates; vague."
+      },
+      "key_risk": "Alt-L1 with ~7% inflation, shrinking DeFi usage, and a team that can pause and patch the chain.",
+      "confidence": "M",
+      "sources": [
+        "https://medium.com/elrondnetwork/elrond-team-tokens-locked-until-2020-and-vesting-extended-to-3-5-years-eee132a68b66",
+        "https://www.coindesk.com/business/2022/01/11/elrond-foundation-acquires-crypto-payments-firm-utrust",
+        "https://www.prnewswire.co.uk/news-releases/elrond-transforms-into-multiversx-launches-3-new-metaverse-products-301669051.html",
+        "https://ambcrypto.com/elrond-egld-before-you-fill-up-your-bags-with-egld-read-this/",
+        "https://www.figment.io/insights/elrond-first-look/"
+      ]
+    }
+  }
+}

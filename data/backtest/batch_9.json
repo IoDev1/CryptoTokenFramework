@@ -1,0 +1,161 @@
+{
+  "tokens": {
+    "MKR": {
+      "bits": [1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Maker Foundation returned 84k MKR ($480M) to the DAO May 2021 and dissolved; only routine dev-fund sales for ops documented.",
+        "FA2": "100% of 977.6k MKR circulating; no scheduled emission (MKR is only minted in debt auctions), no vesting or lockups.",
+        "FA3": "DAI has been the largest decentralized stablecoin since 2018; Maker top-2 lending/CDP protocol by TVL for >2 years.",
+        "FA4": "Rune Christensen active; Endgame MIP set ratified 24 Oct 2022 with ~80% support; core units still shipping (RWA vaults).",
+        "FB1": "MKR is governance-only; surplus-buffer MKR burn was not active in Nov 2022, so no fees flowed to the token.",
+        "FB2": "DeFiLlama fees 30d before cutoff $1.04M (>= $1M threshold).",
+        "FB3": "Zero scheduled emission, no unlocks; Endgame MKR emissions ratified Oct 2022 but not live or dated at cutoff.",
+        "FC1": "Governance-controlled with GSM pause delay; no admin freeze/mint key outside on-chain votes; never froze balances.",
+        "FC2": "Mechanical: -89.2% from ATH $6,292.",
+        "FC3": "DAI supply and lending demand shrank through 2022 (supply ~9B to ~6B); protocol fees far below 2021 levels.",
+        "FC4": "USDC dependence, Endgame breakup and founder vote influence all public since May-Oct 2022; no dated binary event.",
+        "FC5": "30d $1.04M vs prior $0.83M (+24%) but 1y $57M implies annualized ~12M: clearly down.",
+        "FC6": "Endgame MetaDAO launch and MKR emission have no dates; USDC-to-Coinbase yield moves are treasury ops, not catalysts."
+      },
+      "key_risk": "Revenue and DAI supply shrinking through 2022 while founder-driven Endgame adds future MKR emissions.",
+      "confidence": "M",
+      "sources": [
+        "https://decrypt.co/69817/maker-foundation-sends-480-million-makerdao-before-dissolves",
+        "https://cointelegraph.com/news/makerdao-to-dissolve-foundation-and-become-truly-decentralized-again",
+        "https://www.coindesk.com/markets/2022/10/24/makerdao-members-support-founders-endgame-plan-to-break-up-into-metadaos-21b-of-transfers",
+        "https://beincrypto.com/makerdao-mkr-endgame-plan-passed-in-a-vote-where-founder-had-60-influence/",
+        "https://messari.io/report/state-of-maker-q3-2022"
+      ]
+    },
+    "BTT": {
+      "bits": [0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Team/foundation 19% + TRON Foundation 20% of supply with no public disclosure of sales; insider flows unverifiable = 0.",
+        "FA2": "95.5% of 990T BTT circulating; supply capped after the 1:1000 redenomination at BTTC launch Dec 2021; no emission.",
+        "FA3": "BTTC (mainnet Dec 2021) is one of many EVM sidechains; 12 validators, ~$9M BTT on JustLend; no top-2 usage lead.",
+        "FA4": "Justin Sun / BitTorrent Inc identifiable and shipping (BTTC mainnet Dec 2021, Dominica tender Oct 2022); not prosecuted at cutoff.",
+        "FB1": "BTT is BTTC gas and validator stake, so core chain use requires the token.",
+        "FB2": "DeFiLlama: no fee data for BTTC; no verifiable paid demand >= $1M/30d.",
+        "FB3": "Capped supply, zero emission, no announced cliff unlock; the 4.5% non-circulating has no disclosed release.",
+        "FC1": "BTTC runs 12 validators selected by BitTorrent/TRON; PoS checkpoints, not a permissionless set.",
+        "FC2": "Mechanical: -80.2% from ATH $3.43e-6.",
+        "FC3": "No published BTTC usage growth in 2022; only ~5% of supply staked, small DeFi footprint.",
+        "FC4": "Sun-centralisation risk public for years; no dated binary event found in pre-cutoff sources.",
+        "FC5": "No revenue data.",
+        "FC6": "Roadmap items (more chains, validator election) undated; Dominica tender already announced Oct 2022."
+      },
+      "key_risk": "Supply and chain controlled by Justin Sun entities with opaque insider holdings and no fee demand.",
+      "confidence": "L",
+      "sources": [
+        "https://medium.com/@BitTorrent/launch-of-bttc-mainnet-and-btt-redenomination-plan-2eacfe26d22",
+        "https://medium.com/@BitTorrent/bttc-business-plan-and-roadmap-238ad8a8ce33",
+        "https://coinmarketcap.com/academy/article/deep-dive-on-bittorrent-chain-bttc",
+        "https://x.com/BitTorrent/status/1471767127795191810"
+      ]
+    },
+    "BIT": {
+      "bits": [1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "Bybit's 60% follows the published vesting; treasury ran buybacks (BIP-9/BIP-12, $10.5M bought Jul 2022), no dumping.",
+        "FA2": "Only 20.9% of 10B BIT circulating; Bybit Locked 45% still vesting.",
+        "FA3": "Largest treasury DAO (multi-billion) with an exclusive Bybit 2.5bps futures-volume pledge as structural lock-in.",
+        "FA4": "Bybit (Ben Zhou) and Windranger Labs identifiable and funding Game7, zkDAO, EduDAO through 2022.",
+        "FB1": "BIT is governance-only; no gas, staking or fee use.",
+        "FB2": "No protocol fees; Bybit's contribution is exchange revenue, not BIT protocol revenue.",
+        "FB3": "Bybit Locked 4.5B vests ~187.5M/month from Jul 2022 (~2.25B/yr, >100% of circulating).",
+        "FC1": "Treasury is governance/multisig controlled and Bybit holds the majority of tokens and votes.",
+        "FC2": "Mechanical: -89.7% from ATH $2.96.",
+        "FC3": "No usage metric; treasury value fell with the 2022 market; no funded sector tailwind.",
+        "FC4": "Monthly Bybit unlocks equal to ~9% of circulating continue through 2024.",
+        "FC5": "No revenue data.",
+        "FC6": "No dated catalyst public by 15 Nov 2022 (L2 and buyback proposals came after the cutoff)."
+      },
+      "key_risk": "Continuous large Bybit unlocks into a thinly circulating governance token with no protocol revenue.",
+      "confidence": "M",
+      "sources": [
+        "https://docs.bitdao.io/litepaper-1/tokenomics",
+        "https://docs.bitdao.io/partners/bybit-pledge",
+        "https://blog.switcheo.com/bitdao-the-next-big-dao/",
+        "https://www.coingecko.com/learn/bitdao-what-you-need-to-know-about-the-investment-dao-with-billions-in-assets"
+      ]
+    },
+    "ZEC": {
+      "bits": [1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "ZIP-1014 dev fund is 20% of subsidy (~1.7% of supply/yr) to ECC/ZF/grants, sold for operations; no timed dumps documented.",
+        "FA2": "~1.31M ZEC/yr issuance on 15.7M supply is ~8% inflation until the Nov 2024 halving.",
+        "FA3": "Second-largest privacy coin after Monero for >4 years by market cap and usage.",
+        "FA4": "Two independent teams (ECC zcashd, Zcash Foundation Zebra) with multi-year continuity; NU5 shipped May 2022.",
+        "FB1": "Transaction fees are payable only in ZEC.",
+        "FB2": "DeFiLlama fees 30d $985; trivial.",
+        "FB3": "~8%/yr inflation until 2024, well above the 3% bar.",
+        "FC1": "Permissionless PoW chain; no freeze, mint or blacklist authority.",
+        "FC2": "Mechanical: -98.7% from ATH $3,192.",
+        "FC3": "2022 transaction growth was spam (chain 31GB to 100GB+ from Jun 2022); no verified organic usage increase.",
+        "FC4": "Spam attack unresolved at Oct 2022, size-based fee fix only proposed; privacy-coin delisting pressure ongoing.",
+        "FC5": "No material revenue ($985/30d).",
+        "FC6": "No dated upgrade in the next 6 months; PoS transition undated."
+      },
+      "key_risk": "High inflation to 2024 plus unresolved spam attack and negligible fee demand.",
+      "confidence": "M",
+      "sources": [
+        "https://zips.z.cash/zip-1014",
+        "https://www.theblock.co/post/175259/someone-is-clogging-up-the-zcash-blockchain-with-a-spam-attack",
+        "https://www.coindesk.com/business/2022/10/07/zcash-may-be-getting-spammed-but-the-blockchain-is-doing-just-fine-the-company-behind-it-says",
+        "https://electriccoin.co/blog/eccs-position-on-the-zcash-dev-fund/"
+      ]
+    },
+    "MIOTA": {
+      "bits": [1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Fixed 2.78B supply, no emission; Foundation funded from the 2015 donation; 2022 vote put unclaimed tokens under community control.",
+        "FA2": "100% circulating, zero emission at cutoff.",
+        "FA3": "IoT/feeless DLT with negligible measurable usage; many competitors, no top-2 lead by any metric.",
+        "FA4": "Ivancheglo (2019) and Sonstebo (Dec 2020) left; Schiener leads and Foundation shipped Shimmer mainnet Sep 2022.",
+        "FB1": "Mainnet is feeless with no staking; core use does not require holding IOTA.",
+        "FB2": "No fees exist; no verifiable paid demand.",
+        "FB3": "Fixed supply, no unlocks, no emission schedule to change at cutoff.",
+        "FC1": "Consensus depends on the Foundation-run Coordinator, which halted the network Feb-Mar 2020.",
+        "FC2": "Mechanical: -95.9% from ATH $5.25.",
+        "FC3": "No usage metric up in 2022; Coordicide slipped again per Mar 2022 roadmap.",
+        "FC4": "Coordinator and delay risks public for years; no dated binary event ahead.",
+        "FC5": "No revenue data.",
+        "FC6": "Shimmer already launched Sep 2022; Stardust on IOTA mainnet and Assembly undated."
+      },
+      "key_risk": "Foundation-controlled Coordinator with no fee demand and repeatedly delayed decentralisation.",
+      "confidence": "M",
+      "sources": [
+        "https://thegww.com/iota-makes-plans-for-2022-public-coordicide-probably-left-out-of-it/",
+        "https://blog.iota.org/iota-community-treasury-vote/",
+        "https://blog.iota.org/coordicide-the-road-ahead-7d89f41b0ba5/",
+        "https://blockbytes.com/2022/10/27/iota-x-shimmer-part-1-what-is-iota/"
+      ]
+    },
+    "CAKE": {
+      "bits": [1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "No team allocation; the 9.09% dev mint is burned weekly and never circulates; no documented dumping.",
+        "FA2": "42.5% of 345M circulating; net ~14.25 CAKE/block (~150M/yr, ~40%+ inflation) toward the 750M cap set May 2022.",
+        "FA3": "Top DEX on BNB Chain since 2020 and top-2 DEX by volume for >2 years; $22.6M fees in 30d.",
+        "FA4": "Team is pseudonymous 'Chefs'; no identifiable accountable leadership.",
+        "FB1": "0.05% of V2 trade fees buy back and burn CAKE weekly, so fees flow to the token today.",
+        "FB2": "DeFiLlama fees 30d $22.6M.",
+        "FB3": "Net emission ~150M CAKE/yr on 147M circulating; emissions set by team-run MasterChef v2 changes (Aug 2022).",
+        "FC1": "MasterChef mint authority and emission parameters controlled by the team multisig; not permissionless.",
+        "FC2": "Mechanical: -90.9% from ATH $43.96.",
+        "FC3": "1y fees $517M vs ~$271M annualized from last 30d; TVL far below 2021 peak.",
+        "FC4": "Inflation and anonymity risks public since 2021; no binary event dated in the next 6 months.",
+        "FC5": "30d $22.6M vs prior $14.8M up, but 1y trend clearly down.",
+        "FC6": "Aptos deployment already live (vote 23 Oct 2022); no dated v3 or emission change ahead."
+      },
+      "key_risk": "Heavy ongoing CAKE emission run by an anonymous team amid falling DEX volume.",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/business/2022/05/12/pancakeswap-aims-to-reduce-cake-supply-and-increase-farming-rewards",
+        "https://cointelegraph.com/news/pancakeswap-governance-proposal-set-to-cap-cake-supply-at-750m",
+        "https://docs.pancakeswap.finance/archive/old-tokenomics/cake-tokenomics-v1.md",
+        "https://en.cryptonomist.ch/2022/11/03/pancakeswap-x-aptos-this-is-it/"
+      ]
+    }
+  }
+}

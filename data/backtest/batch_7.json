@@ -1,0 +1,174 @@
+{
+  "tokens": {
+    "EOS": {
+      "bits": [0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "FAIL: Block.one (largest insider, ~10% supply) sold 45M EOS (~4.5% supply) to Brock Pierce Nov 2021; BPs cut its 67M vesting Dec 2021",
+        "FA2": "PASS: 101% circulating (uncapped); inflation ~2-3%/yr per ByteTree Oct 2022 and 2020-22 BP votes, under 5%",
+        "FA3": "FAIL: interchangeable smart-contract L1 that lost share steadily; TVL ~$108M Oct 2022, dApp activity moved to other chains",
+        "FA4": "PASS: Block.one/Larimer gone but replaced by ENF (Yves La Rose) which shipped Antelope Leap 3.1 hard fork 21 Sep 2022",
+        "FB1": "PASS: CPU/NET/RAM resources require staking or PowerUp paid in EOS; validators elected by staked EOS",
+        "FB2": "FAIL: DeFiLlama no data; gasless resource model yields no verifiable fee revenue near $1M/30d",
+        "FB3": "FAIL: inflation raised/cut by 21-BP msig (5%->1% 2020, ENF funding 2022) so schedule is changeable by a small group",
+        "FC1": "FAIL: 21 elected BPs froze 27 accounts in June 2018 (ECAF) and halted Block.one vesting by msig Dec 2021",
+        "FC2": "PASS: -96.1% from $22.71 ATH (supplied)",
+        "FC3": "FAIL: transactions, dApp TVL and developer activity down through 2022; EVM slipped past its Q3 2022 target",
+        "FC4": "PASS: Block.one ICO class action (settlement rejected Aug 2022) is against Block.one, public since 2020; no cliff or fork ahead",
+        "FC5": "FAIL: no fee data on DeFiLlama and no material protocol revenue",
+        "FC6": "FAIL: EOS EVM had no mainnet date as of Nov 2022 (Q3 2022 target missed); IBC 'Q4' undated"
+      },
+      "key_risk": "Chain governed by 21 BPs who have frozen accounts and rewritten token issuance; no fee revenue and steadily shrinking usage",
+      "confidence": "M",
+      "sources": [
+        "https://cryptobriefing.com/eos-community-votes-to-halt-vesting-4b-backer-blockone/",
+        "https://www.bytetree.com/research/2022/10/eos-the-gasless-blockchain/",
+        "https://coinspectator.com/dailycoin/2022/08/27/eos-eos-project-review-recent-developments-future-events-community/",
+        "https://www.forbes.com/sites/emilymason/2022/08/17/federal-court-rejects-275-million-settlement-in-blockone-ico-case-questions-reach-of-securities-law/",
+        "https://www.newsbtc.com/news/eos/eos-community-revolts-against-block-one/",
+        "https://www.coindesk.com/markets/2018/06/18/eos-blockchain-arbitrator-orders-freeze-of-27-accounts/",
+        "https://eosnetwork.com/resources/eos-declares-independence-with-consensus-upgrade-to-antelope-leap-3-1-3/"
+      ]
+    },
+    "XTZ": {
+      "bits": [1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1],
+      "evidence": {
+        "FA1": "PASS: Tezos Foundation publishes semi-annual reports; sales are for grants/operations, no documented dumping or founder liquidations",
+        "FA2": "PASS: 97.7% circulating; block-reward inflation ~4.4-4.8%/yr (Messari Q2 2022: 1.1% per quarter), under the 5% bar",
+        "FA3": "FAIL: not top-2 among smart-contract L1s by fees, TVL or users; one of many PoS L1s",
+        "FA4": "PASS: Arthur Breitman plus Nomadic Labs, TriliTech, Marigold shipping quarterly upgrades (Kathmandu live Sep 2022)",
+        "FB1": "PASS: XTZ is gas and the staking asset securing consensus (75-77% of supply staked)",
+        "FB2": "PASS: DeFiLlama fees $1.35M in the 30d before cutoff (supplied)",
+        "FB3": "FAIL: ~4.4-4.8%/yr issuance exceeds 3% net inflation; no burn offsets it",
+        "FC1": "PASS: permissionless bakers, on-chain governance, no freeze or admin key; never froze balances",
+        "FC2": "PASS: -88.9% from $9.12 ATH (supplied)",
+        "FC3": "FAIL: Messari Q2 2022 shows new and active accounts declining in 2022; NFT volume in USD down with the market",
+        "FC4": "PASS: no pending lawsuit, cliff or fork; Tezos Foundation lawsuit settled 2020",
+        "FC5": "PASS: 30d fees $1.35M vs prior $1.02M (up); 1y $10.8M means ~0.9M/month average, not clearly down; material",
+        "FC6": "PASS: Lima (protocol 015) proposal injected Oct 2022 into the fixed governance cycle, activation expected mid-Dec 2022"
+      },
+      "key_risk": "Falling account activity and no category lead; positive score rests on the supplied fee figure and the upgrade cadence",
+      "confidence": "M",
+      "sources": [
+        "https://messari.io/report/state-of-tezos-q2-2022",
+        "https://opentezos.com/node-baking/baking/reward/",
+        "https://bravenewcoin.com/insights/tezos-successfully-completes-eleventh-forkless-network-upgrade-kathmandu",
+        "https://tezos.gitlab.io/protocols/015_lima.html",
+        "https://tezos.foundation/reports/",
+        "https://blockchainreporter.net/tezos-initiates-the-upgrade-of-kathmandu-protocol-on-the-mainnet/"
+      ]
+    },
+    "SAND": {
+      "bits": [0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0],
+      "evidence": {
+        "FA1": "FAIL: 13 Aug 2022 unlock of 372.7M SAND incl. team 71M, advisors 50M, reserve 84M, foundation 40M, followed by heavy selling",
+        "FA2": "FAIL: 50.0% circulating; over 40% of supply allocated to team/foundation/advisors on 5-year vesting",
+        "FA3": "PASS: top-2 crypto metaverse with Decentraland since 2020; led on users (39K DAU / 201K MAU in Alpha S3, Oct 2022)",
+        "FA4": "PASS: Sebastien Borget and Arthur Madrid, backed by Animoca, shipping Alpha Seasons 1-3 (2021-2022)",
+        "FB1": "PASS: LAND, ASSET and marketplace purchases priced in SAND; 5% marketplace fee paid in SAND",
+        "FB2": "FAIL: DeFiLlama no data; land sales down 85% in 2022 (avg $35.5K to $2.8K), fee take far below $1M/30d",
+        "FB3": "FAIL: next 6-month cliff (Feb 2023, ~12% of total supply, ~23% of circulating) exceeds 10%",
+        "FC1": "FAIL: Sandbox ERC-20 has admin-set superOperators that can move tokens without approval; admin-controlled game contracts",
+        "FC2": "PASS: -93.0% from $8.40 ATH (supplied)",
+        "FC3": "PASS: wallet users 2M (Mar 2022) to 4M (Aug 2022); Alpha S3 users above the 350K S2 record (GamesBeat Aug 2022)",
+        "FC4": "FAIL: Feb 2023 cliff unlock >10% of circulating is a known negative event inside 6 months",
+        "FC5": "FAIL: no fee data; land volume collapsing",
+        "FC6": "FAIL: Alpha Season 3 ended 1 Nov 2022; no dated launch, upgrade or vote in the next 6 months"
+      },
+      "key_risk": "Half the supply still locked with a ~23%-of-float cliff due Feb 2023, on top of collapsing land demand",
+      "confidence": "M",
+      "sources": [
+        "https://www.coincarp.com/events/thesandbox-token-unlock/",
+        "https://messari.io/report/state-of-the-sandbox-q1-2022",
+        "https://gamesbeat.com/the-sandbox-launches-alpha-season-3-with-90-metaverse-experiences/",
+        "https://mpost.io/metaverse-land-sales-plunge-decentraland-and-the-sandbox-show-low-number-of-active-users/",
+        "https://www.coindesk.com/web3/2022/10/07/its-lonely-in-the-metaverse-decentralands-38-daily-active-users-in-a-13b-ecosystem",
+        "https://dappradar.com/blog/metaverse-report-2-demand-for-metaverse-remains-amidst-crypto-turmoil",
+        "https://github.com/thesandboxgame/sandbox-smart-contracts"
+      ]
+    },
+    "APE": {
+      "bits": [1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1],
+      "evidence": {
+        "FA1": "PASS: Yuga Labs (15%) and founders (8%) locked until Mar 2023; Sep 2022 unlock went to launch contributors, no documented team sales",
+        "FA2": "FAIL: 30.7% circulating; 69% of the 1B supply still vesting over 48 months",
+        "FA3": "FAIL: BAYC brand is under 2 years old (Apr 2021) and APE is one of many gaming/metaverse tokens with no usage lead",
+        "FA4": "PASS: Yuga Labs founders (Garga, Gordon Goner) and APE Foundation Special Council active; Otherside Second Trip 5 Nov 2022",
+        "FB1": "FAIL: governance token; Otherdeed sale was a one-off, staking rewards are treasury emission not fees",
+        "FB2": "FAIL: no protocol fees; DeFiLlama no data",
+        "FB3": "FAIL: 17 Mar 2023 unlock ~40.6M APE (~13% of circulating) plus 100M APE year-1 staking emission",
+        "FC1": "PASS: plain fixed-supply ERC-20, no mint, pause or blacklist function",
+        "FC2": "PASS: -89.2% from $26.70 ATH (supplied)",
+        "FC3": "FAIL: NFT and Yuga ecosystem volumes down through 2022; no rising usage metric",
+        "FC4": "FAIL: Mar 2023 cliff ahead; launch contributor FTX (per Delphi) entered bankruptcy 11 Nov 2022",
+        "FC5": "FAIL: no revenue",
+        "FC6": "PASS: AIP-21/22 votes passed (Jun 2022) for 175M APE staking; Horizen Labs published pool docs 18 Oct 2022 for autumn launch"
+      },
+      "key_risk": "Only 31% floats; Yuga/founder cliff in March 2023 and 100M APE of staking emissions dwarf organic demand",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/markets/2022/09/16/apecoins-ape-could-see-selling-pressure-ahead-of-major-token-unlock",
+        "https://www.fxstreet.com/cryptocurrencies/news/apecoin-staking-on-track-for-autumn-launch-horizen-labs-confirm-202208010934",
+        "https://www.theboredapegazette.com/post/horizen-labs-released-a-seven-part-document-on-apecoin-staking-today-find-out-more-about-the-pools",
+        "https://techcrunch.com/2022/03/16/bored-apes-nft-project-gets-official-apecoin-token/",
+        "https://www.theblock.co/post/137829/bored-ape-yacht-club-yuga-labs-virtual-land-sales-metaverse",
+        "https://apecoin.com/"
+      ]
+    },
+    "THETA": {
+      "bits": [1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+      "evidence": {
+        "FA1": "PASS: 100% of 1B THETA circulating since 2021; no documented Theta Labs or founder dumping in 2021-22",
+        "FA2": "PASS: fixed 1B supply, 100% circulating, zero THETA issuance (inflation is on TFUEL)",
+        "FA3": "PASS: largest decentralized video-delivery network since 2020 (vs Livepeer); enterprise validators Google, Samsung, Sony",
+        "FA4": "PASS: Mitch Liu and Jieyi Long lead Theta Labs, shipping v4.0.0 hard fork 2 Nov 2022",
+        "FB1": "PASS: validators and guardians must stake THETA to secure the chain",
+        "FB2": "FAIL: DeFiLlama no data; TFUEL fee burn and ThetaDrop volumes far below $1M/30d",
+        "FB3": "PASS: no THETA issuance, no unlocks, supply fixed at 1B",
+        "FC1": "FAIL: validator node set is permissioned, selected by Theta Labs (enterprise validators); only guardians are open",
+        "FC2": "PASS: -94.4% from $15.72 ATH (supplied)",
+        "FC3": "FAIL: no verifiable rising usage metric in 2022; Theta.tv and ThetaDrop activity fell with the market",
+        "FC4": "PASS: risks (permissioned validators, TFUEL inflation) public for years; no cliff, lawsuit or fork pending",
+        "FC5": "FAIL: no revenue data",
+        "FC6": "PASS: Mainnet 4.0 Theta Metachain launch dated 1 Dec 2022, announced 24 Oct 2022"
+      },
+      "key_risk": "Value accrual flows to TFUEL not THETA, validators are Theta Labs-selected, and no fee revenue backs the network",
+      "confidence": "M",
+      "sources": [
+        "https://www.coincarp.com/events/theta-mainnet-40-launch/",
+        "https://dappradar.com/blog/theta-metachain-will-be-live-by-end-of-2022",
+        "https://medium.com/theta-network/theta-v4-0-0-8e25a67d9183",
+        "https://medium.com/theta-network/theta-ecosystem-2022-tdrop-token-faqs-77430456b510",
+        "https://assets.thetatoken.org/theta-mainnet-4-whitepaper.pdf",
+        "https://icodrops.com/theta-token/"
+      ]
+    },
+    "MANA": {
+      "bits": [1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "PASS: 20% foundation and 20% team allocations from 2017 vested long ago; no documented insider dumping in 2021-22",
+        "FA2": "PASS: 84.6% circulating; 8% inflation disabled by the DAO, 2.5% marketplace burn, ~600M MANA burned",
+        "FA3": "PASS: top-2 crypto metaverse with The Sandbox since 2020 by land value and users (8K DAU claimed Oct 2022)",
+        "FA4": "PASS: founders Meilich/Ordano left 2020 but Decentraland Foundation kept shipping (MVFW Mar 2022, Music Festival Nov 2022)",
+        "FB1": "PASS: LAND, names and wearables are priced in MANA on the marketplace with fees burned in MANA",
+        "FB2": "FAIL: DeFiLlama no data; land sales down 85% in 2022, marketplace fees far below $1M/30d",
+        "FB3": "PASS: zero issuance since inflation was switched off, no vesting cliffs ahead, burn only",
+        "FC1": "FAIL: MANAToken inherits PausableToken and MintableToken; owner can pause transfers and minting was not finished",
+        "FC2": "PASS: -92.3% from $5.85 ATH (supplied)",
+        "FC3": "FAIL: DappRadar 38 DAU (7 Oct 2022) revised to ~650 UAW; land sales collapsed 85% in 2022",
+        "FC4": "PASS: user-count controversy and land slump public; no cliff, lawsuit or fork inside 6 months",
+        "FC5": "FAIL: no revenue data",
+        "FC6": "FAIL: Music Festival (10-13 Nov 2022) already past; no dated catalyst announced for the next 6 months"
+      },
+      "key_risk": "Usage is tiny relative to a ~$0.8B valuation and the token contract keeps owner pause/mint powers",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/web3/2022/10/07/its-lonely-in-the-metaverse-decentralands-38-daily-active-users-in-a-13b-ecosystem",
+        "https://www.coindesk.com/markets/2022/10/18/dappradar-says-decentraland-has-650-daily-active-users",
+        "https://blockworks.com/news/metaverse-platforms-set-the-record-straight-about-daily-active-users",
+        "https://mpost.io/metaverse-land-sales-plunge-decentraland-and-the-sandbox-show-low-number-of-active-users/",
+        "https://github.com/decentraland/mana/blob/master/contracts/MANAToken.sol",
+        "https://medium.com/decentraland/the-decentraland-token-sale-terms-81861704c086"
+      ]
+    }
+  }
+}

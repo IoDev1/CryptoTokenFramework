@@ -1,0 +1,248 @@
+{
+  "tokens": {
+    "CRO": {
+      "bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "Feb 2021: 70B CRO burned, company kept 5.9B (5B validator rewards, 0.9B ecosystem); no documented CRO dumping by Crypto.com to Nov 2022.",
+        "FA2": "Circulating 83.5% of 30.26B total; block rewards come from the pre-counted 5B pool at ~500M/yr, ~2% of circulating.",
+        "FA3": "Third exchange token behind BNB and LEO; Cronos DeFi TVL far below BNB Chain and no structural lock-in beyond the Crypto.com app.",
+        "FA4": "Kris Marszalek has run Crypto.com since 2016; Cronos Labs shipped mainnet (Nov 2021) and Huygens v0.7 upgrade in 2022.",
+        "FB1": "CRO is gas on Cronos and the staking asset on Crypto.org Chain; core use impossible without it.",
+        "FB2": "DeFiLlama Cronos fees $287k in the 30d before cutoff, below the $1M bar.",
+        "FB3": "Reward pool release rate and chain params are set by governance dominated by Crypto.com; 16.5% company-held supply has no public vesting.",
+        "FC1": "Cronos EVM chain launched with a validator set approved by Cronos Labs/Crypto.com; not permissionless.",
+        "FC2": "-92.7% from ATH $0.89, mechanical pass.",
+        "FC3": "Cronos TVL fell through 2022 from its Q1 peak; Nov 2022 saw further outflows on FTX contagion fears.",
+        "FC4": "Nov 13 2022: CEO disclosed 320k ETH sent to Gate.io by mistake on Oct 21; FTX contagion fears on the exchange are unresolved.",
+        "FC5": "Fees $287k vs $293k prior 30d: flat, but not material (<$1M).",
+        "FC6": "Only Cronos ID token (CROID) and analytics integrations in the Nov 9 2022 update; no dated mainnet upgrade verifiable pre-cutoff."
+      },
+      "key_risk": "Exchange-token contagion four days after FTX: Crypto.com's solvency and disclosure quality (320k ETH mis-send) are the price driver, not the chain.",
+      "confidence": "M",
+      "sources": [
+        "https://chainbulletin.com/crypto-com-sets-mainnet-launch-date-burns-70-billion-cro-tokens",
+        "https://www.business-standard.com/amp/article/markets/crypto-com-mistakenly-sends-ethereum-worth-400-mn-to-another-exchange-122111400139_1.html",
+        "https://www.theregister.com/2022/11/14/cryptodotcom_gateio_400m/",
+        "https://cryptocomresearch.substack.com/p/weekly-defi-and-l1l2-update-2022-week44",
+        "https://cryptocomresearch.substack.com/p/weekly-l1l2-update-2022-week18"
+      ]
+    },
+    "VET": {
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "FA1": "Foundation publishes quarterly treasury reports; Q1 2022 spend was $4.1M against a $1.2B treasury, no VET sales reported.",
+        "FA2": "Circulating 84.3% of 86.0B; VET supply is fixed, gas is the separate VTHO token, so VET inflation is 0%.",
+        "FA3": "Leading public enterprise supply-chain chain since 2018 (DNV, PwC, Walmart China, BMW); no rival at comparable scale for >2 years.",
+        "FA4": "Sunny Lu CEO since 2015; team shipped VIP-220 finality (PoA 2.0) to mainnet in Nov 2022.",
+        "FB1": "101 Authority Masternodes must stake 25M VET; VTHO gas is generated only by holding VET.",
+        "FB2": "No DeFiLlama data; VTHO burned on ~30k daily clauses is far below $1M/30d.",
+        "FB3": "Zero VET emission, no scheduled cliff unlocks; only VTHO generation is fixed at 0.000432 per VET/day.",
+        "FC1": "Dec 2019: Authority Masternodes patched the chain to freeze ~727M VET across 469 hacker addresses; AM set is foundation-whitelisted.",
+        "FC2": "-93.2% from ATH $0.28, mechanical pass.",
+        "FC3": "No verifiable 12-month uptrend in transactions or addresses as of Nov 2022; Q1 2022 report gave no usage metrics.",
+        "FC4": "Foundation control, low fee burn and 2019 freeze have been public for years; PoA 2.0 fork is a coordinated upgrade, not contentious.",
+        "FC5": "No revenue data; VTHO burn immaterial.",
+        "FC6": "PoA 2.0 finality (VIP-220) mainnet activation at block 13,815,000 on Nov 17 2022, announced Nov 8 2022."
+      },
+      "key_risk": "Enterprise narrative has never converted into fee demand; the chain is foundation-controlled and has frozen balances before.",
+      "confidence": "M",
+      "sources": [
+        "https://u.today/vechains-biggest-mainnet-hard-fork-set-to-deploy-price-reacts",
+        "https://cointelegraph.com/news/vechain-foundation-unveils-1-2b-crypto-treasury-but-spent-just-4m-in-q1",
+        "https://www.coindesk.com/business/2019/12/13/vechain-foundation-hacked-for-65m-in-vet-token-theft",
+        "https://www.newsbtc.com/news/how-vechain-cryptocurrency-was-able-to-track-and-freeze-6-1m-of-stolen-funds/",
+        "https://medium.com/vechain-foundation/vechain-foundation-financial-report-q2-2022-eca2486682ac"
+      ]
+    },
+    "FIL": {
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "FA1": "Protocol Labs 300M + Foundation 100M FIL vest linearly over 6 years (~67M/yr, ~20% of circulating) plus SAFT vesting to Oct 2023.",
+        "FA2": "'100% circulating' only because uncapped; ~520M minted/vested by Sept 2022 with ~70% liquid, and minting+vesting runs far above 5%/yr.",
+        "FA3": "Largest decentralized storage network by capacity for >2 years, well ahead of Arweave, Storj and Sia.",
+        "FA4": "Juan Benet / Protocol Labs plus Filecoin Foundation; multiple node implementations (Lotus, Venus, Forest) shipping FVM milestones in 2022.",
+        "FB1": "FIL is gas, storage-deal payment and pledge collateral for storage providers.",
+        "FB2": "DeFiLlama Filecoin fees 0; most 2022 deals are subsidized Fil+ verified deals, so paid storage demand is not verifiable at $1M/30d.",
+        "FB3": "Daily minting (simple + baseline) plus investor/PL vesting is high double-digit annual inflation; FIP-004 pays miners 25% unvested.",
+        "FC1": "Permissionless PoRep/PoSt L1; no freeze, mint or blacklist authority.",
+        "FC2": "-98.2% from ATH $236.84, mechanical pass.",
+        "FC3": "Sept 26 2022: storage providers up ~7x since Jan 2022, 20k users storing 50M objects, ~7k new developers.",
+        "FC4": "Issuance and vesting overhang has been public since 2020; no lawsuit, cliff or delisting pending in the next 6 months.",
+        "FC5": "No revenue data; fees 0 on DeFiLlama.",
+        "FC6": "FVM public testnet dated Nov 28 2022 with mainnet (network v18) targeted early 2023."
+      },
+      "key_risk": "Structural sell pressure: PL/Foundation/SAFT vesting plus miner minting add tens of percent of circulating supply per year with near-zero paid demand.",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/tech/2022/09/26/filesharing-crypto-project-filecoin-reports-strong-fundamental-growth-ahead-of-fvm-launch",
+        "https://www.theblock.co/post/81997/filecoin-miner-upgrade-block-rewards",
+        "https://filecoin.io/blog/filecoin-circulating-supply/",
+        "https://spec.filecoin.io/systems/filecoin_token/minting_model/",
+        "https://www.protocol.ai/blog/pl-participation-in-the-filecoin-economy/"
+      ]
+    },
+    "QNT": {
+      "bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "Founders/company hold ~3.9M of 14.6M QNT, unlocked; no documented sales or exchange transfers into the 2022 rally.",
+        "FA2": "Circulating 82.6% of a fixed 14.6M supply; 9.5M unsold ICO tokens burned in 2018; zero emission.",
+        "FA3": "Enterprise interoperability has no usage league table; Overledger publishes no volumes, so no verifiable top-2 lead.",
+        "FA4": "Gilbert Verdian CEO since 2015; 22 Overledger releases in 2022 including Tokenise (June) and QRC-721 (Aug).",
+        "FB1": "Licence fees are fiat-priced and locked as QNT via the treasury; how much actually flows is unpublished, so partial at best.",
+        "FB2": "No DeFiLlama data; Quant Network's licence revenue is company revenue and undisclosed.",
+        "FB3": "Fixed supply, no emission, no scheduled unlocks.",
+        "FC1": "Immutable ERC-20 with no mint function; the risk is product centralisation, not token freeze.",
+        "FC2": "-76.1% from ATH $427.42, mechanical pass.",
+        "FC3": "No published usage metric; the 450% June-Oct 2022 rally was driven by CBDC expectations, not verifiable demand.",
+        "FC4": "Opacity and centralisation risks public since 2018; no lawsuit, unlock or delisting pending in the next 6 months.",
+        "FC5": "No revenue data.",
+        "FC6": "No dated mainnet, vote or listing; Overledger releases are continuous and undated."
+      },
+      "key_risk": "Token value rests on undisclosed licence flows; company holds ~17% unlocked and the 2022 rally priced CBDC hopes with no verifiable usage.",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/markets/2022/10/17/quant-networks-qnt-token-enters-top-30-crypto-list-with-an-envious-overbought-status",
+        "https://medium.com/@natephi/quant-network-qnt-tokenomics-c2c87b7586a4",
+        "https://www.quant.network/assets/uploads/2022/04/Gilbert_Verdian_Quant_Bio_09May22.pdf",
+        "https://messari.io/project/quant-network-2/profile"
+      ]
+    },
+    "FLOW": {
+      "bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "Dapper Labs holds 250M FLOW treasury; backers unlocked Oct 2022 and team vests to Oct 2023; no documented insider sales pre-cutoff.",
+        "FA2": "Circulating 75.7%; 5% of total supply minted yearly to stakers, at the ~5% ceiling.",
+        "FA3": "Led NFT tx counts in 2021 via Top Shot, but Top Shot sales fell 94% YoY to $2.6M in Oct 2022 as Ethereum/Solana/Polygon took share.",
+        "FA4": "Roham Gharegozlou and Dapper Labs still shipping (Secure Cadence 2022); 22% layoffs on Nov 3 2022 did not remove leadership.",
+        "FB1": "FLOW is gas and the staking asset for all four node types.",
+        "FB2": "DeFiLlama Flow fees 0; inclusion fee is 0.0001 FLOW and Top Shot revenue belongs to Dapper Labs.",
+        "FB3": "5% inflation exceeds 3%; team allocation still unlocking monthly to Oct 2023.",
+        "FC1": "Consensus/execution node operators whitelisted by Dapper/Flow Foundation; execution run by Dapper; service-account upgrades via multisig.",
+        "FC2": "-97.2% from ATH $42.40, mechanical pass.",
+        "FC3": "NFT market cratered in 2022; Top Shot Oct 2022 sales $2.6M vs $40.8M a year earlier.",
+        "FC4": "Friel v. Dapper Labs (Top Shot securities suit, filed 2021) motion to dismiss still unresolved in Nov 2022.",
+        "FC5": "No revenue data.",
+        "FC6": "$725M ecosystem fund (May 2022) is not a dated event; no mainnet upgrade or listing with a date inside 6 months."
+      },
+      "key_risk": "Single-app chain whose app (Top Shot) is down 94% YoY, with a permissioned node set and an unresolved securities lawsuit.",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/markets/2022/11/03/dapper-labs-cuts-22-of-staff-as-nft-market-craters",
+        "https://www.cnbc.com/2022/11/03/nba-top-shot-maker-dapper-labs-lays-off-22percent-of-workers.html",
+        "https://www.coindesk.com/business/2022/05/10/dapper-labs-debuts-725m-ecosystem-fund-for-flow-blockchain-development",
+        "https://www.flow.com/token-distribution",
+        "https://flow.com/flow-tokenomics/technical-overview"
+      ]
+    },
+    "CHZ": {
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "FA1": "Chiliz holds 2.89B CHZ (32%) in a company multisig with no vesting, released 'per cash needs'; circulating grew ~6%/yr since 2020.",
+        "FA2": "Circulating 68.0% of 8.89B, below the 70% bar; the rest is unscheduled company treasury.",
+        "FA3": "Socios is the dominant fan-token platform since 2019 with 130+ clubs and ~1.5M wallets; rivals (Binance fan tokens) are far smaller.",
+        "FA4": "Alexandre Dreyfus has led Chiliz since 2018; team shipped the Scoville testnet for Chiliz Chain 2.0 on Mar 31 2022.",
+        "FB1": "Fan Token Offerings on Socios are paid in CHZ and CHZ is gas on Chiliz Chain.",
+        "FB2": "DeFiLlama 0; club fan-token revenue topped $200M in 2021 but no verifiable figure of >= $1M for the 30 days before cutoff.",
+        "FB3": "No emission, but 32% of supply can be released by the company at any time with no published schedule.",
+        "FC1": "Chiliz Chain (1.0 and 2.0 PoSA) validators are whitelisted by Chiliz, which also votes on who may build; Socios is custodial.",
+        "FC2": "-77.2% from ATH $0.88, mechanical pass.",
+        "FC3": "Fan-token trading volumes and prices fell through 2022 with the market; no 12-month uptrend in a usage metric is verifiable.",
+        "FC4": "Regulator warnings on fan tokens (2021-22) and treasury overhang have been public >6 months; no lawsuit or delisting pending.",
+        "FC5": "No revenue data.",
+        "FC6": "FIFA World Cup starts Nov 20 2022 with Socios national-team fan tokens; Chiliz Chain 2.0 mainnet guided for late 2022."
+      },
+      "key_risk": "A third of supply sits in an unscheduled company treasury and the fan-token product cycle is event-driven, not recurring demand.",
+      "confidence": "M",
+      "sources": [
+        "https://decrypt.co/96508/chiliz-plots-sports-entertainment-crypto-ecosystem-with-2-0-chain",
+        "https://medium.com/chiliz/chiliz-chain-2-0-341c60ee8b3",
+        "https://messari.io/project/chiliz/profile",
+        "https://medium.com/chiliz/fanfest-to-build-on-chiliz-chain-2-0-29edce114327"
+      ]
+    }
+  }
+}

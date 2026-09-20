@@ -1,0 +1,167 @@
+{
+  "tokens": {
+    "LTC": {
+      "bits": [1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Charlie Lee sold/donated all LTC Dec 2017 (pre-window); no foundation treasury dumps documented 2021-22",
+        "FA2": "Circ 85.2% of existing supply; 12.5 LTC/block at 2.5 min = ~2.6M LTC/yr = ~3.7% of 71.6M, under 5%",
+        "FA3": "Largest Scrypt PoW chain by hashrate since 2011, top-20 mcap for a decade, widely listed payments coin",
+        "FA4": "Lee + Litecoin Foundation + David Burkett shipped MWEB (Core 0.21.2 May 2022, 0.21.2.1 Jun 2022)",
+        "FB1": "PoW chain: transaction fees and block rewards are LTC-only",
+        "FB2": "DeFiLlama fees $25.9k in 30d before cutoff; no verifiable paid demand near $1M/30d",
+        "FB3": "Fixed schedule but ~3.7%/yr issuance until the Aug 2023 halving exceeds the 3% ceiling",
+        "FC1": "Permissionless PoW, no freeze/mint/blacklist authority, no upgradeable contracts",
+        "FC2": "-86.0% from $410.26 ATH (supplied)",
+        "FC3": "30d fees $25.9k vs 1y $550k (~$46k/mo avg): down; MWEB drew Korean delistings Jun 2022, Binance MWEB block",
+        "FC4": "Core risks (commoditized PoW payments, low fees) public for years; no binary event by May 2023",
+        "FC5": "30d $25.9k vs prior $23.5k (+10%) is noise; not material",
+        "FC6": "Halving ~Aug 2023 is beyond the 6-month window; no dated catalyst by May 2023"
+      },
+      "key_risk": "Near-zero fee revenue and shrinking exchange support after MWEB privacy upgrade; value rests on halving narrative",
+      "confidence": "M",
+      "sources": [
+        "https://techcrunch.com/2017/12/20/litecoin-charlie-lee-conflict-of-interest/",
+        "https://bitcoinist.com/binance-halts-litecoin-transactions-with-mweb/",
+        "https://github.com/litecoin-project/litecoin/releases/tag/v0.21.2",
+        "https://github.com/litecoin-project/litecoin/releases/tag/v0.21.2.1"
+      ]
+    },
+    "AVAX": {
+      "bits": [1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "Foundation's Sep 2021 $230M sale was a disclosed private placement; team/foundation vest on published schedule",
+        "FA2": "Circ 74.8% passes but staking issuance (~9% on ~240M staked) less ~2M burned is ~6%/yr net, above 5%",
+        "FA3": "Roughly #5-6 chain by TVL in 2022 behind ETH/BSC/Tron/Polygon; TVL fell ~75% in Q2 2022, share lost",
+        "FA4": "Sirer, Sekniqi, Yin at Ava Labs; shipped Banff (AvalancheGo v1.9.0, activated 18 Oct 2022)",
+        "FB1": "AVAX is gas on C-chain and the only staking asset securing the primary network",
+        "FB2": "DeFiLlama fees $206k in 30d before cutoff, far below $1M",
+        "FB3": "Net inflation ~6%/yr plus quarterly team/foundation/partner unlocks; fails 3% ceiling",
+        "FC1": "Permissionless validator set, no freeze/blacklist; fees burned by protocol, no admin key on AVAX",
+        "FC2": "-91.0% from $144.96 ATH (supplied)",
+        "FC3": "TVL down ~75% in Q2 2022 and further in Q3; transactions and fees down through 2022",
+        "FC4": "Crypto Leaks allegations (26 Aug 2022) against Ava Labs/Roche Freedman are under 6 months old, unresolved",
+        "FC5": "$206k/30d vs prior 30d no data; immaterial",
+        "FC6": "Banff already activated 18 Oct 2022; Warp Messaging had no announced date as of cutoff"
+      },
+      "key_risk": "High net emission plus quarterly unlocks into collapsing usage; fresh Crypto Leaks litigation allegations",
+      "confidence": "M",
+      "sources": [
+        "https://cryptoleaks.info/case-no-3",
+        "https://github.com/ava-labs/avalanchego/releases/tag/v1.9.0",
+        "https://messari.io/report/state-of-avalanche-q2-2022",
+        "https://messari.io/report/state-of-avalanche-q3-2022",
+        "https://chain.link/blog/smartcon-2022-recap"
+      ]
+    },
+    "LEO": {
+      "bits": [1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "iFinex is a continuous buyer via the 2019 burn commitment; no documented insider selling 2021-22",
+        "FA2": "Circ 96.8% of existing supply; no emission, supply only falls via burns",
+        "FA3": "Bitfinex is a mid-tier exchange by volume, not top-2; LEO is one of several exchange tokens",
+        "FA4": "Ardoino, van der Velde, Devasini in place since 2019; CFTC ($1.5M) and NYAG matters settled 2021",
+        "FB1": "Buyback returns value: iFinex commits min 27% of gross revenue to LEO buy-and-burn since Jun 2019",
+        "FB2": "No protocol fees; iFinex/Bitfinex revenue is company revenue, not the token's (Ripple clause)",
+        "FB3": "No fixed schedule: burn rate and controller mint (generateTokens) are at iFinex's discretion",
+        "FC1": "LEO contract has controller with generateTokens, destroyTokens and enableTransfers kill-switch",
+        "FC2": "-47.7% from $7.50 ATH (supplied); fails 75% threshold",
+        "FC3": "Bitfinex volumes fell through the 2022 bear; no usage metric verifiably up",
+        "FC4": "Tether/NYAG/CFTC risks public since 2019-2021; no pending negative binary event by May 2023",
+        "FC5": "No revenue data for the token itself",
+        "FC6": "DOJ-seized 2016 hack BTC (Feb 2022) has no return date; no dated catalyst"
+      },
+      "key_risk": "Centralized issuer token with mint/freeze authority; value hinges on iFinex/Tether solvency and disclosure",
+      "confidence": "M",
+      "sources": [
+        "https://www.prnewswire.co.uk/news-releases/bitfinex-presents-unus-sed-leo-transparency-initiative-826690241.html",
+        "https://www.coindesk.com/markets/2019/06/14/bitfinex-is-starting-to-buy-back-and-burn-its-leo-exchange-token",
+        "https://www.coindesk.com/policy/2021/10/15/cftc-fines-tether-and-bitfinex-425m-for-untrue-or-misleading-claims",
+        "https://www.cftc.gov/PressRoom/PressReleases/8450-21",
+        "https://www.newsbtc.com/news/leo-token-pumps-post-bitfinex-bitcoin-seizure-but-why/",
+        "https://etherscan.io/token/0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"
+      ]
+    },
+    "LINK": {
+      "bits": [0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1],
+      "evidence": {
+        "FA1": "Chainlink-controlled non-circulating wallets release ~7% of total supply/yr (~14% of circ) to fund ops",
+        "FA2": "Circ 49.2% of 1B; 508M held in Chainlink non-circulating wallets",
+        "FA3": "Dominant oracle by value secured and integrations for 2+ years; nearly 1,000 oracle networks (Jun 2022)",
+        "FA4": "Nazarov and Ellis active; SmartCon Sep 2022 shipped Economics 2.0, SWIFT CCIP PoC, staking plan",
+        "FB1": "Node operators are paid in LINK; staking v0.1 in LINK dated Dec 2022",
+        "FB2": "DeFiLlama 0; feed costs largely subsidized from Chainlink reserve (Scale program), not verifiable user fees",
+        "FB3": "7%/yr release schedule from reserve wallets exceeds 3% ceiling",
+        "FC1": "Data feeds run by Chainlink-curated node sets on upgradeable aggregator contracts owned by Labs",
+        "FC2": "-88.5% from $52.70 ATH (supplied)",
+        "FC3": "Integrations kept growing in 2022 (SWIFT, Coinbase Cloud, CF Benchmarks at SmartCon) despite lower TVS",
+        "FC4": "Supply overhang and subsidy model public for years; no pending negative binary event",
+        "FC5": "No verifiable protocol revenue series",
+        "FC6": "Staking v0.1 early access dated December 2022 (Chainlink post 3 Oct 2022)"
+      },
+      "key_risk": "Half the supply sits in team-controlled wallets released at ~7%/yr; oracle fees are mostly reserve-subsidized",
+      "confidence": "M",
+      "sources": [
+        "https://chain.link/blog/chainlink-staking-early-access-eligibility-app",
+        "https://chain.link/blog/chainlink-staking-roadmap",
+        "https://chain.link/blog/smartcon-2022-recap",
+        "https://chain.link/circulating-supply"
+      ]
+    },
+    "ATOM": {
+      "bits": [1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0],
+      "evidence": {
+        "FA1": "ICF and AiB genesis allocations sold only for grants/ops; no documented dumping timed to pumps",
+        "FA2": "Uncapped; mint params 7-20%/yr targeting 67% bonded, running ~13% in 2022",
+        "FA3": "Cosmos SDK/IBC is the leading app-chain stack; Hub is a top-2 interchain hub by connected zones",
+        "FA4": "Informal, Ignite, Strangelove, NewTendermint (Kwon back May 2022): multiple teams, no single point",
+        "FB1": "ATOM is gas and the sole staking asset securing the Hub",
+        "FB2": "DeFiLlama fees 0 for Cosmos Hub; no verifiable paid demand",
+        "FB3": "~13% inflation, governance-adjustable mint params; fails 3% ceiling",
+        "FC1": "Permissionless PoS validator set; no freeze/blacklist authority",
+        "FC2": "-76.8% from $43.84 ATH (supplied)",
+        "FC3": "IBC-connected chains roughly doubled in 2022; Theta/Interchain Accounts shipped Mar 2022",
+        "FC4": "ATOM 2.0 (Prop 82) vetoed 14 Nov 2022 after a Sep 2022 reveal; tokenomics direction unresolved",
+        "FC5": "No revenue data",
+        "FC6": "ICS v1 was roadmapped for Q3 2022, slipped, no firm date as of cutoff"
+      },
+      "key_risk": "Double-digit inflation with no fee capture, and a just-vetoed tokenomics overhaul leaves direction unresolved",
+      "confidence": "M",
+      "sources": [
+        "https://cryptobriefing.com/why-was-cosmos-hubs-atom-2-0-proposal-rejected/",
+        "https://governance.substack.com/p/this-week-in-governance-november",
+        "https://www.coindesk.com/business/2022/05/25/jae-kwon-returns-to-newtendermint-to-battle-for-the-soul-of-cosmos",
+        "https://www.coindesk.com/business/2022/02/23/cosmos-builder-tendermint-rebrands-to-ignite-as-team-shifts-focus",
+        "https://raw.githubusercontent.com/cosmos/gaia/v7.0.0/docs/roadmap/cosmos-hub-roadmap-2.0.md",
+        "https://raw.githubusercontent.com/cosmos/gaia/v7.0.0/docs/governance/params-change/Mint.md"
+      ]
+    },
+    "ETC": {
+      "bits": [1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "No foundation treasury; ETC Cooperative was funded by Grayscale trust fees (to Apr 2022), not token sales",
+        "FA2": "All minted supply circulates; 2.56 ETC/block since Era 4 (Apr 2022) is ~6M/yr = ~4.3% of 138M, under 5%",
+        "FA3": "Largest Ethash-family PoW chain after the Merge; hashrate 158 TH/s on 15 Sep 2022, #2 behind ETH for years",
+        "FA4": "Core-Geth shipped 5 releases in 2022 (Mystique fork Feb 2022); Besu also supports ETC; ETC Coop active",
+        "FB1": "ETC is the only gas asset on the chain",
+        "FB2": "DeFiLlama fees $3.8k in 30d before cutoff; hashrate is emission, not demand",
+        "FB3": "Fixed 5M20 schedule but ~4.3%/yr issuance exceeds 3% ceiling",
+        "FC1": "Permissionless PoW; no freeze/mint/blacklist authority",
+        "FC2": "-88.1% from $167.09 ATH (supplied)",
+        "FC3": "Fees $3.8k vs $5.4k prior 30d and $31k/yr: down; DeFi TVL ~$1M; only hashrate rose (emission)",
+        "FC4": "51% attacks (2020), low usage, Grayscale funding end (Apr 2022) all public 6+ months; no binary event",
+        "FC5": "30d $3.8k vs $5.4k prior: down and immaterial",
+        "FC6": "No dated upgrade or listing in the next 6 months as of cutoff"
+      },
+      "key_risk": "Hashrate without users: near-zero fee demand, ~$1M DeFi TVL, and 2020 51%-attack history",
+      "confidence": "M",
+      "sources": [
+        "https://ethereumclassic.org/blog/2022-03-23-etc-nears-bitcoin-inspired-block-reward-reduction/",
+        "https://www.coindesk.com/markets/2022/09/06/ethereum-classic-hashrate-prices-surge-as-miners-prepare-for-post-merge-reality",
+        "https://www.coindesk.com/tech/2022/09/15/ethereum-classic-and-ravencoins-hashrate-nearly-doubles-after-merge",
+        "https://news.bitcoin.com/ethereum-classic-hashrate-taps-all-time-high-nearing-50-th-s-ahead-of-the-merge/",
+        "https://github.com/etclabscore/core-geth/releases?page=2",
+        "https://ambcrypto.com/ethereum-classics-etc-cooperative-gets-extended-support-from-grayscale-investments/"
+      ]
+    }
+  }
+}

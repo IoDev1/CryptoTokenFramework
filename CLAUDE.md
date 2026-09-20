@@ -31,6 +31,9 @@ JSON and never calls a model per visitor.
 | `scorecard/index.html` | Build output. Never edit by hand |
 | `data/*.json` | market, research, news, targets. `data/history/<date>/` holds daily snapshots |
 | `.github/workflows/refresh.yml` | Daily: fetch market + news, build, commit, deploy to GitHub Pages |
+| `scripts/backtest/` | `cmc_snapshot.py` (CMC weekly snapshot -> JSON), `universe.py`, `enrich.py` (pre-cutoff ATH via CoinGecko/Yahoo verified, DeFiLlama historical fees), `analyze.py` (merge, baskets, per-filter signal, weight sweep -> `BACKTEST.md`) |
+| `research/BACKTEST_RUBRIC.md` | Same 13 filters with the 2022-11-15 information cutoff rules |
+| `data/backtest/` | snapshots, universe, batch inputs/outputs, results.json |
 
 Published artifact: https://claude.ai/artifact/9dygq8VEnSkatpDq6xiZag (older link form: https://claude.ai/code/artifact/45f2d1c6-5ac6-4f85-83bf-c3d73b53ca19)
 (republish `scorecard/index.html` with that `url` to update in place).
@@ -67,4 +70,5 @@ Research re-run: agents score `research/batch_N_input.txt` under `research/RUBRI
 - Both model steps exit 0 and keep stored output when `ANTHROPIC_API_KEY` is absent; the site never breaks on a missing secret.
 - PostHog is EU cloud, memory persistence, no recording, no autocapture: no consent banner needed. Only loads when `site.json` has a key.
 - Pushes made with `GITHUB_TOKEN` do not trigger other workflows, so the monthly research commit is deployed by the next daily refresh.
+- Backtest data sources: CoinGecko free tier refuses history > 365 days; CMC weekly snapshots (Sundays) embed the top-200 listing as an escaped JSON string; Yahoo tickers collide (APE, MATIC), so every Yahoo series is verified against the CMC price on the cutoff date before use.
 - This is research tooling, not advice. Keep wording educational on anything public.

@@ -1,0 +1,253 @@
+{
+  "tokens": {
+    "AAVE": {
+      "bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "No documented Aave Companies/founder selling 2021-22; 590k AAVE reserve outflow in 2022 was governance-set staking incentives",
+        "FA2": "88.1% circulating of 16M hard cap; only emission is Safety Module incentives (~550 AAVE/day, ~1.3%/yr); no open-ended inflation",
+        "FA3": "Top-2 lending protocol by TVL alongside Compound/Maker continuously since 2020; V3 live on 6 chains by Mar 2022",
+        "FA4": "Stani Kulechov and Aave Companies still shipping: V3 (Mar 2022), GHO design approved Jul 2022, BGD Labs engaged for protocol work",
+        "FB1": "AAVE is governance + Safety Module backstop staking paid from the reserve; no fee switch or buyback routes protocol fees to AAVE in Nov 2022",
+        "FB2": "DeFiLlama fees $5.37M in the 30d before cutoff (aave), above the $1M bar",
+        "FB3": "Net emission ~1.3%/yr from safety incentives; no cliff unlocks; changes require an on-chain governance vote with timelock",
+        "FC1": "Pool contracts upgradeable via governance and an Aave Guardian multisig holds pause/veto powers over markets",
+        "FC2": "-91.4% from ATH $661.69; mechanical pass",
+        "FC3": "Messari Q3 2022: revenue -35% QoQ, deposits -12%; TVL fell from >$20B (late 2021) to ~$4B; usage down over 12 months",
+        "FC4": "Bear-market risks (bad debt, stablecoin depegs) public since May 2022; no pending lawsuit, cliff or fork inside 6 months",
+        "FC5": "30d $5.37M vs prior $4.69M (+14%) but 1y $166M implies ~$14M/mo average: 1-year trend clearly down",
+        "FC6": "GHO (approved Jul 2022) and V3 on Ethereum had no announced launch date by 15 Nov 2022; vague roadmap = fail"
+      },
+      "key_risk": "Protocol usage and fees are down ~60% y/y with no fee flow to the token; AAVE remains a governance/backstop asset under a Guardian multisig.",
+      "confidence": "H",
+      "sources": [
+        "https://messari.io/report/state-of-aave-q3-2022",
+        "https://messari.io/report/the-state-of-aave-q2-2022",
+        "https://www.coindesk.com/tech/2022/08/01/aave-passes-proposal-for-yield-generating-stablecoin-gho",
+        "https://tokenomicsdao.xyz/blog/tokenomics-101/tokenomics-101-aave/",
+        "https://defillama.com/protocol/aave"
+      ]
+    },
+    "TWT": {
+      "bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "No documented Trust Wallet/Binance market selling; supply enters circulation via user-acquisition airdrops (40% allocation)",
+        "FA2": "41.7% circulating of 1B; 30% reserve + 15% developer allocation held by Trust Wallet/Binance with no published release schedule",
+        "FA3": "Trust Wallet is a top-2 mobile self-custody wallet (with MetaMask) since the 2018 Binance acquisition; tens of millions of users",
+        "FA4": "Binance-owned since 2018; founder handover to a Binance-appointed CEO done by 2022; app keeps shipping (multi-chain, NFT, dApps)",
+        "FB1": "TWT only gives in-app purchase/DEX discounts and governance votes (Decrypt, 14 Nov 2022); the wallet works fully without it",
+        "FB2": "No protocol fees; DeFiLlama 0; wallet swap fees accrue to the company, not the token",
+        "FB3": "58% of supply is uncirculated and released at Trust Wallet's discretion; no published emission schedule, no cap on annual release",
+        "FC1": "BEP-20 on BNB Chain whose 21-validator set is Binance-aligned; reserve keys held by the company; no public renounced-ownership proof",
+        "FC2": "-28.2% from ATH $2.65 after the Nov 12-14 CZ-driven pump; mechanical fail",
+        "FC3": "Measurable self-custody tailwind: exchange BTC balances -10% in the FTX week and TWT volume +175% to $70M/day (Decrypt, 14 Nov 2022)",
+        "FC4": "Main risks (Binance control, low float, discount-only utility) public for years; no lawsuit, cliff or delisting inside 6 months",
+        "FC5": "No revenue data for the token; fail",
+        "FC6": "CZ's 12 Nov 2022 tweets promised more Trust Wallet features but nothing dated; no vote-passed tokenomics change"
+      },
+      "key_risk": "58% of supply sits with Trust Wallet/Binance on no schedule, the token has discount-only utility, and it trades near ATH after a one-week 100% pump.",
+      "confidence": "M",
+      "sources": [
+        "https://decrypt.co/114351/trust-wallet-token-soars-binance-ceo-shills-self-custody-solution",
+        "https://ambcrypto.com/trust-wallet-token-twt-rallies-50-as-cz-counsels-investors-to-take-cover/",
+        "https://research.binance.com/en/projects/trustwallet",
+        "https://www.binance.com/en/square/post/289092",
+        "https://coinmarketcap.com/currencies/trust-wallet-token/"
+      ]
+    },
+    "BSV": {
+      "bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "No foundation treasury; no documented insider dump pattern 2021-22; Ayre-linked miner sales are block-reward emission, not treasury dumps",
+        "FA2": "100% of existing 19.2M circulating; 6.25 BSV/block subsidy is ~1.7%/yr net inflation on a fixed 21M schedule",
+        "FA3": "Delisted by Binance/Kraken since Apr 2019; hashrate a fraction of BTC/BCH; a minority fork losing share rather than a top-2 network",
+        "FA4": "Fronted by Craig Wright/nChain: UK court found deliberately false evidence (Aug 2022), lost in Norway (Oct 2022); one Ayre-funded node team",
+        "FB1": "BSV is the only gas asset on the chain; every transaction pays fees in BSV",
+        "FB2": "DeFiLlama no data; fees fell to 0.05-0.1 sat/byte in 2022 (CoinGeek, Apr 2022) so even 10M+ tx/day yields far under $1M/30d",
+        "FB3": "Fixed halving schedule, ~1.7%/yr, no unlocks; emissions cannot be changed by a small group",
+        "FC1": "Suffered repeated 51% reorg attacks in Jun-Aug 2021 (14-block reorg, double spends); attack cost ~$4k/hour via rented hash",
+        "FC2": "-92.1% from ATH $489.75; mechanical pass",
+        "FC3": "Tx-count records in Apr 2022 came from one game (CryptoFights) at near-zero fees; fee revenue, hashrate and price all down over 12 months",
+        "FC4": "Wright litigation and exchange delistings public since 2019; the Jul 2022 BSV Claims suit is offensive, no pending binary event on the chain",
+        "FC5": "No fee data; on-chain fees trivial; fail",
+        "FC6": "Teranode and enterprise pilots have no dates; no dated upgrade, listing or vote inside 6 months"
+      },
+      "key_risk": "The ecosystem's credibility is tied to Craig Wright's litigation record while low hashrate leaves the chain 51%-attackable and fees are near zero.",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/markets/2021/08/04/bsv-suffers-51-attack-report",
+        "https://protos.com/bitcoin-sv-bsv-51-attack-blockchain-double-spend/",
+        "https://coingeek.com/bsv-transaction-fees-drop-5x-recently-here-why/",
+        "https://www.theregister.com/2022/01/19/craig_wright_bitcoin_sv_high_court_sueball/",
+        "https://www.coindesk.com/markets/2019/04/15/binance-delists-bitcoin-sv-ceo-calls-craig-wright-a-fraud",
+        "https://bitinfocharts.com/comparison/bitcoin%20sv-transactionfees.html"
+      ]
+    },
+    "HT": {
+      "bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "13 Oct 2022: 74M HT (~48% of circulating) moved from Huobi official wallets to Sun/Poloniex-linked addresses; founder sold entire stake",
+        "FA2": "30.7% circulating on the supplied 500M total; large uncirculated stash under new-owner control with no disclosed vesting",
+        "FA3": "Huobi lost share steadily: Chinese users removed by 31 Dec 2021, revenue collapse and 30% layoffs (CoinDesk, Jun 2022)",
+        "FA4": "Founder Leon Li exited via sale to About Capital (Oct 2022); Sun named adviser while denying ownership; new owners untested at Huobi",
+        "FB1": "Quarterly revenue buyback-and-burn policy in force since 2018 (5-20% of revenue) returns value to HT; encoded 1 as LEO/BNB-style buyback",
+        "FB2": "Exchange trading fees are Huobi's company revenue, not the token's; no on-chain fee data",
+        "FB3": "~69% of supply uncirculated and controlled by the new owners with no fixed release schedule; supply policy changeable by the company",
+        "FC1": "Centralized ERC-20 issuer; HECO chain validators run by Huobi; unreleased tokens moved at will in Oct 2022",
+        "FC2": "-87.8% from ATH $39.66; mechanical pass",
+        "FC3": "Spot volume and revenue fell after the China exit; 30%+ workforce cuts in Jun 2022; no usage metric up over 12 months",
+        "FC4": "Ownership change and Sun's 'HT empowerment' plan are only ~1 month old; post-FTX exchange-solvency risk unresolved",
+        "FC5": "No token revenue data; fail",
+        "FC6": "Sun promised brand upgrade and HT empowerment (13 Oct 2022) with no dates or passed votes; international expansion undated"
+      },
+      "key_risk": "Opaque change of control to About Capital/Justin Sun with 74M HT moved from official wallets, on top of a revenue collapse and post-FTX exchange contagion.",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/markets/2022/10/13/huobi-token-surges-75-as-justin-sun-calls-for-empowering-the-exchange-token",
+        "https://cryptoslate.com/huobi-allegedly-transfers-74m-tokens-to-justin-sun-ht-up-7-7/",
+        "https://decrypt.co/112118/huobi-token-moons-the-week-justin-sun-becomes-exchange-advisor",
+        "https://www.coindesk.com/business/2022/06/28/huobi-global-could-cut-over-30-workforce-as-china-crackdown-leads-to-fall-in-revenue",
+        "https://blockworks.com/news/huobi-founder-sells-100-stake-to-justin-sun-fund-report",
+        "https://www.huobi.com/support/en-us/detail/900000269826"
+      ]
+    },
+    "KCS": {
+      "bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "Founding team burned 20M KCS on 31 Mar 2022 per the KCS whitepaper; no documented insider selling 2021-22",
+        "FA2": "67.4% circulating (98.4M of 145.9M existing), below the 70% bar; buyback-burns are deflationary but the dilution leg fails",
+        "FA3": "KuCoin is a top-5/6 spot exchange by volume, not top-2, behind Binance, Coinbase and OKX",
+        "FA4": "Founder Michael Gan and CEO Johnny Lyu identifiable and shipping; $150M pre-Series B at $10B valuation (May 2022)",
+        "FB1": "50% of daily trading fees paid to KCS holders as the daily KCS Bonus and KCS is gas on KCC; fees flow to the token today",
+        "FB2": "Bonus is funded by KuCoin company revenue; KCC chain fees trivial; no verifiable protocol fee >= $1M/30d",
+        "FB3": "~47M uncirculated KCS (48% of circulating) with no published unlock schedule; burn cadence set unilaterally by KuCoin",
+        "FC1": "KuCoin controls KCC validators, the burn wallet and the uncirculated supply; centralized exchange token",
+        "FC2": "-74.9% from ATH $28.83; misses the -75% bar; mechanical fail",
+        "FC3": "Registered users up (self-reported) but industry spot volumes fell through 2022; no verified usage metric up over 12 months",
+        "FC4": "10 Nov 2022: CEO denied insolvency rumors after Nansen outflow data and promised Merkle proof-of-reserves within a month; OSC ban (Jun 2022)",
+        "FC5": "No token revenue data; fail",
+        "FC6": "Promised proof-of-reserves is risk resolution, not a growth catalyst; no dated upgrade, listing or tokenomics vote"
+      },
+      "key_risk": "Exchange token facing post-FTX solvency rumors with reserves not yet proven, an Ontario regulatory ban and a large unscheduled uncirculated supply.",
+      "confidence": "M",
+      "sources": [
+        "https://www.businesswire.com/news/home/20220510005077/en/KuCoin-Raises-%24150-Million-at-%2410-Billion-Valuation-to-Pioneer-Exploration-in-Web-3.0",
+        "https://www.coindesk.com/business/2022/06/22/ontario-securities-commission-slaps-bybit-and-kucoin-with-enforcement-actions",
+        "https://www.theblock.co/news/regulation/2022-08-23-ontario-securities-regulator-warns-against-kucoin-in-latest-alert-165377",
+        "https://ihodl.com/topnews/2022-11-10/kucoin-ceo-addresses-insolvency-rumors/",
+        "https://www.kucoin.com/kcs"
+      ]
+    },
+    "AXS": {
+      "bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "FA1": "Sky Mavis pledged to sell none of the 24 Oct 2022 unlock and staked 11.4M AXS; $5.7M sent to exchanges by early investors <1% of circ",
+        "FA2": "35.6% circulating of 270M; team, advisor, investor and play-to-earn allocations still vesting quarterly through 2026",
+        "FA3": "DAU fell 45% from the Nov 2021 peak before the hack and kept falling after; overtaken by Alien Worlds/Splinterlands on wallets",
+        "FA4": "Trung Nguyen, Aleksander Larsen, Jeff Zirlin still shipping: Origins (Apr 2022), land staking (Jul 2022), Ronin bridge relaunch (Jun 2022)",
+        "FB1": "Breeding fees are payable only in AXS+SLP and marketplace fees accrue to the AXS-governed treasury; token required for the core economy",
+        "FB2": "DeFiLlama fees $337k in the 30d before cutoff, well under $1M",
+        "FB3": "Quarterly unlocks of ~21.5M AXS (~22% of circulating) per the Nov 2020 schedule, next in Jan and Apr 2023; plus staking emissions",
+        "FC1": "Ronin validators and bridge were Sky Mavis-controlled (5 of 9 keys compromised in the $625M Mar 2022 hack); chain not permissionless",
+        "FC2": "-95.7% from ATH $164.9; mechanical pass",
+        "FC3": "DAU down from 2.7M (Nov 2021) to well under 1M; fees down 99% y/y ($228M 1y vs $337k/30d)",
+        "FC4": "Two more >10%-of-circulating unlocks (Jan and Apr 2023) fall inside the next 6 months",
+        "FC5": "30d $337k vs prior $811k (-58%), 1y trend collapsing and below the $1M materiality bar",
+        "FC6": "Origins mobile/Google Play launch and land gameplay had no dates announced by 15 Nov 2022; roadmap only"
+      },
+      "key_risk": "Play-to-earn demand collapsed (fees -99% y/y) while ~22%-of-circulating AXS unlocks keep landing every quarter through 2023.",
+      "confidence": "H",
+      "sources": [
+        "https://www.coindesk.com/markets/2022/10/20/crypto-gaming-token-axs-under-pressure-as-215m-unlock-looms-for-axie",
+        "https://www.coindesk.com/markets/2022/10/25/crypto-game-axies-axs-token-gets-unlocked-just-as-short-squeeze-drives-up-price",
+        "https://beincrypto.com/axie-infinity-daily-active-users-drop-45-2021-peak/",
+        "https://www.coindesk.com/tech/2022/03/29/axie-infinitys-ronin-network-suffers-625m-exploit",
+        "https://dappradar.com/blog/axie-infinity-land-staking-is-live",
+        "https://playtoearn.online/2022/07/03/axie-infinity-land-staking-and-origin-phase-2"
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "tokens": {
+    "MATIC": {
+      "bits": [1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0],
+      "evidence": {
+        "FA1": "Aug 2022 1.39B MATIC left vesting to team staking/foundation, not market; no documented insider dumping pre-cutoff",
+        "FA2": "Circ 87.3% of 10B; remaining ~1.27B is staking rewards to 2025, ~4-5%/yr emission, below 5% bar",
+        "FA3": "Top Ethereum scaling chain by TVL/txs since 2021 plus Starbucks, Reddit, Meta, Disney integrations (2022)",
+        "FA4": "Nailwal, Bjelic, Kanani, Arjun still leading; zkEVM testnet Oct 2022, Polygon Studios shipping",
+        "FB1": "MATIC is the only gas asset on Polygon PoS and secures the chain via validator staking",
+        "FB2": "DeFiLlama Polygon fees $3.36M in the 30d before cutoff, above $1M threshold",
+        "FB3": "Staking emission ~1.27B over ~2.5 yrs is ~5%/yr, above the 3% bar; no cliff unlock ahead",
+        "FC1": "Polygon PoS bridge/core contracts upgradeable by a small team multisig (Dec 2021 patch used it)",
+        "FC2": "-69.6% from $2.92 ATH, less than the 75% required",
+        "FC3": "30d fees $3.36M vs 1y avg ~$2.4M/mo; Reddit avatars drove millions of new Polygon wallets in H2 2022",
+        "FC4": "No pending cliff, lawsuit or delisting; team-supply concentration debate public since Aug 2022",
+        "FC5": "30d fees $3.36M vs prior $1.09M (up), 1y $28.5M not clearly down, material scale",
+        "FC6": "zkEVM mainnet only 'early 2023' with no date; Starbucks Odyssey beta undated as of Nov 2022"
+      },
+      "key_risk": "Team/foundation hold a large share and core contracts sit behind a multisig; MATIC not yet -75% from ATH",
+      "confidence": "M",
+      "sources": [
+        "https://thecryptobasic.com/2022/08/02/1-4-billion-polygon-matic-tokens-transferred-out-of-projects-vesting-contract-raise-concerns/",
+        "https://www.coinbase.com/institutional/research-insights/research/tokenomics-review/polygon-matic-scaling-solutions",
+        "https://www.coindesk.com/tech/2022/10/10/polygon-launches-zkevm-testnet",
+        "https://polygon.technology/blog/starbucks-taps-polygon-for-its-odyssey-web3-experience",
+        "https://www.theblock.co/post/159583/reddit-launches-nft-avatar-marketplace-on-polygon"
+      ]
+    },
+    "DOT": {
+      "bits": [1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "W3F/Parity hold ~30% but no documented net selling; treasury spends ~240k DOT/qtr (Messari Q2 2022)",
+        "FA2": "Circ 90.7% passes, but uncapped ~7-10%/yr staking inflation fails the 5% inflation leg",
+        "FA3": "Second-largest dev ecosystem after Ethereum (1,400 monthly devs, +75% y/y, Jul 2022 report)",
+        "FA4": "Gavin Wood left Parity CEO seat Oct 2022 but stayed chief architect; Parity/W3F keep shipping upgrades",
+        "FB1": "DOT required for NPoS staking, parachain slot bonding and on-chain governance",
+        "FB2": "DeFiLlama relay-chain fees 0; no verifiable paid demand near $1M/30d in any pre-cutoff source",
+        "FB3": "~10% target inflation plus parameter changes by referendum; fails the 3% bar",
+        "FC1": "Permissionless NPoS validator set, no sudo key since 2020, upgrades only via public referenda",
+        "FC2": "-89.5% from $54.98 ATH, passes",
+        "FC3": "Monthly users fell from 566k (Q4 2021) to ~145k (Q2 2022); DOT bonded per auction declining",
+        "FC4": "First crowdloan unlocks are late 2023; W3F 'DOT is not a security' stance public Nov 4 2022",
+        "FC5": "No fee revenue data; fails",
+        "FC6": "OpenGov/async backing lacked a dated Polkadot mainnet schedule as of Nov 2022"
+      },
+      "key_risk": "High inflation and near-zero fee capture while parachain usage has been falling through 2022",
+      "confidence": "M",
+      "sources": [
+        "https://messari.io/report/state-of-polkadot-q2-2022",
+        "https://finance.yahoo.com/news/polkadot-maintains-developer-growth-strong-095000942.html",
+        "https://www.businesswire.com/news/home/20221104005556/en/Web3-Foundation-Announces-Polkadot-Blockchain%E2%80%99s-Native-Token-DOT-Has-Morphed-and-Is-Software-Not-a-Security",
+        "https://medium.com/we-are-talisman/understanding-the-upcoming-polkadot-crowdloan-unlocks-472d13613a76",
+        "https://support.polkadot.network/support/solutions/articles/65000177342-crowdloans-faq"
+      ]
+    },
+    "SHIB": {
+      "bits": [0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0],
+      "evidence": {
+        "FA1": "Anonymous team; founder Ryoshi wiped accounts May 2022; insider holdings unverifiable, so 0",
+        "FA2": "Circ 93.1% of existing supply; no emission, community burns via ShibBurn portal (Apr 2022)",
+        "FA3": "Second meme coin behind DOGE only since mid-2021; interchangeable narrative, no 2-yr lead",
+        "FA4": "Pseudonymous leads (Shytoshi Kusama); Ryoshi left; Shibarium beta promised Q3 2022 and missed",
+        "FB1": "SHIB is not gas or security; ShibaSwap gas/rewards use BONE; token is optional",
+        "FB2": "DeFiLlama ShibaSwap fees $1.52M in the 30d before cutoff, above $1M",
+        "FB3": "Fixed supply, no emissions, no scheduled unlocks; burns only reduce supply",
+        "FC1": "Plain ERC-20 with no mint/freeze; Ryoshi stated the Uniswap LP was locked/burned in 2020",
+        "FC2": "-89.5% from $8.6e-05 ATH, passes",
+        "FC3": "ShibaSwap TVL fell from >$1B (2021) to well under $200M in 2022; active addresses down",
+        "FC4": "Meme-only utility and Shibarium delays public all 2022; no dated binary event ahead",
+        "FC5": "30d fees $1.52M vs prior $0.94M (up); 1y $17.3M avg ~$1.4M/mo, not clearly down",
+        "FC6": "Shibarium had no launch date after missing Q3 2022; nothing dated within 6 months"
+      },
+      "key_risk": "Anonymous, founder-abandoned meme token with no required utility and collapsing DEX usage",
+      "confidence": "M",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shiba_Inu_(cryptocurrency)",
+        "https://www.fxstreet.com/cryptocurrencies/news/three-reasons-why-shiba-inu-price-will-quickly-drop-45-202108031707",
+        "https://coinedition.com/shib-burn-explained-everything-to-know-about-shiba-inu-coin-burning/",
+        "https://www.gfinityesports.com/article/shibarium-blockchain-shiba-inu-coin-shib-layer-2-release-date"
+      ]
+    },
+    "SOL": {
+      "bits": [0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "Foundation+Labs sold ~58M SOL to FTX/Alameda OTC 2020-21, disclosed only Nov 14 2022; Alameda selling into FTX collapse",
+        "FA2": "Circ 68.0% is under the 70% bar; ~6% staking inflation also above 5%",
+        "FA3": "Not top-2 alt-L1 by fees or TVL in 2022; TVL down ~70% in the FTX week, lead not held 2 yrs",
+        "FA4": "Yakovenko/Gokal and Solana Labs active; Breakpoint Nov 2022, Firedancer client announced Aug 2022",
+        "FB1": "SOL is gas and the staking asset securing the chain",
+        "FB2": "DeFiLlama Solana fees $1.57M in the 30d before cutoff, above $1M",
+        "FB3": "Inflation ~6%/yr disinflating to 1.5%; FTX/Alameda locked SOL unlocks monthly to 2028",
+        "FC1": "Permissionless validator set; no freeze/mint authority despite validator-coordinated restarts",
+        "FC2": "-94.9% from $258.93 ATH, passes",
+        "FC3": "1y fees $36.4M (~$3M/mo) vs $1.57M now; Serum/TVL collapse Nov 2022; usage down",
+        "FC4": "FTX bankruptcy Nov 11 2022 leaves ~58M SOL in an estate with unresolved disposition",
+        "FC5": "30d $1.57M vs prior $1.55M flat, but 1y trend clearly down from ~$3M/mo average",
+        "FC6": "Firedancer and Saga phone undated as of Nov 2022; no dated catalyst inside 6 months"
+      },
+      "key_risk": "FTX/Alameda estate overhang and ecosystem contagion (Serum, 20% of projects FTX-funded)",
+      "confidence": "H",
+      "sources": [
+        "https://www.coindesk.com/business/2022/11/14/solana-foundation-invested-in-ftx-held-millions-in-sam-bankman-fried-linked-cryptos-on-exchange",
+        "https://decrypt.co/114626/solana-foundation-ftx-sbf-financial-ties",
+        "https://www.coindesk.com/business/2022/11/12/ftx-hack-spooks-solana-defi-community-igniting-revolution-at-alameda-controlled-serum-dex",
+        "https://www.coindesk.com/markets/2022/11/07/solana-falls-and-speculation-centers-on-links-to-sam-bankman-frieds-ftx-alameda",
+        "https://cointelegraph.com/news/solana-traders-prepare-for-ftx-induced-sell-pressure-on-sol-is-it-premature"
+      ]
+    },
+    "TRX": {
+      "bits": [0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0],
+      "evidence": {
+        "FA1": "Justin Sun's TRX holdings undisclosed; DAO Reserve bought $220M TRX Jun 2022; insider flows unverifiable, 0",
+        "FA2": "100% circulating; fee burns exceeded block rewards in 2022, making net supply deflationary",
+        "FA3": "Largest USDT settlement chain since 2021 and #3 chain by fees; entrenched stablecoin rails",
+        "FA4": "Justin Sun identifiable and active; no prosecution or sanction as of Nov 2022; TRON DAO shipping",
+        "FB1": "TRX pays bandwidth/energy and is staked to elect Super Representatives",
+        "FB2": "DeFiLlama TRON fees $16.1M in the 30d before cutoff",
+        "FB3": "Net deflation, but block reward and fee parameters are set by votes of the 27 SRs",
+        "FC1": "27 SR validator set dominated by Sun-linked exchanges; parameters changeable by that small group",
+        "FC2": "-76.9% from $0.2206 ATH, passes",
+        "FC3": "30d fees $16.1M vs 1y avg ~$14.9M/mo; USDD/TVL and USDT transfers grew through 2022",
+        "FC4": "USDD depeg (Jun, Nov 8 2022) and Sun concentration public 6+ months; no dated binary event",
+        "FC5": "30d $16.1M vs prior $12.4M up; 1y $179M not down; material",
+        "FC6": "Dominica legal-tender ordinance (Oct 2022) already live; no dated upgrade in next 6 months"
+      },
+      "key_risk": "Governance and supply effectively controlled by Justin Sun; USDD algorithmic peg keeps breaking",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/markets/2022/06/16/trons-trx-bumps-27-as-dao-deploys-220m-for-token-purchase",
+        "https://ambcrypto.com/tron-trx-usdd-de-peg-ftx-collapse-and-everything-that-might-affect-you/",
+        "https://www.coindesk.com/policy/2022/10/12/tron-partners-with-dominica-govt-to-issue-fan-token-made-national-blockchain",
+        "https://www.coindesk.com/markets/2022/05/04/revolution-promised-by-trons-justin-sun-looks-like-clone-of-terras-algorithmic-stablecoin",
+        "https://developers.tron.network/docs/tron-economic-model"
+      ]
+    },
+    "UNI": {
+      "bits": [1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1],
+      "evidence": {
+        "FA1": "Team/investor 4-yr linear vesting to Sep 2024; no documented insider sales pre-cutoff",
+        "FA2": "Circ 76.2% of 1B; post-vesting 2% perpetual inflation is under the 5% bar",
+        "FA3": "#1 DEX by volume with ~60% share since 2020; $1T lifetime volume by May 2022",
+        "FA4": "Hayden Adams/Uniswap Labs active; $165M Series B Oct 2022, Genie acquisition Jun 2022",
+        "FB1": "Governance-only; fee switch off, no fees flow to UNI as of Nov 2022 (pilot vote pending)",
+        "FB2": "DeFiLlama Uniswap fees $61.3M in the 30d before cutoff",
+        "FB3": "Vesting adds ~100M+ UNI/yr (~13% of circ), well above the 3% bar",
+        "FC1": "v3 core is immutable with no admin keys; UNI mint only via governance after 2024",
+        "FC2": "-87.1% from $44.92 ATH, passes",
+        "FC3": "1y fees $1.05B (~$87M/mo) vs $61M now; 2022 volume down versus 2021",
+        "FC4": "SEC probe reported Sep 2021 and vesting known since 2020; no negative binary event ahead",
+        "FC5": "30d $61.3M vs prior $38.0M up, but 1y trend clearly down from ~$87M/mo",
+        "FC6": "Fee-switch pilot passed temp and consensus checks (Jul 2022); on-chain vote set for Dec 1 2022"
+      },
+      "key_risk": "Governance-only token with ~13%/yr vesting supply; value accrual depends on a fee switch not yet on",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/business/2022/05/24/defi-trading-hub-uniswap-surpasses-1t-in-lifetime-volume",
+        "https://techcrunch.com/2022/06/21/uniswap-acquires-nft-marketplace-aggregator-genie",
+        "https://decrypt.co/42910/report-questions-uniswap-token-distribution-to-team-investors",
+        "https://academy.shrimpy.io/post/uniswap-tokenomics-explained",
+        "https://www.coingecko.com/research/publications/decentralized-crypto-exchanges-market-share"
+      ]
+    }
+  }
+}

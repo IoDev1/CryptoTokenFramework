@@ -1,0 +1,165 @@
+{
+  "tokens": {
+    "APT": {
+      "bits": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "Mainnet 2022-10-12, one month of history; ~80% of supply staked by insiders per Coindesk 2022-10-18. Unverifiable = 0.",
+        "FA2": "Circulating 13.0% of 1B total (supplied); investors/core 32.5% locked, 7% staking inflation at launch. Fail.",
+        "FA3": "New alt-L1 among many; TVL ~$32M (AMBCrypto 2022-11-11); no category lead, no 2-year record.",
+        "FA4": "Mo Shaikh and Avery Ching (ex-Diem/Novi) actively shipping; $350M raised 2022 (Coindesk 2022-07-25). Pass.",
+        "FB1": "APT is gas and the PoS staking asset; network unusable without it.",
+        "FB2": "DeFiLlama fees 30d $455k (supplied) < $1M threshold. Fail.",
+        "FB3": "7%/yr staking inflation; investor+contributor cliff 2023-10 unlocks ~20M/month vs 130M circ (>10%). Fail.",
+        "FC1": "Validator set and on-chain governance dominated by foundation/investor stake at launch; framework upgradeable. Fail.",
+        "FC2": "-56.7% from ATH (supplied); needs <= -75%. Fail.",
+        "FC3": "No 12-month usage history; launch-day ~4 TPS of mostly validator metadata (Coindesk 2022-10-18). Fail.",
+        "FC4": "Risks (13% float, unlocks) public < 6 months; FTX Ventures (bankrupt 2022-11-11) led its Series A. Fail.",
+        "FC5": "30d $455k vs prior 0 is a launch artefact and below $1M materiality. Fail.",
+        "FC6": "No dated mainnet upgrade, listing or tokenomics vote announced for Nov 2022-May 2023. Fail."
+      },
+      "key_risk": "13% float with 7% inflation and a 2023 insider cliff, plus a bankrupt lead investor (FTX Ventures) holding locked APT.",
+      "confidence": "H",
+      "sources": [
+        "https://www.coindesk.com/tech/2022/10/18/ftx-a16z-backed-aptos-blockchain-off-to-a-rocky-start",
+        "https://www.coindesk.com/business/2022/10/17/aptos-blockchain-goes-live-on-mainnet",
+        "https://www.coindesk.com/business/2022/07/25/aptos-labs-raises-150m-to-revive-diem-in-ftx-ventures-led-funding-round",
+        "https://ambcrypto.com/why-aptos-investors-will-benefit-after-clarity-on-its-treasury-exposure-to-ftx/",
+        "https://cryptoslate.com/ftx-backed-aptos-blockchain-under-fire-for-low-scalability-on-launch-day/"
+      ]
+    },
+    "XEC": {
+      "bits": [1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Dev funded by 8% coinbase rule (IFP, since 2020 fork), ~0.15%/yr of supply; no documented insider dumping. Pass.",
+        "FA2": "101.7% of existing supply circulating (supplied); PoW tail ~1.7%/yr on 19.2T circ. Pass.",
+        "FA3": "Minority fork of BCH (Nov 2020); BCH and BTC dwarf it on hashrate and usage; interchangeable BTC fork. Fail.",
+        "FA4": "Amaury Sechet / Bitcoin ABC, shipping since 2017; Avalanche Post-Consensus live 2022-09-14. Pass.",
+        "FB1": "XEC is the only fee asset on a PoW chain; avalanche nodes stake XEC. Pass.",
+        "FB2": "DeFiLlama no data (supplied); sub-penny fees, no verifiable paid demand >= $1M/30d. Fail.",
+        "FB3": "Bitcoin-style halving schedule, ~1.7%/yr, no vesting or unlocks. Pass.",
+        "FC1": "Permissionless PoW L1, no freeze/mint/blacklist authority; Avalanche staking open to any 100M XEC UTXO. Pass.",
+        "FC2": "-92.5% from ATH (supplied). Pass.",
+        "FC3": "No evidence of rising addresses, tx or fees through 2022; Avalanche launch is tech, not usage. Fail.",
+        "FC4": "IFP and fork controversy public since 2020; routine May/Nov upgrades, no binary event ahead. Pass.",
+        "FC5": "No fee data (supplied). Fail.",
+        "FC6": "Pre-Consensus and staking rewards 'upcoming' with no date (Bitcoin ABC 2022-08-28). Fail."
+      },
+      "key_risk": "Single-client chain with negligible fee demand; value rests on Bitcoin ABC roadmap execution and miner subsidy.",
+      "confidence": "M",
+      "sources": [
+        "https://www.bitcoinabc.org/2022-08-28-avalanche-post-consensus-launch/",
+        "https://www.bitcoinabc.org/2022-09-29-avalanche-post-consensus/",
+        "https://www.bitcoinabc.org/2022-09-07-avalanche-tutorial/",
+        "https://news.bitcoin.com/amaury-sechet-ifp-contention-west/",
+        "https://read.cash/@georgedonnelly/p/b6e9b793"
+      ]
+    },
+    "KLAY": {
+      "bits": [0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Xangle 2022-07-27: 85% of circ held by foundation/KGF/KIR; grantees 'cashed in' KLAY causing overhang. Fail.",
+        "FA2": "Circulating 27.5% of 10.9B total (supplied); reserve 53% at genesis. Fail.",
+        "FA3": "Korea-centric L1; TVL fell from $1.35B peak (Jan 2022) and NFT tx <2% of OpenSea; not top-2 globally. Fail.",
+        "FA4": "Kakao-backed; stewardship moved GroundX -> Krust -> Klaytn Foundation in 2022 but still shipping (KGP-3). Pass.",
+        "FB1": "KLAY is gas and the GC staking asset. Pass.",
+        "FB2": "DeFiLlama no data (supplied); no verifiable paid demand >= $1M/30d. Fail.",
+        "FB3": "Inflation ~10% of circ, cut to ~6.5% by KGP-3 (activated 2022-11-13); schedule set by Governance Council. Fail.",
+        "FC1": "Permissioned Governance Council of ~30 enterprises runs consensus; GC can change params and rewards. Fail.",
+        "FC2": "-96.0% from ATH (supplied). Pass.",
+        "FC3": "2022 NFT tx and volumes down sharply (Xangle 2022-07-27); TVL below Jan 2022 peak. Fail.",
+        "FC4": "Reserve overhang and GC concentration public since early 2022; KGP-3 passed; no binary event ahead. Pass.",
+        "FC5": "No fee data (supplied). Fail.",
+        "FC6": "KGP-3 reward cut already live 2022-11-13; burn/tokenomics reform not yet proposed or dated. Fail."
+      },
+      "key_risk": "Foundation-controlled 72% of supply distributed to grantees who sell; permissioned council can change emissions.",
+      "confidence": "M",
+      "sources": [
+        "https://xangle.io/en/research/detail/771",
+        "https://cryptopotato.com/klaytn-klay-skyrockets-106-after-new-governance-proposal/",
+        "https://invezz.com/news/2022/10/24/klaytn-klay-price-movement-after-new-governance-proposal/",
+        "https://cointelegraph.com/news/klaytn-token-down-15-in-a-month-but-network-s-tvl-shows-resilience",
+        "https://medium.com/klaytn/governance-proposal-for-klaytn-block-reward-reduction-7705adafa6f"
+      ]
+    },
+    "SNX": {
+      "bits": [1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "No documented founder/treasury dumping 2021-22; inflation goes to stakers, not insiders (Coindesk 2022-08-26). Pass.",
+        "FA2": "99.8% circulating (supplied) but ~675k SNX/week emitted (~11%/yr); SIP-276 cap not voted by cutoff. Fail.",
+        "FA3": "Leading on-chain synthetics protocol since 2019; #1 perps venue on Optimism via Kwenta. Pass.",
+        "FA4": "Kain Warwick, Spartan Council and core contributors shipping Perps V1 (Mar 2022), atomic swaps (May 2022). Pass.",
+        "FB1": "SNX is the required collateral to mint synths; exchange fees flow to SNX stakers. Pass.",
+        "FB2": "DeFiLlama fees 30d $389k (supplied) < $1M. Fail.",
+        "FB3": "~11%/yr inflation continuing; SIP-276 in limbo as of Nov 2022. Fail.",
+        "FC1": "Upgradeable contracts controlled by pDAO multisig and Spartan Council; pausable. Fail.",
+        "FC2": "-94.5% from ATH (supplied). Pass.",
+        "FC3": "Fees collapsed from ~$1M/day June peak to $389k/30d; 1y $24.8M vs recent run-rate. Fail.",
+        "FC4": "Inflation and toxic-flow risks public since mid-2022; no lawsuit, unlock or fork pending. Pass.",
+        "FC5": "$389k vs $377k prior is flat but immaterial; 1y trend clearly down. Fail.",
+        "FC6": "Perps V2 summary 2022-10-25 gives no launch date; SIP-276 not scheduled for vote. Fail."
+      },
+      "key_risk": "Double-digit SNX inflation persists while atomic-swap fee revenue has fallen ~90% from the June 2022 peak.",
+      "confidence": "H",
+      "sources": [
+        "https://www.coindesk.com/tech/2022/08/26/defi-platform-synthetixs-founder-proposes-capping-token-supply-at-300m-heres-why",
+        "https://cointelegraph.com/news/synthetix-looks-to-turn-off-the-snx-money-printer-once-and-for-all",
+        "https://blog.synthetix.io/synthetix-2022-release-milestones-halfway-review-and-deep-dive/",
+        "https://blog.synthetix.io/perps-v2-summary/",
+        "https://sips.synthetix.io/sips/sip-276/"
+      ]
+    },
+    "NEO": {
+      "bits": [1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Neo Foundation holds ~29.5M unlocked NEO; no documented sales above ~2%/yr in 2021-22. Pass.",
+        "FA2": "70.5% circulating (supplied), fully minted, zero NEO inflation. Pass.",
+        "FA3": "TVL fell 84% in 2021 to $50M with Flamingo as 100% of TVL (Footprint 2022-01-04); steady share loss. Fail.",
+        "FA4": "Da Hongfei and Erik Zhang still lead; Neo 3.1 shipped, NeoFS and N3 tooling active in 2022. Pass.",
+        "FB1": "NEO votes elect consensus nodes (chain security) and mints GAS; GAS pays fees. Pass.",
+        "FB2": "DeFiLlama no data (supplied); N3 fees cut 80% in 2021, no verifiable >= $1M/30d demand. Fail.",
+        "FB3": "No NEO emission, no unlocks scheduled. Pass.",
+        "FC1": "21-member council changes params; foundation's ~30M NEO dominates low-turnout voting for consensus nodes. Fail.",
+        "FC2": "-96.6% from ATH (supplied). Pass.",
+        "FC3": "TVL and dapp activity declining through 2022; no rising usage metric. Fail.",
+        "FC4": "Centralization and thin ecosystem known for years; no binary event pending. Pass.",
+        "FC5": "No fee data (supplied). Fail.",
+        "FC6": "No dated upgrade, listing or tokenomics vote for Nov 2022-May 2023. Fail."
+      },
+      "key_risk": "Foundation-dominated council governance over a shrinking ecosystem with one dapp holding all TVL.",
+      "confidence": "M",
+      "sources": [
+        "https://coinrivet.com/footprint-analytics-the-state-of-neo-five-years-on/",
+        "https://neo.org/blog/details/4265",
+        "https://developers.neo.org/docs/n3/foundation/governance",
+        "https://neonewstoday.com/general/neo-foundation-announces-21-members-of-initial-neo-council/",
+        "https://neo.org/blog/details/4247"
+      ]
+    },
+    "FTM": {
+      "bits": [1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0],
+      "evidence": {
+        "FA1": "Foundation accumulates rather than sells FTM; no documented insider dumping 2021-22 (The Block 2022-03-07). Pass.",
+        "FA2": "100% of existing supply circulating (supplied); 630M unminted rewards ~4%/yr emission. Pass.",
+        "FA3": "TVL fell from $7.5B (Jan 2022) after Cronje exit; one of many EVM L1s losing share. Fail.",
+        "FA4": "Cronje/Nell left 2022-03; Foundation (Michael Kong) said development unaffected and kept shipping. Pass.",
+        "FB1": "FTM is gas and the PoS staking asset. Pass.",
+        "FB2": "DeFiLlama fees 30d $283k (supplied) < $1M. Fail.",
+        "FB3": "~4%/yr staking emission > 3%; reward rate adjustable by Foundation-owned SFC contract. Fail.",
+        "FC1": "Special Fee Contract upgradeable by Foundation; validator economics under foundation control. Fail.",
+        "FC2": "-94.8% from ATH (supplied). Pass.",
+        "FC3": "TVL and fees down >90% over 12 months (1y fees $26.9M vs $283k/30d). Fail.",
+        "FC4": "Alameda (bankrupt 2022-11-11) is a known FTM holder/validator; estate liquidation overhang < 6 months old. Fail.",
+        "FC5": "$283k vs $87k is up but immaterial and 1y trend clearly down. Fail.",
+        "FC6": "No dated upgrade or tokenomics change announced for Nov 2022-May 2023. Fail."
+      },
+      "key_risk": "Alameda's FTM stake becomes a bankruptcy-estate overhang while TVL and fees are down >90% year-on-year.",
+      "confidence": "M",
+      "sources": [
+        "https://www.theblock.co/linked/136545/fantom-tvl-slumps-as-colleague-tweets-andre-cronje-is-quitting-defi",
+        "https://tradingbtc.com/2022/03/06/defi-godfather-cronje-quits-as-tvl-and-tokens-tank-for-related-projects/",
+        "https://medium.com/@Ground_Zero/andre-cronje-anton-nell-leaving-crypto-tvl-plummets-fantom-ftm-tumbles-3b5f87a3fdfa",
+        "https://fantom.foundation/staking"
+      ]
+    }
+  }
+}

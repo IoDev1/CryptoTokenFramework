@@ -3,7 +3,8 @@
 ## Framework
 - [ ] Settle v2 filter list from `FRAMEWORK_v2.md` using Opus-vs-Claude disagreements as test cases
 - [ ] Add prior-cycle survivorship and value-accrual filters (BCH 8.0 vs LTC 10.0 shows the gap)
-- [ ] Backtest: score the top 60 as of 2022-11-15 with information available then; compare Core hold vs Avoid to 2025-01-15 returns
+- [x] Backtest 2022-11-13 -> 2025-01-12 done: `BACKTEST.md`, `data/backtest/`, `scripts/backtest/`. Verdict: loss avoidance yes, winner picking no; FC2 and FA1 negative signal; thresholds must be relative
+- [ ] Apply backtest findings to v2 (FC2 out of quality, FA1 narrowed, relative tiers) and re-run the backtest on v2 to compare
 - [ ] Anchors and controls in every run: BTC, ETH must be Core hold; EOS, IOTA, LUNC, BCH, ETC, XTZ must be Avoid
 - [ ] Draft the Opus research prompt from `research/RUBRIC.md` so both raters use identical definitions
 - [ ] Automate unlock schedule (TokenUnlocks or similar) for FA2 / FB3

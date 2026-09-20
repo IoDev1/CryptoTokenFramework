@@ -1,0 +1,164 @@
+{
+  "tokens": {
+    "XMR": {
+      "bits": [1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0],
+      "evidence": {
+        "FA1": "No premine, foundation or team allocation; dev funded by CCS donations (ccs.getmonero.org). Nothing to dump.",
+        "FA2": "100% circulating; tail emission 0.6 XMR/block since June 2022 = ~0.9%/yr and falling (getmonero tail-emission).",
+        "FA3": "Dominant privacy coin for years: 40k tx/day and 3.5 GH/s vs ZEC/DASH far behind (This Year in Monero, Apr 2022).",
+        "FA4": "Leaderless: 200+ contributors, CCS-funded teams (core, Feather, Cake, Monerujo), v15 fork shipped 16 Jul 2022.",
+        "FB1": "All fees paid in XMR; no other way to transact on the chain.",
+        "FB2": "Fees Apr 2021-Apr 2022 totalled 1,511 XMR (~4 XMR/day, ~$25k/month at 2022 prices); far below $1M/30d.",
+        "FB3": "Fixed tail emission ~0.9%/yr, no unlocks, schedule in consensus code (getmonero tail-emission page).",
+        "FC1": "Permissionless PoW (RandomX), no admin keys, no freeze or mint authority.",
+        "FC2": "-73.6% from ATH $483.58; mechanical threshold is -75%, so fail.",
+        "FC3": "Transactions +154% YoY (23k to 40k/day) and hashrate +53% Apr 2021-Apr 2022 (This Year in Monero).",
+        "FC4": "Delisting/regulatory risk public since 2018-2021; no lawsuit, unlock or fork inside the next 6 months.",
+        "FC5": "Fees ~$25k/month and down 20% YoY; no material revenue.",
+        "FC6": "Next hard fork (Seraphis/Jamtis) undated and years away as of 2022 roadmap; no dated catalyst by May 2023."
+      },
+      "key_risk": "Exchange delistings/regulatory pressure on privacy coins; fee revenue negligible.",
+      "confidence": "H",
+      "sources": [
+        "https://web.getmonero.org/2022/04/18/this-year-in-monero.html",
+        "https://www.getmonero.org/resources/moneropedia/tail-emission.html",
+        "https://monero.observer/monero-consensus-hard-fork-16-july-2022/",
+        "https://ccs.getmonero.org/what-is-ccs/",
+        "https://github.com/monero-project/monero-site/issues/1937"
+      ]
+    },
+    "XLM": {
+      "bits": [0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "SDF holds ~24B XLM and sells on Kraken/Coinbase/Bitstamp for ops; 3B/yr escrow unlocks; 2021-22 sale totals not verified.",
+        "FA2": "Circulating 51.3% of 50B total; ~24B XLM held by SDF is dilution (SDF's Next Steps, Nov 2019).",
+        "FA3": "Second payments-focused L1 behind XRP since 2017; USDC native issuance, MoneyGram Ramps (Q2 2022) lock-in.",
+        "FA4": "SDF CEO Denelle Dixon, founder Jed McCaleb; shipped Protocol 19 (6 Jun 2022) and Soroban Futurenet (Oct 2022).",
+        "FB1": "XLM required for base fees and account reserves on every transaction.",
+        "FB2": "DeFiLlama fees $14.3k in the last 30 days; no verified paid demand near $1M/30d.",
+        "FB3": "Inflation off since Oct 2019, but SDF's 24B XLM distribution is discretionary with no fixed published schedule.",
+        "FC1": "Open validator quorum (SDF + Tier-1 orgs); XLM itself has no freeze or mint authority.",
+        "FC2": "-89.9% from ATH $0.876; passes mechanical -75% threshold.",
+        "FC3": "No pre-cutoff metric verified showing 2022 usage up YoY; SDF Q2 2022 review reports no network stats.",
+        "FC4": "SDF overhang and inflation shutoff public for years; no binary event scheduled through May 2023.",
+        "FC5": "Fees $14.3k vs $13.0k prior 30d on a $228k/yr base: noise, not a trajectory; immaterial.",
+        "FC6": "Soroban on Futurenet since 12 Oct 2022 with no mainnet date; no dated catalyst by May 2023."
+      },
+      "key_risk": "SDF controls ~half of supply and sells at its discretion; on-chain fee demand is negligible.",
+      "confidence": "M",
+      "sources": [
+        "https://stellar.org/blog/foundation-news/sdfs-next-steps",
+        "https://www.coindesk.com/markets/2019/11/05/stellars-foundation-just-destroyed-half-the-supply-of-its-lumens-cryptocurrency",
+        "https://stellar.org/blog/foundation-news/our-proposal-to-disable-inflation?locale=en",
+        "https://stellar.org/blog/foundation-news/stellar-development-foundation-q2-2022-in-review",
+        "https://www.prnewswire.com/news-releases/soroban-smart-contracts-platform-native-to-the-stellar-network-is-live-on-futurenet-301646972.html",
+        "https://stellar.org/foundation/mandate"
+      ]
+    },
+    "TON": {
+      "bits": [0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0],
+      "evidence": {
+        "FA1": "98.55% of 5B distributed via IPoW 'Givers' to June 2022 with no disclosure of who mined or sold; unverifiable = 0.",
+        "FA2": "Circulating 24.2% of 5.05B; ~3.8B sits in mining/foundation-linked wallets outside circulation.",
+        "FA3": "Exclusive Telegram integration: Fragment username auctions accept only Toncoin (TechCrunch, 27 Oct 2022).",
+        "FA4": "TON Foundation core devs shipping since 2020 restart; Durov publicly backing (Aug/Oct 2022).",
+        "FB1": "Toncoin is gas and validator stake on TON.",
+        "FB2": "DeFiLlama fees no data; Fragment proceeds are Telegram's, not the protocol's; no verified $1M/30d chain fees.",
+        "FB3": "Validator emission ~0.6%/yr, but 76% of supply is unlocked in a few miner wallets; no published release schedule.",
+        "FC1": "Stake and supply concentrated in IPoW-era wallets; validator config changeable by that stake; opaque control.",
+        "FC2": "-68.7% from ATH $5.29; below the -75% threshold.",
+        "FC3": "Usage rising into Q4 2022: TON DNS auctions (wallet.ton ~$260k), Fragment launch, 700M-user Telegram tailwind.",
+        "FC4": "Supply concentration and Telegram dependence public since 2021; no scheduled binary event by May 2023.",
+        "FC5": "No fee data; no material protocol revenue.",
+        "FC6": "Fragment already launched 27 Oct 2022; no dated mainnet or tokenomics catalyst announced for Nov 2022-May 2023."
+      },
+      "key_risk": "Opaque, highly concentrated supply from the 2020-22 mining phase (76% not circulating) controlled by unknown holders.",
+      "confidence": "M",
+      "sources": [
+        "https://techcrunch.com/2022/10/27/telegram-announces-username-auctions-on-ton-blockchain/",
+        "https://www.axios.com/2022/10/28/telegram-selling-names-handles-toncoin-crypto",
+        "https://decrypt.co/113015/telegram-launches-username-auction-using-ton-blockchain",
+        "https://ton.org/en/mining"
+      ]
+    },
+    "BCH": {
+      "bits": [1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1],
+      "evidence": {
+        "FA1": "No premine, foundation or team allocation; the 2020 ABC dev-tax fork was rejected, so no insider treasury.",
+        "FA2": "100% of existing supply circulating; 6.25 BCH block subsidy = ~1.7%/yr on 19.2M coins.",
+        "FA3": "Lost payments share steadily since 2018 to BTC/LTC/stablecoins; one of several BTC forks.",
+        "FA4": "Multiple independent nodes (BCHN, Bitcoin Unlimited, bchd, Knuth, Verde) since ABC left Nov 2020; annual upgrades continue.",
+        "FB1": "BCH is the only fee asset on the chain.",
+        "FB2": "DeFiLlama no data; sub-cent fees on ~20k tx/day give roughly $1-3k/month; far below $1M/30d.",
+        "FB3": "Fixed halving schedule (~1.7%/yr, next halving 2024), no unlocks.",
+        "FC1": "Permissionless PoW, no admin, freeze or mint authority.",
+        "FC2": "-97.4% from ATH $3,785.82; passes.",
+        "FC3": "Hashrate roughly 1.3-1.5 EH/s in Nov 2022, down from 2021 levels; transactions flat-to-down YoY.",
+        "FC4": "Fork/dev-funding fights (2018, 2020) long public; no lawsuit, unlock or split scheduled by May 2023.",
+        "FC5": "No fee data on DeFiLlama; fees immaterial.",
+        "FC6": "CashTokens/P2SH32 CHIPs locked in 15 Nov 2022 for the dated 15 May 2023 network upgrade (bitjson, 21 Oct 2022)."
+      },
+      "key_risk": "Structural loss of relevance: shrinking hashrate and usage relative to BTC, no fee economy.",
+      "confidence": "H",
+      "sources": [
+        "https://blog.bitjson.com/bitcoin-cash-upgrade-2023/",
+        "https://bitcoincashresearch.org/t/bitcoin-cash-upgrade-2023/934",
+        "https://github.com/gcash/bchd/issues/517",
+        "https://cointelegraph.com/news/roger-ver-to-bitcoin-abc-stick-a-fork-in-it-you-re-done",
+        "https://en.wikipedia.org/wiki/Bitcoin_Cash"
+      ]
+    },
+    "ALGO": {
+      "bits": [1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1],
+      "evidence": {
+        "FA1": "Foundation transparency report: 42.2M ALGO structured selling Oct 2021-Mar 2022 (~1.3%/yr of circ), disclosed.",
+        "FA2": "97% of existing supply circulating, but Foundation distributions (~90M ALGO/quarter governance + grants) push circ growth >5%/yr.",
+        "FA3": "One of many alt-L1s; TVL ~$100-150M in 2022 (Algofi $104M, May 2022), outside top-2 on any usage metric.",
+        "FA4": "Silvio Micali (founder) and Foundation CEO Staci Warden (from Jan 2022) accountable and shipping.",
+        "FB1": "ALGO is gas and participation stake.",
+        "FB2": "DeFiLlama fees no data; 0.001 ALGO fees on the chain give trivial totals, far below $1M/30d.",
+        "FB3": "Governance rewards 90M ALGO/quarter set by Foundation measures each quarter; inflation >3% and schedule discretionary.",
+        "FC1": "Relay node network permissioned/Foundation-run in 2022; Foundation held ~2.8B ALGO.",
+        "FC2": "-92.6% from ATH $3.56; passes.",
+        "FC3": "No verified 2022 metric up YoY; TVL peaked mid-2022 and fell; treated as unknown.",
+        "FC4": "$35M Hodlnaut exposure disclosed 12 Sep 2022 as <3% of assets; no binary event scheduled by May 2023.",
+        "FC5": "No fee data; revenue immaterial.",
+        "FC6": "Official FIFA World Cup blockchain sponsor, tournament 20 Nov-18 Dec 2022 (announced 3 May 2022)."
+      },
+      "key_risk": "Foundation-driven supply growth (governance rewards, grants) and Foundation-controlled relay layer.",
+      "confidence": "M",
+      "sources": [
+        "https://www.coindesk.com/business/2022/09/12/algorand-foundation-declares-35m-exposure-to-troubled-crypto-lender-hodlnaut",
+        "https://cointelegraph.com/news/algorand-becomes-first-us-blockchain-sponsor-of-fifa-world-cup",
+        "https://www.fifa.com/media-releases/fifa-announces-partnership-with-blockchain-innovator-algorand",
+        "https://old.algorand.foundation/the-algo/transparency-report-march-2022/",
+        "https://algorand.co/hubfs/Website-2024/Transparency%20Reports/Algo%20Economic%20Evolution%20Report%20Sept%202021.pdf"
+      ]
+    },
+    "NEAR": {
+      "bits": [0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0],
+      "evidence": {
+        "FA1": "NEAR Foundation published no treasury/sales report by Nov 2022; investor lockups unlocking monthly; unverifiable = 0.",
+        "FA2": "82.2% of 1B circulating; 5% gross issuance minus small fee burn is ~4.9% net, at the ~5% limit.",
+        "FA3": "One of many alt-L1s (SOL, AVAX, MATIC, ATOM); TVL fell sharply through 2022.",
+        "FA4": "Illia Polosukhin and Alex Skidanov leading; Nightshade phase 1 shipped Sep 2022, NEARCON Sep 2022.",
+        "FB1": "NEAR is gas and validator stake.",
+        "FB2": "DeFiLlama fees $66k in the last 30 days; far below $1M/30d.",
+        "FB3": "Net inflation ~4.9% > 3%; core contributor and backer lockups still vesting into 2023.",
+        "FC1": "Permissionless validator set, no freeze/blacklist authority on the base token.",
+        "FC2": "-90.4% from ATH $20.44; passes.",
+        "FC3": "Daily active accounts up sharply in Q3 2022 on Sweat Economy launch (Messari State of NEAR Q3 2022).",
+        "FC4": "USN wind-down (Oct 2022) and 3AC/Alameda backer holdings (Jan 2022 round) are fresh forced-sale overhangs.",
+        "FC5": "Fees $66k vs $94k prior 30d (-30%) and 1y $3.6M trending down; immaterial.",
+        "FC6": "No dated upgrade or tokenomics vote for Nov 2022-May 2023; Nightshade phase 2 undated."
+      },
+      "key_risk": "VC-heavy cap table (3AC-led round, Alameda) unwinding into a collapsing DeFi ecosystem; USN failure.",
+      "confidence": "M",
+      "sources": [
+        "https://messari.io/report/state-of-near-q3-2022",
+        "https://docs.blockdaemon.com/docs/near-specific-info",
+        "https://www.kraken.com/learn/what-is-near-protocol"
+      ]
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "tokens": {
+    "BTC": {
+      "bits": [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "No foundation, founder or treasury; Core dev funded by donations (Brink top funder per BitMEX Research, Oct 2022). No insider stock to dump.",
+        "FA2": "19.2M of 21M cap issued; 6.25 BTC/block = ~328k BTC/yr = ~1.7%/yr, fixed halving schedule (bitcoin.it Controlled supply).",
+        "FA3": "#1 by market cap, hashrate and liquidity since 2009; rank #1 on 2022-11-13 ($314B) with no challenger within 2x for 13 years.",
+        "FA4": "Leaderless: Bitcoin Core plus btcd/Knots/libbitcoin, 13-year continuity, multi-entity funding (Brink, Spiral, Chaincode).",
+        "FB1": "Transaction fees payable only in BTC; no usage without the token.",
+        "FB2": "DeFiLlama fees 30d before cutoff $9.26M (transaction fees paid by users, excludes subsidy) >= $1M.",
+        "FB3": "Inflation ~1.7%/yr on a hard-coded schedule; next halving ~Apr 2024; no vesting, no unlocks; consensus change needs supermajority of nodes.",
+        "FC1": "Permissionless PoW; no mint, freeze or blacklist authority; no upgradeable contract or admin key.",
+        "FC2": "Price $16,353 is -75.8% from ATH $67,567 (supplied) <= -75%: pass.",
+        "FC3": "12-month fees clearly down: 1y $156M = ~$13M/month avg vs $9.3M last 30d; active addresses flat ~900k-1M through 2022 (Glassnode).",
+        "FC4": "Risks (PoW energy, exchange failures, regulation) public for years; FTX collapse 2022-11-11 is exchange risk, no dated binary event ahead.",
+        "FC5": "30d $9.26M vs prior $7.29M (+27%) and material, but 1y trend clearly down (~$13M/month avg over 1y, far below 2021): fail.",
+        "FC6": "No dated catalyst in next 6 months; halving is ~Apr 2024, Taproot already live (Nov 2021); no ETF decision scheduled."
+      },
+      "key_risk": "Post-FTX contagion (exchange/lender insolvencies) and a bear-market decline in on-chain fee demand; usage metrics flat-to-down through 2022.",
+      "confidence": "H",
+      "sources": [
+        "https://www.coindesk.com/tech/2022/10/27/brink-emerges-as-the-top-funder-of-bitcoin-core-development-bitmex-research-says",
+        "https://brink.dev/blog/2022/04/04/grantees/",
+        "https://en.bitcoin.it/wiki/Controlled_supply",
+        "https://research.glassnode.com/the-week-onchain-week-46-2022/"
+      ]
+    },
+    "ETH": {
+      "bits": [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "EF report (Apr 2022): holds 0.297% of supply; disclosed sales of 35k ETH (May 2021) and 20k (Nov 2021) are <0.05%, under 1%/yr.",
+        "FA2": "122.4M ETH all circulating (no vesting/escrow); post-Merge (2022-09-15) issuance ~0.5%/yr gross, ~0% net after EIP-1559 burn.",
+        "FA3": "#1 smart-contract chain by TVL, fees and developers since 2015; DeFiLlama 30d fees $113M vs BSC $24M, lead held > 2 years.",
+        "FA4": "Identifiable EF/core devs (Buterin, Beiko) shipped the Merge 2022-09-15; 5 consensus and 4 execution clients from independent teams.",
+        "FB1": "ETH is the sole gas asset and the staking asset securing the chain since the Merge.",
+        "FB2": "DeFiLlama fees 30d before cutoff $113.5M >= $1M.",
+        "FB3": "Net issuance ~0% post-Merge with burn; no cliff unlocks (staked ETH already counted, exit-rate limited); issuance change needs a fork.",
+        "FC1": "Permissionless validator set (~470k validators Nov 2022); no freeze/mint/blacklist authority or admin key at protocol level.",
+        "FC2": "Price $1,222 is -74.6% from ATH $4,812 (supplied), not <= -75%: mechanical fail.",
+        "FC3": "12-month usage down: 1y fees $6.24B = ~$520M/month avg vs $113M last 30d; TVL in USD down sharply from Nov 2021; active addresses flat.",
+        "FC4": "Securities question (Gensler, Sep 2022) and OFAC Tornado Cash sanction (2022-08-08) public; no dated binary event in next 6 months.",
+        "FC5": "30d $113.5M vs prior $75.0M (+51%) and material, but 1y trend clearly down (~$520M/month avg over 1y vs $113M): fail.",
+        "FC6": "Shanghai/withdrawals expected 'in 2023' but no date set as of 2022-11-15; vague roadmap item, fail."
+      },
+      "key_risk": "Regulatory: SEC chair suggested PoS staking may make ETH a security (Sep 2022) and OFAC sanctions raised validator-censorship concerns; withdrawals still undated.",
+      "confidence": "H",
+      "sources": [
+        "https://ethereum.foundation/report-2022-04.pdf",
+        "https://www.fxstreet.com/cryptocurrencies/news/ethereum-foundation-treasury-expands-non-crypto-assets-to-19-202204190522",
+        "https://blog.ethereum.org/2022/08/24/mainnet-merge-announcement",
+        "https://blog.ethereum.org/2021/08/04/london-mainnet-announcement",
+        "https://home.treasury.gov/news/press-releases/jy0916"
+      ]
+    },
+    "BNB": {
+      "bits": [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "Team's 80M BNB allocation forfeited and burned (8th burn, 2019); no documented insider dumping or exchange transfers in 2021-22.",
+        "FA2": "160M existing supply all circulating; Auto-Burn removes ~2M BNB/quarter (21st burn Oct 2022) = ~5%/yr deflation; 200M cap is stale.",
+        "FA3": "BSC #2 chain by TVL and fees behind Ethereum since early 2021; Binance #1 exchange gives structural lock-in (fee discounts, Launchpad).",
+        "FA4": "CZ and BNB Chain team identifiable and shipping (hotfix v1.1.15 after Oct 2022 hack); DOJ probe (Reuters, Jun 2022) has no charges filed.",
+        "FB1": "BNB is gas on BSC and Beacon Chain and the staking asset for BSC validators.",
+        "FB2": "DeFiLlama fees 30d before cutoff $24.1M >= $1M.",
+        "FB3": "Deflationary, no unlocks, but burn rules were replaced unilaterally by Binance (Auto-Burn, Dec 2021): schedule set by a small group.",
+        "FC1": "26 validators halted BSC on 2022-10-06 and a hotfix blacklisted the attacker's address: small validator set with freeze capability.",
+        "FC2": "Price $276.6 is -59.1% from ATH $675.7 (supplied), not <= -75%: fail.",
+        "FC3": "12-month usage down: 1y fees $635M = ~$53M/month avg vs $24M last 30d; BSC TVL fell from ~$20B (Nov 2021) to ~$5B; addresses down.",
+        "FC4": "Centralization and Binance regulatory risk public since 2021 (Bloomberg May 2021, Reuters Jun 2022); no dated binary event in next 6 months.",
+        "FC5": "30d $24.1M vs prior $19.2M (+26%) and material, but 1y trend clearly down (~$53M/month avg over 1y vs $24M): fail.",
+        "FC6": "Quarterly Auto-Burn (Jan 2023) is routine, not a catalyst; zkBNB/Greenfield had no mainnet dates as of cutoff."
+      },
+      "key_risk": "Single point of failure: Binance controls the validator set, burn policy and most supply; ongoing US DOJ/CFTC scrutiny of Binance could impair the chain.",
+      "confidence": "M",
+      "sources": [
+        "https://www.binance.com/en/blog/all/8th-bnb-burn-from-the-team-bnb-allocation-356254016530468864",
+        "https://www.binance.com/en/support/announcement/detail/611c8f41f49e4cd2a02a7c7d66fdf3c0",
+        "https://www.binance.com/en/support/announcement/the-21st-quarterly-bnb-burn-completed-via-bnb-auto-burn-7edce2f958ae4c109433c82f3ecc5b05",
+        "https://www.coindesk.com/markets/2022/07/13/more-than-400m-in-bnb-burned-in-quarterly-move",
+        "https://www.coindesk.com/business/2022/10/06/binance-linked-bnb-price-falls-close-to-4-on-hack-rumors",
+        "https://www.coindesk.com/business/2022/10/10/binance-exec-bnb-smart-chain-hack-could-have-been-worse-if-validators-hadnt-sprung-into-action",
+        "https://www.reuters.com/investigates/special-report/fintech-crypto-binance-dirtymoney/"
+      ]
+    },
+    "XRP": {
+      "bits": [0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0],
+      "evidence": {
+        "FA1": "Ripple net XRP sales $310.7M in Q3 2022, $408.9M in Q2 (~7% of circ/yr); SEC alleges $600M personal sales by Larsen/Garlinghouse.",
+        "FA2": "Circulating 50.2% of 100B existing supply; ~45B XRP held in Ripple escrow plus Ripple's unlocked balance: far below 70%.",
+        "FA3": "Largest crypto payments rail with named enterprise users (SBI Remit, Tranglo, Travelex, FINCI); ODL volume up 9x YoY (Q2 2022 report).",
+        "FA4": "CEO Garlinghouse and co-founder Larsen are SEC defendants (Dec 2020); suit forced US delistings (Coinbase, Jan 2021), impairing XRP.",
+        "FB1": "XRPL fees and reserves payable only in XRP (fees burned); ODL bridges via XRP.",
+        "FB2": "DeFiLlama no data; XRPL fee burn trivial (fraction of a cent per tx); ODL dollar volume undisclosed; Ripple revenue is not XRP's.",
+        "FB3": "Escrow releases 1B XRP/month; Q3 2022 net ~0.9B released to Ripple (~7% of circ/yr) and sold at Ripple's discretion: fail.",
+        "FC1": "No freeze or mint authority over XRP; amendments need 80% validator support for 2 weeks; default UNL is a recommendation, not control.",
+        "FC2": "Price $0.340 is -89.9% from ATH $3.378 (supplied) <= -75%: pass.",
+        "FC3": "ODL volume grew 9x YoY (Q2 2022) with new corridors (Brazil, Lithuania-Mexico) in Q3 2022: a measurable usage metric up.",
+        "FC4": "SEC v. Ripple summary-judgment ruling pending (motions filed 2022-09-13, replies Nov 2022): unresolved binary event inside 6 months.",
+        "FC5": "No verifiable protocol revenue data: fail.",
+        "FC6": "No dated catalyst: SEC ruling timing unknown; XRPL AMM (XLS-30) and sidechains had no mainnet dates as of cutoff."
+      },
+      "key_risk": "Binary SEC v. Ripple outcome plus continuous Ripple escrow selling (~$300-400M per quarter) into a market with 50% of supply still locked.",
+      "confidence": "H",
+      "sources": [
+        "https://ripple.com/insights/q3-2022-xrp-markets-report/",
+        "https://ripple.com/insights/q2-2022-xrp-markets-report/",
+        "https://www.sec.gov/news/press-release/2020-338",
+        "https://www.coinbase.com/blog/coinbase-will-suspend-trading-in-xrp-on-january-19"
+      ]
+    },
+    "ADA": {
+      "bits": [1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0],
+      "evidence": {
+        "FA1": "Genesis gave IOHK/Emurgo/CF ~5.2B ADA (2017); no documented dumps or exchange transfers 2021-22; CF reports holdings, IOG does not.",
+        "FA2": "35.1B existing, 97.9% circulating; reserve emission 0.3%/epoch on ~10B reserve yields ~2-3%/yr realized, under 5%.",
+        "FA3": "Not top-2 by any usage metric: Cardano ranked ~27th in DeFi TVL at Vasil (Sep 2022) versus top-10 by market cap; fees $0.3M/30d.",
+        "FA4": "Hoskinson/IOG, CF and Emurgo identifiable and shipping: Vasil hard fork delivered 2022-09-22, Plutus V2 live 2022-09-27.",
+        "FB1": "ADA is the sole fee asset and the staking asset that secures Ouroboros PoS.",
+        "FB2": "DeFiLlama fees 30d before cutoff $306k < $1M: fail.",
+        "FB3": "Inflation ~2-3%/yr and no unlocks, but protocol params and hard forks are enacted by IOG/CF genesis keys (joint IOG/CF team deployed Vasil).",
+        "FC1": "Upgrades and parameter changes controlled by founding entities' genesis keys (pre-Voltaire); no on-chain governance as of 2022: fail.",
+        "FC2": "Price $0.330 is -89.3% from ATH $3.09 (supplied) <= -75%: pass.",
+        "FC3": "DeFi TVL in USD up over 12 months (near zero pre-DEX Nov 2021 to tens of millions after SundaeSwap/Minswap launches 2022).",
+        "FC4": "Slow-delivery and centralized-governance risks public for years; Vasil done; no dated binary event in next 6 months.",
+        "FC5": "Revenue immaterial ($306k/30d, 1y avg ~$850k/month and falling): fail.",
+        "FC6": "No dated catalyst verifiable at cutoff: Hydra, Mithril, Voltaire and Djed had no mainnet dates as of 2022-11-15."
+      },
+      "key_risk": "Usage far below valuation (TVL rank ~27, fees ~$0.3M/month) while three founding entities still hold the genesis keys that govern upgrades and emission.",
+      "confidence": "M",
+      "sources": [
+        "https://www.iog.io/news/vasil-what-to-expect",
+        "https://www.coindesk.com/tech/2022/09/20/what-cardanos-highly-anticipated-vasil-hard-fork-will-bring",
+        "https://cardanofoundation.org/blog/the-vasil-hard-fork-a-new-update-to-scale-and-optimize-the-cardano",
+        "https://en.cryptonomist.ch/2022/09/23/cardano-the-vasil-hard-fork-has-taken-place/",
+        "https://www.fool.com/investing/2022/06/04/surprising-amount-passive-income-staking-cardano/",
+        "https://cardano.org/genesis/"
+      ]
+    },
+    "DOGE": {
+      "bits": [1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0],
+      "evidence": {
+        "FA1": "No premine, foundation treasury or founder stake: Markus sold out in 2015, Palmer left 2015; no documented insider selling 2021-22.",
+        "FA2": "132.7B existing, all circulating; fixed 10,000 DOGE/block = ~5.26B/yr = ~4.0%/yr, under the ~5% dilution bar.",
+        "FA3": "#1 memecoin by market cap and merchant acceptance since 2013 (rank #9, $11.3B on 2022-11-13); SHIB never overtook it for 2 years.",
+        "FA4": "Founders gone, no accountable replacement; single client (Dogecoin Core), no releases 2015-2019, Foundation relaunched only Aug 2021.",
+        "FB1": "DOGE is the sole fee asset on the Dogecoin chain.",
+        "FB2": "DeFiLlama no data; on-chain fees are a few hundred dollars per day at 0.01 DOGE/kB: fail.",
+        "FB3": "Uncapped, ~4.0%/yr inflation > 3%: fail on the inflation leg despite a fixed published schedule.",
+        "FC1": "Permissionless PoW (merge-mined with Litecoin); no mint, freeze or blacklist authority.",
+        "FC2": "Price $0.0849 is -88.4% from ATH $0.7316 (supplied) <= -75%: pass.",
+        "FC3": "Daily transactions ~25k, flat-to-down vs 2021; Twitter-deal spike to 37k (Oct 28, 2022) is attention, not a funded tailwind.",
+        "FC4": "Musk dependency, inflation and holder concentration (top 10 wallets >40%) public for years; no dated binary event in next 6 months.",
+        "FC5": "No revenue data: fail.",
+        "FC6": "Twitter/X payments talk undated; no scheduled upgrade or listing in next 6 months: fail."
+      },
+      "key_risk": "Price driven by Elon Musk attention (Twitter close 2022-10-27) with no fee demand, ~4%/yr perpetual issuance and a thin, founderless dev team.",
+      "confidence": "M",
+      "sources": [
+        "https://github.com/dogecoin/dogecoin/releases/tag/v1.14.5",
+        "https://github.com/dogecoin/dogecoin#readme",
+        "https://benzinga.com/markets/cryptocurrency/22/05/27266273/9-members-of-dogecoin-foundation-who-they-are-what-they-do",
+        "https://www.coindesk.com/markets/2022/10/05/dogecoin-loses-momentum-from-musk-twitter-news",
+        "https://www.coindesk.com/business/2022/10/28/elon-musk-finally-closes-deal-to-purchase-twitter-cnbc-reports"
+      ]
+    }
+  }
+}
