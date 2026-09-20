@@ -4,7 +4,7 @@ A scoring framework for picking tokens that can be held through a bear market, a
 page that shows the verdicts, live market data, news with sources, and your own entry and exit
 targets.
 
-**Live page:** https://claude.ai/code/artifact/45f2d1c6-5ac6-4f85-83bf-c3d73b53ca19
+**Live page:** https://claude.ai/artifact/9dygq8VEnSkatpDq6xiZag
 
 ## How it works
 

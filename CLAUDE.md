@@ -32,7 +32,7 @@ JSON and never calls a model per visitor.
 | `data/*.json` | market, research, news, targets. `data/history/<date>/` holds daily snapshots |
 | `.github/workflows/refresh.yml` | Daily: fetch market + news, build, commit, deploy to GitHub Pages |
 
-Published artifact: https://claude.ai/code/artifact/45f2d1c6-5ac6-4f85-83bf-c3d73b53ca19
+Published artifact: https://claude.ai/artifact/9dygq8VEnSkatpDq6xiZag (older link form: https://claude.ai/code/artifact/45f2d1c6-5ac6-4f85-83bf-c3d73b53ca19)
 (republish `scorecard/index.html` with that `url` to update in place).
 
 ## Refresh chain
