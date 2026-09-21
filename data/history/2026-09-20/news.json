@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-21",
+ "as_of": "2026-09-20",
  "source": "Outlet RSS (CoinDesk, Cointelegraph, Decrypt, The Block, DL News, The Defiant, CryptoSlate, BeInCrypto), last 14 days",
  "tokens": {
   "HBAR": {
@@ -336,42 +336,6 @@
   "SOL": {
    "items": [
     {
-     "title": "This blockchain just voted to shut itself down for a Solana-powered AI pivot",
-     "source": "CryptoSlate",
-     "date": "2026-09-21",
-     "url": "https://cryptoslate.com/this-blockchain-just-voted-to-shut-itself-down-for-a-solana-powered-ai-pivot/"
-    },
-    {
-     "title": "ZetaChain holders approve plan to wind down L1, move ZETA to Solana",
-     "source": "Cointelegraph",
-     "date": "2026-09-21",
-     "url": "https://cointelegraph.com/news/zetachain-shutdown-zeta-solana-migration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "ZetaChain Votes to Wind Down Layer 1 and Move ZETA to Solana",
-     "source": "The Defiant",
-     "date": "2026-09-21",
-     "url": "https://thedefiant.io/news/blockchains/zetachain-votes-to-wind-down-layer-1-and-move-zeta-to-solana"
-    },
-    {
-     "title": "Kyle Samani predicts SOL flippening, claims \u2018no one\u2019 uses ETH",
-     "source": "Cointelegraph",
-     "date": "2026-09-21",
-     "url": "https://cointelegraph.com/magazine/kyle-samani-predicts-sol-flippening-claims-no-one-uses-eth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "ZetaChain votes to shut down Layer 1 network and move ZETA to Solana",
-     "source": "The Block",
-     "date": "2026-09-20",
-     "url": "https://www.theblock.co/news/defi/2026-09-20-zetachain-votes-to-shut-down-layer-1-network-and-move-zeta-to-solana-415878"
-    },
-    {
-     "title": "Why Solana\u2019s new 250ms speed boost could actually trigger network instability",
-     "source": "CryptoSlate",
-     "date": "2026-09-20",
-     "url": "https://cryptoslate.com/solanas-250ms-slots-turn-validator-coordination-into-the-networks-next-security-test/"
-    },
-    {
      "title": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
      "source": "Decrypt",
      "date": "2026-09-19",
@@ -382,6 +346,42 @@
      "source": "CoinDesk",
      "date": "2026-09-18",
      "url": "https://www.coindesk.com/tech/2026/09/18/solana-speeds-up-blocks-by-17-but-transaction-capacity-stays-the-same"
+    },
+    {
+     "title": "Bitcoin reclaims $80,000, Solana and Hyperliquid rally as crypto markets shrug off Clarity setback",
+     "source": "The Block",
+     "date": "2026-09-18",
+     "url": "https://www.theblock.co/news/markets/2026-09-18-bitcoin-reclaims-80000-solana-hyperliquid-rally-crypto-markets-shrug-off-clarity-setback-415523"
+    },
+    {
+     "title": "Solana's Historic Governance Vote \u2014 While Robinhood Invades Its Meme Coin Turf",
+     "source": "The Defiant",
+     "date": "2026-09-17",
+     "url": "https://thedefiant.io/podcasts-and-videos/podcast/solana-s-historic-governance-vote-while-robinhood-invades-its-meme-coin-turf"
+    },
+    {
+     "title": "Solana Co-Founder Cheers $660,000 Tokenized Dinosaur Skull Sale",
+     "source": "BeInCrypto",
+     "date": "2026-09-16",
+     "url": "https://beincrypto.com/solana-tokenized-dinosaur-skull-sale/"
+    },
+    {
+     "title": "Solana nearly froze as a single routing error took 29% of the network stake offline",
+     "source": "CryptoSlate",
+     "date": "2026-09-16",
+     "url": "https://cryptoslate.com/solana-nearly-froze-as-a-single-routing-error-took-29-of-the-network-stake-offline/"
+    },
+    {
+     "title": "Ether, solana, XRP likely to gain if Clarity Act progresses",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/daybook-us/2026/09/15/ether-solana-xrp-likely-to-gain-if-clarity-act-progresses"
+    },
+    {
+     "title": "Solana Treasury Firm DeFi Dev Corp Rolls Out $300M CHAD to Buy More SOL",
+     "source": "Decrypt",
+     "date": "2026-09-15",
+     "url": "https://decrypt.co/378183/solana-defi-development-corp-chad"
     }
    ],
    "opinion": {
@@ -458,6 +458,13 @@
      "date": "2026-09-07",
      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMDh0eS1QLUp1cl9xZmdwVnN1TkFCZXl1UTZXb3ZETmVHVEtGYmxDRHdLWFd2em85aDU0aDhVOUZqUzZZQ3lzZmQtTkt4cHFNSGR4N2FVeHk0MzZ4T0xFckgtUENDdlBSdGl5Rlc2UVZZQmFOTFR6UEVuVU5ZaWRSVUd0THlDTi02Y0JhVnNVRjV2R3MybXVSbVR6SnhIM1l6U0xPVjdHb0FGOW1KSTY5dmN3dUg1MHVhQnpjU2lmZmtENDlkMTNSajM2cElST3d5RHJHZlJ0emN2SEpkdFlsR0pXWUFzZFpGOUYxVG92eFhKeFpUQ3AxNHV2cTFVTU1LcnozVFRYQ0prOHNSMzlF?oc=5",
      "via": "Google News"
+    },
+    {
+     "title": "AI News: Bittensor Leads Booming AI Sector Amid Agentic Finance Hype",
+     "source": "CoinMarketCap",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcmJvblJzbmY2d1RsU2RMOU54ek5fSUhSQ3FqakZpbkNvZkxick1kaTc3SHBNcWVJMU1XdmdMVVlFdVZaS3Vrb0VsVW1VeGw0d1lrY2lGeFpaMEh3d0JfcTU1azZJc1lsTTlpQUJwTUdSOHFmNzJFa3pvTzFCNjNoV0lZWVZEUzlwdzFfZUp5blk1X0lNMlZhVXFwdHJEdjVqbFFSUnpydWJIbWFjUWc?oc=5",
+     "via": "Google News"
     }
    ],
    "opinion": {
@@ -516,30 +523,6 @@
   "ETH": {
    "items": [
     {
-     "title": "Will proposed faster block times really fix Ethereum\u2019s biggest market losses?",
-     "source": "CryptoSlate",
-     "date": "2026-09-21",
-     "url": "https://cryptoslate.com/why-faster-block-times-wont-fix-ethereums-biggest-market-losses/"
-    },
-    {
-     "title": "Tom Lee's Bitmine Adds $74M in Ethereum, Declares a Crypto Bull Market 'Underway'",
-     "source": "Decrypt",
-     "date": "2026-09-21",
-     "url": "https://decrypt.co/378754/tom-lee-bitmine-adds-ethereum-crypto-bull-market"
-    },
-    {
-     "title": "\u2018Crypto bull market is underway,\u2019 Tom Lee says as Bitmine nears 5% Ethereum supply target with 27,562 ETH buy",
-     "source": "The Block",
-     "date": "2026-09-21",
-     "url": "https://www.theblock.co/news/business/2026-09-21-crypto-bull-market-underway-tom-lee-says-bitmine-nears-5-ethereum-supply-target-with-27562-eth-buy-415923"
-    },
-    {
-     "title": "Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto",
-     "source": "CoinDesk",
-     "date": "2026-09-21",
-     "url": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto"
-    },
-    {
      "title": "Which Crypto ETF Drew the Most Money Last Week? Not Bitcoin, and Not Ethereum",
      "source": "BeInCrypto",
      "date": "2026-09-19",
@@ -562,6 +545,30 @@
      "source": "CoinDesk",
      "date": "2026-09-18",
      "url": "https://www.coindesk.com/tech/2026/09/18/ethereum-confirms-glamsterdam-dates-but-warns-fake-builders-could-stall-the-chain"
+    },
+    {
+     "title": "Ether and XRP ETFs post outflows as crypto majors move higher",
+     "source": "CoinDesk",
+     "date": "2026-09-18",
+     "url": "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000"
+    },
+    {
+     "title": "Ethereum Institutional signals support for Ethlabs\u2019 motion to reduce Ethereum block times",
+     "source": "Cointelegraph",
+     "date": "2026-09-18",
+     "url": "https://cointelegraph.com/news/ethereum-institutional-support-ethlabs-reduce-ethereum-block-times?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "title": "Ethereum client diversity metrics split three ways as key tracking tools break",
+     "source": "CryptoSlate",
+     "date": "2026-09-17",
+     "url": "https://cryptoslate.com/ethereums-client-diversity-picture-fractures-under-incompatible-estimates/"
+    },
+    {
+     "title": "Ethereum Founder Vitalik Buterin Says AI Won\u2019t Doom Crypto Security",
+     "source": "Decrypt",
+     "date": "2026-09-17",
+     "url": "https://decrypt.co/378544/ethereum-vitalik-buterin-ai-crypto-security"
     }
    ],
    "opinion": {
@@ -851,12 +858,6 @@
   "UNI": {
    "items": [
     {
-     "title": "Uniswap Founder Reveals Sam-Bankman Fried Paid 7 Figures for Uniswap.com and Lost It",
-     "source": "BeInCrypto",
-     "date": "2026-09-21",
-     "url": "https://beincrypto.com/sbf-uniswap-domain-taken-back-free/"
-    },
-    {
      "title": "Malicious Uniswap v4 hooks are baiting DeFi traders with fake swap quotes",
      "source": "CryptoSlate",
      "date": "2026-09-16",
@@ -898,6 +899,13 @@
      "source": "Phemex",
      "date": "2026-09-08",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaTUM1QW1JcnJiODI1VkR2WmNRMDVFSGJwTnlFZFBoZUJJWlFrZWRzcW5QM1VVbTdGa2pfakxFNWg4Sjh3dGdNU2Y2RldSS1p0dzJoa3YxeE0xbndBZEhkR2VsYjF3RldYQ3ozU29MeVM?oc=5",
+     "via": "Google News"
+    },
+    {
+     "title": "Uniswap price today, UNI to USD chart, marketcap and volume",
+     "source": "CryptoSlate",
+     "date": "2026-09-08",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11STFlaHhIU1o3VG82MGxjcU1pZVVCay01aGhzM1JtQ1FRVi1DRHVyR0VjbW0yMXBXc3RDNWk0SktLUTRxb2FpTzNNZk5LeHM?oc=5",
      "via": "Google News"
     }
    ],
@@ -957,12 +965,6 @@
   "HYPE": {
    "items": [
     {
-     "title": "Perp futures linked to 'bitcoin VIX' debut on Hyperliquid",
-     "source": "CoinDesk",
-     "date": "2026-09-21",
-     "url": "https://www.coindesk.com/markets/2026/09/21/perp-futures-linked-to-bitcoin-vix-debut-on-hyperliquid"
-    },
-    {
      "title": "Bitcoin reclaims $80,000, Solana and Hyperliquid rally as crypto markets shrug off Clarity setback",
      "source": "The Block",
      "date": "2026-09-18",
@@ -1003,6 +1005,12 @@
      "source": "The Defiant",
      "date": "2026-09-16",
      "url": "https://thedefiant.io/news/defi/kraken-parent-plans-permissioned-hyperliquid-perps-for-us-traders"
+    },
+    {
+     "title": "DOJ charges Robinhood former engineers with front-running crypto listings on Hyperliquid",
+     "source": "The Block",
+     "date": "2026-09-15",
+     "url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865"
     }
    ],
    "opinion": {
@@ -1108,6 +1116,13 @@
      "source": "Cointribune",
      "date": "2026-09-08",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmpMTHhTbEUyZm14REdRajdtaERVZUhFX0xtbEdyX25ZUGdtMWMyQk45QWMyTFY2YUxhNTVteUNJXzhRcVFZeDUtN19XczdrM0dWSzYycVlPNk11S0JWREJXZDJ5aHF5cU9DOEhEeFY5TzlYMzAtd3VZbmlmT0xtaDd3RlBlQktncmp2a1o4OUt2MjU4cVJpVE03VExZVHpOcXBtdUVFZ3gyTjJhb2QteGI2QnI3TGU2N21HM2Q4TGFMWER0RThZ?oc=5",
+     "via": "Google News"
+    },
+    {
+     "title": "Fetch.ai rally gains traction as AI agent deployment tool enhances market confidence",
+     "source": "Traders Union",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3J3RC05ZEoxRk1ael93WmlaSE5zcVcycFBmUHVPNmo0dUxwdkk4WkZhbGdpZ21ockhKcVVqNUlvQjFxeXc3dC00V0xpd1VUZlU0c2Q2WXJNNkRzY0gxZFgwNkhKajlzVFp3b2dDbVNGZ3c2LW1qYUNZcFJWVERoRnNHbFo0c2paTmwxdUNldFRyeEZDbXdZNlJYak5Ldw?oc=5",
      "via": "Google News"
     }
    ],
@@ -1559,12 +1574,6 @@
   "TRX": {
    "items": [
     {
-     "title": "USDT on TRON Becomes Most Used Onchain Payment Option on CoinsBee as Stablecoin Spending Grows",
-     "source": "BeInCrypto",
-     "date": "2026-09-21",
-     "url": "https://beincrypto.com/usdt-tron-most-used-onchain-payment-coinsbee/"
-    },
-    {
      "title": "Chainflip to reset TRON USDT provider balances to zero following $736,000 exploit",
      "source": "CryptoSlate",
      "date": "2026-09-17",
@@ -1727,6 +1736,13 @@
      "date": "2026-09-07",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcnNZZjFYZVhWTUFCTF9JclZjUUZhRDgtQ0NFQXhhMkUtMFZZc0FEd0c4b0t5aV92Vndxc1pZdFl1ZU5rS1VMcVJxLWltUFkzcnBoOERZZGp3TWpuNlRyUnlpTFV5Q1pPSHRfUzcwNDNPRU81M3lQZ3VIWTNrWkxCU0duLXVoRVAyTmRDSEdyNA?oc=5",
      "via": "Google News"
+    },
+    {
+     "title": "Nice trajectory. Current total Litecoin in MWEB addresses at 519k. HIGHER.",
+     "source": "Moomoo",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWptLVAtOHp2T1I5TURsM0J5NXBaZGRYNks2dENGUUluOWtZbEVvb0Y2bk5aVGNBYXRocWhkbUNuX21TODNNTXJ6LXNsUVBEU2tHb2lOamd1YmNqX0tyM1R0ck42YlhMUE9zd0xyQWdya2hCNmU0VWszYkk2VWlZdjEtRUU1MGhvcmtjOXcxR1NmX2l5V0V0Q2xidzdiaHNicC0zczgtSU1HZ09mLTF4LW9qc3RLRkptLXc?oc=5",
+     "via": "Google News"
     }
    ],
    "opinion": {
@@ -1863,12 +1879,6 @@
   "ADA": {
    "items": [
     {
-     "title": "Charles Hoskinson says Cardano no longer comes first \u2013 its treasury vote explains why",
-     "source": "CryptoSlate",
-     "date": "2026-09-20",
-     "url": "https://cryptoslate.com/charles-hoskinson-says-cardano-no-longer-comes-first-its-treasury-vote-explains-why/"
-    },
-    {
      "title": "Cardano\u2019s IOG warns users to avoid YouTube channel amid apparent hijack",
      "source": "Cointelegraph",
      "date": "2026-09-18",
@@ -1962,6 +1972,13 @@
      "source": "CryptoRank",
      "date": "2026-09-07",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaWVNaEIyOWtEY2gxVUwwT040aXoyZ28wS19jYnRxNEVKdS1ZNXI0a3dUSzNPcFEwMkl2ZFYwd1VESm8tcXEzdnhvU1Azd2luSXBWb3JiRHBuSUpMUzFZZXJoUjEwX2FzcXJNWFdybWQ2dmlndk5jYk1fVW5vQ3ZGQ1R3Nmtwc2N2VVVpVXlTekVrc01jMkpySW9TYks4SHE0clY4YVhoMkx0bWhpd2tvbndydmtlb0h2bHc?oc=5",
+     "via": "Google News"
+    },
+    {
+     "title": "Polkadot (DOT) Rises 3% Amid Technical Breakout, Narrative Shift",
+     "source": "CoinMarketCap",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxcFlwNl9CTW1rMVpxbDdsdjFJRHcwa3NkTWFQa3NjODRVZG1PNHU3MzhvbU1mZ1FSdFNLUldSVUVmTktrOTBqVXBhVWt2VFFrQlBfN2J5RUR5UVhNOVV5QThKVmtDRE53TndvOThBeWI?oc=5",
      "via": "Google News"
     }
    ],
@@ -2265,6 +2282,13 @@
      "date": "2026-09-07",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHNkFHTHJFckxnNEFHUU9feWlGUFFLdDBQMTREb2xvcXVwd3VEUGdCc0UwQnpaTHFCdXBTZy00azhZaVpTamRyaExmTXlkUzVQNnQ1d2pqWWNEak9wRkdMLXhQa0NwbTRzMDRLOF9wbUllU2Q3bElJ?oc=5",
      "via": "Google News"
+    },
+    {
+     "title": "DeFi",
+     "source": "Yellow.com",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcjJWZUw0enJUZ0Z5cTUyWS1kc2tURTIzVURhbnlqbl9NVGVNaGxob3YwMW13TFZmRnFLdGdwRUVaRGhDV0VCZnJDUWotV0NDX0tBUzZ3MHBqakhGNjVjNEllWC1Qc0RZdG5LdXQ0cnFrZHp1NzNlSl9FeUN4RllQVnpmeXg?oc=5",
+     "via": "Google News"
     }
    ],
    "opinion": {
@@ -2377,6 +2401,27 @@
      "date": "2026-09-07",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYYXcyYTlzUjRBQzN5WTdQNUY3c013Y0g0ODhyR3hxem44MzZEelJuNy1oS3p6aHlucFlibGVfLW5NWnB5ZFREaloyV0dnQVNNcmlzR0t0NlJ0dklRZUFpVk53a1BzODljX1RoRGpSbzA?oc=5",
      "via": "Google News"
+    },
+    {
+     "title": "Jupiter (JUP) jumps 12% amid buybacks and Solan...",
+     "source": "Pluang",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeFZVVk9EeG5ETklYbDhKRjZzRU12ZnVxZjh0cWRZVjQxZHhCVUstSEplVC1RWk8yUE0wbi1uSUN3RW94S2NGcDhGZzNURWREVWJBRTdkaHVPUnM4ZFkzQ0M3djhfRG9jMGxLRHBsMnhKM1ZMN01ub2dSTlU5YlFWenRPUG1ZR2ZjZlZHSmxmTGI3Uzl0cmZ5ZExMR19NLTJKVURJN1pn?oc=5",
+     "via": "Google News"
+    },
+    {
+     "title": "Jupiter up 12% as monthly buybacks pass 1M tokens \u2013 Can JUP break $0.25?",
+     "source": "AMBCrypto",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZEczQjlNMUFpM0J4b3hjd1FpMGZQalZobnZLT2xncVNlNmRNYVl2dExHejIwcjZMWkRJQ1dJb0Z1QXNMSGVVODF0bDBHVnJLVlhRX0J2RnFBRWswMWRBS2VjMEoxM0tNNndnQnE0bGJoOVNmb1BIdkdyTFppcVlTR1NVM0xYb2ljemNVY1U4eWF6aHla?oc=5",
+     "via": "Google News"
+    },
+    {
+     "title": "Jupiter ASR: Claim JUP Rewards by October 8",
+     "source": "CryptoTicker",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAyTlplRF8tWEVYMjVyVnV2XzJoc0xxajFGWDlJcERWczA5SmhTeHc3MWpNQnE1MnpmS25UNlNVcmEwTmwyLTdITjcxSDhLS0oycnljLUFrOEVWYlJKVDI5cmhXOA?oc=5",
+     "via": "Google News"
     }
    ],
    "opinion": {
@@ -2421,12 +2466,6 @@
   "XRP": {
    "items": [
     {
-     "title": "XRP Holders Rushed 663% More Tokens Onto Binance. Almost None of It Got Sold",
-     "source": "BeInCrypto",
-     "date": "2026-09-21",
-     "url": "https://beincrypto.com/xrp-binance-inflows-surge-663-percent/"
-    },
-    {
      "title": "XRP ETFs hit a speed bump, but big investors aren\u2019t dumping their tokens yet",
      "source": "CryptoSlate",
      "date": "2026-09-19",
@@ -2467,6 +2506,12 @@
      "source": "CoinDesk",
      "date": "2026-09-18",
      "url": "https://www.coindesk.com/daybook-us/2026/09/18/xrp-on-the-brink-of-a-golden-cross-as-focus-switches-to-altcoins"
+    },
+    {
+     "title": "Ripple adds XRP payments to Stripe and Tempo\u2019s AI standard in new developer kit",
+     "source": "CoinDesk",
+     "date": "2026-09-17",
+     "url": "https://www.coindesk.com/tech/2026/09/17/ripple-adds-xrp-payments-to-stripe-and-tempo-s-ai-standard-in-new-developer-kit"
     }
    ],
    "opinion": {
@@ -2517,12 +2562,6 @@
   },
   "MORPHO": {
    "items": [
-    {
-     "title": "Circle Opens Bitcoin-Backed USDC Borrowing To Mint Clients, Routed Through Morpho",
-     "source": "The Defiant",
-     "date": "2026-09-21",
-     "url": "https://thedefiant.io/news/defi/circle-opens-bitcoin-backed-usdc-borrowing-to-mint-clients-on-morpho"
-    },
     {
      "title": "Morpho Opens Borrowing Against Coinbase's Tokenized Stocks",
      "source": "The Defiant",
@@ -2664,12 +2703,6 @@
   "ZEC": {
    "items": [
     {
-     "title": "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
-     "source": "CoinDesk",
-     "date": "2026-09-21",
-     "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-rises-above-usd81-000-while-near-jumps-23-on-zcash-swap-traffic"
-    },
-    {
      "title": "Grayscale\u2019s Zcash ETF files for 3-for-1 forward share split",
      "source": "Cointelegraph",
      "date": "2026-09-20",
@@ -2710,6 +2743,12 @@
      "source": "CoinDesk",
      "date": "2026-09-18",
      "url": "https://www.coindesk.com/tech/2026/09/18/zcash-targets-november-upgrade-to-make-private-payments-up-to-three-times-faster"
+    },
+    {
+     "title": "Dragonfly\u2019s Qureshi calls for end to Zcash dev fund after 2028",
+     "source": "Cointelegraph",
+     "date": "2026-09-18",
+     "url": "https://cointelegraph.com/news/dragonflys-qureshi-end-zcash-dev-fund-2028?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
    "opinion": {
@@ -3127,52 +3166,52 @@
   "BTC": {
    "items": [
     {
-     "title": "Bitcoin Tops $85K as $648M in Crypto Shorts Liquidated",
-     "source": "Decrypt",
-     "date": "2026-09-21",
-     "url": "https://decrypt.co/378729/bitcoin-tops-85k-as-648m-in-crypto-shorts-liquidated"
+     "title": "Why Bitcoin\u2019s rally above $80,000 isn\u2019t backed by institutional conviction",
+     "source": "CryptoSlate",
+     "date": "2026-09-20",
+     "url": "https://cryptoslate.com/why-bitcoins-rally-above-80000-isnt-backed-by-institutional-conviction/"
     },
     {
-     "title": "MicroStrategy Ends Two-Week Pause With 950 Bitcoin: Is the Buying Engine Stalling?",
+     "title": "Why Bitcoin\u2019s 63% HODL wave isn\u2019t the mega bull signal everyone thinks it is",
+     "source": "CryptoSlate",
+     "date": "2026-09-20",
+     "url": "https://cryptoslate.com/why-bitcoins-63-3-hodl-wave-isnt-the-mega-bull-signal-everyone-thinks-it-is/"
+    },
+    {
+     "title": "Bitcoin survived the Fed and CLARITY, and now faces the next major test at $82,000 this weekend",
+     "source": "CryptoSlate",
+     "date": "2026-09-19",
+     "url": "https://cryptoslate.com/bitcoin-survived-the-fed-and-clarity-and-now-faces-the-next-major-test-at-82000-this-weekend/"
+    },
+    {
+     "title": "Which Crypto ETF Drew the Most Money Last Week? Not Bitcoin, and Not Ethereum",
      "source": "BeInCrypto",
-     "date": "2026-09-21",
-     "url": "https://beincrypto.com/strategy-950-bitcoin-buy-strc-buyback/"
+     "date": "2026-09-19",
+     "url": "https://beincrypto.com/zcash-ethereum-crypto-etf-weekly-flows/"
     },
     {
-     "title": "\u2018A little more orange\u2019: Strategy buys 950 bitcoin for $76 million, bringing total holdings to 846,000 BTC",
+     "title": "Fidelity surge brings in $310M BTC saving Bitcoin ETFs from a disastrous week",
+     "source": "CryptoSlate",
+     "date": "2026-09-19",
+     "url": "https://cryptoslate.com/fidelity-surge-brings-in-310m-btc-saving-bitcoin-etfs-from-a-disastrous-week/"
+    },
+    {
+     "title": "REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive",
+     "source": "Cointelegraph",
+     "date": "2026-09-19",
+     "url": "https://cointelegraph.com/news/rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "title": "Bitcoin ETFs eke out positive week with $433 million Friday inflow as ether funds snap four-week inflow streak",
      "source": "The Block",
-     "date": "2026-09-21",
-     "url": "https://www.theblock.co/news/business/2026-09-21-a-little-more-orange-strategy-bitcoin-michael-saylor-415893"
+     "date": "2026-09-19",
+     "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
     },
     {
-     "title": "Strategy returns to bitcoin buys, adding $75 million of BTC last week",
-     "source": "CoinDesk",
-     "date": "2026-09-21",
-     "url": "https://www.coindesk.com/markets/2026/09/21/strategy-returns-to-bitcoin-buys-adding-usd75-million-of-btc-last-week"
-    },
-    {
-     "title": "Bitcoin's 44% gain in third quarter teases full-blown crypto bull run",
-     "source": "CoinDesk",
-     "date": "2026-09-21",
-     "url": "https://www.coindesk.com/daybook-us/2026/09/21/bitcoin-s-44-gain-in-third-quarter-teases-full-blown-crypto-bull-run"
-    },
-    {
-     "title": "Perp futures linked to 'bitcoin VIX' debut on Hyperliquid",
-     "source": "CoinDesk",
-     "date": "2026-09-21",
-     "url": "https://www.coindesk.com/markets/2026/09/21/perp-futures-linked-to-bitcoin-vix-debut-on-hyperliquid"
-    },
-    {
-     "title": "Bitcoin could test $90,000 after shorts get squeezed, but traders warn leverage is building",
-     "source": "CoinDesk",
-     "date": "2026-09-21",
-     "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-could-test-usd90-000-after-shorts-get-squeezed-but-traders-warn-leverage-is-building"
-    },
-    {
-     "title": "Circle Opens Bitcoin-Backed USDC Borrowing To Mint Clients, Routed Through Morpho",
-     "source": "The Defiant",
-     "date": "2026-09-21",
-     "url": "https://thedefiant.io/news/defi/circle-opens-bitcoin-backed-usdc-borrowing-to-mint-clients-on-morpho"
+     "title": "Bitcoin's Sharpest Rally in Two Years Ran Almost Entirely on Short Liquidations",
+     "source": "Decrypt",
+     "date": "2026-09-19",
+     "url": "https://decrypt.co/378686/bitcoin-sharpest-rally-two-years-short-liquidations"
     }
    ],
    "opinion": {
@@ -3475,6 +3514,13 @@
      "date": "2026-09-07",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOEJBWlJDdzRPUGpkeUpKNmgyTE4zWU45bXVDcmdYSm9ub0FmY3NFMDMxUW9hVFF2NzdwakVOQmFCTXlDNmo4Tnp5dzRnTjZLNTktVmcyRko4N0o1anVwU1JCRmhZOFdmcE5EWUE4MjhlMkNKOWo5bDB3V0VmS0lsMzhaTmR0R3BxYmtoVzFB?oc=5",
      "via": "Google News"
+    },
+    {
+     "title": "Raydium (RAY) Price USD Today, News, Charts, Market Cap",
+     "source": "Coinbase",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xV2NpQnIyaUotQzkxSVB1MmVuODJQTEhKREJ3ZldCVUo0N2U5SHZtbVEwQVg5MTN3R1ZuT2hyZlh3RkJEN1ZzeS0zNm8ycGM?oc=5",
+     "via": "Google News"
     }
    ],
    "opinion": {
@@ -3722,12 +3768,6 @@
   "ONDO": {
    "items": [
     {
-     "title": "Ondo lets institutions convert stocks directly into tokenized shares",
-     "source": "Cointelegraph",
-     "date": "2026-09-21",
-     "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
      "title": "The Ondo Finance succession crisis gets messier as Kathleen Allman\u2019s daughter alleges \u2018dementia\u2019, alcoholism and reckless spending",
      "source": "CoinDesk",
      "date": "2026-09-17",
@@ -3750,6 +3790,13 @@
      "source": "CoinMarketCap",
      "date": "2026-09-09",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdXI0Qy15RW9qdmtjaVk3ZHlhQk5NNV9lWkhnM1lDemJRcDh1X3VhMGpDa0J5dVdWd2RQRkY0ZzBhczlHYWV2Vk5VX0cxSWV3V0FDSVFtcVFsYWdrdG10bEgwTUVjM005OUQxY3gzb3MzeEE4ZGIzV2pERjdBRFhfNE1vSVN1Rko1UnRnd2M3dktpMGxXa0I3dEJpb0NHTlNMYVVydVBRRHg?oc=5",
+     "via": "Google News"
+    },
+    {
+     "title": "The Quiet Treasury Boom Turning Ondo Finance Into A DeFi Market Structure Story",
+     "source": "Yellow.com",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNZWNqanoydVJxVjdCSTdmNjEwdjAxSVRMZmtDWHVjZGcwcHVoMW56U2ZEWTk5ZENIdWNLT2ZHQUhHU3FiNjVZdVFHU21iclFNVFB2MnRxOTdiY21ZbzFtSFdlaDRDNHdTMzUwendaYWhZU2txeXVoYVRYRXBNMG5fSTVpM2hScEExMWxOUDA4cEtwQWhqQmJSOUthU1M5T0cwbldmWmNzV3RweFRmUGx5eTd2X0M3ZEFZcEVRS1lLQTZXczB4czRrblZxSjlUNXlOMFZ5dTBxTUtlRU5vdHk0T0pFY1BHeGE3TGNMNTFSQUdaLVd6UUcyaWNtVTZBNFZzWmxkcndQUkhtLWRwdGY4RHZzclo?oc=5",
      "via": "Google News"
     }
    ],
@@ -3919,6 +3966,13 @@
      "source": "The Defiant",
      "date": "2026-09-09",
      "url": "https://thedefiant.io/news/defi/arbitrum-watchdog-seeks-permanent-bans-three-grant-recipients"
+    },
+    {
+     "title": "Robinhood Chain Now Earns 240x The Fees Of Arbitrum Itself - And ARB Is Up 45% On The Cut It Gets",
+     "source": "TradingView",
+     "date": "2026-09-06",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY0s1c2FkZjZoQlVJWkY0dXdsLWpYdXVhVjBMWGhyOGNySXg2ZWpTS3I3S3c0amJaZDcyTkFtM3BqbGlLYVhZQWVLVHNIa0M0dWVWd3V1czJvVTM5aDducGVPRHNIRktUZTRJZGFONWJBUWVGTWE4RHpoV3lfS2pMNmZNNHVzb1RLWkJKMVNQV1RTZWVfaEFHVFdHT1lUSEV2MFJMTi1sd3ZHbHBhRHRLeHp1TjFBU0MxRlBjM2k3RDlHWENJWU5qSU5iRFcyaWZKemM0YVNOT2kxcTZ4ZFBqUVBKVTZUY3VaMWc?oc=5",
+     "via": "Google News"
     }
    ],
    "opinion": {

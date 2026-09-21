@@ -217,16 +217,10 @@
   "AAVE": {
    "items": [
     {
-     "title": "Aave founder pitches \u2018Uber path\u2019 for DeFi after Clarity Act fails Senate vote",
-     "source": "The Block",
-     "date": "2026-09-16",
-     "url": "https://www.theblock.co/news/defi/2026-09-16-aave-founder-pitches-uber-path-defi-clarity-act-fails-senate-vote-415278"
-    },
-    {
-     "title": "Aave Labs Plans A Tokenized-Asset Credit Market On Avalanche With Tether's USA\u20ae",
-     "source": "The Defiant",
-     "date": "2026-09-16",
-     "url": "https://thedefiant.io/news/defi/aave-avalanche-rwa-hub-usat-tokenized-collateral"
+     "title": "Aave\u2019s proposed interest rate hike threatens to crush Ethena\u2019s most popular yield loop",
+     "source": "CryptoSlate",
+     "date": "2026-09-11",
+     "url": "https://cryptoslate.com/rising-aave-borrow-rates-threaten-to-flip-ethenas-usde-yield-loops-into-negative-carry/"
     },
     {
      "title": "Five Months After the Kelp Hack, Aave Is Still Down $8 Billion",
@@ -353,16 +347,22 @@
   "SOL": {
    "items": [
     {
-     "title": "Solana triples transaction size as major upgrades meet record network activity",
-     "source": "CryptoSlate",
+     "title": "Solana Co-Founder Cheers $660,000 Tokenized Dinosaur Skull Sale",
+     "source": "BeInCrypto",
      "date": "2026-09-16",
-     "url": "https://cryptoslate.com/solana-triples-transaction-size-as-major-upgrades-meet-record-network-activity/"
+     "url": "https://beincrypto.com/solana-tokenized-dinosaur-skull-sale/"
     },
     {
-     "title": "Solana treasury giant DeFi Development opens $300M CHAD offering backed by a massive 13% dividend catch",
+     "title": "Solana nearly froze as a single routing error took 29% of the network stake offline",
      "source": "CryptoSlate",
      "date": "2026-09-16",
-     "url": "https://cryptoslate.com/solana-treasury-giant-defi-development-opens-300m-chad-offering-backed-by-a-massive-13-dividend-catch/"
+     "url": "https://cryptoslate.com/solana-nearly-froze-as-a-single-routing-error-took-29-of-the-network-stake-offline/"
+    },
+    {
+     "title": "Ether, solana, XRP likely to gain if Clarity Act progresses",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/daybook-us/2026/09/15/ether-solana-xrp-likely-to-gain-if-clarity-act-progresses"
     },
     {
      "title": "Solana Treasury Firm DeFi Dev Corp Rolls Out $300M CHAD to Buy More SOL",
@@ -371,37 +371,28 @@
      "url": "https://decrypt.co/378183/solana-defi-development-corp-chad"
     },
     {
-     "title": "Solana sees record 263K tokens issued in a single day",
+     "title": "Solana more than triples transaction size limit with mainnet upgrade",
      "source": "Cointelegraph",
-     "date": "2026-09-10",
-     "url": "https://cointelegraph.com/news/solana-record-263k-tokens-issued?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "date": "2026-09-15",
+     "url": "https://cointelegraph.com/news/solana-transaction-size-limit-4096-bytes-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-     "title": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
-     "source": "The Block",
-     "date": "2026-09-09",
-     "url": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061"
+     "title": "Solana transactions just got more than 3 times bigger, narrowing the gap with Ethereum",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/tech/2026/09/15/solana-transactions-just-got-more-than-3-times-bigger-giving-an-edge-over-ethereum"
     },
     {
-     "title": "Solana Upgrade Draws $9.11M Whale Longs Despite Bearish Futures Market",
-     "source": "Yellow.com",
-     "date": "2026-09-08",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84NVFaRlRHU1Q3T0lDRnVyVTJESUV6ajZyMUZoWkg5Q09BTk5nbVgxVHZWWF9jd3R3VUZvOERzWjk0enZvaW9WT2JnUnBuRzJfbTFOQ2I1amFvb09lQVhnM1FxaHZhQmdfSmFWM1dULXh4SGU3?oc=5",
-     "via": "Google News"
+     "title": "Solana lender Kamino taps fintech veteran Michael Weisz as CEO for massive U.S. expansion",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion"
     },
     {
-     "title": "DeFi Development closes Strategy-style $11 million CHAD offering to grow Solana treasury",
-     "source": "The Block",
-     "date": "2026-09-08",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTE5uMnExVjR0UXBYTUEtb2dVblNCSzJsbEtIMmRxZ3Y1NXl5SUtSWmFOU2NtcEQwTXo3TVNWbTJ6a3BxbzlGUlhPeDd6aU1UUUNvMnBHdFh4cGswczVSNUsxWS16WHBhUG1lZkN3b25yM3JaVVQ3azNuM0JVVEFFNXlSd1FpNUNaSVdrOThmUVgzX0sxZ2N6MVBHcnlFUV9VM1ZRQWhqTy1PbXVDWlFYUzNwaFlYa0JCamk1Y2hpOHh0UXI2aFZoVkhRZ0R5cW5fcTYzSDJR?oc=5",
-     "via": "Google News"
-    },
-    {
-     "title": "Kraken Shock Cuts Solana Staking Yields To 2.25% As SOL Holds $102",
-     "source": "Forbes",
-     "date": "2026-09-07",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORThYQ2dTZkNYUGJlam13bWhzUlhPbnBpWERMWGc1YTAzLVhyVnNMYWdRNEc1RzJMZTJJcmtpWnp5MThGazR6SkVzeHdQMlNKaXg5TlhFMFpkMl9oWS1pYTJhQmE3MWFteVEzRkxDOUM5SHhoTXRFWDlwXzRPdnNWSnV5ZHF6djZQMjJNaUxRWlhINFZqNFQ5N3lfTk9RQWFuTThKa0E4Y3FMX200VTZqeS1ETVd3UFk?oc=5",
-     "via": "Google News"
+     "title": "Dogecoin ETFs struggled for buyers while rival XRP and Solana funds pulled in $3 billion",
+     "source": "CoinDesk",
+     "date": "2026-09-14",
+     "url": "https://www.coindesk.com/markets/2026/09/14/dogecoin-etfs-struggled-for-buyers-while-rival-xrp-and-solana-funds-pulled-in-usd3-billion"
     }
    ],
    "opinion": {
@@ -561,16 +552,16 @@
      "url": "https://www.coindesk.com/tech/2026/09/16/ethereum-base-give-up-on-common-wallet-standard-after-months-of-talks"
     },
     {
-     "title": "MEV Bot Front-Runs $7.8 Million rsETH Exploit on Ethereum",
-     "source": "The Defiant",
-     "date": "2026-09-15",
-     "url": "https://thedefiant.io/news/hacks/mev-bot-front-runs-7-8-million-rseth-exploit-on-ethereum"
+     "title": "Bitcoin, Ethereum ETFs Bleed $592 Million as Clarity Act Fails in Senate",
+     "source": "BeInCrypto",
+     "date": "2026-09-16",
+     "url": "https://beincrypto.com/bitcoin-ethereum-etf-outflows-september-2026/"
     },
     {
-     "title": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
-     "source": "Cointelegraph",
+     "title": "Ether, solana, XRP likely to gain if Clarity Act progresses",
+     "source": "CoinDesk",
      "date": "2026-09-15",
-     "url": "https://cointelegraph.com/news/standard-chartered-arbitrum-arb-price-10-2030?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://www.coindesk.com/daybook-us/2026/09/15/ether-solana-xrp-likely-to-gain-if-clarity-act-progresses"
     },
     {
      "title": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
@@ -579,16 +570,16 @@
      "url": "https://cointelegraph.com/news/ethereum-base-wallet-standards-collaboration-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-     "title": "Ethereum Exchange Supply Falls to 15.5M ETH as On-Chain Momentum Turns Bullish",
-     "source": "BeInCrypto",
-     "date": "2026-09-10",
-     "url": "https://beincrypto.com/ethereum-exchange-supply-mvrv-momentum/"
+     "title": "Tonkeeper rebrands as Keeper with support for 7 networks, including Bitcoin and Ethereum",
+     "source": "The Block",
+     "date": "2026-09-15",
+     "url": "https://www.theblock.co/news/business/2026-09-15-tonkeeper-rebrands-as-keeper-with-support-for-7-networks-including-bitcoin-and-ethereum-414807"
     },
     {
-     "title": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
-     "source": "CoinDesk",
-     "date": "2026-09-10",
-     "url": "https://www.coindesk.com/tech/2026/09/10/crypto-researchers-cut-bitcoin-and-ethereum-quantum-attack-estimate-by-50"
+     "title": "Zama expands confidential Morpho lineup after first vault hits $40 million, launches private swaps on Ethereum",
+     "source": "The Block",
+     "date": "2026-09-15",
+     "url": "https://www.theblock.co/news/defi/2026-09-15-zama-expands-confidential-morpho-lineup-after-first-vault-hits-40-million-launches-private-swaps-on-ethereum-414613"
     }
    ],
    "opinion": {
@@ -613,6 +604,12 @@
   },
   "SKY": {
    "items": [
+    {
+     "title": "\u2018DeFi\u2019s federal bank\u2019: Standard Chartered sees SKY token rising fivefold by end-2028",
+     "source": "The Block",
+     "date": "2026-09-11",
+     "url": "https://www.theblock.co/news/markets/2026-09-11-standard-chartered-sky-token-defi-federal-bank-414280"
+    },
     {
      "title": "Standard Chartered Says SKY Token Will 5X to $0.325 by 2028",
      "source": "The Defiant",
@@ -710,12 +707,6 @@
   },
   "XMR": {
    "items": [
-    {
-     "title": "Revolut hackers demand $3 million in Monero, threaten to sell customer data",
-     "source": "CoinDesk",
-     "date": "2026-09-16",
-     "url": "https://www.coindesk.com/markets/2026/09/16/revolut-hackers-demand-usd3-million-in-monero-threaten-to-sell-customer-data"
-    },
     {
      "title": "Privacy Coins Crush Crypto Market With 213% Surge as Zcash and Monero Break Away",
      "source": "bitcoinfoundation.org",
@@ -957,6 +948,12 @@
   "UNI": {
    "items": [
     {
+     "title": "Malicious Uniswap v4 hooks are baiting DeFi traders with fake swap quotes",
+     "source": "CryptoSlate",
+     "date": "2026-09-16",
+     "url": "https://cryptoslate.com/malicious-uniswap-v4-hooks-are-baiting-defi-traders-with-fake-swap-quotes/"
+    },
+    {
      "title": "0x Says Uniswap v4 Hooks Were A Mistake, Hayden Adams Says \"Skill Issue\"",
      "source": "The Defiant",
      "date": "2026-09-15",
@@ -999,13 +996,6 @@
      "source": "CryptoSlate",
      "date": "2026-09-08",
      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11STFlaHhIU1o3VG82MGxjcU1pZVVCay01aGhzM1JtQ1FRVi1DRHVyR0VjbW0yMXBXc3RDNWk0SktLUTRxb2FpTzNNZk5LeHM?oc=5",
-     "via": "Google News"
-    },
-    {
-     "title": "Uniswap (UNI) Price Surges 100%, and One Chain Playing \u2018Robin Hood' Explains Why",
-     "source": "Yahoo Finance",
-     "date": "2026-09-03",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdXBHSkRteFU4SXl3UkM2bHMyaEEtdmFndTNBdHhMQlQzb0xtZ2dUWGdKaXRxbzRvUUtaMmhyRkpnaGtMNjg3cERoaWJveEd4MlYyVngwLVRsWThJLVpGdGZibjNLUEVldWs5aHVfX052RnNlXzVIZlZ5SmJaSUg3TzJZcmVxUmoyUG5jUXNpLUY3UU9qcUxqbg?oc=5",
      "via": "Google News"
     }
    ],
@@ -1065,24 +1055,6 @@
   "HYPE": {
    "items": [
     {
-     "title": "Robinhood engineers face up to 30 years over $50,000 alleged Hyperliquid profits",
-     "source": "CryptoSlate",
-     "date": "2026-09-16",
-     "url": "https://cryptoslate.com/robinhood-engineers-face-up-to-30-years-over-50000-alleged-hyperliquid-profits/"
-    },
-    {
-     "title": "Payward plans to offer U.S. clients onchain perpetual futures on Hyperliquid",
-     "source": "CoinDesk",
-     "date": "2026-09-16",
-     "url": "https://www.coindesk.com/markets/2026/09/16/payward-plans-to-offer-u-s-clients-onchain-perpetual-futures-on-hyperliquid"
-    },
-    {
-     "title": "Kraken Parent Plans Permissioned Hyperliquid Perps for US Traders",
-     "source": "The Defiant",
-     "date": "2026-09-16",
-     "url": "https://thedefiant.io/news/defi/kraken-parent-plans-permissioned-hyperliquid-perps-for-us-traders"
-    },
-    {
      "title": "Two Robinhood engineers charged with insider trading using Hyperliquid perpetuals",
      "source": "CoinDesk",
      "date": "2026-09-16",
@@ -1093,6 +1065,12 @@
      "source": "The Block",
      "date": "2026-09-15",
      "url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865"
+    },
+    {
+     "title": "Hyperliquid\u2019s biggest risk is regulation, says Ran Neuner",
+     "source": "Cointelegraph",
+     "date": "2026-09-11",
+     "url": "https://cointelegraph.com/news/hyperliquids-biggest-risk-is-regulation-says-ran-neuner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
      "title": "HYPE Price Hyperliquid TA HYPE TA HYPE Technical Analysis",
@@ -1112,6 +1090,19 @@
      "source": "Yahoo! Finance Canada",
      "date": "2026-09-09",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcjFQLTNRdDd6bXM5cHRqLXc4SS12UWxVd3RiVkFGcEZqWjFKZHRFdWVhZ2lKTHZaWndZTm9ScTlkSzdvRGo2Q2FkbWk0dmZOdFE5eWhBSmhWcG16SDRjSzNZd0tuQ1pJbmVBVjVxQnZYaVFlSDJaYVhEa0ZjVlBzZzhzcUY1a2pzTkd5Rm9wLXA?oc=5",
+     "via": "Google News"
+    },
+    {
+     "title": "Hyperliquid Policy Center backs CFTC in fight over perpetual futures, asks court to drop CME\u2019s case",
+     "source": "The Block",
+     "date": "2026-09-09",
+     "url": "https://www.theblock.co/news/regulation/2026-09-09-hyperliquid-policy-center-backs-cftc-fight-perpetual-futures-asks-court-drop-cme-case-414046"
+    },
+    {
+     "title": "HYPE Token Rises To $43.68 While Hyperliquid DEX Volume Hits $331M",
+     "source": "Yellow.com",
+     "date": "2026-09-07",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbUwtbkJneGlEc0ZuX2lsQjFhV0dJXy1xTmo1WEFKYU00MGFQaUZuX0NwREVycWtOZFFpX05VTDdTTnBVMDBqY3BodzFoakE1WlJ3MloweGlnWWpkV0ptN1ltS1Y0Zm5XWFIzOXdoYi1HODhhX1UyUHpiQ0NZYnI2emZhMm00UEZ0bHUwNWdmOXRISGF0d3BucUYyNlZkZTlUODdEM2VIU2h4ZmF5V1Q2bjVCbWdDdHVYY3VR?oc=5",
      "via": "Google News"
     }
    ],
@@ -1438,18 +1429,6 @@
   },
   "AVAX": {
    "items": [
-    {
-     "title": "A LatAm telecom operator is putting part of its finances on Avalanche",
-     "source": "CoinDesk",
-     "date": "2026-09-16",
-     "url": "https://www.coindesk.com/business/2026/09/15/a-latam-telecom-operator-is-putting-part-of-its-finances-on-avalanche"
-    },
-    {
-     "title": "Aave Labs Plans A Tokenized-Asset Credit Market On Avalanche With Tether's USA\u20ae",
-     "source": "The Defiant",
-     "date": "2026-09-16",
-     "url": "https://thedefiant.io/news/defi/aave-avalanche-rwa-hub-usat-tokenized-collateral"
-    },
     {
      "title": "India\u2019s Arya.ag to put grain ownership records on Avalanche",
      "source": "Cointelegraph",
@@ -2065,12 +2044,6 @@
   },
   "ADA": {
    "items": [
-    {
-     "title": "Cardano fees covered just 0.7% of staking rewards as transactions fall 72%",
-     "source": "CryptoSlate",
-     "date": "2026-09-16",
-     "url": "https://cryptoslate.com/cardano-fees-covered-just-0-7-of-staking-rewards-as-transactions-fall-72/"
-    },
     {
      "title": "Cardano (ADA) Price Prediction 2026, 2027 \u2013 2030: Will ADA Price Hit $2?",
      "source": "coinpedia.org",
@@ -2770,44 +2743,40 @@
      "url": "https://www.coindesk.com/markets/2026/09/16/xrp-sinks-10-as-the-clarity-act-fails-and-bitcoin-slides-toward-usd76-000"
     },
     {
-     "title": "XRP Leads a Broad Crypto Bid on the Eve of a Senate Vote and a Fed Decision",
-     "source": "The Defiant",
-     "date": "2026-09-14",
-     "url": "https://thedefiant.io/news/markets/xrp-leads-broad-crypto-bid-senate-vote-fed-decision-sep-14-2026"
-    },
-    {
-     "title": "XRP Ledger crossed 5 billion transactions, but 92% of August activity came from just 767 bots",
+     "title": "Ripple\u2019s university strategy is evolving from blockchain labs to XRP logos in packed stadiums",
      "source": "CryptoSlate",
-     "date": "2026-09-10",
-     "url": "https://cryptoslate.com/xrp-ledger-crossed-5-billion-transactions-but-92-of-august-activity-came-from-just-767-bots/"
+     "date": "2026-09-16",
+     "url": "https://cryptoslate.com/ripples-university-strategy-is-evolving-from-blockchain-labs-to-xrp-logos-in-packed-stadiums/"
     },
     {
-     "title": "XRP Ripple Held Firm After its September Escrow Release",
-     "source": "Yahoo Finance",
-     "date": "2026-09-07",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZUlSaWdCTHg2eldSUDVRNzBadVAxTnQ2WjNRRXhUZkdVcmE0N25DcjJBYXVTNU8tMzRzY1Q3bV9zcmZmdkZwVzlBRnJidWQ3Q2Z4YTVsYVRDdE9ic1JWLUM5aXpiN0pqOUNxOEdCekpNbzBHbFlXOC1iUmRWR0dZRWRycWFvalpsa2Fvb0ZFYTloU2w2UFFkUTRqVQ?oc=5",
-     "via": "Google News"
+     "title": "Ether, solana, XRP likely to gain if Clarity Act progresses",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/daybook-us/2026/09/15/ether-solana-xrp-likely-to-gain-if-clarity-act-progresses"
     },
     {
-     "title": "XRP Defies $1.38 Billion Ripple Unlock as Institutional Demand Rewrites the Market",
-     "source": "bitcoinfoundation.org",
-     "date": "2026-09-07",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMmxLT3FNRkpGU19SWHk5UmxOOFByRXdaT2pSWHBVV0NweHV3eDBVSzVVVzVoNlFzaktRUEYxWVJjZkd4TzR0b0VNR3d1WkdZeTUwNVJZNE5oYWw1bzJyVGQ4dUxsNXlHcU1FUmlvaUZqSmVNaWc0SUdpYkRJRGpDNkRFc0VtT0dfejJyaFNOaVlNWFFyQnJNQUdaUklFUmExRnl3OHhheFVobjdiR2huVHBYZ2JBZW5KekpHRHFFRGhLcmdE?oc=5",
-     "via": "Google News"
+     "title": "Velocity extends Series A to $48M at $200M valuation with backing from Visa, Circle, and Ripple",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/business/2026/09/10/velocity-extends-series-a-to-usd48m-at-usd200m-valuation-with-backing-from-visa-circle-and-ripple"
     },
     {
-     "title": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16?",
-     "source": "24/7 Wall St.",
-     "date": "2026-09-06",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdW9sSEEyeWxkeTItWmpVR3NUU0lVZ09JcnNkYmtBMk04dW5TYmFIcS1hUmY5dHN0NGxscGJicS03dlR5MFBCRjg5ZW8xV1FmamUwbUt1b05BLUtTLV8yYmFITDljZU9kSUt2OXdQOFZCemRKYXN6WVhrdTZFSkRjb0FrdEMxMTZzQjhoY2xhTnY2NVlsSllLQWx5WWgwTHpKT281QnNqeHNuUHhCVEJ4UE85QmNUaDNoZGhmeUlwREF5OWw2UTJWbzVaTkRCdFVQVGg2UWJMMnowV3BXQXhIWW5keHdrVExzdm5HY1V4a3owdw?oc=5",
-     "via": "Google News"
+     "title": "XRP and XLM Explode 8% as the CLARITY Act Nears Crucial Vote",
+     "source": "BeInCrypto",
+     "date": "2026-09-15",
+     "url": "https://beincrypto.com/xrp-xlm-explode-8-percent-clarity-act-nears-crucial-vote/"
     },
     {
-     "title": "Florida Athletics Debuts XRP cryptocurrency logo at Ben Hill Griffin Stadium",
-     "source": "floridagators.com",
-     "date": "2026-09-04",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObkZsVFowZVZIOEh2MnVrbXByWWVNczF1UmlXZlhURjVQVTVjQlVTNjVmMnVrblRUQlNwRnEwMDFNVDJQQUJxNjF3ZGRaNi1iYVNTczNnV0RGYUxVRnBwN05RMmFNZG05MXJGbFZkRmNwOUF6R3V3dUQ2akpHWVlCOHdaT1RFUlBEb2NxRzZxQTRUSTMzTXEyUXRwT2hadU1ncUFHLTh2amlkQ1FpYXNmSU55WDNIVVN4YnVqamhjcUtvVVU?oc=5",
-     "via": "Google News"
+     "title": "XRP Ledger is one vote away from starting its next big payments upgrade",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/tech/2026/09/15/xrp-ledger-is-one-vote-away-from-starting-its-next-big-payments-upgrade"
+    },
+    {
+     "title": "A new XRPL upgrade could concentrate XRP ownership inside banks instead of retail wallets",
+     "source": "CryptoSlate",
+     "date": "2026-09-15",
+     "url": "https://cryptoslate.com/a-new-xrpl-upgrade-could-concentrate-xrp-ownership-inside-banks-instead-of-retail-wallets/"
     }
    ],
    "opinion": {
@@ -3007,16 +2976,34 @@
   "ZEC": {
    "items": [
     {
-     "title": "Zcash holders back 25-second blocks, vote to keep ZEC halving schedule",
-     "source": "Cointelegraph",
+     "title": "Live updates: Zcash climbs 6% as majors slide ahead of Fed rate decision",
+     "source": "CoinDesk",
      "date": "2026-09-16",
-     "url": "https://cointelegraph.com/news/zcash-nu7-poll-faster-blocks-zec-halvings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+     "url": "https://www.coindesk.com/business/2026/09/16/live-updates-zcash-climbs-6-as-majors-slide-ahead-of-fed-rate-decision"
     },
     {
      "title": "Zcash holders overwhelmingly back faster transactions and bitcoin-style halvings",
      "source": "CoinDesk",
      "date": "2026-09-16",
      "url": "https://www.coindesk.com/tech/2026/09/16/zcash-holders-overwhelmingly-back-faster-transactions-and-bitcoin-style-halvings"
+    },
+    {
+     "title": "Bitcoin vs Zcash: Grayscale Reveals Which Is More Profitable to Mine",
+     "source": "BeInCrypto",
+     "date": "2026-09-12",
+     "url": "https://beincrypto.com/bitcoin-zcash-mining-profitability-grayscale/"
+    },
+    {
+     "title": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
+     "source": "CoinDesk",
+     "date": "2026-09-11",
+     "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-recovers-toward-usd77-300-as-zcash-leverage-unwinds"
+    },
+    {
+     "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
+     "source": "CoinDesk",
+     "date": "2026-09-11",
+     "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike"
     },
     {
      "title": "Zcash Shorts Reach 72% as ZEC Holds Above $1,100",
@@ -3037,27 +3024,6 @@
      "source": "CoinDesk",
      "date": "2026-09-07",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcVJGaVY0a2o2UExQbkhpZmJDbTU1UFRlTlo0YUc3QlRLMW5IR01kcTV1REFJLVUxc0p6ZGFqWTdhTER2SzR1R3ozQ1NfTnlMZVRFVDFMdy1pUzBlMnMyMHZWWHpVbFVXLWtRS0IxcW01TGR5RkQtcWNJR1dXamo2bU1tdmZNemN2T1pyYzBnWExnVDFPNjhoZi03N2RIdkx2Y3dTekFKNWZKY0taUS0yVm1wdjM3LXptQnhZUTM2emI?oc=5",
-     "via": "Google News"
-    },
-    {
-     "title": "$Zcash (ZEC.CC)$ just hit $1,000.",
-     "source": "Moomoo",
-     "date": "2026-09-06",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc1cta3NCMS1LdDZscTJGRk01ZW1IZWR0UWFwNm5GdEZNLThUbGFiaTVia1pWMkEzRmJueld4MHA1S2VLd0NQUWpYNWVTS1U4WWJPaFJYdVJCaUxob3c0elpjLTkxdUhSaVI5MVZYenlZWjNfZmQ5WTAtNzRuN05oLV9TbVlaa01nUk9GVW42d0xTTFFnNkxRVzljcjg?oc=5",
-     "via": "Google News"
-    },
-    {
-     "title": "Zcash Flips HYPE As $2.4B Open Interest Raises The Stakes For Its Rally",
-     "source": "TradingView",
-     "date": "2026-09-06",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYXJSLVc2QjhKbkZ6aGRiUkpLSlkwaVZuWW1HT244b25QZndGN2VnTkNabjZ6SkdabWJRS3Z5dmhPQ0thOVZJanU0STFDYzZocFdlVDZsdVhDVmx3WEJiZnVJbi1kaVBtT1k0aEJ5cVJmcHhhWUpxOWJWRDZYSUc5WWIwX210dklERGdNVHZkOVhaQmRjNVRJOUxnQzhWR3RGQ1RiOTVPZ3JpR3J0UC1CenJJZ1hwbDNSUm1lcDQyampoWkdSaGxHUzln?oc=5",
-     "via": "Google News"
-    },
-    {
-     "title": "Zcash (ZEC) Surges 5.02% on Short Squeeze, ETF Interest",
-     "source": "CoinMarketCap",
-     "date": "2026-09-04",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xZTlrX0x0MzFoR2kyakZqM2xyeUNxMUo0S3Y4Mmg1ZzRBNTJrc1c5WnROZDU2VC1OOUc2ZFVVUDZyYUtpLVJIRlhEenJGa1Z2WEpGdnlYQzBWMVpYUFAteXNadzBpWjJXRVJsT1lYSmQ?oc=5",
      "via": "Google News"
     }
    ],
@@ -3574,52 +3540,52 @@
   "BTC": {
    "items": [
     {
-     "title": "Bitcoin Core Software Update Aims for Speed and Security Patches",
-     "source": "Decrypt",
-     "date": "2026-09-16",
-     "url": "https://decrypt.co/378430/bitcoin-core-software-october-update"
-    },
-    {
-     "title": "Bitcoin\u2019s Fed move could run straight into a $6.3 billion IBIT options wall",
-     "source": "CryptoSlate",
-     "date": "2026-09-16",
-     "url": "https://cryptoslate.com/bitcoins-fed-move-could-run-straight-into-a-6-3-billion-ibit-options-wall/"
-    },
-    {
-     "title": "Fed Hikes Rates for the First Time Since 2023, Bitcoin Spikes",
-     "source": "Decrypt",
-     "date": "2026-09-16",
-     "url": "https://decrypt.co/378417/fed-hikes-rates-first-time-since-2023-bitcoin"
-    },
-    {
-     "title": "Celsius Sues Dying BitMEX Exchange for 6,360 Lost Bitcoin",
-     "source": "BeInCrypto",
-     "date": "2026-09-16",
-     "url": "https://beincrypto.com/celsius-sues-bitmex-6360-bitcoin/"
-    },
-    {
-     "title": "Your Bitcoin Payments Can Reveal More Than You Bargained For",
-     "source": "BeInCrypto",
-     "date": "2026-09-16",
-     "url": "https://beincrypto.com/bitcoin-wallet-privacy-transaction-tracing/"
-    },
-    {
-     "title": "Bitcoin ETFs Had Their Worst Day Since June Following Failed Clarity Act Vote",
-     "source": "Decrypt",
-     "date": "2026-09-16",
-     "url": "https://decrypt.co/378382/bitcoin-etfs-clarity-act-vote"
-    },
-    {
-     "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
-     "source": "Decrypt",
-     "date": "2026-09-10",
-     "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming"
-    },
-    {
-     "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
+     "title": "Bitcoin loses touch with the Dollar Index, U.S. stocks ahead of the Fed",
      "source": "CoinDesk",
-     "date": "2026-09-10",
-     "url": "https://www.coindesk.com/business/2026/09/10/a-quarter-of-bankrupt-bitcoin-depot-s-atms-snapped-up-for-less-than-usd1-million"
+     "date": "2026-09-16",
+     "url": "https://www.coindesk.com/daybook-us/2026/09/16/bitcoin-loses-touch-with-the-dollar-index-u-s-stocks-ahead-of-the-fed"
+    },
+    {
+     "title": "Bitcoin traders brace for Fed hike, but a surprise hold could pose bigger risk",
+     "source": "CoinDesk",
+     "date": "2026-09-16",
+     "url": "https://www.coindesk.com/markets/2026/09/15/bitcoin-traders-brace-for-fed-hike-but-a-surprise-hold-could-pose-bigger-risk"
+    },
+    {
+     "title": "Two Prime makes onchain finance push with $10 million-backed bitcoin yield vault",
+     "source": "CoinDesk",
+     "date": "2026-09-16",
+     "url": "https://www.coindesk.com/markets/2026/09/15/two-prime-makes-onchain-finance-push-with-usd10-million-backed-bitcoin-yield-vault"
+    },
+    {
+     "title": "Bitcoin ETFs shed $450 million as Clarity Act fails",
+     "source": "CoinDesk",
+     "date": "2026-09-16",
+     "url": "https://www.coindesk.com/markets/2026/09/16/bitcoin-etfs-shed-usd450-million-as-clarity-act-fails"
+    },
+    {
+     "title": "Bitcoin and XRP Await the Fed After CLARITY Act's Failure: Another Blow Coming?",
+     "source": "BeInCrypto",
+     "date": "2026-09-16",
+     "url": "https://beincrypto.com/clarity-act-fails-bitcoin-xrp-fed-decision/"
+    },
+    {
+     "title": "Ethiopia cuts Bitcoin miners\u2019 power by 77% amid hydropower shortage: Report",
+     "source": "Cointelegraph",
+     "date": "2026-09-16",
+     "url": "https://cointelegraph.com/news/ethiopia-bitcoin-mining-power-cut-hydro-shortage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "title": "Bitcoin needs to reach $82,900 to outrun a looming miner margin squeeze",
+     "source": "CryptoSlate",
+     "date": "2026-09-15",
+     "url": "https://cryptoslate.com/bitcoin-needs-to-reach-82900-to-outrun-a-looming-miner-margin-squeeze/"
+    },
+    {
+     "title": "Bitcoin gives back Monday's gain as Clarity Act odds fade on Polymarket",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/markets/2026/09/15/bitcoin-gives-back-monday-s-gain-as-clarity-act-odds-fade-on-polymarket"
     }
    ],
    "opinion": {
@@ -3918,6 +3884,12 @@
   "RAY": {
    "items": [
     {
+     "title": "Raydium Reaches 11-Month High With Three Catalysts Driving the 90% Rally",
+     "source": "BeInCrypto",
+     "date": "2026-09-11",
+     "url": "https://beincrypto.com/raydium-ray-price-11-month-high/"
+    },
+    {
      "title": "Raydium Price Forecast: Rally signals trend reversal amid network growth, buyback",
      "source": "FXStreet",
      "date": "2026-09-10",
@@ -4171,6 +4143,12 @@
   "ENA": {
    "items": [
     {
+     "title": "Aave\u2019s proposed interest rate hike threatens to crush Ethena\u2019s most popular yield loop",
+     "source": "CryptoSlate",
+     "date": "2026-09-11",
+     "url": "https://cryptoslate.com/rising-aave-borrow-rates-threaten-to-flip-ethenas-usde-yield-loops-into-negative-carry/"
+    },
+    {
      "title": "Ethena's Guy Young: Stablecoin Growth Needs Real-World Reach",
      "source": "etftrends.com",
      "date": "2026-09-04",
@@ -4219,12 +4197,6 @@
   },
   "ONDO": {
    "items": [
-    {
-     "title": "Ondo\u2019s Oasis Pro Markets Joins DTCC\u2019s Fund/SERV Processing Network",
-     "source": "The Defiant",
-     "date": "2026-09-16",
-     "url": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-s-oasis-pro-markets-joins-dtcc-s-fund-serv-processing-network"
-    },
     {
      "title": "Bitget Wallet Adds Reality's Tokenized U.S. Stocks Alongside Ondo And xStocks",
      "source": "The Defiant",
@@ -4344,12 +4316,6 @@
   "OKB": {
    "items": [
     {
-     "title": "Hamas\u2019 military wing told donors to avoid Binance. Use Bybit, OKX and others instead",
-     "source": "CoinDesk",
-     "date": "2026-09-16",
-     "url": "https://www.coindesk.com/policy/2026/09/16/hamas-military-wing-told-donors-to-avoid-binance-use-bybit-okx-and-others-instead"
-    },
-    {
      "title": "Spark Opens Its USDT Savings Vault To OKX Users",
      "source": "The Defiant",
      "date": "2026-09-11",
@@ -4424,6 +4390,12 @@
      "url": "https://cointelegraph.com/news/standard-chartered-arbitrum-arb-price-10-2030?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+     "title": "Standard Chartered predicts Arbitrum's ARB to rise 70-fold to $10, citing Robinhood Chain revenue",
+     "source": "CoinDesk",
+     "date": "2026-09-15",
+     "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue"
+    },
+    {
      "title": "Standard Chartered Sets $10 Arbitrum Target on Robinhood and Tokenization Growth",
      "source": "The Defiant",
      "date": "2026-09-15",
@@ -4460,13 +4432,6 @@
      "source": "Yahoo Finance",
      "date": "2026-09-05",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON3IwWHo2NXdxVENHT3FpQ2Y3NnJXTWVfazZtMTlVX1JWcGZLTXhTenFBU3RGcklkQVF5eFlGanV0ZVB1SmFPbHZMOXh0OUdVVnFnRW1rU2gwZUIzampUcUxxVmRYZTlGVDJGRWozRFRnT3ZjODJQcElieV8wVmpEckxQUGlRZkdfYUk3amQ5UzhFY3JFUlpCRVBrQUQzQVNJYXRCTg?oc=5",
-     "via": "Google News"
-    },
-    {
-     "title": "Arbitrum (ARB) Coin Price Prediction 2026, 2027 \u2013 2030: Will ARB Hit $6 by 2030?",
-     "source": "coinpedia.org",
-     "date": "2026-09-02",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAza2ktdDlHWHdHOTNxb3RTbXFEWDQ5RjBCSFJmZlZULV81V2JMZUZsT2x6Z1h5eWxsd3h2NzhIU1FNTUxZMTlqU3F4NnVGTkFZdXJlam5sd3dMOWgyWGhxQVhfVzc5enNCQ1dVMjlrN3VEUHhNMVpCNNIBfkFVX3lxTE92R19ubGo3WUhfV2tWd0JxdHJ2Nm54bkxLTU95bTdSZWZKNEVacHNzOVNxaFdyRHhIaU9tWG9iQkhxc3Rmc0FNZkRYQW5GOVhqSTJkZjNaalFrNGpvNHNMZEJoRXcxU3EzWnFma0U3dkFOUXZvTmktMmRZOHkwQQ?oc=5",
      "via": "Google News"
     }
    ],
@@ -4526,6 +4491,18 @@
   "XLM": {
    "items": [
     {
+     "title": "XRP and XLM Explode 8% as the CLARITY Act Nears Crucial Vote",
+     "source": "BeInCrypto",
+     "date": "2026-09-15",
+     "url": "https://beincrypto.com/xrp-xlm-explode-8-percent-clarity-act-nears-crucial-vote/"
+    },
+    {
+     "title": "US Bank moves USBDC across borders on Stellar, but only inside its own walls",
+     "source": "CryptoSlate",
+     "date": "2026-09-11",
+     "url": "https://cryptoslate.com/us-bank-moves-usbdc-across-borders-on-stellar-but-only-inside-its-own-walls/"
+    },
+    {
      "title": "Ripple and Stellar outlook: XRP rally cools, XLM heads toward a make-or-break support",
      "source": "FXStreet",
      "date": "2026-09-10",
@@ -4563,20 +4540,6 @@
      "source": "Bybit",
      "date": "2026-09-05",
      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE03SXNtRkRyR0QybVpYUVhQRTdzaGVEbUZGZ2RsZmpHYzZORXVJcmg4cWhmZGNJZm1pcl8taHpkVFRWa0FfVU1fWlN5WTFqT3F6STJnMFdKMA?oc=5",
-     "via": "Google News"
-    },
-    {
-     "title": "Stellar: DTCC connects tokenization service to XLM for tokenized assets - Q2 2027",
-     "source": "TradingView",
-     "date": "2026-09-04",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT0MySUVZMmVXX0RhZzloNzhwbThvRDdJMG5oRVYzZjNBV0xOX2s1ME54bmVCVXdhcE5aQ0c0ZFMzS2pudkJRY3hvdlo0OXZCVUlPRmFSZW41NV9XMlRVZTJKR1FzZ2F4ME1qckJOV0NKT0V1NWZ3YS10UUlvSlMyNTcycTBUaDNfQzl5aDZobzBDTWE0YXlxUUtISjZKXzlmTW9DNXVLb25IYWo2dl96Wi1pdzg1SkJiNUVoNXc3cGxjb3RzUUw1RXZJemdLaG8tb29BMGNVRnpMdw?oc=5",
-     "via": "Google News"
-    },
-    {
-     "title": "XLM Price Prediction: Stellar\u2019s Tokenization Story Grows as Remittix Pushes Crypto-to-Fiat Bank Payments Forward",
-     "source": "StreetInsider",
-     "date": "2026-09-03",
-     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOQ1MxRGUwemhhT21yQUM2dUtwMU5rSDRWQ2gwVWJRamFOa01uWUJwQmxkVnV1UDQ0YmhiSUZPU0Mzd2NsTmZHeDdPd3hOYkZkQWRQZFYtSXhpckl0NjVRVnR5MHdBU1Yxdzl3SGU3SDZZSG9YR0sycFlqTGE4c2VIRk9LQ0pyQXR2QWZsbS1VUHZwZ1FNN2hGSUdVQ2t4cjJrYjJkUE1VNVZEZzgtdmp2R2VtaWZlcDdmalAxQmY3LWc3VEx5WmtiWnpMYjF4aGRLbm1ORjJIUmpleGFKQUl0aGRZUDFObGhwWkdfcFFOcEREM044VnVjMVItM3B3LXhIaDc4MTB4Q3Fmd051em1Z?oc=5",
      "via": "Google News"
     }
    ],

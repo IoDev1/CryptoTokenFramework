@@ -1,37 +1,37 @@
 {
- "to": "2026-09-16",
- "from": "2026-09-10",
+ "to": "2026-09-21",
+ "from": "2026-09-15",
  "days": 6,
  "movers": [
   {
-   "tk": "EGLD",
-   "pct": -26.7,
-   "price": 3.76
+   "tk": "NEAR",
+   "pct": 75.0,
+   "price": 4.13
   },
   {
-   "tk": "PENDLE",
-   "pct": 15.8,
-   "price": 2.27
+   "tk": "ARB",
+   "pct": 65.8,
+   "price": 0.223654
   },
   {
-   "tk": "KAS",
-   "pct": -14.1,
-   "price": 0.032507
+   "tk": "Sonic",
+   "pct": 50.6,
+   "price": 0.03902093
   },
   {
-   "tk": "STX",
-   "pct": -12.3,
-   "price": 0.232865
+   "tk": "AVAX",
+   "pct": 50.1,
+   "price": 11.2
   },
   {
-   "tk": "CVX",
-   "pct": -12.1,
-   "price": 1.82
+   "tk": "ENA",
+   "pct": 48.8,
+   "price": 0.208916
   },
   {
-   "tk": "VET",
-   "pct": -11.5,
-   "price": 0.00701677
+   "tk": "SUI",
+   "pct": 43.6,
+   "price": 1.013
   }
  ],
  "verdicts": [],
