@@ -47,21 +47,19 @@
      2,
      3,
      4,
-     5,
-     6
+     5
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Upbit Temporarily Suspends HBAR Deposits and Withdrawals for Hedera Wallet Maintenance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU1FQU3l1NkFMNEdWWHg5dDUybFFFNEVNMWJIcDFlMU9vNXl1dTVqZmZJQ0ZPbkVTUXRhOWVfWjFyOF9iUTFzdTZwMV9JblNPMDVuLVJvQ2RzMzFabm5UWGpqcDV0WHBfckVURC1ldmlkU1Byb0owb2FBRzBiOTE3OUFkMks?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-08-29"
-     },
      {
       "title": "Hedera (HBAR) Drops 3.8% in Technical Pullback",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MSGFpb21fNGVUTTEyNDJtV01OelpkX0NpN0MzOU01SERwRXB1SFVYZU1ISkFmWHIxWEx4RXlLbl9UZzR5M0c5ZWhtU3RZdUZsNE90bERtZXZwaENlN3RGa1VSeVE3Z3Nma0VwVzF0WGo?oc=5",
       "source": "CoinMarketCap",
+      "date": "2026-09-09"
+     },
+     {
+      "title": "Hedera's HBAR PRICE IS FALLING\u2026 But Look Who\u2019s STILL Buying",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Gc1liSjczeEhUS2FKdlZ6a3ljUHR0cXZiR3RFdlBCVW5BQTBDOVBJOTVBbGQ5a003Q2lrTEctOFRJUUhNZE85VWZxTUdjN3BIa3J1Qm13Z1Fxcjl3?oc=5",
+      "source": "YouTube",
       "date": "2026-09-09"
      },
      {
@@ -71,25 +69,20 @@
       "date": "2026-09-08"
      },
      {
-      "title": "Analyst projects HBAR could reach $6.76 by matc...",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQW1UeThneXZ4QkNuT1RIc1czdVVOQTdIU0xvd0thNFRLbGpaQTNxYS13TU42ZXE0NUNlYTcyQUxsb0stVm00OFBsQXRIMFpfYWxkUVNsZDdobnhxLWdnSnNLOHNkOXRGQkNtNDJ3R1NmRjNqdmRMdDJfUDk1Q1BWazhiS3ZFX0RrLU5lOEtxNUwycFVfc0VKdlFpTGFDQQ?oc=5",
-      "source": "Pluang",
-      "date": "2026-08-31"
-     },
-     {
-      "title": "Hedera's HBAR PRICE IS FALLING\u2026 But Look Who\u2019s STILL Buying",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Gc1liSjczeEhUS2FKdlZ6a3ljUHR0cXZiR3RFdlBCVW5BQTBDOVBJOTVBbGQ5a003Q2lrTEctOFRJUUhNZE85VWZxTUdjN3BIa3J1Qm13Z1Fxcjl3?oc=5",
-      "source": "YouTube",
-      "date": "2026-09-09"
-     },
-     {
       "title": "DOT patent highlights Hedera in road-charge plans, HBAR price targets emerge",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mOUV5RmR0cFgzZ2IzLTFZV0hPNEdLUWQ3TENHRkVtWlVvaUlmVi1vUzVCUjlBVDJ6dHJJaEV3S2QxWGotTTlJUHZUWWw5RHY5M3RUcUVBaDB5MVlKMk5WV2tUQdIBY0FVX3lxTE1mOUV5RmR0cFgzZ2IzLTFZV0hPNEdLUWQ3TENHRkVtWlVvaUlmVi1vUzVCUjlBVDJ6dHJJaEV3S2QxWGotTTlJUHZUWWw5RHY5M3RUcUVBaDB5MVlKMk5WV2tUQQ?oc=5",
       "source": "Bitget",
       "date": "2026-09-08"
+     },
+     {
+      "title": "Merck KGaA Pilots Cocoa Traceability On Hedera",
+      "url": "https://thedefiant.io/converge/infrastructure/merck-kgaa-pilots-cocoa-traceability-on-hedera",
+      "source": "The Defiant",
+      "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "STX": {
@@ -113,35 +106,21 @@
     "stance": "bullish",
     "text": "Genesis Bond BTC-staking went live self-custodially with institutional backing from HashKey Cloud [1][5][6] \u2014 exactly the FC6 catalyst previously flagged as pending. Strengthens the institutional-adoption and usage case; watch whether staking demand ever shows up in fee revenue.",
     "cited": [
-     1,
-     5,
-     6
-    ],
-    "filters": [
-     "FC6",
-     "FC3"
+     1
     ],
     "cited_items": [
-     {
-      "title": "HashKey Cloud backs Stacks\u2019 Genesis Bond to prove institutional appetite for native Bitcoin yield",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdGdvMGpVOEJPZ19rd2Y3WEp0NFVVZ0NwbVRVZWVqT0dpLXdweGVBOFZORG4wNXJfbDl5VHM3czdsMkc5dEZJdXdYWnYwMzhiVnlhaFhiVkRlYmg1amVOenhJUWJoeWFWcGdPMHFtN21qWXdjVWRyazFQcWNJWFQzTzh5dTlfMWpGNVZwU2xhN0xiVEJmOGc1TGJYcld6OFRtU1cwUDRCRGNmdEd3SlJ5NWFUV0dMMjZ5QjVUcUl3?oc=5",
-      "source": "CryptoSlate",
-      "date": "2026-08-28"
-     },
      {
       "title": "The First Bitcoin Staking Bond Is Live on Stacks: Self-Custodial BTC Yield Beings",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMm5QWUZDVnk4RGRiaXB2WG11eGxpckJLaEN4R21SVVh0MmM3cUk3M1NNRjg4NGtKclZvdjZsWWY2dDNJSTFsdC1hN2JpTEhvTkhURGNvOXhWRjZyaVpWVVZwWDltQzUwNzQ4M2ZCR2dtbnVwZjlNUlNmb2VoaXZPWjAtN3lGcmxORk1QbVdSTGhUTVBPY3pFU3RxUnJJalBQUm9EWk5aQWJJUE9PRnZEaDlqeDdKa1ljdWRvYXc4UUgyUTBXWEZGc2EybFB3RnpNZEgw?oc=5",
       "source": "The Block",
       "date": "2026-09-10"
-     },
-     {
-      "title": "HashKey Cloud joins Stacks Bitcoin staking launch",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE43MTB2Mkx6UzZEQXB5MWo0Zlk0T0dxbjNCSVZEa1g5cVJiNzBfM0FWdGVMRW12MVYyRDNCQmhHSkhZV19jWUdoM0R2VnNKUVMyUHU1NUVwcGg0RFlRU2RFZWVTYmhBWmdXQnQ5N0Z2VDBTLXBKc2FUZDVB?oc=5",
-      "source": "crypto.news",
-      "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [
+     "FC6",
+     "FC3"
+    ],
+    "as_of": "2026-09-21"
    }
   },
   "RENDER": {
@@ -149,54 +128,10 @@
    "opinion": {
     "stance": "noise",
     "text": "Mostly noise: an agentic-AI PR release [2], a DC event listing [1], a price page [3], and NVIDIA's own neural-rendering tech [5]/local calendar [6] are irrelevant. Only the unlock/volatility note [4] touches the partner-supply key risk, mildly bearish. Verdict unchanged.",
-    "cited": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     6
-    ],
+    "cited": [],
+    "cited_items": [],
     "filters": [],
-    "cited_items": [
-     {
-      "title": "Render to Power SUBMERGE: Beyond the Render in Washington, D.C. on September 11th",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZHVHcFY3ZXl4Q2FNUWZCZzVBOUJ2RUIxY3ZFNGpGR2dsT0JxdFZnSTRaVDN0VE84RHNDcElwUm9mbzAxUFpHbDEtWk93NGlQOHJUbDVEOXRiMjZ5dDJKdXo2VHBjaTRMUmp6dmQ3eE9WWjluSEtvLWFPTkkzVV9ZUkVQV2IxZXJtb1BZcjRGZWVvbWJXUXo4RUdmLW5UdzZSdGpqZkxSYVlyZXpHd3BMYVJvdFNTc0xfaFB0QUpRUkdTam1qUUljU19FOTJpLW9QOXc?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Render Networks Previews Agentic AI Expansion, Brings Autonomy to Scale Network Delivery",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUDl5c1ZDbGFPRjRZdmtwbGxicmtXZzhwWWFiM3NJckdOaWJLa3ZnR0NZSzM4T3ZVM1RiT1ZMSkdycUptYVBrOXNZRmhBUlprUl9DV1MzdS1MbjZ4ck1ySFM4SENfVU52R1BMVkFfOUJXcC1PSWZoM01tZUxxWnBxcVI5bUlPVjdlcGJCaERvcUxXdXVJWXBYUU1vVXZuY2hiY2xzMVc3MzFsa0R3SFJtWjdKNUR4a3JkNFJSYjFwcmE4cjVaMkhDV2k1TGVTNG4wV3MtN3dTZ1ZTNERa?oc=5",
-      "source": "Business Wire",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Render Price Today in Turkey | RENDER to TRY Live Price & Chart",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zTGtSX0tpMjB1cC1ZQjhzclkzSFNsNnVFVmd6Yk9adk1vcGQ0YUdBSm5IVmwxcm1XODg5aVowVEd3ZUJQNi1OeHFSOEROM2JBTzMwZQ?oc=5",
-      "source": "Binance",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Render (RENDER) Volatility: Polygon Incident, Unlock Looms",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xSkdLSnBHclpPOGU0WnRUamYtQ3d1US1EaFljVklqaXZjUDNNSjFZWGUtNnIwcHRNSjV3SEpyMThyTHFLb0tHM1YzNDBlWVFDOEJFOXhqRUY0Qk1YdTJiVVVXTWZmNlBkZVpxWWU0Ujk?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-31"
-     },
-     {
-      "title": "DLSS 5 3D-Guided Neural Rendering Debuts in NBA 2K27",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWHc3SVI4YWxNQUoybk51dWh5R1ZJb09iZHRkdUVoaXpJRUFOX3pFQnRPaXVjYkhxcGpZSGpVdERNV3Y4YzlSUF9yU2hHckhwWEs5azlkbHkzWjV0TE1mNFdGdFY0Q3VzalJZRk1lRlc4WTIzOXNmc29kVnRHUVE1VDd3?oc=5",
-      "source": "NVIDIA",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Community Calendar",
-      "url": "https://news.google.com/rss/articles/CBMihglBVV95cUxQMkhfZjlmbjRpazRIQ2M5eGxzR2pJVGF2aC1oVlNwNHMzRDlaRGpJeE5JMFVZQVV3Y0xJNDJvS0h0QkNTeWx5RVFKT2MwRHVYUldlWjFHVklWMFg4cVlMSTNlZ0VFbDJsUTlxVmg0d194cW5Lb1FOakc4dVBJS2lNUXFyYmxLZFNRcjcyZG5jVndPVmIxeVM1WVA2emU3WUYwYm16UkVtbmd4LTg5WVkxZml4MTNraXpDcGhLM2VYTGtJNk9rOWE1OVBKUlVZNC00b21YaXpqQzhNbDdZejdRbVBBTk9aZ3lxcEZDQ01HeHpLeEZ0bXFCaGpwMFY0WEg1Y0Zia2Fib0h5X1hlSGVpNnp0Q25iS1BvUG9tVUJaellQSWVPcXlUaGYtc3FoVkQ1d1Q4NlpWcEpOWmstV2xobU9IYVo5cTdJOUk2emxlUGpKbUNkQlJmczE5OUlrV05FQXRXbl8tT0tNZTlPZ1JoeUMtTlFnNFFQczJLWkVDWVN0VHgxRFJaNHFvTDhkSFJFdl9WZHlzZHRyRlE5a2lQT2hQRHhBby0wVk96bER3eGgwMkJnOTZzSXdmeVJ6aTZoTjBGSXpmaE03M1QyT1JkWHlzc1E1T1dvWHJxOHpnM2hVZUl3WWlJV0NkR0RmVDZ1WkJPNHo5Ung4R0hxWm5QTjRfaHlsTXo2Qkd0M2thUUpSRlI1UHVoT2dJS29Wa3d5SG5YdWFhS3U5UURiU2h1VG5hQldJVjljZGcwZUg1dHRqLUxKQ1d3Ulh1WGlyQjJ5dVhCTzBhWDVTbXl2c0pnUlNNaUN3blhWU0w0anBNa0xLd0plakNKMzd0UHpwRG9FSk10MUNmRVNSc0Nua1VVRXlaMVhFdnloQnliRDdFTzFBSW5PTXViUHRya0dpN0RLaUtMeVViRktROFRTdk9ZUFpiQVkwd19PWGNnWnpoYzhQTlJERzR3ZEtjVkdYNE03VFFHMzlyT0g5MU9LX3laOE12ei1wd0RYQ3E2aXhhVmhPeHU0NlBiLUxIQnlPRnhhRjlDN1hjU2RuMHU1NFI5bjJyMzRTcGl1MmpSQW5rUUhJOUtVSzJYM2p3cDRjNk1xUHZYVUxMdWdQWThWNDNSaXdsMndLdW1teS1kS29QMVBnZGpLWFR0UDdUSlpmTUI0SjQtUkxDS1JkdWVwc3hMcUdMMUdQQjlaVkl1MjBURjJEQjlsQ1NlcFhSV01kYXo2TThzNjJJUmczX0dzQ1plbTVDTTNQLUFJUFhEZm5qMF81ZGZvNndMdHhFd2R0OUxfaW5ZN3EwTFNhcnA1N3JNSXQwdHpqcnpYUHN3VDNLNjhhcHQtRzRYSGVDTTA2MDJvOV9vOW5uX1NES3c4Wk40SFBsZHhKRGcyN1RzdWZ6MzMyUlhmNlBmRVF3M3RGRVdXQTRrbi1XWTJqVFI2alVGbVZxLTNxd1g2S1RsNGtLc05MS0dGeTdTWVNiTFBEOGhuQTRqdkJ3UVJzN3pUS2p2Y3Q0a3NFMVBMVUNXMGppbVlFdm93cnc?oc=5",
-      "source": "ABC7 New York",
-      "date": "2026-08-31"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "AAVE": {
@@ -264,46 +199,46 @@
      5,
      6
     ],
-    "filters": [],
     "cited_items": [
+     {
+      "title": "Aave V4\u2019s Arc market is swimming in $76 million of USDC nobody is borrowing",
+      "url": "https://cryptoslate.com/aave-v4s-arc-market-is-swimming-in-76-million-of-usdc-nobody-is-borrowing/",
+      "source": "CryptoSlate",
+      "date": "2026-09-17"
+     },
+     {
+      "title": "Aave founder pitches \u2018Uber path\u2019 for DeFi after Clarity Act fails Senate vote",
+      "url": "https://www.theblock.co/news/defi/2026-09-16-aave-founder-pitches-uber-path-defi-clarity-act-fails-senate-vote-415278",
+      "source": "The Block",
+      "date": "2026-09-16"
+     },
+     {
+      "title": "Aave Labs Plans A Tokenized-Asset Credit Market On Avalanche With Tether's USA\u20ae",
+      "url": "https://thedefiant.io/news/defi/aave-avalanche-rwa-hub-usat-tokenized-collateral",
+      "source": "The Defiant",
+      "date": "2026-09-16"
+     },
+     {
+      "title": "Aave\u2019s proposed interest rate hike threatens to crush Ethena\u2019s most popular yield loop",
+      "url": "https://cryptoslate.com/rising-aave-borrow-rates-threaten-to-flip-ethenas-usde-yield-loops-into-negative-carry/",
+      "source": "CryptoSlate",
+      "date": "2026-09-11"
+     },
+     {
+      "title": "Five Months After the Kelp Hack, Aave Is Still Down $8 Billion",
+      "url": "https://beincrypto.com/aave-missing-8-billion-kelp-hack/",
+      "source": "BeInCrypto",
+      "date": "2026-09-10"
+     },
      {
       "title": "Aave Nears $1B Milestone for V4 Deposits",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM01JZkM5VWZVU0NOREVWU0YtOVBRa0dvN19Felo4T3E3ZVdETnFOUERSZVl2ckFCd19DY0NyOXZuZm82N1M2c1hpcmFZRDl3Q0RkVldrbkdVcWdZZE5PYVdNUVp2bU84N1lBU1JOSmJFX3A1NFYySzB2QWdtTjB6a2FoQVRZTFRDVE9rOFRIc2lZcmhYRkE?oc=5",
       "source": "Yahoo Finance",
       "date": "2026-09-09"
-     },
-     {
-      "title": "Grayscale Says AAVE Price Could Hit $175 Within a Year",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVFNwR1A5aWhyTl9fXzZTVFVqaW1FR1p0M011VDFwRGFlSHRHZlpXcXlfZXRYRGpFMTNMM1NIcG5jc1lYOUtfMy1ibU5jUGtKakhUMXZhS1dWck1yVmpyN1U0RjN1emJrWjFGYWY4NmFQWU5yYTdPMXBvaTJWOHJncHo4YUFrQmhmZzNURUc3cTI?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Aave V4 on @avax nears $20 million deposits, reaching new all-time highs week after week.",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdVIwY1p2TkZFSjBFaXFoOENXTXpQdDdndHlTMHFQVmVLZXVrY0JWX0d2OW9HcWNpSTVhTjB1Y0JpRlhZVzJxT19xWVJINENITnNRYjB1SEN6T3hpNDU3enkwSU5haUVOT3BVVHJXMHI4Q2lWajA0cE1zY3ZrM1ctSkJ2TWp4VGtScXc1ZFJFc1lYNVBXcDNVYXpDcmJ4QVVNNWNTNjN3UDJFOGFU?oc=5",
-      "source": "Moomoo",
-      "date": "2026-09-03"
-     },
-     {
-      "title": "AAVE Price AAVE TA AAVE Technical Analysis",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUEdzRWNETFNkU0g0bG5vOHVvMldTLWNkRXo5bjRiZGJxcF9FNU45S3dtNHdtNmtVSXBxQ1Z6VE1JTVVCTGVOVUZhMG81UUZ4NGV5MjhOWUgtdFdoTkJoQ2dQek5aVERsU3pGYzdZVkVxLTlURGp4SlRQQl9kT2RkRzBYeDBvbG5DcFIySkp2UHdSek56UmJWV3lSUWptLW5aZWU2MWYxTHI?oc=5",
-      "source": "Altcoin Buzz",
-      "date": "2026-09-09"
-     },
-     {
-      "title": "Aave: LlamaGuard PT starts managing its first production market - By 30 Aug 2026",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbnM0SnpMWkVmM3I4MUVObTBGbk5BZ0pXeGZHSUVIdFI0WlRadUM5XzdhODFXYi1PMld5YktrcG1XTDBxeUJlUzlSbDZ4akg1MzBiOTE4cVJubXpWS2w5OURONFBCUUQ0c0NfVWdLZWpsZ1dvc0w0cTgyYWpyc0gzb0tQcGtoeHlsQVhQUFBOUkpUZ0syLVF3TjByZHJvQ0gwM3NMNVR0dEtoS3NYM3JfRHlHaXdHTW9WU05sandCZllvOUphWlZLVDhQSDhuYnlIWXlTMVZwdTc?oc=5",
-      "source": "TradingView",
-      "date": "2026-08-30"
-     },
-     {
-      "title": "\u6570\u636e\uff1a\u67d0\u5de8\u9cb8\u65a5\u8d44 450 \u4e07\u7f8e\u5143\u4e70\u5165 PONS\u3001CASHCAT\u3001UNI \u548c AAVE",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RNjMtOHYwSEZQODZ4cmR0Zno1bWpDOFRjQ0E5WEdtTGpOU1d2bzJPemRjeldtQl9zNmJTb1NROU9DbkFlWWhpNWt0UWRhNXJnYkFpOFF6cG0?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-07"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "QNT": {
@@ -311,26 +246,10 @@
    "opinion": {
     "stance": "noise",
     "text": "Both items are routine price-page filler [1][2] with no new information on licence-locking demand or Fusion staking. Verdict unchanged.",
-    "cited": [
-     1,
-     2
-    ],
+    "cited": [],
+    "cited_items": [],
     "filters": [],
-    "cited_items": [
-     {
-      "title": "Quant (QNT) Price Move: Routine Volatility, Not Catalyst",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rTlBPZ0lHRjlzX1UzSW5xSDZrVDFoWDd0UldSbl9QZmx1NVFUSVFXUW1oQmRFRExReTREbkhobVpxcVVFR3ozSnpXd240ZXRQdmhabG5jeTcwaGxwRlF2Q0R6aktYMTlodjJvTXVfUTk?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-31"
-     },
-     {
-      "title": "Quant Price Today | Live QNT Price, Chart & Market Data",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UMVFHZUhxMXhoRW5nZW84VEZEVjY2LVBPdlNSbzlINE15cHdrRnM1NDlvdnIzaTBqV1ZlbWlxNzRzVjY5WWpmRW9CUElNeTlTQnI4?oc=5",
-      "source": "Binance",
-      "date": "2026-08-30"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "SOL": {
@@ -392,28 +311,28 @@
      4,
      6
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "SOL news: Solana\u2019s faster supply cuts lead vote while $800,000 daily burn plan trails",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVmxYQzAyenRGa0otTUxSZGRQdTBnTDJQTzZUX3BfWFBUOXdrN05hMzdhcW1na1FYM2F3TElDZzlvVlc5SXZQUHFRM19sMElIVGdLeTE0V2JicGlBYkJ0X0lBazM3NS1sd05OeU1xVTd2dDVlakwzWjVLUzBwYkJHOUpYUHM2OExMNzZjSUlGYVpsY0RvelBFNUJXd0pieUlMR1QwTDNnd3NZd0JPWG04bkY5MkNIYl9pNFE?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-08-28"
+      "title": "This blockchain just voted to shut itself down for a Solana-powered AI pivot",
+      "url": "https://cryptoslate.com/this-blockchain-just-voted-to-shut-itself-down-for-a-solana-powered-ai-pivot/",
+      "source": "CryptoSlate",
+      "date": "2026-09-21"
      },
      {
-      "title": "Kraken Shock Cuts Solana Staking Yields To 2.25% As SOL Holds $102",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORThYQ2dTZkNYUGJlam13bWhzUlhPbnBpWERMWGc1YTAzLVhyVnNMYWdRNEc1RzJMZTJJcmtpWnp5MThGazR6SkVzeHdQMlNKaXg5TlhFMFpkMl9oWS1pYTJhQmE3MWFteVEzRkxDOUM5SHhoTXRFWDlwXzRPdnNWSnV5ZHF6djZQMjJNaUxRWlhINFZqNFQ5N3lfTk9RQWFuTThKa0E4Y3FMX200VTZqeS1ETVd3UFk?oc=5",
-      "source": "Forbes",
-      "date": "2026-09-07"
+      "title": "Kyle Samani predicts SOL flippening, claims \u2018no one\u2019 uses ETH",
+      "url": "https://cointelegraph.com/magazine/kyle-samani-predicts-sol-flippening-claims-no-one-uses-eth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-21"
      },
      {
-      "title": "DeFi Development closes Strategy-style $11 million CHAD offering to grow Solana treasury",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTE5uMnExVjR0UXBYTUEtb2dVblNCSzJsbEtIMmRxZ3Y1NXl5SUtSWmFOU2NtcEQwTXo3TVNWbTJ6a3BxbzlGUlhPeDd6aU1UUUNvMnBHdFh4cGswczVSNUsxWS16WHBhUG1lZkN3b25yM3JaVVQ3azNuM0JVVEFFNXlSd1FpNUNaSVdrOThmUVgzX0sxZ2N6MVBHcnlFUV9VM1ZRQWhqTy1PbXVDWlFYUzNwaFlYa0JCamk1Y2hpOHh0UXI2aFZoVkhRZ0R5cW5fcTYzSDJR?oc=5",
-      "source": "The Block",
-      "date": "2026-09-08"
+      "title": "Why Solana\u2019s new 250ms speed boost could actually trigger network instability",
+      "url": "https://cryptoslate.com/solanas-250ms-slots-turn-validator-coordination-into-the-networks-next-security-test/",
+      "source": "CryptoSlate",
+      "date": "2026-09-20"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "TAO": {
@@ -471,13 +390,12 @@
      5,
      6
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "AI News: Bittensor Leads Booming AI Sector Amid Agentic Finance Hype",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcmJvblJzbmY2d1RsU2RMOU54ek5fSUhSQ3FqakZpbkNvZkxick1kaTc3SHBNcWVJMU1XdmdMVVlFdVZaS3Vrb0VsVW1VeGw0d1lrY2lGeFpaMEh3d0JfcTU1azZJc1lsTTlpQUJwTUdSOHFmNzJFa3pvTzFCNjNoV0lZWVZEUzlwdzFfZUp5blk1X0lNMlZhVXFwdHJEdjVqbFFSUnpydWJIbWFjUWc?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-06"
+      "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+      "url": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
+      "source": "Decrypt",
+      "date": "2026-09-09"
      },
      {
       "title": "Bittensor (TAO) Price Prediction 2026, 2027 - 2030",
@@ -487,15 +405,15 @@
      },
      {
       "title": "Why Bittensor (TAO) Price Is Up Today?",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSVZNZ25xQnQwcm53TUhrSHZLRWUyTVU0ZExBdy1sZmVjYkF0UE5jY3FESUhIUDA1N2F6V1lFM0tqT21fYzVUOUgtVTZwcDdDQlFVVWxac2NTT2xDcHpSUHVjLTZtN3lGZG1yaVVSeXJPelN0Rm9HNmwtUHBXd3VtREFQVG8xclJHT1FiRmxXXzQxX19TbTN2aVJR?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-07"
-     },
-     {
-      "title": "Why Bittensor (TAO) Price Is Up Today?",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV3lFV2l2d1o4N0ktLVJlTVlFV3dWYXVUMVpXZmo0ekVuQmhaSXZYZG0zWFVsNjhGZTVESEV5QndFTHg5enR6QUVlVnByYXdVQ20yOGRJbmg4dVMySElibENOVG9VaDVycjh4dnFxdmRQcHozZU9VQlZ2U0FkVE9fZ2Z4RUhacU9yOF9DN1VfZnVqM3hyZ1Uw?oc=5",
       "source": "CryptoRank",
       "date": "2026-09-08"
+     },
+     {
+      "title": "Why Bittensor (TAO) Price Is Up Today?",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSVZNZ25xQnQwcm53TUhrSHZLRWUyTVU0ZExBdy1sZmVjYkF0UE5jY3FESUhIUDA1N2F6V1lFM0tqT21fYzVUOUgtVTZwcDdDQlFVVWxac2NTT2xDcHpSUHVjLTZtN3lGZG1yaVVSeXJPelN0Rm9HNmwtUHBXd3VtREFQVG8xclJHT1FiRmxXXzQxX19TbTN2aVJR?oc=5",
+      "source": "TradingView",
+      "date": "2026-09-07"
      },
      {
       "title": "Could Bittensor extend its rally to $300 on parody meme coin launch?",
@@ -510,7 +428,8 @@
       "date": "2026-09-07"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "ETH": {
@@ -570,18 +489,18 @@
     "cited": [
      2
     ],
+    "cited_items": [
+     {
+      "title": "Tom Lee's Bitmine Adds $74M in Ethereum, Declares a Crypto Bull Market 'Underway'",
+      "url": "https://decrypt.co/378754/tom-lee-bitmine-adds-ethereum-crypto-bull-market",
+      "source": "Decrypt",
+      "date": "2026-09-21"
+     }
+    ],
     "filters": [
      "FB1"
     ],
-    "cited_items": [
-     {
-      "title": "Ethereum commits to letting users pay gas fees without having to hold ETH",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeGFIdXNXd0o4c1dJYXBRZjRPVFBOVmVPZEMzX0hOZHd5S3BpdXlYcXkzU2E3bnFsR3R6bHFEUHROSHdrenFjd0hwRlYtOUd0V0oxbmhsT2YyQk94bEg0N3FYSlB0anI0bHhjdlg0bEdDWlF6TEJpZGJwb0xQUW95aFMxcGNMeF9iMzhrbGEzSW5PTGRSdUpsaml6TkNNZ2FUWWNHcjM5Nl9lZEQyZmgweG9yTk4?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-09-07"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "SKY": {
@@ -612,51 +531,30 @@
     "cited": [
      1,
      2,
-     3,
-     4,
-     5,
-     6
+     3
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Sky (SKY) Surges 3.7% on MakerDAO Transition, DeFi Buzz",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kOG9uVWxRU1M1YzA3Y2JYcFZWODJiV09kZS1TRk5na1J6RFpveHVnZTB6MEQxcHlaUklHeEkyZXZmcDN5RWp3RzBZVUpEelJGaUNMLXFwYkN2Z3l4WVFtb0xtWC0xMjBPWWZkRU9KeGU?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-05"
+      "title": "\u2018DeFi\u2019s federal bank\u2019: Standard Chartered sees SKY token rising fivefold by end-2028",
+      "url": "https://www.theblock.co/news/markets/2026-09-11-standard-chartered-sky-token-defi-federal-bank-414280",
+      "source": "The Block",
+      "date": "2026-09-11"
+     },
+     {
+      "title": "Standard Chartered Says SKY Token Will 5X to $0.325 by 2028",
+      "url": "https://thedefiant.io/news/defi/standard-chartered-sky-token-coverage-kendrick-0325-target",
+      "source": "The Defiant",
+      "date": "2026-09-11"
      },
      {
       "title": "0.06084 | SKYUSDT USD\u24c8-Margined Perpetual Chart | Binance Futures",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnR3Q3ekhaQ2psdWg5ZTZfNkVpU293d0VNdmJYS3diUnBYYVVETldGUklNWmttMTRTOXZReWYzY2NTbFEwQ3BaQlljWnlJTlAxYzZZVg?oc=5",
       "source": "Binance",
       "date": "2026-09-08"
-     },
-     {
-      "title": "Maker Price Prediction September 2026: MKR Sky Scenarios",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ablM3dkR3V0NBaFRtS25CamNiNVpKc3ZocXlheTJyeDdfTER0Q2FSRlRkeTZNYWJjQXlEb2JtT2l6bnZGYUVtODJxaE1IZ0I4UWd4UmVQbzh3VV90WER5dzVYV29WM3dYUmY5UmdR?oc=5",
-      "source": "CryptoTicker",
-      "date": "2026-09-02"
-     },
-     {
-      "title": "Sky (SKY) Price Surges 4.2% on DeFi Integration and Listing Buzz",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kYVJHblYzRXdZUHU3dkE5Sm94bGtPZk9BajhJQ1h2LWpPQ1NrMmNNek40OUhaY3YtbDVuaWJraDlNaWwwTFJJOEVfdlg2aHNULUFINVhyNnJZVWtybnhPdExKNjRBMTMwMUJ2blBWQ1g?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Crypto Projects Spent $638M on Token Buybacks in 2026, and It Is Becoming the New Way to Pick Coins",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQckZZSXNKNXl1UmluZHBKbW43RDVDNVpMTDQxdktxUFBlelo0bHUzakpLOURCWTc3Z0xfQTRKWHFWMW9VSExwZTFSb2l2OGNlOXJQd21yTFlJUE1DUzJLMWZ6bjM4YU9VaF9IVWtLeW9JYVlnWEtkRG00ajVqTGZmZ3FsbGtGekxDRE1YSFZpQWhubTdXenFaMHllajkzLWtmV0ZQc1FXTnV6czBKRmZQcE9ITklIN0tkekpr?oc=5",
-      "source": "Memeburn",
-      "date": "2026-09-03"
-     },
-     {
-      "title": "Top 10 DeFi Tokens to Invest in September 2026",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12akZLcWJrSzBvX1pkbTFpVk80UkJqWVpzbENVQ3F2U1ZUak9OZFY2NGdKR0lTUFFLZV9kNW9XY0VuUkVLRzl6ZTR6RVJPS2JJYlJVWFU2TWR5c01KY2tBd0t3Wk9wbWtNY2tkcVRaR08?oc=5",
-      "source": "ZebPay",
-      "date": "2026-09-02"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "XMR": {
@@ -687,51 +585,30 @@
     "cited": [
      1,
      2,
-     3,
-     4,
-     5,
-     6
+     3
     ],
-    "filters": [],
     "cited_items": [
+     {
+      "title": "Revolut Hackers Demand $3M Monero Ransom, Threaten to Sell Customer Data: Report",
+      "url": "https://decrypt.co/378472/revolut-hackers-demand-3m-monero-ransom-threaten-to-sell-customer-data-report",
+      "source": "Decrypt",
+      "date": "2026-09-17"
+     },
+     {
+      "title": "Revolut hackers demand $3 million in Monero, threaten to sell customer data",
+      "url": "https://www.coindesk.com/markets/2026/09/16/revolut-hackers-demand-usd3-million-in-monero-threaten-to-sell-customer-data",
+      "source": "CoinDesk",
+      "date": "2026-09-16"
+     },
      {
       "title": "Privacy Coins Crush Crypto Market With 213% Surge as Zcash and Monero Break Away",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcXk0SkViMDF0anhlNUlsS0JuZ0I1NWdWZHB1OWstZldibDF5cm5UOHF0elhveEI3RkhXdExNWEFTUUdTTXRSeXE1Zi1ycGFGNS05RzBNRHJLRnI0cWhBNmVxTDZIMXJKLUJKUXBiQ2NnNmVIZEF2TUtBQUN1S1VDNkpBLWp0WHgtTXpqOTd0TVdJaVF6WGtvLVVpSmRDcVBEeWlqdEpUc2lFcUg3Skw0X2ZXQVlVNHZYNVBrTHhTd2FPUQ?oc=5",
       "source": "bitcoinfoundation.org",
       "date": "2026-09-08"
-     },
-     {
-      "title": "Midnight vs Monero, Zcash, Aleo, and Railgun: Crypto Privacy",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNG0xeHZjY1F3X1VGelhuYURqUnpFSzZLckFhY3FnTDF4alBwR2t5VU5pekY5RERaTG8xX2hLQWRJanZIX3J0eTh5LXoyVTluSWhHZ3FuWUIwN0VnTG1SaV9LYnR4NjU4bUZOb2JQdEdyTDl2dVFPQXBuV1NIQzNvSGZsVll0c2Rq?oc=5",
-      "source": "Milk Road",
-      "date": "2026-08-27"
-     },
-     {
-      "title": "Buy Monero in New Zealand | How to Buy XMR with Credit & Debit Card in New Zealand",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5oQWNuR2FZS1JTazNNVG8tWFJVaTJZZ1ZUbmtXRGNsNlJweDk2RE1hWHMyMmtYdjFqMHZsbnc0eVVmNkdGRm1B?oc=5",
-      "source": "Changelly",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Monero Surges 12.6% as THORChain Upgrade Drives XMR Rally",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9la0dJZktlODVyTHo4Rm9vZFVGaXlXSDdTLUt5MEt6b3N5Ti1rOGl0bkx6MHdJUGdMN0k3YTVsZmxDN2RNQTA0bE1jODhCSF8tWXdhX0djRl9mRy1GOE92aUFrQjRkUktjMVJJYXRrTmI?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-31"
-     },
-     {
-      "title": "Monero (XMR) Price Prediction 2026, 2027-2030: Will Privacy Coins Lead the Next Bull Run?",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lVV85Q1A2NXZqWENDM21GWm1HZjJ1cHo5NFBZN2gwcGZiNlRSTXRxUkhWUTFXbHZoQWNMMDREVWlNbEIzS0NYTF80eHZTUVN0R1pBLXBJNE82UmJHN25PeVZyeGJVNUNwVGc4eC0yYktTdF9iaXfSAXtBVV95cUxOdmdzQXVHZkprNnBfZVVLS01sSENNZjdINEtXOFlHT3MyeHlVc05kdVFmcFcwWUhkc2Y3b28wbmlwVGlsYTZKUE9qTGEyYlVxdnFCT25QRTJNLURvcXBSOXdNQS1wUmVjVjJDTnJkazBHT1BCNFE3ZGVoSkk?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Monero Price Prediction September 2026: Can XMR Follow Zcash and Dash Past $530?",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUldEQUpxYlJiQUtGT2dTRG1rNTFzWmtBTFBINml4dlU2cThyRHhXMGZLOVhUMnIySDQyTUs4OXV1M21ZUjJvbWtyNVhRUU01R1VfY1BRZWwxVFlrRlJwVVpidFBuU1M5ZGNmLXR2V1RyR1psQ3J6QUxqY0NITGlxYUpRQ19XemtnVDhyS3R2bXphZENHa2toNG02Q0VrS3JLV2ZKYmhENzBTbVEtcDZ1ek9DRmRXdw?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-05"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "INJ": {
@@ -747,42 +624,12 @@
    "opinion": {
     "stance": "bearish",
     "text": "Upbit placed INJ on a delisting watchlist after a security incident and Kraken flagged a funding-gateway issue [3][5]; Injective's damage-control statement [6] confirms funds are safe but not that the review is resolved. Record staking [4] is not the same as usage recovering.",
-    "cited": [
-     3,
-     4,
-     5,
-     6
-    ],
+    "cited": [],
+    "cited_items": [],
     "filters": [
      "FC4"
     ],
-    "cited_items": [
-     {
-      "title": "Kraken Says Investigating Issue With Injective (INJ) Funding Gateway",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNWp3RHlkdlpkU0ZaeTJzU3VtYzZLNjh4TDhRbE9iVl9XemJ1RUZ6dnJkdUh2SkFGaUEtY3lFci1CLWRQc2FPMmFXRU84OWlrSjQ2UmRSRlQxVFFZb2xyYkNQbDVKYlJYdGc3anZncHY2N09hcjNiYXFPX3hUaXh1M1RLbloxcklDdDFzYXJsT19pMnAza1dRM1ZMNkFtRG1nZXotZTdSZTZwOWFIaEt3X2JYYXIyUzJGbmNvLTBuM1dPb29FdUQ5T2RRcFFfYUtqMkE?oc=5",
-      "source": "TradingView",
-      "date": "2026-08-31"
-     },
-     {
-      "title": "Injective\u2019s INJ Staking Hits Record High, Tops 58.8 Million Tokens",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JMTBiNTVwTG40MUZmRFRLZ0NHRVRSeldHTU1GMDlqdkZBNHhLd1RuTVQ3emtUbTVLUzFVZzN4c0I1NkEtaVU2ZTFVcjlwd19qcGpFcw?oc=5",
-      "source": "bloomingbit",
-      "date": "2026-09-07"
-     },
-     {
-      "title": "Upbit Places Injective (INJ) on Delisting Watchlist Following Security Incident",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbDVQZkgtSXJ5U29Eb2RZWmV1YTBVQzFDem9DM1QxVkJUTlN4cGJYWDFzSjM3alBFZnYybTkxa1VPSWVfUHBxLXJrc0FHWHBOd3AxRVQ4Q0dtdURjNUVxY1FaYjFXMzNaMGJ0NzdaNms5bHhRTGtRQlZTRlpoZjdlNHFweFNUdnVjVlBsLUJsWlpqU1gzN1E?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Injective Clarifies Chain Upgrade, Not Halt, Assures INJ Funds Secure",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4YlNvcFZudXB6NEZDOG1wVmxNRnVadENqbm1FYlN3UFRvSDZjTTdtMGlWOTBiWnFJZENfSmVUdVBWdTRRWjlXbXpXZGJCbjNuNnBYVFRJaDV5Zw?oc=5",
-      "source": "Cryptonews.net",
-      "date": "2026-09-01"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "NEAR": {
@@ -799,53 +646,18 @@
     "stance": "noise",
     "text": "AI-narrative pump [1,6] and duplicated 'back above $2' rally pieces [3,4] plus a price prediction [2] are mostly noise; FXStreet flags the rally as fragile if BTC keeps correcting [5]. None address inflation/Intents value-capture. Verdict unchanged.",
     "cited": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     6
+     1
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "NEAR Co-Founder Says AI Will Be Blockchain's Main User",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa2NySVZxVXY2LWtlME9vT043VFBRX0dQUS1LVE55THI0ZDNiX2syMlBpa2pSVDMtUC1nSXZlbDB2V2dOZVUzUWJabXpHWVp2cXlpSGZEUENTMWFHaDkzZ1lWejNOWHIxT0FFeU9Wa3piWkw1MTZUSzk0QzJxOEFISV84VjdYcEFTNFVaVHVveDNsNzItU2M2R3FWZw?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-04"
-     },
-     {
-      "title": "Near Protocol (NEAR) Price Prediction 2026, 2027 \u2013 2030: NEAR Price To Record 2X Surge?",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWUY2XzJSM0k5VzVRclprdDlvVU5IdF8xTGVScDk5a2c0T2Y1VjZiT243SWd0LU9IYWlvN0Y4anh3M21GcWZnZEQzYmU0eWQ3clFTN3lTM19ZUWlXaEFGS0hxSm5HbzU2aU9hYWxMaUEtb0w2R0NXaWhqV0VzNDRFUtIBhgFBVV95cUxPR19JX2hHdk41cWlWNndRVW8zYm9BVENWU2JSRUxyV0VXblZoSFlhUXhnUHduaDF3NG9mLXRaNzBNSHIwdWh1NFpRREotNUMteUVXVmt6RTdrVG43S251ZzRsc1JIbk9WanZRaHBGRWtkWVptRUlJbmd0QkUwaXRkRFB4bXN4QQ?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "NEAR Protocol Price Is Back Above $2: What\u2019s Behind The Rally?",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVc3emVDTFFhQlJ6Zlg2STNISHBBMkJONnk1dkFGa0NQZ2otTk5Eakt2OHpUT2N6NE9SN19uUFpIcWh5QjJscTctWWZMQ21XQ3BKdVIzZmliSk9WTWQyX0pfVEs5TndFQUZEX3d5VXQ0bXlQUm9vQWQtaVJfSEFrVTg4S2c5MnFTelJ2V0g0dEwxWnBSd1RrRk10SDhGQ1NCYkp0Nnp3ZWJPWnVCcUY4ZEctbGlOQ0pNdmVN?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "NEAR Protocol Price Is Back Above $2: What\u2019s Behind The Rally?",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM2JoWW9wUGczUXdjZEF0Tnk5bmR0VFpwXzZGZlVETDFvNFp2SVc1SExPbVEzSTlkNDA3NGRkMEhhbFpleGdtQmxZLXBuWGxNRGVEeEVFUGkzRWpVNjZOZlVjWGlWa3k1MGtsWGRFTkFHX2FDM2p0Y0RRX0RqdVNzS1I5SjN2RjB5STBGdGJ4MU95SnRuWDR3SGV0bEo?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-05"
-     },
      {
       "title": "Zcash, Near Protocol rally at risk as Bitcoin extends mild correction",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRkJZRFBEZmNETWh3YnN6bG9TZTI2SmVmSkxOUUk3bXAtV0dxbTZOQXJSTmZnNTkyYkE5dzBzbkRfOHFzVkVfcFlDdEU2cnJGc2tlMTExVmUxNEdDUW9DNXMxNFI5SXBBTUJ1QUZaVTkzcUtnRjA5aS0yLTVrYWl1dnRwQTVEb0NKNHlGZ0ZJbmk5RnJLTkdBLVJpXzJyVlFHNk9HNVpsTmNZc3BMaXFWdGJRQmIwamxJc1VGd2xTS2xvdw?oc=5",
       "source": "FXStreet",
       "date": "2026-09-10"
-     },
-     {
-      "title": "Venice Token, Near Protocol, Worldcoin Tokens Jump as AI Tailwinds Rise",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWpzdDhxVklTdkR4OFhoejU0bjlLcjlmUHVBaHBJZ3c4d0ZXWUNlUTNtRlQyNUxHZUFpejNQeWhzaEpWY2FMajBLa3hQY1ZUeW9jeGs0a1lGNFM2NGtJNXZfUm42Z1NSaVdsN2NKRFhUc3ZhUmk2Vk5PMjVRZ1NrcmdxWjZqTHM1Q1Brd2RnYmRLNjJ3MU1EZmM0RFJucEZOc0NyS2VHSE0tQzROaG9NV0tuTng4U1E?oc=5",
-      "source": "Benzinga",
-      "date": "2026-09-05"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "UNI": {
@@ -912,46 +724,46 @@
      5,
      6
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Uniswap (UNI) Price Surges 100%, and One Chain Playing \u2018Robin Hood' Explains Why",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdXBHSkRteFU4SXl3UkM2bHMyaEEtdmFndTNBdHhMQlQzb0xtZ2dUWGdKaXRxbzRvUUtaMmhyRkpnaGtMNjg3cERoaWJveEd4MlYyVngwLVRsWThJLVpGdGZibjNLUEVldWs5aHVfX052RnNlXzVIZlZ5SmJaSUg3TzJZcmVxUmoyUG5jUXNpLUY3UU9qcUxqbg?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-09-03"
+      "title": "Uniswap Founder Reveals Sam-Bankman Fried Paid 7 Figures for Uniswap.com and Lost It",
+      "url": "https://beincrypto.com/sbf-uniswap-domain-taken-back-free/",
+      "source": "BeInCrypto",
+      "date": "2026-09-21"
      },
      {
-      "title": "Uniswap (UNI) Surges 10\u201313% on Robinhood Chain Fees, DeFi Rotation",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94bEtzaF9ETUdKdmwzc1dUWVNjMm4zMHVHcUV0ZURvVVFsTG0tdWNnRUVPQXQ0ZVdJZ2tRTWl5YnJwOFVyTEZUVEtNME9ILWFJTVV4MXhvUmw4TXN2VVpXeXJiVTdSdTdJNGlPMWs3WmM?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-02"
-     },
-     {
-      "title": "Uniswap (UNI) Price Eyes $10 as Trading Volume Surges 45% in a Week",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKSmZZTl9KOFJuOXRRTXNTeE4wTTdNZjdJWkVFZFNRbWpqQnY4YjcxT0lqQlE1WW9fZWloYVotdEVJM081a0YxU0hwcEM1X0lqLTROV1VvQjZhVHhabDhDOVpqZy03UQ?oc=5",
-      "source": "Altcoin Buzz",
-      "date": "2026-09-03"
-     },
-     {
-      "title": "Uniswap (UNI) Price Prediction 2026, 2027 \u2013 2030: Will Uniswap Reach $50?",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96LWNadXozZzh3WmN4UzZLal9UT1hBejZaRDhYNUlLeFFqSjJ2T2J3V3RNTjRkRG1BOVRraHgyZWJVVnB3RVRlV1NrM0VTY1ducXdwbmlEXzZmaGxMaTBRY2lWVmh5cE5jV3ZWdlMxdEFUREdHZ2Fz0gF8QVVfeXFMTUxHUUZxcnpKUHl0dUdBckRRMUFYZmxvNUkycjZBV3VZWnk1WHlmOVNxUlRWOUZlQWE1ZnRVQnBCLUphbGVlTUZmUG8wZ19tcHVPVzAzSEFNM3VNVmZkZTJCci1EYlF0QVdjdGpHQWZKX3VaeHl2OE8zR3dXNQ?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-09"
-     },
-     {
-      "title": "Will UNI Burns Fuel an Explosive Rally by 2030?",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaTUM1QW1JcnJiODI1VkR2WmNRMDVFSGJwTnlFZFBoZUJJWlFrZWRzcW5QM1VVbTdGa2pfakxFNWg4Sjh3dGdNU2Y2RldSS1p0dzJoa3YxeE0xbndBZEhkR2VsYjF3RldYQ3ozU29MeVM?oc=5",
-      "source": "Phemex",
-      "date": "2026-09-08"
-     },
-     {
-      "title": "Uniswap price today, UNI to USD chart, marketcap and volume",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11STFlaHhIU1o3VG82MGxjcU1pZVVCay01aGhzM1JtQ1FRVi1DRHVyR0VjbW0yMXBXc3RDNWk0SktLUTRxb2FpTzNNZk5LeHM?oc=5",
+      "title": "Malicious Uniswap v4 hooks are baiting DeFi traders with fake swap quotes",
+      "url": "https://cryptoslate.com/malicious-uniswap-v4-hooks-are-baiting-defi-traders-with-fake-swap-quotes/",
       "source": "CryptoSlate",
-      "date": "2026-09-08"
+      "date": "2026-09-16"
+     },
+     {
+      "title": "0x Says Uniswap v4 Hooks Were A Mistake, Hayden Adams Says \"Skill Issue\"",
+      "url": "https://thedefiant.io/news/defi/0x-says-uniswap-v4-hooks-were-a-mistake-hayden-adams-says-skill-issue",
+      "source": "The Defiant",
+      "date": "2026-09-15"
+     },
+     {
+      "title": "Uniswap Launches Dynamic Fees for Two Stable-Pair Pools",
+      "url": "https://thedefiant.io/news/defi/uniswap-launches-dynamic-fees-for-two-stable-pair-pools",
+      "source": "The Defiant",
+      "date": "2026-09-10"
+     },
+     {
+      "title": "Uniswap launches \u2018StablePair Hook\u2019 to help LPs capture more stablecoin trading value",
+      "url": "https://www.theblock.co/news/defi/2026-09-10-uniswap-stablepair-hook-414160",
+      "source": "The Block",
+      "date": "2026-09-10"
+     },
+     {
+      "title": "Unicoin sues Uniswap Labs, seeks to cancel UNI registration",
+      "url": "https://cointelegraph.com/news/unicoin-sues-uniswap-court-cancel-uni-trademark?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-10"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "HYPE": {
@@ -1012,24 +824,24 @@
      4,
      5
     ],
+    "cited_items": [
+     {
+      "title": "Kraken Finds the Compliant Route Trump Promised for Hyperliquid in the US",
+      "url": "https://beincrypto.com/kraken-hyperliquid-us-perpetual-futures/",
+      "source": "BeInCrypto",
+      "date": "2026-09-17"
+     },
+     {
+      "title": "As RWA trading surges on Hyperliquid, Dragonfly\u2019s Qureshi makes the case for a multichain future",
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-17-as-rwa-trading-surges-hyperliquid-dragonflys-qureshi-makes-case-multichain-future-415406",
+      "source": "The Block",
+      "date": "2026-09-17"
+     }
+    ],
     "filters": [
      "FA1"
     ],
-    "cited_items": [
-     {
-      "title": "261,555 Hyperliquid (HYPE) Deposited to Coinbase Prime: Are Institutions Selling?",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSkxhT0R2QUpZVnlUOV9tZDNIOW9SMlRoVTV6TG5naHRuYmlLOEhXLXNDUWRZcHpDcUVSLVIyNktHM21tMmVUTDI4VXV0bHhlSlVjV2M3Z2J2TmZ0THF4X0dOV2lWSnFGZ25OS1RPaGdobXN2SDRVa0x2bjA0amkxcnhQdTZxUGdmTXlIaTVyek11RGlqYkhacm8wLUFINFdBeVRNa2dQdENFZ0Zmam81RDZuZThjcG9SVV9Tbi00OThaQnNhODNBTE93YU5LYmRZ?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-02"
-     },
-     {
-      "title": "Hyperliquid (HYPE) Whale Accumulation Intensifies\u2014Can the Price Break Out Toward $100?",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTUxhVzJZeWV5SVRMeUd0SlA3eEpjc1RxaTBGZ09mSGREQWVGeVpiQzFIa2NQdmxETXVhMUhZQk40UDdVYnVHMzh4VkdYS19ZSGhkcFNGR19WaEpfT240WjVpOGhGZ2FGMlBKblUxbGtZX0pXZzlubmZSZ2xDYURkZ0lUeENWSEZ4NWlISDB5TWlIT1ZSejZuLW55eGllRElSc0U1WUZVZC1iNmVuOHEydGJDa0VCQ3VYYVBuaw?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-01"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "LINK": {
@@ -1070,7 +882,6 @@
      3,
      4
     ],
-    "filters": [],
     "cited_items": [
      {
       "title": "Chainlink Price Analysis: Can LINK Hold $12 as Institutional Demand Rises?",
@@ -1079,13 +890,14 @@
       "date": "2026-09-07"
      },
      {
-      "title": "Chainlink Eyes $15 Breakout as Charles Schwab Adds LINK to Crypto Platform",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GMUc3LTFsWVhLeS1qdXVmNi1YeHNzdlVHZ1hwOFIyeDk3UzJyMnVjVkVjLWNIaFZLZVhld1hXWnpBWjExWWVEZjRWcXYtSGU1X3V2Q3hyamktNm1wOERBb1Z1QlhnWjJhVnVoeVJyWkJEN2dOTGc?oc=5",
-      "source": "finance.biggo.com",
-      "date": "2026-08-28"
+      "title": "Chainlink Price Hits $13.64 as LINK Eyes $22",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkblFfQzcweWI0SGlSZkEzT3J3M1FRaUZiWW5lZmJUVHRZZG5BWjlzWlJOVG9iUGtMRE1mRTU0a0trc3hka2ZORUhINkdDMURfWVRfeldwNVZVZw?oc=5",
+      "source": "tokenpost.com",
+      "date": "2026-09-07"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "FET": {
@@ -1117,44 +929,30 @@
     "cited": [
      1,
      2,
-     3,
-     4,
-     6
+     3
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Artificial Superintelligence Alliance (FET) Price Prediction 2026, 2027-2030",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93RzlWeFFicGtlbkdLMXh2aWNIS2FnR1VnQVgzcWFET3FkcmpKYTFrNnJkZmowQnNBWlhoNmxCcnQ5b1dfMGdyWkp2aDJmZjNZVENUMXhBX3hHUGVfb0ozemR1ZWJsQkRmUnRwVV9rVHU0X3N4Y1cxNNIBfkFVX3lxTE9VRVVhRE53azh6X0VETGdmczlPUTFuLU53dFJkUlFmSi1yU1N4NUVVN0hCUnhHOURoeEtmanNlbXo1S3RtSWd3YVduVzZ4eW9IdEU2QnlDdVUtOWFLeldBdWQ4RjUwWktuaTdlSWxNcmdoNDQ2Ri1MV1pIc25EUQ?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-02"
-     },
-     {
-      "title": "TOP AI Crypto 2026: Why Comparing Qubic, TAO, Render, FET and NEAR by Price No Longer Makes Sense",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmpMTHhTbEUyZm14REdRajdtaERVZUhFX0xtbEdyX25ZUGdtMWMyQk45QWMyTFY2YUxhNTVteUNJXzhRcVFZeDUtN19XczdrM0dWSzYycVlPNk11S0JWREJXZDJ5aHF5cU9DOEhEeFY5TzlYMzAtd3VZbmlmT0xtaDd3RlBlQktncmp2a1o4OUt2MjU4cVJpVE03VExZVHpOcXBtdUVFZ3gyTjJhb2QteGI2QnI3TGU2N21HM2Q4TGFMWER0RThZ?oc=5",
-      "source": "Cointribune",
-      "date": "2026-09-08"
-     },
-     {
-      "title": "Fetch.ai offers 3 free projects per account to test Athena, its advanced AI execution layer.",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHpvN0xJRmdfNWh6VWg2ZVVDR0N3ZEpHQmRqTzU2cVFIWThBc05UeWRnWEFJRV9kMmNXLVpmUVUzQTJlVHN4MWItWTBBVVJNNnhGSXF0LUlJSThBckxDLTdSaV9PSXZnTmh0RWNCWmNLZkpMS0RQaTBYMUxwRmJhVmtYUGtwVk9kNWs2YkJVeTU4NTBMRDE3ZEstekpSUmh4RGRXQ1FR?oc=5",
-      "source": "Pluang",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Ocean Protocol Price: OCEAN Price Index and Live Chart",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VOFZRb0h0eGo3OXRyWG5WcTVnNWg3SW4wck5UdXAtWDlzRExGV2syQ1N1MFk2OUVZOFd3TmhPWGVEekJ2NldFRl9NRF9oTC1xSVZfa3JlTQ?oc=5",
-      "source": "The Block",
-      "date": "2026-08-28"
+      "title": "Fetch.ai and NuNet Exploited for $2 Million by Same Attacker, NTX Hits All-Time Low",
+      "url": "https://beincrypto.com/fetch-ai-nunet-2-million-exploit/",
+      "source": "BeInCrypto",
+      "date": "2026-09-20"
      },
      {
       "title": "Fetch.ai builds custom AI agents for US and UK universities to help students navigate campus life",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2TXBwbmd4YkExQUQxTTRnLUJKMzBHMFdkTm90WTNnUk52NHBlWlN1QTdZSHh2OTZ1VzRzM0E5OUc3dFczWW5lOXhGUHVDNWkzYTZOc2pMMlVldWhpSGtRN1I0OHFDSVotM3RGOQ?oc=5",
       "source": "Crypto Briefing",
       "date": "2026-09-10"
+     },
+     {
+      "title": "TOP AI Crypto 2026: Why Comparing Qubic, TAO, Render, FET and NEAR by Price No Longer Makes Sense",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmpMTHhTbEUyZm14REdRajdtaERVZUhFX0xtbEdyX25ZUGdtMWMyQk45QWMyTFY2YUxhNTVteUNJXzhRcVFZeDUtN19XczdrM0dWSzYycVlPNk11S0JWREJXZDJ5aHF5cU9DOEhEeFY5TzlYMzAtd3VZbmlmT0xtaDd3RlBlQktncmp2a1o4OUt2MjU4cVJpVE03VExZVHpOcXBtdUVFZ3gyTjJhb2QteGI2QnI3TGU2N21HM2Q4TGFMWER0RThZ?oc=5",
+      "source": "Cointribune",
+      "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "BNB": {
@@ -1200,37 +998,30 @@
     "cited": [
      3,
      4,
-     5,
-     6
+     5
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Buy Binance Coin (BSC) in Belize | How to Buy BNB with Credit & Debit Card",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5DT2QtTGY3NGtwWm1ndkFiSG1JR1BQWnV3aFc3WHpDZVROekU0dG9RTENVYWhtLUJuUUNnNkdZa3dhbEtMWk9mRENOVQ?oc=5",
-      "source": "Changelly",
-      "date": "2026-09-01"
+      "title": "Bnb (BNB) Price USD Today, News, Charts, Market Cap",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5La3BtRldEeFpiRGVsdU43cGlVUlloMWxTc1pPYmhuX2k5bUZaWTl3NTJPcXBMZmNQb29lSmVoeVVmbTI4MmlKT1dB?oc=5",
+      "source": "Coinbase",
+      "date": "2026-09-08"
      },
      {
-      "title": "Crypto\u2019s Next Meme Coin War? Traders Want Tokens That Can Move Real Stocks",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmNvb3B2ZEh2eVM4MzFHUGEzRDZod09UWHcwcWFON0h5WUNJVDlzdmNxOHF0Z3dkZzhyQXZWYWREcDNOWjRqQmU5RWl5WVc0YlB3d2FpSUtscDdsTU1tbU5QYy1MdUIxSEVZc3hmTXZKNDhfOEFJWjY3UXpHSWVLemtBYjVhUW13U0NHZHU5QTU0OEdN?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-08-30"
+      "title": "$BNB Holds Steady as Binance Chain Unleashes a 'Coin-Stock Meme' Battleground, Learning from $ETH &",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OXzZhdFZlbHU3ZUNsSl9GNnpRWkFxVGthWmRsYTNjUFNjTm1mczBWUEprd1I2RUVtcUoyRmVVT3BzajZ5RHE0VzRxSmRkSU1PbWduc1NNTkZYRlB3dzgzVHJ6UEo?oc=5",
+      "source": "Binance",
+      "date": "2026-09-07"
      },
      {
       "title": "BNB Opened Registration for Binance AI Beta",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVmtrS2VTaTIwVWRqZkNIQ1BCTmdOU0FFNFItaURjdEZBLWJvWlVrM3JTLTd1eFVQTG9OLWxMZGJZemhMX0F6V0pwaGFFR2pVdTNWMjZKQm5rUDlNSnhPZFJxbVlzeTVOSldJalVZWWd1UXJzQWZHZWg0eEUyZjduc1VpckdWRjBCMzZLbVN5TTlWeDIxSGJsSWg4R0Q2TTNVQUVn?oc=5",
       "source": "TradingView",
       "date": "2026-09-07"
-     },
-     {
-      "title": "Binance's BNB Token Reclaimed a $100 Billion Market Cap This Month",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY0FXVm42OWh1T2hjSXdnRmtlckx1ZUhzTXFTY0Iwcm15VlVFSVo0N1hIVGdKVGZmQVg4blNtUVRfQkVkMHBJZk5rZlVBT1dIMnR0Nm9maXptSU1yc0JwRjR2YmlJa0htd3JCMlpIUWJSSlREOGoyd29JSF8xaGd6R3NYMjk0eUVWWFpDa0pyQ2ZJWE5NWkg4?oc=5",
-      "source": "Startup Fortune",
-      "date": "2026-09-10"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "Canton": {
@@ -1273,20 +1064,7 @@
      3,
      4
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Canton Network ETF Lists on Nasdaq, First of Its Kind in US",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVEdqVm1QYzdLZDlBZ0p4ZG04VDNaTHJPSEN1cG5rWlk5NTYzanFtS0hMdkNQVkcyYVpOS2ZrWGF6MVdyVGxKZ25Iekw4STF6eUlHblJoNlAxV1RLR0paVlFITENsV0tFTERxNlJhQWRjMVN1WGk2c1RIOWdneDVPZ0Y1LURhX2ZMRnktM25CV28?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-08"
-     },
-     {
-      "title": "CC Price Eyes Recovery as Burn Activity Gains Ground",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYVdYVUd5SnZwN255UzY1dlowRUxDUFV2S3J1TU1Cc2FUak9mekE4T0RzTTR6eldDSHhKN3pzT3RjRDFUNi1MRV9CUTdWRmRyYlRlU3MzRk1qR0szNTByQWhzT0w1a18waVBCNlRfbTZtRjRSdWlpdEUwVHduS2pEblNZenJPdEt0QTJXVWE5MDE3LVpO?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-03"
-     },
      {
       "title": "DSRV Adds Custody Support for Canton, the Institutional Blockchain Network, Expanding On-Chain Financial Infrastructure",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rY2pMVmI0VHJrMmlVdzJMNlJzZmlRWFd0bmRvdm9RRDFkYndITFk2NkJtQ3k3aHJacW1uLWlNeFFoZm0wOFhJb3c5WkJOWklqZ3VmSlVpQ25hQTk3UkNxOERIeFVDS2hfdTg4RlhINmpUT2ZtRnc?oc=5",
@@ -1298,9 +1076,22 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfd3FqaGJrbGNoVXB5UEJhN3FLdnNJNldDbzdQVWZpSW5WUFBjQkxwejUxZC1kODZuQ0NQMDlYQWwyNlVtN1ZCZlpiMGZwYTQ?oc=5",
       "source": "\ub9e4\uc77c\uacbd\uc81c",
       "date": "2026-09-10"
+     },
+     {
+      "title": "Canton (CC) Rises 3.9% on Multi-Catalyst Continuation",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96V2RSS09zV0VZRjBsamxoTDlaZjRObnNPZFBid0pGWnpXbHF4NmNqS254UHhOdVBOSFR1emZzM2FwdWRtNEViUEs3M1ZBUDN6YjdvLXZyZ3pLQWxKc0VfOVRZNVlxVjhVZ3Jud0NSVkI?oc=5",
+      "source": "CoinMarketCap",
+      "date": "2026-09-09"
+     },
+     {
+      "title": "Canton Network ETF Lists on Nasdaq, First of Its Kind in US",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVEdqVm1QYzdLZDlBZ0p4ZG04VDNaTHJPSEN1cG5rWlk5NTYzanFtS0hMdkNQVkcyYVpOS2ZrWGF6MVdyVGxKZ25Iekw4STF6eUlHblJoNlAxV1RLR0paVlFITENsV0tFTERxNlJhQWRjMVN1WGk2c1RIOWdneDVPZ0Y1LURhX2ZMRnktM25CV28?oc=5",
+      "source": "CoinMarketCap",
+      "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "AVAX": {
@@ -1367,46 +1158,46 @@
      5,
      6
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Avalanche (AVAX) Price Prediction 2026, 2027 \u2013 2030: Will AVAX Price Hit $100?",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtaENwZXM5eVJkNS1TTFVqWUNJXzhiZEZENm5mQWZqNloydXI4cWxjS2dDX1FZSXBKd0xDb0h0WVh1U1ZNUy14SGlTaHh2TVJ1aF9YS01nazlsWEN6MDkxd1ZMVjdnSFQ4Z251cGhFYS11UDVjcy1nbEg2a9IBgAFBVV95cUxNanVVblZSa00zRlN2N3BRbkRuTWdubWZWcGROTlRPRFFybUhpbmZwRmw2bm9ISTZLYWlGTDRRa2t3UzRXTklVWEFpd3FmX20yS3ByemZBTE1xdnhBME5IOHRzaHdxOWQ0RHFvSlN5WWFIcXJfNWVmeDhlVkdUZm4xUA?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-07"
+      "title": "Ava Labs president says NYSE spent a year testing Avalanche technology for tokenization plans",
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-18-ava-labs-president-says-nyse-spent-a-year-testing-avalanche-technology-tokenization-plans-415509",
+      "source": "The Block",
+      "date": "2026-09-18"
      },
      {
-      "title": "Avalanche (AVAX) Rises 4.65% Amid Broad Rally and Tokenization News",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNnRrRXdKYnJhajVZYWo0VkNzdEZ4Rmw5dGtQbmswcGRVYzZ1NlhVVjc4UGIxX1g2bzNCb085TzZRVEFyb05PYUs0eFZmVC1vS0hXMk1zSlpib3dha0YyOHRlekFZd29WVW9zcTFleHE?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-03"
+      "title": "Avalanche just slashed validator lockups to 48 hours, but there\u2019s a catch",
+      "url": "https://cryptoslate.com/avalanches-helicon-upgrade-cuts-validator-lockups-from-14-days-to-48-hours/",
+      "source": "CryptoSlate",
+      "date": "2026-09-17"
      },
      {
-      "title": "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLTA5blJsaG1sbFNUWG43bzRPX016VFJXbkQ5UmlSR2wyMDVGdk9kODloTUxQaXBiZzJ5ZmZDRTVMV2VoVXR5NzhfQ3o4cGU2VURETll6ZzhTdmJkRFVzOEFESVN4cFhfbzJuTGRFNW9PNDZGSXV2VmhfMEM5dk9RTk5fWUplVW14OF9r?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-08-28"
+      "title": "\u2018There\u2019s not enough blockspace\u2019: Avalanche Treasury CEO says AI agents could crunch L1 blockchain capacity",
+      "url": "https://www.theblock.co/news/ecosystems/2026-09-17-not-enough-block-space-avalanche-treasury-ceo-says-ai-agents-crunch-blockchain-capacity-415397",
+      "source": "The Block",
+      "date": "2026-09-17"
      },
      {
-      "title": "Avalanche Price Prediction: Will Charles Schwab\u2019s Listing Send AVAX to $9.80?",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc3pjeEo2QjZDT0M0cUNFcWltOUVzZ05YQnU2NjE2RThRR2M3QlBFNHlyUnB1WEQtZDdCMGk5Mjl2Z2pfWjdUUWh2NDFKbUZFQU83ME1LT095VW1pQzQ0R25QYUF6U3BlMEF0TjZuTDZQYUZ3Q3VUak9aTWlGdXM5MXN1V2JCNXk2Sk9TMTVtQ3hYVWhvYUxIQkhURldKakVPV0F5NE1lSUc3VG14bjRjVQ?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-08-29"
+      "title": "A LatAm telecom operator is putting part of its finances on Avalanche",
+      "url": "https://www.coindesk.com/business/2026/09/15/a-latam-telecom-operator-is-putting-part-of-its-finances-on-avalanche",
+      "source": "CoinDesk",
+      "date": "2026-09-16"
      },
      {
-      "title": "Avalanche Price Today | Live AVAX Price, Chart & Market Data",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QLThudms3bkROS2lBNGozSFlpcjN6aGxaM19KN1gzd2JVM2FxOWJva25sc011dy1BcFIyMUxCeGJkeV9BNmtwM2tkcWE2X0d2a1lPcnY5aWc?oc=5",
-      "source": "Binance",
-      "date": "2026-09-02"
+      "title": "Aave Labs Plans A Tokenized-Asset Credit Market On Avalanche With Tether's USA\u20ae",
+      "url": "https://thedefiant.io/news/defi/aave-avalanche-rwa-hub-usat-tokenized-collateral",
+      "source": "The Defiant",
+      "date": "2026-09-16"
      },
      {
-      "title": "Avalanche (AVAX) Price Prediction for 2026 to 2031",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VNmVETi1mLVpLMHhZUV9BRnNFdGJRT21lQ21kck9KT0EycHRrRWVmeV9CYWhDdUhkMlVHYlNDTVZFYWtIYkZmY25mS05BQ1JmTVEwUElXeVJSY01NdFdzcU9TMzk?oc=5",
-      "source": "Bybit",
-      "date": "2026-09-09"
+      "title": "India\u2019s Arya.ag to put grain ownership records on Avalanche",
+      "url": "https://cointelegraph.com/news/arya-ag-tests-tokenized-grain-receipts-avalanche?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-10"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "KAS": {
@@ -1438,38 +1229,24 @@
     "text": "Entire batch is price-prediction spam and convert-widget pages [1][3][4][5][6] plus a routine pullback note [2] \u2014 none address hashrate, DAGKnight timing, or fee revenue. Verdict unchanged.",
     "cited": [
      1,
-     2,
-     4,
-     5
+     2
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Kaspa (KAS) Price Prediction 2026, 2027-2030: Will Kaspa Reach $1?",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44V3VZZVZqbzF1b0l0TWhtMGlfbm5Hb2pWTzQzLTFyMEhsbGJhYUJWT0l5NDdSUnhmMkhxdGlfZnJrR1htTTlWYm5OakFzMkxZVlpETWxoYjNGSldxSTFLbGxBaTZvN3RGMXRZMTdkV0x6ZmN1WlE?oc=5",
-      "source": "StealthEX",
-      "date": "2026-09-04"
+      "title": "Convert 1 KAS (Kaspa) to USD (United States Dollar)",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OZ21lUk15aVJRblItd3ZYa0tLM0ZVYzZiTnF3S1ZxXzY5clJuQm5HRnVWWFZiUUszUk9jZElPallLeFFycHdvLUoyQzV5Z0ZtNVBGc3pJWQ?oc=5",
+      "source": "Bybit",
+      "date": "2026-09-09"
      },
      {
-      "title": "Kaspa (KAS) Drops 4.9% Amid Broad Altcoin Pullback",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xektyQ1R6R0ZaTXJVNDBsbmZJWklwVjJJdmg0MU5tdHRERVBvZG0xbm4wY1daLVlyaWNpWXk2S0lTNkhvaFloZGczLUI5UEt4eExmUy1RQWJkUno5bHFOak5NeUhnMkZXVEtGeDViY2Q?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "Kaspa Coin Price Prediction 2026, 2027 \u2013 2030: Will KAS Hit $0.1?",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yN285QmQ2bkozVjcwcWo2dFZMMVU1UmVZRktEN0h4aHUtV0J3clNySGRtMVBVUWV6MTN1RV9EWEdqM3JETzQ1N2RKMHBJcHd1akxJLWNwaV8tbWpUcWxXZ19HUzMyOVhoSUVqNk0yZFVPTnRkMXfSAXtBVV95cUxNREdITGtkS3BMMF9WbVlWOV90d3JJNExKcjU3Q3BOY3VEZEpsZTAyeVFZQ09uZVZqWDhldW54Z001ZHcxR1BXWmExT0JXUk43RTRaVUc2TTgtZ2VrWHZmdENxdGdtMU1MLTM0bW9JVUhKOHdFTDg0UnVUMG8?oc=5",
-      "source": "coinpedia.org",
+      "title": "Crypto Price Prediction: Internet Computer (ICP), Kaspa (KAS), Terra Classic (LUNC)",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc2Q1UFhVemdUZkVTUWdPUk9zdWh6dlYtVUY1S2VLOXFqRVFjTHZCSmhBXzFtc2t4ZWI1ZUh6UmhmVWxDSG9hRmlVTGl6Y2ZsQl9tMHdoSnpBM04xczNXc1Fqa1Vvd0d2UVAzVnY3OUttWFpuZWtoQ3lmeUNuNzBvMXZ2TkxQSXpEWW55b3V4ZThxdGJXWk9EaTVXclpjc1ZlV0dFQ19ISkFlMDhBQjZ1TFZn?oc=5",
+      "source": "CryptoRank",
       "date": "2026-09-08"
-     },
-     {
-      "title": "Kaspa Price Nears a Critical Falling Wedge Breakout, Can It Rally 120% Next?",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZW14cjJqSHJ5OFprQjJ2bFkxNXhlVkhET1hHNFhqbERfRlc5aGszaUtydjB4S3VUNG9qcVNLVFB4U0ZBY0RGMm16Y1ViQ1lldVMxUVg0eGoycnIxUGVEQzFBYmozcXV1NVB5SkZ6SUJQbHhFOFN4RVFOY0xjSWxRZ0xJT2tTT25yTlhNMEg5T29XMzc1V01PdFJsQXFCQTRDTXBIOUVLRnYtR0E2MldqNlB2dElidEtzdm1wbGxYMWxpT2NaYjVsMTl6eXY0QQ?oc=5",
-      "source": "TradingView",
-      "date": "2026-08-28"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "VET": {
@@ -1510,18 +1287,9 @@
      1,
      2,
      3,
-     4,
-     5,
-     6
+     4
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "VeChain (VET) Pullback Explained: No Direct Negative Catalyst",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10NkhaLVJQMG1oaHRLSE5qSGUwZWpFQk45M3BwTUg0dzNySUs5X1R1eGR3TndpdG5uaDlqaGhZWjg1dGloX2pmd05JNnZ5Z2RvT3RKckNIVHREVl9QSWxaTGJhSFVjUmF3V0Nkcm50czM?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-30"
-     },
      {
       "title": "VeChain (VET) Price Prediction 2026, 2027 \u2013 2030: Long-Term Forecast and Market Outlook",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjMUJtVTlGVnhieDBGUXZxOHBjVEljeFB2MFdQSDBVRWMyNVB5a0lOQm5rdVE5dEZUZWRDZ2ZMVExxcFdrQ3lyNmF3RXpTblc4S2dMLVhZVWt6S09CdTBZb3luR3NvZWVHTkROUUoyRW8xZ9IBd0FVX3lxTE9vRUgyc180VjJqWndvOEktVDhZeHFwb2paU0l1Uy11NjZ4WHFhSEJ4QThwa0FmQ1dPRkJ5UGtMOGxHcTZOUzYxYXl1Z2J6NHNOdVZnNE9yZnh3MUhfOWd3dXNhbjFtNHNDdkZ2MThwTzA5ZUpIU25v?oc=5",
@@ -1535,25 +1303,20 @@
       "date": "2026-09-09"
      },
      {
-      "title": "VeChain VET price analysis: will the third resistance test finally break?",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DcjQ4eG1LNmllUDdibXhEcGVldDUzQjBNX0k2UW9TWGJHdVVYaW1xNE5KVHBKZ0Y1YUJDbUd0LWZpakVFQzMyVlQ1bDFYNFFlVkx4NHBxakptMjJleXN3dnBiMNIBY0FVX3lxTE9DcjQ4eG1LNmllUDdibXhEcGVldDUzQjBNX0k2UW9TWGJHdVVYaW1xNE5KVHBKZ0Y1YUJDbUd0LWZpakVFQzMyVlQ1bDFYNFFlVkx4NHBxakptMjJleXN3dnBiMA?oc=5",
-      "source": "Bitget",
-      "date": "2026-09-08"
-     },
-     {
       "title": "VeChain Price Prediction September 2026: VET Breaks a Multi-Year Downtrend",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LMy0zQm9lM3lXN0JlLTg0a0RIa05mX19LRm5abXg2VF8yT2p4cFl6d2FFQnJ3UDBoNllMV2ZNRG01ckwwZ1lhak8xWC1vZEw3bE9aYmpudDg2Nk0?oc=5",
       "source": "Cryptonews.net",
       "date": "2026-09-09"
      },
      {
-      "title": "VeChain and Rain lead crypto gains while Stable and Arbitrum face declines amid mixed market moves.",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMS0tYVRObVlQanhFVk0xcHM4NXZyeGdHTFNacTBkSTNwOG5HNEttNEdTTGlrbk1HSTVMWkdkWWZ6bXhmSG8tWnFMaTRiZnJIMmNkbTl6WHNCLVdWOEVkalBHWkVGa2VIazRrd2xDU2FnSHlUSl9DalhubWZxUzFXRjlCMTdURFNCNll0SGRTU2o4YU9zM0Nv?oc=5",
-      "source": "Pluang",
-      "date": "2026-08-30"
+      "title": "VeChain VET price analysis: will the third resistance test finally break?",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DcjQ4eG1LNmllUDdibXhEcGVldDUzQjBNX0k2UW9TWGJHdVVYaW1xNE5KVHBKZ0Y1YUJDbUd0LWZpakVFQzMyVlQ1bDFYNFFlVkx4NHBxakptMjJleXN3dnBiMNIBY0FVX3lxTE9DcjQ4eG1LNmllUDdibXhEcGVldDUzQjBNX0k2UW9TWGJHdVVYaW1xNE5KVHBKZ0Y1YUJDbUd0LWZpakVFQzMyVlQ1bDFYNFFlVkx4NHBxakptMjJleXN3dnBiMA?oc=5",
+      "source": "Bitget",
+      "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "TRX": {
@@ -1622,13 +1385,30 @@
      5,
      6
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "What to Expect From Tron (TRX) in September 2026",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYTlYVm5jRkxjQmc0cHZOcDRIWU41VHNmLXRjdW1TQjVjZGhWOWhQRFhhYXNSX3dRbGxIVEU4czgzWVBaSXVaQmstbkI0Y3VLaEpUV2NqVG9EVzh1ZDVldlVhaXVlVjBiUlk5N2h3bE05TklWdmxjM2txSnVsZzFVazl4alFOSGtZZDB4ZjJ6bGxTWkJabmhQOWxQdw?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-09-02"
+      "title": "USDT on TRON Becomes Most Used Onchain Payment Option on CoinsBee as Stablecoin Spending Grows",
+      "url": "https://beincrypto.com/usdt-tron-most-used-onchain-payment-coinsbee/",
+      "source": "BeInCrypto",
+      "date": "2026-09-21"
+     },
+     {
+      "title": "Chainflip to reset TRON USDT provider balances to zero following $736,000 exploit",
+      "url": "https://cryptoslate.com/chainflip-to-reset-tron-usdt-provider-balances-to-zero-following-736000-exploit/",
+      "source": "CryptoSlate",
+      "date": "2026-09-17"
+     },
+     {
+      "title": "Tonkeeper Becomes Keeper as Wallet Adds Bitcoin, Ethereum, and Tron",
+      "url": "https://decrypt.co/378265/tonkeeper-keeper-adds-bitcoin-ethereum-tron",
+      "source": "Decrypt",
+      "date": "2026-09-16"
+     },
+     {
+      "title": "TRON Expands MetaMask Connectivity Across B.AI, SUN.io, JustLend DAO and BitTorrent",
+      "url": "https://beincrypto.com/metamask-tron-defi-dapp-integration/",
+      "source": "BeInCrypto",
+      "date": "2026-09-10"
      },
      {
       "title": "Canary Capital Launches First US Staked TRON ETF as TRX Enters Wall Street",
@@ -1637,31 +1417,14 @@
       "date": "2026-09-09"
      },
      {
-      "title": "XRP Nears Key Rebound Zone Amid TRX Surge",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaUdCUkRSRG4tM3hUYzFJTEdLcGVFMVN5NHlIS2hvbHYxT2xiS3gtQV9wS2tCNmxUVXF0M1VNcmxXbUhGOEVPd3dSNjRmMHRRdlhaTGxaeEJkV3RTSXJ6c1JMV3lTV1VZVnRZSHpqNjlBVXZ5LTcxczRubE1nNUN5TTJBb1E0YU9ickwzQ3ZXOXcxTGJpNVU1ZkFfeUxNQ2lVeDBaV2hZR2xYc1VyTG9Ua05ibUNkTjdKakNCaEhZck0tMkE5Z2s3Q0NLTk9uLWkteE44?oc=5",
-      "source": "Stocktwits",
-      "date": "2026-09-07"
-     },
-     {
-      "title": "TRON (TRX) Declines 3% Amid Macro Risk-Off and Altcoin Rotation",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1RjNMRVFqVkxGZnN1X01lRm5VWVpLakRSNnNtYjFfXzFYS00zUFZYN3IwSzBrUTNNY2JibnhRaVRBUnJXMGxmTlhvZDFRelE1eHBWUzhFellMWTJudW0tajI3azN3T2JLX0RZdndqcmU?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-02"
-     },
-     {
       "title": "First staked ETF tied to Tron hits the US markets on Wednesday",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdFN2bnRacEczZnVqTXhWMUJsV1hKcXU0SFBJNVhBRzlPanZnTjE3MkJQUVlFN0xuc1hDM3Z3c3VuaVpNemZDNWwxYXllZXdZT0JrYkQ5LWJlWDUzbldoZ0ZrNmxrUko0TXNNd25EM3YySl9ZMGRIaktvTnhSMldtTkhaZFZhdFp4VjhXanE3RUptSFpYRml4Wnk1X2k0dXNZbEg2T0JaTE5XQ20yRzNjbThsZjgwT01l?oc=5",
       "source": "The Block",
       "date": "2026-09-09"
-     },
-     {
-      "title": "Crypto ETFs Get Smarter With New TRON-Linked Yield Play - Canary Staked TRX ETF (BATS:TRXS)",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRXlubWVFYjJ0MzdWYWtUVlJWUE02d1RYUFhoZVhtVEtpU2pnVGwtTGRBUVpYUVBwVHY4d2haUDlrbkotbnMtenRVZVhUelF3aE9RY2xHaXpIdG02R05OSDZBaFRjRlktalJTNzV2cHdjcjU3YXZ4Rmp5NUNvUGpkRnBLRzFRMTFpZVZJYjJ4QXRnUXVLS1NZemFxWDVMdVVHX19fWFNMQkhSWGFYaDZFZXdoNl9sX29BVlk1T1daZFVmWkdtcXU0akNwZlpXNll5Z0E?oc=5",
-      "source": "Benzinga",
-      "date": "2026-09-09"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "CVX": {
@@ -1669,40 +1432,10 @@
    "opinion": {
     "stance": "noise",
     "text": "All four items are price-prediction spam [1][2] or mislabeled aggregator pages [3][4] unrelated to Convex fundamentals or Curve volume. Verdict unchanged.",
-    "cited": [
-     1,
-     2,
-     3,
-     4
-    ],
+    "cited": [],
+    "cited_items": [],
     "filters": [],
-    "cited_items": [
-     {
-      "title": "Convex Finance (CVX) Price Prediction 2026, 2027-2030: Will CVX Price Go Up?",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQN2UybTIza2FWQXdkQS1uT0xUQUNwa201RnNkYlE0STRZSjRFcjhldlduQ21yRWpKZHNkZDBYRFU3ZUt6UjNUenltZ2tDeGgzVE80QWx4RjJ6YzI4UEFhcU1DaFBXY0M1TXNsQVFVNUk3bXUzMkp3Tk9QNXVEUWthSdIBhgFBVV95cUxQWmJ3V1lPaGYybnl1dHdqWVpHZ2lja2J0RDd0LUFHMzdoUVNLcjlNTDFIWkt2bm1UR20wcU5qQnpKREFtNlVtVl9nbUxrOUZTdXJhcDdnOUoyYzVXM1pnU0ZxeVVBeW5rRGRvWGhEaDlPczhnSnBXcDY0TS1oUUtwbzk2SVJxUQ?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-04"
-     },
-     {
-      "title": "Convex Finance (CVX) Price Prediction 2026, 2027-2030: Will CVX Price Go Up?",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84RnlLX0NnMzIxOExtV1k3RXhPaklCaWdpX1FySjFyX0traU81M0JMWWU2aHBKOVBfTmJPTWhVVEdLTWdJMWZPS25JR1pPTXFaUGNGM3JJNUJkakVwLWppeFBqUU9YcmFLc3lqTHhnMlJxZWt6NEppTHA1U3gwZw?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "DeFi - Page 2",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PTWxHYXdnUXRPcWZNclNYWFFMNlhyQU1DUWlBc2JMMzlrRkstZU9WUy1naXpmSlZ0RUlNYmZid1RVelk3NUpOOFVSMDhHWGxqaXc2eHBTMVhFZ0xTSFFkRW5keFg0dw?oc=5",
-      "source": "Yellow.com",
-      "date": "2026-09-03"
-     },
-     {
-      "title": "Crypto News Today: Bitcoin, Ethereum and XRP Prices Crash As Zcash Rallies 13%",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONVFONERQdnpkYm9VUE5ESm9QYy15eVFJV1FvV0Y0SDlDY2dTNmJRTXZ1bEZkZDB5RTFWeWtlQXh2YjdwRW55OUphNl96c3l5Q25YWE83UDhTZkxsWW0xT0ZhS3hfT3pMdnctT3ZlU3pHT1JZSDNIQjl6MENYc3M5cm9na2p3QlVaeXdwMWd2ekpoczhDYUhMbi1kT0l4cWpGaTdFTDJB0gGrAUFVX3lxTFB5TlREWjU3NTZrdEFwLVJPa3FJc0ZTVlB1WGZWU1FNbzJtSEVlZFdCVFVoUi1LcGZ1R05rZnRPMmloQ01CaG8tMjc4amNJZlVFUWxfOUl6a2NYMUZoakV3U3BTZVJvT0IyZWh4c21xWE1PalNQdWZrRU9ZdWtvMWpzekdfcW1SMzJaZDVaRm1GeW1wZnRKYURDM1M3YUhiY0VWa2RuTzFHNlpJMA?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-04"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "LTC": {
@@ -1733,25 +1466,18 @@
     "stance": "bearish",
     "text": "SEC missing the Litecoin ETF deadline amid the government shutdown [4] extends the unproven-institutional-demand risk. Rising MWEB privacy-address usage [2] is a minor positive. Rest [1,3,5,6] is price-prediction/exchange noise. Verdict unchanged, slightly weakened.",
     "cited": [
-     2,
-     4
+     2
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Nice trajectory. Current total Litecoin in MWEB addresses at 519k. HIGHER.",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWptLVAtOHp2T1I5TURsM0J5NXBaZGRYNks2dENGUUluOWtZbEVvb0Y2bk5aVGNBYXRocWhkbUNuX21TODNNTXJ6LXNsUVBEU2tHb2lOamd1YmNqX0tyM1R0ck42YlhMUE9zd0xyQWdya2hCNmU0VWszYkk2VWlZdjEtRUU1MGhvcmtjOXcxR1NmX2l5V0V0Q2xidzdiaHNicC0zczgtSU1HZ09mLTF4LW9qc3RLRkptLXc?oc=5",
-      "source": "Moomoo",
-      "date": "2026-09-06"
-     },
-     {
-      "title": "SEC Misses Litecoin ETF Deadline Amid Government Shutdown",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUmZrUnc3NHVsdzJOSFk3UXFqdFJnZE1hZFo2YlU2VjI4dWpaWE1zR0g3QkVBRHhvTGk4SC1PaEowUzkwcWwyZmJXNmtVZG1scVZ3SFBPYkJFNU9rWmZLU1N2UTNCT3pCXzJBdkhHaTVBWlpZNndFTmQxS19JRk0wdi16eWRyVVllaW9ETkRuRURxUEY4T3FxS29MeFJRaUZh?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-04"
+      "title": "Litecoin breaks key resistance, targets $145 as trading volume surges",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sNGRKWnU3T2tXdGM2RW1taVdUWDY5a2FDOGJrelZiNmFIN0U5WWQzOUE4Ulg1Sl9mSTFDam45TVhpdUIxd093UVhTV2dNN2JwZXE4Y1hOUVVXNWZiYmdNYTRzSdIBY0FVX3lxTE9sNGRKWnU3T2tXdGM2RW1taVdUWDY5a2FDOGJrelZiNmFIN0U5WWQzOUE4Ulg1Sl9mSTFDam45TVhpdUIxd093UVhTV2dNN2JwZXE4Y1hOUVVXNWZiYmdNYTRzSQ?oc=5",
+      "source": "Bitget",
+      "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "SUI": {
@@ -1759,54 +1485,10 @@
    "opinion": {
     "stance": "neutral",
     "text": "Mixed: SUI ETFs debuting on Nasdaq/NYSE with staking [2] is a real bullish catalyst, but [1] and [6] flag stalling ecosystem growth and bearish price action, corroborating the TVL-collapse key risk. [3,4,5] are routine pages/spam.",
-    "cited": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     6
-    ],
+    "cited": [],
+    "cited_items": [],
     "filters": [],
-    "cited_items": [
-     {
-      "title": "Sui Price Risks 12% Drop as Ecosystem Growth Stalls",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeXR4aWJlbXRKTk5wRGJiRGNvVGhYc25JR3YtdmpSUUh1VFN3Rnl0SWE3bXZJb05VQ0t0NWVfVzNOOEE1bm5pZzliczFicW1NUDVEWXNHd2xjMkI2clFsR2xUbW9VUlAwQ1B5UXV1eS04TTFjeVZJbVZ5YlBmQTJSMWlFcUNOM3hLbGR5MWREeDdpUQ?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "SUI ETFs Debut on Nasdaq and NYSE Arca With Staking Rewards",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDU1Q1BZaWVTT1dEYXl2SEJQQWN4cmNSLWNzQkd0d1NfNVFuaU0tdF8zeTZCRFpfdWdEaW1VZC1nQVlaeTlmd2RZM25hTjFCQXFnWXlsZkl6ZlJPZ0NydFREVlBySmRHMmM5U3pFSDItcXhqSHQ1c2RTTkdpdzQxWml4MmJNMzVDaEEybXZEWEd1MERjX1d2VEV1eFNlTHZTY1NF?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Sui Price: SUI Price Index and Live Chart",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5JWEtiVU9TVUxvMElPdjVacVFyNWNfYTgzWThXdG1razBEU2RJaFBvOWE4VGVkdXBTRUVhYkR0SWthaTVDbDBMOA?oc=5",
-      "source": "The Block",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Sui Crypto (SUI) Price Prediction 2026, 2027-2030: Is This the Best Time to Buy SUI?",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4akM5ek9QQkNNamFoUEFfOXV6eWowV19sY25aTUdZVTZuc3V6Z1NqaVFVRGFoOWRWNU1wb2NjT3liNU96M1JMMXBieHU2VXcyYWVXR0xKdTg1dk92dGhxNTNMQW0wYXo3SUtYbtIBckFVX3lxTE9adXBYTHRWODVjZVhYSVAtZ3Y5cDVWX0NrTFY0LWZtamZmLWVnTTFqNkFlY2JnbUcxWWdkS0JsM1FhOFBvNXVVYzJ5bTZORm1DdWNLY3lBWThhT3M4S2Z5NDlzOXVvazgtbzBGRFdINjVkdw?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "SUI Price, SUI Price, Live Charts, and Marketcap: sui coin, sui price, sui price usd - Coinbase Portugal",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DaEpyQ3VRbm1XejlkTHRraFo0YWJmX2xuN3QzLUIzUWQwVDBQWWRsOXNwdm5LYzhENVFYczNwRXhkUWNScHJIMG1KNHRBbll4R2c?oc=5",
-      "source": "Coinbase",
-      "date": "2026-09-02"
-     },
-     {
-      "title": "Sui Holds The Line At $1.07 With Bears Doing Most Of The Talking",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rRUd1Z3lfeVhDdE9JWkt1Nkg5U2owMHByQm5nZGhiTUhpbFJaRlBNNjdwUnFxTFpBMU8tY2FiaHpwXzZvd0h2T3d4VVNrMTVqNGNCM2xHdUhPSWV2RGlQeGNQMFBBdGwzOV9pNmRn?oc=5",
-      "source": "Yellow.com",
-      "date": "2026-08-30"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "SNX": {
@@ -1831,33 +1513,26 @@
     "text": "Upbit is terminating SNX trading support on Sept 28 [1][2][3], a real dated negative that adds delisting/liquidity risk on top of the existing sUSD-mint overhang. Rest of batch [4][5][6] is noise.",
     "cited": [
      1,
-     2,
-     3
+     2
+    ],
+    "cited_items": [
+     {
+      "title": "Convert 0.001 SNX (SNX) to USD (United States Dollar)",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pX3FMQWlxcmwwVFcxUEx5ZFFVS1J5VzJRTWxHOXZEdG56a19IQS1xb2VsOHJhMkE0bVdBUHZlbEpZdlA2bzgybGw2djNKWmNTbGZDVnlLcTl3RDQ1anRN?oc=5",
+      "source": "Bybit",
+      "date": "2026-09-08"
+     },
+     {
+      "title": "DeFi - Page 3",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1T3ZyMW9lWWFZUGo5WmRDeFZkY3M5Ukw0VW1hNFF6Vlc5ZGphSnNnLVdfakxyX3dITmJVSkl6OTl5TFFQZ3dERExtZU83S050WTBhdnFiT1M4bW5naGx3OHVqS244S1IxdUptdThyS1ZlNDRyeEhkYU5n?oc=5",
+      "source": "Yellow.com",
+      "date": "2026-09-07"
+     }
     ],
     "filters": [
      "FC4"
     ],
-    "cited_items": [
-     {
-      "title": "Synthetix: Upbit terminates SNX market support - 28 Sep 2026",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVjhZaTVYOVo3UENKdnpEUC00eko4Y2VDd19PRnRnMFVuMXhNamhlemRFTllkVkoxajZ2emRFYTZXSW51bU5QcER0azBaOW9TZThSc2Y2Z285N2lVTHZVOFJ4TENnRFl1SmZKSkRLVGdlZkY0cXVDeUo2NlBpbUsxei1rZkhJUmtDTExxXzRiUnRPZno5Z2Y0ZzhwZnhMUHdPWGRRRncxQ2I5RWMzVGlYaXJEaDVPVlZPbzY1d2xB?oc=5",
-      "source": "TradingView",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "UPBIT \u5c06\u4e0b\u67b6 Synthetix (SNX) \u76f8\u5173\u4ea4\u6613\u5bf9",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBMlktR1JSRlhOblNuOXdaYTM5WEJIZ0hFOFpGTXlxM3VacnM2Z0ktX0JISTdIbExBdXdSU1lSZE1wNU9vUkw4TUQ4cHlOdDJRTEllZmEwck8?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "Upbit to End Synthetix (SNX) Trading Support on Sept. 28 at 3 p.m.",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhNUZORkdvWkt6TDduZ2M5WlVxamRwTmVVaE1VZTdNZmU2azdjdlkzUGJNV2tBU3hzLXZYM241SExDTXk5LTlwX0VTdWdRQXE3dWpRZw?oc=5",
-      "source": "bloomingbit",
-      "date": "2026-08-28"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "ADA": {
@@ -1888,51 +1563,30 @@
     "cited": [
      1,
      2,
-     3,
-     4,
-     5,
-     6
+     3
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Cardano Price Forecast: ADA Risks 30% Drop Toward $0.14",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbnNpOUt5UVBUbDhKaE5hZENTbGgwTkZkNkRVbzJqYUhRalV0eUtJdjZIdS1iSElMRlhfLTRBZ3QxWEsyRzlZeUQ2Wk9TLXhvWDJWSDE4dXpXa0NHUzdOUHpfellQWEZIa3loM0FhOUtHR2dvWk5kaVNWeDRUYjZ1ZDZCeHpBRVlSZ1JMbXZQOV96VWxQbnBoQkxGc2JjQQ?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-08-31"
+      "title": "Charles Hoskinson says Cardano no longer comes first \u2013 its treasury vote explains why",
+      "url": "https://cryptoslate.com/charles-hoskinson-says-cardano-no-longer-comes-first-its-treasury-vote-explains-why/",
+      "source": "CryptoSlate",
+      "date": "2026-09-20"
      },
      {
-      "title": "What lies ahead for Cardano?",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVzhkWU1Xa0ZINWtxcTlXdVFkeWVxOUVGalF0cnlsU1pTX0o3Zkd5d0RkUEFIQ0dUOWhDWlpiQXNQNlhWREJXYkJMdDFSbGk5ZTZ1c1pSMjhCRTREYzZQRjlITlVZNFpIYThReXpHeVpNWHdUWWIxRUltS1ZEM0JRLWM4bWJqMlBkWWRzYTdkSlY3Y1dqczdKTWc0RUxkaFZuQnlhSWwzNTRJOEJSQUNlRjhLQVhDNmhsTUxoX3BSbGE2TWUxMUdUUFNPZFdrX2VnSC14V05n?oc=5",
-      "source": "FXStreet",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "Should You Buy Cardano While It's Under $1?",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYV9QY3VVbHo0Z3poMlJPdG94Vm0tQ1psSXk5VkZiM0k1VzRnS2tVeXMzSlh1eEtjREF4aXZZWmYwLW9lcHktMVVSdUZJWXVNbUZLaDZFdXZIak1PeUtoSUxWQ0FOM19fcnZVY1JvbDNGeWhReUxBM3k2WE11YVduYUhudllRY0NVR25F?oc=5",
-      "source": "The Motley Fool",
-      "date": "2026-09-02"
+      "title": "Cardano\u2019s IOG warns users to avoid YouTube channel amid apparent hijack",
+      "url": "https://cointelegraph.com/news/cardanos-iog-warns-users-to-avoid-youtube-channel-amid-giveaway-scam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-18"
      },
      {
       "title": "Cardano (ADA) Price Prediction 2026, 2027 \u2013 2030: Will ADA Price Hit $2?",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5XelBOQ29VbmNSTlBaQ3k0bmZvSjFtR0djSmZWUk5SUmFKZHp4ZzBzTUdNVnBBNU52OVJsbWtYN1k2Nm5iRnU3bmM4a0owa2hTa3hUczVBT3o0emVSUVpQWHlnZEdSUmhuUmM3Q3VrUU9JUdIBd0FVX3lxTE9JbWVLNW9WZmcxczI4M2UtNG1MdFJnR0ZwdmNRaXNjRTFBU3RtQlZTVG5kU0NWbVNJX1BSaUFSREFXZUgtQi1XeFN2Tzczb3BZcTFNUUN2NEJyWWwxWE9kMGdOd2x1ZlFkU3VPamZ4eHhWek9rTnZz?oc=5",
       "source": "coinpedia.org",
       "date": "2026-09-07"
-     },
-     {
-      "title": "Could ADA rip past $0.21 as Cardano governance turns from risk to catalyst?",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQjBzYzhIY1A2eHJJM3dsaU5DbGlIWmRDOWQ5OGVIUGtPR0NjSUw2QldURnRuZFlsaW9kNkpOaGxBVUVBNWtJNXBodWExSWNTQ1djb3pYMWJXaGh0d1BycWFnRVRKTzJtQjBxbGRsRG85d3MzZG9CZDhHWVJCbGdSbmRFbThuclIzRHhRdFY1QzRIa3V0WEhRTzFXNXc0MUZfMFBiang5VGcwSFlTLXhxTzZzckRDNGFBWkNZdVVYZGhMQ2dxUUhuTA?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-03"
-     },
-     {
-      "title": "Cardano (ADA) Swings 5% Amid Macro Rally and Project News",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmbHB2MTc0cm5FaXdFQzB3dUI2SEtRbl9PblRZWkZxZUNYVERuVFhWTXFkMHVxLVNtaE9DVXI5aFY4MmdPZDFteTQ4Wmo3bmtoeEllR04zWkNQUGNRaTFldTZjOFFya1Q3RDBsaDhQYnU?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-04"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "DOT": {
@@ -1972,18 +1626,9 @@
      1,
      2,
      3,
-     4,
-     5,
-     6
+     4
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Polkadot Price Prediction 2026: Will DOT Reach New Highs?",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLXNYSjdlTS1OelZNdTFVMG1ad1hnS1cxOExtY0xndjRISHlWWURzLWYzRTZBQWs5OWEzV1hnNGpXZE9WRDQtN1poUnVTWXpUV2RqcW16V1B0cFVJa2EyZW5KaU12bmlqcE1mNF8xdGRYWTRHUTdhdWZPMnVxTkZkbWtXM2xRUTJqd1VfTmMtMUZfS0pfS2VqNHhIaDhqZmljM2c?oc=5",
-      "source": "bitcoinfoundation.org",
-      "date": "2026-09-01"
-     },
      {
       "title": "Polkadot (DOT) Price Prediction 2026, 2027 \u2013 2030: Can DOT Price Reach $60?",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsMl9JWGVUSlluYTA4UDdxemN4WVB5WE14ajVSdVM0eGw0TnNQd0tIMENmTGYtQmFPbXdIYTJVendQMXUxVm96Sm5tcFd3SEV3WV9Ca3JPTHJTelVWeGFtdGt1M3BZUHhyek54YTJ2a0JDOVHSAXhBVV95cUxOZ1hmN2lrMkNvRFAxVmVURTM4S0M3RFNncWl6ZUIzbzU1U2J2MkxrZFdUNVprUEhZUVRkSkhfZ0Jfc1R6c1dGN2hSZFpNaTJTMVlrUmFUZzJBREE4WGV0bkc3dHFSdjlMTzVDeVdJcEZOczl1ejJWRzI?oc=5",
@@ -1991,31 +1636,26 @@
       "date": "2026-09-09"
      },
      {
-      "title": "Polkadot (DOT) Rises 3% Amid Technical Breakout, Narrative Shift",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxcFlwNl9CTW1rMVpxbDdsdjFJRHcwa3NkTWFQa3NjODRVZG1PNHU3MzhvbU1mZ1FSdFNLUldSVUVmTktrOTBqVXBhVWt2VFFrQlBfN2J5RUR5UVhNOVV5QThKVmtDRE53TndvOThBeWI?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-06"
+      "title": "Polkadot jumps 11.35% as dotUSD proposal advances \u2013 But DOT sellers emerge",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2lSYW43U3lmTkU1TmhtZ2htaW9QVkdpYVkwb3dEbjNzMUJrcXdLSld3UDZPaG91a0NVRWlwZ2lHLXVWanNyRHBEc1hxZElJQmFLd3MtcGFuUXVLWEF2UEtraFhsU3h5SUtVX0lLVlpHR0xiUnM0RHJmSVdVWUlnb0JIQ2l1c1oxNzJZclRLb2cwX0luNHg4TmR3?oc=5",
+      "source": "AMBCrypto",
+      "date": "2026-09-09"
+     },
+     {
+      "title": "Polkadot Leads A Rotation Into Old Layer-1s As Hike Odds Widen",
+      "url": "https://thedefiant.io/news/markets/polkadot-leads-rotation-old-layer-1s-hike-odds-widen-sep-8-2026",
+      "source": "The Defiant",
+      "date": "2026-09-08"
      },
      {
       "title": "Polkadot Price Prediction September 2026: DOT Extends Gains After a Short Squeeze",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaWVNaEIyOWtEY2gxVUwwT040aXoyZ28wS19jYnRxNEVKdS1ZNXI0a3dUSzNPcFEwMkl2ZFYwd1VESm8tcXEzdnhvU1Azd2luSXBWb3JiRHBuSUpMUzFZZXJoUjEwX2FzcXJNWFdybWQ2dmlndk5jYk1fVW5vQ3ZGQ1R3Nmtwc2N2VVVpVXlTekVrc01jMkpySW9TYks4SHE0clY4YVhoMkx0bWhpd2tvbndydmtlb0h2bHc?oc=5",
       "source": "CryptoRank",
       "date": "2026-09-07"
-     },
-     {
-      "title": "Dua Lipa's Chrome Polka Dot Manicure Is the Most Glamorous Nail Trend You'll Want to Copy This Summer",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUWN4a3hqRGZOMU5lVVE5LXNVRzN2VDhsN1ppamxRQnp4OTFCdEpUVmR5UHFodFE2a0ZZZmVMVG5vbWRVdW9GTGcyMmNHUmJfOGJIOFFncXA3TXJtVGdNTi1XRlp0NEdtVFhkRWxQc2s0QU1KWWtoN2RPanVkLVVhWTRlVl9yRXNuc3BGSzFKei1NLV9HOEJzaHFaQmtMaHdCdGRhbVVpY0VqRUNfSE9RNlVQaHFHcEpUaExncDRIb0puemhGdFBzcFNBTGJLYlNyT1dqM3Qyc1I4ek56eENFMA?oc=5",
-      "source": "graziamagazine.com",
-      "date": "2026-09-04"
-     },
-     {
-      "title": "Polkadot jumps 11.35% as dotUSD proposal advances \u2013 But DOT sellers emerge",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2lSYW43U3lmTkU1TmhtZ2htaW9QVkdpYVkwb3dEbjNzMUJrcXdLSld3UDZPaG91a0NVRWlwZ2lHLXVWanNyRHBEc1hxZElJQmFLd3MtcGFuUXVLWEF2UEtraFhsU3h5SUtVX0lLVlpHR0xiUnM0RHJmSVdVWUlnb0JIQ2l1c1oxNzJZclRLb2cwX0luNHg4TmR3?oc=5",
-      "source": "AMBCrypto",
-      "date": "2026-09-09"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "POL": {
@@ -2038,42 +1678,21 @@
     "stance": "bearish",
     "text": "Decrypt reports Polygon patched security flaws in two hard forks before disclosing them [3], with POL dropping 4-12% on the disclosure [2][4][6] \u2014 a real transparency/governance hit on top of the council-controlled-upgrade risk. [1][5] are noise.",
     "cited": [
-     2,
-     3,
-     4,
-     6
+     2
+    ],
+    "cited_items": [
+     {
+      "title": "Polygon (MATIC) Price Prediction 2026, 2027 \u2013 2030: Will MATIC Price Surge to $0.2?",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMjZIVWprVzFqT1hUd2xCbTkwUy03bHhuS2pYSnhlNUp6TkZkXzFhWEg0NHZaSVVTR3R4NVc3VzQ5NkJvc1N4ZENMaHJ1MGhKUWZyUXZVZ2U4aWZzczZzb0xSWHBXSlJnN2VTVXBYYXlaRHViQkRrbDZZZUZrdVRjWjFR0gGHAUFVX3lxTE1VZUplWVFoMlBtVU1JSk5acDZWcDFIM3FyOFJRTWpWaldzYVBTZTMzT2JfY0dQQ25wanFvMjYwTzhsX19ERS1fM0ZnOUFhSTM1d2RHd0twb1dCWmRnSFlIZ0JZeFZGejFRbUNTNzMxbml2TDZkTlpBM2V6R3VEQWo3NTQ5SWVSNA?oc=5",
+      "source": "coinpedia.org",
+      "date": "2026-09-09"
+     }
     ],
     "filters": [
      "FC1",
      "FC4"
     ],
-    "cited_items": [
-     {
-      "title": "Polygon (POL) Drops 4% on Security Disclosures and Social Media",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tX0dOTE9BbmYzYWt2aXlQNzVkVm05SDIzMER2OUlhSzgyVjhkS0tBVm1JdDY1ckNwYlNxRC1zT0g4MndmVFMwX3g4c1Fta1llWFB0UHBWblpVTFpnOEs5dFhHMXVncC1DaTlUUUZNUXM?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-29"
-     },
-     {
-      "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54cGN0UGFSOWpYVzdHQzZ3YzM0dUxjemp0d2ZWdVZOZTBYeTlMT3N2UlFyNklzMU4ybTdMNGphS0R6aTdYWnRPMHhuNXpQUGkwallRb2o3andZWHZCYjlEM3djbDgwaURvX3gza1BKbldGUdIBekFVX3lxTFBYUklaS0FYOF94Z2FDYWx5MTF5amk3ZXFsQmFhNmVvMjVqSTVSVHY5U2dPRm1uUVQwdzZYNGNfeFk1Ymltckx6ZFlJOU5jTFdERUQ0eHdZeURMLUZ4S1l5dUQ4Zy1ucGxJUlUwQ1d1bENLMXNWRGdqbk1n?oc=5",
-      "source": "Decrypt",
-      "date": "2026-08-30"
-     },
-     {
-      "title": "Polygon loses 12% amid intense selling pressure: Can POL redeem itself?",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xbWpodzBQWm01WkljclloblpyYkpaYi1ENzZNUnNlM3dLakw5ZkZXOWhBekRkTVJQdklOcVlrcFhWRG0xdVlIWFlyMTZ4Ym5QbjRZNWI4N0ItZDA?oc=5",
-      "source": "Cryptonews.net",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "Polygon discloses security flaws fixed in recent hard forks",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNamtqOFY4dVpGOUZjT0VpckFISXZvd1FMUUhXc0pvbDVQNHhBSy1FSEl1M0tZb090THpMeHkxemxIaG9iSFhHdmFpM0wzRHl2MHJPZkQ3cU1kQ2tNVnZDaG9DVUotM1NyR3ZyVW1QZjBYUkI2dEQ2angxUGxHaWFUNUxqOFJLSnpILWtaUVpUSjAxTnVrcEVDVXR4ZGFRWEZkQl9hZG1ReTJ5RWJaRm43VGFQYlFmU0VWZDRMaUpFYm0?oc=5",
-      "source": "TradingView",
-      "date": "2026-08-29"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "CRV": {
@@ -2096,19 +1715,10 @@
    "opinion": {
     "stance": "neutral",
     "text": "Curve handing its risk mandate to two Resupply developers [5] is a real governance change but doesn't offset the emissions-vs-halved-revenue risk or founder-dump history. Rest [1,2,3,4,6] is duplicated pump/dump price-action noise. Verdict unchanged.",
-    "cited": [
-     5
-    ],
+    "cited": [],
+    "cited_items": [],
     "filters": [],
-    "cited_items": [
-     {
-      "title": "Curve Hands Its Risk Mandate To Two Resupply Developers",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd085eUVTM092Z2Q5dm9zZ3dDM3NWa19pTFdYcFU0NXJoNVNjX004djFnR3c1VUhKLXItTFpQblVkYjlGT3lYcENXcEk5QXdvS0tFWWNwdC04UzBpeTduTmstcGl0RHNrWVZ5SnBIZk4zOW5YNUIzQ1pLcjNhU2hLQTRwOTY?oc=5",
-      "source": "The Defiant",
-      "date": "2026-09-04"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "Sonic": {
@@ -2116,19 +1726,10 @@
    "opinion": {
     "stance": "neutral",
     "text": "Thin coverage: a single vague 'vertical integration' announcement [1] with no detail on revenue, users, or leadership. Doesn't address the founder/board exodus or the ~98% TVL collapse.",
-    "cited": [
-     1
-    ],
+    "cited": [],
+    "cited_items": [],
     "filters": [],
-    "cited_items": [
-     {
-      "title": "Sonic Labs Plans Vertical Integration To Boost Sonic Token",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHhMWFVDRDFxa0JfdmtLUmc0Y1NLV2JZaWVSZzhoTzFlRDhlcldqQXZIeFRMbTB6S0RUTUIyckZ1aE1udDdGTVJjX1JqVl9sbWczcGpmRWotS1gtdE5zcjVkMGRTWEY0MXBRRy1tOG91NzZzR1M3NklyUHY2N1F3UC1oRHI2Y0E5UG1mckdieDVaeEpUYVVSWDVMdUs2dzBRbmc?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-29"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "ICP": {
@@ -2166,25 +1767,18 @@
     "stance": "noise",
     "text": "Mostly price-prediction spam and an unrelated promo plug [2][3][4]; the 'weakest among 60 cryptos' sentiment piece [6] echoes the known weak-fundamentals case but adds no new evidence. Verdict unchanged.",
     "cited": [
-     4,
-     6
+     4
     ],
-    "filters": [],
     "cited_items": [
      {
       "title": "Next Crypto To Explode as Internet Computer (ICP) Whales Accumulate? AlphaPepe Gives Retail the First-Cycle Trade",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNTDg1Q3V3Y3JJd0pCS0ZpakNDNHdyS2E4VHpTeDVRLTFDN3BTT2M1TUNlX1V4aFA4QllaU0dzU0Q4ODF6SWc0U0RKWmlwcGNKQ2ZUM1FKZlRKQXF6c1RodG9pUzk1WGFoRVNNeU9iU2NOODY0cmMydUo2WmgwczZEVGQ4TEZmZ1lJS25CMi1uVUg0V0JGdFFZVEFNRF8zUDVER19kaXBoZDVCLVgyT1cwM01Sdm1KbFNteE9YeEZjcWR0Rk5VeUZIc3RPRFJ2X0l1Ulh0bFFrWEUyc2ZyeVF2QjZLbEhHaVR4d1lsQ1RlejQ1aWVxRkVsWW5tTGctcGRURVBUUTZuZw?oc=5",
       "source": "StreetInsider",
       "date": "2026-09-07"
-     },
-     {
-      "title": "ICP labeled \u2018weakest among 60 cryptos\u2019 \u2013 Can Internet Computer ride Fed sentiment past THIS?",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZUkxSUJrUmVYTi01LXh6ZzZJbTREMURqOEVjWFRQU0pkbGlkaFZJcmhVRzJvdFgtU0hJN2w0QkxUeEhnWHBrLUo0ZlhKa182Z0RCRmNWTDVmWV9WOUdNeks3UWJMOTJxd1JOaFFMTF9aYW1VeWxzN25kNjRuajhUYWpTTGUtRWZ0UWFRdWxwVXk2cFl3Q0J6cl8yV2cxaS00X2VRdGt0dW5NTWxwOER3?oc=5",
-      "source": "AMBCrypto",
-      "date": "2026-09-04"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "YFI": {
@@ -2209,17 +1803,9 @@
     "text": "No real news: a price-prediction page [1] and two generic Yellow.com aggregator index pages [2,3] with no substantive content. Verdict unchanged, treat as noise.",
     "cited": [
      1,
-     2,
-     3
+     2
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Yearn Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53UWNzUXd5SG9fWWVacm9vMHBKcnI5ZGJKR0lQR0FhaS1ZeVpNQkJFRHFqa1NKNHdTLXhUaXVsNkppcDY3R2xtOC1DcDFabWhYWG5mX2lfdzFJa0czSmI1bkZ4d28wdnI5U1cwNw?oc=5",
-      "source": "Binance",
-      "date": "2026-09-03"
-     },
      {
       "title": "DeFi - Page 3",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JLXBqTDNPYTJTY1VEeURsS3dickI5b3lHWlRvek9Na3l5WE41WUZCMmRSSTY1VV9ybGpmVVd2X0NFNnNSV04yQmpjR0pjS1NKUVZnSDFyVGlQZw?oc=5",
@@ -2233,7 +1819,8 @@
       "date": "2026-09-07"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "COMP": {
@@ -2273,29 +1860,14 @@
     "cited": [
      1,
      2,
-     3,
-     5,
-     6
+     3
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Compound Opens Institutional-Only Lending Market",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHNkFHTHJFckxnNEFHUU9feWlGUFFLdDBQMTREb2xvcXVwd3VEUGdCc0UwQnpaTHFCdXBTZy00azhZaVpTamRyaExmTXlkUzVQNnQ1d2pqWWNEak9wRkdMLXhQa0NwbTRzMDRLOF9wbUllU2Q3bElJ?oc=5",
-      "source": "The Defiant",
-      "date": "2026-09-07"
-     },
      {
       "title": "Compound opens USDC market with up to 87% LTV",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WdDM4WHJMOWtWUzdWVVR6MGZCdE5ZT01YOGVLRUQwclM5dnA3aWo1aUtyeXJEWEJvYjJTcGJtSXZhWGViSUhuZFZYZWxWSWw0emxwSlpFckZLODFJQ09kVm45Z3Z2ZXZpSlBOSVZ3RWg3b1k?oc=5",
       "source": "crypto.news",
       "date": "2026-09-09"
-     },
-     {
-      "title": "DAOs are forcing crypto protocols to choose between code and emergency brakes",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWWRSSDF6NVR2b1hmUGNkYURnNXJyc0pvbUdUTzVtZm9FZTNITU1pTnMtM1RqSUhoU0t3S2VCMnBBbWRJc2plRGNoODlrWmNpX0xpelJWM0QtNnBGZl95OFJmUHRUZ01veHV4R3dTdzVUel95S1FObFkzTTlhNlJBZlN3Ujd5Ml8xMmdLN3Fkc25nR0l3SkRUcG0tSnFqSWprR09fNw?oc=5",
-      "source": "CryptoSlate",
-      "date": "2026-09-05"
      },
      {
       "title": "Compound Foundation opens institutional-only lending market in biggest DeFi pivot yet",
@@ -2310,7 +1882,8 @@
       "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "DASH": {
@@ -2334,32 +1907,18 @@
     "stance": "neutral",
     "text": "Price outperformance [1][5] rides the broader privacy-coin rally alongside Zcash [4][6], which is exactly the narrative-not-fundamentals move already flagged as the key risk; [5]'s 'Shielded Upgrade' mention is too vague to verify. [2][3] are prediction spam.",
     "cited": [
-     1,
-     4,
-     5
+     1
     ],
-    "filters": [],
     "cited_items": [
      {
       "title": "Dash Beat Bitcoin, Ethereum and Solana Last Week and Sprang to Take Place in Top 3 Gainers: Here's the Co",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUUwdEgwRGlaSkRkWnNSYlVaLU8tMDg5cjQ2VmtoYVFMTWZEN0xPbmVVVWs2SEdock4wYW5fb243b1A1NXpucWNqUXFUZ0NHTzZub0psR3kxcVh3YWRfcVZmWnB6b2pWVkF3Tlg1MHo5dUFsUUtFbDBIYkk3ckxYS1JndmRySmF2aF80NjM1Q1NQaV9NR2tGMWpqZEhHOWtRLXczS2lyYTlzRGtLUkoyVC1wU0lKYUM0WURTOTBSaGwtcG5vRkk4?oc=5",
       "source": "Benzinga",
       "date": "2026-09-07"
-     },
-     {
-      "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally: Crypto Markets Today",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0pwanhtQ3lpOXVfUkNjNlhuZ3NmamVVRjJmY1J3emdHZGJtWDBVeE9FZERCTmduS0g2TDFFekFnaUI0bzlfOUg3bFRNTTlGN2JLdEFmWWpLVUxuemJJVVo4d09SNkFWQWUwRXp1Sk4xcVlvLU5JNmU4WkRtUlU2NnhyNi1VMzlraXRQTzAxNDVreVg0eDFsVlczNmN5WmtlSmdfOE9Oa08yalhsRG5mRA?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-09-04"
-     },
-     {
-      "title": "Dash Surges 3.19% on Privacy Coin Rally and Shielded Upgrade",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fQXNWeTdZZ2VQM0tYeWFQdjZrWkQ5OW11RzFPMDROLW9xWkRDVGtweXV4b3paYWpCX3R6Q1k4R1BRZHRLT2g4RkZSN1VwaHd3bHlwdkNhQmgtZlBHUGhxXzZlUEg2RnE1aDJXOEswZkY?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-03"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "JUP": {
@@ -2383,39 +1942,18 @@
     "stance": "bullish",
     "text": "Buybacks confirmed continuing at pace (~1M tokens/month) [4] alongside a Universal Deposit launch [6], both relevant to the buyback-efficacy risk. [2,3] are duplicate 'mania' pump headlines, [1,5] minor. Mildly positive; doesn't resolve the low-float/co-founder-halt risk.",
     "cited": [
-     2,
-     3,
-     4,
-     6
+     2
     ],
-    "filters": [],
     "cited_items": [
      {
       "title": "Jupiter (JUP) Surges 21% on StonkFun Mania and Buybacks",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYYXcyYTlzUjRBQzN5WTdQNUY3c013Y0g0ODhyR3hxem44MzZEelJuNy1oS3p6aHlucFlibGVfLW5NWnB5ZFREaloyV0dnQVNNcmlzR0t0NlJ0dklRZUFpVk53a1BzODljX1RoRGpSbzA?oc=5",
       "source": "CoinMarketCap",
       "date": "2026-09-07"
-     },
-     {
-      "title": "Jupiter (JUP) jumps 12% amid buybacks and Solan...",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeFZVVk9EeG5ETklYbDhKRjZzRU12ZnVxZjh0cWRZVjQxZHhCVUstSEplVC1RWk8yUE0wbi1uSUN3RW94S2NGcDhGZzNURWREVWJBRTdkaHVPUnM4ZFkzQ0M3djhfRG9jMGxLRHBsMnhKM1ZMN01ub2dSTlU5YlFWenRPUG1ZR2ZjZlZHSmxmTGI3Uzl0cmZ5ZExMR19NLTJKVURJN1pn?oc=5",
-      "source": "Pluang",
-      "date": "2026-09-06"
-     },
-     {
-      "title": "Jupiter up 12% as monthly buybacks pass 1M tokens \u2013 Can JUP break $0.25?",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZEczQjlNMUFpM0J4b3hjd1FpMGZQalZobnZLT2xncVNlNmRNYVl2dExHejIwcjZMWkRJQ1dJb0Z1QXNMSGVVODF0bDBHVnJLVlhRX0J2RnFBRWswMWRBS2VjMEoxM0tNNndnQnE0bGJoOVNmb1BIdkdyTFppcVlTR1NVM0xYb2ljemNVY1U4eWF6aHla?oc=5",
-      "source": "AMBCrypto",
-      "date": "2026-09-06"
-     },
-     {
-      "title": "Jupiter (JUP) Surges 5.6% on Universal Deposit Launch",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NcGpsMl81LW1ockNIUUxUbmtNMUEyT2JEWlduLUFpeUQ0Yjlsb1RlSFAxQVc2M2RVdEptck9TZ3FzdG5DcTBEUTZMM1ViUThUQmRqQTU0ZzFBenRqbkJPUVJMRWFnNzZzSGhpOTU5T08?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-09"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "XRP": {
@@ -2479,40 +2017,40 @@
      4,
      6
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Florida Athletics Debuts XRP cryptocurrency logo at Ben Hill Griffin Stadium",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObkZsVFowZVZIOEh2MnVrbXByWWVNczF1UmlXZlhURjVQVTVjQlVTNjVmMnVrblRUQlNwRnEwMDFNVDJQQUJxNjF3ZGRaNi1iYVNTczNnV0RGYUxVRnBwN05RMmFNZG05MXJGbFZkRmNwOUF6R3V3dUQ2akpHWVlCOHdaT1RFUlBEb2NxRzZxQTRUSTMzTXEyUXRwT2hadU1ncUFHLTh2amlkQ1FpYXNmSU55WDNIVVN4YnVqamhjcUtvVVU?oc=5",
-      "source": "floridagators.com",
-      "date": "2026-09-04"
+      "title": "XRP Holders Rushed 663% More Tokens Onto Binance. Almost None of It Got Sold",
+      "url": "https://beincrypto.com/xrp-binance-inflows-surge-663-percent/",
+      "source": "BeInCrypto",
+      "date": "2026-09-21"
      },
      {
-      "title": "XRP Ripple Held Firm After its September Escrow Release",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZUlSaWdCTHg2eldSUDVRNzBadVAxTnQ2WjNRRXhUZkdVcmE0N25DcjJBYXVTNU8tMzRzY1Q3bV9zcmZmdkZwVzlBRnJidWQ3Q2Z4YTVsYVRDdE9ic1JWLUM5aXpiN0pqOUNxOEdCekpNbzBHbFlXOC1iUmRWR0dZRWRycWFvalpsa2Fvb0ZFYTloU2w2UFFkUTRqVQ?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-09-07"
+      "title": "XRP ETFs hit a speed bump, but big investors aren\u2019t dumping their tokens yet",
+      "url": "https://cryptoslate.com/xrp-etfs-hit-a-speed-bump-but-big-investors-arent-dumping-their-tokens-yet/",
+      "source": "CryptoSlate",
+      "date": "2026-09-19"
      },
      {
-      "title": "XRP analysis: Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTW16Z1dMaWs3S2JRVDg4NUs0WE1ma0V2QXlyMWJQbjZpTUlUOXlxN1hkU3RQQko3S1Z6RDNoMl9qZEZUUVBLQXl4MThYMUlWOXpqWEc4LUJUVkh2TmxVVlFwMUFraTV2NjBCUmFxaElNMlhETkRrd3lTUmRhN2tnMHdNbjRLbmxQOGFQQVNSRUxXUFlCeVBhYjkxWE5sRllHMjZHUTcwRG10NXVvMk5SVnYwR0g?oc=5",
+      "title": "Ripple says asset managers are preparing for XRP Ledger\u2019s next payments upgrade",
+      "url": "https://www.coindesk.com/tech/2026/09/19/ripple-says-asset-managers-are-preparing-for-xrp-ledger-s-next-payments-upgrade",
       "source": "CoinDesk",
-      "date": "2026-08-28"
+      "date": "2026-09-19"
      },
      {
-      "title": "UF signs whopping deal, among nation\u2019s highest to feature logos on Florida Field",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQb2Z0VlMyMDhuRHcyLWwxUmVBSFFNYTN4NXc5c1pOSjU4RG9DX0xMRTlsLXgwV09YSlJpSmpzNzBzZFYyZklEZVpEdW02YktCaDBEV212anV0R2RHLUxQZzRiam5CUG9FbmN0cEsxYkJaTlZVc0s4RHJOR2I0bWo2LUFIVmZBcU9jaWlseU05Z09XUFZnVl9XZTVsX191S2JKVzJmaHZBWnZfZE1HZDFuNzhSa1NZWm1FczB6WnpSMzN1R01TbERYc1dMS0daQTljYi1vd1BEZTZtMVFoeGFIVVVrVQ?oc=5",
-      "source": "Orlando Sentinel",
-      "date": "2026-09-04"
+      "title": "Ether and XRP ETFs post outflows as crypto majors move higher",
+      "url": "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000",
+      "source": "CoinDesk",
+      "date": "2026-09-18"
      },
      {
-      "title": "XRP Defies $1.38 Billion Ripple Unlock as Institutional Demand Rewrites the Market",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMmxLT3FNRkpGU19SWHk5UmxOOFByRXdaT2pSWHBVV0NweHV3eDBVSzVVVzVoNlFzaktRUEYxWVJjZkd4TzR0b0VNR3d1WkdZeTUwNVJZNE5oYWw1bzJyVGQ4dUxsNXlHcU1FUmlvaUZqSmVNaWc0SUdpYkRJRGpDNkRFc0VtT0dfejJyaFNOaVlNWFFyQnJNQUdaUklFUmExRnl3OHhheFVobjdiR2huVHBYZ2JBZW5KekpHRHFFRGhLcmdE?oc=5",
-      "source": "bitcoinfoundation.org",
-      "date": "2026-09-07"
+      "title": "XRP Shakes Off CLARITY Act Failure to Surge 7%: Will It Hold?",
+      "url": "https://beincrypto.com/xrp-shakes-off-clarity-act-failure-surges/",
+      "source": "BeInCrypto",
+      "date": "2026-09-18"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "MORPHO": {
@@ -2579,11 +2117,19 @@
      4,
      5
     ],
-    "filters": [
-     "FA3",
-     "FC3"
-    ],
     "cited_items": [
+     {
+      "title": "Morpho Opens Borrowing Against Coinbase's Tokenized Stocks",
+      "url": "https://thedefiant.io/news/defi/morpho-coinbase-tokenized-stocks-borrowing-base",
+      "source": "The Defiant",
+      "date": "2026-09-18"
+     },
+     {
+      "title": "Zama expands confidential Morpho lineup after first vault hits $40 million, launches private swaps on Ethereum",
+      "url": "https://www.theblock.co/news/defi/2026-09-15-zama-expands-confidential-morpho-lineup-after-first-vault-hits-40-million-launches-private-swaps-on-ethereum-414613",
+      "source": "The Block",
+      "date": "2026-09-15"
+     },
      {
       "title": "Coinbase and Morpho bring USDC earning to Brazil",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JUHRxLUdkbjJrM0xnOVUzLUtVeFJJZ0tXTEIyaUlnN3RpeWFXaWNaYWZ4bDUzUXhjUmVNeUN6SWM2aUF2SU1jd2tLYWdpWUlWVGNVYXYtdVMxLU40dktsa2FlZFZoQUxoWnc?oc=5",
@@ -2591,25 +2137,17 @@
       "date": "2026-09-10"
      },
      {
-      "title": "Morpho Expands Fixed-Rate Midnight Markets to Ethereum",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOXFKaFFxMFVsN1k5NGNkVzlmcHM1RnRxaFdjbXk4d1N4TXA1N3dGemNpX0xSbUljMXAyajk4Vld6YWNBLTdSN1N2aUpMMzE4eG5NNzlWMVFuTTRRV1Q4Rk8xMzRrblc5b2Fod3RDODRGWlV0aFllUmF6SUg4SHRwUXdyd3ZBSXhqSld2UGJVWQ?oc=5",
-      "source": "The Defiant",
-      "date": "2026-09-08"
-     },
-     {
       "title": "Coinbase expands Morpho-powered USDC lending to Brazil",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTTVBeFV4RkNnWGZUOUdTcnZ6dEVvMmhDNVVwSU1lTzFvbl8ybk14LUh3c2tvWnZ0QVp6YXBqdGJfRnBQNU5GX203TnhTQVY3NEFYbzhfTVBNQ2RqRWpVcllpU2lPV19kVzNJMG11aFlzSU15VTJDUUZ1YWF1UVVBdg?oc=5",
       "source": "crypto.news",
       "date": "2026-09-09"
-     },
-     {
-      "title": "MORPHO Price Eyes $3 as Total Deposits Hit $14B",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeEFJaURUdXVVdFZ6OHR1LXlJczJwREJCUTNvSGd1TXpscWQ0aFYxd19obzkwaUZHOFVTUnZhTzBhenRLMlFMbmR0RW1PNVpMeXR4YTlzWUFERFhMcE9ONExVZzN0c0lxUnZ5OVJlbDVsYU01cHpGM1JoNDFxWHBHdFJ0MlcxLUNUT2Jv?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-04"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [
+     "FA3",
+     "FC3"
+    ],
+    "as_of": "2026-09-21"
    }
   },
   "SEI": {
@@ -2640,25 +2178,18 @@
     "stance": "neutral",
     "text": "Real items: Ondo's USDY fund launching on Sei [2] and Giga Upgrade progress toward 200k TPS [6] could eventually help fee generation. [1] is a price prediction; [3,4,5] are unrelated SEI-ticker collisions (an NGO, SEI Investments stock). Doesn't yet fix the farmed-usage/thin-fee risk.",
     "cited": [
-     2,
-     6
+     2
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Crypto News: USDY Fund Launches on Sei Network as Ondo Finance Expands Tokenized Treasury Products",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcjM3cEc1NVA2aXdLZWNJUUNiaWV2ZVBVVmZXbVRqZGxtQndGX24xTmQ1bkVfVlRpT0U3VWlXenBlcmlnTmpwOFYxcXpxRjltMUZlbDhCaFk0YktsSXdsNnFyZGZQQnBGeUgya1RnM0ZYUF9YV21sZExPR1M3LV8xc0dGZ05CVGdZcHhZVS12bTNFVi1wT0tjSUFkUUFPZy1hamdFMFo4d0ZIRG1yMmsyeENXbHJTaFVTd2dzM3ZETDd4eFRqdHlPLWF2VFNCbEtYaDN5dU93?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-29"
-     },
-     {
-      "title": "SEI Hovers Near $0.06 As Giga Upgrade Eyes 200,000 TPS Leap | Yellow",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93SWwwOHFIeHp5N2IzSkJMV3hiQ1pUaUdHMjg2UnlKMV80N1lqTTdvLUVuQUFwRE1JbEVNS0pTREVySFRYdm5wNFR5NjZ4WnhqV3BRdkFPdmJJdGt0VWU0Um45TnU2WUJjdmR1b2tCb0Y3Q2hFdkhYM3pn?oc=5",
-      "source": "Yellow.com",
-      "date": "2026-09-04"
+      "title": "88% of wealthy investors keep some money away from advisors",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZkpiV3RMTVcxWlF2MEdWdzZHWUpNNkNVOHNyd3RkOXFCbkYzcGtENXM3MDg2T2xodHRDY040SUd6aGU5MEZCUnRqMF9wXzYwTWt5SkY4RkZrbmZReDlRcDg0Q212WlJZak9tdlU5eDVzaWVaaU5PRjBhdVZOUmtVc2NvcU5jc011bjNQMm0tVVRsZ3dRMlhZaVZVQWpWWG9nXzd0WmxmQTNRalVNOUNJd0lhQnRlWGlUdnUw?oc=5",
+      "source": "Stock Titan",
+      "date": "2026-09-10"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "ZEC": {
@@ -2723,46 +2254,46 @@
      5,
      6
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Zcash Price Prediction: ZEC Bull Run May Still Be Early",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYkFLby1xeHkxWW1WVWVmZDdkak5wYm5DWmtlR0pkcmxjdGRTckRqX25iN1RGQmhWY1hMM3FCalcwczFmLTlFc252NU54QWNITnJnTzRwYnp3RGdSSFB6T0F3d01NQ2NsbERoODdsSk5rVW1xZGhIOVVzcy1zb2NOM3FCMG96eDZSUUp6eWhLNDM2OWNEV0tqcFJBdzc?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-09-07"
-     },
-     {
-      "title": "This cat memecoin has paid holders $2.8 million in Zcash as ZEC tops $1,200",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcVJGaVY0a2o2UExQbkhpZmJDbTU1UFRlTlo0YUc3QlRLMW5IR01kcTV1REFJLVUxc0p6ZGFqWTdhTER2SzR1R3ozQ1NfTnlMZVRFVDFMdy1pUzBlMnMyMHZWWHpVbFVXLWtRS0IxcW01TGR5RkQtcWNJR1dXamo2bU1tdmZNemN2T1pyYzBnWExnVDFPNjhoZi03N2RIdkx2Y3dTekFKNWZKY0taUS0yVm1wdjM3LXptQnhZUTM2emI?oc=5",
+      "title": "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
+      "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-rises-above-usd81-000-while-near-jumps-23-on-zcash-swap-traffic",
       "source": "CoinDesk",
-      "date": "2026-09-07"
+      "date": "2026-09-21"
      },
      {
-      "title": "$Zcash (ZEC.CC)$ just hit $1,000.",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc1cta3NCMS1LdDZscTJGRk01ZW1IZWR0UWFwNm5GdEZNLThUbGFiaTVia1pWMkEzRmJueld4MHA1S2VLd0NQUWpYNWVTS1U4WWJPaFJYdVJCaUxob3c0elpjLTkxdUhSaVI5MVZYenlZWjNfZmQ5WTAtNzRuN05oLV9TbVlaa01nUk9GVW42d0xTTFFnNkxRVzljcjg?oc=5",
-      "source": "Moomoo",
-      "date": "2026-09-06"
+      "title": "Grayscale\u2019s Zcash ETF files for 3-for-1 forward share split",
+      "url": "https://cointelegraph.com/news/grayscales-zcash-etf-files-for-3-for-1-forward-share-split?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-20"
      },
      {
-      "title": "Zcash Shorts Reach 72% as ZEC Holds Above $1,100",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12ZU52Vm9aOVZvVFRIY3dJTzhJaFp2cGkyYkI3YlpJSDhlOGhzemEzajRYVHluaUY5V2VnT0pUODZSX0YzREh6MjVoeEYyZHpQeU94NmNGRV8tRmV4bHk3SVdqMHp2al9XRjh0VUl2dDE?oc=5",
-      "source": "Altcoin Buzz",
-      "date": "2026-09-09"
+      "title": "Grayscale Is Making Its Red-Hot Zcash ETF More Affordable",
+      "url": "https://decrypt.co/378675/grayscale-zcash-etf-more-affordable-split",
+      "source": "Decrypt",
+      "date": "2026-09-19"
      },
      {
-      "title": "Zcash Flips HYPE As $2.4B Open Interest Raises The Stakes For Its Rally",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYXJSLVc2QjhKbkZ6aGRiUkpLSlkwaVZuWW1HT244b25QZndGN2VnTkNabjZ6SkdabWJRS3Z5dmhPQ0thOVZJanU0STFDYzZocFdlVDZsdVhDVmx3WEJiZnVJbi1kaVBtT1k0aEJ5cVJmcHhhWUpxOWJWRDZYSUc5WWIwX210dklERGdNVHZkOVhaQmRjNVRJOUxnQzhWR3RGQ1RiOTVPZ3JpR3J0UC1CenJJZ1hwbDNSUm1lcDQyampoWkdSaGxHUzln?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-06"
+      "title": "Trader With 89% Win Rate Loses $10.68 Million Shorting Zcash",
+      "url": "https://beincrypto.com/zcash-short-sellers-losses-price-rally/",
+      "source": "BeInCrypto",
+      "date": "2026-09-19"
      },
      {
-      "title": "Zcash (ZEC) Surges 5.02% on Short Squeeze, ETF Interest",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xZTlrX0x0MzFoR2kyakZqM2xyeUNxMUo0S3Y4Mmg1ZzRBNTJrc1c5WnROZDU2VC1OOUc2ZFVVUDZyYUtpLVJIRlhEenJGa1Z2WEpGdnlYQzBWMVpYUFAteXNadzBpWjJXRVJsT1lYSmQ?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-04"
+      "title": "Zcash targets November for NU7 mainnet upgrade with 25-second blocks",
+      "url": "https://cointelegraph.com/news/zcash-nu7-november-mainnet-activation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-18"
+     },
+     {
+      "title": "Zcash Is Running\u2014Devs Want to Make It Faster",
+      "url": "https://decrypt.co/378667/zcash-upgrade-make-private-payments-3x-faster",
+      "source": "Decrypt",
+      "date": "2026-09-18"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "TON": {
@@ -2786,12 +2317,7 @@
     "stance": "neutral",
     "text": "The 36% jump [1] tracks Telegram formally taking over and the TON->Gram rebrand [4], narrative/structural rather than new fundamentals. Gram Wallet's rollout to select users [6] is incremental progress on an already-known usage catalyst (FC3). [2][5] are noise.",
     "cited": [
-     1,
-     4,
-     6
-    ],
-    "filters": [
-     "FC3"
+     1
     ],
     "cited_items": [
      {
@@ -2799,21 +2325,12 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS2VyQktVbWRZdDBqbExibzA5aWZRRDVRTFlOUzBQbTR2ZVRQRkszOWcyTWxXTEtWZ1VrMjJtclNxRWhScm0xWGtpdzI4a3UyU0N2NlprYVVxQlRRMVZqb0tWNl9ybk5ocnBfYzljWHFKd0tRcklDSEs5ZHBLYkdZcGZfQjJnYl95cDJBMHdPNXI2X2t3UWFuUmtVTQ?oc=5",
       "source": "CoinMarketCap",
       "date": "2026-09-08"
-     },
-     {
-      "title": "Toncoin Rebrands as Gram in Return to Original Name",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04VkRNekRBbU1KQ2RrVldtNDl3V2lQSHhGZjNXRmh5Qmt2dmE4LVlIdTZsNVh4RXdnQ2xidFZUeGJhLVpiMHU5WEl3ckUwWEpHTWVfZnlpbDVscXBUei1iSU9hUnpONFVCeldkcHgxQmFxN01R?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Telegram Flips on Gram Wallet for Select Users, Full Rollout Expected Within Weeks",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZcFNuRlVidU8zb1ZFSFBKTlRTNmJ5bUdrbXRnOVc2Q2lTejhuZHBUbmVvTE9EakpmM3JCRld0NUljRVcxMU9lUno5eUtadi1pMjNmTGZQb3Rjc0pDWjMtcEhFTHdmaTE3TUZpc05LUkUwOXk4S0E?oc=5",
-      "source": "finance.biggo.com",
-      "date": "2026-09-01"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [
+     "FC3"
+    ],
+    "as_of": "2026-09-21"
    }
   },
   "EGLD": {
@@ -2837,31 +2354,9 @@
     "stance": "bearish",
     "text": "Supernova mainnet went live as planned [3,4] after a 55% pre-launch pump [1] \u2014 exactly the speed fix the key risk already flags as not a demand fix. Overbought RSI near resistance [5] signals sell-the-news risk. [2,6] are noise. Verdict unchanged, near-term pullback risk.",
     "cited": [
-     1,
-     3,
-     4,
-     5
+     1
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "MultiversX Price Prediction: EGLD Surges 55% in a Week Ahead of September 10 Supernova Launch",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSDV4TW82RWxJdWRYR01fTVU1ZkctdE85VEN1bXlIUFBNU3gxUmphWHVHbXJPUUgtUmdWN2xqLThUbUtwOVJTcVhQeWxwWXduek5MMjJQSHhUUUpOc2tiaDZvOVZTbjduVVBmRnJxak51U2k3X0lITlNvdzd0bWEyMk9zaFRVUFVHMkxLeW5QdW9KX3E0UnR0SnAwaWE3ODZqYXMxeDhJZG1hTHdsX01BV3pQaTBBWHQtTTNYNGwtYlpEbHVLVHNKRQ?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-09-03"
-     },
-     {
-      "title": "Layer-1 chain to pause new transactions for 24 minutes to unlock a 10x speed boost",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlZCTjZZeGdoYjAxbUZ1dGc3SmM5MWpZUjJNSjY4V2NmbnhUZ2cxYkswRHlNUVgzczBpa3NJRFQ5YW9OWXJIcUF0Nm5Pa2dCVm9VUjhtSV9sb21CbUE4Y2J1THFjX2RITndvdENHWnNtdFpaU2lRck9Nd05CXzlUWUh0azZ4Sm82MHZKQzQ0dFdvcEJqZy1sZnlwdUtEaklMRDdfbW9LMEhkWm5wUTNIaF8yOHF0R0dw?oc=5",
-      "source": "CryptoSlate",
-      "date": "2026-09-02"
-     },
-     {
-      "title": "MultiversX: Supernova Network Release Goes Live on Mainnet - 10 Sep 2026",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaGtwRHRzYklYcWtvc1l5X2s0MFZfVEVqRDluQ3NuUXlpVzlQQy1YTW9MT24zQWlKNG1SR2xYa3JYUHNDZmxjLVJpcHZGbzdIS3dDWno5bVViTG90R1JMTzNsUFZjRl9kSmZMRzBKVlY0OW1SYnVsZnJhbE8zeG00SERBamZoRWhFbDY3Z1JXQUg1MFlYR25jY1VOU1hZZDFWQkNNd3VwQ202Y0Z3SFplMXFWZXRMb0x2a00tbUVGVmdOZThFbmhhMVYxelBVQQ?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-09"
-     },
      {
       "title": "MultiversX crypto\u2019s EGLD hits overbought RSI of 76 near key $5.77 resistance",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yNDNjbk8tcW5TcXV3TkxYMFdVMU9jYXVpS2lkbXBPYUQyMjdsUHFKbG4yX0NscW1hcm9SUEtTTHlEZ3VrM2FUOFNtd1ZSYzc3N1RVcVNlT1o5MVJ3aHJqRk5Jd9IBY0FVX3lxTE0yNDNjbk8tcW5TcXV3TkxYMFdVMU9jYXVpS2lkbXBPYUQyMjdsUHFKbG4yX0NscW1hcm9SUEtTTHlEZ3VrM2FUOFNtd1ZSYzc3N1RVcVNlT1o5MVJ3aHJqRk5Jdw?oc=5",
@@ -2869,7 +2364,8 @@
       "date": "2026-09-10"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "WLD": {
@@ -2894,13 +2390,8 @@
     "text": "WLD hit a record low after the Foundation's $65M OTC sale [2], directly confirming the emission-sale key risk; the subsequent 13-15% bounce [4,5] is unconfirmed and [1] is prediction spam. [3,6] are tangential/routine.",
     "cited": [
      1,
-     2,
-     3,
-     4,
-     5,
-     6
+     2
     ],
-    "filters": [],
     "cited_items": [
      {
       "title": "Worldcoin (WLD) Price Prediction 2026, 2027 \u2013 2030: Will WLD Price Reach $10?",
@@ -2909,37 +2400,14 @@
       "date": "2026-09-10"
      },
      {
-      "title": "Worldcoin Hits Record Low After World Foundation's $65M OTC Sale",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRU84a1dHVm5BNVMxaGRkTWFWdXUyYTVhVXNZejd0V1NQZC1lV0YtSkloVk9NbjZKTnRnWEZDdzVNWjIxX3BSMVF2dXJjV2d2UVdocFNMcV9DajhBWDBzWndfdlJYTEk1LU9WaVNoNlVFWXRWZWs1SFppd2IyVi1NT2pYOTNjVkx1WHFkZmY1b05JRVlZemRTWUVaam1XR0x4TFBteU5uaHdtNXpsaXhB?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-08-29"
-     },
-     {
-      "title": "Eightco Holdings (NASDAQ: ORBS) Reports Total Holdings of Approximately $380 Million, Includes OpenAI, Beast Industries, More Than 16,000 ETH and Nearly 302 Million WLD Tokens",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNLVQyVE1mVWc0SDJHaFNoYkdWdmZObVdjRDlRZ3dCZHdOR3RDOExpTVZWQzlOWHB1MUltTlhiQ3JlQk9VUlRBZTFBQXJhZ2hBQmp6Ulk1Q2JnWk5tOURTcTljcDV0SS1mc09MdmpfTzUwOV9QNXFXNE5tUXQwLTctTlVoX3lkamRGNmVUV2NEX2FyeVZBRUdYZ2FNLTBQRFRzQUptUFdXR0prQ2tObGtNdDFzcGF2T3ZrLURPam9STWpFMGNod3NzU2cxbEJ1MC1BSlZKdGlDWWZHWXY3cmh6LWdvQXM3dUdXNzdtN3FwWWVxWUdhcWFuUmNtM0lTakFGN3RONmFUYlIydDJnMjJuaFdUbzlWY1JUVlhpV2dsUkRJRUN4RXctaWtPOG5ZcjctcUNRal9EWERfa2NOVjU3MWRmMEU0bDA?oc=5",
-      "source": "PR Newswire",
-      "date": "2026-09-03"
-     },
-     {
       "title": "Worldcoin up 13% as AI coins awaken \u2013 Can WLD stay above $0.45?",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeXN3bl85WmFiMG1aYXdDOWZqYmwyRm0ycmFvM3Y1WFl3Z08tVE5YQUM5SnU2aDcxd2t2X0hpa3ZZQmVFa0c1NFpCbWtiYXZOVl9BczVjeEduS1BpT2NOb3ZDYllhdWJOcWV4MkdaektiU1U0SDY5eWFFcy1qQWdXLWhMbzlrd1JP?oc=5",
       "source": "AMBCrypto",
       "date": "2026-09-08"
-     },
-     {
-      "title": "Worldcoin (WLD) Price Prediction: WLD\u2019s 15% Bounce Raises Hopes for a Run Toward $4.10",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS0ZTRUg3cUhmNVpEMmFyZ1dJRVpXdTRaT3JDMExhc1MyVXJIaHNmWS02cXRySE1RSHV2MFV2a01HZUduRUpsY19zYks3WU96UENLZDhOWEpUbnFzQkh4WmR1WW5ldzdBNy1ra3owMGhYbnJ4WnZJWGYzbVd3MDFDME9CakhRTWstWENzYjYwWGV1UkF1Uk1LUHJrRGFlbEx3aDVVWEdadTZsbDluVTBOYXBqYno?oc=5",
-      "source": "Brave New Coin",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Worldcoin Price Today in Turkey | WLD to TRY Live Price & Chart",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15S3VZdGxwV3VycHBIb1VublAxa2l1NUM0MDhtSXk3OU1FNEQ0ZzVDdk9CYkF5TjBTS3hnNG04M28zQXRJTzc4LUVCR0VLN2JPaDFpSnhrUmVaaEdFT0E?oc=5",
-      "source": "Binance",
-      "date": "2026-09-04"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "PLUME": {
@@ -2971,12 +2439,8 @@
     "text": "Near-entirely keyword collisions with unrelated 'plume' stories \u2014 a WiFi vendor [1], methane research [3], a device warning [4], and literal smoke plumes [5][6] \u2014 not Plume Network. [2] is just a static holder-list page. Verdict unchanged.",
     "cited": [
      1,
-     3,
-     4,
-     5,
-     6
+     3
     ],
-    "filters": [],
     "cited_items": [
      {
       "title": "Mobinet to Deploy Plume Platform for Delivery of Smarter WiFi, Enhanced Security and Better Customer Experience to Subscribers across Mongolia",
@@ -2985,31 +2449,14 @@
       "date": "2026-09-09"
      },
      {
-      "title": "Mapping global methane emissions from space with deep learning",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV2tVSkZXdVNmcGlvT1lRVU9OQk05N1RPZm82am54VHZHNjl2cGMyczhCRTdMRktIekY1bTROQmFBVmgxTHg1dm1PSEJvX214M2lzV3VfVWtoQ1Fqem9jRm4ySUV5ZHZoUnRtVWg2WUpCbnFLMzdHM3ZfVENURldmNkdyQVQ3eXg0RFJUVGpmN0dQZ1BQR2lv?oc=5",
-      "source": "Google Research",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Think twice before installing this device promising free movies",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUEVpSDVUY1EydGhid3QtNTVYMnIzWVlRdlpkRlV1OU4wSVB3SFZ3cTFYR3RCcDVmU01xaXdLTDVNbzVKaXhlemRIeDVMUFdmNmdQMVIwb0pIWl9VWFpLN3dfYVRYQWhNSEg3aEp0a0JfdVZCRlMtR2ItSlJUbFBfRE0wd3huUTgzSzhnT25TaWQ5ZFhhZG9oc0duYW1nQ0FPYWFHSVZ4RzZacUhYUTNrRjlR?oc=5",
-      "source": "Ars Technica",
-      "date": "2026-08-31"
-     },
-     {
-      "title": "Prescribed burn at Angel Island sends plume of smoke into Bay Area skies",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY1lycWI0c3djQ2hMTzZJOHI4TnF2TDJ1Z0s0SW02UG9jeE9rRUptZjdQdWNNeUt5SlVzTWNGQjZteTA4amhyUlE5T1lQNGVDNnlodDMtYVk2VHhFV2ZqTll0Z1NndXZlcnlCdTloeTFRZlQ1OG1VYmpER1p2dVhYS1gtX3NNWHVaWjl4NzFVbGowdms5SmxWdjVzRjlKdkpwelZpZ2xDSnh0aEE4c09Sc0RR0gG3AUFVX3lxTE1WYnlhdFJqU3FJTnhNMkpiWU9udXh3ZHZEQVd2a0dBNW1EVG16VDJkTlJVQWRfWlphZjNPMzFvRzQ3S3F5SzM0Rm5JX2hsVG8yb3BGTmRSSEZtaFNTZ1A5Z08yQTJLNUlrUkZFSTl3MXZTNEVKb0FDZmRFUEtPQnI5a2VWZHhieW5ZVmxEaUs4VmxkbU81OENWZjhobVpfRExNM1JlbzNpTVlMU2pvUlR6MG5xR0pLMA?oc=5",
-      "source": "The Mercury News",
-      "date": "2026-09-08"
-     },
-     {
       "title": "Chemical tank leak sends plume of orange smoke into air in Orange County",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSlNrY2EzRkpPT1l2US0tTldjOGxfNlAwZ3dmcldVQ0ZRdFZBcTU4aldDV1I0V0ZpOTBmWmJnelF1X0k5WTAwaEdoejd2M3hTWElEWEhvNHlJMmg5WTVIYUdGaUxIWmpDRWtzVjZkQVdWZ19JT3JqeHhfMkNzRFM3dGhn0gGHAUFVX3lxTE13NGhBOXpfaTlXazlMbW55d2ZZN1I3RGprYmJHdVZSc2pVbFRIVzlDRlY4YmVpdVRVQ2NQUVFZSmNpNnMxNUNSTjgwLVQ1U0FxSlNWLTVMMTlXeE1KbkdicUZ1N00wcXJvbFN0WVhQT1V2UjN6N25EUUpoQkpOaktjaGk0d1ZoWQ?oc=5",
       "source": "KTLA",
       "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "KAITO": {
@@ -3042,16 +2489,16 @@
     "cited": [
      2
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Kaito Holders And Distribution Chart",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XaWNETHpPbWx2NXZySkZIbW9yaVdLbVN3RVBmNkgwcnJWWEZ1ME9xRGcyaVRjblZGU0hvd0NrSFNDZ2xrcENneXZJTGdoYmc2b1FV?oc=5",
-      "source": "CryptoRank",
-      "date": "2026-08-28"
+      "title": "Marat KO Kaito",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tUkgtOG5UWllrQkFyNG9ld3pzOWM5MUN4VWZFbjlOYnNPcW1aeU5wcjlFVmdaTWVVbm1JRE1McG84SnlUWk1vRXd3ZU9YMWJSM0w5U2NLTzY5d1k0R0VVR2FaSzRsanRoU0JXa0tnX0pKNHVTMGhpeXpneWJ2Zms?oc=5",
+      "source": "Yahoo Sports",
+      "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "VIRTUAL": {
@@ -3076,26 +2523,9 @@
     "text": "The Robinhood listing [1] is a real speculative demand catalyst but does nothing for the ~68% MoM revenue collapse. [2] is a promotional research piece, [4] an unrelated Motley Fool tie-in, [3,5,6] routine price swings.",
     "cited": [
      1,
-     2,
-     3,
-     4,
-     5,
-     6
+     2
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Virtuals Protocol (VIRTUAL) Surges 3.75% on Robinhood Listing",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wLXlZODU0dG9tMmltdFRnRTVxUEFWTjZPOWRlTjZlWm00Qk1JczU2Z1A4LVNEX2hULVNMc3dSdlVYemtCQXkwTU5BOHVlTkp1MUNjdVVNak1TX3ZDQTRYbGhIY2dfVjdDNDJCakxxWmc?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-07"
-     },
-     {
-      "title": "Virtuals Protocol: Beyond Crypto, Toward Infrastructure for the Agent and Robotics Industry",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNREhvcFNERXloSmc4Q2kxcUFJeV9nWjdhMzAzc2JaQ1A3WmNzZmYyYWxwSWs2bEg1N0JDSERmS0t2R2UwY1JUcFlZdG10WENHTk1lR0F3UTdLc2FydVdPNUJFLURGQVhSem0xYU04UVk5WFRoM2d1Y3VYQWU2NlpvemRqeGFWSEdCY3FsejNB?oc=5",
-      "source": "Tiger Research Reports",
-      "date": "2026-09-03"
-     },
      {
       "title": "0.6462 | VIRTUALUSDT USD\u24c8-Margined Perpetual Chart | Binance Futures",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3dG81MUFqQmowQW9aZEVDWFRUZXlNZTQ4RnBGRXJuV3k0WEVmd3BjWjJlQzFFV19rLWVUR0dFUUZObk5hdTBqMDh3YkxjbHVJWkktVDRPR05udw?oc=5",
@@ -3103,25 +2533,14 @@
       "date": "2026-09-08"
      },
      {
-      "title": "This New AI Agent Platform Could Send Solana's Price Higher in September and Beyond",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdDA0Ym5NbWlyRm0xUVFZMjJPZ3AzOUJKcUZhaVlneUhPTEduaVFKSm1paUtCbkR6MW15NnAwUVdBUDJZZ3RreDBDRzd6MmsyT3dHa3BhRHN6MjBoanNsOHZLZ2tJTHFIZ1BOT1BpRXZYZGtoMWozSUtOQVJDTndOalMyaWtsdE1jcjhUSWlLWElFNGhtVHZEWg?oc=5",
-      "source": "The Motley Fool",
-      "date": "2026-08-29"
-     },
-     {
-      "title": "Virtuals Protocol (VIRTUAL) Rises 5.49% Amid Social Trading Surge",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10TWVrblVxc2hWWFZMNWtBenAwdXd2TmRxWkprTC16SUl4SUVGTXBrdm9QZFkyTWJMd2ZybjFXcHRjTWRqUlFJUFM3ekVRWEwtNmdIMGFwSmlfbXdQTXpMbDd2SGNralZEUXRoTTVaWEs?oc=5",
+      "title": "Virtuals Protocol (VIRTUAL) Surges 3.75% on Robinhood Listing",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wLXlZODU0dG9tMmltdFRnRTVxUEFWTjZPOWRlTjZlWm00Qk1JczU2Z1A4LVNEX2hULVNMc3dSdlVYemtCQXkwTU5BOHVlTkp1MUNjdVVNak1TX3ZDQTRYbGhIY2dfVjdDNDJCakxxWmc?oc=5",
       "source": "CoinMarketCap",
-      "date": "2026-09-01"
-     },
-     {
-      "title": "Virtuals Protocol (VIRTUAL) Drops 3.11% Amid Broad Crypto Risk-Off",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mUTVKa0NIU0RTMEdWUVdmQkItREVMeDNDVk1EV0NhVmplNEZjbnduVzlHaEhrRVcxam9QQnkzNnR1WVdxZGhXam0ybWM4RTk3VDhlM1QtbkRWaXQ1RUx1ZUNCQ01LM2V0OWh6d3VWSlI?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-02"
+      "date": "2026-09-07"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "BTC": {
@@ -3182,22 +2601,22 @@
      2,
      3
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Bitcoin tops $80,000: 'Crypto winter is close to being over'",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVzJ4UV9hNkRzQWZqckRhTUpVazZGWHRLOE9jM3cyUFNsS1FwY1VsSlA4UzZiYk9EV0JIYzhsRlBMSHdrNk5Yd0p1YU5iUUJMd1JXNmYtTThhOGxiWmpvTDk5b2tGMFNVZVE2NmItUG1STHBIU01fQl9GRTM1QjBsaGNtTEFLYW16T1VrQ1FuUExPTWJJZEFVU01CTXIxcF9GeFptOE96U1R2dVVzbDNUWW5R?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-09-04"
+      "title": "MicroStrategy Ends Two-Week Pause With 950 Bitcoin: Is the Buying Engine Stalling?",
+      "url": "https://beincrypto.com/strategy-950-bitcoin-buy-strc-buyback/",
+      "source": "BeInCrypto",
+      "date": "2026-09-21"
      },
      {
-      "title": "Bitcoin is trading more like an \u2018amplified version of gold\u2019 again, but the four-year cycle theory threatens further declines",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONFVqNWRIZzlyV205Q3Z0TWRHOXVaMGItVmJScGdfSmVyYW41TFRZQmRBTXRWX3BZbFZYZUpnN0ZBVjNxSVdpTUN1ekJYV3RTSGxCLU1PUm4xaF9lNnA0bFFPV0pqUTJZY0dHcXUyTG50SGVDQ2hrYmhlX3JCNVU3QUdyTi1YQnJxVHA3c3BsaEo0UDNXSkVqeEFaMnhieW16WnhjLWpxWVJZMnVqZDBYS2ZXWm5yVjZMSHhhN2tjMWhxSHgyY29oVFF5NGN2djRUQkNVWEJxcHpPYTRM?oc=5",
-      "source": "Fortune",
-      "date": "2026-09-04"
+      "title": "\u2018A little more orange\u2019: Strategy buys 950 bitcoin for $76 million, bringing total holdings to 846,000 BTC",
+      "url": "https://www.theblock.co/news/business/2026-09-21-a-little-more-orange-strategy-bitcoin-michael-saylor-415893",
+      "source": "The Block",
+      "date": "2026-09-21"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "VVV": {
@@ -3244,17 +2663,9 @@
      1,
      2,
      4,
-     5,
-     6
+     5
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Morning Minute: Venice\u2019s VVV Token Soars After OpenAI Dispute",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNVRnVERiUmxpQnBQZnVPbDlIVjNfaU80dGs3R080ZDI4ZXhUWDNscTdQbUVEZkdNbmt6RkF2bjFDVDB4SXZjLWZfMmRUajdlM1hLT05XX1dLZUEwTUFhQWxzb1JDNFc5bFhsbFJSOE95NVRidVRHbXo4eVZKLXlUdlV1ZWk5T2VPc2hUUXJn0gGWAUFVX3lxTE41ZUpienJNT21KZHRzQWlVUTdlbW5ibzdpUnNMajhiRzBHdG5wcmowTE90NXo5bjJyUHRzS29KdFY0elFzZTdWQUM0Rlg4SXJQbzMyZkRLUDFmcmQ0VTUzb3lnRmx4cjR0SVowanFWWDVnSEZjOHNVNXdLWUIyZ3lDcEFLQmZ4c3VLNEY3dmk4bGRmVFY1UQ?oc=5",
-      "source": "Decrypt",
-      "date": "2026-09-09"
-     },
      {
       "title": "A token tied to an AI app joins TenX's crypto holdings",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWWx1UHR5b2ZZZHJCVHdLYm1ydkhKeEFMMFJIdFc2VzJMLWpuV2JGN0ZXY0VLbDg5NDk4bUMyYUhqbjFlY2p5SXEwenpqOEtCM3JKdEJpcUdFMzdOdVZCWVJXV0o1RFpBZkR2Z0NWQlUtUVFwZFVwYlJlZHJNeEJqYnJoVUtvaHREX0xLZHRHRkF2ZXZheFFNTUFnVlRja293RW5fTWdPaHZHelljNHJHNDZSR2NWM0Z3WW5rSjdyZTU?oc=5",
@@ -3262,9 +2673,9 @@
       "date": "2026-09-10"
      },
      {
-      "title": "Venice Token Price Prediction: VVV Surges 50% as Buyers Target $30",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRjF5Ny1yMVRheUlkRjdINGVxTm5CR1JQUkFTdnRtY29QNU1yV2FYVWhfWEpobUtYWUxFbzI5V2MzNWwyM2VHREMxaTlHdzZLZFNmX0JhaXRWZXJzOVg2LXh3YTY2NU5UdjhiSXFmVXJ4RGJ4UkkzZFU3bVZXWGhMU3F3QVdlRTZ0TGxvR0hpQk4wdDdSVkphcmVka0dxZnJVZUtr?oc=5",
-      "source": "CryptoRank",
+      "title": "Morning Minute: Venice\u2019s VVV Token Soars After OpenAI Dispute",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNVRnVERiUmxpQnBQZnVPbDlIVjNfaU80dGs3R080ZDI4ZXhUWDNscTdQbUVEZkdNbmt6RkF2bjFDVDB4SXZjLWZfMmRUajdlM1hLT05XX1dLZUEwTUFhQWxzb1JDNFc5bFhsbFJSOE95NVRidVRHbXo4eVZKLXlUdlV1ZWk5T2VPc2hUUXJn0gGWAUFVX3lxTE41ZUpienJNT21KZHRzQWlVUTdlbW5ibzdpUnNMajhiRzBHdG5wcmowTE90NXo5bjJyUHRzS29KdFY0elFzZTdWQUM0Rlg4SXJQbzMyZkRLUDFmcmQ0VTUzb3lnRmx4cjR0SVowanFWWDVnSEZjOHNVNXdLWUIyZ3lDcEFLQmZ4c3VLNEY3dmk4bGRmVFY1UQ?oc=5",
+      "source": "Decrypt",
       "date": "2026-09-09"
      },
      {
@@ -3274,13 +2685,14 @@
       "date": "2026-09-09"
      },
      {
-      "title": "Venice Token, Near Protocol, Worldcoin Tokens Jump as AI Tailwinds Rise",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWpzdDhxVklTdkR4OFhoejU0bjlLcjlmUHVBaHBJZ3c4d0ZXWUNlUTNtRlQyNUxHZUFpejNQeWhzaEpWY2FMajBLa3hQY1ZUeW9jeGs0a1lGNFM2NGtJNXZfUm42Z1NSaVdsN2NKRFhUc3ZhUmk2Vk5PMjVRZ1NrcmdxWjZqTHM1Q1Brd2RnYmRLNjJ3MU1EZmM0RFJucEZOc0NyS2VHSE0tQzROaG9NV0tuTng4U1E?oc=5",
-      "source": "Benzinga",
-      "date": "2026-09-05"
+      "title": "Morning Minute: Venice\u2019s VVV Token Soars After OpenAI Dispute",
+      "url": "https://decrypt.co/377761/morning-minute-venices-vvv-token-soars-after-openai-dispute",
+      "source": "Decrypt",
+      "date": "2026-09-09"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "PENDLE": {
@@ -3313,13 +2725,15 @@
     "cited": [
      1,
      2,
-     3,
-     4,
-     5,
-     6
+     3
     ],
-    "filters": [],
     "cited_items": [
+     {
+      "title": "Mystery Case Files: Incident at Pendle Tower Collector's Edition - Descargar y reproducir en Windows",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdDloS1U0cjFIWnE2cDhVSkxGUjlyQUpXNXk3LXRwUkk0eUJXNkJ5VEdYcDE4eEt4ZkRMcThjVWU3VEVEdDJueS1jS2JLNkZpdHRqUG1ONTNkSEJMMjAxck53ZTZReEo4SFlBaUhUamhfZUdBeDVRcDQ3MXRDWGpEREI2cUhLOC1GeXdOb3ZsWnZsY2tZUTdvTDd0SEdKV2pqQzBpZk1ES19fc2xEa1E?oc=5",
+      "source": "Microsoft",
+      "date": "2026-09-09"
+     },
      {
       "title": "Pendle: Permissioned PT/YT Markets Pilot Targets Institutions Within Two Months - By 08 Nov 2026",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNWF5WHk1RmZaVkNZZEhHODFDUG5ZaTc0Z3pZZGUxVXRXa0NNY0hOTkZRWFlodjBacThzeTM2V0lCMXZDcWhKLXhMOE1rVHRJQ2NoOGlkR3N5SDhXRWZGOG51WG43RUo3eHhGcXQzSC1wa05ueFBuYzFyRWVfb3lyc0V3N1pKNlFoVDIyZk5OenhHY3dQS08zWDBHWUJDVVVDVWpGRm1fM0JfNjJxTl94MC1CMmJxU25OVFRncjhDdGQzNXU0OUthSEMwQkthc3hlb050Y3JTNjVCczduY3QxV24wdHBqd2xMWFFLVXFR?oc=5",
@@ -3331,33 +2745,10 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MS3laaUdLcnQ3MEN1S1VCRFNtNlBFR0VOOTVNckpYRnpBQ0lndnl1WDNsQ2labU9SWFNOYU0ycUNFbDZndmZsLWNScVNyc2pOc19LRVQ3ZkZYbGc?oc=5",
       "source": "Cryptonews.net",
       "date": "2026-09-07"
-     },
-     {
-      "title": "Pendle Surges 7.1% on Milestones and Narrative Shifts",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1STndsM3RfdWM3cENCblFwWkpYMnhfeDNxclFHZGxTQlhwMnNRSVh6eFFuUUkwRVlyRGNJSXlEQzNPUTJabkROUE1jR0F1TUpjT2RXTGJlNTBjNmNPd2tRT0R1OFVtTWJoaTBSdVRVUEg?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-03"
-     },
-     {
-      "title": "Mystery Case Files: Incident at Pendle Tower Collector's Edition - Descargar y reproducir en Windows",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdDloS1U0cjFIWnE2cDhVSkxGUjlyQUpXNXk3LXRwUkk0eUJXNkJ5VEdYcDE4eEt4ZkRMcThjVWU3VEVEdDJueS1jS2JLNkZpdHRqUG1ONTNkSEJMMjAxck53ZTZReEo4SFlBaUhUamhfZUdBeDVRcDQ3MXRDWGpEREI2cUhLOC1GeXdOb3ZsWnZsY2tZUTdvTDd0SEdKV2pqQzBpZk1ES19fc2xEa1E?oc=5",
-      "source": "Microsoft",
-      "date": "2026-09-09"
-     },
-     {
-      "title": "Pendle Livesey",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeHlVUVk2cldrZmk4WjhPY25XclJMWUpZSk1uVUQ4bTJ0NDhYbGR6aWozQXdtVHFHb3VJUkE2eFpGVEktbVpMSFpXbS1kQkVWd0lzc0tmYU5fd3VRVVJEUl9HMUc2eTZzUkxjY24zNzBCeVJpZ01TUVMxUGpIM3VqYS1TeDhZNmJjdEd0R2hSekdiYnltcERra2NRTENVdXZzc1VuNm1rNmV3WEdyU3NEakFn?oc=5",
-      "source": "Sports Illustrated",
-      "date": "2026-08-30"
-     },
-     {
-      "title": "Pendle launches first yield-trading market on R...",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0lXOEFnQUwybm85NFcyb01xNDJJR2phMWRNQlFwUzJqQ3Y1eDFZekVPRjlOVzFEamxtS0wyLUtqN0xMMDlUbUN1OHQ4RVlIMTlabDIzT3oyUVgzRS01eHh2c1ltZ0JibDVSczhvT0hHd0s3VU1RWXdDc1VtSUlVVHRsdXg?oc=5",
-      "source": "Pluang",
-      "date": "2026-09-04"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "AERO": {
@@ -3396,13 +2787,7 @@
     "text": "Repeated surges (5%/18%/17%) are tied to tokenized-stock trading volume and Base activity growth [1][3][5][6], the same funded tailwind already flagged as offsetting emissions \u2014 strengthens FC3/FB2 near-term, but the undated Aero token-migration overhang is untouched. [2][4] are noise.",
     "cited": [
      1,
-     3,
-     5,
-     6
-    ],
-    "filters": [
-     "FC3",
-     "FB2"
+     3
     ],
     "cited_items": [
      {
@@ -3412,25 +2797,17 @@
       "date": "2026-09-09"
      },
      {
-      "title": "Aerodrome Finance (AERO) Surges 18% on Base Memecoin Narrative",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VVUZMdTdNYlY3MnZ4WEEycEhZSEFOamVWdjJndEtuVnpmZ0ZBRndwdFNiTk9kN3Z1RHQ2TXhvZURHR0ZhSGhjdUpwaTFsZlNnT1Y3YWxZeXE2Y0x2NlhnNV9nYlY5Wlprd1RmU2tTY1g?oc=5",
-      "source": "CoinMarketCap",
+      "title": "Aerodrome Finance (AERO) Prediction for 2026-2030: How High Will It Go?",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HaDdsaTYtOGhHcnJuLW5PMk1rTXFzZUs1WHJwRTJPTzhfQjRuUmZzM2F2Z3R1VzM4OHZkNzUwQU9rblhsUjRUTms2Y2JDam00SDRYRkExYlpMNHZ6MTNKQkd4T1BjVkFWcThUenBMSXpmcXNUVWhMVllPa3RzQdIBgwFBVV95cUxPUEJmeDg0WjdVc1NyWkUzRENFYkJyaUx3eU1xcTZpaFhkYlJsNUdkcmdGaFp3dHBMRzhyc284bVVSSFVhLVB0cWU4cmZuMzlOSGt4WllyZFhvaVgwbVlrblRJWlJIYzRXcVVwRjBoNjlXb3NOd2U0cVRqcG1vMmtOMVA3bw?oc=5",
+      "source": "coinpedia.org",
       "date": "2026-09-08"
-     },
-     {
-      "title": "Aerodrome Price Eyes $0.85 as Stock Trading Volume Surges",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcWpkSG1LWHU4MkxNZjd0MW9HTUdtazZka1RrVUxlUGZnSUtQSkFxZ2dJTmFQeERXa3BjVWhJaC0zUlhwUkVMai1NQ1ZocEk4TGZWX2VEeEI2OG5EbjE5aUtwalpTT0JvVHduUGxHbGU1bkV3R1JralJsUmF3ZmlXQkF2T1EydS10MFVER01nWE5DM1IwZHFhejZEQWJROWJGSGZFbUlMZnNmWkxGYkFEY0hETVhHQQ?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Aerodrome Finance Price Prediction: AERO Jumps 17% as Base Activity Grows",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa1U4VmViVmprVWNGQ3lRbHg5UWRQQVN2bTZ3UTUyS3ZsaGt2YzlNdzdvcGpfejlyQm5TZ3FkTldHLVdZYnRXRHNnV01NX25FcUJnLUQxOEZOcTVOcll0bWx0UmotYTNMUXZILTJmRm5FTklVMUkzMHFNaWtLMzAzXzlPT1JDNjc2Z3NmWFhoTTd1MUgtZ1hoZy1uSS1LdkZIWk9JeHhUS09FU2MyWEdfbVNWcWlPMDVaSDNF0gG7AUFVX3lxTE1rVThWZWJWamtVY0ZDeVFseDlRZFBBU3ZtNndRNTJLdmxoa3ZjOU13N29wal96OXJCblNncWROV0ctV1lidFdEc2dXTU1fbkVxQmctRDE4Rk5xNU5yWXRtbHRSai1hM0xRdkgtMmZGbkVOSVUxSTMwcU1pa0szMDNfOU9PUkM2NzZnc2ZYWGhNN3UxSC1nWGhnLW5JLUt2RkhaT0l4eFRLT0VTYzJYR19tU1ZxaU8wNVpIM0U?oc=5",
-      "source": "Analytics Insight",
-      "date": "2026-09-09"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [
+     "FC3",
+     "FB2"
+    ],
+    "as_of": "2026-09-21"
    }
   },
   "RAY": {
@@ -3486,19 +2863,18 @@
      5,
      6
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Raydium (RAY) Surges 75% on Stonkfun Launchpad Boom",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50ZmNkWkgzem1lQmplbWh5RHQ4MWxFY3V6SkpoengtTm5mbm1BaThSUWFaMG9Hek02MlFQbnJkZXBTMFVLMjVSa1JVUGNMbW1Lbk1hQUxzUlhHMU55NHBIck91MlBhVmRFNUt6LTVZNWY?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-09"
-     },
      {
       "title": "Raydium Price Forecast: Rally signals trend reversal amid network growth, buyback",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaWVLb25VT2xJWWhfajU4UmNucUlxSU1Id1REWEhxRmZmVlM0Yk1VQ3oyazk1QlctV08yNlNGNW5fNU1WUnZzVkVGYWlxU2RkbDhBSmc1cjNxUVlIeFg3Z2FZalhDalNZVWZLOTdwbmNyWEpUNFJOeU5FMGVaNkc5bk9lb1d5UEtOam0zZ19LdEx6bUpwbzVMYkZWQjhFR3hyci1lR2dlaU93eUJhd0c3TWVjajM1UFVObW5mZGdQcnpzMEVfRXlPZDRyeFAtbHYyLUZNcEtR?oc=5",
       "source": "FXStreet",
       "date": "2026-09-10"
+     },
+     {
+      "title": "RAY Token Climbs 24%: What Is Driving Raydium's Renewed Momentum",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPczRGUUI3UmQ5UnQ3a2o4aEYwTzg1Sk1NbGh6clpyRXBhRElNcHJ3Y2FPNXYwNmVLcUVYNUtoUi1iYVZZVHBqb2lKTDk2WGI2NFoxWnQ0cVZ6YUp4NEU5dTQxOWNsNTBnREJaSldMWXpyUnNseEtRRHRqeUpTcFh6bmtyMFpFQkdBa0dad1Q4RWxwZlNLc3ZpTEw4VUQwZlZKS2E3Tm44M190eDFSSDUwbg?oc=5",
+      "source": "Yellow.com",
+      "date": "2026-09-08"
      },
      {
       "title": "Raydium jumps 33% to $1.09, hitting an 8-month high on strong buybacks and staking support.",
@@ -3513,7 +2889,8 @@
       "date": "2026-09-07"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "PUMP": {
@@ -3560,16 +2937,20 @@
      2,
      3,
      4,
-     5,
-     6
+     5
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Meme Coin News: Trenches Lag as Market Sputters, Pump.fun Unveils App Expansion, and More",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOC1OQS1ZT3VaWG9KTkdtRXk5cko3NGJHY3gzcHJpcFRUS1RiN3JhTll3clYyZVJKN2RqVkRTZnNwMlRMME53LWE2N0tUMXVkNlJFbjlFQUxYaTQ0SEFxY2M0TDZhZVNEUVlWZ0h1aGVLemh3RzhUQnBtU1RDRjdRVUMzSUhzNnFnTTA5NXR0SlVnS19xUjVHUTBrS1RaOTR0QUdZbVRCVnJMMXBYVElGWTFHbFFYTllobjVrVGVEa2hFZ3hSZnc?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-07"
+      "title": "Pump.fun Drops Cashback for New Launches, Adds Holder Rewards",
+      "url": "https://thedefiant.io/news/defi/pump-fun-drops-cashback-for-new-launches-adds-holder-rewards",
+      "source": "The Defiant",
+      "date": "2026-09-14"
+     },
+     {
+      "title": "Coins paired with Nvidia are being launched, and Pump.fun has also turned US stocks into a meme quote board.",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FTmZ5dGJ0d2dvTXFqODZMMFh6ME9MLTR6VXlEV3JkSllDVldLaXktc2R0eHhtNU1tUTZPNUhiaGZ5WUZleE5WcnVYLXhWYXVObUYyeHE2Nzd6Z284?oc=5",
+      "source": "\u6df1\u6f6eTechFlow",
+      "date": "2026-09-10"
      },
      {
       "title": "PUMP Gains 12% While Protocol Data Warns The Rebound May Be Fragile",
@@ -3578,31 +2959,20 @@
       "date": "2026-09-09"
      },
      {
-      "title": "Pons vs Pump.fun: the launchpad war nobody expected",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nazBKSTY0RXVOT1FDaHBQZF93Rko5ZE1JTjloX0xSRnV2eTdwY0ptRTAtUUUyUmFVX2ZDb0UyelVJQ1pSY0hZcjF5LTdDb3R3MVVMMWRPLWZ3Y01MN0FMRDJfbjVfMzktVlo2WnRuSG1jU2xk?oc=5",
-      "source": "crypto.news",
-      "date": "2026-09-05"
+      "title": "Pump.fun Lets Creators Launch Coins Priced In Tokenized Stocks",
+      "url": "https://thedefiant.io/news/defi/pump-fun-lets-creators-launch-coins-priced-in-tokenized-stocks",
+      "source": "The Defiant",
+      "date": "2026-09-09"
      },
      {
-      "title": "Time to $PUMP Up the Future.. By Joseph Razo | by Joseph Razo | Aug, 2026",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qRGNkVHpiMXdrVHg5dkduT0FWcGlESGpGOTZZN2M5Y1B2dUcyazNndXFRd2lLcm9SQUl1V0lSWmtHU2RvRGNEYnk3U0lNZnIwY2lVR3hDYUFkR2FsYy1JRzd6MElhSV9VaktOcXY5SVpRNU5PMnFhajd3?oc=5",
-      "source": "Medium",
-      "date": "2026-08-31"
-     },
-     {
-      "title": "Hyperliquid, Pump.fun account for nearly 90% of record $638M crypto buybacks: FT",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWVp2WVNTT281S2xOS2lKYWlFTjA0T0prT2tSVElaSHRIdHJGNTNYWkFZelJXc1ZTN3hpbE1VUk9SZ3NlUWJUcjU5WFJIUFFXS0xCSGRZcHc5dzA2ZlZSdy1EcDFqaW5LN1B5VkdEMzJLcHN6VGM4dkhOZnAwam9aUWlxRHQ3Vk5EUWRJTDFoNE5aRU9seXB0X3Fpd3RJMUtBRnBoanpnS2lReGRJS3N6QlNFcVcwb1ItUERrN2ZrMTBRNHREWEtSU19RS3oxTWY5LU13aFVKYw?oc=5",
-      "source": "TradingView",
-      "date": "2026-08-31"
-     },
-     {
-      "title": "Coins paired with Nvidia are being launched, and Pump.fun has also turned US stocks into a meme quote board.",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FTmZ5dGJ0d2dvTXFqODZMMFh6ME9MLTR6VXlEV3JkSllDVldLaXktc2R0eHhtNU1tUTZPNUhiaGZ5WUZleE5WcnVYLXhWYXVObUYyeHE2Nzd6Z284?oc=5",
-      "source": "\u6df1\u6f6eTechFlow",
-      "date": "2026-09-10"
+      "title": "Meme Coin News: Trenches Lag as Market Sputters, Pump.fun Unveils App Expansion, and More",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOC1OQS1ZT3VaWG9KTkdtRXk5cko3NGJHY3gzcHJpcFRUS1RiN3JhTll3clYyZVJKN2RqVkRTZnNwMlRMME53LWE2N0tUMXVkNlJFbjlFQUxYaTQ0SEFxY2M0TDZhZVNEUVlWZ0h1aGVLemh3RzhUQnBtU1RDRjdRVUMzSUhzNnFnTTA5NXR0SlVnS19xUjVHUTBrS1RaOTR0QUdZbVRCVnJMMXBYVElGWTFHbFFYTllobjVrVGVEa2hFZ3hSZnc?oc=5",
+      "source": "CoinMarketCap",
+      "date": "2026-09-07"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "LDO": {
@@ -3650,25 +3020,25 @@
      3,
      4
     ],
-    "filters": [
-     "FA3",
-     "FC6"
-    ],
     "cited_items": [
-     {
-      "title": "As institutional staking surges on Ethereum, why is Lido\u2019s market share actually declining?",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10UFlrandiRWVjLUpFQXZGSTJ2YWJsNmhISmdsaDhWQ1hZYTh0c0V5bENUZE1IenZ4OVN1S3BFb2s3UXVwZVRicEgxM21KZlRKWDJ6OXB2OWZMRXA0?oc=5",
-      "source": "\u6df1\u6f6eTechFlow",
-      "date": "2026-09-09"
-     },
      {
       "title": "Ethereum\u2019s institutional staking boom is growing, but Lido\u2019s share is shrinking",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdzJHcWtCTTBCLTE4cldHcGlsUmRxVS1aU2JJQ29MNk1RNUtQWFJNb2ZUeGZVNGs4bWg1YTdUSDlYd3BIREpsbkM5VlR2UHJoSkhNMlV0cWlIQmpTQjh0WkdGYzdPUG5KdkxBZTFLSVhFX3VkM0g3dVNSSFdrTG9FRm9adEU5OURRN0UzMXRHemtiR1dIcGQ5Q3dVQkJvUUtpUzdB?oc=5",
       "source": "CryptoSlate",
       "date": "2026-09-09"
+     },
+     {
+      "title": "Lido DAO: Stakely Launches First Public ETH Staking Vault on stVaults - 09 Sep 2026",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLXZwN002eFBwV0FrTl8ycUhnVW5mdUp5WnJ0LU9qbmdHd01tM2xsUUZ5NFk5b1hacmxBbDVzdlpNVTF2RGJwQTZzTG5yTFVHcXpDRGgtb1FVc0tSel85cXhXOVRmWmFsMHpXNHpvYUY1c05VQXprYWlabWNReTN5aExpLUV0QlppcjRhTXgyNUEzaGtzMmJUaEFNSE9VUDF5UlFTWU5LVWRFeWhSZTFNV3U5czhzTmtKV2lmUEZwdGRSWlF5NGY2U25lSk9neGUwNzBqSjY4VDVuUmNL?oc=5",
+      "source": "TradingView",
+      "date": "2026-09-09"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [
+     "FA3",
+     "FC6"
+    ],
+    "as_of": "2026-09-21"
    }
   },
   "ENA": {
@@ -3684,39 +3054,18 @@
     "stance": "neutral",
     "text": "Real pivot: equity perpetuals expansion [1,2] and Ethena Pay's 48-country USDe rollout [6] are genuine attempts to rebuild revenue after USDe's 72% supply drop, though shutting HIP-3 [1] shows product struggles. The buyback vote [4] is procedural; supply must still double first. [3,5] add little.",
     "cited": [
-     1,
-     2,
-     4,
-     6
+     1
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Ethena Adds Equities to Basis Trade, Shutters HIP-3 Market",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZW5tamMxZEdYSFdUNk43UGRiXzlMOTByUVBYYi1IeEx6T0hES2lVcDFJbGZoRmJSWVZIdGtMeDMwXzhzTUNQTENyb1J2OHZMX25ianUyMkJSUVllTWVmcXdfNlFSZnhlYWdWYkl4R1JNbUlic0daTC1RRWpHX2QyX1lJYTh2dnpKb21GZmtmTC03VUI4UnNIR0VTbmJSQQ?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOC1wOXcwMWdzel9VNnJGOFBJWkxhTGtZMW1lU1RsTDNUZ1Ffanp0dVVnV2pSS1BFYWxzS19zcTV4S01VbmtOcTI1dktvb0FwUzdNWHBHS25fT1JnNEJvbWJyNHFXdWxJZ2N2OGY1Vm9QRURLdGdGc1NkaXB1Y3NQejByblJ3djJXX0pmc2QtUFIzSW9xUEIwSS05dnp0NGdwQU42clVsd25jZ2Q1bF9iRTVpN0VLVEo0NUlr?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "ENA token rises 10% as Ethena puts revenue-funded token buybacks to vote",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdUdFR1NlcnZRM1hHeEUwSnEwaW9mQUdFZE9YOV9qSGtrNDUydk9nOFRFRmF3TjVwSWZNcW1YekFFREpKRk4yLWE4Q1UwWG93ZkFHcWpLbng0dDdTYlpRLWJoQTlRWGxDeUM0Z0JZcV9GdzVqM0YtcWNjbTBWRko1RllXVS1RYUxYS0p2eDFpVFRkT0Nmdzd1ajFJQ2pQek50aGstZjk0blZRNDByQ3E0alJyd01sWVdGVDNJZWljX3pzUE1RYjhtNHE5T0VDamdo?oc=5",
-      "source": "TradingView",
-      "date": "2026-08-28"
-     },
-     {
-      "title": "Ethena Launches Ethena Pay Beta On Avalanche With USDe Payments In 48 Countries: how 10 outlets framed it",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMUxIUWpBX1ZMLS1HN2Rob19XOTc0ZEdFNWE0Z2FYM21UMkEtb2ZoQkFEY3JUUHRudlZFRTFTQ3VxYTFVSGw2TDBxRFRia1VFLV9URDZ1Yms0SGY3UTR4SUFvMGxmTC1yVVoxVWNNeEhZWkF0dFNuS3M2bTF1UWJQWm5CdlVkS2pOV2hXTnE3MkFWYzNxNi1KcXV6UGFLU29CZFVOa1JIVml1S21sY2R3TlQzNUVQRW1LNlp2WS1yTGpkc2tNbEZVZ1hCRmVtVWFVeV9ocnpvMFhlYVFSVXhOWHZ4WmxhWVFy?oc=5",
-      "source": "NewsCord",
-      "date": "2026-09-01"
+      "title": "Aave\u2019s proposed interest rate hike threatens to crush Ethena\u2019s most popular yield loop",
+      "url": "https://cryptoslate.com/rising-aave-borrow-rates-threaten-to-flip-ethenas-usde-yield-loops-into-negative-carry/",
+      "source": "CryptoSlate",
+      "date": "2026-09-11"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "ONDO": {
@@ -3761,49 +3110,42 @@
      2,
      3,
      4,
-     5,
-     6
+     5
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Ondo Finance brings USDY and tokenized portfolios to LBank",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHhNaDhaUTZqUDdTb1B5VW9zZW90T1pfZ0lYWG05TlpWWVJVQmZ3WXM1dVllc0NGNmhpcU1jSUkwUXhRb2VISjQ4a3Q1WkZpTTEtb0Q2R2hqT0tVRVRBSVJDVWI2UlNLQ1JadkFxSTAzTXFCemFKZ0xhejQtbHh3WlJaYTZHa3k5bUxLVENWdkh2OFViQWRaVFlMVFdhd01n?oc=5",
-      "source": "thestreet.com",
-      "date": "2026-08-31"
+      "title": "Ondo lets institutions convert stocks directly into tokenized shares",
+      "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-21"
      },
      {
-      "title": "Ondo Finance Hires Allison Parent, Former GFMA Executive Director and Barclays Global Policy Head, as Chief Policy Officer",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQeHdIM2ttdG9PdWh5ck5ZaHdQYzNkUklqZldsbkdJaVZGWU83d1pidU5FOWZvY2VBVVcxYmxFVk16eEw4Sl9vTF9jZ3B3MDRwblY5MS1QaTN6Q3JBZ0NLZXM0bHRRQUdjQjAweWttaHRoQzdQZDdWWnhvM0tsa2tXNDBqS3owZW5VN2dFNzUwZmlqNXVVRjJuTURXblJiLU51M29QdzVhSkNwYWNYWVdIM044R0Y3dVdGUHhzanNZLWdNVl9EeFl3c2k1SFdrQWlQVVUzR2o4N3dNNkhnTlR5aEJMenhjd1JyVk5HUkhfSEtMYW9ucWJPTG1pSU0xRkV1QUJZaUdRcWtXUjdCVHc?oc=5",
-      "source": "Eastern Progress",
-      "date": "2026-08-28"
+      "title": "The Ondo Finance succession crisis gets messier as Kathleen Allman\u2019s daughter alleges \u2018dementia\u2019, alcoholism and reckless spending",
+      "url": "https://www.coindesk.com/business/2026/09/17/the-ondo-finance-succession-crisis-gets-messier-as-kathleen-allman-s-daughter-alleges-dementia-alcoholism-and-reckless-spending",
+      "source": "CoinDesk",
+      "date": "2026-09-17"
+     },
+     {
+      "title": "Ondo\u2019s Oasis Pro Markets Joins DTCC\u2019s Fund/SERV Processing Network",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-s-oasis-pro-markets-joins-dtcc-s-fund-serv-processing-network",
+      "source": "The Defiant",
+      "date": "2026-09-16"
+     },
+     {
+      "title": "Bitget Wallet Adds Reality's Tokenized U.S. Stocks Alongside Ondo And xStocks",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/bitget-wallet-integrates-reality-tokenized-us-stocks-rtokens",
+      "source": "The Defiant",
+      "date": "2026-09-15"
      },
      {
       "title": "Tokenized Stocks Hit $1B With Ondo Holding 58% Share",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdXI0Qy15RW9qdmtjaVk3ZHlhQk5NNV9lWkhnM1lDemJRcDh1X3VhMGpDa0J5dVdWd2RQRkY0ZzBhczlHYWV2Vk5VX0cxSWV3V0FDSVFtcVFsYWdrdG10bEgwTUVjM005OUQxY3gzb3MzeEE4ZGIzV2pERjdBRFhfNE1vSVN1Rko1UnRnd2M3dktpMGxXa0I3dEJpb0NHTlNMYVVydVBRRHg?oc=5",
       "source": "CoinMarketCap",
       "date": "2026-09-09"
-     },
-     {
-      "title": "Ondo Finance Names Allison Parent Chief Policy Officer As Tokenized Stocks Top $1 Billion TVL In Under 8 Months",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd1NFSUk5VGx0OFJrUWNWRnJpTWVkSG1uRzg3NU5mQ1h4RkF0ZEtjQnlaUXN6WjkwWHlDZmtyQ3NjNmNfYXVtRUlJZnRwd3VZVmxXZlRyU1RhbkVRSWdWdjAwcnNQbTN1eEl0cWI1bk5UMXRpWnItcEYzM1VSNkR1Yk45ZFVKYUQ1YTIzWllKY0Q2amdoLVo0ZGY4V184eEdkODZaZW1UaWd1S1VBR1JOempxVHFCcjJJWFBpYVRqdEtvckx2QnJac01n0gHPAUFVX3lxTE5UeUlmei1UR0d5ZmlUWldRZ1hKd0k0SHFsNTRJU0libHJBR3dqRlhLS0QxRVhRMU5vWkFZeDNzVnFjZWx4cmhyako0M0FMVXlrSHVYWXlQZ0JRVmsxN1VsN1ZmUVRNcWJpekUxMWNZODBCVjNwSVV2bWJFM2ZHNG1ZQlVCelE1cFVIemEzTlhxeVBOMVlIVXRVajcwWkoxSGdaaUlnVF9LRHhHNDNnbERiZzlGSDRjWUVTZUdoVFg5TUp5aGxCUXQybFFNSTd4QQ?oc=5",
-      "source": "Pulse 2.0",
-      "date": "2026-08-30"
-     },
-     {
-      "title": "The Quiet Treasury Boom Turning Ondo Finance Into A DeFi Market Structure Story",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNZWNqanoydVJxVjdCSTdmNjEwdjAxSVRMZmtDWHVjZGcwcHVoMW56U2ZEWTk5ZENIdWNLT2ZHQUhHU3FiNjVZdVFHU21iclFNVFB2MnRxOTdiY21ZbzFtSFdlaDRDNHdTMzUwendaYWhZU2txeXVoYVRYRXBNMG5fSTVpM2hScEExMWxOUDA4cEtwQWhqQmJSOUthU1M5T0cwbldmWmNzV3RweFRmUGx5eTd2X0M3ZEFZcEVRS1lLQTZXczB4czRrblZxSjlUNXlOMFZ5dTBxTUtlRU5vdHk0T0pFY1BHeGE3TGNMNTFSQUdaLVd6UUcyaWNtVTZBNFZzWmxkcndQUkhtLWRwdGY4RHZzclo?oc=5",
-      "source": "Yellow.com",
-      "date": "2026-09-06"
-     },
-     {
-      "title": "Ondo Finance Urges SEC, CFTC to Bring Stock Perpetual Futures Under US Oversight",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTclZHOFUxYlhhT3BURHFzT3JuUHZfejhHdzFqYmZMSjdCRnVyMHN5ci15YnhkeVJ6OGFfNVoxazNYWDBnQi1FV0VFMmJwQUk3WjAzbzVKMEg3VXlXUjNlcml4bVlqaWh4T09scHV3TF9pMVBNcGc?oc=5",
-      "source": "finance.biggo.com",
-      "date": "2026-09-02"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "LEO": {
@@ -3820,25 +3162,18 @@
     "stance": "noise",
     "text": "A plain price page [1] and a sponsored-style comparison piece hyping an obscure token 'ChainSpin' [2] \u2014 no real news on the BTC forfeiture case or burn schedule. Verdict unchanged.",
     "cited": [
-     1,
-     2
+     1
     ],
-    "filters": [],
     "cited_items": [
      {
       "title": "UNUS SED LEO Price Today in India | LEO to INR Live Price & Chart",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5abkFkb1ZycWYtWEZEQ1hNNGNtNUFfLTVVc3p3VTJFQW5KRVo2ckltS1h4dUxXaEZldy03a0prVGE3MmhnUURpV1B5NkVXLWpqMEZtaExtcXQxMlJ0?oc=5",
       "source": "Binance",
       "date": "2026-09-07"
-     },
-     {
-      "title": "LEO Price Prediction: LEO Holds $9.70 as ChainSpin's $0.0125 Entry Fuels the Earlier-Stage Upside Debate",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT1JnZkc5UjF1TEFreTR1c1k3YXZzX0NYU2FBWWlTT1hGOUVSVEtFMS15RVR3MFVWNEhWa0h4RkQwemJZbHNWT0FZMnplU1ZiU1ptVV9ldWtpWXFUNzBNMlUta2xhTTljeS1RYjJCWU5QTTVsX0RMdmo0TUZ2TWJLNjlNcUplS2pCQmhBTmNnaFZvaldOWDRGQw?oc=5",
-      "source": "openPR.com",
-      "date": "2026-08-31"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "OKB": {
@@ -3860,25 +3195,18 @@
     "stance": "bullish",
     "text": "NYSE-parent ICE reportedly backing OKX at a $25B valuation [1] is a real catalyst reinforcing the exchange-perk value driver the key risk already flags, explaining the 38% surge. RWAperp launching on X Layer [5] adds modest on-chain fee activity. [2,3,4] are routine volatility. Thesis mildly strengthened short-term.",
     "cited": [
-     1,
-     5
+     1
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "OKB Surges 38% as NYSE Owner ICE Backs OKX at $25B Valuation, Fortune Reported",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbk1EeVJweUVPaVpJRW4tY0J5T1RhTTdrUHJSY0lIM25oVHdFQUM2WE1CV0NyQmd1cTM1U1ZfUmtSVDNpb2RMMEdTMF9WZGJqV0s2d0ZaOC00VXZBTE8xcENyWnE1ZE03YXdsejJ5dDhMVDdTSW1oYk5nVXFfcGRZT0N5dFdQZ3J0ZDc1cTdpTWdHSE9GeTRQOFUzRXNMMG9UeE9aZmQwbWV6ZEUwVUtmT2pnc2dFRTQ1WlE3cGhWaUJ0OG0weHE0a3Nn?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "RWAperp launches AI-executed perpetuals venue on OKX\u2019s X Layer",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ0hUUXBUOVZxQm1WRGF4bHpUSWlMOVF4cVctSGdFU0RJWnRkYXBmdFNSckVmeWtPWVFacEVhRnN4MlhVZzZ3cWdubWN0T2dfdzZNbnIxT0RIbm9iSFVFME9OQ2xmbzF6dmEzME5vek1sOXp2TVpEdGxhN1JGUmZIeVN4MGxCRHFUV0FjWUlYWFpfVTcwNFZaVWl1MlJHSkhnbEE?oc=5",
-      "source": "invezz.com",
-      "date": "2026-09-03"
+      "title": "Spark Opens Its USDT Savings Vault To OKX Users",
+      "url": "https://thedefiant.io/news/defi/spark-okx-usdt-savings-x-layer-integration",
+      "source": "The Defiant",
+      "date": "2026-09-11"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "ARB": {
@@ -3932,31 +3260,30 @@
      5,
      6
     ],
-    "filters": [],
     "cited_items": [
      {
-      "title": "Arbitrum (ARB) price jumps 30% after revenue surge from its partnership with Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd3ZzaU9OUUtHdGI1Z2dIdzNEU3YtdU5hUVJ5NEpIMVFPVElJTGhXV2JGdS1aTFlUWTA3cy1jdG5JUS1YSktTaUMxRWxsV1h4U1BlY1c4dUMyRWptVjM5enhiLU5VYXRNNDh2c29JNl9zc0FVS3d3NUtjdjNoSlA3S2hKQnU2QWw4SzJ1UE1pT0w2SE1XaVZyS29NeWZ4OGdfenptWkROd1FoRVl3MHhUSm9zQWo4N0tFckYtVmpySkNRU19SamVWZXBRRFZvQQ?oc=5",
+      "title": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
+      "url": "https://cointelegraph.com/news/standard-chartered-arbitrum-arb-price-10-2030?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-15"
+     },
+     {
+      "title": "Standard Chartered predicts Arbitrum's ARB to rise 70-fold to $10, citing Robinhood Chain revenue",
+      "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue",
       "source": "CoinDesk",
-      "date": "2026-09-01"
+      "date": "2026-09-15"
      },
      {
-      "title": "Arbitrum (ARB) Jumps 35%: Robinhood\u2019s Billion-Dollar Chain Could Change the Token\u2019s Outlook",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOckwtMnE0TVpzOU81UTJtb1NBUWItb1V6MlY2NkRFUE5CNnNKY0F4VnJVQ2lfYVVsamZFTFBQUlJHd1pWWkJUYXB2UUdQeDI0VFZCU1B6UHl1Mk9TdVlOVTVmOXFLd0RtNVo5OTJzZmx0NGM3dFpwMjZhZmU1MWUxZkN0VV9YY0I0WW43RExrTU9pcDFlaDR4Y1gwako5MC1yU0N5dHUyUVgwbDVSeFlmanEtbmUtczVpVlBKNmlGYUhmQUFKYXJRRmRn?oc=5",
-      "source": "bitcoinfoundation.org",
-      "date": "2026-09-01"
+      "title": "Standard Chartered Sets $10 Arbitrum Target on Robinhood and Tokenization Growth",
+      "url": "https://thedefiant.io/news/markets/standard-chartered-sets-10-arbitrum-target-on-robinhood-and-tokenization-growth",
+      "source": "The Defiant",
+      "date": "2026-09-15"
      },
      {
-      "title": "Robinhood Chain Now Earns 240x The Fees Of Arbitrum Itself - And ARB Is Up 45% On The Cut It Gets",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY0s1c2FkZjZoQlVJWkY0dXdsLWpYdXVhVjBMWGhyOGNySXg2ZWpTS3I3S3c0amJaZDcyTkFtM3BqbGlLYVhZQWVLVHNIa0M0dWVWd3V1czJvVTM5aDducGVPRHNIRktUZTRJZGFONWJBUWVGTWE4RHpoV3lfS2pMNmZNNHVzb1RLWkJKMVNQV1RTZWVfaEFHVFdHT1lUSEV2MFJMTi1sd3ZHbHBhRHRLeHp1TjFBU0MxRlBjM2k3RDlHWENJWU5qSU5iRFcyaWZKemM0YVNOT2kxcTZ4ZFBqUVBKVTZUY3VaMWc?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-06"
-     },
-     {
-      "title": "Robinhood Chain Brings Arbitrum Token Back from the Dead. ARB is Up 90%",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON3IwWHo2NXdxVENHT3FpQ2Y3NnJXTWVfazZtMTlVX1JWcGZLTXhTenFBU3RGcklkQVF5eFlGanV0ZVB1SmFPbHZMOXh0OUdVVnFnRW1rU2gwZUIzampUcUxxVmRYZTlGVDJGRWozRFRnT3ZjODJQcElieV8wVmpEckxQUGlRZkdfYUk3amQ5UzhFY3JFUlpCRVBrQUQzQVNJYXRCTg?oc=5",
-      "source": "Yahoo Finance",
-      "date": "2026-09-05"
+      "title": "Standard Chartered sees Arbitrum at $10 by end-2030, up 70-fold",
+      "url": "https://www.theblock.co/news/markets/2026-09-15-standard-chartered-sees-arbitrum-at-10-by-end-2030-up-70-fold-414821",
+      "source": "The Block",
+      "date": "2026-09-15"
      },
      {
       "title": "Arbitrum (ARB) Surges 4.95% on Robinhood Chain Revenues",
@@ -3965,13 +3292,14 @@
       "date": "2026-09-09"
      },
      {
-      "title": "Arbitrum (ARB) Coin Price Prediction 2026, 2027 \u2013 2030: Will ARB Hit $6 by 2030?",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAza2ktdDlHWHdHOTNxb3RTbXFEWDQ5RjBCSFJmZlZULV81V2JMZUZsT2x6Z1h5eWxsd3h2NzhIU1FNTUxZMTlqU3F4NnVGTkFZdXJlam5sd3dMOWgyWGhxQVhfVzc5enNCQ1dVMjlrN3VEUHhNMVpCNNIBfkFVX3lxTE92R19ubGo3WUhfV2tWd0JxdHJ2Nm54bkxLTU95bTdSZWZKNEVacHNzOVNxaFdyRHhIaU9tWG9iQkhxc3Rmc0FNZkRYQW5GOVhqSTJkZjNaalFrNGpvNHNMZEJoRXcxU3EzWnFma0U3dkFOUXZvTmktMmRZOHkwQQ?oc=5",
-      "source": "coinpedia.org",
-      "date": "2026-09-02"
+      "title": "Arbitrum Watchdog Seeks Permanent Bans For Three Grant Recipients",
+      "url": "https://thedefiant.io/news/defi/arbitrum-watchdog-seeks-permanent-bans-three-grant-recipients",
+      "source": "The Defiant",
+      "date": "2026-09-09"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "XLM": {
@@ -4029,25 +3357,25 @@
      1,
      5
     ],
+    "cited_items": [
+     {
+      "title": "XRP and XLM Explode 8% as the CLARITY Act Nears Crucial Vote",
+      "url": "https://beincrypto.com/xrp-xlm-explode-8-percent-clarity-act-nears-crucial-vote/",
+      "source": "BeInCrypto",
+      "date": "2026-09-15"
+     },
+     {
+      "title": "US Bank tests proprietary stablecoin in cross-border Stellar transaction",
+      "url": "https://cointelegraph.com/news/us-bank-launches-usbdc-stablecoin-with-live-cross-border-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-09-09"
+     }
+    ],
     "filters": [
      "FA3",
      "FC3"
     ],
-    "cited_items": [
-     {
-      "title": "Stellar Network Hits 2025 Record Activity As XLM Tests $0.24 Support Zone",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQS2pRNTZ6R2VTSzNrSUI0X283WUpycWp2VmFMb3FEYWVkVDdpUy1wRy0wN2R3YXNMR21lSjdaMEh3bUd3Zmx2YUZNUFhTVjU3QXJHRDJSTlplaXd1b3pRNXF0cWY3YTRpYmhwOEp6eHNrbTJUdTd2WXl1VnZnNlV5ZHZpOXF0SnZtSHk0NFlDdXMxUkN5YjFjYTZ3dVhrNUFoTWFmVjRSNUJaSzdTWERQQnVLQllQMmc5bE04OUtTZGUyeEhxT3c2cjRNQzlSbGJNek5qUGJHNTFBcmsyRUtIUTZrSVZ2VWNEaHBVZXhlMzBPdTlRQXhKcEVqVzNBbkk2LUx1TVFMb2NyUGpr?oc=5",
-      "source": "Yellow.com",
-      "date": "2026-09-07"
-     },
-     {
-      "title": "Stellar: DTCC connects tokenization service to XLM for tokenized assets - Q2 2027",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT0MySUVZMmVXX0RhZzloNzhwbThvRDdJMG5oRVYzZjNBV0xOX2s1ME54bmVCVXdhcE5aQ0c0ZFMzS2pudkJRY3hvdlo0OXZCVUlPRmFSZW41NV9XMlRVZTJKR1FzZ2F4ME1qckJOV0NKT0V1NWZ3YS10UUlvSlMyNTcycTBUaDNfQzl5aDZobzBDTWE0YXlxUUtISjZKXzlmTW9DNXVLb25IYWo2dl96Wi1pdzg1SkJiNUVoNXc3cGxjb3RzUUw1RXZJemdLaG8tb29BMGNVRnpMdw?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-04"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   },
   "BCH": {
@@ -4072,20 +3400,9 @@
     "text": "No real news: duplicated price predictions [1,2], generic data/educational pages [3,4], a pullback recap [5], and a corporate treasury disclosure about USD cash and BTC (not BCH) misfiled here [6]. Verdict unchanged, treat as noise.",
     "cited": [
      1,
-     2,
-     3,
-     4,
-     5,
-     6
+     2
     ],
-    "filters": [],
     "cited_items": [
-     {
-      "title": "Bitcoin Cash Price Prediction 2026-2030: Will BCH Skyrocket or Crash?",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd2VlX0tHWTlnWTJ5c0VUNHFvNTNPVFl6NXZrb2hjdThEcjI0QWJEeVB4UmF1ZncyMnM1Qk5ab1ByWTMxOW9NY09ieFVOV1RLQ2pHNy1PRlhKT1FwcHhaeUp5dDh3bTJ1cldRdEdNaUVTbTRJanpDWU00RG1jcjF2ZHJUZDB4NGtfcWd1NA?oc=5",
-      "source": "bitcoinfoundation.org",
-      "date": "2026-09-01"
-     },
      {
       "title": "Bitcoin Cash Price Prediction 2026, 2027 \u2013 2030: Will BCH Hit $1000?",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mWXVJeHptOUNpVWo4QnFpR01vWlU5YUEzYzdyeFZwNWZXY1RKaGNLNXdMeHNrRlFqbW0wMS01N1g4VmZ6ajM4akF2LTd3Tkg5WG9qUWd2bmxlQUZCNzFBS0lKNkJ4LVgzU2FwZjd1VDVCYlBtYzBvMWJUVk1aQdIBgwFBVV95cUxQOEhpREpmU1NPMlVheU5ncmQ3NDZINW9HYThIcXE0X1V5ZjJtdkxycFhNTjUtYVJWYUxkUEt3YVR5bzhSM0h2SklfbkpIdU9rdnhFZjdDQ0FYSmZ4YnNwVFlmWEJMdTNJUU1Db1JjMW94UHFkU3JycUVSYXVpUkEzcjFPOA?oc=5",
@@ -4097,27 +3414,10 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tMzhITjRDRjY3RVA2Nk9iZ3gtQjdZNlJEa3FBSFJ0Mjk0U2lFTmg0NUlIY2hZbEhTMlRSdElRZVBwLWxMZXpCMHctcVNPWFNlM3YyOUNn?oc=5",
       "source": "CryptoSlate",
       "date": "2026-09-07"
-     },
-     {
-      "title": "What Is Bitcoin Cash (BCH)?",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVcjFFN2UteTNuY2JuVGZWODZvRDduMWVraE8zeW1PQW5QMWtMMUl0TmJLVTVoaDVhcU5CY083Q1l5Q1JMZzVLSElybHZGeVJGbml1NGZoWGxkVFVVUlVvUXV2NE4wendHZVBFZUhVTlcweXV4TUE?oc=5",
-      "source": "Binance",
-      "date": "2026-09-02"
-     },
-     {
-      "title": "Bitcoin Cash (BCH) Drops 3.1% Amid Market Pullback",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94TXNvVVg2MGYwdENpMUYzODVOUkxQNmplTm8yTU82REtLeUNKM3hudElVOXJremRmeEVpSnRfRVQweEtpbWQ4R3hqSFlaUnhTREpMWE9qYTcyWEp2eWVRQ29OWmJxRExzektnWVpuX3Q?oc=5",
-      "source": "CoinMarketCap",
-      "date": "2026-09-05"
-     },
-     {
-      "title": "Hyperscale Data Holds Approximately $53 Million in Cash, Restricted Cash and Bitcoin, Representing Nearly 200% of Recent Market Capitalization",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNTWcxT0dxbHM3Sy0xM1BMcFZPX3I4dF9lNm41U2IwU1JIRjM5M3N6YWM3dWdDSVNxOThFNGtrbVljZXQ1UWxSalJoSXFjcl9KbnFGWHBvVktsQS1tZHZiNlJIajFIZWxPeG9WN1JKUVF3QTAzZmdkN2ZjMnpXVC1vM2IxMnZDZkh0SXNmaHpSMFl3UDhXQlloNDcxUVA4RDh2Z1ZYSU8zUW50TVlDOXpHRWdOMmNQekV1cWViU0NiTllkMkpseS03YjZ0NDdDZ21MMTNTU1FYX0hmOTRZdTRtNTZNc09LSGk5M0MwVFp2YVM5am91eGhpNDhtbUlIOEFNejJfbGhtWDQyT1NkcERmdEZLSkNZbzVFYnJZY3lmRQ?oc=5",
-      "source": "PR Newswire",
-      "date": "2026-09-04"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "ETC": {
@@ -4166,28 +3466,14 @@
      2,
      3,
      4,
-     5,
-     6
+     5
     ],
-    "filters": [],
     "cited_items": [
      {
       "title": "Ethereum Classic Drops 12% Amid Whale Selling, Risk-Off Sentiment",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zZVlNWjF6d1lsODFmMl93V0ROam1XUUZkUHoyZnd3Xzl2eGRkOFIwM3NrR3puRVNhMmhmNVdSZ1U0QlBJZ1BKNlJZOVFXZmd3OUU5WmViOEFPWjR3dERXQWtFdTFLNjV1U3JNOW0zQlM?oc=5",
       "source": "CoinMarketCap",
       "date": "2026-09-10"
-     },
-     {
-      "title": "Ethereum Classic to Host Community Call on September 11th",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbktTQlNxcGtnaDJlWHgtNDRuQmZJWXNtbU1ZNGJOWXZvN0Qtd1BOX3dBRXVwNlN4V2dTaFFScUo0ZkpvTjlGWkQyNW9HRnM4LXlmVER1YUNxZENOZThkWUVHMWpETTM0cWcxRVV3ek9Ockg0SWh3LVFRQ3ZtQ0dwV2ttWmdEbFpPU3k1R2Rrak1kQXVVTEIzSk9EbHpkZU5vWl9XX29KYjBNOG9TZ2RKV0IxdHlhQQ?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-08"
-     },
-     {
-      "title": "Grayscale Ethereum Classic Trust (ETCG) overhauls ETC NAV benchmark",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdmZERGNsckVjcU9IRUVBUFpoT3NxVk16WmwtbmkwUGpuaFhpUzFZTUZPMzAydndzYjZFdzl0bUJVMmFacV9yYXJrcEt6OFVKUkxYWWhDR0hyQ0JhWTVKNlc2TXR5a0dhVk1hbEczRHFXTXhMckdGM0pCTVNVN1hYZG9JWE9XMF9xdnYtLXFnMUsydlFtallDM1N4aDlRVk9PUHNabi1yRlBINURyTEY2WGhHcWItemZNUWJRR0pzc2d0bDA?oc=5",
-      "source": "Stock Titan",
-      "date": "2026-08-27"
      },
      {
       "title": "Ethereum Classic plunges 11.77% amid broad altc...",
@@ -4206,9 +3492,16 @@
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPRl9saEZJV195LXVuWXM0YktoUVhNRy1HdFRkRi1hX0tQa2NSUzFkcFJUT3pyVm9xMVRiYlBmWDdDazRrQkxpb3ZKYl9EZlNVbEI0YXh4WnpoV3hFZU4yR3lhV2xSamI4bnZQLVVLUnFLbUgwbjBXckwzV09uMWJScF9SenJ3WUVNV3FqbXNQOGQxT3d6aEJzUmpWWmpJMXpoUWZHd3piUWJQTkp6Q25DUTl3UHRldjdaRV9hcGJRYzZLNjhVUVZvdHFHUVA3REl5Njk1SE5CQ2gwNmRfZVdhZ3BzeHUxQUI2cHNfSW5GcUtLTmFRRW1JcC1aUm03TU9m?oc=5",
       "source": "24/7 Wall St.",
       "date": "2026-09-09"
+     },
+     {
+      "title": "Ethereum Classic to Host Community Call on September 11th",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbktTQlNxcGtnaDJlWHgtNDRuQmZJWXNtbU1ZNGJOWXZvN0Qtd1BOX3dBRXVwNlN4V2dTaFFScUo0ZkpvTjlGWkQyNW9HRnM4LXlmVER1YUNxZENOZThkWUVHMWpETTM0cWcxRVV3ek9Ockg0SWh3LVFRQ3ZtQ0dwV2ttWmdEbFpPU3k1R2Rrak1kQXVVTEIzSk9EbHpkZU5vWl9XX29KYjBNOG9TZ2RKV0IxdHlhQQ?oc=5",
+      "source": "TradingView",
+      "date": "2026-09-08"
      }
     ],
-    "as_of": "2026-09-10"
+    "filters": [],
+    "as_of": "2026-09-21"
    }
   },
   "XTZ": {
@@ -4239,27 +3532,20 @@
     "stance": "neutral",
     "text": "A post-quantum testnet launching in September [1] is a real, minor dated technical catalyst (FC6); [6] just covers the same price move. Doesn't touch collapsing L1/Etherlink usage or the 3.5% issuance drag. [2][4][5] are unrelated filler; [3]'s 82-token liquidity list may or may not include XTZ.",
     "cited": [
-     1,
-     6
+     1
+    ],
+    "cited_items": [
+     {
+      "title": "What Is StableFund? Tether and Fasanara Launch $400M Private Credit Fund",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVVF5aGR1MGlIUm1lZWdTdDZNX3RJVDhiS3dpcW1abU9OQlBOV1pKQXZTdFJxREtGa3BRcjlVR1A4MkhodGRqSzRhSXlVZzBzTzRLRzQ3bWhROGNndWp5aUVldjZxRXNlQnZfUmRJQlFmUG4ybVl1cGJBWVhpSGVoZThJV2ZwVWlEbk1OY3RhZXZmdG5ad1RVYXNPa091WlMxWFRsYnhfel9ZY1k?oc=5",
+      "source": "MEXC",
+      "date": "2026-09-10"
+     }
     ],
     "filters": [
      "FC6"
     ],
-    "cited_items": [
-     {
-      "title": "Tezos to Launch Post-Quantum Testnet in September",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWmRRbjBpS0Z3cV9RYnliaTJOaTVmT1FPdXlxLU1BbVFmeWstdXVkc0tSMHo3d213NGVaYmtiRHhHa3Jqd0tUZlNUNjhSV3Q2ZHJlZXl5Ynh2X2tjcUtoYkVzV1oyM2VrejVaaWpiamo2a3NzSERXdDlOV2tVNmxrLW9sdVQwVjE5a1EyQzdaZGNXOGNKeG45Qmlzc0NIai00YjVxa2p3cFMtd3c?oc=5",
-      "source": "TradingView",
-      "date": "2026-09-03"
-     },
-     {
-      "title": "What's behind Tezos's latest 10.0% price surge?",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSE9xbW1qbGRXMUprb2pTUEI4Z2s5MTlNSmVmWG52czNKMXhZWWhqckZ3Q0RvM3FQUXEzWVlSZmtJbmY3X3dfdFBETlRlU3FvVmVhY2Z6dDBuOGNrTjNqRzdrdmJKVlE2Z1NJN1hnTHJxWHl6eUJ2Y2oyWmozT0IzVF9KNVlGTFVxMU5peXlXajlodXhaTHhRc0k4TjJsUQ?oc=5",
-      "source": "Traders Union",
-      "date": "2026-09-09"
-     }
-    ],
-    "as_of": "2026-09-10"
+    "as_of": "2026-09-21"
    }
   }
  }
