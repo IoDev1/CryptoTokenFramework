@@ -1,8 +1,8 @@
 {
  "first_date": "2026-09-10",
- "latest": "2026-09-21",
- "days": 11,
- "snapshots": 12,
+ "latest": "2026-09-22",
+ "days": 12,
+ "snapshots": 13,
  "tokens": {
   "HBAR": {
    "series": [
@@ -13,7 +13,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.091779,
      "score": 8.5,
      "tier": "watch"
@@ -39,7 +39,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.343215,
      "score": 6.5,
      "tier": "avoid"
@@ -65,7 +65,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 1.87,
      "score": 7.0,
      "tier": "avoid"
@@ -91,7 +91,7 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 144.21,
      "score": 10.0,
      "tier": "core"
@@ -117,7 +117,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 67.66,
      "score": 5.0,
      "tier": "avoid"
@@ -143,7 +143,7 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 119.06,
      "score": 10.0,
      "tier": "core"
@@ -169,7 +169,7 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.432217,
      "score": 10.0,
      "tier": "core"
@@ -195,7 +195,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.209412,
      "score": 3.0,
      "tier": "avoid"
@@ -221,7 +221,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.453239,
      "score": 5.0,
      "tier": "avoid"
@@ -247,7 +247,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 8.94,
      "score": 6.5,
      "tier": "avoid"
@@ -273,7 +273,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 123.01,
      "score": 9.0,
      "tier": "watch"
@@ -299,7 +299,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.223552,
      "score": 7.5,
      "tier": "avoid"
@@ -325,7 +325,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.213077,
      "score": 4.5,
      "tier": "avoid"
@@ -351,7 +351,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 267.96,
      "score": 8.0,
      "tier": "watch"
@@ -377,7 +377,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 8.79,
      "score": 6.0,
      "tier": "avoid"
@@ -403,7 +403,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.344884,
      "score": 7.0,
      "tier": "avoid"
@@ -429,7 +429,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 305.9,
      "score": 6.5,
      "tier": "avoid"
@@ -455,7 +455,7 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 2766.98,
      "score": 10.5,
      "tier": "core"
@@ -481,7 +481,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.071988,
      "score": 9.5,
      "tier": "watch"
@@ -507,7 +507,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 593.42,
      "score": 9.5,
      "tier": "watch"
@@ -533,7 +533,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 7.75,
      "score": 5.5,
      "tier": "avoid"
@@ -559,7 +559,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 4.14,
      "score": 6.0,
      "tier": "avoid"
@@ -585,7 +585,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 8.85,
      "score": 9.5,
      "tier": "watch"
@@ -611,7 +611,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 93.49,
      "score": 8.0,
      "tier": "watch"
@@ -637,7 +637,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 13.11,
      "score": 9.5,
      "tier": "watch"
@@ -663,7 +663,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.201138,
      "score": 4.5,
      "tier": "avoid"
@@ -689,7 +689,7 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 803.3,
      "score": 10.5,
      "tier": "core"
@@ -715,7 +715,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.116575,
      "score": 6.5,
      "tier": "avoid"
@@ -741,7 +741,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 11.23,
      "score": 4.0,
      "tier": "avoid"
@@ -767,7 +767,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.04360183,
      "score": 8.0,
      "tier": "watch"
@@ -793,7 +793,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.00909321,
      "score": 8.0,
      "tier": "watch"
@@ -819,7 +819,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.343927,
      "score": 8.5,
      "tier": "watch"
@@ -845,7 +845,7 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 2.07,
      "score": 10.0,
      "tier": "core"
@@ -871,7 +871,7 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 61.97,
      "score": 10.0,
      "tier": "core"
@@ -897,7 +897,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 1.016,
      "score": 5.0,
      "tier": "avoid"
@@ -923,7 +923,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.239289,
      "score": 4.5,
      "tier": "avoid"
@@ -949,7 +949,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.24466,
      "score": 8.5,
      "tier": "watch"
@@ -975,7 +975,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 1.19,
      "score": 7.0,
      "tier": "avoid"
@@ -1001,7 +1001,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.111581,
      "score": 9.5,
      "tier": "watch"
@@ -1027,7 +1027,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.363406,
      "score": 6.5,
      "tier": "avoid"
@@ -1053,7 +1053,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.03906397,
      "score": 4.5,
      "tier": "avoid"
@@ -1079,7 +1079,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 2.98,
      "score": 5.0,
      "tier": "avoid"
@@ -1105,7 +1105,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 2298.41,
      "score": 7.5,
      "tier": "avoid"
@@ -1131,7 +1131,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 22.31,
      "score": 8.0,
      "tier": "watch"
@@ -1157,7 +1157,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 58.88,
      "score": 8.0,
      "tier": "watch"
@@ -1183,7 +1183,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.296551,
      "score": 8.5,
      "tier": "watch"
@@ -1209,7 +1209,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 1.52,
      "score": 5.0,
      "tier": "avoid"
@@ -1235,7 +1235,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 2.65,
      "score": 6.5,
      "tier": "avoid"
@@ -1261,7 +1261,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.059354,
      "score": 4.0,
      "tier": "avoid"
@@ -1287,7 +1287,7 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 1450.51,
      "score": 8.0,
      "tier": "watch"
@@ -1313,7 +1313,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 1.46,
      "score": 5.0,
      "tier": "avoid"
@@ -1339,7 +1339,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 4.27,
      "score": 4.5,
      "tier": "avoid"
@@ -1365,7 +1365,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.454135,
      "score": 4.0,
      "tier": "avoid"
@@ -1391,7 +1391,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.01494072,
      "score": 3.5,
      "tier": "avoid"
@@ -1417,7 +1417,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.345636,
      "score": 4.0,
      "tier": "avoid"
@@ -1443,7 +1443,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.713618,
      "score": 3.5,
      "tier": "avoid"
@@ -1469,7 +1469,7 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 86652,
      "score": 10.0,
      "tier": "core"
@@ -1495,7 +1495,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 31.45,
      "score": 5.5,
      "tier": "avoid"
@@ -1521,7 +1521,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 2.52,
      "score": 7.0,
      "tier": "avoid"
@@ -1547,7 +1547,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.686892,
      "score": 7.0,
      "tier": "avoid"
@@ -1573,7 +1573,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 1.84,
      "score": 6.0,
      "tier": "avoid"
@@ -1599,7 +1599,7 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "price": 0.00431457,
      "score": 7.5,
      "tier": "avoid"

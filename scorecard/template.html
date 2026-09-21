@@ -144,6 +144,12 @@ td.num.neg{color:var(--crit)} td.num.pos{color:var(--good)}
 .nw li.cited .n{color:var(--accent);font-weight:600}
 .exp{width:100%;height:90px;font-family:var(--mono);font-size:11px;background:var(--surface-2);border:1px solid var(--line);border-radius:5px;padding:6px;color:var(--ink)}
 td.num.tgtc{color:var(--muted)}
+.v2{display:grid;grid-template-columns:34px 1fr auto;gap:4px 8px;align-items:start;font-size:12px}
+.v2 .id{font-family:var(--mono);color:var(--ink-2)} .v2 .nm{color:var(--ink)} .v2 .ev{grid-column:2/4}
+.v2 .val{font-family:var(--mono);font-weight:600;text-align:right} .v2 .val.p1{color:var(--good)} .v2 .val.p5{color:var(--warn)} .v2 .val.p0{color:var(--crit)} .v2 .val.na{color:var(--muted)}
+.v2h{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:6px} .v2h .q{font-family:var(--mono);font-size:22px;font-weight:600}
+.byo{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.modal textarea{width:100%;height:280px;font-family:var(--mono);font-size:11px;background:var(--surface-2);border:1px solid var(--line);border-radius:5px;padding:8px;color:var(--ink)}
 .banner{background:var(--accent-soft);color:var(--ink);padding:8px 24px;font-size:13px;border-bottom:1px solid var(--line)}
 .banner b{color:var(--accent);font-weight:600}
 .plan{border:1px solid var(--line);border-radius:6px;background:var(--surface);margin-bottom:14px;padding:10px 12px}
@@ -184,8 +190,8 @@ td.num.tgtc{color:var(--muted)}
 <header>
   <div class="hd-top">
     <h1>Conviction Scorecard</h1>
-    <div class="sub" style="max-width:none"><b style="font-weight:600;color:var(--ink)">Plan a bear-market portfolio with the reasoning attached.</b></div>
-    <div class="sub">62 tokens scored against 13 filters by two model-driven research passes, with evidence and sources per cell. Set your own weights, your own entry and exit levels, and see what the plan implies. Market data from CoinGecko and DeFiLlama, <span id="asof"></span>. Research tooling, not advice: every level here is yours.</div>
+    <div class="sub" style="max-width:none"><b style="font-weight:600;color:var(--ink)">The framework, the data, the planner. Bring your own judgment.</b></div>
+    <div class="sub">62 tokens. A data score computed every day with no model (survivorship, revenue, supply health, usage), two reference research passes with evidence per cell, and a research prompt you can run in the model you already pay for. Set your own weights, levels and allocations. Market data from CoinGecko and DeFiLlama, <span id="asof"></span>. Research tooling, not advice: every level here is yours.</div>
   </div>
   <div class="controls">
     <span class="label">Verdicts</span>
@@ -217,7 +223,7 @@ td.num.tgtc{color:var(--muted)}
     </div>
     <div class="tbl-wrap">
       <table id="tbl">
-        <thead><tr><th>#</th><th>Token</th><th>Score</th><th></th><th>Tier</th><th>Price</th><th title="Distance from all-time high">ATH &#x394;</th><th title="Circulating / max supply">Circ %</th><th title="DeFiLlama protocol or chain revenue, last 30 days">Rev 30d</th><th title="Cells where Opus and Claude disagree">O&#x2260;C</th><th title="Your entry price and distance from current">Entry</th><th title="Your exit target and multiple from current">Target</th><th title="News stance, last 14 days">News</th><th title="Tier A: FA1 FA2 FA3 FA4">Dealbreakers</th><th>Key risk</th></tr></thead>
+        <thead><tr><th>#</th><th>Token</th><th>Score</th><th></th><th>Tier</th><th>Price</th><th title="Distance from all-time high">ATH &#x394;</th><th title="Circulating / max supply">Circ %</th><th title="DeFiLlama protocol or chain revenue, last 30 days">Rev 30d</th><th title="v2 data score: survivorship, revenue level and trend, supply health, usage growth, computed from data with no model">Data Q</th><th title="Cells where Opus and Claude disagree">O&#x2260;C</th><th title="Your entry price and distance from current">Entry</th><th title="Your exit target and multiple from current">Target</th><th title="News stance, last 14 days">News</th><th title="Tier A: FA1 FA2 FA3 FA4">Dealbreakers</th><th>Key risk</th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
     </div>
@@ -236,6 +242,8 @@ td.num.tgtc{color:var(--muted)}
   <dl id="aboutFilters"></dl>
   <h2>Data and dates</h2>
   <p id="aboutData"></p>
+  <h2>The data score and your judgment</h2>
+  <p>The v2 score has eight quality cells. Five are computed from data every day with no model: prior-cycle survivorship, revenue level, revenue trend, supply health (with inflation measured from our own daily snapshots) and usage growth. The other three, value accrual, moat and holder concentration, plus the five gates, need judgment. Press Research prompt on any token, paste it into the model you already use, paste the JSON back with Import, and the score completes in your browser. Nothing you import leaves your device unless you share a plan link. The two reference research passes (Opus 4.6, Claude) remain as a second opinion under the 13-filter v1 scheme.</p>
   <h2>Your plan</h2>
   <p>Entry, target, stop and allocation are yours and stay in your browser. The plan panel shows what those levels imply: the market cap a target needs at today's float, the fully diluted ceiling, where that would rank today, and the portfolio multiple if every target is hit, if only Core holds hit, or if the rest go to zero. Share plan copies a link that carries your levels and weights; whoever opens it gets their own editable copy.</p>
   <div class="disc"><b>Not advice.</b> Verdicts are model-generated from public sources and can be wrong. Nothing on this page recommends buying or selling anything. Check the sources, decide for yourself, and never allocate what you cannot lose.</div>
@@ -310,6 +318,19 @@ const NEWS=__NEWS_JSON__;
 const TARGETS_DEFAULT=__TARGETS_JSON__;
 const SITE=__SITE_JSON__;
 const CHANGES=__CHANGES_JSON__;
+const MECH=__MECH_JSON__;
+const RUBRIC_V2=__RUBRIC_V2__;
+let MINE={};try{MINE=JSON.parse(localStorage.getItem("cs.mine")||"{}");}catch(e){MINE={};}
+function saveMine(){try{localStorage.setItem("cs.mine",JSON.stringify(MINE));}catch(e){}}
+const V2W={S1:2,S2:1.5,S3:1,S4:1,S5:1.5,S6:1.5,S7:1,S8:0.5};
+const V2N={S1:"Prior-cycle survivorship",S2:"Value accrual",S3:"Revenue level (P/S)",S4:"Revenue trend",S5:"Supply health",S6:"Moat",S7:"Holder concentration",S8:"Usage growth"};
+function v2Full(tk){const mm=(MECH.tokens||{})[tk];if(!mm)return null;const mine=MINE[tk];const cells=Object.assign({},mm.cells);let avail=6;
+  if(mine&&mine.quality){["S2","S6","S7"].forEach(k=>{if(mine.quality[k]!=null){cells[k]=+mine.quality[k];avail+=V2W[k];}});}
+  const q=Object.entries(cells).reduce((a,[k,v])=>a+V2W[k]*v,0)/avail*10;return{q:Math.round(q*10)/10,avail,cells,mine};}
+function marketLine(tk){const d=MARKET.tokens[tk]||{};const e2=(d.ath_change_pct!=null&&MECH.drawdown_median!=null&&d.ath_change_pct>MECH.drawdown_median)?"YES":"NO";
+  return `${tk}: price $${d.price}, mcap ${d.mcap}, FDV ${d.fdv}, circulating ${d.circ_pct}% of existing supply (unminted ${d.unminted_pct}%, max supply ${d.max?"capped":"UNCAPPED"}), ${d.ath_change_pct}% from ATH (${d.ath_date}); E2 relative strength vs universe median ${(MECH.drawdown_median||0).toFixed(1)}%: ${e2}; fees30d ${d.fees30d}, rev30d ${d.rev30d}, rev prior30d ${d.rev30d_prev}, rev1y ${d.rev1y}, DeFiLlama source: ${d.llama_src}`;}
+function researchPrompt(tk){const mm=(MECH.tokens||{})[tk];const done=mm?Object.entries(mm.cells).map(([k,v])=>`${k}=${v} (${mm.evidence[k]})`).join("\n  "):"";
+  return `Today is ${new Date().toISOString().slice(0,10)}. Score ONE token against the rubric below. Use web search with recent sources (2025-2026). Unknown = 0 or gate fail.\n\n${RUBRIC_V2}\n\nToken to score:\n${marketLine(tk)}\n\nAlready computed from data (keep these values, do not re-estimate):\n  ${done}\n  E1=${mm?mm.entry.E1:"?"}, E2=${mm?mm.entry.E2:"?"}\n\nYou only need to research: gates G1-G5, quality S2, S6, S7, entry E3, E4. Reply with the JSON object only, ticker key "${tk}".`;}
 let TARGETS={};try{TARGETS=Object.assign({},TARGETS_DEFAULT.tokens||{},JSON.parse(localStorage.getItem("cs.targets")||"{}"));}catch(e){TARGETS=Object.assign({},TARGETS_DEFAULT.tokens||{});}
 function saveTargets(){try{localStorage.setItem("cs.targets",JSON.stringify(TARGETS));}catch(e){}}
 function rankAt(mcap){const l=MARKET.top100||[];let r=1;for(const c of l){if(c.mcap>mcap)r++;}return r<=100?r:null;}
@@ -386,6 +407,10 @@ function showCard(canvas,name){const m=document.createElement("div");m.className
   row.querySelector("#cardDl").onclick=()=>{canvas.toBlob(b=>{const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name+".png";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);},"image/png");};
   row.querySelector("#cardCp").onclick=()=>{canvas.toBlob(async b=>{try{await navigator.clipboard.write([new ClipboardItem({"image/png":b})]);row.querySelector("#cardCp").textContent="Copied";}catch(e){row.querySelector("#cardCp").textContent="Copy not allowed here";}},"image/png");};
   row.querySelector("#cardX").onclick=()=>m.remove();m.addEventListener("click",e=>{if(e.target===m)m.remove();});document.body.appendChild(m);}
+function textModal(title,text,actionLabel,onAction){const m=document.createElement("div");m.className="modal";m.innerHTML=`<div class="box"><div class="risk" style="margin:0 0 8px;color:var(--ink)"><b style="font-weight:600">${title}</b></div><textarea id="tmText"></textarea><div class="row"><button class="small-btn" id="tmAct">${actionLabel}</button><button class="small-btn" id="tmX">Close</button></div></div>`;
+  const ta=m.querySelector("#tmText");ta.value=text;if(!onAction)ta.readOnly=true;
+  m.querySelector("#tmAct").onclick=()=>{if(onAction){if(onAction(ta.value))m.remove();}else{ta.select();const done=()=>{m.querySelector("#tmAct").textContent="Copied";};if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(ta.value).then(done,()=>{try{document.execCommand("copy");done();}catch(e){}});else{try{document.execCommand("copy");done();}catch(e){}}}};
+  m.querySelector("#tmX").onclick=()=>m.remove();m.addEventListener("click",e=>{if(e.target===m)m.remove();});document.body.appendChild(m);ta.focus();}
 function renderWeek(scored){
   const el=document.getElementById("week");const c=CHANGES;const tl={core:"Core hold",watch:"Watch",avoid:"Avoid"};
   if(!c||!c.from){el.innerHTML=`<div class="week-h"><span class="label">This week</span><span class="when">${c&&c.to?c.to:""}</span></div><p class="empty">First snapshot. Changes appear here from the next refresh: price movers, verdict cells that flipped, tier changes and news stance shifts.</p>`;return;}
@@ -415,11 +440,11 @@ function renderPlan(scored,thrC,thrW){
   el.querySelectorAll("td.tok").forEach(td=>td.onclick=()=>{sel=td.dataset.tk;update();});
   const pb=el.querySelector("#planCard");if(pb)pb.onclick=()=>showCard(drawPlanCard(rows,{alloc,all:k(all),flat:k(coreFlat),zero:k(coreZero)}),"plan-card");
 }
-function planState(){return{t:TARGETS,W,preset,rater,gate,live,c:+document.getElementById("thrCore").value,w:+document.getElementById("thrWatch").value};}
+function planState(){return{t:TARGETS,mine:MINE,W,preset,rater,gate,live,c:+document.getElementById("thrCore").value,w:+document.getElementById("thrWatch").value};}
 function encodePlan(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");}
 function decodePlan(s){try{s=s.replace(/-/g,"+").replace(/_/g,"/");while(s.length%4)s+="=";return JSON.parse(decodeURIComponent(escape(atob(s))));}catch(e){return null;}}
 function loadHash(){const m=location.hash.match(/^#p=(.+)$/);if(!m)return false;const o=decodePlan(m[1]);if(!o||!o.W)return false;
-  TARGETS=o.t||{};W=o.W;preset=o.preset||"Custom";rater=o.rater||"claude";gate=!!o.gate;live=!!o.live;
+  TARGETS=o.t||{};if(o.mine)MINE=Object.assign({},MINE,o.mine),saveMine();W=o.W;preset=o.preset||"Custom";rater=o.rater||"claude";gate=!!o.gate;live=!!o.live;
   if(o.c)document.getElementById("thrCore").value=o.c;if(o.w)document.getElementById("thrWatch").value=o.w;saveTargets();
   const b=document.getElementById("banner");b.hidden=false;b.innerHTML="<b>Shared plan loaded.</b> It is now your own copy: edits stay in this browser and do not change the sender&#x2019;s link.";
   history.replaceState(null,"",location.pathname+location.search);return true;}
@@ -448,7 +473,7 @@ function update(rebuildWeights){
   scored.forEach((x,i)=>{const tr=document.createElement("tr");tr.tabIndex=0;tr.className=(x.t.tk===sel?"sel ":"")+((x.s.excluded||x.s.unscored)?"excl":"");
     const dots=FILTERS.filter(f=>f[1]==="A").map(([id])=>`<i class="${x.s.afails.includes(id)?"x":""}" title="${id}"></i>`).join("");
     const chip=x.s.unscored?'<span class="chip gate">Not scored</span>':{core:'<span class="chip core">Core hold</span>',watch:'<span class="chip watch">Watch</span>',avoid:'<span class="chip avoid">Avoid</span>',gate:'<span class="chip gate">Gate fail</span>'}[x.tier];
-    tr.innerHTML=`<td class="num">${i+1}</td><td class="tok">${x.t.tk}</td><td class="num">${x.s.unscored?"&#x2014;":fmt(x.s.norm)}</td><td><div class="bar"><div class="tr"><div class="fl" style="width:${x.s.norm/12*100}%"></div></div></div></td><td>${chip}</td>${(()=>{const m=MARKET.tokens[x.t.tk]||{};const a=m.ath_change_pct;return`<td class="num">${price(m.price)}</td><td class="num ${a!=null&&a<=-75?"neg":""}">${pct(a)}</td><td class="num">${m.circ_pct==null?"&#x2014;":m.circ_pct.toFixed(0)+"%"}</td><td class="num">${money(m.rev30d)}</td>`;})()}<td class="num ${x.s.diff>=4?"neg":""}">${x.s.diff==null?"&#x2014;":x.s.diff}</td>${(()=>{const c=tgtCalc(x.t.tk);const st={entry:'<span class="chip entry">In zone</span>',hit:'<span class="chip hit">Target hit</span>',stop:'<span class="chip avoid">Stop</span>'}[c.status]||"";
+    tr.innerHTML=`<td class="num">${i+1}</td><td class="tok">${x.t.tk}</td><td class="num">${x.s.unscored?"&#x2014;":fmt(x.s.norm)}</td><td><div class="bar"><div class="tr"><div class="fl" style="width:${x.s.norm/12*100}%"></div></div></div></td><td>${chip}</td>${(()=>{const m=MARKET.tokens[x.t.tk]||{};const a=m.ath_change_pct;return`<td class="num">${price(m.price)}</td><td class="num ${a!=null&&a<=-75?"neg":""}">${pct(a)}</td><td class="num">${m.circ_pct==null?"&#x2014;":m.circ_pct.toFixed(0)+"%"}</td><td class="num">${money(m.rev30d)}</td>`;})()}${(()=>{const f=v2Full(x.t.tk);const mm=(MECH.tokens||{})[x.t.tk];if(!f)return'<td class="num">&#x2014;</td>';const tl={core:"chip core",watch:"chip watch",avoid:"chip avoid"}[mm.tier];return`<td class="num">${f.q.toFixed(1)} <span class="${tl}" title="relative tier on the data score">${mm.tier}</span>${f.mine?' <span class="live" title="includes your imported judgment cells">+mine</span>':''}</td>`;})()}<td class="num ${x.s.diff>=4?"neg":""}">${x.s.diff==null?"&#x2014;":x.s.diff}</td>${(()=>{const c=tgtCalc(x.t.tk);const st={entry:'<span class="chip entry">In zone</span>',hit:'<span class="chip hit">Target hit</span>',stop:'<span class="chip avoid">Stop</span>'}[c.status]||"";
   return`<td class="num tgtc">${c.entry?price(c.entry.price)+" <span class='live'>"+pct((c.entry.mult-1)*100)+"</span>":"&#x2014;"} ${st}</td><td class="num tgtc">${c.target?price(c.target.price)+" <span class='live'>"+c.target.mult.toFixed(1)+"&#xD7;</span>":"&#x2014;"}</td><td>${(()=>{const o=(NEWS.tokens[x.t.tk]||{}).opinion;if(!o)return"&#x2014;";const cls={bullish:"bull",bearish:"bear",neutral:"neut",noise:"noise"}[o.stance]||"neut";return`<span class="chip ${cls}" title="${(o.text||"").replace(/"/g,"&quot;")}">${o.stance}</span>`;})()}</td>`;})()}<td><span class="dots">${dots}</span></td><td class="risk">${(rater==="opus"?x.t.risk:(RESEARCH.tokens[x.t.tk]||{}).key_risk)||x.t.risk}</td>`;
     const pick=()=>{sel=x.t.tk;update();};tr.onclick=pick;tr.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();pick();}};
     tb.appendChild(tr);});
@@ -490,6 +515,15 @@ function renderDetail(scored,thrC,thrW){
   h+=`<div class="legend"><span style="--c:var(--s1)">${x.t.tk}</span>${y?`<span style="--c:var(--s2)">${y.t.tk}</span>`:""}</div>`;
   h+=radarSVG(a,b);
   h+=`<table class="axes"><tbody>${a.map((v,i)=>`<tr><td>${v.name}</td><td class="num">${v.v===null?"n/a":Math.round(v.v*100)+"%"}</td>${y?`<td class="num" style="color:var(--muted)">${b[i].v===null?"n/a":Math.round(b[i].v*100)+"%"}</td>`:""}</tr>`).join("")}</tbody></table>`;
+  {const mm=(MECH.tokens||{})[x.t.tk];const f=v2Full(x.t.tk);
+   if(mm&&f){const cls=v=>v>=1?"p1":v>=0.5?"p5":"p0";const tl={core:"Core (top quartile)",watch:"Watch",avoid:"Avoid"}[mm.tier];
+     h+=`<div class="sec"><h3>v2 &#xB7; data score</h3><div class="v2h"><span class="q">${f.q.toFixed(1)}<span style="font-size:13px;color:var(--muted)"> / 10</span></span><span class="chip ${mm.tier}">${tl}</span><span class="live">${f.avail} of 10 points computable${f.mine?", incl. your judgment cells":", no model used"}</span></div><div class="v2">`;
+     ["S1","S2","S3","S4","S5","S6","S7","S8"].forEach(k=>{const v=f.cells[k];const own=f.mine&&f.mine.quality&&f.mine.quality[k]!=null&&!(k in mm.cells);
+       h+=`<span class="id">${k}</span><span class="nm">${V2N[k]} <span class="live">&#xD7;${V2W[k]}</span></span><span class="val ${v==null?"na":cls(v)}">${v==null?"yours":v}</span>`;
+       const evd=k in mm.cells?mm.evidence[k]:(own?(f.mine.evidence||{})[k]||"your verdict":"judgment cell: use Research prompt, then Import");h+=`<span class="ev">${String(evd).replace(/</g,"&lt;")}</span>`;});
+     h+=`</div><div class="v2" style="margin-top:8px"><span class="id">E1</span><span class="nm">Far from ATH</span><span class="val ${mm.entry.E1?"p1":"p0"}">${mm.entry.E1}</span><span class="ev">${mm.entry_evidence.E1}</span><span class="id">E2</span><span class="nm">Relative strength</span><span class="val ${mm.entry.E2?"p1":"p0"}">${mm.entry.E2}</span><span class="ev">${mm.entry_evidence.E2}</span>`;
+     if(f.mine&&f.mine.gates){const g=f.mine.gates;const pass=Object.values(g).filter(v=>+v===1).length;h+=`<span class="id">G</span><span class="nm">Gates (yours)</span><span class="val ${pass===5?"p1":pass>=3?"p5":"p0"}">${pass}/5</span><span class="ev">${Object.entries(g).map(([k,v])=>k+(+v?" ok":" FAIL")).join(", ")}${f.mine.key_risk?" &#xB7; "+String(f.mine.key_risk).replace(/</g,"&lt;"):""}</span>`;}
+     h+=`</div><div class="byo"><button class="small-btn" id="promptBtn">Research prompt</button><button class="small-btn" id="importBtn">${f.mine?"Replace my verdict":"Import my verdict"}</button>${f.mine?'<button class="small-btn" id="clearMine">Remove</button>':""}</div><p class="note">Data cells refresh daily with no model. The judgment cells are yours: copy the prompt into the model you already pay for, paste the JSON back, and the score completes on your screen only.</p></div>`;}}
   {const c=tgtCalc(x.t.tk),t=TARGETS[x.t.tk]||{},m=MARKET.tokens[x.t.tk]||{};
    h+=`<div class="sec"><h3>Targets</h3><div class="tg">
      <div><label for="tgEntry">Entry $</label><input id="tgEntry" type="number" step="any" value="${t.entry??""}" placeholder="buy at"></div>
@@ -518,6 +552,9 @@ function renderDetail(scored,thrC,thrW){
   const el=document.getElementById("detail");el.innerHTML=h;
   el.querySelector("#cmpSel").onchange=e=>{cmp=e.target.value;update();};
   el.querySelector("#tokCard").onclick=()=>showCard(drawTokenCard(x),x.t.tk.toLowerCase()+"-card");
+  const pb=el.querySelector("#promptBtn");if(pb)pb.onclick=()=>textModal("Research prompt for "+x.t.tk,researchPrompt(x.t.tk),"Copy prompt",null);
+  const ib=el.querySelector("#importBtn");if(ib)ib.onclick=()=>textModal("Paste the JSON your model returned for "+x.t.tk,"","Save verdict",txt=>{try{const o=JSON.parse(txt);const v=(o.tokens&&(o.tokens[x.t.tk]||Object.values(o.tokens)[0]))||o;if(!v.quality&&!v.gates)throw new Error("no quality/gates");MINE[x.t.tk]=v;saveMine();update();return true;}catch(e){alert("Could not read that JSON: "+e.message);return false;}});
+  const cb=el.querySelector("#clearMine");if(cb)cb.onclick=()=>{delete MINE[x.t.tk];saveMine();update();};
   [["tgEntry","entry"],["tgTarget","target"],["tgStop","stop"],["tgAlloc","alloc"],["tgNote","note"]].forEach(([id,k])=>{const inp=el.querySelector("#"+id);if(!inp)return;
     inp.onchange=e=>{const t=TARGETS[x.t.tk]||(TARGETS[x.t.tk]={});const v=e.target.value;if(k==="note")t.note=v;else if(v==="")delete t[k];else t[k]=+v;if(!Object.keys(t).length)delete TARGETS[x.t.tk];saveTargets();update();};});
 }

@@ -5,7 +5,10 @@
 - [ ] Add prior-cycle survivorship and value-accrual filters (BCH 8.0 vs LTC 10.0 shows the gap)
 - [x] Backtest 2022-11-13 -> 2025-01-12 done: `BACKTEST.md`, `data/backtest/`, `scripts/backtest/`. Verdict: loss avoidance yes, winner picking no; FC2 and FA1 negative signal; thresholds must be relative
 - [x] Backtest findings applied to `FRAMEWORK_v2.md` (G2 narrowed, E2 relative strength, relative tiers, gates optional, BTC benchmark); v2 approximated on the 2022 data: Spearman 0.20 vs 0.16 (`scripts/backtest/analyze_v2.py`)
-- [ ] Write `research/RUBRIC_v2.md` (gates + S1-S8 + E1-E4 as testable definitions) and run a v2 research pass on the current 62 tokens; add a v2 rater to the page
+- [x] `research/RUBRIC_v2.md` written; v2 data score on the page (`scripts/mechanical.py`), Research prompt + Import flow for judgment cells
+- [ ] Optional: v2 model pass on the 62 tokens (inputs ready in `research/v2_batch_*_input.txt`) only if usage allows; otherwise per-token on demand
+- [ ] Unlock schedule source for S5's third leg (currently provable only when circ >= 90%)
+- [ ] Inflation window: mark S5 inflation leg low-confidence until 60+ days of snapshots
 - [ ] Holder-concentration data source (S7) for both the live run and a backtest re-check
 - [ ] Anchors and controls in every run: BTC, ETH must be Core hold; EOS, IOTA, LUNC, BCH, ETC, XTZ must be Avoid
 - [ ] Draft the Opus research prompt from `research/RUBRIC.md` so both raters use identical definitions
@@ -24,7 +27,8 @@
 - [ ] Table is wide; consider column groups or a compact mode
 
 ## Public version (see `PRODUCT_NOTES.md`)
-- [ ] Create GitHub repo, push, enable Pages (Actions), add `ANTHROPIC_API_KEY` secret
+- [x] Repo live: https://iodev1.github.io/CryptoTokenFramework/ (Pages enabled 2026-09-21, daily workflow deploys)
+- [ ] Add `ANTHROPIC_API_KEY` secret only if the optional model steps are wanted
 - [ ] Open Beehiiv publication; put its URL in `data/site.json` -> `newsletter_url`
 - [ ] Create PostHog project on EU cloud; put the key in `data/site.json` -> `posthog_key`
 - [ ] Clarify "OnchainArena" JSON feed request from the other brainstorm (unknown to this repo)

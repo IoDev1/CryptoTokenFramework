@@ -10,11 +10,13 @@ def load(name, default):
     return json.dumps(json.loads(f.read_text()), separators=(",",":")) if f.exists() else default
 news = load("news.json", '{"as_of":"","source":"","tokens":{}}'); targets = load("targets.json", '{"tokens":{}}')
 site = load("site.json", '{}')
-for ph in ("__MARKET_JSON__","__RESEARCH_JSON__","__NEWS_JSON__","__TARGETS_JSON__","__SITE_JSON__","__CHANGES_JSON__"): assert ph in tpl, ph
+mech = load("mechanical.json", '{"as_of":"","tokens":{},"drawdown_median":null}')
+rubric_v2 = json.dumps((ROOT/"research"/"RUBRIC_v2.md").read_text())
+for ph in ("__MARKET_JSON__","__RESEARCH_JSON__","__NEWS_JSON__","__TARGETS_JSON__","__SITE_JSON__","__CHANGES_JSON__","__MECH_JSON__","__RUBRIC_V2__"): assert ph in tpl, ph
 # versioned outputs: one folder per day, so verdict history accumulates for a later backtest
 import datetime, shutil
 hist = ROOT/"data"/"history"/datetime.date.today().isoformat(); hist.mkdir(parents=True, exist_ok=True)
-for name in ("market.json","research.json","news.json"):
+for name in ("market.json","research.json","news.json","mechanical.json"):
     if (ROOT/"data"/name).exists(): shutil.copy(ROOT/"data"/name, hist/name)
 # derived: this-week changes and the public ledger, both from the snapshots
 import subprocess, sys
@@ -24,7 +26,7 @@ ledger = load("ledger.json", '{"tokens":{},"baskets":{},"calls":[]}')
 ltpl = (ROOT/"scorecard"/"ledger_template.html").read_text(); assert "__LEDGER_JSON__" in ltpl
 ledger_html = ltpl.replace("__LEDGER_JSON__", ledger)
 (ROOT/"scorecard"/"ledger.html").write_text(ledger_html)
-(ROOT/"scorecard"/"index.html").write_text(tpl.replace("__MARKET_JSON__", data).replace("__RESEARCH_JSON__", research).replace("__NEWS_JSON__", news).replace("__TARGETS_JSON__", targets).replace("__SITE_JSON__", site).replace("__CHANGES_JSON__", changes))
+(ROOT/"scorecard"/"index.html").write_text(tpl.replace("__MARKET_JSON__", data).replace("__RESEARCH_JSON__", research).replace("__NEWS_JSON__", news).replace("__TARGETS_JSON__", targets).replace("__SITE_JSON__", site).replace("__CHANGES_JSON__", changes).replace("__MECH_JSON__", mech).replace("__RUBRIC_V2__", rubric_v2))
 # public site: full documents (the bare files above are for the claude.ai artifact wrapper)
 site_dir = ROOT/"site"; site_dir.mkdir(exist_ok=True)
 def wrap(body, desc):

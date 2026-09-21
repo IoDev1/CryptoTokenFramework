@@ -4,7 +4,11 @@ A scoring framework for picking tokens that can be held through a bear market, a
 page that shows the verdicts, live market data, news with sources, and your own entry and exit
 targets.
 
-**Live page:** https://claude.ai/artifact/9dygq8VEnSkatpDq6xiZag
+**Live site:** https://iodev1.github.io/CryptoTokenFramework/ (ledger at `/ledger.html`)
+
+## Direction (2026-09-22)
+
+Data-first, bring-your-own-research. A v2 data score is computed every day with no model (survivorship, revenue level and trend, supply health with measured inflation, usage growth). The judgment cells are completed by the user: a Research prompt button produces the rubric plus the token's data for any model, and an Import box takes the JSON back. Two reference research passes remain as a second opinion.
 
 ## How it works
 

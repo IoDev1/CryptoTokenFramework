@@ -25,6 +25,8 @@ JSON and never calls a model per visitor.
 | `scripts/merge_research.py` | `research/batch_*.json` -> `data/research.json`, applies consistency rules |
 | `scripts/merge_news.py` | `research/news_batch_*.json` -> opinions folded into `data/news.json` |
 | `scripts/build.py` | Snapshots data, runs `diff_history.py`, injects JSON into the templates -> `scorecard/{index,ledger}.html` (bare, for the artifact) and `site/{index,ledger}.html` (full documents, for Pages) |
+| `scripts/mechanical.py` | v2 data score with no model: S1 survivorship (listing year table + 2022/2025 CMC snapshots + backtest ATHs), S3 P/S, S4 revenue trend, S5 supply health (inflation measured from `data/history`), S8 TVL growth (DeFiLlama), E1/E2 -> `data/mechanical.json`; relative tiers |
+| `research/RUBRIC_v2.md` | v2 definitions (G1-G5, S1-S8, E1-E4) and JSON schema; embedded in the page for the Research prompt |
 | `scripts/diff_history.py` | `data/history/*` -> `data/changes.json` (this-week panel) and `data/ledger.json` (public ledger) |
 | `scorecard/ledger_template.html` | Ledger page source; placeholder `__LEDGER_JSON__` |
 | `scorecard/template.html` | THE source of the page. Placeholders `__MARKET_JSON__`, `__RESEARCH_JSON__`, `__NEWS_JSON__`, `__TARGETS_JSON__` |
@@ -71,4 +73,6 @@ Research re-run: agents score `research/batch_N_input.txt` under `research/RUBRI
 - PostHog is EU cloud, memory persistence, no recording, no autocapture: no consent banner needed. Only loads when `site.json` has a key.
 - Pushes made with `GITHUB_TOKEN` do not trigger other workflows, so the monthly research commit is deployed by the next daily refresh.
 - Backtest data sources: CoinGecko free tier refuses history > 365 days; CMC weekly snapshots (Sundays) embed the top-200 listing as an escaped JSON string; Yahoo tickers collide (APE, MATIC), so every Yahoo series is verified against the CMC price on the cutoff date before use.
+- Product direction (2026-09-22): data-first, bring-your-own-research. No universe-wide model research passes (usage limits); the page computes the v2 data score daily and users complete judgment cells (S2, S6, S7, gates, E3, E4) with the Research prompt + Import flow. Imported verdicts live in `localStorage` key `cs.mine` and travel in share links. `research/v2_batch_*_input.txt` exist for an optional future pass.
+- Renamed tokens (POL/MATIC, SKY/MKR, Sonic/FTM, RENDER/RNDR) use the old symbol's pre-2022 ATH for survivorship; a fresh CoinGecko ATH date would otherwise pass them.
 - This is research tooling, not advice. Keep wording educational on anything public.

@@ -134,3 +134,12 @@ winners. "Show results" means users share their own plans and outcomes on the pl
 publishes model returns as its own track record. The ledger stays as transparency (what the model said, when),
 the backtest stays as methodology evidence (loss avoidance, not winner picking), and every level and result
 shown is the user's. Copy rule: "your plan, your results, our structure and sources".
+
+## Redirect 2026-09-22: data-first, bring-your-own-research
+
+Universe-wide model research passes exhaust usage limits and, per the backtest, the data cells carry
+the signal anyway. The page now computes a v2 data score daily (5 of 8 quality cells, both entry cells)
+with no model. Judgment cells are the user's: Research prompt -> their own model -> Import. Model
+research only per token on demand. Monetization unchanged: the letter (weekly digest from data diffs
+and the ledger, one on-demand deep dive), 39 EUR/yr; alerts and saved plans as a later paid tier.
+Positioning line: "The framework, the data, the planner. Bring your own judgment."

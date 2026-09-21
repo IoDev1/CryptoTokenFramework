@@ -25,6 +25,8 @@ jobs:
         with: { python-version: "3.12" }
       - name: Market data (CoinGecko + DeFiLlama, no key)
         run: python3 scripts/fetch_market.py
+      - name: Data score (mechanical v2, no model)
+        run: python3 scripts/mechanical.py
       - name: News (outlet RSS, no key; keeps last opinions)
         run: python3 scripts/fetch_news.py
       - name: News stance (claude-haiku-4-5; skipped when the secret is absent)
