@@ -5,33 +5,33 @@
  "movers": [
   {
    "tk": "NEAR",
-   "pct": 69.0,
-   "price": 4.14
-  },
-  {
-   "tk": "AVAX",
-   "pct": 54.7,
-   "price": 11.23
+   "pct": 84.1,
+   "price": 4.51
   },
   {
    "tk": "Sonic",
-   "pct": 53.4,
-   "price": 0.03906397
+   "pct": 75.1,
+   "price": 0.04461155
+  },
+  {
+   "tk": "AVAX",
+   "pct": 50.3,
+   "price": 10.91
   },
   {
    "tk": "SUI",
-   "pct": 47.6,
-   "price": 1.016
+   "pct": 47.4,
+   "price": 1.015
   },
   {
    "tk": "ENA",
-   "pct": 46.0,
-   "price": 0.209412
+   "pct": 46.4,
+   "price": 0.21004
   },
   {
    "tk": "STX",
-   "pct": 44.6,
-   "price": 0.343215
+   "pct": 45.9,
+   "price": 0.346215
   }
  ],
  "verdicts": [],
