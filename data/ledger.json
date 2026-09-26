@@ -1,8 +1,8 @@
 {
  "first_date": "2026-09-10",
- "latest": "2026-09-25",
- "days": 15,
- "snapshots": 16,
+ "latest": "2026-09-26",
+ "days": 16,
+ "snapshots": 17,
  "tokens": {
   "HBAR": {
    "series": [
@@ -13,8 +13,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.09521,
+     "date": "2026-09-26",
+     "price": 0.094299,
      "score": 8.5,
      "tier": "watch"
     }
@@ -25,8 +25,8 @@
     "score": 8.5,
     "tier": "watch"
    },
-   "now": 0.09521,
-   "ret_pct": 26.6,
+   "now": 0.094299,
+   "ret_pct": 25.4,
    "current": "watch",
    "changes": 0
   },
@@ -39,8 +39,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.322078,
+     "date": "2026-09-26",
+     "price": 0.34125,
      "score": 6.5,
      "tier": "avoid"
     }
@@ -51,8 +51,8 @@
     "score": 6.5,
     "tier": "avoid"
    },
-   "now": 0.322078,
-   "ret_pct": 22.8,
+   "now": 0.34125,
+   "ret_pct": 30.1,
    "current": "avoid",
    "changes": 0
   },
@@ -65,8 +65,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 1.96,
+     "date": "2026-09-26",
+     "price": 2.02,
      "score": 7.0,
      "tier": "avoid"
     }
@@ -77,8 +77,8 @@
     "score": 7.0,
     "tier": "avoid"
    },
-   "now": 1.96,
-   "ret_pct": 38.0,
+   "now": 2.02,
+   "ret_pct": 42.3,
    "current": "avoid",
    "changes": 0
   },
@@ -91,8 +91,8 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-25",
-     "price": 148.98,
+     "date": "2026-09-26",
+     "price": 154.67,
      "score": 10.0,
      "tier": "core"
     }
@@ -103,8 +103,8 @@
     "score": 10.0,
     "tier": "core"
    },
-   "now": 148.98,
-   "ret_pct": 21.4,
+   "now": 154.67,
+   "ret_pct": 26.1,
    "current": "core",
    "changes": 0
   },
@@ -117,8 +117,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 98.17,
+     "date": "2026-09-26",
+     "price": 105.76,
      "score": 5.0,
      "tier": "avoid"
     }
@@ -129,8 +129,8 @@
     "score": 5.0,
     "tier": "avoid"
    },
-   "now": 98.17,
-   "ret_pct": 49.9,
+   "now": 105.76,
+   "ret_pct": 61.5,
    "current": "avoid",
    "changes": 0
   },
@@ -143,8 +143,8 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-25",
-     "price": 120.97,
+     "date": "2026-09-26",
+     "price": 120.49,
      "score": 10.0,
      "tier": "core"
     }
@@ -155,8 +155,8 @@
     "score": 10.0,
     "tier": "core"
    },
-   "now": 120.97,
-   "ret_pct": 21.2,
+   "now": 120.49,
+   "ret_pct": 20.7,
    "current": "core",
    "changes": 0
   },
@@ -169,8 +169,8 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.455023,
+     "date": "2026-09-26",
+     "price": 0.494602,
      "score": 10.0,
      "tier": "core"
     }
@@ -181,8 +181,8 @@
     "score": 10.0,
     "tier": "core"
    },
-   "now": 0.455023,
-   "ret_pct": 21.9,
+   "now": 0.494602,
+   "ret_pct": 32.5,
    "current": "core",
    "changes": 0
   },
@@ -195,8 +195,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.243041,
+     "date": "2026-09-26",
+     "price": 0.284239,
      "score": 3.0,
      "tier": "avoid"
     }
@@ -207,8 +207,8 @@
     "score": 3.0,
     "tier": "avoid"
    },
-   "now": 0.243041,
-   "ret_pct": 67.5,
+   "now": 0.284239,
+   "ret_pct": 95.9,
    "current": "avoid",
    "changes": 0
   },
@@ -221,8 +221,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.548798,
+     "date": "2026-09-26",
+     "price": 0.554398,
      "score": 5.0,
      "tier": "avoid"
     }
@@ -233,8 +233,8 @@
     "score": 5.0,
     "tier": "avoid"
    },
-   "now": 0.548798,
-   "ret_pct": 57.4,
+   "now": 0.554398,
+   "ret_pct": 59.0,
    "current": "avoid",
    "changes": 0
   },
@@ -247,8 +247,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 8.83,
+     "date": "2026-09-26",
+     "price": 8.96,
      "score": 6.5,
      "tier": "avoid"
     }
@@ -259,8 +259,8 @@
     "score": 6.5,
     "tier": "avoid"
    },
-   "now": 8.83,
-   "ret_pct": -4.0,
+   "now": 8.96,
+   "ret_pct": -2.6,
    "current": "avoid",
    "changes": 0
   },
@@ -273,8 +273,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 120.74,
+     "date": "2026-09-26",
+     "price": 121.62,
      "score": 9.0,
      "tier": "watch"
     }
@@ -285,8 +285,8 @@
     "score": 9.0,
     "tier": "watch"
    },
-   "now": 120.74,
-   "ret_pct": 8.5,
+   "now": 121.62,
+   "ret_pct": 9.3,
    "current": "watch",
    "changes": 0
   },
@@ -299,8 +299,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.225738,
+     "date": "2026-09-26",
+     "price": 0.222632,
      "score": 7.5,
      "tier": "avoid"
     }
@@ -311,8 +311,8 @@
     "score": 7.5,
     "tier": "avoid"
    },
-   "now": 0.225738,
-   "ret_pct": 52.4,
+   "now": 0.222632,
+   "ret_pct": 50.3,
    "current": "avoid",
    "changes": 0
   },
@@ -325,8 +325,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.222795,
+     "date": "2026-09-26",
+     "price": 0.219547,
      "score": 4.5,
      "tier": "avoid"
     }
@@ -337,8 +337,8 @@
     "score": 4.5,
     "tier": "avoid"
    },
-   "now": 0.222795,
-   "ret_pct": 24.8,
+   "now": 0.219547,
+   "ret_pct": 23.0,
    "current": "avoid",
    "changes": 0
   },
@@ -351,8 +351,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 337.54,
+     "date": "2026-09-26",
+     "price": 338.59,
      "score": 8.0,
      "tier": "watch"
     }
@@ -363,8 +363,8 @@
     "score": 8.0,
     "tier": "watch"
    },
-   "now": 337.54,
-   "ret_pct": 48.7,
+   "now": 338.59,
+   "ret_pct": 49.2,
    "current": "watch",
    "changes": 0
   },
@@ -377,8 +377,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 9.64,
+     "date": "2026-09-26",
+     "price": 9.61,
      "score": 6.0,
      "tier": "avoid"
     }
@@ -389,8 +389,8 @@
     "score": 6.0,
     "tier": "avoid"
    },
-   "now": 9.64,
-   "ret_pct": 24.9,
+   "now": 9.61,
+   "ret_pct": 24.5,
    "current": "avoid",
    "changes": 0
   },
@@ -403,8 +403,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.336513,
+     "date": "2026-09-26",
+     "price": 0.328856,
      "score": 7.0,
      "tier": "avoid"
     }
@@ -415,8 +415,8 @@
     "score": 7.0,
     "tier": "avoid"
    },
-   "now": 0.336513,
-   "ret_pct": 28.3,
+   "now": 0.328856,
+   "ret_pct": 25.4,
    "current": "avoid",
    "changes": 0
   },
@@ -429,8 +429,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 307.09,
+     "date": "2026-09-26",
+     "price": 320.62,
      "score": 6.5,
      "tier": "avoid"
     }
@@ -441,8 +441,8 @@
     "score": 6.5,
     "tier": "avoid"
    },
-   "now": 307.09,
-   "ret_pct": 27.9,
+   "now": 320.62,
+   "ret_pct": 33.5,
    "current": "avoid",
    "changes": 0
   },
@@ -455,8 +455,8 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-25",
-     "price": 2722.38,
+     "date": "2026-09-26",
+     "price": 2687.72,
      "score": 10.5,
      "tier": "core"
     }
@@ -467,8 +467,8 @@
     "score": 10.5,
     "tier": "core"
    },
-   "now": 2722.38,
-   "ret_pct": 10.5,
+   "now": 2687.72,
+   "ret_pct": 9.1,
    "current": "core",
    "changes": 0
   },
@@ -481,8 +481,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.074945,
+     "date": "2026-09-26",
+     "price": 0.079362,
      "score": 9.5,
      "tier": "watch"
     }
@@ -493,8 +493,8 @@
     "score": 9.5,
     "tier": "watch"
    },
-   "now": 0.074945,
-   "ret_pct": 24.5,
+   "now": 0.079362,
+   "ret_pct": 31.8,
    "current": "watch",
    "changes": 0
   },
@@ -507,8 +507,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 567.9,
+     "date": "2026-09-26",
+     "price": 552.59,
      "score": 9.5,
      "tier": "watch"
     }
@@ -519,8 +519,8 @@
     "score": 9.5,
     "tier": "watch"
    },
-   "now": 567.9,
-   "ret_pct": 9.9,
+   "now": 552.59,
+   "ret_pct": 6.9,
    "current": "watch",
    "changes": 0
   },
@@ -533,8 +533,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 8.24,
+     "date": "2026-09-26",
+     "price": 7.84,
      "score": 5.5,
      "tier": "avoid"
     }
@@ -545,8 +545,8 @@
     "score": 5.5,
     "tier": "avoid"
    },
-   "now": 8.24,
-   "ret_pct": 37.6,
+   "now": 7.84,
+   "ret_pct": 30.9,
    "current": "avoid",
    "changes": 0
   },
@@ -559,8 +559,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 5.01,
+     "date": "2026-09-26",
+     "price": 4.94,
      "score": 6.0,
      "tier": "avoid"
     }
@@ -571,8 +571,8 @@
     "score": 6.0,
     "tier": "avoid"
    },
-   "now": 5.01,
-   "ret_pct": 100.4,
+   "now": 4.94,
+   "ret_pct": 97.6,
    "current": "avoid",
    "changes": 0
   },
@@ -585,8 +585,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 9.78,
+     "date": "2026-09-26",
+     "price": 9.65,
      "score": 9.5,
      "tier": "watch"
     }
@@ -597,8 +597,8 @@
     "score": 9.5,
     "tier": "watch"
    },
-   "now": 9.78,
-   "ret_pct": 61.7,
+   "now": 9.65,
+   "ret_pct": 59.5,
    "current": "watch",
    "changes": 0
   },
@@ -611,8 +611,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 93.52,
+     "date": "2026-09-26",
+     "price": 91.95,
      "score": 8.0,
      "tier": "watch"
     }
@@ -623,8 +623,8 @@
     "score": 8.0,
     "tier": "watch"
    },
-   "now": 93.52,
-   "ret_pct": 16.3,
+   "now": 91.95,
+   "ret_pct": 14.3,
    "current": "watch",
    "changes": 0
   },
@@ -637,8 +637,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 14.06,
+     "date": "2026-09-26",
+     "price": 14.23,
      "score": 9.5,
      "tier": "watch"
     }
@@ -649,8 +649,8 @@
     "score": 9.5,
     "tier": "watch"
    },
-   "now": 14.06,
-   "ret_pct": 20.8,
+   "now": 14.23,
+   "ret_pct": 22.3,
    "current": "watch",
    "changes": 0
   },
@@ -663,8 +663,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.243244,
+     "date": "2026-09-26",
+     "price": 0.242819,
      "score": 4.5,
      "tier": "avoid"
     }
@@ -675,8 +675,8 @@
     "score": 4.5,
     "tier": "avoid"
    },
-   "now": 0.243244,
-   "ret_pct": 47.5,
+   "now": 0.242819,
+   "ret_pct": 47.3,
    "current": "avoid",
    "changes": 0
   },
@@ -689,8 +689,8 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-25",
-     "price": 779.67,
+     "date": "2026-09-26",
+     "price": 774.36,
      "score": 10.5,
      "tier": "core"
     }
@@ -701,8 +701,8 @@
     "score": 10.5,
     "tier": "core"
    },
-   "now": 779.67,
-   "ret_pct": 9.3,
+   "now": 774.36,
+   "ret_pct": 8.6,
    "current": "core",
    "changes": 0
   },
@@ -715,8 +715,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.122863,
+     "date": "2026-09-26",
+     "price": 0.134154,
      "score": 6.5,
      "tier": "avoid"
     }
@@ -727,8 +727,8 @@
     "score": 6.5,
     "tier": "avoid"
    },
-   "now": 0.122863,
-   "ret_pct": 23.6,
+   "now": 0.134154,
+   "ret_pct": 34.9,
    "current": "avoid",
    "changes": 0
   },
@@ -741,8 +741,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 10.61,
+     "date": "2026-09-26",
+     "price": 10.8,
      "score": 4.0,
      "tier": "avoid"
     }
@@ -753,8 +753,8 @@
     "score": 4.0,
     "tier": "avoid"
    },
-   "now": 10.61,
-   "ret_pct": 39.4,
+   "now": 10.8,
+   "ret_pct": 41.9,
    "current": "avoid",
    "changes": 0
   },
@@ -767,8 +767,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.04211585,
+     "date": "2026-09-26",
+     "price": 0.04488561,
      "score": 8.0,
      "tier": "watch"
     }
@@ -779,8 +779,8 @@
     "score": 8.0,
     "tier": "watch"
    },
-   "now": 0.04211585,
-   "ret_pct": 14.3,
+   "now": 0.04488561,
+   "ret_pct": 21.8,
    "current": "watch",
    "changes": 0
   },
@@ -793,8 +793,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.00954443,
+     "date": "2026-09-26",
+     "price": 0.00963446,
      "score": 8.0,
      "tier": "watch"
     }
@@ -805,8 +805,8 @@
     "score": 8.0,
     "tier": "watch"
    },
-   "now": 0.00954443,
-   "ret_pct": 20.5,
+   "now": 0.00963446,
+   "ret_pct": 21.6,
    "current": "watch",
    "changes": 0
   },
@@ -819,8 +819,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.337033,
+     "date": "2026-09-26",
+     "price": 0.33692,
      "score": 8.5,
      "tier": "watch"
     }
@@ -831,7 +831,7 @@
     "score": 8.5,
     "tier": "watch"
    },
-   "now": 0.337033,
+   "now": 0.33692,
    "ret_pct": -0.8,
    "current": "watch",
    "changes": 0
@@ -845,8 +845,8 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-25",
-     "price": 2.11,
+     "date": "2026-09-26",
+     "price": 2.07,
      "score": 10.0,
      "tier": "core"
     }
@@ -857,8 +857,8 @@
     "score": 10.0,
     "tier": "core"
    },
-   "now": 2.11,
-   "ret_pct": 1.0,
+   "now": 2.07,
+   "ret_pct": -1.0,
    "current": "core",
    "changes": 0
   },
@@ -871,8 +871,8 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-25",
-     "price": 70.46,
+     "date": "2026-09-26",
+     "price": 73.54,
      "score": 10.0,
      "tier": "core"
     }
@@ -883,8 +883,8 @@
     "score": 10.0,
     "tier": "core"
    },
-   "now": 70.46,
-   "ret_pct": 34.7,
+   "now": 73.54,
+   "ret_pct": 40.6,
    "current": "core",
    "changes": 0
   },
@@ -897,8 +897,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 1.13,
+     "date": "2026-09-26",
+     "price": 1.19,
      "score": 5.0,
      "tier": "avoid"
     }
@@ -909,8 +909,8 @@
     "score": 5.0,
     "tier": "avoid"
    },
-   "now": 1.13,
-   "ret_pct": 53.0,
+   "now": 1.19,
+   "ret_pct": 61.1,
    "current": "avoid",
    "changes": 0
   },
@@ -923,8 +923,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.25854,
+     "date": "2026-09-26",
+     "price": 0.260947,
      "score": 4.5,
      "tier": "avoid"
     }
@@ -935,8 +935,8 @@
     "score": 4.5,
     "tier": "avoid"
    },
-   "now": 0.25854,
-   "ret_pct": 24.4,
+   "now": 0.260947,
+   "ret_pct": 25.5,
    "current": "avoid",
    "changes": 0
   },
@@ -949,8 +949,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.255856,
+     "date": "2026-09-26",
+     "price": 0.256525,
      "score": 8.5,
      "tier": "watch"
     }
@@ -961,8 +961,8 @@
     "score": 8.5,
     "tier": "watch"
    },
-   "now": 0.255856,
-   "ret_pct": 22.0,
+   "now": 0.256525,
+   "ret_pct": 22.3,
    "current": "watch",
    "changes": 0
   },
@@ -975,8 +975,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 1.19,
+     "date": "2026-09-26",
+     "price": 1.23,
      "score": 7.0,
      "tier": "avoid"
     }
@@ -987,8 +987,8 @@
     "score": 7.0,
     "tier": "avoid"
    },
-   "now": 1.19,
-   "ret_pct": 8.2,
+   "now": 1.23,
+   "ret_pct": 11.8,
    "current": "avoid",
    "changes": 0
   },
@@ -1001,8 +1001,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.11177,
+     "date": "2026-09-26",
+     "price": 0.119044,
      "score": 9.5,
      "tier": "watch"
     }
@@ -1013,8 +1013,8 @@
     "score": 9.5,
     "tier": "watch"
    },
-   "now": 0.11177,
-   "ret_pct": 19.4,
+   "now": 0.119044,
+   "ret_pct": 27.2,
    "current": "watch",
    "changes": 0
   },
@@ -1027,8 +1027,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.34922,
+     "date": "2026-09-26",
+     "price": 0.353115,
      "score": 6.5,
      "tier": "avoid"
     }
@@ -1039,8 +1039,8 @@
     "score": 6.5,
     "tier": "avoid"
    },
-   "now": 0.34922,
-   "ret_pct": 1.7,
+   "now": 0.353115,
+   "ret_pct": 2.8,
    "current": "avoid",
    "changes": 0
   },
@@ -1053,8 +1053,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.04167429,
+     "date": "2026-09-26",
+     "price": 0.04136982,
      "score": 4.5,
      "tier": "avoid"
     }
@@ -1065,8 +1065,8 @@
     "score": 4.5,
     "tier": "avoid"
    },
-   "now": 0.04167429,
-   "ret_pct": 55.5,
+   "now": 0.04136982,
+   "ret_pct": 54.4,
    "current": "avoid",
    "changes": 0
   },
@@ -1079,8 +1079,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 3.24,
+     "date": "2026-09-26",
+     "price": 3.2,
      "score": 5.0,
      "tier": "avoid"
     }
@@ -1091,8 +1091,8 @@
     "score": 5.0,
     "tier": "avoid"
    },
-   "now": 3.24,
-   "ret_pct": 17.4,
+   "now": 3.2,
+   "ret_pct": 15.9,
    "current": "avoid",
    "changes": 0
   },
@@ -1105,8 +1105,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 2449.05,
+     "date": "2026-09-26",
+     "price": 2491.17,
      "score": 7.5,
      "tier": "avoid"
     }
@@ -1117,8 +1117,8 @@
     "score": 7.5,
     "tier": "avoid"
    },
-   "now": 2449.05,
-   "ret_pct": 13.9,
+   "now": 2491.17,
+   "ret_pct": 15.8,
    "current": "avoid",
    "changes": 0
   },
@@ -1131,8 +1131,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 24.0,
+     "date": "2026-09-26",
+     "price": 24.18,
      "score": 8.0,
      "tier": "watch"
     }
@@ -1143,8 +1143,8 @@
     "score": 8.0,
     "tier": "watch"
    },
-   "now": 24.0,
-   "ret_pct": 17.9,
+   "now": 24.18,
+   "ret_pct": 18.8,
    "current": "watch",
    "changes": 0
   },
@@ -1157,8 +1157,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 64.64,
+     "date": "2026-09-26",
+     "price": 66.39,
      "score": 8.0,
      "tier": "watch"
     }
@@ -1169,8 +1169,8 @@
     "score": 8.0,
     "tier": "watch"
    },
-   "now": 64.64,
-   "ret_pct": 15.5,
+   "now": 66.39,
+   "ret_pct": 18.7,
    "current": "watch",
    "changes": 0
   },
@@ -1183,8 +1183,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.329146,
+     "date": "2026-09-26",
+     "price": 0.352472,
      "score": 8.5,
      "tier": "watch"
     }
@@ -1195,8 +1195,8 @@
     "score": 8.5,
     "tier": "watch"
    },
-   "now": 0.329146,
-   "ret_pct": 46.1,
+   "now": 0.352472,
+   "ret_pct": 56.4,
    "current": "watch",
    "changes": 0
   },
@@ -1209,8 +1209,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 1.58,
+     "date": "2026-09-26",
+     "price": 1.55,
      "score": 5.0,
      "tier": "avoid"
     }
@@ -1221,8 +1221,8 @@
     "score": 5.0,
     "tier": "avoid"
    },
-   "now": 1.58,
-   "ret_pct": 17.0,
+   "now": 1.55,
+   "ret_pct": 14.8,
    "current": "avoid",
    "changes": 0
   },
@@ -1235,8 +1235,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 2.86,
+     "date": "2026-09-26",
+     "price": 2.75,
      "score": 6.5,
      "tier": "avoid"
     }
@@ -1247,8 +1247,8 @@
     "score": 6.5,
     "tier": "avoid"
    },
-   "now": 2.86,
-   "ret_pct": 24.3,
+   "now": 2.75,
+   "ret_pct": 19.6,
    "current": "avoid",
    "changes": 0
   },
@@ -1261,8 +1261,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.067915,
+     "date": "2026-09-26",
+     "price": 0.073959,
      "score": 4.0,
      "tier": "avoid"
     }
@@ -1273,8 +1273,8 @@
     "score": 4.0,
     "tier": "avoid"
    },
-   "now": 0.067915,
-   "ret_pct": 51.9,
+   "now": 0.073959,
+   "ret_pct": 65.5,
    "current": "avoid",
    "changes": 0
   },
@@ -1287,8 +1287,8 @@
      "tier": "watch"
     },
     {
-     "date": "2026-09-25",
-     "price": 1608.76,
+     "date": "2026-09-26",
+     "price": 1536.98,
      "score": 8.0,
      "tier": "watch"
     }
@@ -1299,8 +1299,8 @@
     "score": 8.0,
     "tier": "watch"
    },
-   "now": 1608.76,
-   "ret_pct": 42.1,
+   "now": 1536.98,
+   "ret_pct": 35.7,
    "current": "watch",
    "changes": 0
   },
@@ -1313,8 +1313,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 1.43,
+     "date": "2026-09-26",
+     "price": 1.46,
      "score": 5.0,
      "tier": "avoid"
     }
@@ -1325,8 +1325,8 @@
     "score": 5.0,
     "tier": "avoid"
    },
-   "now": 1.43,
-   "ret_pct": 5.9,
+   "now": 1.46,
+   "ret_pct": 8.1,
    "current": "avoid",
    "changes": 0
   },
@@ -1339,8 +1339,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 4.61,
+     "date": "2026-09-26",
+     "price": 4.62,
      "score": 4.5,
      "tier": "avoid"
     }
@@ -1351,8 +1351,8 @@
     "score": 4.5,
     "tier": "avoid"
    },
-   "now": 4.61,
-   "ret_pct": -7.6,
+   "now": 4.62,
+   "ret_pct": -7.4,
    "current": "avoid",
    "changes": 0
   },
@@ -1365,8 +1365,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.45547,
+     "date": "2026-09-26",
+     "price": 0.484001,
      "score": 4.0,
      "tier": "avoid"
     }
@@ -1377,8 +1377,8 @@
     "score": 4.0,
     "tier": "avoid"
    },
-   "now": 0.45547,
-   "ret_pct": 12.9,
+   "now": 0.484001,
+   "ret_pct": 20.0,
    "current": "avoid",
    "changes": 0
   },
@@ -1391,8 +1391,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.01875571,
+     "date": "2026-09-26",
+     "price": 0.01894711,
      "score": 3.5,
      "tier": "avoid"
     }
@@ -1403,8 +1403,8 @@
     "score": 3.5,
     "tier": "avoid"
    },
-   "now": 0.01875571,
-   "ret_pct": 46.2,
+   "now": 0.01894711,
+   "ret_pct": 47.7,
    "current": "avoid",
    "changes": 0
   },
@@ -1417,8 +1417,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.351631,
+     "date": "2026-09-26",
+     "price": 0.36479,
      "score": 4.0,
      "tier": "avoid"
     }
@@ -1429,8 +1429,8 @@
     "score": 4.0,
     "tier": "avoid"
    },
-   "now": 0.351631,
-   "ret_pct": 17.3,
+   "now": 0.36479,
+   "ret_pct": 21.7,
    "current": "avoid",
    "changes": 0
   },
@@ -1443,8 +1443,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.798129,
+     "date": "2026-09-26",
+     "price": 0.790031,
      "score": 3.5,
      "tier": "avoid"
     }
@@ -1455,8 +1455,8 @@
     "score": 3.5,
     "tier": "avoid"
    },
-   "now": 0.798129,
-   "ret_pct": 25.3,
+   "now": 0.790031,
+   "ret_pct": 24.0,
    "current": "avoid",
    "changes": 0
   },
@@ -1469,8 +1469,8 @@
      "tier": "core"
     },
     {
-     "date": "2026-09-25",
-     "price": 84727,
+     "date": "2026-09-26",
+     "price": 84172,
      "score": 10.0,
      "tier": "core"
     }
@@ -1481,8 +1481,8 @@
     "score": 10.0,
     "tier": "core"
    },
-   "now": 84727,
-   "ret_pct": 9.8,
+   "now": 84172,
+   "ret_pct": 9.1,
    "current": "core",
    "changes": 0
   },
@@ -1495,8 +1495,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 31.56,
+     "date": "2026-09-26",
+     "price": 29.76,
      "score": 5.5,
      "tier": "avoid"
     }
@@ -1507,8 +1507,8 @@
     "score": 5.5,
     "tier": "avoid"
    },
-   "now": 31.56,
-   "ret_pct": 24.1,
+   "now": 29.76,
+   "ret_pct": 17.0,
    "current": "avoid",
    "changes": 0
   },
@@ -1521,8 +1521,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 2.63,
+     "date": "2026-09-26",
+     "price": 2.58,
      "score": 7.0,
      "tier": "avoid"
     }
@@ -1533,8 +1533,8 @@
     "score": 7.0,
     "tier": "avoid"
    },
-   "now": 2.63,
-   "ret_pct": 29.6,
+   "now": 2.58,
+   "ret_pct": 27.1,
    "current": "avoid",
    "changes": 0
   },
@@ -1547,8 +1547,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.789976,
+     "date": "2026-09-26",
+     "price": 0.901767,
      "score": 7.0,
      "tier": "avoid"
     }
@@ -1559,8 +1559,8 @@
     "score": 7.0,
     "tier": "avoid"
    },
-   "now": 0.789976,
-   "ret_pct": 42.8,
+   "now": 0.901767,
+   "ret_pct": 63.0,
    "current": "avoid",
    "changes": 0
   },
@@ -1573,8 +1573,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 2.16,
+     "date": "2026-09-26",
+     "price": 2.02,
      "score": 6.0,
      "tier": "avoid"
     }
@@ -1585,8 +1585,8 @@
     "score": 6.0,
     "tier": "avoid"
    },
-   "now": 2.16,
-   "ret_pct": 60.0,
+   "now": 2.02,
+   "ret_pct": 49.6,
    "current": "avoid",
    "changes": 0
   },
@@ -1599,8 +1599,8 @@
      "tier": "avoid"
     },
     {
-     "date": "2026-09-25",
-     "price": 0.00419084,
+     "date": "2026-09-26",
+     "price": 0.00448631,
      "score": 7.5,
      "tier": "avoid"
     }
@@ -1611,8 +1611,8 @@
     "score": 7.5,
     "tier": "avoid"
    },
-   "now": 0.00419084,
-   "ret_pct": 7.2,
+   "now": 0.00448631,
+   "ret_pct": 14.7,
    "current": "avoid",
    "changes": 0
   }
@@ -1620,17 +1620,17 @@
  "baskets": {
   "core": {
    "n": 8,
-   "avg_ret_pct": 16.2
+   "avg_ret_pct": 18.2
   },
   "watch": {
    "n": 17,
-   "avg_ret_pct": 24.4
+   "avg_ret_pct": 25.9
   },
   "avoid": {
    "n": 37,
-   "avg_ret_pct": 31.6
+   "avg_ret_pct": 34.3
   }
  },
- "btc_ret_pct": 9.8,
+ "btc_ret_pct": 9.1,
  "calls": []
 }
