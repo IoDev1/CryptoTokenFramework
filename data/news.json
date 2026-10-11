@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-10",
+ "as_of": "2026-10-11",
  "source": "Outlet RSS (CoinDesk, Cointelegraph, Decrypt, The Block, DL News, The Defiant, CryptoSlate, BeInCrypto), last 14 days",
  "tokens": {
   "HBAR": {
@@ -10,7 +10,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "STX": {
@@ -40,7 +40,7 @@
      "FC6",
      "FC3"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "RENDER": {
@@ -51,7 +51,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "AAVE": {
@@ -155,7 +155,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "QNT": {
@@ -166,7 +166,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "SOL": {
@@ -176,6 +176,12 @@
      "source": "CryptoSlate",
      "date": "2026-10-10",
      "url": "https://cryptoslate.com/solana-doubles-block-production-speed-to-200ms-as-network-prepares-for-alpenglow-upgrade/"
+    },
+    {
+     "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+     "source": "The Block",
+     "date": "2026-10-10",
+     "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
     },
     {
      "title": "Solana is about to halve its block times as final 200-millisecond upgrade nears",
@@ -212,12 +218,6 @@
      "source": "The Block",
      "date": "2026-10-08",
      "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004"
-    },
-    {
-     "title": "Securitize stock jumps over 10% after launching tokenized US equities on Solana",
-     "source": "Cointelegraph",
-     "date": "2026-10-08",
-     "url": "https://cointelegraph.com/news/securitize-stock-jumps-launching-tokenized-us-equities-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
    "opinion": {
@@ -236,20 +236,20 @@
       "date": "2026-10-10"
      },
      {
-      "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
-      "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
-      "source": "CoinDesk",
-      "date": "2026-10-08"
+      "title": "Solana Schedules Final Cut to 200-Millisecond Slots",
+      "url": "https://thedefiant.io/news/blockchains/solana-schedules-final-cut-to-200-millisecond-slots",
+      "source": "The Defiant",
+      "date": "2026-10-09"
      },
      {
-      "title": "Samsung Wallet Taps Solana for USDC Transfers on 82M US Galaxy Devices",
-      "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
-      "source": "Decrypt",
+      "title": "Santiment Sees a Long-Term Bullish Case in Solana's 124% Network Growth",
+      "url": "https://beincrypto.com/solana-network-growth-etf-outflows/",
+      "source": "BeInCrypto",
       "date": "2026-10-08"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "TAO": {
@@ -260,7 +260,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "ETH": {
@@ -276,6 +276,24 @@
      "source": "The Defiant",
      "date": "2026-10-10",
      "url": "https://thedefiant.io/news/markets/aero-rallies-48-in-four-weeks-outpacing-bitcoin-and-ether"
+    },
+    {
+     "title": "SUI Gains 54% in Four Weeks, Outpacing Bitcoin and Ether",
+     "source": "The Defiant",
+     "date": "2026-10-10",
+     "url": "https://thedefiant.io/news/markets/sui-gains-54-in-four-weeks-outpacing-bitcoin-and-ether"
+    },
+    {
+     "title": "Wall Street Is Pulling Money From Ethereum as Traders Load Shorts",
+     "source": "BeInCrypto",
+     "date": "2026-10-10",
+     "url": "https://beincrypto.com/ethereum-etf-outflows-nine-days-shorts/"
+    },
+    {
+     "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+     "source": "The Block",
+     "date": "2026-10-10",
+     "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
     },
     {
      "title": "Thailand SEC issues bitcoin and ether ETF rules set to take effect Oct. 16",
@@ -294,24 +312,6 @@
      "source": "Cointelegraph",
      "date": "2026-10-09",
      "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-october-outflows-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "Ether bets were wiped out at six times bitcoin\u2019s rate in crypto\u2019s $1 billion flush",
-     "source": "CoinDesk",
-     "date": "2026-10-09",
-     "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush"
-    },
-    {
-     "title": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs",
-     "source": "Cointelegraph",
-     "date": "2026-10-09",
-     "url": "https://cointelegraph.com/news/thailand-finalizes-rules-paving-way-for-bitcoin-ether-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "NEAR Gains 83% in Four Weeks, Outpacing Bitcoin and Ether",
-     "source": "The Defiant",
-     "date": "2026-10-09",
-     "url": "https://thedefiant.io/news/markets/near-gains-83-in-four-weeks-outpacing-bitcoin-and-ether"
     }
    ],
    "opinion": {
@@ -331,7 +331,7 @@
     "filters": [
      "FB1"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "SKY": {
@@ -358,7 +358,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "XMR": {
@@ -385,7 +385,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "INJ": {
@@ -411,7 +411,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "NEAR": {
@@ -422,7 +422,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "UNI": {
@@ -475,7 +475,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "HYPE": {
@@ -547,7 +547,7 @@
     "filters": [
      "FA1"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "LINK": {
@@ -586,7 +586,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "FET": {
@@ -597,7 +597,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "BNB": {
@@ -621,7 +621,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "Canton": {
@@ -632,18 +632,34 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "AVAX": {
-   "items": [],
+   "items": [
+    {
+     "title": "Is XRP Ledger Vulnerable to AI? Avalanche Founder Warns of Hidden Flaws",
+     "source": "BeInCrypto",
+     "date": "2026-10-10",
+     "url": "https://beincrypto.com/xrp-ledger-security-flaws-ai-threat/"
+    }
+   ],
    "opinion": {
     "stance": "neutral",
     "text": "Charles Schwab adding AVAX access [3], echoed in a price-target piece [4], is genuine distribution news; rest is prediction spam [1,6] and routine price pages [2,5]. Doesn't address the Foundation-as-structural-seller or collapsed-fee risk.",
-    "cited": [],
-    "cited_items": [],
+    "cited": [
+     1
+    ],
+    "cited_items": [
+     {
+      "title": "Is XRP Ledger Vulnerable to AI? Avalanche Founder Warns of Hidden Flaws",
+      "url": "https://beincrypto.com/xrp-ledger-security-flaws-ai-threat/",
+      "source": "BeInCrypto",
+      "date": "2026-10-10"
+     }
+    ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "KAS": {
@@ -654,7 +670,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "VET": {
@@ -665,7 +681,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "TRX": {
@@ -731,7 +747,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "CVX": {
@@ -742,7 +758,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "LTC": {
@@ -753,11 +769,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "SUI": {
    "items": [
+    {
+     "title": "SUI Gains 54% in Four Weeks, Outpacing Bitcoin and Ether",
+     "source": "The Defiant",
+     "date": "2026-10-10",
+     "url": "https://thedefiant.io/news/markets/sui-gains-54-in-four-weeks-outpacing-bitcoin-and-ether"
+    },
     {
      "title": "Sui\u2019s Hashi to launch with $500M in Bitcoin finance commitments",
      "source": "Cointelegraph",
@@ -781,12 +803,6 @@
      "source": "Cointelegraph",
      "date": "2026-10-07",
      "url": "https://cointelegraph.com/news/sui-offchain-network-hits-40m-tps-in-live-ai-focused-stress-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "AlphaFi Winds Down After Oracle Error, With Sui Foundation Support",
-     "source": "The Defiant",
-     "date": "2026-09-26",
-     "url": "https://thedefiant.io/news/defi/alphafi-winds-down-after-oracle-error-with-sui-foundation-support"
     }
    ],
    "opinion": {
@@ -800,6 +816,12 @@
      5
     ],
     "cited_items": [
+     {
+      "title": "SUI Gains 54% in Four Weeks, Outpacing Bitcoin and Ether",
+      "url": "https://thedefiant.io/news/markets/sui-gains-54-in-four-weeks-outpacing-bitcoin-and-ether",
+      "source": "The Defiant",
+      "date": "2026-10-10"
+     },
      {
       "title": "Sui\u2019s Hashi to launch with $500M in Bitcoin finance commitments",
       "url": "https://cointelegraph.com/news/sui-hashi-bitcoin-finance-commitments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -823,16 +845,10 @@
       "url": "https://cointelegraph.com/news/sui-offchain-network-hits-40m-tps-in-live-ai-focused-stress-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "2026-10-07"
-     },
-     {
-      "title": "AlphaFi Winds Down After Oracle Error, With Sui Foundation Support",
-      "url": "https://thedefiant.io/news/defi/alphafi-winds-down-after-oracle-error-with-sui-foundation-support",
-      "source": "The Defiant",
-      "date": "2026-09-26"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "SNX": {
@@ -845,7 +861,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "ADA": {
@@ -943,7 +959,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "DOT": {
@@ -970,7 +986,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "POL": {
@@ -1006,7 +1022,7 @@
      "FC1",
      "FC4"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "CRV": {
@@ -1017,7 +1033,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "Sonic": {
@@ -1028,7 +1044,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "ICP": {
@@ -1039,7 +1055,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "YFI": {
@@ -1050,7 +1066,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "COMP": {
@@ -1061,7 +1077,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "DASH": {
@@ -1072,7 +1088,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "JUP": {
@@ -1083,11 +1099,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "XRP": {
    "items": [
+    {
+     "title": "AI discovers XRP Ledger flaw that could mint 18 trillion tokens and put $94 billion market at risk",
+     "source": "CryptoSlate",
+     "date": "2026-10-11",
+     "url": "https://cryptoslate.com/ai-discovers-xrp-ledger-flaw-that-could-mint-18-trillion-tokens-and-put-94-billion-market-at-risk/"
+    },
     {
      "title": "100 Billion XRP Supply Was Nearly Broken by a 10-Year Bug",
      "source": "BeInCrypto",
@@ -1099,6 +1121,12 @@
      "source": "CoinDesk",
      "date": "2026-10-10",
      "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+    },
+    {
+     "title": "Is XRP Ledger Vulnerable to AI? Avalanche Founder Warns of Hidden Flaws",
+     "source": "BeInCrypto",
+     "date": "2026-10-10",
+     "url": "https://beincrypto.com/xrp-ledger-security-flaws-ai-threat/"
     },
     {
      "title": "Is XRP Decentralized? One Crypto Founder Calls the Claim Fraud",
@@ -1123,18 +1151,6 @@
      "source": "CryptoSlate",
      "date": "2026-10-09",
      "url": "https://cryptoslate.com/ripple-wants-to-turn-xrpls-4-5-billion-in-tokenized-assets-into-round-the-clock-collateral/"
-    },
-    {
-     "title": "David Schwartz vs. Flare CEO: How Big Can XRP Ledger Lending Get?",
-     "source": "BeInCrypto",
-     "date": "2026-10-08",
-     "url": "https://beincrypto.com/xrp-lending-debate-schwartz-philion-flare/"
-    },
-    {
-     "title": "Ripple is earning fees financing leveraged stock bets, a business long run by banks",
-     "source": "CoinDesk",
-     "date": "2026-10-08",
-     "url": "https://www.coindesk.com/markets/2026/10/08/ripple-is-earning-fees-financing-leveraged-stock-bets-a-business-long-run-by-banks"
     }
    ],
    "opinion": {
@@ -1149,6 +1165,12 @@
     ],
     "cited_items": [
      {
+      "title": "AI discovers XRP Ledger flaw that could mint 18 trillion tokens and put $94 billion market at risk",
+      "url": "https://cryptoslate.com/ai-discovers-xrp-ledger-flaw-that-could-mint-18-trillion-tokens-and-put-94-billion-market-at-risk/",
+      "source": "CryptoSlate",
+      "date": "2026-10-11"
+     },
+     {
       "title": "100 Billion XRP Supply Was Nearly Broken by a 10-Year Bug",
       "url": "https://beincrypto.com/xrp-ledger-bug-create-xrp-fixed/",
       "source": "BeInCrypto",
@@ -1161,26 +1183,20 @@
       "date": "2026-10-10"
      },
      {
-      "title": "Is XRP Decentralized? One Crypto Founder Calls the Claim Fraud",
-      "url": "https://beincrypto.com/justin-bons-xrp-decentralization-fraud-evernorth/",
+      "title": "Is XRP Ledger Vulnerable to AI? Avalanche Founder Warns of Hidden Flaws",
+      "url": "https://beincrypto.com/xrp-ledger-security-flaws-ai-threat/",
       "source": "BeInCrypto",
-      "date": "2026-10-09"
+      "date": "2026-10-10"
      },
      {
       "title": "Live updates: Bitcoin climbs back above $83,000; XRP ETFs only crypto funds with inflows Thursday",
       "url": "https://www.coindesk.com/business/2026/10/09/live-updates-xrp-etfs-the-only-ones-in-green-as-btc-eth-zec-funds-post-outflows",
       "source": "CoinDesk",
       "date": "2026-10-09"
-     },
-     {
-      "title": "XRP Ledger lets institutions share account duties without sharing their keys",
-      "url": "https://cryptoslate.com/ripple-wants-to-turn-xrpls-4-5-billion-in-tokenized-assets-into-round-the-clock-collateral/",
-      "source": "CryptoSlate",
-      "date": "2026-10-09"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "MORPHO": {
@@ -1208,12 +1224,6 @@
      "source": "The Defiant",
      "date": "2026-09-30",
      "url": "https://thedefiant.io/news/defi/arc-packages-usdc-funding-and-morpho-lending-for-apps"
-    },
-    {
-     "title": "Morpho Blames AI Marketing Tool for Deleted Post Saying Its Own Curator Business Model is Broken",
-     "source": "The Defiant",
-     "date": "2026-09-26",
-     "url": "https://thedefiant.io/news/defi/morpho-blames-ai-marketing-tool-for-deleted-post-saying-its-own-curator-business-model-is-broken"
     }
    ],
    "opinion": {
@@ -1222,8 +1232,7 @@
     "cited": [
      2,
      3,
-     4,
-     5
+     4
     ],
     "cited_items": [
      {
@@ -1243,19 +1252,13 @@
       "url": "https://thedefiant.io/news/defi/arc-packages-usdc-funding-and-morpho-lending-for-apps",
       "source": "The Defiant",
       "date": "2026-09-30"
-     },
-     {
-      "title": "Morpho Blames AI Marketing Tool for Deleted Post Saying Its Own Curator Business Model is Broken",
-      "url": "https://thedefiant.io/news/defi/morpho-blames-ai-marketing-tool-for-deleted-post-saying-its-own-curator-business-model-is-broken",
-      "source": "The Defiant",
-      "date": "2026-09-26"
      }
     ],
     "filters": [
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "SEI": {
@@ -1266,7 +1269,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "ZEC": {
@@ -1370,7 +1373,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "TON": {
@@ -1383,7 +1386,7 @@
     "filters": [
      "FC3"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "EGLD": {
@@ -1394,7 +1397,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "WLD": {
@@ -1421,7 +1424,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "PLUME": {
@@ -1448,7 +1451,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "KAITO": {
@@ -1459,7 +1462,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "VIRTUAL": {
@@ -1470,11 +1473,23 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "BTC": {
    "items": [
+    {
+     "title": "Who Really Owns Bitcoin? Wall Street vs. Ordinary People",
+     "source": "BeInCrypto",
+     "date": "2026-10-11",
+     "url": "https://beincrypto.com/who-owns-bitcoin-institutions-treasury-cash/"
+    },
+    {
+     "title": "Bitcoin companies are learning that holding forever takes cash",
+     "source": "CryptoSlate",
+     "date": "2026-10-11",
+     "url": "https://cryptoslate.com/bitcoin-companies-are-learning-that-holding-forever-takes-cash/"
+    },
     {
      "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
      "source": "CoinDesk",
@@ -1506,22 +1521,10 @@
      "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-s-volatility-has-plunged-but-extreme-price-swings-are-more-frequent-than-in-2018"
     },
     {
-     "title": "Dark Web Founder Loses $100 Million in Bitcoin After 40-Year Sentence: Where Does It Go?",
-     "source": "BeInCrypto",
-     "date": "2026-10-09",
-     "url": "https://beincrypto.com/dark-web-founder-forfeits-1230-bitcoin/"
-    },
-    {
-     "title": "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
-     "source": "CoinDesk",
-     "date": "2026-10-09",
-     "url": "https://www.coindesk.com/daybook-us/2026/10/09/trump-s-iran-pledge-underpins-crypto-gains-as-bitcoin-bears-face-liquidation-pressure"
-    },
-    {
-     "title": "Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms",
-     "source": "CoinDesk",
-     "date": "2026-10-09",
-     "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms"
+     "title": "SUI Gains 54% in Four Weeks, Outpacing Bitcoin and Ether",
+     "source": "The Defiant",
+     "date": "2026-10-10",
+     "url": "https://thedefiant.io/news/markets/sui-gains-54-in-four-weeks-outpacing-bitcoin-and-ether"
     }
    ],
    "opinion": {
@@ -1533,20 +1536,20 @@
     ],
     "cited_items": [
      {
-      "title": "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
-      "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
-      "source": "CoinDesk",
-      "date": "2026-10-10"
+      "title": "Bitcoin companies are learning that holding forever takes cash",
+      "url": "https://cryptoslate.com/bitcoin-companies-are-learning-that-holding-forever-takes-cash/",
+      "source": "CryptoSlate",
+      "date": "2026-10-11"
      },
      {
-      "title": "AERO Rallies 48% in Four Weeks, Outpacing Bitcoin and Ether",
-      "url": "https://thedefiant.io/news/markets/aero-rallies-48-in-four-weeks-outpacing-bitcoin-and-ether",
-      "source": "The Defiant",
+      "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+      "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+      "source": "CoinDesk",
       "date": "2026-10-10"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "VVV": {
@@ -1557,7 +1560,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "PENDLE": {
@@ -1597,7 +1600,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "AERO": {
@@ -1611,7 +1614,7 @@
      "FC3",
      "FB2"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "RAY": {
@@ -1622,18 +1625,34 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "PUMP": {
-   "items": [],
+   "items": [
+    {
+     "title": "Pump.fun to Tie Callout Rewards to Followers\u2019 Profits",
+     "source": "The Defiant",
+     "date": "2026-10-10",
+     "url": "https://thedefiant.io/news/tokens/pump-fun-to-tie-callout-rewards-to-followers-profits"
+    }
+   ],
    "opinion": {
     "stance": "neutral",
     "text": "Buyback volume is real and strong \u2014 Pump.fun near 90% of $638M industry buybacks [5] \u2014 but protocol data flags the rebound as fragile [2] and a new launchpad rival emerged [3]. [1,4,6] are blog spam/tangential. Unlock schedule and RICO risk unchanged.",
-    "cited": [],
-    "cited_items": [],
+    "cited": [
+     1
+    ],
+    "cited_items": [
+     {
+      "title": "Pump.fun to Tie Callout Rewards to Followers\u2019 Profits",
+      "url": "https://thedefiant.io/news/tokens/pump-fun-to-tie-callout-rewards-to-followers-profits",
+      "source": "The Defiant",
+      "date": "2026-10-10"
+     }
+    ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "LDO": {
@@ -1660,7 +1679,7 @@
      "FA3",
      "FC6"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "ENA": {
@@ -1687,7 +1706,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "ONDO": {
@@ -1753,7 +1772,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "LEO": {
@@ -1799,7 +1818,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "OKB": {
@@ -1875,7 +1894,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "ARB": {
@@ -1941,7 +1960,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "XLM": {
@@ -1955,7 +1974,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "BCH": {
@@ -1966,7 +1985,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "ETC": {
@@ -1977,7 +1996,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   },
   "XTZ": {
@@ -1990,7 +2009,7 @@
     "filters": [
      "FC6"
     ],
-    "as_of": "2026-10-10"
+    "as_of": "2026-10-11"
    }
   }
  }
