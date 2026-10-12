@@ -1,37 +1,37 @@
 {
- "to": "2026-10-11",
- "from": "2026-09-28",
- "days": 13,
+ "to": "2026-10-12",
+ "from": "2026-10-06",
+ "days": 6,
  "movers": [
   {
    "tk": "Sonic",
-   "pct": 25.0,
-   "price": 0.04885343
+   "pct": 30.4,
+   "price": 0.057497
   },
   {
-   "tk": "HBAR",
-   "pct": -24.5,
-   "price": 0.091675
+   "tk": "VVV",
+   "pct": -17.5,
+   "price": 23.48
   },
   {
-   "tk": "AERO",
-   "pct": 23.9,
-   "price": 0.980644
+   "tk": "EGLD",
+   "pct": -17.2,
+   "price": 3.76
   },
   {
-   "tk": "ZEC",
-   "pct": -22.5,
-   "price": 1231.44
+   "tk": "UNI",
+   "pct": -16.3,
+   "price": 7.45
   },
   {
-   "tk": "DASH",
-   "pct": -22.4,
-   "price": 51.24
+   "tk": "VIRTUAL",
+   "pct": -14.7,
+   "price": 0.722295
   },
   {
-   "tk": "STX",
-   "pct": 21.1,
-   "price": 0.387999
+   "tk": "SKY",
+   "pct": -14.6,
+   "price": 0.077119
   }
  ],
  "verdicts": [],

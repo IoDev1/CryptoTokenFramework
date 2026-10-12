@@ -1,0 +1,2056 @@
+{
+ "as_of": "2026-10-12 15:14 UTC",
+ "rubric": "research/RUBRIC_v2.md",
+ "available_weight": 6.0,
+ "total_weight": 10.0,
+ "inflation_window_days": 32,
+ "drawdown_median": -84.35,
+ "tokens": {
+  "HBAR": {
+   "cells": {
+    "S1": 0.5,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2019; Jan-2025 price $0.278 was 49% of the pre-2022 ATH $0.5692",
+    "S3": "Revenue $0 (source Hedera)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (88.0% of existing supply circulating); fail inflation < 3%/yr (measured +4.3%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $34M vs $92M a year ago (-62%), DeFiLlama Hedera"
+   },
+   "q_mech": 1.7,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-84.1% from ATH (>= 75% down)",
+    "E2": "drawdown -84.1% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 38
+  },
+  "STX": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2019; new all-time high 2024-04-01 after the 2022 bear",
+    "S3": "Revenue $0 (source Stacks)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); fail inflation < 3%/yr (measured +5.2%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $93M vs $121M a year ago (-23%), DeFiLlama Stacks"
+   },
+   "q_mech": 4.6,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-89.7% from ATH (>= 75% down)",
+    "E2": "drawdown -89.7% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 14
+  },
+  "RENDER": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020 as RNDR; new all-time high 2024-03-17 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 394x (rev30d $230,742)",
+    "S4": "Revenue $230,742/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (97.2% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 5.8,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-84.9% from ATH (>= 75% down)",
+    "E2": "drawdown -84.9% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 7
+  },
+  "AAVE": {
+   "cells": {
+    "S1": 0.5,
+    "S3": 1.0,
+    "S4": 0.5,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; Jan-2025 price $288.2 was 44% of the pre-2022 ATH $661.7",
+    "S3": "FDV / annualised revenue = 44x (rev30d $4,936,368)",
+    "S4": "rev30d $4,936,368 vs prior $4,706,511 (+5%); annualised < 70% of 1y $90,049,131",
+    "S5": "ok circ >= 70% (96.5% of existing supply circulating); ok inflation < 3%/yr (measured +0.6%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $18,577M vs $39,069M a year ago (-52%), DeFiLlama aave"
+   },
+   "q_mech": 6.7,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-75.3% from ATH (>= 75% down)",
+    "E2": "drawdown -75.3% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 3
+  },
+  "QNT": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2018; Jan-2025 price $104.5 was 24% of the pre-2022 ATH $427.4",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (99.6% of existing supply circulating); ok inflation < 3%/yr (measured +0.9%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-46.5% from ATH (< 75% down)",
+    "E2": "drawdown -46.5% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 26
+  },
+  "SOL": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 1.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; new all-time high 2025-01-19 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 1787x (rev30d $3,232,039)",
+    "S4": "rev30d $3,232,039 vs prior $2,374,594 (+36%); annualised >= 70% of 1y $27,335,568",
+    "S5": "ok circ >= 70% (92.7% of existing supply circulating); fail inflation < 3%/yr (measured +5.4%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $6,203M vs $10,452M a year ago (-41%), DeFiLlama Solana"
+   },
+   "q_mech": 6.2,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-62.8% from ATH (< 75% down)",
+    "E2": "drawdown -62.8% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 6
+  },
+  "TAO": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2023: has not been through a full bear market yet",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "fail circ >= 70% (54.0% of existing supply circulating); fail inflation < 3%/yr (measured +207.0%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-62.0% from ATH (< 75% down)",
+    "E2": "drawdown -62.0% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 53
+  },
+  "ETH": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 1.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2015; new all-time high 2025-08-24 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 4006x (rev30d $6,420,981)",
+    "S4": "rev30d $6,420,981 vs prior $2,736,272 (+135%); annualised >= 70% of 1y $51,118,679",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.9%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $51,485M vs $81,938M a year ago (-37%), DeFiLlama Ethereum"
+   },
+   "q_mech": 7.5,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-48.9% from ATH (< 75% down)",
+    "E2": "drawdown -48.9% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 2
+  },
+  "SKY": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 0.5,
+    "S5": 1.0,
+    "S8": 0.5
+   },
+   "evidence": {
+    "S1": "Listed 2017 as MKR; Jan-2025 price was 23% of the pre-2022 MKR ATH $6292",
+    "S3": "FDV / annualised revenue = 11x (rev30d $13,513,474)",
+    "S4": "rev30d $13,513,474 vs prior $13,452,128 (+0%); annualised >= 70% of 1y $200,772,060",
+    "S5": "ok circ >= 70% (99.9% of existing supply circulating); ok inflation < 3%/yr (measured +0.7%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $5,918M vs $5,568M a year ago (+6%), DeFiLlama sky-lending"
+   },
+   "q_mech": 5.4,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-23.5% from ATH (< 75% down)",
+    "E2": "drawdown -23.5% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 12
+  },
+  "XMR": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2014; new all-time high 2026-01-14 after the 2022 bear",
+    "S3": "Revenue $0 (source Monero)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.8%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 5.8,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-33.5% from ATH (< 75% down)",
+    "E2": "drawdown -33.5% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 8
+  },
+  "INJ": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; new all-time high 2024-03-14 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 282x (rev30d $229,613)",
+    "S4": "Revenue $229,613/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $14M vs $20M a year ago (-32%), DeFiLlama Injective"
+   },
+   "q_mech": 5.8,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-85.2% from ATH (>= 75% down)",
+    "E2": "drawdown -85.2% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 9
+  },
+  "NEAR": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 1.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; Jan-2025 price $4.97 was 24% of the pre-2022 ATH $20.44",
+    "S3": "FDV / annualised revenue = 4705x (rev30d $129,655)",
+    "S4": "Revenue $129,655/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +2.4%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $268M vs $148M a year ago (+81%), DeFiLlama Near"
+   },
+   "q_mech": 3.3,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-72.6% from ATH (< 75% down)",
+    "E2": "drawdown -72.6% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 20
+  },
+  "UNI": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.5,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; Jan-2025 price $13.64 was 30% of the pre-2022 ATH $44.92",
+    "S3": "FDV / annualised revenue = 54x (rev30d $10,279,703)",
+    "S4": "rev30d $10,279,703 vs prior $14,353,271 (-28%); annualised >= 70% of 1y $56,005,246",
+    "S5": "ok circ >= 70% (70.4% of existing supply circulating); fail inflation < 3%/yr (measured +3.2%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $3,839M vs $5,935M a year ago (-35%), DeFiLlama uniswap"
+   },
+   "q_mech": 0.8,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-83.4% from ATH (>= 75% down)",
+    "E2": "drawdown -83.4% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 49
+  },
+  "HYPE": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.5,
+    "S4": 0.5,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2024: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 96x (rev30d $69,750,620)",
+    "S4": "rev30d $69,750,620 vs prior $77,393,117 (-10%); annualised >= 70% of 1y $696,032,669",
+    "S5": "fail circ >= 70% (23.3% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $1,091M vs $1,907M a year ago (-43%), DeFiLlama Hyperliquid L1"
+   },
+   "q_mech": 1.7,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-13.8% from ATH (< 75% down)",
+    "E2": "drawdown -13.8% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 39
+  },
+  "LINK": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 1.0
+   },
+   "evidence": {
+    "S1": "Listed 2017; Jan-2025 price $19.84 was 38% of the pre-2022 ATH $52.7",
+    "S3": "FDV / annualised revenue = 249x (rev30d $4,351,542)",
+    "S4": "rev30d $4,351,542 vs prior $5,525,870 (-21%); annualised >= 70% of 1y $58,772,664",
+    "S5": "ok circ >= 70% (76.7% of existing supply circulating); fail inflation < 3%/yr (measured +28.6%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $1,976M vs $1,392M a year ago (+42%), DeFiLlama chainlink"
+   },
+   "q_mech": 0.8,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-75.3% from ATH (>= 75% down)",
+    "E2": "drawdown -75.3% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 50
+  },
+  "FET": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2019; new all-time high 2024-03-28 after the 2022 bear",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (85.2% of existing supply circulating); ok inflation < 3%/yr (measured -0.0%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 4.6,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-93.6% from ATH (>= 75% down)",
+    "E2": "drawdown -93.6% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 15
+  },
+  "BNB": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.5,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2017; new all-time high 2025-10-13 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 4612x (rev30d $1,794,956)",
+    "S4": "rev30d $1,794,956 vs prior $2,081,590 (-14%); annualised >= 70% of 1y $19,008,997",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured -0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $5,573M vs $8,204M a year ago (-32%), DeFiLlama BSC"
+   },
+   "q_mech": 6.7,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-45.5% from ATH (< 75% down)",
+    "E2": "drawdown -45.5% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 4
+  },
+  "Canton": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2025: has not been through a full bear market yet",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); fail inflation < 3%/yr (measured +7.5%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL series shorter than a year (Canton)"
+   },
+   "q_mech": 1.2,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-37.3% from ATH (< 75% down)",
+    "E2": "drawdown -37.3% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 41
+  },
+  "AVAX": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; Jan-2025 price $36.56 was 25% of the pre-2022 ATH $145",
+    "S3": "FDV / annualised revenue = 950x (rev30d $440,890)",
+    "S4": "Revenue $440,890/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (94.3% of existing supply circulating); fail inflation < 3%/yr (measured +30.6%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $640M vs $1,815M a year ago (-65%), DeFiLlama Avalanche"
+   },
+   "q_mech": 1.2,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-92.6% from ATH (>= 75% down)",
+    "E2": "drawdown -92.6% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 42
+  },
+  "KAS": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2022: has not been through a full bear market yet",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +2.5%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-81.0% from ATH (>= 75% down)",
+    "E2": "drawdown -81.0% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 27
+  },
+  "VET": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2018; Jan-2025 price $0.04467 was 16% of the pre-2022 ATH $0.281",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-97.3% from ATH (>= 75% down)",
+    "E2": "drawdown -97.3% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 28
+  },
+  "TRX": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.5,
+    "S4": 0.5,
+    "S5": 1.0,
+    "S8": 0.5
+   },
+   "evidence": {
+    "S1": "Listed 2017; new all-time high 2024-12-03 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 112x (rev30d $23,385,392)",
+    "S4": "rev30d $23,385,392 vs prior $24,241,983 (-4%); annualised >= 70% of 1y $343,549,739",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.6%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $5,591M vs $5,701M a year ago (-2%), DeFiLlama Tron"
+   },
+   "q_mech": 7.9,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-23.3% from ATH (< 75% down)",
+    "E2": "drawdown -23.3% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 1
+  },
+  "CVX": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2021; ATH 2022-01-01 not exceeded and no 2025 recovery price in the top 200",
+    "S3": "FDV / annualised revenue = 18x (rev30d $937,127)",
+    "S4": "Revenue $937,127/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (93.2% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $592M vs $993M a year ago (-40%), DeFiLlama convex-finance"
+   },
+   "q_mech": 4.2,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-96.5% from ATH (>= 75% down)",
+    "E2": "drawdown -96.5% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 16
+  },
+  "LTC": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2013; Jan-2025 price $102.4 was 25% of the pre-2022 ATH $410.3",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +1.7%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-84.6% from ATH (>= 75% down)",
+    "E2": "drawdown -84.6% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 29
+  },
+  "SUI": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2023: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 12343x (rev30d $73,439)",
+    "S4": "Revenue $73,439/30d below the $1M materiality bar",
+    "S5": "fail circ >= 70% (41.2% of existing supply circulating); fail inflation < 3%/yr (measured +6.1%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $525M vs $1,921M a year ago (-73%), DeFiLlama Sui"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-79.6% from ATH (>= 75% down)",
+    "E2": "drawdown -79.6% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 54
+  },
+  "SNX": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2018; Jan-2025 price $1.786 was 6% of the pre-2022 ATH $28.53",
+    "S3": "FDV / annualised revenue = 1470x (rev30d $7,947)",
+    "S4": "Revenue $7,947/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (99.9% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $1M vs $121M a year ago (-99%), DeFiLlama synthetix"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-99.2% from ATH (>= 75% down)",
+    "E2": "drawdown -99.2% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 30
+  },
+  "ADA": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2017; Jan-2025 price $0.9686 was 31% of the pre-2022 ATH $3.09",
+    "S3": "FDV / annualised revenue = 38166x (rev30d $23,879)",
+    "S4": "Revenue $23,879/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (83.5% of existing supply circulating); ok inflation < 3%/yr (measured +1.3%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $68M vs $286M a year ago (-76%), DeFiLlama Cardano"
+   },
+   "q_mech": 1.2,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-92.1% from ATH (>= 75% down)",
+    "E2": "drawdown -92.1% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 43
+  },
+  "DOT": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; Jan-2025 price $6.629 was 12% of the pre-2022 ATH $54.98",
+    "S3": "Revenue $0 (source Polkadot)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); fail inflation < 3%/yr (measured +3.3%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL series shorter than a year (Polkadot)"
+   },
+   "q_mech": 1.2,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-97.7% from ATH (>= 75% down)",
+    "E2": "drawdown -97.7% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 44
+  },
+  "POL": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 0.5,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2019 as MATIC; Jan-2025 price was 15% of the pre-2022 MATIC ATH $2.92",
+    "S3": "FDV / annualised revenue = 39x (rev30d $2,310,382)",
+    "S4": "rev30d $2,310,382 vs prior $2,212,115 (+4%); annualised >= 70% of 1y $29,449,586",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured -8.7%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $680M vs $1,108M a year ago (-39%), DeFiLlama Polygon"
+   },
+   "q_mech": 5.0,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-92.1% from ATH (>= 75% down)",
+    "E2": "drawdown -92.1% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 13
+  },
+  "CRV": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 0.5,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; Jan-2025 price $0.8204 was 5% of the pre-2022 ATH $15.37",
+    "S3": "FDV / annualised revenue = 46x (rev30d $1,587,402)",
+    "S4": "rev30d $1,587,402 vs prior $1,252,559 (+27%); annualised < 70% of 1y $28,169,571",
+    "S5": "fail circ >= 70% (64.9% of existing supply circulating); fail inflation < 3%/yr (measured +12.7%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $1,241M vs $2,028M a year ago (-39%), DeFiLlama curve-dex"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-97.7% from ATH (>= 75% down)",
+    "E2": "drawdown -97.7% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 31
+  },
+  "Sonic": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2019 as FTM; recovery vs the FTM ATH could not be verified",
+    "S3": "FDV / annualised revenue = 3460x (rev30d $5,387)",
+    "S4": "Revenue $5,387/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $21M vs $220M a year ago (-90%), DeFiLlama Sonic"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-94.4% from ATH (>= 75% down)",
+    "E2": "drawdown -94.4% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 32
+  },
+  "ICP": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2021; Jan-2025 price $10.23 was 1% of the pre-2022 ATH $700.6",
+    "S3": "FDV / annualised revenue = 871x (rev30d $177,011)",
+    "S4": "Revenue $177,011/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +2.2%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $12M vs $15M a year ago (-20%), DeFiLlama ICP"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-99.5% from ATH (>= 75% down)",
+    "E2": "drawdown -99.5% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 33
+  },
+  "YFI": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.5,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; ATH 2021-05-11 not exceeded and no 2025 recovery price in the top 200",
+    "S3": "FDV / annualised revenue = 166x (rev30d $43,519)",
+    "S4": "Revenue $43,519/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (98.4% of existing supply circulating); ok inflation < 3%/yr (measured -0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $200M vs $535M a year ago (-63%), DeFiLlama yearn-finance"
+   },
+   "q_mech": 3.3,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-97.4% from ATH (>= 75% down)",
+    "E2": "drawdown -97.4% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 21
+  },
+  "COMP": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.5,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; Jan-2025 price $77.22 was 9% of the pre-2022 ATH $854.5",
+    "S3": "FDV / annualised revenue = 57x (rev30d $345,758)",
+    "S4": "Revenue $345,758/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $1,449M vs $2,192M a year ago (-34%), DeFiLlama compound-v3"
+   },
+   "q_mech": 3.3,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-97.2% from ATH (>= 75% down)",
+    "E2": "drawdown -97.2% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 22
+  },
+  "DASH": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2014; Jan-2025 price $36.84 was 2% of the pre-2022 ATH $1494",
+    "S3": "Revenue $0 (source Dash)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); fail inflation < 3%/yr (measured +3.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 1.2,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-96.6% from ATH (>= 75% down)",
+    "E2": "drawdown -96.6% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 45
+  },
+  "JUP": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2024: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 36x (rev30d $5,516,465)",
+    "S4": "rev30d $5,516,465 vs prior $7,008,789 (-21%); annualised >= 70% of 1y $79,035,379",
+    "S5": "fail circ >= 70% (48.4% of existing supply circulating); ok inflation < 3%/yr (measured -0.3%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 1.7,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-82.8% from ATH (>= 75% down)",
+    "E2": "drawdown -82.8% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 40
+  },
+  "XRP": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2013; new all-time high 2025-07-17 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 335686x (rev30d $34,154)",
+    "S4": "Revenue $34,154/30d below the $1M materiality bar",
+    "S5": "fail circ >= 70% (63.1% of existing supply circulating); fail inflation < 3%/yr (measured +7.0%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $42M vs $81M a year ago (-48%), DeFiLlama XRPL"
+   },
+   "q_mech": 3.3,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-62.2% from ATH (< 75% down)",
+    "E2": "drawdown -62.2% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 23
+  },
+  "MORPHO": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 1.0
+   },
+   "evidence": {
+    "S1": "Listed 2024: has not been through a full bear market yet",
+    "S3": "Revenue $0 (source Morpho Blue, Morpho Midnight)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (70.0% of existing supply circulating); fail inflation < 3%/yr (measured +19.2%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $11,289M vs $6,950M a year ago (+62%), DeFiLlama morpho-blue"
+   },
+   "q_mech": 0.8,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-41.0% from ATH (< 75% down)",
+    "E2": "drawdown -41.0% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 51
+  },
+  "SEI": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2023: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 21618x (rev30d $2,569)",
+    "S4": "Revenue $2,569/30d below the $1M materiality bar",
+    "S5": "fail circ >= 70% (67.3% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $34M vs $415M a year ago (-92%), DeFiLlama Sei"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-94.1% from ATH (>= 75% down)",
+    "E2": "drawdown -94.1% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 55
+  },
+  "ZEC": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2016; Jan-2025 price $48 was 2% of the pre-2022 ATH $3192",
+    "S3": "Revenue $0 (source Zcash)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); fail inflation < 3%/yr (measured +4.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 1.2,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-60.2% from ATH (< 75% down)",
+    "E2": "drawdown -60.2% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 46
+  },
+  "TON": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2021; new all-time high 2024-06-14 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 17273x (rev30d $35,135)",
+    "S4": "Revenue $35,135/30d below the $1M materiality bar",
+    "S5": "fail circ >= 70% (53.7% of existing supply circulating); fail inflation < 3%/yr (measured +16.6%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $51M vs $103M a year ago (-51%), DeFiLlama TON"
+   },
+   "q_mech": 3.3,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-83.2% from ATH (>= 75% down)",
+    "E2": "drawdown -83.2% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 24
+  },
+  "EGLD": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2020; Jan-2025 price $32.87 was 6% of the pre-2022 ATH $545.6",
+    "S3": "Revenue $0 (source MultiversX)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); fail inflation < 3%/yr (measured +6.7%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $13M vs $29M a year ago (-54%), DeFiLlama MultiversX"
+   },
+   "q_mech": 1.2,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-99.3% from ATH (>= 75% down)",
+    "E2": "drawdown -99.3% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 47
+  },
+  "WLD": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2023: has not been through a full bear market yet",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "fail circ >= 70% (38.1% of existing supply circulating); fail inflation < 3%/yr (measured +52.6%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-95.5% from ATH (>= 75% down)",
+    "E2": "drawdown -95.5% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 56
+  },
+  "PLUME": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2025: has not been through a full bear market yet",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "fail circ >= 70% (66.1% of existing supply circulating); fail inflation < 3%/yr (measured +37.8%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $3M vs $280M a year ago (-99%), DeFiLlama Plume Mainnet"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-91.3% from ATH (>= 75% down)",
+    "E2": "drawdown -91.3% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 57
+  },
+  "KAITO": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2025: has not been through a full bear market yet",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "fail circ >= 70% (24.1% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-89.2% from ATH (>= 75% down)",
+    "E2": "drawdown -89.2% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 58
+  },
+  "VIRTUAL": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2024: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 431x (rev30d $139,500)",
+    "S4": "Revenue $139,500/30d below the $1M materiality bar",
+    "S5": "fail circ >= 70% (65.8% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL series shorter than a year (virtuals-protocol)"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-85.7% from ATH (>= 75% down)",
+    "E2": "drawdown -85.7% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 59
+  },
+  "BTC": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2010; new all-time high 2025-10-06 after the 2022 bear",
+    "S3": "Revenue $0 (source Bitcoin)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.8%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $4,427M vs $8,084M a year ago (-45%), DeFiLlama Bitcoin"
+   },
+   "q_mech": 5.8,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-34.5% from ATH (< 75% down)",
+    "E2": "drawdown -34.5% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 10
+  },
+  "VVV": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.5,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2025: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 173x (rev30d $917,708)",
+    "S4": "Revenue $917,708/30d below the $1M materiality bar",
+    "S5": "fail circ >= 70% (59.6% of existing supply circulating); fail inflation < 3%/yr (measured +10.4%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 0.8,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-32.0% from ATH (< 75% down)",
+    "E2": "drawdown -32.0% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 52
+  },
+  "PENDLE": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.5,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2021; new all-time high 2024-04-11 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 120x (rev30d $415,230)",
+    "S4": "Revenue $415,230/30d below the $1M materiality bar",
+    "S5": "fail circ >= 70% (61.7% of existing supply circulating); fail inflation < 3%/yr (measured +5.7%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $1,227M vs $6,465M a year ago (-81%), DeFiLlama pendle"
+   },
+   "q_mech": 4.2,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-71.7% from ATH (< 75% down)",
+    "E2": "drawdown -71.7% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 17
+  },
+  "AERO": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.5
+   },
+   "evidence": {
+    "S1": "Listed 2023: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 20x (rev30d $7,614,905)",
+    "S4": "rev30d $7,614,905 vs prior $13,454,916 (-43%); annualised >= 70% of 1y $89,291,376",
+    "S5": "fail circ >= 70% (50.3% of existing supply circulating); fail inflation < 3%/yr (measured +17.9%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $219M vs $235M a year ago (-7%), DeFiLlama aerodrome-slipstream"
+   },
+   "q_mech": 2.1,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-60.7% from ATH (< 75% down)",
+    "E2": "drawdown -60.7% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 37
+  },
+  "RAY": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 1.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2021; Jan-2025 price $4.669 was 28% of the pre-2022 ATH $16.83",
+    "S3": "FDV / annualised revenue = 17x (rev30d $6,173,256)",
+    "S4": "rev30d $6,173,256 vs prior $3,315,271 (+86%); annualised >= 70% of 1y $26,713,342",
+    "S5": "fail circ >= 70% (48.6% of existing supply circulating); ok inflation < 3%/yr (measured +0.5%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $1,242M vs $1,949M a year ago (-36%), DeFiLlama raydium"
+   },
+   "q_mech": 3.3,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-86.8% from ATH (>= 75% down)",
+    "E2": "drawdown -86.8% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 25
+  },
+  "PUMP": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 1.0,
+    "S5": 0.0,
+    "S8": 1.0
+   },
+   "evidence": {
+    "S1": "Listed 2025: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 6x (rev30d $64,618,908)",
+    "S4": "rev30d $64,618,908 vs prior $56,136,944 (+15%); annualised >= 70% of 1y $478,898,520",
+    "S5": "fail circ >= 70% (55.9% of existing supply circulating); fail inflation < 3%/yr (measured +133.2%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $374M vs $255M a year ago (+46%), DeFiLlama pumpswap"
+   },
+   "q_mech": 4.2,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-38.7% from ATH (< 75% down)",
+    "E2": "drawdown -38.7% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 18
+  },
+  "LDO": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 1.0,
+    "S4": 0.5,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2021; Jan-2025 price $1.563 was 21% of the pre-2022 ATH $7.3",
+    "S3": "FDV / annualised revenue = 11x (rev30d $3,222,780)",
+    "S4": "rev30d $3,222,780 vs prior $2,817,405 (+14%); annualised >= 70% of 1y $35,210,490",
+    "S5": "ok circ >= 70% (83.0% of existing supply circulating); ok inflation < 3%/yr (measured -6.3%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $24,515M vs $31,865M a year ago (-23%), DeFiLlama lido"
+   },
+   "q_mech": 3.8,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-94.2% from ATH (>= 75% down)",
+    "E2": "drawdown -94.2% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "watch",
+   "rank": 19
+  },
+  "ENA": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2024: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 13578x (rev30d $20,479)",
+    "S4": "Revenue $20,479/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (89.4% of existing supply circulating); fail inflation < 3%/yr (measured +374.1%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $4,750M vs $12,706M a year ago (-63%), DeFiLlama ethena-usde"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-85.3% from ATH (>= 75% down)",
+    "E2": "drawdown -85.3% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 60
+  },
+  "ONDO": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2024: has not been through a full bear market yet",
+    "S3": "Revenue $0 (source Ondo Yield Assets)",
+    "S4": "No revenue data",
+    "S5": "fail circ >= 70% (48.7% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-76.6% from ATH (>= 75% down)",
+    "E2": "drawdown -76.6% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 61
+  },
+  "LEO": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2019; new all-time high 2026-05-04 after the 2022 bear",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (93.4% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "No TVL series on DeFiLlama for this token"
+   },
+   "q_mech": 5.8,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-16.9% from ATH (< 75% down)",
+    "E2": "drawdown -16.9% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 11
+  },
+  "OKB": {
+   "cells": {
+    "S1": 1.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 1.0
+   },
+   "evidence": {
+    "S1": "Listed 2019; new all-time high 2025-10-04 after the 2022 bear",
+    "S3": "FDV / annualised revenue = 4852x (rev30d $44,809)",
+    "S4": "Revenue $44,809/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $160M vs $24M a year ago (+555%), DeFiLlama X Layer"
+   },
+   "q_mech": 6.7,
+   "entry": {
+    "E1": 0,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-45.7% from ATH (< 75% down)",
+    "E2": "drawdown -45.7% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "core",
+   "rank": 5
+  },
+  "ARB": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2023: has not been through a full bear market yet",
+    "S3": "FDV / annualised revenue = 325x (rev30d $483,511)",
+    "S4": "Revenue $483,511/30d below the $1M materiality bar",
+    "S5": "fail circ >= 70% (67.9% of existing supply circulating); fail inflation < 3%/yr (measured +18.4%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $1,376M vs $3,731M a year ago (-63%), DeFiLlama Arbitrum"
+   },
+   "q_mech": 0.0,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-92.1% from ATH (>= 75% down)",
+    "E2": "drawdown -92.1% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 62
+  },
+  "XLM": {
+   "cells": {
+    "S1": 0.5,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.0,
+    "S8": 1.0
+   },
+   "evidence": {
+    "S1": "Listed 2014; Jan-2025 price $0.4226 was 48% of the pre-2022 ATH $0.8756",
+    "S3": "FDV / annualised revenue = 16996x (rev30d $48,324)",
+    "S4": "Revenue $48,324/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (70.1% of existing supply circulating); fail inflation < 3%/yr (measured +8.2%/yr from 32 days of snapshots); fail unlocks < 10% (unlock schedule not verified mechanically)",
+    "S8": "TVL $249M vs $128M a year ago (+95%), DeFiLlama Stellar"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 1
+   },
+   "entry_evidence": {
+    "E1": "-77.5% from ATH (>= 75% down)",
+    "E2": "drawdown -77.5% vs universe median -84.3% (better)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 34
+  },
+  "BCH": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2017; Jan-2025 price $447.8 was 12% of the pre-2022 ATH $3786",
+    "S3": "Revenue $0 (source Bitcoincash)",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); ok inflation < 3%/yr (measured +0.8%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $6M vs $8M a year ago (-24%), DeFiLlama Bitcoincash"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-92.7% from ATH (>= 75% down)",
+    "E2": "drawdown -92.7% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 35
+  },
+  "ETC": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 0.5,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2016; Jan-2025 price $25.26 was 15% of the pre-2022 ATH $167.1",
+    "S3": "No protocol revenue on DeFiLlama",
+    "S4": "No revenue data",
+    "S5": "ok circ >= 70% (100.0% of existing supply circulating); fail inflation < 3%/yr (measured +4.4%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $0M vs $0M a year ago (-69%), DeFiLlama Ethereum Classic"
+   },
+   "q_mech": 1.2,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-95.0% from ATH (>= 75% down)",
+    "E2": "drawdown -95.0% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 48
+  },
+  "XTZ": {
+   "cells": {
+    "S1": 0.0,
+    "S3": 0.0,
+    "S4": 0.0,
+    "S5": 1.0,
+    "S8": 0.0
+   },
+   "evidence": {
+    "S1": "Listed 2018; Jan-2025 price $1.258 was 14% of the pre-2022 ATH $9.12",
+    "S3": "FDV / annualised revenue = 12673x (rev30d $2,331)",
+    "S4": "Revenue $2,331/30d below the $1M materiality bar",
+    "S5": "ok circ >= 70% (98.2% of existing supply circulating); ok inflation < 3%/yr (measured +3.0%/yr from 32 days of snapshots); ok unlocks < 10% (provable: <10% of supply is non-circulating)",
+    "S8": "TVL $20M vs $37M a year ago (-45%), DeFiLlama Tezos"
+   },
+   "q_mech": 2.5,
+   "entry": {
+    "E1": 1,
+    "E2": 0
+   },
+   "entry_evidence": {
+    "E1": "-96.5% from ATH (>= 75% down)",
+    "E2": "drawdown -96.5% vs universe median -84.3% (worse)"
+   },
+   "judgment_cells": [
+    "S2 value accrual",
+    "S6 moat",
+    "S7 holder concentration",
+    "G1-G5 gates"
+   ],
+   "tier": "avoid",
+   "rank": 36
+  }
+ }
+}
