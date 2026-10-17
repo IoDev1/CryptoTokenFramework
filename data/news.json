@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-16",
+ "as_of": "2026-10-17",
  "source": "Outlet RSS (CoinDesk, Cointelegraph, Decrypt, The Block, DL News, The Defiant, CryptoSlate, BeInCrypto), last 14 days",
  "tokens": {
   "HBAR": {
@@ -10,7 +10,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "STX": {
@@ -52,7 +52,7 @@
      "FC6",
      "FC3"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "RENDER": {
@@ -63,7 +63,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "AAVE": {
@@ -167,7 +167,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "QNT": {
@@ -178,7 +178,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "SOL": {
@@ -208,6 +208,18 @@
      "url": "https://thedefiant.io/news/regulation/solana-s-shanghai-event-halted-with-officers-present-attendees-say"
     },
     {
+     "title": "Raoul Pal Holds Bitcoin, Solana and Ethereum, but Calls One Wildly Undervalued",
+     "source": "BeInCrypto",
+     "date": "2026-10-16",
+     "url": "https://beincrypto.com/raoul-pal-ethereum-undervalued-stress-test/"
+    },
+    {
+     "title": "Solana\u2019s Liu says Shanghai event postponed over registration surge",
+     "source": "Cointelegraph",
+     "date": "2026-10-16",
+     "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
      "title": "Solana Just Did Something in China That Changpeng Zhao Says BNB Chain Couldn\u2019t",
      "source": "BeInCrypto",
      "date": "2026-10-15",
@@ -218,18 +230,6 @@
      "source": "CryptoSlate",
      "date": "2026-10-15",
      "url": "https://cryptoslate.com/solana-sets-october-21-for-massive-alpenglow-upgrade-that-could-make-transactions-99-faster-to-finalize/"
-    },
-    {
-     "title": "DeFi Development boosts CHAD dividend to 14% amid push to grow Solana holdings",
-     "source": "The Block",
-     "date": "2026-10-15",
-     "url": "https://www.theblock.co/news/markets/2026-10-15-defi-development-chad-dividend-rate-14-418694"
-    },
-    {
-     "title": "Morning Minute: Solana Is About To Get Faster",
-     "source": "Decrypt",
-     "date": "2026-10-15",
-     "url": "https://decrypt.co/381018/morning-minute-solana-is-about-to-get-faster"
     }
    ],
    "opinion": {
@@ -254,14 +254,14 @@
       "date": "2026-10-16"
      },
      {
-      "title": "Solana sets October 21 for massive Alpenglow upgrade that could make transactions 99% faster to finalize",
-      "url": "https://cryptoslate.com/solana-sets-october-21-for-massive-alpenglow-upgrade-that-could-make-transactions-99-faster-to-finalize/",
-      "source": "CryptoSlate",
-      "date": "2026-10-15"
+      "title": "Solana\u2019s Liu says Shanghai event postponed over registration surge",
+      "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-10-16"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "TAO": {
@@ -272,11 +272,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "ETH": {
    "items": [
+    {
+     "title": "Ether ETFs Lose $320 Million, Overtaking Bitcoin's Weekly Outflows",
+     "source": "The Defiant",
+     "date": "2026-10-17",
+     "url": "https://thedefiant.io/news/markets/ether-etfs-lose-320-million-overtaking-bitcoin-s-weekly-outflows"
+    },
     {
      "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
      "source": "Decrypt",
@@ -296,6 +302,18 @@
      "url": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own"
     },
     {
+     "title": "Raoul Pal Holds Bitcoin, Solana and Ethereum, but Calls One Wildly Undervalued",
+     "source": "BeInCrypto",
+     "date": "2026-10-16",
+     "url": "https://beincrypto.com/raoul-pal-ethereum-undervalued-stress-test/"
+    },
+    {
+     "title": "How Ethereum Works",
+     "source": "The Block",
+     "date": "2026-10-16",
+     "url": "https://www.theblock.co/learn/ethereum/how-ethereum-works-418525"
+    },
+    {
      "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
      "source": "Cointelegraph",
      "date": "2026-10-15",
@@ -306,24 +324,6 @@
      "source": "The Defiant",
      "date": "2026-10-15",
      "url": "https://thedefiant.io/news/markets/ethereum-hex-sinks-31-after-reports-of-richard-heart-s-detention"
-    },
-    {
-     "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
-     "source": "CoinDesk",
-     "date": "2026-10-15",
-     "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide"
-    },
-    {
-     "title": "VanEck seeks to withdraw application for Lido staked Ether ETF",
-     "source": "Cointelegraph",
-     "date": "2026-10-15",
-     "url": "https://cointelegraph.com/news/vaneck-seeks-to-withdraw-application-for-lido-staked-ether-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "Schwab Completes Retail Bitcoin and Ether Rollout, Begins Crypto Transfers",
-     "source": "The Defiant",
-     "date": "2026-10-15",
-     "url": "https://thedefiant.io/converge/tradfi-and-fintech/schwab-completes-retail-bitcoin-and-ether-rollout-begins-crypto-transfers"
     }
    ],
    "opinion": {
@@ -334,16 +334,16 @@
     ],
     "cited_items": [
      {
-      "title": "XRP has failed to make holders rich like bitcoin and ether. Here\u2019s why",
-      "url": "https://www.coindesk.com/markets/2026/10/16/xrp-has-failed-to-make-holders-rich-like-bitcoin-and-ether-here-s-why",
-      "source": "CoinDesk",
+      "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
+      "url": "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task",
+      "source": "Decrypt",
       "date": "2026-10-16"
      }
     ],
     "filters": [
      "FB1"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "SKY": {
@@ -370,7 +370,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "XMR": {
@@ -397,7 +397,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "INJ": {
@@ -423,7 +423,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "NEAR": {
@@ -450,11 +450,17 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "UNI": {
    "items": [
+    {
+     "title": "Only 18% of Uniswap v3 positions under $1,000 beat holding after gas, study finds",
+     "source": "CryptoSlate",
+     "date": "2026-10-16",
+     "url": "https://cryptoslate.com/uniswap-v4-can-cut-transfer-costs-while-lps-remain-exposed-to-price-swings/"
+    },
     {
      "title": "Sectora Foundation Announces Final Testing of Four Products and $SECT Token Availability on Uniswap",
      "source": "BeInCrypto",
@@ -472,12 +478,6 @@
      "source": "The Defiant",
      "date": "2026-10-05",
      "url": "https://thedefiant.io/news/defi/okx-ice-plans-tokenized-stock-trading-through-a-uniswap-v4-hook"
-    },
-    {
-     "title": "SMBC Nikko and Nethermind Plan Compliance Hooks for Uniswap Pools",
-     "source": "The Defiant",
-     "date": "2026-10-02",
-     "url": "https://thedefiant.io/news/defi/smbc-nikko-and-nethermind-plan-compliance-hooks-for-uniswap-pools"
     }
    ],
    "opinion": {
@@ -490,6 +490,12 @@
      4
     ],
     "cited_items": [
+     {
+      "title": "Only 18% of Uniswap v3 positions under $1,000 beat holding after gas, study finds",
+      "url": "https://cryptoslate.com/uniswap-v4-can-cut-transfer-costs-while-lps-remain-exposed-to-price-swings/",
+      "source": "CryptoSlate",
+      "date": "2026-10-16"
+     },
      {
       "title": "Sectora Foundation Announces Final Testing of Four Products and $SECT Token Availability on Uniswap",
       "url": "https://beincrypto.com/sectora-foundation-final-testing-four-products-sect-token/",
@@ -507,16 +513,10 @@
       "url": "https://thedefiant.io/news/defi/okx-ice-plans-tokenized-stock-trading-through-a-uniswap-v4-hook",
       "source": "The Defiant",
       "date": "2026-10-05"
-     },
-     {
-      "title": "SMBC Nikko and Nethermind Plan Compliance Hooks for Uniswap Pools",
-      "url": "https://thedefiant.io/news/defi/smbc-nikko-and-nethermind-plan-compliance-hooks-for-uniswap-pools",
-      "source": "The Defiant",
-      "date": "2026-10-02"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "HYPE": {
@@ -594,7 +594,7 @@
     "filters": [
      "FA1"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "LINK": {
@@ -605,7 +605,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "FET": {
@@ -616,7 +616,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "BNB": {
@@ -668,7 +668,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "Canton": {
@@ -679,7 +679,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "AVAX": {
@@ -732,7 +732,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "KAS": {
@@ -743,7 +743,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "VET": {
@@ -754,7 +754,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "TRX": {
@@ -820,7 +820,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "CVX": {
@@ -831,7 +831,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "LTC": {
@@ -842,7 +842,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "SUI": {
@@ -946,7 +946,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "SNX": {
@@ -959,11 +959,23 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "ADA": {
    "items": [
+    {
+     "title": "Cardano shifts $26M to USDCx as bridge controls freeze payouts",
+     "source": "CryptoSlate",
+     "date": "2026-10-17",
+     "url": "https://cryptoslate.com/cardano-shifts-26m-to-usdcx-as-bridge-controls-freeze-payouts/"
+    },
+    {
+     "title": "Cardano governance hits a wall as treasury reaches 91% cap",
+     "source": "CryptoSlate",
+     "date": "2026-10-16",
+     "url": "https://cryptoslate.com/cardano-has-42-6-million-ada-left-under-its-current-treasury-spending-limit/"
+    },
     {
      "title": "Cardano Foundation Spins Out Veridian With Tokenized Equity",
      "source": "The Defiant",
@@ -999,12 +1011,6 @@
      "source": "CryptoSlate",
      "date": "2026-10-06",
      "url": "https://cryptoslate.com/cardano-just-added-the-kind-of-token-controls-wall-street-wants-and-defi-may-hate/"
-    },
-    {
-     "title": "Cardano's ADA leads gains in narrow range-bound market",
-     "source": "CoinDesk",
-     "date": "2026-10-05",
-     "url": "https://www.coindesk.com/markets/2026/10/05/cardano-s-ada-leads-gains-in-narrow-range-bound-market"
     }
    ],
    "opinion": {
@@ -1019,6 +1025,18 @@
      6
     ],
     "cited_items": [
+     {
+      "title": "Cardano shifts $26M to USDCx as bridge controls freeze payouts",
+      "url": "https://cryptoslate.com/cardano-shifts-26m-to-usdcx-as-bridge-controls-freeze-payouts/",
+      "source": "CryptoSlate",
+      "date": "2026-10-17"
+     },
+     {
+      "title": "Cardano governance hits a wall as treasury reaches 91% cap",
+      "url": "https://cryptoslate.com/cardano-has-42-6-million-ada-left-under-its-current-treasury-spending-limit/",
+      "source": "CryptoSlate",
+      "date": "2026-10-16"
+     },
      {
       "title": "Cardano Foundation Spins Out Veridian With Tokenized Equity",
       "url": "https://thedefiant.io/news/infrastructure/cardano-foundation-spins-out-veridian-with-tokenized-equity",
@@ -1042,22 +1060,10 @@
       "url": "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets",
       "source": "CoinDesk",
       "date": "2026-10-07"
-     },
-     {
-      "title": "Cardano's Programmable Token Standard Goes Live With Issuer Controls",
-      "url": "https://thedefiant.io/news/blockchains/cardano-s-programmable-token-standard-goes-live-with-issuer-controls",
-      "source": "The Defiant",
-      "date": "2026-10-07"
-     },
-     {
-      "title": "Cardano just added the kind of token controls Wall Street wants and DeFi may hate",
-      "url": "https://cryptoslate.com/cardano-just-added-the-kind-of-token-controls-wall-street-wants-and-defi-may-hate/",
-      "source": "CryptoSlate",
-      "date": "2026-10-06"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "DOT": {
@@ -1084,7 +1090,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "POL": {
@@ -1133,18 +1139,25 @@
      "FC1",
      "FC4"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "CRV": {
-   "items": [],
+   "items": [
+    {
+     "title": "Anthropic Says Claude Traced NIST Curve Seeds to 1990s Timestamps",
+     "source": "The Defiant",
+     "date": "2026-10-16",
+     "url": "https://thedefiant.io/news/security/anthropic-says-claude-traced-nist-curve-seeds-to-1990s-timestamps"
+    }
+   ],
    "opinion": {
     "stance": "neutral",
     "text": "Curve handing its risk mandate to two Resupply developers [5] is a real governance change but doesn't offset the emissions-vs-halved-revenue risk or founder-dump history. Rest [1,2,3,4,6] is duplicated pump/dump price-action noise. Verdict unchanged.",
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "Sonic": {
@@ -1155,7 +1168,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "ICP": {
@@ -1166,7 +1179,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "YFI": {
@@ -1177,7 +1190,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "COMP": {
@@ -1188,7 +1201,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "DASH": {
@@ -1199,7 +1212,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "JUP": {
@@ -1258,11 +1271,17 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "XRP": {
    "items": [
+    {
+     "title": "Former Ripple Adviser Warns XRP\u2019s Biggest Test Is Still Ahead",
+     "source": "BeInCrypto",
+     "date": "2026-10-17",
+     "url": "https://beincrypto.com/ripple-xrp-ledger-tech-adoption-hurdle/"
+    },
     {
      "title": "Ripple opens Wall Street\u2019s door to Hyperliquid\u2019s $59 billion trading market",
      "source": "CryptoSlate",
@@ -1304,12 +1323,6 @@
      "source": "CryptoSlate",
      "date": "2026-10-15",
      "url": "https://cryptoslate.com/xrp-exchange-wallets-added-84-million-tokens-in-three-days-as-price-slipped-toward-1-30/"
-    },
-    {
-     "title": "Ripple Prime Rolls Out Traditional-Asset Perps Linked to Trade.xyz, Bloomberg Reports",
-     "source": "The Defiant",
-     "date": "2026-10-15",
-     "url": "https://thedefiant.io/converge/tradfi-and-fintech/ripple-prime-rolls-out-traditional-asset-perps-linked-to-trade-xyz-bloomberg-reports"
     }
    ],
    "opinion": {
@@ -1323,6 +1336,12 @@
      6
     ],
     "cited_items": [
+     {
+      "title": "Former Ripple Adviser Warns XRP\u2019s Biggest Test Is Still Ahead",
+      "url": "https://beincrypto.com/ripple-xrp-ledger-tech-adoption-hurdle/",
+      "source": "BeInCrypto",
+      "date": "2026-10-17"
+     },
      {
       "title": "Ripple opens Wall Street\u2019s door to Hyperliquid\u2019s $59 billion trading market",
       "url": "https://cryptoslate.com/ripple-opens-wall-streets-door-to-hyperliquids-59-billion-trading-market/",
@@ -1342,20 +1361,14 @@
       "date": "2026-10-15"
      },
      {
-      "title": "Bitcoin ETFs shed $261M as XRP funds buck weekly outflow trend",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-outflow-btc-below-82k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "2026-10-15"
-     },
-     {
-      "title": "Firelight forces XRP-linked tokens lockup as withdrawal delay queue grows",
-      "url": "https://cryptoslate.com/firelight-forces-xrp-linked-tokens-lockup-as-withdrawal-delay-queue-grows/",
-      "source": "CryptoSlate",
+      "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
+      "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+      "source": "CoinDesk",
       "date": "2026-10-15"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "MORPHO": {
@@ -1417,18 +1430,40 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "SEI": {
-   "items": [],
+   "items": [
+    {
+     "title": "SEI Perpetual Futures Trade on CFTC-Regulated OG.com Markets",
+     "source": "The Defiant",
+     "date": "2026-10-16",
+     "url": "https://thedefiant.io/news/cefi/sei-perpetual-futures-trade-on-cftc-regulated-og-com-markets"
+    },
+    {
+     "title": "INJ Surges 27%, Outpacing NEAR and Sei",
+     "source": "The Defiant",
+     "date": "2026-10-16",
+     "url": "https://thedefiant.io/news/markets/inj-surges-27-outpacing-near-and-sei"
+    }
+   ],
    "opinion": {
     "stance": "neutral",
     "text": "Real items: Ondo's USDY fund launching on Sei [2] and Giga Upgrade progress toward 200k TPS [6] could eventually help fee generation. [1] is a price prediction; [3,4,5] are unrelated SEI-ticker collisions (an NGO, SEI Investments stock). Doesn't yet fix the farmed-usage/thin-fee risk.",
-    "cited": [],
-    "cited_items": [],
+    "cited": [
+     2
+    ],
+    "cited_items": [
+     {
+      "title": "INJ Surges 27%, Outpacing NEAR and Sei",
+      "url": "https://thedefiant.io/news/markets/inj-surges-27-outpacing-near-and-sei",
+      "source": "The Defiant",
+      "date": "2026-10-16"
+     }
+    ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "ZEC": {
@@ -1532,7 +1567,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "TON": {
@@ -1545,7 +1580,7 @@
     "filters": [
      "FC3"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "EGLD": {
@@ -1556,7 +1591,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "WLD": {
@@ -1583,7 +1618,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "PLUME": {
@@ -1610,7 +1645,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "KAITO": {
@@ -1621,7 +1656,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "VIRTUAL": {
@@ -1632,11 +1667,41 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "BTC": {
    "items": [
+    {
+     "title": "Bitcoin Bull Signals are Flashing Everywhere, Analysts Claim",
+     "source": "BeInCrypto",
+     "date": "2026-10-17",
+     "url": "https://beincrypto.com/bitcoin-bull-signals-planb-momentum-cycle/"
+    },
+    {
+     "title": "Ether ETFs Lose $320 Million, Overtaking Bitcoin's Weekly Outflows",
+     "source": "The Defiant",
+     "date": "2026-10-17",
+     "url": "https://thedefiant.io/news/markets/ether-etfs-lose-320-million-overtaking-bitcoin-s-weekly-outflows"
+    },
+    {
+     "title": "Strategy Slides 9.6% After MSCI Decision, Outpacing Bitcoin\u2019s Drop",
+     "source": "The Defiant",
+     "date": "2026-10-17",
+     "url": "https://thedefiant.io/converge/markets/strategy-slides-9-6-after-msci-decision-outpacing-bitcoin-s-drop"
+    },
+    {
+     "title": "Bitcoin\u2019s inflation hedge has a hidden cost, and leverage makes it worse",
+     "source": "CryptoSlate",
+     "date": "2026-10-17",
+     "url": "https://cryptoslate.com/bitcoins-inflation-hedge-has-a-hidden-cost-and-leverage-makes-it-worse/"
+    },
+    {
+     "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
+     "source": "CoinDesk",
+     "date": "2026-10-17",
+     "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough"
+    },
     {
      "title": "Bitcoin Whale Wallets Hit a Record While Shorts Pile In. What Comes Next?",
      "source": "BeInCrypto",
@@ -1654,36 +1719,6 @@
      "source": "CoinDesk",
      "date": "2026-10-16",
      "url": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans"
-    },
-    {
-     "title": "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
-     "source": "CoinDesk",
-     "date": "2026-10-16",
-     "url": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin"
-    },
-    {
-     "title": "Live updates: Bitcoin back above $82,000, ZEC jumps 11% as ETF outflows continue",
-     "source": "CoinDesk",
-     "date": "2026-10-16",
-     "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue"
-    },
-    {
-     "title": "Bitcoin faces an $8,000 trading trap as US midterms approach",
-     "source": "CryptoSlate",
-     "date": "2026-10-16",
-     "url": "https://cryptoslate.com/bitcoin-faces-an-8000-trading-trap-as-us-midterms-approach/"
-    },
-    {
-     "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
-     "source": "CoinDesk",
-     "date": "2026-10-15",
-     "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises"
-    },
-    {
-     "title": "Bitcoin\u2019s AI-driven rally faces a hidden danger if the machines get richer but workers don\u2019t",
-     "source": "CryptoSlate",
-     "date": "2026-10-15",
-     "url": "https://cryptoslate.com/bitcoins-ai-driven-rally-faces-a-hidden-danger-if-the-machines-get-richer-but-workers-dont/"
     }
    ],
    "opinion": {
@@ -1695,20 +1730,20 @@
     ],
     "cited_items": [
      {
-      "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
-      "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
-      "source": "CoinDesk",
-      "date": "2026-10-16"
+      "title": "Ether ETFs Lose $320 Million, Overtaking Bitcoin's Weekly Outflows",
+      "url": "https://thedefiant.io/news/markets/ether-etfs-lose-320-million-overtaking-bitcoin-s-weekly-outflows",
+      "source": "The Defiant",
+      "date": "2026-10-17"
      },
      {
-      "title": "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
-      "url": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
-      "source": "CoinDesk",
-      "date": "2026-10-16"
+      "title": "Strategy Slides 9.6% After MSCI Decision, Outpacing Bitcoin\u2019s Drop",
+      "url": "https://thedefiant.io/converge/markets/strategy-slides-9-6-after-msci-decision-outpacing-bitcoin-s-drop",
+      "source": "The Defiant",
+      "date": "2026-10-17"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "VVV": {
@@ -1719,7 +1754,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "PENDLE": {
@@ -1759,7 +1794,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "AERO": {
@@ -1773,7 +1808,7 @@
      "FC3",
      "FB2"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "RAY": {
@@ -1784,7 +1819,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "PUMP": {
@@ -1837,7 +1872,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "LDO": {
@@ -1898,7 +1933,7 @@
      "FA3",
      "FC6"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "ENA": {
@@ -1938,7 +1973,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "ONDO": {
@@ -2004,7 +2039,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "LEO": {
@@ -2050,7 +2085,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "OKB": {
@@ -2126,7 +2161,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "ARB": {
@@ -2148,12 +2183,6 @@
      "source": "The Defiant",
      "date": "2026-10-06",
      "url": "https://thedefiant.io/news/defi/arbitrum-adopts-paxos-usdg-as-its-ecosystem-dollar"
-    },
-    {
-     "title": "Arbitrum Pauses New Stylus Activations in Emergency Security Action",
-     "source": "The Defiant",
-     "date": "2026-10-02",
-     "url": "https://thedefiant.io/news/security/arbitrum-pauses-new-stylus-activations-in-emergency-security-action"
     }
    ],
    "opinion": {
@@ -2162,8 +2191,7 @@
     "cited": [
      1,
      2,
-     3,
-     4
+     3
     ],
     "cited_items": [
      {
@@ -2183,16 +2211,10 @@
       "url": "https://thedefiant.io/news/defi/arbitrum-adopts-paxos-usdg-as-its-ecosystem-dollar",
       "source": "The Defiant",
       "date": "2026-10-06"
-     },
-     {
-      "title": "Arbitrum Pauses New Stylus Activations in Emergency Security Action",
-      "url": "https://thedefiant.io/news/security/arbitrum-pauses-new-stylus-activations-in-emergency-security-action",
-      "source": "The Defiant",
-      "date": "2026-10-02"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "XLM": {
@@ -2222,7 +2244,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "BCH": {
@@ -2233,7 +2255,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "ETC": {
@@ -2244,7 +2266,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   },
   "XTZ": {
@@ -2257,7 +2279,7 @@
     "filters": [
      "FC6"
     ],
-    "as_of": "2026-10-16"
+    "as_of": "2026-10-17"
    }
   }
  }
