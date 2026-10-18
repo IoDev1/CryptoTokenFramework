@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-17",
+ "as_of": "2026-10-18",
  "source": "Outlet RSS (CoinDesk, Cointelegraph, Decrypt, The Block, DL News, The Defiant, CryptoSlate, BeInCrypto), last 14 days",
  "tokens": {
   "HBAR": {
@@ -10,7 +10,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "STX": {
@@ -52,7 +52,7 @@
      "FC6",
      "FC3"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "RENDER": {
@@ -63,7 +63,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "AAVE": {
@@ -167,7 +167,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "QNT": {
@@ -178,11 +178,23 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "SOL": {
    "items": [
+    {
+     "title": "Solana Ad Lasted 10 Minutes in China. Critics Blamed CZ",
+     "source": "BeInCrypto",
+     "date": "2026-10-17",
+     "url": "https://beincrypto.com/cz-china-pulled-solana-ad-shanghai/"
+    },
+    {
+     "title": "Solana shows resilience, but some areas need continued observation, Fidelity says",
+     "source": "Cointelegraph",
+     "date": "2026-10-17",
+     "url": "https://cointelegraph.com/news/solana-shows-resilience-but-some-areas-need-continued-observation-fidelity-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
      "title": "GTA 6 Trailer Features Meme Coin\u2014And Solana Copycat Soars 2,900%",
      "source": "Decrypt",
@@ -218,18 +230,6 @@
      "source": "Cointelegraph",
      "date": "2026-10-16",
      "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "Solana Just Did Something in China That Changpeng Zhao Says BNB Chain Couldn\u2019t",
-     "source": "BeInCrypto",
-     "date": "2026-10-15",
-     "url": "https://beincrypto.com/solana-china-office-cz-bnb-chain/"
-    },
-    {
-     "title": "Solana sets October 21 for massive Alpenglow upgrade that could make transactions 99% faster to finalize",
-     "source": "CryptoSlate",
-     "date": "2026-10-15",
-     "url": "https://cryptoslate.com/solana-sets-october-21-for-massive-alpenglow-upgrade-that-could-make-transactions-99-faster-to-finalize/"
     }
    ],
    "opinion": {
@@ -242,9 +242,15 @@
     ],
     "cited_items": [
      {
-      "title": "GTA 6 Trailer Features Meme Coin\u2014And Solana Copycat Soars 2,900%",
-      "url": "https://decrypt.co/381122/gta-6-trailer-features-meme-coin-and-solana-copycat-soars-2900",
-      "source": "Decrypt",
+      "title": "Solana Ad Lasted 10 Minutes in China. Critics Blamed CZ",
+      "url": "https://beincrypto.com/cz-china-pulled-solana-ad-shanghai/",
+      "source": "BeInCrypto",
+      "date": "2026-10-17"
+     },
+     {
+      "title": "CZ Asks If Solana Knew China\u2019s Rules After Its Shanghai Event Stalls",
+      "url": "https://beincrypto.com/solana-shanghai-event-halted-officers/",
+      "source": "BeInCrypto",
       "date": "2026-10-16"
      },
      {
@@ -252,16 +258,10 @@
       "url": "https://thedefiant.io/news/regulation/solana-s-shanghai-event-halted-with-officers-present-attendees-say",
       "source": "The Defiant",
       "date": "2026-10-16"
-     },
-     {
-      "title": "Solana\u2019s Liu says Shanghai event postponed over registration surge",
-      "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "2026-10-16"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "TAO": {
@@ -272,16 +272,28 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "ETH": {
    "items": [
     {
+     "title": "Ethereum Founder Vitalik Buterin Builds \u2018Paranoid Mode\u2019 to Hide Your AI Secrets",
+     "source": "BeInCrypto",
+     "date": "2026-10-18",
+     "url": "https://beincrypto.com/vitalik-buterin-ai-paranoid-mode-hides-chats/"
+    },
+    {
      "title": "Ether ETFs Lose $320 Million, Overtaking Bitcoin's Weekly Outflows",
      "source": "The Defiant",
      "date": "2026-10-17",
      "url": "https://thedefiant.io/news/markets/ether-etfs-lose-320-million-overtaking-bitcoin-s-weekly-outflows"
+    },
+    {
+     "title": "Ethereum sets October 26 for Hoodi\u2019s 200 million gas test",
+     "source": "CryptoSlate",
+     "date": "2026-10-17",
+     "url": "https://cryptoslate.com/ethereum-sets-october-26-scaling-test-with-hoodi-node-upgrades-required/"
     },
     {
      "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
@@ -312,18 +324,6 @@
      "source": "The Block",
      "date": "2026-10-16",
      "url": "https://www.theblock.co/learn/ethereum/how-ethereum-works-418525"
-    },
-    {
-     "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
-     "source": "Cointelegraph",
-     "date": "2026-10-15",
-     "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "Ethereum HEX Sinks 31% After Reports of Richard Heart's Detention",
-     "source": "The Defiant",
-     "date": "2026-10-15",
-     "url": "https://thedefiant.io/news/markets/ethereum-hex-sinks-31-after-reports-of-richard-heart-s-detention"
     }
    ],
    "opinion": {
@@ -334,16 +334,16 @@
     ],
     "cited_items": [
      {
-      "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
-      "url": "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task",
-      "source": "Decrypt",
-      "date": "2026-10-16"
+      "title": "Ether ETFs Lose $320 Million, Overtaking Bitcoin's Weekly Outflows",
+      "url": "https://thedefiant.io/news/markets/ether-etfs-lose-320-million-overtaking-bitcoin-s-weekly-outflows",
+      "source": "The Defiant",
+      "date": "2026-10-17"
      }
     ],
     "filters": [
      "FB1"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "SKY": {
@@ -370,7 +370,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "XMR": {
@@ -397,11 +397,17 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "INJ": {
    "items": [
+    {
+     "title": "Injective Activates Fixed Gas Costs for Exchange Transactions",
+     "source": "The Defiant",
+     "date": "2026-10-17",
+     "url": "https://thedefiant.io/news/blockchains/injective-activates-fixed-gas-costs-for-exchange-transactions"
+    },
     {
      "title": "Injective\u2019s Meridian Upgrade Expands Controls for Tokenized Assets",
      "source": "The Defiant",
@@ -418,12 +424,21 @@
    "opinion": {
     "stance": "bearish",
     "text": "Upbit placed INJ on a delisting watchlist after a security incident and Kraken flagged a funding-gateway issue [3][5]; Injective's damage-control statement [6] confirms funds are safe but not that the review is resolved. Record staking [4] is not the same as usage recovering.",
-    "cited": [],
-    "cited_items": [],
+    "cited": [
+     3
+    ],
+    "cited_items": [
+     {
+      "title": "Injective CEO Eric Chen expects US INJ ETFs to launch sooner than 2027",
+      "url": "https://www.theblock.co/news/defi/2026-10-05-injective-ceo-eric-inj-etf-417616",
+      "source": "The Block",
+      "date": "2026-10-05"
+     }
+    ],
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "NEAR": {
@@ -450,7 +465,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "UNI": {
@@ -516,7 +531,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "HYPE": {
@@ -594,7 +609,7 @@
     "filters": [
      "FA1"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "LINK": {
@@ -605,7 +620,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "FET": {
@@ -616,7 +631,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "BNB": {
@@ -668,7 +683,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "Canton": {
@@ -679,7 +694,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "AVAX": {
@@ -732,7 +747,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "KAS": {
@@ -743,7 +758,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "VET": {
@@ -754,11 +769,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "TRX": {
    "items": [
+    {
+     "title": "TRON moved $2.2 trillion in stablecoins while TRX supply grew for 108 straight days",
+     "source": "CryptoSlate",
+     "date": "2026-10-17",
+     "url": "https://cryptoslate.com/trons-stablecoin-growth-has-not-made-trx-deflationary/"
+    },
     {
      "title": "Nasdaq-listed Tron sets up $200M ATM share offering to fuel TRX acquisitions",
      "source": "Cointelegraph",
@@ -791,9 +812,16 @@
      1,
      2,
      3,
-     4
+     4,
+     5
     ],
     "cited_items": [
+     {
+      "title": "TRON moved $2.2 trillion in stablecoins while TRX supply grew for 108 straight days",
+      "url": "https://cryptoslate.com/trons-stablecoin-growth-has-not-made-trx-deflationary/",
+      "source": "CryptoSlate",
+      "date": "2026-10-17"
+     },
      {
       "title": "Nasdaq-listed Tron sets up $200M ATM share offering to fuel TRX acquisitions",
       "url": "https://cointelegraph.com/news/nasdaq-tron-200m-atm-offering-fuel-trx-acquisitions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -820,7 +848,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "CVX": {
@@ -831,7 +859,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "LTC": {
@@ -842,7 +870,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "SUI": {
@@ -946,7 +974,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "SNX": {
@@ -959,11 +987,17 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "ADA": {
    "items": [
+    {
+     "title": "Cardano Stablecoin Offers 50% APR. What's the Catch?",
+     "source": "BeInCrypto",
+     "date": "2026-10-18",
+     "url": "https://beincrypto.com/cardano-stablecoin-realfi-bodega-prediction-market/"
+    },
     {
      "title": "Cardano shifts $26M to USDCx as bridge controls freeze payouts",
      "source": "CryptoSlate",
@@ -1005,12 +1039,6 @@
      "source": "The Defiant",
      "date": "2026-10-07",
      "url": "https://thedefiant.io/news/blockchains/cardano-s-programmable-token-standard-goes-live-with-issuer-controls"
-    },
-    {
-     "title": "Cardano just added the kind of token controls Wall Street wants and DeFi may hate",
-     "source": "CryptoSlate",
-     "date": "2026-10-06",
-     "url": "https://cryptoslate.com/cardano-just-added-the-kind-of-token-controls-wall-street-wants-and-defi-may-hate/"
     }
    ],
    "opinion": {
@@ -1025,6 +1053,12 @@
      6
     ],
     "cited_items": [
+     {
+      "title": "Cardano Stablecoin Offers 50% APR. What's the Catch?",
+      "url": "https://beincrypto.com/cardano-stablecoin-realfi-bodega-prediction-market/",
+      "source": "BeInCrypto",
+      "date": "2026-10-18"
+     },
      {
       "title": "Cardano shifts $26M to USDCx as bridge controls freeze payouts",
       "url": "https://cryptoslate.com/cardano-shifts-26m-to-usdcx-as-bridge-controls-freeze-payouts/",
@@ -1054,16 +1088,10 @@
       "url": "https://cryptoslate.com/cardanos-price-breakout-could-trigger-the-next-ada-squeeze-or-trap-leveraged-bulls/",
       "source": "CryptoSlate",
       "date": "2026-10-07"
-     },
-     {
-      "title": "Cardano gives token issuers power to freeze, seize and restrict assets",
-      "url": "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets",
-      "source": "CoinDesk",
-      "date": "2026-10-07"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "DOT": {
@@ -1090,11 +1118,17 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "POL": {
    "items": [
+    {
+     "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
+     "source": "CoinDesk",
+     "date": "2026-10-17",
+     "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe"
+    },
     {
      "title": "Polygon gains US payments licenses after closing Coinme deal",
      "source": "Cointelegraph",
@@ -1119,9 +1153,16 @@
     "text": "Decrypt reports Polygon patched security flaws in two hard forks before disclosing them [3], with POL dropping 4-12% on the disclosure [2][4][6] \u2014 a real transparency/governance hit on top of the council-controlled-upgrade risk. [1][5] are noise.",
     "cited": [
      2,
-     3
+     3,
+     4
     ],
     "cited_items": [
+     {
+      "title": "Polygon gains US payments licenses after closing Coinme deal",
+      "url": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-10-15"
+     },
      {
       "title": "Polygon Labs completes Coinme acquisition, bringing regulated payments coverage across 48 US states",
       "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
@@ -1139,7 +1180,7 @@
      "FC1",
      "FC4"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "CRV": {
@@ -1157,7 +1198,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "Sonic": {
@@ -1168,7 +1209,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "ICP": {
@@ -1179,7 +1220,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "YFI": {
@@ -1190,7 +1231,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "COMP": {
@@ -1201,7 +1242,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "DASH": {
@@ -1212,7 +1253,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "JUP": {
@@ -1271,7 +1312,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "XRP": {
@@ -1368,7 +1409,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "MORPHO": {
@@ -1430,7 +1471,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "SEI": {
@@ -1463,7 +1504,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "ZEC": {
@@ -1567,7 +1608,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "TON": {
@@ -1580,7 +1621,7 @@
     "filters": [
      "FC3"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "EGLD": {
@@ -1591,7 +1632,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "WLD": {
@@ -1618,7 +1659,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "PLUME": {
@@ -1645,7 +1686,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "KAITO": {
@@ -1656,7 +1697,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "VIRTUAL": {
@@ -1667,11 +1708,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "BTC": {
    "items": [
+    {
+     "title": "Anthropic's Junk Rating Sparks a Bigger Bitcoin Debate",
+     "source": "BeInCrypto",
+     "date": "2026-10-18",
+     "url": "https://beincrypto.com/anthropic-junk-rating-bitcoin-question/"
+    },
     {
      "title": "Bitcoin Bull Signals are Flashing Everywhere, Analysts Claim",
      "source": "BeInCrypto",
@@ -1703,22 +1750,16 @@
      "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough"
     },
     {
-     "title": "Bitcoin Whale Wallets Hit a Record While Shorts Pile In. What Comes Next?",
+     "title": "Vitalik Buterin Reveals Why AI Could Push Bitcoin Miners Out",
      "source": "BeInCrypto",
-     "date": "2026-10-16",
-     "url": "https://beincrypto.com/bitcoin-whale-wallets-record-negative-funding/"
+     "date": "2026-10-17",
+     "url": "https://beincrypto.com/bitcoin-mining-cost-vitalik-ai-inference/"
     },
     {
-     "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
-     "source": "CoinDesk",
-     "date": "2026-10-16",
-     "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next"
-    },
-    {
-     "title": "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
-     "source": "CoinDesk",
-     "date": "2026-10-16",
-     "url": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans"
+     "title": "Crypto Firms Launch Quantum Alliance as 6 Million Bitcoin Sit Exposed",
+     "source": "Decrypt",
+     "date": "2026-10-17",
+     "url": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed"
     }
    ],
    "opinion": {
@@ -1730,20 +1771,20 @@
     ],
     "cited_items": [
      {
-      "title": "Ether ETFs Lose $320 Million, Overtaking Bitcoin's Weekly Outflows",
-      "url": "https://thedefiant.io/news/markets/ether-etfs-lose-320-million-overtaking-bitcoin-s-weekly-outflows",
-      "source": "The Defiant",
+      "title": "Bitcoin Bull Signals are Flashing Everywhere, Analysts Claim",
+      "url": "https://beincrypto.com/bitcoin-bull-signals-planb-momentum-cycle/",
+      "source": "BeInCrypto",
       "date": "2026-10-17"
      },
      {
-      "title": "Strategy Slides 9.6% After MSCI Decision, Outpacing Bitcoin\u2019s Drop",
-      "url": "https://thedefiant.io/converge/markets/strategy-slides-9-6-after-msci-decision-outpacing-bitcoin-s-drop",
+      "title": "Ether ETFs Lose $320 Million, Overtaking Bitcoin's Weekly Outflows",
+      "url": "https://thedefiant.io/news/markets/ether-etfs-lose-320-million-overtaking-bitcoin-s-weekly-outflows",
       "source": "The Defiant",
       "date": "2026-10-17"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "VVV": {
@@ -1754,7 +1795,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "PENDLE": {
@@ -1794,7 +1835,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "AERO": {
@@ -1808,7 +1849,7 @@
      "FC3",
      "FB2"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "RAY": {
@@ -1819,7 +1860,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "PUMP": {
@@ -1872,7 +1913,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "LDO": {
@@ -1933,7 +1974,7 @@
      "FA3",
      "FC6"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "ENA": {
@@ -1973,7 +2014,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "ONDO": {
@@ -2039,7 +2080,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "LEO": {
@@ -2085,7 +2126,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "OKB": {
@@ -2161,7 +2202,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "ARB": {
@@ -2214,7 +2255,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "XLM": {
@@ -2244,7 +2285,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "BCH": {
@@ -2255,7 +2296,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "ETC": {
@@ -2266,7 +2307,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   },
   "XTZ": {
@@ -2279,7 +2320,7 @@
     "filters": [
      "FC6"
     ],
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
    }
   }
  }
