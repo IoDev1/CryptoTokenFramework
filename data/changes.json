@@ -1,37 +1,37 @@
 {
- "to": "2026-10-20",
- "from": "2026-10-14",
+ "to": "2026-10-21",
+ "from": "2026-10-15",
  "days": 6,
  "movers": [
   {
-   "tk": "STX",
-   "pct": -21.2,
-   "price": 0.345689
+   "tk": "CVX",
+   "pct": 36.3,
+   "price": 2.59
   },
   {
-   "tk": "PLUME",
-   "pct": -16.8,
-   "price": 0.01733891
+   "tk": "WLD",
+   "pct": 25.4,
+   "price": 0.590156
   },
   {
-   "tk": "Canton",
-   "pct": -14.1,
-   "price": 0.103624
+   "tk": "INJ",
+   "pct": 22.0,
+   "price": 8.76
   },
   {
-   "tk": "FET",
-   "pct": -12.9,
-   "price": 0.187435
+   "tk": "ZEC",
+   "pct": 17.7,
+   "price": 1283.37
   },
   {
-   "tk": "PUMP",
-   "pct": -12.6,
-   "price": 0.00442158
+   "tk": "COMP",
+   "pct": 17.3,
+   "price": 25.47
   },
   {
-   "tk": "AERO",
-   "pct": -11.3,
-   "price": 0.799411
+   "tk": "VVV",
+   "pct": 16.9,
+   "price": 25.99
   }
  ],
  "verdicts": [],
