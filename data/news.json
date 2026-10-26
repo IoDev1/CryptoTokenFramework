@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-25",
+ "as_of": "2026-10-26",
  "source": "Outlet RSS (CoinDesk, Cointelegraph, Decrypt, The Block, DL News, The Defiant, CryptoSlate, BeInCrypto), last 14 days",
  "tokens": {
   "HBAR": {
@@ -10,7 +10,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "STX": {
@@ -46,7 +46,7 @@
      "FC6",
      "FC3"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "RENDER": {
@@ -57,7 +57,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "AAVE": {
@@ -161,7 +161,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "QNT": {
@@ -172,11 +172,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "SOL": {
    "items": [
+    {
+     "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
+     "source": "Cointelegraph",
+     "date": "2026-10-26",
+     "url": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
      "title": "Firedancer makes bounty hunters burn 1 SOL even for duplicate bug reports",
      "source": "CryptoSlate",
@@ -218,12 +224,6 @@
      "source": "The Defiant",
      "date": "2026-10-21",
      "url": "https://thedefiant.io/news/nfts-and-web3/yuga-labs-launches-mudwater-trading-card-nfts-on-solana"
-    },
-    {
-     "title": "Sunrise Brings Backpack\u2019s Tokenized Meta Shares to Solana",
-     "source": "The Defiant",
-     "date": "2026-10-21",
-     "url": "https://thedefiant.io/news/tokens/sunrise-brings-backpack-s-tokenized-meta-shares-to-solana"
     }
    ],
    "opinion": {
@@ -236,26 +236,26 @@
     ],
     "cited_items": [
      {
-      "title": "Firedancer makes bounty hunters burn 1 SOL even for duplicate bug reports",
-      "url": "https://cryptoslate.com/firedancer-makes-bounty-hunters-burn-1-sol-even-for-duplicate-bug-reports/",
-      "source": "CryptoSlate",
-      "date": "2026-10-24"
+      "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
+      "url": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-10-26"
      },
      {
-      "title": "Securitize shares slide 38% since it put Apple and Nvidia stock on Solana",
-      "url": "https://www.dlnews.com/articles/markets/securitize-shares-fall-38percent-since-solana-stock-token-launch-or-dl-news/",
-      "source": "DL News",
+      "title": "Solana\u2019s biggest network change since 2020 is live. Here\u2019s how users benefit",
+      "url": "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users",
+      "source": "CoinDesk",
       "date": "2026-10-22"
      },
      {
-      "title": "Solana\u2019s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday",
-      "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
-      "source": "CoinDesk",
-      "date": "2026-10-21"
+      "title": "JPMorgan Brings MONY and JLTXX Tokenized Funds to Solana",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/jpmorgan-brings-mony-and-jltxx-tokenized-funds-to-solana",
+      "source": "The Defiant",
+      "date": "2026-10-22"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "TAO": {
@@ -266,11 +266,23 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "ETH": {
    "items": [
+    {
+     "title": "Consensys Warns Ethereum Operators of eMudhra Signing Risks",
+     "source": "The Defiant",
+     "date": "2026-10-26",
+     "url": "https://thedefiant.io/news/security/consensys-warns-ethereum-operators-of-emudhra-signing-risks"
+    },
+    {
+     "title": "Lido opens larger Ethereum validators with a 32 ETH operator bond",
+     "source": "CryptoSlate",
+     "date": "2026-10-26",
+     "url": "https://cryptoslate.com/lido-opens-larger-ethereum-validators-with-a-32-eth-operator-bond/"
+    },
     {
      "title": "Ethereum staking yield is losing to cash rates, so why are investors still lining up?",
      "source": "CryptoSlate",
@@ -306,18 +318,6 @@
      "source": "Cointelegraph",
      "date": "2026-10-23",
      "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts",
-     "source": "CoinDesk",
-     "date": "2026-10-23",
-     "url": "https://www.coindesk.com/tech/2026/10/23/ethereum-delays-glamsterdam-test-after-security-devs-flag-risk-to-existing-contracts"
-    },
-    {
-     "title": "Ethereum\u2019s long-awaited Glamsterdam upgrade hits another roadblock as 13 security risks emerge",
-     "source": "CryptoSlate",
-     "date": "2026-10-23",
-     "url": "https://cryptoslate.com/ethereums-long-awaited-glamsterdam-upgrade-hits-another-roadblock-as-13-security-risks-emerge/"
     }
    ],
    "opinion": {
@@ -328,16 +328,16 @@
     ],
     "cited_items": [
      {
-      "title": "Ethereum Flashes Same Signal That Triggered June\u2019s Rebound",
-      "url": "https://beincrypto.com/ethereum-outflow-signal-june-rebound/",
-      "source": "BeInCrypto",
-      "date": "2026-10-24"
+      "title": "Lido opens larger Ethereum validators with a 32 ETH operator bond",
+      "url": "https://cryptoslate.com/lido-opens-larger-ethereum-validators-with-a-32-eth-operator-bond/",
+      "source": "CryptoSlate",
+      "date": "2026-10-26"
      }
     ],
     "filters": [
      "FB1"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "SKY": {
@@ -348,7 +348,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "XMR": {
@@ -414,7 +414,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "INJ": {
@@ -455,7 +455,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "NEAR": {
@@ -482,7 +482,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "UNI": {
@@ -586,7 +586,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "HYPE": {
@@ -664,7 +664,7 @@
     "filters": [
      "FA1"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "LINK": {
@@ -688,7 +688,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "FET": {
@@ -699,7 +699,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "BNB": {
@@ -764,7 +764,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "Canton": {
@@ -775,7 +775,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "AVAX": {
@@ -785,20 +785,13 @@
      "source": "The Defiant",
      "date": "2026-10-13",
      "url": "https://thedefiant.io/converge/tradfi-and-fintech/avalanche-highlights-ksd-links-ahead-of-korea-s-2027-tokenization-rollout"
-    },
-    {
-     "title": "AVAX Gains Nearly 50% in Four Weeks, Outpacing Bitcoin and Ether",
-     "source": "The Defiant",
-     "date": "2026-10-11",
-     "url": "https://thedefiant.io/news/markets/avax-gains-nearly-50-in-four-weeks-outpacing-bitcoin-and-ether"
     }
    ],
    "opinion": {
     "stance": "neutral",
     "text": "Charles Schwab adding AVAX access [3], echoed in a price-target piece [4], is genuine distribution news; rest is prediction spam [1,6] and routine price pages [2,5]. Doesn't address the Foundation-as-structural-seller or collapsed-fee risk.",
     "cited": [
-     1,
-     2
+     1
     ],
     "cited_items": [
      {
@@ -806,16 +799,10 @@
       "url": "https://thedefiant.io/converge/tradfi-and-fintech/avalanche-highlights-ksd-links-ahead-of-korea-s-2027-tokenization-rollout",
       "source": "The Defiant",
       "date": "2026-10-13"
-     },
-     {
-      "title": "AVAX Gains Nearly 50% in Four Weeks, Outpacing Bitcoin and Ether",
-      "url": "https://thedefiant.io/news/markets/avax-gains-nearly-50-in-four-weeks-outpacing-bitcoin-and-ether",
-      "source": "The Defiant",
-      "date": "2026-10-11"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "KAS": {
@@ -826,7 +813,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "VET": {
@@ -837,7 +824,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "TRX": {
@@ -877,7 +864,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "CVX": {
@@ -888,7 +875,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "LTC": {
@@ -899,7 +886,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "SUI": {
@@ -978,7 +965,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "SNX": {
@@ -991,11 +978,17 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "ADA": {
    "items": [
+    {
+     "title": "Cardano moves closer to 15x scaling breakthrough as developers merge key Leios code",
+     "source": "CryptoSlate",
+     "date": "2026-10-26",
+     "url": "https://cryptoslate.com/cardano-moves-closer-to-15x-scaling-breakthrough-as-developers-merge-key-leios-code/"
+    },
     {
      "title": "Cardano holders are being asked to bet $5 million on copper hitting a new record",
      "source": "CoinDesk",
@@ -1037,12 +1030,6 @@
      "source": "CryptoSlate",
      "date": "2026-10-17",
      "url": "https://cryptoslate.com/cardano-shifts-26m-to-usdcx-as-bridge-controls-freeze-payouts/"
-    },
-    {
-     "title": "Cardano governance hits a wall as treasury reaches 91% cap",
-     "source": "CryptoSlate",
-     "date": "2026-10-16",
-     "url": "https://cryptoslate.com/cardano-has-42-6-million-ada-left-under-its-current-treasury-spending-limit/"
     }
    ],
    "opinion": {
@@ -1057,6 +1044,12 @@
      6
     ],
     "cited_items": [
+     {
+      "title": "Cardano moves closer to 15x scaling breakthrough as developers merge key Leios code",
+      "url": "https://cryptoslate.com/cardano-moves-closer-to-15x-scaling-breakthrough-as-developers-merge-key-leios-code/",
+      "source": "CryptoSlate",
+      "date": "2026-10-26"
+     },
      {
       "title": "Cardano holders are being asked to bet $5 million on copper hitting a new record",
       "url": "https://www.coindesk.com/markets/2026/10/23/cardano-holders-are-being-asked-to-bet-usd5-million-on-copper-hitting-a-new-record",
@@ -1086,16 +1079,10 @@
       "url": "https://cryptoslate.com/hoskinson-reveals-new-code-for-cardano-but-63m-tvl-exposes-a-gap/",
       "source": "CryptoSlate",
       "date": "2026-10-19"
-     },
-     {
-      "title": "Cardano Stablecoin Offers 50% APR. What's the Catch?",
-      "url": "https://beincrypto.com/cardano-stablecoin-realfi-bodega-prediction-market/",
-      "source": "BeInCrypto",
-      "date": "2026-10-18"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "DOT": {
@@ -1122,7 +1109,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "POL": {
@@ -1171,7 +1158,7 @@
      "FC1",
      "FC4"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "CRV": {
@@ -1195,7 +1182,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "Sonic": {
@@ -1206,7 +1193,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "ICP": {
@@ -1224,7 +1211,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "YFI": {
@@ -1235,7 +1222,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "COMP": {
@@ -1246,7 +1233,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "DASH": {
@@ -1257,7 +1244,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "JUP": {
@@ -1322,11 +1309,23 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "XRP": {
    "items": [
+    {
+     "title": "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger",
+     "source": "Cointelegraph",
+     "date": "2026-10-26",
+     "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+     "title": "Aviva Investors, Ripple launch tokenized share class of $29 billion sterling fund on XRP Ledger",
+     "source": "The Block",
+     "date": "2026-10-26",
+     "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+    },
     {
      "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
      "source": "CoinDesk",
@@ -1362,18 +1361,6 @@
      "source": "CoinDesk",
      "date": "2026-10-21",
      "url": "https://www.coindesk.com/markets/2026/10/21/ripple-brings-wall-street-into-24-7-stock-bets-but-hsbc-warns-markets-are-still-thin"
-    },
-    {
-     "title": "Why earning XRP yield through this wallet could actually cost you money",
-     "source": "CryptoSlate",
-     "date": "2026-10-21",
-     "url": "https://cryptoslate.com/xaman-xrp-yield-fees/"
-    },
-    {
-     "title": "XRP 30-day exchange inflows pass 6B tokens as whales move to the sidelines",
-     "source": "Cointelegraph",
-     "date": "2026-10-20",
-     "url": "https://cointelegraph.com/markets/xrp-30-day-exchange-inflows-pass-6b-tokens-as-whales-move-to-the-sidelines?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
    "opinion": {
@@ -1388,6 +1375,18 @@
     ],
     "cited_items": [
      {
+      "title": "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger",
+      "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2026-10-26"
+     },
+     {
+      "title": "Aviva Investors, Ripple launch tokenized share class of $29 billion sterling fund on XRP Ledger",
+      "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712",
+      "source": "The Block",
+      "date": "2026-10-26"
+     },
+     {
       "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
       "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
       "source": "CoinDesk",
@@ -1400,26 +1399,14 @@
       "date": "2026-10-23"
      },
      {
-      "title": "Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard",
-      "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
-      "source": "The Block",
-      "date": "2026-10-23"
-     },
-     {
       "title": "David Schwartz Doesn\u2019t Know Who Sent Him This XRP Meme Coin Gift",
       "url": "https://beincrypto.com/xrp-meme-coin-fuzzy-schwartz-gift/",
       "source": "BeInCrypto",
       "date": "2026-10-22"
-     },
-     {
-      "title": "Ripple brings Wall Street into 24/7 stock bets, but HSBC warns markets are still thin",
-      "url": "https://www.coindesk.com/markets/2026/10/21/ripple-brings-wall-street-into-24-7-stock-bets-but-hsbc-warns-markets-are-still-thin",
-      "source": "CoinDesk",
-      "date": "2026-10-21"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "MORPHO": {
@@ -1481,7 +1468,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "SEI": {
@@ -1514,7 +1501,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "ZEC": {
@@ -1618,7 +1605,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "TON": {
@@ -1631,7 +1618,7 @@
     "filters": [
      "FC3"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "EGLD": {
@@ -1642,7 +1629,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "WLD": {
@@ -1653,7 +1640,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "PLUME": {
@@ -1664,7 +1651,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "KAITO": {
@@ -1675,7 +1662,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "VIRTUAL": {
@@ -1686,11 +1673,47 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "BTC": {
    "items": [
+    {
+     "title": "Researcher Cracks 'Steal My Bitcoin' Challenge With PHP Exploit",
+     "source": "The Defiant",
+     "date": "2026-10-26",
+     "url": "https://thedefiant.io/news/security/researcher-cracks-steal-my-bitcoin-challenge-with-php-exploit"
+    },
+    {
+     "title": "Bitcoin hacking challenge finally falls as researcher proves critical PHP flaw is exploitable",
+     "source": "CryptoSlate",
+     "date": "2026-10-26",
+     "url": "https://cryptoslate.com/bitcoin-hacking-challenge-finally-falls-as-researcher-proves-critical-php-flaw-is-exploitable/"
+    },
+    {
+     "title": "Morning Minute: Bitcoin Breaks Below $80,000 as Iran Fears Hit the Weekend",
+     "source": "Decrypt",
+     "date": "2026-10-26",
+     "url": "https://decrypt.co/381797/morning-minute-bitcoin-breaks-below-80000-as-iran-fears-hit-the-weekend"
+    },
+    {
+     "title": "Strive Buys 6,182 Bitcoin for $511 Million, Lifting Holdings to 43,000 BTC",
+     "source": "The Defiant",
+     "date": "2026-10-26",
+     "url": "https://thedefiant.io/converge/tradfi-and-fintech/strive-buys-6-182-bitcoin-for-511-million-lifting-holdings-to-43-000-btc"
+    },
+    {
+     "title": "Bitcoin\u2019s next Fed test comes with a hidden problem in America\u2019s inflation data",
+     "source": "CryptoSlate",
+     "date": "2026-10-26",
+     "url": "https://cryptoslate.com/bitcoins-next-fed-test-comes-with-a-hidden-problem-in-americas-inflation-data/"
+    },
+    {
+     "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
+     "source": "CoinDesk",
+     "date": "2026-10-26",
+     "url": "https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000"
+    },
     {
      "title": "Trump Says Iran Strikes Could Come Today. Can Bitcoin Hold $80,000?",
      "source": "BeInCrypto",
@@ -1702,42 +1725,6 @@
      "source": "The Block",
      "date": "2026-10-24",
      "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608"
-    },
-    {
-     "title": "ARB Touches Four-Week Low as Losses Outpace Bitcoin and Ether",
-     "source": "The Defiant",
-     "date": "2026-10-24",
-     "url": "https://thedefiant.io/news/markets/arb-touches-four-week-low-as-losses-outpace-bitcoin-and-ether"
-    },
-    {
-     "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
-     "source": "CoinDesk",
-     "date": "2026-10-24",
-     "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends"
-    },
-    {
-     "title": "Bitcoin Loses $80,000 as $200 Million in Leverage Unwinds in an Hour",
-     "source": "BeInCrypto",
-     "date": "2026-10-24",
-     "url": "https://beincrypto.com/bitcoin-below-80000-crypto-liquidations/"
-    },
-    {
-     "title": "Bitcoin Keeps Reversing. Why Are 80% of Crypto Tokens Falling?",
-     "source": "BeInCrypto",
-     "date": "2026-10-24",
-     "url": "https://beincrypto.com/bitcoin-price-volatility-crypto-market-crash-analysis/"
-    },
-    {
-     "title": "Bitcoin's volatility is well above euro-dollar gyrations, though it has calmed to rival Nvidia's",
-     "source": "CoinDesk",
-     "date": "2026-10-23",
-     "url": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s"
-    },
-    {
-     "title": "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
-     "source": "CoinDesk",
-     "date": "2026-10-23",
-     "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
     }
    ],
    "opinion": {
@@ -1749,20 +1736,20 @@
     ],
     "cited_items": [
      {
-      "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
-      "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
-      "source": "The Block",
-      "date": "2026-10-24"
+      "title": "Bitcoin hacking challenge finally falls as researcher proves critical PHP flaw is exploitable",
+      "url": "https://cryptoslate.com/bitcoin-hacking-challenge-finally-falls-as-researcher-proves-critical-php-flaw-is-exploitable/",
+      "source": "CryptoSlate",
+      "date": "2026-10-26"
      },
      {
-      "title": "ARB Touches Four-Week Low as Losses Outpace Bitcoin and Ether",
-      "url": "https://thedefiant.io/news/markets/arb-touches-four-week-low-as-losses-outpace-bitcoin-and-ether",
-      "source": "The Defiant",
-      "date": "2026-10-24"
+      "title": "Morning Minute: Bitcoin Breaks Below $80,000 as Iran Fears Hit the Weekend",
+      "url": "https://decrypt.co/381797/morning-minute-bitcoin-breaks-below-80000-as-iran-fears-hit-the-weekend",
+      "source": "Decrypt",
+      "date": "2026-10-26"
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "VVV": {
@@ -1773,7 +1760,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "PENDLE": {
@@ -1813,7 +1800,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "AERO": {
@@ -1862,7 +1849,7 @@
      "FC3",
      "FB2"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "RAY": {
@@ -1873,7 +1860,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "PUMP": {
@@ -1939,11 +1926,17 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "LDO": {
    "items": [
+    {
+     "title": "Lido opens larger Ethereum validators with a 32 ETH operator bond",
+     "source": "CryptoSlate",
+     "date": "2026-10-26",
+     "url": "https://cryptoslate.com/lido-opens-larger-ethereum-validators-with-a-32-eth-operator-bond/"
+    },
     {
      "title": "Lido Lend Exit Plan Would Tap Borrower Collateral for Withdrawals",
      "source": "The Defiant",
@@ -1996,23 +1989,23 @@
     ],
     "cited_items": [
      {
+      "title": "Lido Engineer Warns of Staking Deposit Hijack at Glamsterdam",
+      "url": "https://thedefiant.io/news/security/lido-engineer-warns-of-staking-deposit-hijack-at-glamsterdam",
+      "source": "The Defiant",
+      "date": "2026-10-20"
+     },
+     {
       "title": "SharpLink Says It Deployed $400 Million Across Ether.fi and Lido",
       "url": "https://thedefiant.io/news/defi/sharplink-says-it-deployed-400-million-across-ether-fi-and-lido",
       "source": "The Defiant",
       "date": "2026-10-19"
-     },
-     {
-      "title": "Lido Adds Direct ETH Staking From Four Layer 2s to Its Interface",
-      "url": "https://thedefiant.io/news/defi/lido-adds-direct-eth-staking-from-four-layer-2s-to-its-interface",
-      "source": "The Defiant",
-      "date": "2026-10-15"
      }
     ],
     "filters": [
      "FA3",
      "FC6"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "ENA": {
@@ -2039,7 +2032,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "ONDO": {
@@ -2066,7 +2059,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "LEO": {
@@ -2077,7 +2070,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "OKB": {
@@ -2153,7 +2146,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "ARB": {
@@ -2193,7 +2186,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "XLM": {
@@ -2223,7 +2216,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "BCH": {
@@ -2250,7 +2243,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "ETC": {
@@ -2261,7 +2254,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   },
   "XTZ": {
@@ -2274,7 +2267,7 @@
     "filters": [
      "FC6"
     ],
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    }
   }
  }
