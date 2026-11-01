@@ -5,8 +5,8 @@
  "movers": [
   {
    "tk": "CRV",
-   "pct": -18.4,
-   "price": 0.284951
+   "pct": -18.5,
+   "price": 0.284408
   },
   {
    "tk": "CVX",
@@ -15,23 +15,23 @@
   },
   {
    "tk": "Sonic",
-   "pct": -14.7,
-   "price": 0.03988672
+   "pct": -14.1,
+   "price": 0.04017027
   },
   {
    "tk": "HYPE",
-   "pct": 13.3,
-   "price": 87.7
-  },
-  {
-   "tk": "MORPHO",
-   "pct": 13.3,
-   "price": 2.3
+   "pct": 13.9,
+   "price": 88.17
   },
   {
    "tk": "RAY",
    "pct": -13.0,
    "price": 1.61
+  },
+  {
+   "tk": "MORPHO",
+   "pct": 12.8,
+   "price": 2.29
   }
  ],
  "verdicts": [
