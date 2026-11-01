@@ -1,2 +1,2 @@
-ETC: price $7.74, mcap 1224521167, FDV 1224521167, circ 100.0% of existing supply (unminted 24.9%, max supply capped), from ATH -95.4% (ATH 2021-05-06), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
-XTZ: price $0.256146, mcap 280677753, FDV 285795174, circ 98.2% of existing supply (unminted 0.0%, max supply UNCAPPED), from ATH -97.2% (ATH 2021-10-03), fees30d 9321, rev30d 8232, rev prior30d 1241, rev1y 316130, llama source: Tezos
+ETC: price $7.17, mcap 1139039872, FDV 1139039872, circ 100.0% of existing supply (unminted 24.6%, max supply capped), from ATH -95.7% (ATH 2021-05-06), fees30d None, rev30d None, rev prior30d None, rev1y None, llama source: None
+XTZ: price $0.254184, mcap 279707176, FDV 284776993, circ 98.2% of existing supply (unminted 0.0%, max supply UNCAPPED), from ATH -97.2% (ATH 2021-10-03), fees30d 9304, rev30d 3408, rev prior30d 2643, rev1y 216942, llama source: Tezos

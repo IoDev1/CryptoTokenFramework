@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-09",
+ "as_of": "2026-11-01",
  "rater": "Claude Fable 5.1 with web search",
  "rubric": "research/RUBRIC.md",
  "tokens": {
@@ -186,7 +186,7 @@
     0,
     1,
     0,
-    1,
+    0,
     0,
     1,
     0,
@@ -492,7 +492,7 @@
     1,
     1,
     1,
-    1,
+    0,
     0
    ],
    "evidence": {
@@ -507,7 +507,7 @@
     "FC2": "Supplied: -92.8% from ATH (Jan 2024) - passes mechanically",
     "FC3": "Fees/revenue up: H1 2026 DAO income $6.19M vs $7.17M full trailing year; stablecoin holders +40%; DeFi TVL -55% YoY is the caveat",
     "FC4": "Unlock overhang and Security Council risk public since 2023; no lawsuit; Sep 23 unlock is 2.1% of circ, below 10% cliff bar",
-    "FC5": "rev30d $2.69M vs prior $414k (up); rev1y $7.17M with H1 2026 alone $6.19M = rising; material",
+    "FC5": "Overridden: revenue immaterial (< $1M/30d), trend is noise. Was: rev30d $2.69M vs prior $414k (up); rev1y $7.17M with H1 2026 alone $6.19M = rising; material",
     "FC6": "No dated catalyst found: decentralized sequencer 'late 2026' undated; ArbiVerse Nov 19 is an event, not an upgrade"
    },
    "key_risk": "Governance-only token with no fee accrual while ~12% of circulating supply still vests monthly into a -93% chart",
@@ -2497,7 +2497,7 @@
     0,
     1,
     0,
-    0,
+    1,
     0,
     1,
     0,

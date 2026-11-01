@@ -1,40 +1,77 @@
 {
- "to": "2026-10-31",
- "from": "2026-10-25",
+ "to": "2026-11-01",
+ "from": "2026-10-26",
  "days": 6,
  "movers": [
   {
    "tk": "CRV",
-   "pct": -17.1,
-   "price": 0.283236
+   "pct": -18.4,
+   "price": 0.284951
   },
   {
    "tk": "CVX",
-   "pct": -16.6,
-   "price": 2.01
-  },
-  {
-   "tk": "HYPE",
-   "pct": 16.1,
-   "price": 87.96
+   "pct": -17.3,
+   "price": 2.05
   },
   {
    "tk": "Sonic",
-   "pct": -15.4,
-   "price": 0.03986437
+   "pct": -14.7,
+   "price": 0.03988672
   },
   {
-   "tk": "VET",
-   "pct": -11.7,
-   "price": 0.00594311
+   "tk": "HYPE",
+   "pct": 13.3,
+   "price": 87.7
   },
   {
-   "tk": "COMP",
-   "pct": -11.7,
-   "price": 20.19
+   "tk": "MORPHO",
+   "pct": 13.3,
+   "price": 2.3
+  },
+  {
+   "tk": "RAY",
+   "pct": -13.0,
+   "price": 1.61
   }
  ],
- "verdicts": [],
+ "verdicts": [
+  {
+   "tk": "QNT",
+   "from": 5.0,
+   "to": 4.5,
+   "flips": [
+    {
+     "id": "FC2",
+     "from": 1,
+     "to": 0
+    }
+   ]
+  },
+  {
+   "tk": "ARB",
+   "from": 7.5,
+   "to": 7.0,
+   "flips": [
+    {
+     "id": "FC5",
+     "from": 1,
+     "to": 0
+    }
+   ]
+  },
+  {
+   "tk": "PENDLE",
+   "from": 7.0,
+   "to": 7.5,
+   "flips": [
+    {
+     "id": "FC2",
+     "from": 0,
+     "to": 1
+    }
+   ]
+  }
+ ],
  "tiers": [],
  "stances": [],
  "disagreement": null,
