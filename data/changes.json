@@ -1,37 +1,37 @@
 {
- "to": "2026-11-05",
- "from": "2026-10-30",
+ "to": "2026-11-06",
+ "from": "2026-10-31",
  "days": 6,
  "movers": [
   {
-   "tk": "STX",
-   "pct": 22.7,
-   "price": 0.344315
-  },
-  {
    "tk": "INJ",
-   "pct": 14.4,
-   "price": 8.27
+   "pct": 15.6,
+   "price": 8.21
   },
   {
-   "tk": "YFI",
-   "pct": 12.0,
-   "price": 2029.49
+   "tk": "NEAR",
+   "pct": -15.0,
+   "price": 3.69
+  },
+  {
+   "tk": "ENA",
+   "pct": -13.9,
+   "price": 0.164624
+  },
+  {
+   "tk": "WLD",
+   "pct": -13.0,
+   "price": 0.344179
   },
   {
    "tk": "HYPE",
+   "pct": -11.4,
+   "price": 77.97
+  },
+  {
+   "tk": "PENDLE",
    "pct": -10.7,
-   "price": 81.65
-  },
-  {
-   "tk": "RAY",
-   "pct": 9.4,
-   "price": 1.74
-  },
-  {
-   "tk": "MORPHO",
-   "pct": 8.8,
-   "price": 2.22
+   "price": 1.67
   }
  ],
  "verdicts": [
