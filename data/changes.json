@@ -1,77 +1,40 @@
 {
- "to": "2026-11-06",
- "from": "2026-10-31",
+ "to": "2026-11-07",
+ "from": "2026-11-01",
  "days": 6,
  "movers": [
   {
-   "tk": "INJ",
-   "pct": 15.6,
-   "price": 8.21
-  },
-  {
    "tk": "NEAR",
-   "pct": -15.0,
+   "pct": -15.9,
    "price": 3.69
   },
   {
-   "tk": "ENA",
-   "pct": -13.9,
-   "price": 0.164624
-  },
-  {
    "tk": "WLD",
-   "pct": -13.0,
-   "price": 0.344179
+   "pct": -14.8,
+   "price": 0.338709
   },
   {
-   "tk": "HYPE",
-   "pct": -11.4,
-   "price": 77.97
+   "tk": "ENA",
+   "pct": -13.7,
+   "price": 0.161035
   },
   {
-   "tk": "PENDLE",
-   "pct": -10.7,
-   "price": 1.67
-  }
- ],
- "verdicts": [
-  {
-   "tk": "QNT",
-   "from": 5.0,
-   "to": 4.5,
-   "flips": [
-    {
-     "id": "FC2",
-     "from": 1,
-     "to": 0
-    }
-   ]
+   "tk": "INJ",
+   "pct": 13.5,
+   "price": 8.22
   },
   {
-   "tk": "ARB",
-   "from": 7.5,
-   "to": 7.0,
-   "flips": [
-    {
-     "id": "FC5",
-     "from": 1,
-     "to": 0
-    }
-   ]
+   "tk": "PLUME",
+   "pct": -13.1,
+   "price": 0.01329311
   },
   {
    "tk": "PENDLE",
-   "from": 7.0,
-   "to": 7.5,
-   "flips": [
-    {
-     "id": "FC2",
-     "from": 0,
-     "to": 1
-    }
-   ]
+   "pct": -12.8,
+   "price": 1.63
   }
  ],
+ "verdicts": [],
  "tiers": [],
  "stances": [],
  "disagreement": null,
