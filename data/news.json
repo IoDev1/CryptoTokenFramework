@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-07",
+ "as_of": "2026-11-08",
  "source": "Outlet RSS (CoinDesk, Cointelegraph, Decrypt, The Block, DL News, The Defiant, CryptoSlate, BeInCrypto), last 14 days",
  "tokens": {
   "HBAR": {
@@ -10,7 +10,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "STX": {
@@ -46,7 +46,7 @@
      "FC6",
      "FC3"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "RENDER": {
@@ -57,7 +57,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "AAVE": {
@@ -161,7 +161,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "QNT": {
@@ -172,7 +172,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "SOL": {
@@ -255,7 +255,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "TAO": {
@@ -266,11 +266,23 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "ETH": {
    "items": [
+    {
+     "title": "Ethereum Glamsterdam Upgrade Could Break the Chain, Developers Warn",
+     "source": "BeInCrypto",
+     "date": "2026-11-08",
+     "url": "https://beincrypto.com/ethereum-glamsterdam-break-chain-developers-warn/"
+    },
+    {
+     "title": "Tornado Cash-Funded Wallet Builds $26 Million Bitcoin-Ether Trade",
+     "source": "The Defiant",
+     "date": "2026-11-08",
+     "url": "https://thedefiant.io/news/hacks/tornado-cash-funded-wallet-builds-26-million-bitcoin-ether-trade"
+    },
     {
      "title": "EIP-8037 state-gas rules force Ethereum dApps to rewrite billing",
      "source": "CryptoSlate",
@@ -282,6 +294,12 @@
      "source": "CryptoSlate",
      "date": "2026-11-07",
      "url": "https://cryptoslate.com/moscow-exchange-sets-dec-1-to-launch-bitcoin-and-ethereum-trading/"
+    },
+    {
+     "title": "Zcash Price Is Flashing a Warning Sign for Bitcoin and Ethereum",
+     "source": "BeInCrypto",
+     "date": "2026-11-07",
+     "url": "https://beincrypto.com/ansem-zcash-price-weakness-bitcoin/"
     },
     {
      "title": "Ethereum devs won\u2019t fork Glamsterdam on Hoodi until smart contract risks resolved",
@@ -300,24 +318,6 @@
      "source": "The Defiant",
      "date": "2026-11-06",
      "url": "https://thedefiant.io/news/security/ethereum-foundation-calls-for-contract-checks-after-glamsterdam-security-findings"
-    },
-    {
-     "title": "Bitcoin and Ethereum ETFs lose $530 million in one day as $3 trillion Wall Street wipeout rattles crypto",
-     "source": "CryptoSlate",
-     "date": "2026-11-06",
-     "url": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-lose-530-million-in-one-day-as-3-trillion-wall-street-wipeout-rattles-crypto/"
-    },
-    {
-     "title": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
-     "source": "Cointelegraph",
-     "date": "2026-11-06",
-     "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-lose-post-election-gains-erased?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "Ether Falls 8.5% to $2,220, Lagging Bitcoin",
-     "source": "The Defiant",
-     "date": "2026-11-06",
-     "url": "https://thedefiant.io/news/markets/ether-falls-8-5-to-2-220-lagging-bitcoin"
     }
    ],
    "opinion": {
@@ -328,16 +328,16 @@
     ],
     "cited_items": [
      {
-      "title": "Moscow Exchange sets December 1 to launch Bitcoin and Ethereum trading",
-      "url": "https://cryptoslate.com/moscow-exchange-sets-dec-1-to-launch-bitcoin-and-ethereum-trading/",
-      "source": "CryptoSlate",
-      "date": "2026-11-07"
+      "title": "Tornado Cash-Funded Wallet Builds $26 Million Bitcoin-Ether Trade",
+      "url": "https://thedefiant.io/news/hacks/tornado-cash-funded-wallet-builds-26-million-bitcoin-ether-trade",
+      "source": "The Defiant",
+      "date": "2026-11-08"
      }
     ],
     "filters": [
      "FB1"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "SKY": {
@@ -348,7 +348,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "XMR": {
@@ -364,18 +364,6 @@
      "source": "The Defiant",
      "date": "2026-10-29",
      "url": "https://thedefiant.io/news/hacks/wagyu-confirms-data-leak-exposing-monero-swap-records"
-    },
-    {
-     "title": "Kraken Scraps Monero Withdrawal Questionnaires, Keeps XMR Listed",
-     "source": "The Defiant",
-     "date": "2026-10-24",
-     "url": "https://thedefiant.io/news/cefi/kraken-scraps-monero-withdrawal-questionnaires-keeps-xmr-listed"
-    },
-    {
-     "title": "Kraken drops Monero spending questions but keeps a $1,500 rolling 30-day withdrawal cap for individuals",
-     "source": "CryptoSlate",
-     "date": "2026-10-24",
-     "url": "https://cryptoslate.com/kraken-drops-monero-spending-questions-but-keeps-a-1500-rolling-30-day-withdrawal-cap-for-individuals/"
     }
    ],
    "opinion": {
@@ -383,9 +371,7 @@
     "text": "Real rally: privacy-coin sector +213% [1] and a THORChain-integration-driven 12.6% surge [4], with a Midnight comparison piece [2] adding context. [3,5,6] are buy-guide/price-prediction spam. Delisting and hashrate-concentration risk untouched.",
     "cited": [
      1,
-     2,
-     3,
-     4
+     2
     ],
     "cited_items": [
      {
@@ -399,22 +385,10 @@
       "url": "https://thedefiant.io/news/hacks/wagyu-confirms-data-leak-exposing-monero-swap-records",
       "source": "The Defiant",
       "date": "2026-10-29"
-     },
-     {
-      "title": "Kraken Scraps Monero Withdrawal Questionnaires, Keeps XMR Listed",
-      "url": "https://thedefiant.io/news/cefi/kraken-scraps-monero-withdrawal-questionnaires-keeps-xmr-listed",
-      "source": "The Defiant",
-      "date": "2026-10-24"
-     },
-     {
-      "title": "Kraken drops Monero spending questions but keeps a $1,500 rolling 30-day withdrawal cap for individuals",
-      "url": "https://cryptoslate.com/kraken-drops-monero-spending-questions-but-keeps-a-1500-rolling-30-day-withdrawal-cap-for-individuals/",
-      "source": "CryptoSlate",
-      "date": "2026-10-24"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "INJ": {
@@ -481,7 +455,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "NEAR": {
@@ -492,7 +466,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "UNI": {
@@ -596,7 +570,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "HYPE": {
@@ -674,7 +648,7 @@
     "filters": [
      "FA1"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "LINK": {
@@ -750,7 +724,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "FET": {
@@ -761,7 +735,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "BNB": {
@@ -826,7 +800,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "Canton": {
@@ -898,7 +872,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "AVAX": {
@@ -925,7 +899,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "KAS": {
@@ -936,7 +910,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "VET": {
@@ -963,7 +937,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "TRX": {
@@ -1067,7 +1041,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "CVX": {
@@ -1078,7 +1052,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "LTC": {
@@ -1096,7 +1070,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "SUI": {
@@ -1107,7 +1081,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "SNX": {
@@ -1136,7 +1110,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "ADA": {
@@ -1189,7 +1163,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "DOT": {
@@ -1216,7 +1190,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "POL": {
@@ -1309,7 +1283,7 @@
      "FC1",
      "FC4"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "CRV": {
@@ -1366,7 +1340,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "Sonic": {
@@ -1377,7 +1351,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "ICP": {
@@ -1388,7 +1362,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "YFI": {
@@ -1399,7 +1373,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "COMP": {
@@ -1410,7 +1384,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "DASH": {
@@ -1421,7 +1395,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "JUP": {
@@ -1480,7 +1454,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "XRP": {
@@ -1577,7 +1551,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "MORPHO": {
@@ -1626,7 +1600,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "SEI": {
@@ -1659,11 +1633,23 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "ZEC": {
    "items": [
+    {
+     "title": "Zcash\u2019s new security fund is 99.7% old money",
+     "source": "CryptoSlate",
+     "date": "2026-11-07",
+     "url": "https://cryptoslate.com/zcashs-new-security-fund-is-99-7-old-money/"
+    },
+    {
+     "title": "Zcash Price Is Flashing a Warning Sign for Bitcoin and Ethereum",
+     "source": "BeInCrypto",
+     "date": "2026-11-07",
+     "url": "https://beincrypto.com/ansem-zcash-price-weakness-bitcoin/"
+    },
     {
      "title": "Zcash's NU7 Upgrade Goes Live, Recycling 60% of Fees to Fund Future Block Rewards",
      "source": "Decrypt",
@@ -1699,18 +1685,6 @@
      "source": "CoinDesk",
      "date": "2026-11-05",
      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound"
-    },
-    {
-     "title": "Zcash Upgrade Could Lock $16 Million in Crypto Forever",
-     "source": "Decrypt",
-     "date": "2026-11-05",
-     "url": "https://decrypt.co/382663/zcash-upgrade-could-lock-16-million-crypto"
-    },
-    {
-     "title": "Zcash Nears NU7 Upgrade and Sprout Spending Cutoff",
-     "source": "The Defiant",
-     "date": "2026-11-05",
-     "url": "https://thedefiant.io/news/blockchains/zcash-nears-nu7-upgrade-and-sprout-spending-cutoff"
     }
    ],
    "opinion": {
@@ -1725,6 +1699,18 @@
      6
     ],
     "cited_items": [
+     {
+      "title": "Zcash\u2019s new security fund is 99.7% old money",
+      "url": "https://cryptoslate.com/zcashs-new-security-fund-is-99-7-old-money/",
+      "source": "CryptoSlate",
+      "date": "2026-11-07"
+     },
+     {
+      "title": "Zcash Price Is Flashing a Warning Sign for Bitcoin and Ethereum",
+      "url": "https://beincrypto.com/ansem-zcash-price-weakness-bitcoin/",
+      "source": "BeInCrypto",
+      "date": "2026-11-07"
+     },
      {
       "title": "Zcash's NU7 Upgrade Goes Live, Recycling 60% of Fees to Fund Future Block Rewards",
       "url": "https://decrypt.co/382692/zcashs-nu7-upgrade-goes-live-recycling-60-of-fees-to-fund-future-block-rewards",
@@ -1748,22 +1734,10 @@
       "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
       "source": "CoinDesk",
       "date": "2026-11-06"
-     },
-     {
-      "title": "Zcash is about to freeze $16 million in its oldest privacy pool",
-      "url": "https://www.coindesk.com/tech/2026/11/05/zcash-is-about-to-freeze-usd16-million-in-its-oldest-privacy-pool",
-      "source": "CoinDesk",
-      "date": "2026-11-05"
-     },
-     {
-      "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
-      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
-      "source": "CoinDesk",
-      "date": "2026-11-05"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "TON": {
@@ -1776,7 +1750,7 @@
     "filters": [
      "FC3"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "EGLD": {
@@ -1787,7 +1761,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "WLD": {
@@ -1798,7 +1772,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "PLUME": {
@@ -1809,7 +1783,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "KAITO": {
@@ -1820,7 +1794,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "VIRTUAL": {
@@ -1831,11 +1805,29 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "BTC": {
    "items": [
+    {
+     "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+     "source": "CoinDesk",
+     "date": "2026-11-08",
+     "url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000"
+    },
+    {
+     "title": "Two Solo Bitcoin Miners Beat Million-to-One Odds to Win $230,000",
+     "source": "BeInCrypto",
+     "date": "2026-11-08",
+     "url": "https://beincrypto.com/solo-bitcoin-miners-win-big-beating-odds/"
+    },
+    {
+     "title": "Tornado Cash-Funded Wallet Builds $26 Million Bitcoin-Ether Trade",
+     "source": "The Defiant",
+     "date": "2026-11-08",
+     "url": "https://thedefiant.io/news/hacks/tornado-cash-funded-wallet-builds-26-million-bitcoin-ether-trade"
+    },
     {
      "title": "Stablecoin contraction forces Bitcoin drop despite Fed reserve gains",
      "source": "CryptoSlate",
@@ -1855,34 +1847,16 @@
      "url": "https://cryptoslate.com/bitcoin-faces-70000-risk-as-investors-realize-2-billion-in-losses-and-us-jobs-shock-deepens-pressure/"
     },
     {
-     "title": "Bitcoin Gains Drive Strive's $474.8 Million Q3 Profit",
-     "source": "The Defiant",
-     "date": "2026-11-06",
-     "url": "https://thedefiant.io/converge/tradfi-and-fintech/bitcoin-gains-drive-strive-s-474-8-million-q3-profit"
+     "title": "Higher wages don\u2019t have to mean higher inflation. That could matter for Bitcoin",
+     "source": "CryptoSlate",
+     "date": "2026-11-07",
+     "url": "https://cryptoslate.com/higher-wages-dont-have-to-mean-higher-inflation-that-could-matter-for-bitcoin/"
     },
     {
-     "title": "TeraWulf\u2019s bitcoin mining revenue falls 69% as HPC leasing surges amid Anthropic buildout",
-     "source": "The Block",
-     "date": "2026-11-06",
-     "url": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885"
-    },
-    {
-     "title": "Morning Minute: Bitcoin Erases Election Rally as AI Stocks Crater",
-     "source": "Decrypt",
-     "date": "2026-11-06",
-     "url": "https://decrypt.co/382700/morning-minute-bitcoin-erases-election-rally-as-ai-stocks-crater"
-    },
-    {
-     "title": "Bank of Russia Clears Bitcoin, Ether and USDT Rules for Nov. 17",
-     "source": "The Defiant",
-     "date": "2026-11-06",
-     "url": "https://thedefiant.io/converge/regulation/bank-of-russia-clears-bitcoin-ether-and-usdt-rules-for-nov-17"
-    },
-    {
-     "title": "Live updates: Bitcoin slips further after blowout October jobs numbers",
-     "source": "CoinDesk",
-     "date": "2026-11-06",
-     "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
+     "title": "Bitcoin traders could mistake this Binance data change for a rush to sell",
+     "source": "CryptoSlate",
+     "date": "2026-11-07",
+     "url": "https://cryptoslate.com/bitcoin-traders-could-mistake-this-binance-data-change-for-a-rush-to-sell/"
     }
    ],
    "opinion": {
@@ -1894,20 +1868,20 @@
     ],
     "cited_items": [
      {
-      "title": "Moscow Exchange sets December 1 to launch Bitcoin and Ethereum trading",
-      "url": "https://cryptoslate.com/moscow-exchange-sets-dec-1-to-launch-bitcoin-and-ethereum-trading/",
-      "source": "CryptoSlate",
-      "date": "2026-11-07"
+      "title": "Two Solo Bitcoin Miners Beat Million-to-One Odds to Win $230,000",
+      "url": "https://beincrypto.com/solo-bitcoin-miners-win-big-beating-odds/",
+      "source": "BeInCrypto",
+      "date": "2026-11-08"
      },
      {
-      "title": "Bitcoin faces $70,000 risk as investors realize $2 billion in losses and US jobs shock deepens pressure",
-      "url": "https://cryptoslate.com/bitcoin-faces-70000-risk-as-investors-realize-2-billion-in-losses-and-us-jobs-shock-deepens-pressure/",
-      "source": "CryptoSlate",
-      "date": "2026-11-07"
+      "title": "Tornado Cash-Funded Wallet Builds $26 Million Bitcoin-Ether Trade",
+      "url": "https://thedefiant.io/news/hacks/tornado-cash-funded-wallet-builds-26-million-bitcoin-ether-trade",
+      "source": "The Defiant",
+      "date": "2026-11-08"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "VVV": {
@@ -1918,7 +1892,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "PENDLE": {
@@ -1958,7 +1932,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "AERO": {
@@ -1972,7 +1946,7 @@
      "FC3",
      "FB2"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "RAY": {
@@ -1983,7 +1957,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "PUMP": {
@@ -2023,7 +1997,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "LDO": {
@@ -2065,7 +2039,7 @@
      "FA3",
      "FC6"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "ENA": {
@@ -2130,7 +2104,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "ONDO": {
@@ -2196,7 +2170,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "LEO": {
@@ -2207,11 +2181,29 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "OKB": {
    "items": [
+    {
+     "title": "Binance and OKX Bosses Trade Jabs Over User Losses",
+     "source": "BeInCrypto",
+     "date": "2026-11-08",
+     "url": "https://beincrypto.com/binance-okx-user-id-backlash/"
+    },
+    {
+     "title": "OKX Warns MEXC Users of Deposit Freezes Ahead of FinCEN Cutoff",
+     "source": "The Defiant",
+     "date": "2026-11-07",
+     "url": "https://thedefiant.io/news/cefi/okx-warns-mexc-users-of-deposit-freezes-ahead-of-fincen-cutoff"
+    },
+    {
+     "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
+     "source": "Decrypt",
+     "date": "2026-11-07",
+     "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
+    },
     {
      "title": "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch",
      "source": "CoinDesk",
@@ -2241,24 +2233,6 @@
      "source": "CoinDesk",
      "date": "2026-11-03",
      "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms"
-    },
-    {
-     "title": "Nvidia, Costco and Nike join pushback against OKX\u2013ICE tokenized stock plans",
-     "source": "CoinDesk",
-     "date": "2026-11-02",
-     "url": "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans"
-    },
-    {
-     "title": "OKX draws $445M in net inflows as Binance outflows exceed $7B",
-     "source": "Cointelegraph",
-     "date": "2026-11-02",
-     "url": "https://cointelegraph.com/news/okx-leads-crypto-exchanges-445m-inflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "Tokenized stock venue on Canton could beat OKX\u2013ICE to first trade under SEC framework",
-     "source": "CoinDesk",
-     "date": "2026-10-29",
-     "url": "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework"
     }
    ],
    "opinion": {
@@ -2270,20 +2244,20 @@
     ],
     "cited_items": [
      {
-      "title": "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch",
-      "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
-      "source": "CoinDesk",
-      "date": "2026-11-06"
+      "title": "Binance and OKX Bosses Trade Jabs Over User Losses",
+      "url": "https://beincrypto.com/binance-okx-user-id-backlash/",
+      "source": "BeInCrypto",
+      "date": "2026-11-08"
      },
      {
-      "title": "Amazon, Tesla and SpaceX join OKX\u2013ICE tokenized stock objections as deadline looms",
-      "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
-      "source": "CoinDesk",
-      "date": "2026-11-03"
+      "title": "OKX\u2013ICE Stock Venue\u2019s Issuer Objections Reach 62",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/okx-ice-stock-venue-s-issuer-objections-reach-62",
+      "source": "The Defiant",
+      "date": "2026-11-05"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "ARB": {
@@ -2323,7 +2297,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "XLM": {
@@ -2402,7 +2376,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "BCH": {
@@ -2413,7 +2387,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "ETC": {
@@ -2424,7 +2398,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   },
   "XTZ": {
@@ -2437,7 +2411,7 @@
     "filters": [
      "FC6"
     ],
-    "as_of": "2026-11-07"
+    "as_of": "2026-11-08"
    }
   }
  }
