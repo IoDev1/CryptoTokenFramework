@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-19",
+ "as_of": "2026-11-20",
  "source": "Outlet RSS (CoinDesk, Cointelegraph, Decrypt, The Block, DL News, The Defiant, CryptoSlate, BeInCrypto), last 14 days",
  "tokens": {
   "HBAR": {
@@ -26,7 +26,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "STX": {
@@ -68,7 +68,7 @@
      "FC6",
      "FC3"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "RENDER": {
@@ -79,7 +79,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "AAVE": {
@@ -89,6 +89,12 @@
      "source": "CryptoSlate",
      "date": "2026-11-19",
      "url": "https://cryptoslate.com/aave-app-taps-91b-tron-liquidity-as-it-opens-android-early-access/"
+    },
+    {
+     "title": "Wallet Supplies 1.49 Billion USDC to Aave, Cutting Rates",
+     "source": "The Defiant",
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/news/defi/wallet-supplies-1-49-billion-usdc-to-aave-cutting-rates"
     },
     {
      "title": "Aave Executive Reports $39 Million in Liquidations",
@@ -125,12 +131,6 @@
      "source": "CryptoSlate",
      "date": "2026-11-11",
      "url": "https://cryptoslate.com/aave-passes-native-bitcoin-lending-proposal-but-hidden-liquidation-risks-remain/"
-    },
-    {
-     "title": "LlamaRisk Proposes Borrowing Speed Limits for Aave V3",
-     "source": "The Defiant",
-     "date": "2026-11-11",
-     "url": "https://thedefiant.io/news/defi/llamarisk-proposes-borrowing-speed-limits-for-aave-v3"
     }
    ],
    "opinion": {
@@ -149,6 +149,12 @@
       "title": "Aave App taps $91B Tron liquidity as it opens Android early access",
       "url": "https://cryptoslate.com/aave-app-taps-91b-tron-liquidity-as-it-opens-android-early-access/",
       "source": "CryptoSlate",
+      "date": "2026-11-19"
+     },
+     {
+      "title": "Wallet Supplies 1.49 Billion USDC to Aave, Cutting Rates",
+      "url": "https://thedefiant.io/news/defi/wallet-supplies-1-49-billion-usdc-to-aave-cutting-rates",
+      "source": "The Defiant",
       "date": "2026-11-19"
      },
      {
@@ -174,16 +180,10 @@
       "url": "https://cryptoslate.com/aave-lenders-interest-share-cut-proposal/",
       "source": "CryptoSlate",
       "date": "2026-11-13"
-     },
-     {
-      "title": "Aave will freeze $279M in osETH, unless StakeWise wins this vote",
-      "url": "https://cryptoslate.com/aave-will-freeze-279m-in-oseth-unless-stakewise-wins-this-vote/",
-      "source": "CryptoSlate",
-      "date": "2026-11-12"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "QNT": {
@@ -194,11 +194,23 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "SOL": {
    "items": [
+    {
+     "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
+     "source": "The Block",
+     "date": "2026-11-20",
+     "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226"
+    },
+    {
+     "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+     "source": "CoinDesk",
+     "date": "2026-11-20",
+     "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs"
+    },
     {
      "title": "Securitize Plans IPO-Day Anthropic Tokens on Solana",
      "source": "The Defiant",
@@ -218,34 +230,22 @@
      "url": "https://cryptoslate.com/coinshares-unloads-19-3m-in-eth-and-sol-yet-keeps-crypto-risk/"
     },
     {
-     "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
-     "source": "Cointelegraph",
-     "date": "2026-11-18",
-     "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "SOL comes out of Breakpoint 7% higher as Solana exits beta",
-     "source": "Cointelegraph",
-     "date": "2026-11-18",
-     "url": "https://cointelegraph.com/markets/solana-sol-gains-7-percent-breakpoint-beta-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-     "title": "Sunrise Plans Anthropic Stock Token for Solana Debut",
+     "title": "Solana Resumes Upgrades With Direct-Mapping Warning",
      "source": "The Defiant",
-     "date": "2026-11-18",
-     "url": "https://thedefiant.io/news/defi/sunrise-plans-anthropic-stock-token-for-solana-debut"
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/news/blockchains/solana-resumes-upgrades-with-direct-mapping-warning"
     },
     {
-     "title": "Blockaid Flags 8,800-Plus GTA-Themed Solana Tokens",
+     "title": "Backpack Targets 10,000 Stocks With Solana Routing Plan",
      "source": "The Defiant",
-     "date": "2026-11-18",
-     "url": "https://thedefiant.io/news/security/blockaid-flags-8-800-plus-gta-themed-solana-tokens"
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/news/tokens/backpack-targets-10-000-stocks-with-solana-routing-plan"
     },
     {
-     "title": "Solana Says Akash Is Building a GPU Forward Market",
+     "title": "xStocks' Anthropic Token Starts Trading on Solana",
      "source": "The Defiant",
-     "date": "2026-11-18",
-     "url": "https://thedefiant.io/news/blockchains/solana-says-akash-is-building-a-gpu-forward-market"
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/converge/tradfi-and-fintech/xstocks-anthropic-token-starts-trading-on-solana"
     }
    ],
    "opinion": {
@@ -258,26 +258,26 @@
     ],
     "cited_items": [
      {
-      "title": "Securitize Plans IPO-Day Anthropic Tokens on Solana",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/securitize-plans-ipo-day-anthropic-tokens-on-solana",
-      "source": "The Defiant",
+      "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
+      "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226",
+      "source": "The Block",
+      "date": "2026-11-20"
+     },
+     {
+      "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
+      "url": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million",
+      "source": "CoinDesk",
       "date": "2026-11-19"
      },
      {
-      "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
-      "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "2026-11-18"
-     },
-     {
-      "title": "Sunrise Plans Anthropic Stock Token for Solana Debut",
-      "url": "https://thedefiant.io/news/defi/sunrise-plans-anthropic-stock-token-for-solana-debut",
+      "title": "Solana Resumes Upgrades With Direct-Mapping Warning",
+      "url": "https://thedefiant.io/news/blockchains/solana-resumes-upgrades-with-direct-mapping-warning",
       "source": "The Defiant",
-      "date": "2026-11-18"
+      "date": "2026-11-19"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "TAO": {
@@ -288,11 +288,41 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "ETH": {
    "items": [
+    {
+     "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
+     "source": "The Block",
+     "date": "2026-11-20",
+     "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226"
+    },
+    {
+     "title": "Ethereum targets December Glamsterdam test despite 200 findings that could delay upgrade",
+     "source": "CryptoSlate",
+     "date": "2026-11-20",
+     "url": "https://cryptoslate.com/ethereum-targets-december-glamsterdam-test-despite-200-findings-that-could-delay-upgrade/"
+    },
+    {
+     "title": "Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break",
+     "source": "CoinDesk",
+     "date": "2026-11-20",
+     "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break"
+    },
+    {
+     "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+     "source": "CoinDesk",
+     "date": "2026-11-20",
+     "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs"
+    },
+    {
+     "title": "Tether Burns 4 Billion USDT From Ethereum Treasury",
+     "source": "The Defiant",
+     "date": "2026-11-20",
+     "url": "https://thedefiant.io/news/defi/tether-burns-4-billion-usdt-from-ethereum-treasury"
+    },
     {
      "title": "Ethereum\u2019s new DeFi security tool raises questions over censorship",
      "source": "Cointelegraph",
@@ -310,36 +340,6 @@
      "source": "The Defiant",
      "date": "2026-11-19",
      "url": "https://thedefiant.io/news/tokens/sky-sinks-12-deepening-losses-against-bitcoin-ether"
-    },
-    {
-     "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
-     "source": "CoinDesk",
-     "date": "2026-11-19",
-     "url": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows"
-    },
-    {
-     "title": "TD Cowen tempers ether outlook, maintains Buy rating on Sharplink",
-     "source": "The Block",
-     "date": "2026-11-18",
-     "url": "https://www.theblock.co/news/ecosystems/2026-11-18-td-cowen-maintains-buy-rating-sharplink-442987"
-    },
-    {
-     "title": "U.S. judge says Ethereum has \u2018no terms of use,\u2019 clears MIT brothers of $25 million fraud",
-     "source": "CoinDesk",
-     "date": "2026-11-18",
-     "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud"
-    },
-    {
-     "title": "Ether.fi Token Falls 25%, Doubling Bitcoin's Weekly Loss",
-     "source": "The Defiant",
-     "date": "2026-11-18",
-     "url": "https://thedefiant.io/news/markets/ether-fi-token-falls-25-doubling-bitcoin-s-weekly-loss"
-    },
-    {
-     "title": "PayPal\u2019s PYUSD Supply Falls 14% as Ethereum Leads Drop",
-     "source": "The Defiant",
-     "date": "2026-11-18",
-     "url": "https://thedefiant.io/converge/tradfi-and-fintech/paypal-s-pyusd-supply-falls-14-as-ethereum-leads-drop"
     }
    ],
    "opinion": {
@@ -350,16 +350,16 @@
     ],
     "cited_items": [
      {
-      "title": "NRW.BANK Links Ethereum Bond to Central-Bank Settlement",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/nrw-bank-links-ethereum-bond-to-central-bank-settlement",
-      "source": "The Defiant",
-      "date": "2026-11-19"
+      "title": "Ethereum targets December Glamsterdam test despite 200 findings that could delay upgrade",
+      "url": "https://cryptoslate.com/ethereum-targets-december-glamsterdam-test-despite-200-findings-that-could-delay-upgrade/",
+      "source": "CryptoSlate",
+      "date": "2026-11-20"
      }
     ],
     "filters": [
      "FB1"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "SKY": {
@@ -370,22 +370,50 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "XMR": {
-   "items": [],
+   "items": [
+    {
+     "title": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
+     "source": "CoinDesk",
+     "date": "2026-11-20",
+     "url": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million"
+    }
+   ],
    "opinion": {
     "stance": "neutral",
     "text": "Real rally: privacy-coin sector +213% [1] and a THORChain-integration-driven 12.6% surge [4], with a Midnight comparison piece [2] adding context. [3,5,6] are buy-guide/price-prediction spam. Delisting and hashrate-concentration risk untouched.",
-    "cited": [],
-    "cited_items": [],
+    "cited": [
+     1
+    ],
+    "cited_items": [
+     {
+      "title": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
+      "url": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million",
+      "source": "CoinDesk",
+      "date": "2026-11-20"
+     }
+    ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "INJ": {
    "items": [
+    {
+     "title": "dYdX Switches USDC Deposits From Noble to Injective",
+     "source": "The Defiant",
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/news/defi/dydx-switches-usdc-deposits-from-noble-to-injective"
+    },
+    {
+     "title": "Who Decides Which Chains Count as Public? | Cosmos, Zenith, Injective",
+     "source": "The Defiant",
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/podcasts-and-videos/podcast/who-decides-which-chains-count-as-public-or-cosmos-zenith-injective"
+    },
     {
      "title": "Injective's Veyra Upgrade Passes Vote, Targets Nov. 24",
      "source": "The Defiant",
@@ -409,18 +437,6 @@
      "source": "The Defiant",
      "date": "2026-11-13",
      "url": "https://thedefiant.io/news/blockchains/injective-opens-veyra-vote-for-cross-chain-trading"
-    },
-    {
-     "title": "Bitcoin holds above $80,000 after Wednesday\u2019s jump as injective rallies on staked ETF listing",
-     "source": "CoinDesk",
-     "date": "2026-11-05",
-     "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-after-wednesday-s-jump-as-injective-rallies-on-staked-etf-listing"
-    },
-    {
-     "title": "Canary\u2019s Injective ETF debuts on Nasdaq with exposure to staking rewards",
-     "source": "The Block",
-     "date": "2026-11-05",
-     "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115"
     }
    ],
    "opinion": {
@@ -434,6 +450,18 @@
     ],
     "cited_items": [
      {
+      "title": "Injective's Veyra Upgrade Passes Vote, Targets Nov. 24",
+      "url": "https://thedefiant.io/news/blockchains/injective-s-veyra-upgrade-passes-vote-targets-nov-24",
+      "source": "The Defiant",
+      "date": "2026-11-18"
+     },
+     {
+      "title": "Injective Says Transfer-Agent Affiliate Is SEC-Registered",
+      "url": "https://thedefiant.io/news/regulation/injective-says-transfer-agent-affiliate-is-sec-registered",
+      "source": "The Defiant",
+      "date": "2026-11-17"
+     },
+     {
       "title": "dYdX Proposes USDC Backing Shift From Noble to Injective",
       "url": "https://thedefiant.io/news/defi/dydx-proposes-usdc-backing-shift-from-noble-to-injective",
       "source": "The Defiant",
@@ -444,24 +472,12 @@
       "url": "https://thedefiant.io/news/blockchains/injective-opens-veyra-vote-for-cross-chain-trading",
       "source": "The Defiant",
       "date": "2026-11-13"
-     },
-     {
-      "title": "Bitcoin holds above $80,000 after Wednesday\u2019s jump as injective rallies on staked ETF listing",
-      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-after-wednesday-s-jump-as-injective-rallies-on-staked-etf-listing",
-      "source": "CoinDesk",
-      "date": "2026-11-05"
-     },
-     {
-      "title": "Canary\u2019s Injective ETF debuts on Nasdaq with exposure to staking rewards",
-      "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115",
-      "source": "The Block",
-      "date": "2026-11-05"
      }
     ],
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "NEAR": {
@@ -472,11 +488,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "UNI": {
    "items": [
+    {
+     "title": "Uniswap Adds Tokenized Anthropic Trading on IPO Day",
+     "source": "The Defiant",
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/news/defi/uniswap-adds-tokenized-anthropic-trading-on-ipo-day"
+    },
     {
      "title": "Tokenized Stocks Gain Uniswap v4 Liquidity on Monad",
      "source": "The Defiant",
@@ -488,12 +510,6 @@
      "source": "CryptoSlate",
      "date": "2026-11-17",
      "url": "https://cryptoslate.com/uniswap-freezes-300000-in-stranded-fees-halting-automatic-token-burns/"
-    },
-    {
-     "title": "Groma Launches Real Estate Issuance and Redemption on Uniswap",
-     "source": "The Defiant",
-     "date": "2026-11-05",
-     "url": "https://thedefiant.io/news/defi/groma-launches-real-estate-issuance-and-redemption-on-uniswap"
     }
    ],
    "opinion": {
@@ -506,6 +522,12 @@
     ],
     "cited_items": [
      {
+      "title": "Uniswap Adds Tokenized Anthropic Trading on IPO Day",
+      "url": "https://thedefiant.io/news/defi/uniswap-adds-tokenized-anthropic-trading-on-ipo-day",
+      "source": "The Defiant",
+      "date": "2026-11-19"
+     },
+     {
       "title": "Tokenized Stocks Gain Uniswap v4 Liquidity on Monad",
       "url": "https://thedefiant.io/news/defi/tokenized-stocks-gain-uniswap-v4-liquidity-on-monad",
       "source": "The Defiant",
@@ -516,20 +538,26 @@
       "url": "https://cryptoslate.com/uniswap-freezes-300000-in-stranded-fees-halting-automatic-token-burns/",
       "source": "CryptoSlate",
       "date": "2026-11-17"
-     },
-     {
-      "title": "Groma Launches Real Estate Issuance and Redemption on Uniswap",
-      "url": "https://thedefiant.io/news/defi/groma-launches-real-estate-issuance-and-redemption-on-uniswap",
-      "source": "The Defiant",
-      "date": "2026-11-05"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "HYPE": {
    "items": [
+    {
+     "title": "No special rules for Hyperliquid or other onchain trading platforms, CFTC says",
+     "source": "CoinDesk",
+     "date": "2026-11-20",
+     "url": "https://www.coindesk.com/markets/2026/11/20/cftc-tells-hyperliquid-and-crypto-rivals-no-special-rules-for-onchain-trading"
+    },
+    {
+     "title": "CFTC Chair on Hyperliquid and onchain venues, Ripple CLO doubts Elizabeth Warren will set crypto policy, and more",
+     "source": "The Block",
+     "date": "2026-11-20",
+     "url": "https://www.theblock.co/newsletters/the-daily/2026-11-20-cftc-chair-hyperliquid-ripple-clo-elizabeth-warren-crypto-policy-more-news-444143"
+    },
     {
      "title": "1inch Brings Hyperliquid Perps to Wallet and Web App",
      "source": "The Defiant",
@@ -565,18 +593,6 @@
      "source": "The Defiant",
      "date": "2026-11-19",
      "url": "https://thedefiant.io/news/regulation/hong-kong-sfc-adds-hyperliquid-to-platform-alert-list"
-    },
-    {
-     "title": "Hyperliquid\u2019s $3.4 billion HYPE burn machine faces new test as USDC reserves shrink",
-     "source": "CryptoSlate",
-     "date": "2026-11-17",
-     "url": "https://cryptoslate.com/hyperliquids-3-4-billion-hype-burn-machine-faces-new-test-as-usdc-reserves-shrink/"
-    },
-    {
-     "title": "Ripio Brings Peso and Real Tokens to Hyperliquid",
-     "source": "The Defiant",
-     "date": "2026-11-17",
-     "url": "https://thedefiant.io/news/defi/ripio-brings-peso-and-real-tokens-to-hyperliquid"
     }
    ],
    "opinion": {
@@ -588,22 +604,22 @@
     ],
     "cited_items": [
      {
-      "title": "Hong Kong SFC Flags Hyperliquid as Suspicious Unlicensed Trading Platform",
-      "url": "https://beincrypto.com/hong-kong-sfc-flags-hyperliquid/",
-      "source": "BeInCrypto",
+      "title": "Hong Kong adds Hyperliquid to list of \u2018suspicious\u2019 crypto platforms",
+      "url": "https://cointelegraph.com/news/hyperliquid-hong-kong-regulators-alert-list?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
       "date": "2026-11-19"
      },
      {
-      "title": "1inch integrates Hyperliquid\u2019s perpetual futures contracts into its dApp and wallet platform",
-      "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574",
-      "source": "The Block",
+      "title": "NYSE owner targets Hyperliquid\u2019s $5 billion trading boom, but the liquidity may not follow",
+      "url": "https://cryptoslate.com/nyse-owner-targets-hyperliquids-5-billion-trading-boom-but-the-liquidity-may-not-follow/",
+      "source": "CryptoSlate",
       "date": "2026-11-19"
      }
     ],
     "filters": [
      "FA1"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "LINK": {
@@ -661,7 +677,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "FET": {
@@ -672,7 +688,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "BNB": {
@@ -737,7 +753,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "Canton": {
@@ -764,7 +780,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "AVAX": {
@@ -868,7 +884,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "KAS": {
@@ -879,43 +895,39 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "VET": {
-   "items": [
-    {
-     "title": "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says",
-     "source": "Cointelegraph",
-     "date": "2026-11-05",
-     "url": "https://cointelegraph.com/news/blockchain-is-perfect-solution-for-ai-agent-trust-vechain-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-   ],
+   "items": [],
    "opinion": {
     "stance": "noise",
     "text": "All noise/TA: duplicated 'breaks multi-year downtrend' pieces [3,5], resistance-test chatter [4], a no-catalyst pullback recap [1], a price prediction [2], and a generic gainers list [6]. Nothing on enterprise fee conversion. Verdict unchanged.",
-    "cited": [
-     1
-    ],
-    "cited_items": [
-     {
-      "title": "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says",
-      "url": "https://cointelegraph.com/news/blockchain-is-perfect-solution-for-ai-agent-trust-vechain-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "2026-11-05"
-     }
-    ],
+    "cited": [],
+    "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "TRX": {
    "items": [
     {
+     "title": "Pulsar Enables USDT Deposits on TRON, Expanding Access to Everyday Stablecoin Payments",
+     "source": "BeInCrypto",
+     "date": "2026-11-20",
+     "url": "https://beincrypto.com/pulsar-enables-usdt-deposit-tron/"
+    },
+    {
      "title": "Aave App taps $91B Tron liquidity as it opens Android early access",
      "source": "CryptoSlate",
      "date": "2026-11-19",
      "url": "https://cryptoslate.com/aave-app-taps-91b-tron-liquidity-as-it-opens-android-early-access/"
+    },
+    {
+     "title": "OFAC Sanctions Comancheros Leader, Lists Tron Address",
+     "source": "The Defiant",
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/news/regulation/ofac-sanctions-comancheros-leader-lists-tron-address"
     },
     {
      "title": "USDT Freeze Proposals on Tron Leave Time to Move Funds",
@@ -946,18 +958,6 @@
      "source": "The Block",
      "date": "2026-11-11",
      "url": "https://www.theblock.co/news/business/2026-11-10-tron-inc-q3-net-income-437786"
-    },
-    {
-     "title": "TRON Network Integrates with Backpack Wallet, Expanding Access to Its Multichain Ecosystem",
-     "source": "BeInCrypto",
-     "date": "2026-11-09",
-     "url": "https://beincrypto.com/tron-backpack-wallet-integration-usdt-trc20/"
-    },
-    {
-     "title": "Zero-click iOS exploits drain $4M USDT from active TRON wallets",
-     "source": "CryptoSlate",
-     "date": "2026-11-07",
-     "url": "https://cryptoslate.com/zero-click-ios-exploits-drain-4m-usdt-from-active-tron-wallets/"
     }
    ],
    "opinion": {
@@ -973,9 +973,21 @@
     ],
     "cited_items": [
      {
+      "title": "Pulsar Enables USDT Deposits on TRON, Expanding Access to Everyday Stablecoin Payments",
+      "url": "https://beincrypto.com/pulsar-enables-usdt-deposit-tron/",
+      "source": "BeInCrypto",
+      "date": "2026-11-20"
+     },
+     {
       "title": "Aave App taps $91B Tron liquidity as it opens Android early access",
       "url": "https://cryptoslate.com/aave-app-taps-91b-tron-liquidity-as-it-opens-android-early-access/",
       "source": "CryptoSlate",
+      "date": "2026-11-19"
+     },
+     {
+      "title": "OFAC Sanctions Comancheros Leader, Lists Tron Address",
+      "url": "https://thedefiant.io/news/regulation/ofac-sanctions-comancheros-leader-lists-tron-address",
+      "source": "The Defiant",
       "date": "2026-11-19"
      },
      {
@@ -995,22 +1007,10 @@
       "url": "https://www.theblock.co/news/business/2026-11-12-tron-tether-chainalysis-new-alliance-438514",
       "source": "The Block",
       "date": "2026-11-12"
-     },
-     {
-      "title": "Tron, Tether and Chainalysis Form a New Crypto-Crime Task Force\u2014Replacing One That Just Collapsed",
-      "url": "https://decrypt.co/383139/tron-tether-chainalysis-new-crypto-crime-task-force-replacing-trm",
-      "source": "Decrypt",
-      "date": "2026-11-12"
-     },
-     {
-      "title": "Tron Inc reports 22% rise in Q3 net income as unrealized staking revenue grows",
-      "url": "https://www.theblock.co/news/business/2026-11-10-tron-inc-q3-net-income-437786",
-      "source": "The Block",
-      "date": "2026-11-11"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "CVX": {
@@ -1021,7 +1021,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "LTC": {
@@ -1039,7 +1039,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "SUI": {
@@ -1092,7 +1092,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "SNX": {
@@ -1105,7 +1105,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "ADA": {
@@ -1184,7 +1184,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "DOT": {
@@ -1195,7 +1195,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "POL": {
@@ -1217,18 +1217,6 @@
      "source": "CryptoSlate",
      "date": "2026-11-09",
      "url": "https://cryptoslate.com/polygon-wants-to-move-70-million-pol-without-the-wallet-holders-signatures/"
-    },
-    {
-     "title": "Polygon Draft Would Give Labs a New Route to Upgrade Contracts",
-     "source": "The Defiant",
-     "date": "2026-11-05",
-     "url": "https://thedefiant.io/news/blockchains/polygon-draft-would-give-labs-a-new-route-to-upgrade-contracts"
-    },
-    {
-     "title": "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto",
-     "source": "Cointelegraph",
-     "date": "2026-11-05",
-     "url": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
    ],
    "opinion": {
@@ -1236,8 +1224,7 @@
     "text": "Decrypt reports Polygon patched security flaws in two hard forks before disclosing them [3], with POL dropping 4-12% on the disclosure [2][4][6] \u2014 a real transparency/governance hit on top of the council-controlled-upgrade risk. [1][5] are noise.",
     "cited": [
      2,
-     3,
-     4
+     3
     ],
     "cited_items": [
      {
@@ -1251,19 +1238,13 @@
       "url": "https://cryptoslate.com/polygon-wants-to-move-70-million-pol-without-the-wallet-holders-signatures/",
       "source": "CryptoSlate",
       "date": "2026-11-09"
-     },
-     {
-      "title": "Polygon Draft Would Give Labs a New Route to Upgrade Contracts",
-      "url": "https://thedefiant.io/news/blockchains/polygon-draft-would-give-labs-a-new-route-to-upgrade-contracts",
-      "source": "The Defiant",
-      "date": "2026-11-05"
      }
     ],
     "filters": [
      "FC1",
      "FC4"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "CRV": {
@@ -1281,7 +1262,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "Sonic": {
@@ -1292,7 +1273,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "ICP": {
@@ -1303,7 +1284,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "YFI": {
@@ -1314,7 +1295,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "COMP": {
@@ -1325,7 +1306,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "DASH": {
@@ -1336,7 +1317,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "JUP": {
@@ -1401,16 +1382,40 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "XRP": {
    "items": [
     {
+     "title": "XRP Supply Shortage on Binance Tops July Levels, CryptoQuant Analyst Says",
+     "source": "BeInCrypto",
+     "date": "2026-11-20",
+     "url": "https://beincrypto.com/xrp-etfs-longest-inflow-drought-binance-supply/"
+    },
+    {
+     "title": "A $2.8 million XRP yield trade is about to mature, but the next two markets are 44 times smaller",
+     "source": "CryptoSlate",
+     "date": "2026-11-20",
+     "url": "https://cryptoslate.com/a-2-8-million-xrp-yield-trade-is-about-to-mature-but-the-next-two-markets-are-44-times-smaller/"
+    },
+    {
+     "title": "CFTC Chair on Hyperliquid and onchain venues, Ripple CLO doubts Elizabeth Warren will set crypto policy, and more",
+     "source": "The Block",
+     "date": "2026-11-20",
+     "url": "https://www.theblock.co/newsletters/the-daily/2026-11-20-cftc-chair-hyperliquid-ripple-clo-elizabeth-warren-crypto-policy-more-news-444143"
+    },
+    {
      "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
      "source": "CoinDesk",
      "date": "2026-11-19",
      "url": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million"
+    },
+    {
+     "title": "Ripple\u2019s Alderoty doubts Elizabeth Warren will \u2018set crypto policy in this country,\u2019 backs durable agency rules",
+     "source": "The Block",
+     "date": "2026-11-19",
+     "url": "https://www.theblock.co/news/regulation/2026-11-19-ripple-alderoty-elizabeth-warren-wont-set-crypto-policy-backs-durable-agency-rules-444105"
     },
     {
      "title": "Ripple\u2019s 126.8 million XRP valued at $0 in Evernorth filing as $505 million write-down emerges",
@@ -1429,30 +1434,6 @@
      "source": "BeInCrypto",
      "date": "2026-11-17",
      "url": "https://beincrypto.com/evernorth-xrp-write-downs-halved-stock/"
-    },
-    {
-     "title": "XRP volume surges 99% to $62M, yet small sellers lose out",
-     "source": "CryptoSlate",
-     "date": "2026-11-17",
-     "url": "https://cryptoslate.com/xrp-volume-surges-99-to-62m-yet-small-sellers-lose-out/"
-    },
-    {
-     "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
-     "source": "CoinDesk",
-     "date": "2026-11-17",
-     "url": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60"
-    },
-    {
-     "title": "XRP Falls to 89 Cents on Coinbase, Its Lowest Since November 2024",
-     "source": "The Defiant",
-     "date": "2026-11-15",
-     "url": "https://thedefiant.io/news/markets/xrp-falls-to-89-cents-on-coinbase-its-lowest-since-november-2024"
-    },
-    {
-     "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-     "source": "CoinDesk",
-     "date": "2026-11-15",
-     "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
     }
    ],
    "opinion": {
@@ -1467,6 +1448,24 @@
     ],
     "cited_items": [
      {
+      "title": "XRP Supply Shortage on Binance Tops July Levels, CryptoQuant Analyst Says",
+      "url": "https://beincrypto.com/xrp-etfs-longest-inflow-drought-binance-supply/",
+      "source": "BeInCrypto",
+      "date": "2026-11-20"
+     },
+     {
+      "title": "A $2.8 million XRP yield trade is about to mature, but the next two markets are 44 times smaller",
+      "url": "https://cryptoslate.com/a-2-8-million-xrp-yield-trade-is-about-to-mature-but-the-next-two-markets-are-44-times-smaller/",
+      "source": "CryptoSlate",
+      "date": "2026-11-20"
+     },
+     {
+      "title": "CFTC Chair on Hyperliquid and onchain venues, Ripple CLO doubts Elizabeth Warren will set crypto policy, and more",
+      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-20-cftc-chair-hyperliquid-ripple-clo-elizabeth-warren-crypto-policy-more-news-444143",
+      "source": "The Block",
+      "date": "2026-11-20"
+     },
+     {
       "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
       "url": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million",
       "source": "CoinDesk",
@@ -1477,28 +1476,10 @@
       "url": "https://cryptoslate.com/ripples-126-8-million-xrp-valued-at-0-in-evernorth-filing-as-505-million-write-down-emerges/",
       "source": "CryptoSlate",
       "date": "2026-11-18"
-     },
-     {
-      "title": "XRP whales moved $270 million during the selloff. The coins didn\u2019t go to exchanges",
-      "url": "https://www.coindesk.com/markets/2026/11/18/xrp-whales-moved-usd270-million-during-the-selloff-the-coins-didn-t-go-to-exchanges",
-      "source": "CoinDesk",
-      "date": "2026-11-18"
-     },
-     {
-      "title": "Why Is Ripple-Backed Evernorth Writing Down Its XRP Again?",
-      "url": "https://beincrypto.com/evernorth-xrp-write-downs-halved-stock/",
-      "source": "BeInCrypto",
-      "date": "2026-11-17"
-     },
-     {
-      "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
-      "url": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
-      "source": "CoinDesk",
-      "date": "2026-11-17"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "MORPHO": {
@@ -1560,7 +1541,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "SEI": {
@@ -1571,11 +1552,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "ZEC": {
    "items": [
+    {
+     "title": "Bitwise Files SEC Registration for a Zcash ETF",
+     "source": "The Defiant",
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/converge/tradfi-and-fintech/bitwise-files-sec-registration-for-a-zcash-etf"
+    },
     {
      "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
      "source": "Cointelegraph",
@@ -1617,12 +1604,6 @@
      "source": "The Defiant",
      "date": "2026-11-11",
      "url": "https://thedefiant.io/news/markets/zcash-falls-below-965-as-weekly-loss-reaches-26"
-    },
-    {
-     "title": "Grayscale Bets $1 Million on Zcash as Privacy Coin Tumbles",
-     "source": "Decrypt",
-     "date": "2026-11-10",
-     "url": "https://decrypt.co/382962/grayscale-bets-1-million-on-zcash-as-privacy-coin-tumbles"
     }
    ],
    "opinion": {
@@ -1637,6 +1618,12 @@
      6
     ],
     "cited_items": [
+     {
+      "title": "Bitwise Files SEC Registration for a Zcash ETF",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/bitwise-files-sec-registration-for-a-zcash-etf",
+      "source": "The Defiant",
+      "date": "2026-11-19"
+     },
      {
       "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
       "url": "https://cointelegraph.com/news/bitwise-zcash-etf-texas-stock-exchange-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1666,16 +1653,10 @@
       "url": "https://www.coindesk.com/tech/2026/11/12/zcash-holders-to-vote-on-pulling-50-000-zec-from-grants-treasury",
       "source": "CoinDesk",
       "date": "2026-11-12"
-     },
-     {
-      "title": "Zcash falls below $1,000 for first time since September",
-      "url": "https://cointelegraph.com/markets/zcash-falls-1k-grayscales-1m-ecosystem-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "2026-11-11"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "TON": {
@@ -1688,7 +1669,7 @@
     "filters": [
      "FC3"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "EGLD": {
@@ -1699,7 +1680,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "WLD": {
@@ -1710,7 +1691,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "PLUME": {
@@ -1737,7 +1718,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "KAITO": {
@@ -1748,7 +1729,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "VIRTUAL": {
@@ -1759,11 +1740,47 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "BTC": {
    "items": [
+    {
+     "title": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides after Nasdaq debut",
+     "source": "CoinDesk",
+     "date": "2026-11-20",
+     "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
+    },
+    {
+     "title": "Bitcoin ETF Outflows Hit $582 Million, Most Since Oct. 30",
+     "source": "The Defiant",
+     "date": "2026-11-20",
+     "url": "https://thedefiant.io/news/markets/bitcoin-etf-outflows-hit-582-million-most-since-oct-30"
+    },
+    {
+     "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+     "source": "CoinDesk",
+     "date": "2026-11-20",
+     "url": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys"
+    },
+    {
+     "title": "Bitcoin buyers face a trading issue as stablecoins just suffer their biggest supply drop since 2022",
+     "source": "CryptoSlate",
+     "date": "2026-11-20",
+     "url": "https://cryptoslate.com/bitcoin-buyers-face-a-trading-issue-as-stablecoins-just-suffer-their-biggest-supply-drop-since-2022/"
+    },
+    {
+     "title": "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
+     "source": "The Block",
+     "date": "2026-11-20",
+     "url": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217"
+    },
+    {
+     "title": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
+     "source": "CoinDesk",
+     "date": "2026-11-20",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging"
+    },
     {
      "title": "Over 7 million Bitcoin could face a quantum security reckoning after new discovery",
      "source": "CryptoSlate",
@@ -1775,42 +1792,6 @@
      "source": "The Defiant",
      "date": "2026-11-19",
      "url": "https://thedefiant.io/news/markets/bitcoin-holds-above-weekend-low-on-coinbase-amid-false-price-alerts"
-    },
-    {
-     "title": "Anthropic\u2019s crypto futures traded 25% above its $81 billion IPO price as Bitcoin slumped 22%",
-     "source": "CryptoSlate",
-     "date": "2026-11-19",
-     "url": "https://cryptoslate.com/bitcoins-22-slump-fails-to-dampen-crypto-traders-bullish-bets-on-anthropics-81-billion-ipo/"
-    },
-    {
-     "title": "Family Office CEO: One Day You\u2019ll Have to Explain Why You Skipped Bitcoin",
-     "source": "BeInCrypto",
-     "date": "2026-11-19",
-     "url": "https://beincrypto.com/family-office-ceo-warns-ignoring-bitcoin/"
-    },
-    {
-     "title": "Bitcoin finance protocol Hashi goes live on Sui mainnet",
-     "source": "The Block",
-     "date": "2026-11-19",
-     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
-    },
-    {
-     "title": "Hashi Goes Live on Sui With Bitcoin-Backed Lending",
-     "source": "The Defiant",
-     "date": "2026-11-19",
-     "url": "https://thedefiant.io/news/defi/hashi-goes-live-on-sui-with-bitcoin-backed-lending"
-    },
-    {
-     "title": "Bitcoin faces a new threat as US prices surge at fastest pace in 38 years",
-     "source": "CryptoSlate",
-     "date": "2026-11-18",
-     "url": "https://cryptoslate.com/bitcoin-faces-a-new-threat-as-us-prices-surge-at-fastest-pace-in-38-years/"
-    },
-    {
-     "title": "Movie2K Defendant Could Hand Over 40,000 Bitcoin to End Trial\u2014and Stay a Billionaire",
-     "source": "Decrypt",
-     "date": "2026-11-18",
-     "url": "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire"
     }
    ],
    "opinion": {
@@ -1822,20 +1803,20 @@
     ],
     "cited_items": [
      {
-      "title": "Bitcoin Holds Above Weekend Low on Coinbase Amid False Price Alerts",
-      "url": "https://thedefiant.io/news/markets/bitcoin-holds-above-weekend-low-on-coinbase-amid-false-price-alerts",
+      "title": "Bitcoin ETF Outflows Hit $582 Million, Most Since Oct. 30",
+      "url": "https://thedefiant.io/news/markets/bitcoin-etf-outflows-hit-582-million-most-since-oct-30",
       "source": "The Defiant",
-      "date": "2026-11-19"
+      "date": "2026-11-20"
      },
      {
-      "title": "Anthropic\u2019s crypto futures traded 25% above its $81 billion IPO price as Bitcoin slumped 22%",
-      "url": "https://cryptoslate.com/bitcoins-22-slump-fails-to-dampen-crypto-traders-bullish-bets-on-anthropics-81-billion-ipo/",
-      "source": "CryptoSlate",
-      "date": "2026-11-19"
+      "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+      "url": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
+      "source": "CoinDesk",
+      "date": "2026-11-20"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "VVV": {
@@ -1846,7 +1827,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "PENDLE": {
@@ -1856,20 +1837,13 @@
      "source": "The Defiant",
      "date": "2026-11-10",
      "url": "https://thedefiant.io/news/defi/pendle-lists-four-fixed-term-usde-markets-on-ethereum"
-    },
-    {
-     "title": "Pendle Volume Hits $221.5 Million, a 30-Day High",
-     "source": "The Defiant",
-     "date": "2026-11-05",
-     "url": "https://thedefiant.io/news/defi/pendle-volume-hits-221-5-million-a-30-day-high"
     }
    ],
    "opinion": {
     "stance": "neutral",
     "text": "Cautiously constructive: an institutional-focused permissioned PT/YT pilot [1] and a new yield-trading market launch [6] are genuine early steps toward a new cycle, though unlaunched. [4,5] are false-match noise (a game, a rugby player); [2,3] are spam/vague pump.",
     "cited": [
-     1,
-     2
+     1
     ],
     "cited_items": [
      {
@@ -1877,16 +1851,10 @@
       "url": "https://thedefiant.io/news/defi/pendle-lists-four-fixed-term-usde-markets-on-ethereum",
       "source": "The Defiant",
       "date": "2026-11-10"
-     },
-     {
-      "title": "Pendle Volume Hits $221.5 Million, a 30-Day High",
-      "url": "https://thedefiant.io/news/defi/pendle-volume-hits-221-5-million-a-30-day-high",
-      "source": "The Defiant",
-      "date": "2026-11-05"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "AERO": {
@@ -1900,7 +1868,7 @@
      "FC3",
      "FB2"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "RAY": {
@@ -1911,7 +1879,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "PUMP": {
@@ -1938,11 +1906,17 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "LDO": {
    "items": [
+    {
+     "title": "Lido DAO Votes on Framework for Its Lending Protocol",
+     "source": "The Defiant",
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/news/defi/lido-dao-votes-on-framework-for-its-lending-protocol"
+    },
     {
      "title": "Lido Lend Plan Would Block Repayments, Not Interest",
      "source": "The Defiant",
@@ -1954,12 +1928,6 @@
      "source": "CryptoSlate",
      "date": "2026-11-15",
      "url": "https://cryptoslate.com/lidos-lending-plan-could-block-loan-repayments-without-stopping-interest/"
-    },
-    {
-     "title": "Lido Adds Firelight Loss Protection to Earn Vaults",
-     "source": "The Defiant",
-     "date": "2026-11-05",
-     "url": "https://thedefiant.io/news/defi/lido-adds-firelight-loss-protection-to-earn-vaults"
     }
    ],
    "opinion": {
@@ -1970,17 +1938,17 @@
     ],
     "cited_items": [
      {
-      "title": "Lido Adds Firelight Loss Protection to Earn Vaults",
-      "url": "https://thedefiant.io/news/defi/lido-adds-firelight-loss-protection-to-earn-vaults",
-      "source": "The Defiant",
-      "date": "2026-11-05"
+      "title": "Lido\u2019s lending plan could block loan repayments without stopping interest",
+      "url": "https://cryptoslate.com/lidos-lending-plan-could-block-loan-repayments-without-stopping-interest/",
+      "source": "CryptoSlate",
+      "date": "2026-11-15"
      }
     ],
     "filters": [
      "FA3",
      "FC6"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "ENA": {
@@ -2026,11 +1994,23 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "ONDO": {
    "items": [
+    {
+     "title": "Anthropic Ends Debut Up 17% as Ondo Launches ANTon",
+     "source": "The Defiant",
+     "date": "2026-11-20",
+     "url": "https://thedefiant.io/converge/tradfi-and-fintech/anthropic-ends-debut-up-17-as-ondo-launches-anton"
+    },
+    {
+     "title": "Ondo Launches 24/7 Anthropic Token on IPO Day",
+     "source": "The Defiant",
+     "date": "2026-11-19",
+     "url": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-launches-24-7-anthropic-token-on-ipo-day"
+    },
     {
      "title": "Ondo to launch tokenized Anthropic stock on IPO day",
      "source": "The Block",
@@ -2063,9 +2043,23 @@
      1,
      2,
      3,
-     4
+     4,
+     5,
+     6
     ],
     "cited_items": [
+     {
+      "title": "Anthropic Ends Debut Up 17% as Ondo Launches ANTon",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/anthropic-ends-debut-up-17-as-ondo-launches-anton",
+      "source": "The Defiant",
+      "date": "2026-11-20"
+     },
+     {
+      "title": "Ondo Launches 24/7 Anthropic Token on IPO Day",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-launches-24-7-anthropic-token-on-ipo-day",
+      "source": "The Defiant",
+      "date": "2026-11-19"
+     },
      {
       "title": "Ondo to launch tokenized Anthropic stock on IPO day",
       "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482",
@@ -2092,7 +2086,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "LEO": {
@@ -2103,7 +2097,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "OKB": {
@@ -2179,7 +2173,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "ARB": {
@@ -2206,7 +2200,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "XLM": {
@@ -2220,7 +2214,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "BCH": {
@@ -2231,7 +2225,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "ETC": {
@@ -2242,7 +2236,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   },
   "XTZ": {
@@ -2255,7 +2249,7 @@
     "filters": [
      "FC6"
     ],
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
    }
   }
  }
