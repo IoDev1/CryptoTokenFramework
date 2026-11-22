@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-21",
+ "as_of": "2026-11-22",
  "source": "Outlet RSS (CoinDesk, Cointelegraph, Decrypt, The Block, DL News, The Defiant, CryptoSlate, BeInCrypto), last 14 days",
  "tokens": {
   "HBAR": {
@@ -26,7 +26,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "STX": {
@@ -68,7 +68,7 @@
      "FC6",
      "FC3"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "RENDER": {
@@ -79,7 +79,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "AAVE": {
@@ -103,6 +103,18 @@
      "url": "https://thedefiant.io/news/defi/aave-voters-back-plan-to-narrow-v3-core-collateral"
     },
     {
+     "title": "Aave Raises Ethereum USDC Borrow Cap to $4 Billion",
+     "source": "The Defiant",
+     "date": "2026-11-21",
+     "url": "https://thedefiant.io/news/defi/aave-raises-ethereum-usdc-borrow-cap-to-4-billion"
+    },
+    {
+     "title": "Aave\u2019s $4 billion USDC borrow cap could leave just $190 million available for withdrawals",
+     "source": "CryptoSlate",
+     "date": "2026-11-21",
+     "url": "https://cryptoslate.com/aaves-4-billion-usdc-borrow-cap-could-leave-just-190-million-available-for-withdrawals/"
+    },
+    {
      "title": "Aave V4 Plan Would Put Idle USDC Into Circle Gateway",
      "source": "The Defiant",
      "date": "2026-11-20",
@@ -119,18 +131,6 @@
      "source": "The Defiant",
      "date": "2026-11-19",
      "url": "https://thedefiant.io/news/defi/wallet-supplies-1-49-billion-usdc-to-aave-cutting-rates"
-    },
-    {
-     "title": "Aave Executive Reports $39 Million in Liquidations",
-     "source": "The Defiant",
-     "date": "2026-11-15",
-     "url": "https://thedefiant.io/news/defi/aave-executive-reports-39-million-in-liquidations"
-    },
-    {
-     "title": "AAVE Slides 30% in Four Weeks, Trailing Bitcoin and Ether",
-     "source": "The Defiant",
-     "date": "2026-11-14",
-     "url": "https://thedefiant.io/news/markets/aave-slides-30-in-four-weeks-trailing-bitcoin-and-ether"
     }
    ],
    "opinion": {
@@ -164,26 +164,26 @@
       "date": "2026-11-21"
      },
      {
+      "title": "Aave Raises Ethereum USDC Borrow Cap to $4 Billion",
+      "url": "https://thedefiant.io/news/defi/aave-raises-ethereum-usdc-borrow-cap-to-4-billion",
+      "source": "The Defiant",
+      "date": "2026-11-21"
+     },
+     {
+      "title": "Aave\u2019s $4 billion USDC borrow cap could leave just $190 million available for withdrawals",
+      "url": "https://cryptoslate.com/aaves-4-billion-usdc-borrow-cap-could-leave-just-190-million-available-for-withdrawals/",
+      "source": "CryptoSlate",
+      "date": "2026-11-21"
+     },
+     {
       "title": "Aave V4 Plan Would Put Idle USDC Into Circle Gateway",
       "url": "https://thedefiant.io/news/defi/aave-v4-plan-would-put-idle-usdc-into-circle-gateway",
       "source": "The Defiant",
       "date": "2026-11-20"
-     },
-     {
-      "title": "Aave App taps $91B Tron liquidity as it opens Android early access",
-      "url": "https://cryptoslate.com/aave-app-taps-91b-tron-liquidity-as-it-opens-android-early-access/",
-      "source": "CryptoSlate",
-      "date": "2026-11-19"
-     },
-     {
-      "title": "Wallet Supplies 1.49 Billion USDC to Aave, Cutting Rates",
-      "url": "https://thedefiant.io/news/defi/wallet-supplies-1-49-billion-usdc-to-aave-cutting-rates",
-      "source": "The Defiant",
-      "date": "2026-11-19"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "QNT": {
@@ -194,11 +194,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "SOL": {
    "items": [
+    {
+     "title": "Anthropic Token Debuts on Solana With $135M in Reported Trading Volume",
+     "source": "The Defiant",
+     "date": "2026-11-22",
+     "url": "https://thedefiant.io/converge/tradfi-and-fintech/anthropic-token-debuts-on-solana-with-135m-in-reported-trading-volume"
+    },
     {
      "title": "Solana ETFs Defy Wall Street\u2019s Big Crypto Sell-Off",
      "source": "BeInCrypto",
@@ -240,12 +246,6 @@
      "source": "The Defiant",
      "date": "2026-11-19",
      "url": "https://thedefiant.io/news/blockchains/solana-resumes-upgrades-with-direct-mapping-warning"
-    },
-    {
-     "title": "Backpack Targets 10,000 Stocks With Solana Routing Plan",
-     "source": "The Defiant",
-     "date": "2026-11-19",
-     "url": "https://thedefiant.io/news/tokens/backpack-targets-10-000-stocks-with-solana-routing-plan"
     }
    ],
    "opinion": {
@@ -258,26 +258,26 @@
     ],
     "cited_items": [
      {
-      "title": "Solana ETFs Defy Wall Street\u2019s Big Crypto Sell-Off",
-      "url": "https://beincrypto.com/solana-etf-inflows-crypto-selloff-bitwise/",
-      "source": "BeInCrypto",
-      "date": "2026-11-21"
-     },
-     {
-      "title": "Securitize Plans IPO-Day Anthropic Tokens on Solana",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/securitize-plans-ipo-day-anthropic-tokens-on-solana",
+      "title": "Anthropic Token Debuts on Solana With $135M in Reported Trading Volume",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/anthropic-token-debuts-on-solana-with-135m-in-reported-trading-volume",
       "source": "The Defiant",
-      "date": "2026-11-19"
+      "date": "2026-11-22"
      },
      {
-      "title": "CoinShares unloads $19.3M in ETH and SOL, yet keeps crypto risk",
-      "url": "https://cryptoslate.com/coinshares-unloads-19-3m-in-eth-and-sol-yet-keeps-crypto-risk/",
-      "source": "CryptoSlate",
+      "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs",
+      "source": "CoinDesk",
+      "date": "2026-11-20"
+     },
+     {
+      "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
+      "url": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million",
+      "source": "CoinDesk",
       "date": "2026-11-19"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "TAO": {
@@ -288,7 +288,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "ETH": {
@@ -310,6 +310,12 @@
      "source": "The Defiant",
      "date": "2026-11-21",
      "url": "https://thedefiant.io/news/markets/ether-slides-near-1-550-down-about-35-in-four-weeks"
+    },
+    {
+     "title": "Aave Raises Ethereum USDC Borrow Cap to $4 Billion",
+     "source": "The Defiant",
+     "date": "2026-11-21",
+     "url": "https://thedefiant.io/news/defi/aave-raises-ethereum-usdc-borrow-cap-to-4-billion"
     },
     {
      "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
@@ -334,12 +340,6 @@
      "source": "CoinDesk",
      "date": "2026-11-20",
      "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs"
-    },
-    {
-     "title": "Tether Burns 4 Billion USDT From Ethereum Treasury",
-     "source": "The Defiant",
-     "date": "2026-11-20",
-     "url": "https://thedefiant.io/news/defi/tether-burns-4-billion-usdt-from-ethereum-treasury"
     }
    ],
    "opinion": {
@@ -359,7 +359,7 @@
     "filters": [
      "FB1"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "SKY": {
@@ -386,7 +386,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "XMR": {
@@ -452,7 +452,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "INJ": {
@@ -532,7 +532,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "NEAR": {
@@ -543,7 +543,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "UNI": {
@@ -596,7 +596,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "HYPE": {
@@ -674,7 +674,7 @@
     "filters": [
      "FA1"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "LINK": {
@@ -732,7 +732,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "FET": {
@@ -743,11 +743,17 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "BNB": {
    "items": [
+    {
+     "title": "Cysic Bridge Exploit Minted 10 Million Tokens on BNB",
+     "source": "The Defiant",
+     "date": "2026-11-22",
+     "url": "https://thedefiant.io/news/hacks/cysic-bridge-exploit-minted-10-million-tokens-on-bnb"
+    },
     {
      "title": "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
      "source": "CoinDesk",
@@ -785,9 +791,16 @@
     "cited": [
      3,
      4,
-     5
+     5,
+     6
     ],
     "cited_items": [
+     {
+      "title": "BNB Chain Sets Jenner Date; Post Flags Timestamp Risk",
+      "url": "https://thedefiant.io/news/blockchains/bnb-chain-sets-jenner-date-post-flags-timestamp-risk",
+      "source": "The Defiant",
+      "date": "2026-11-19"
+     },
      {
       "title": "CZ Says Anthropic Stock Tokens Will Reach BNB Chain on IPO Day",
       "url": "https://thedefiant.io/converge/tradfi-and-fintech/cz-says-anthropic-stock-tokens-will-reach-bnb-chain-on-ipo-day",
@@ -808,7 +821,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "Canton": {
@@ -835,7 +848,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "AVAX": {
@@ -939,7 +952,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "KAS": {
@@ -950,7 +963,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "VET": {
@@ -961,7 +974,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "TRX": {
@@ -1065,7 +1078,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "CVX": {
@@ -1076,7 +1089,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "LTC": {
@@ -1087,7 +1100,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "SUI": {
@@ -1140,7 +1153,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "SNX": {
@@ -1153,7 +1166,7 @@
     "filters": [
      "FC4"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "ADA": {
@@ -1232,7 +1245,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "DOT": {
@@ -1243,7 +1256,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "POL": {
@@ -1292,7 +1305,7 @@
      "FC1",
      "FC4"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "CRV": {
@@ -1310,7 +1323,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "Sonic": {
@@ -1321,7 +1334,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "ICP": {
@@ -1332,7 +1345,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "YFI": {
@@ -1343,7 +1356,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "COMP": {
@@ -1354,7 +1367,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "DASH": {
@@ -1365,7 +1378,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "JUP": {
@@ -1430,7 +1443,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "XRP": {
@@ -1527,7 +1540,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "MORPHO": {
@@ -1549,12 +1562,6 @@
      "source": "The Block",
      "date": "2026-11-17",
      "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
-    },
-    {
-     "title": "Morpho loan stress exposes cbXRP, but spares native XRP",
-     "source": "CryptoSlate",
-     "date": "2026-11-07",
-     "url": "https://cryptoslate.com/morpho-loan-stress-exposes-cbxrp-but-spares-native-xrp/"
     }
    ],
    "opinion": {
@@ -1562,8 +1569,7 @@
     "text": "Coinbase expanded its Morpho-powered USDC lending distribution to Brazil [2][4] and Midnight fixed-rate markets extended to Ethereum [3], with deposits cited near $14B [5] \u2014 reinforces the distribution moat and usage growth, though the fee switch (FB1) is still off.",
     "cited": [
      2,
-     3,
-     4
+     3
     ],
     "cited_items": [
      {
@@ -1577,19 +1583,13 @@
       "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842",
       "source": "The Block",
       "date": "2026-11-17"
-     },
-     {
-      "title": "Morpho loan stress exposes cbXRP, but spares native XRP",
-      "url": "https://cryptoslate.com/morpho-loan-stress-exposes-cbxrp-but-spares-native-xrp/",
-      "source": "CryptoSlate",
-      "date": "2026-11-07"
      }
     ],
     "filters": [
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "SEI": {
@@ -1600,7 +1600,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "ZEC": {
@@ -1704,7 +1704,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "TON": {
@@ -1717,7 +1717,7 @@
     "filters": [
      "FC3"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "EGLD": {
@@ -1728,7 +1728,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "WLD": {
@@ -1739,7 +1739,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "PLUME": {
@@ -1766,7 +1766,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "KAITO": {
@@ -1777,7 +1777,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "VIRTUAL": {
@@ -1788,11 +1788,47 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "BTC": {
    "items": [
+    {
+     "title": "Deribit outage hit Bitcoin hedgers on Coinbase",
+     "source": "CryptoSlate",
+     "date": "2026-11-22",
+     "url": "https://cryptoslate.com/deribit-outage-hit-bitcoin-hedgers-on-coinbase/"
+    },
+    {
+     "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+     "source": "CoinDesk",
+     "date": "2026-11-22",
+     "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins"
+    },
+    {
+     "title": "Bitcoin\u2019s next big threat could come from two oil tankers in the Middle East",
+     "source": "CryptoSlate",
+     "date": "2026-11-22",
+     "url": "https://cryptoslate.com/two-hormuz-tanker-strikes-threaten-a-potential-source-of-relief-for-bitcoin/"
+    },
+    {
+     "title": "Bitcoin\u2019s $60,000 breakdown puts December Fed decision under the spotlight",
+     "source": "CryptoSlate",
+     "date": "2026-11-22",
+     "url": "https://cryptoslate.com/bitcoin-below-60000-fed-half-point-cpi/"
+    },
+    {
+     "title": "3 Events That Could Shake Bitcoin Prices During Thanksgiving Week",
+     "source": "BeInCrypto",
+     "date": "2026-11-22",
+     "url": "https://beincrypto.com/bitcoin-events-thanksgiving-week-pce-expiry/"
+    },
+    {
+     "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+     "source": "Cointelegraph",
+     "date": "2026-11-22",
+     "url": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
      "title": "Kraken says trades stand after Bitcoin sold at $24,250 Canadian",
      "source": "CryptoSlate",
@@ -1804,42 +1840,6 @@
      "source": "The Defiant",
      "date": "2026-11-21",
      "url": "https://thedefiant.io/news/markets/bitcoin-hits-55-106-on-coinbase-lowest-since-september-2024"
-    },
-    {
-     "title": "Bitcoin Core Fixes AI-Found Bug That Could Stall Nodes",
-     "source": "The Defiant",
-     "date": "2026-11-21",
-     "url": "https://thedefiant.io/news/security/bitcoin-core-fixes-ai-found-bug-that-could-stall-nodes"
-    },
-    {
-     "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
-     "source": "CoinDesk",
-     "date": "2026-11-21",
-     "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug"
-    },
-    {
-     "title": "Bitcoin Hits $55,500 as Strategy's Paper Loss Deepens",
-     "source": "The Defiant",
-     "date": "2026-11-21",
-     "url": "https://thedefiant.io/news/markets/bitcoin-hits-55-500-as-strategy-s-paper-loss-deepens"
-    },
-    {
-     "title": "Bitcoin Falls 8% as Liquidations Reach $2.38 Billion",
-     "source": "The Defiant",
-     "date": "2026-11-21",
-     "url": "https://thedefiant.io/news/markets/bitcoin-falls-8-as-liquidations-reach-2-38-billion"
-    },
-    {
-     "title": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides after Nasdaq debut",
-     "source": "CoinDesk",
-     "date": "2026-11-20",
-     "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
-    },
-    {
-     "title": "Bitcoin ETF Outflows Hit $582 Million, Most Since Oct. 30",
-     "source": "The Defiant",
-     "date": "2026-11-20",
-     "url": "https://thedefiant.io/news/markets/bitcoin-etf-outflows-hit-582-million-most-since-oct-30"
     }
    ],
    "opinion": {
@@ -1851,20 +1851,20 @@
     ],
     "cited_items": [
      {
-      "title": "Bitcoin Hits $55,106 on Coinbase, Lowest Since September 2024",
-      "url": "https://thedefiant.io/news/markets/bitcoin-hits-55-106-on-coinbase-lowest-since-september-2024",
-      "source": "The Defiant",
-      "date": "2026-11-21"
+      "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+      "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+      "source": "CoinDesk",
+      "date": "2026-11-22"
      },
      {
-      "title": "Bitcoin Core Fixes AI-Found Bug That Could Stall Nodes",
-      "url": "https://thedefiant.io/news/security/bitcoin-core-fixes-ai-found-bug-that-could-stall-nodes",
-      "source": "The Defiant",
-      "date": "2026-11-21"
+      "title": "Bitcoin\u2019s next big threat could come from two oil tankers in the Middle East",
+      "url": "https://cryptoslate.com/two-hormuz-tanker-strikes-threaten-a-potential-source-of-relief-for-bitcoin/",
+      "source": "CryptoSlate",
+      "date": "2026-11-22"
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "VVV": {
@@ -1875,7 +1875,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "PENDLE": {
@@ -1902,7 +1902,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "AERO": {
@@ -1916,7 +1916,7 @@
      "FC3",
      "FB2"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "RAY": {
@@ -1927,7 +1927,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "PUMP": {
@@ -1954,7 +1954,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "LDO": {
@@ -1996,7 +1996,7 @@
      "FA3",
      "FC6"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "ENA": {
@@ -2042,7 +2042,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "ONDO": {
@@ -2121,7 +2121,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "LEO": {
@@ -2132,7 +2132,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "OKB": {
@@ -2208,7 +2208,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "ARB": {
@@ -2235,7 +2235,7 @@
      }
     ],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "XLM": {
@@ -2249,7 +2249,7 @@
      "FA3",
      "FC3"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "BCH": {
@@ -2260,7 +2260,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "ETC": {
@@ -2271,7 +2271,7 @@
     "cited": [],
     "cited_items": [],
     "filters": [],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   },
   "XTZ": {
@@ -2284,7 +2284,7 @@
     "filters": [
      "FC6"
     ],
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-22"
    }
   }
  }
